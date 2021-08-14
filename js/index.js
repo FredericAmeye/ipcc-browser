@@ -188,7 +188,7 @@ let pdfAskedForLoad = false, pdfLoadInProgress = false;
 function pdfLoad()
 {
     pdfLoadInProgress = true;
-    document.getElementById('pdf-iframe').contentWindow.PDFViewerApplication.open("/pdf/noIMG.pdf");
+    document.getElementById('pdf-iframe').contentWindow.PDFViewerApplication.open("../../../pdf/noIMG.pdf");
     
     // TODO proposer d'utiliser un fichier local plutot que le télécharger
 
