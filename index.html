@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Inter" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="vendors/materialize/css/materialize.min.css"  media="screen,projection"/>
+
+        <!-- pdfjs -->
+        <link type="text/css" rel="stylesheet" href="vendors/pdfjs/web/viewer.css" />
+
+        <link type="text/css" rel="stylesheet" href="css/index.css" />
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+        <!-- fixed header -->
+        <nav class="light-blue lighten-1" role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="#" class="brand-logo">Comprendre les rapports du GIEC / Understanding IPCC reports</a>
+
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#" title="Change language"><i class="material-icons">language</i></a></li>
+                </ul>
+        
+                <!--<ul id="nav-mobile" class="sidenav">
+                    <li><a href="#">Navbar Link</a></li>
+                </ul>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>-->
+            </div>
+        </nav>
+        <div class="section no-pad-bot" id="index-banner">
+            <div class="container">
+                <br><br>
+                <h1 class="header center orange-text" style="margin-top:0">Navigating <span>IPCC Working Group I report</span></h1>
+                <div class="row center">
+                    <h5 class="header col s12 light">The IPCC WGI report is a 3900-page summary of state-of-the-art scientific knowledge.<br>This app helps you navigate it, understand and learn from it.</h5>
+                    <h5 class="header col s12 light">Le rapport WGI du GIEC est un condensé de l'état de l'art scientifique sur le changement climatique, de plus de 3900 pages.<br>Ce site vous aide à y naviguer, à le comprendre et à apprendre.</h5>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="section" style="border-top: 5px solid rgba(0,0,0,0.5)">
+
+            <h2 class="header center orange-text" style="margin-top:0">Summary for policymakers</h2>
+
+            <p style="text-align:center">Pour commencer, choisir un chapitre ci-dessous.</p>
+            <div id="SPM-follow-line"></div>
+            <div class="row" id="SPM-chapters-level1"></div>
+            <div class="row" id="SPM-chapters-level2" style="margin:0 40px"></div>
+    
+        </div>
+        
+        <footer class="page-footer purple lighten-5">
+            <div class="container">
+                <div class="row black-text">
+                    <div class="col l6 s12">
+                        <h5>About</h5>
+                        <p>
+                            Just a volunteer side-project by <a href="https://twitter.com/fredericameye" rel="noopener">@fredericameye</a>,
+                            creator of <a href="https://www.infoclimat.fr" rel="noopener">infoclimat.fr</a>.<br>
+                            Simple projet personnel de <a href="https://twitter.com/fredericameye" rel="noopener">@fredericameye</a>, créateur du site <a href="https://www.infoclimat.fr" rel="noopener">Infoclimat</a>.
+                        </p>
+                    </div>
+                    <div class="col l3 s12">
+                        <a href="https://bonpote.com/10-actions-simples-pour-devenir-ecolo/" rel="noopener" target="_blank">Simple citoyen, que faire ?</a><br>
+                        <a href="https://www.youtube.com/watch?v=C_UTlTiVQ_0" rel="noopener" target="_blank">Comprendre le fonctionnement du GIEC</a>
+                    </div>
+                    <div class="col l3 s12">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="grey-text footer-copyright">
+                <div class="container">
+                    Made with <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- modal affichage figure -->
+        <div id="modal-figure" class="modal modal-fixed-footer">
+            <div class="modal-content">
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+
+        <!-- sidenav table of contents -->
+        <ul id="slide-out" class="sidenav sidenav-fixed">
+        </ul>
+
+        <!-- panneau affichage PDF -->
+        <div id="side-panel-pdf">
+            <div class="close-panel" onclick="closePdfPanel();"><i class="material-icons">close</i></div>
+            <iframe id="pdf-iframe" src="vendors/pdfjs/web/viewer.html" style="width:100%; height:100%"></iframe>
+        </div>
+
+        <!--JavaScript at end of body for optimized loading-->
+        <script type="text/javascript" src="vendors/materialize/js/materialize.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="resource" type="application/l10n" href="vendors/pdfjs/web/locale/locale.properties">
+        <script src="vendors/pdfjs/build/pdf.js"></script>
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+        <script src="https://unpkg.com/tippy.js@6"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,2531 @@
+{
+    "SPM": {
+        "ref":"SPM",
+        "startPage": 1,
+        "endPage"  : null,
+        "en_EN": "Summary for Policymakers",
+        "fr_FR":"Résumé pour les décideurs",
+        "introduction":"This Summary for Policymakers (SPM) presents key findings of the Working Group I (WGI) contribution to the IPCC’s Sixth Assessment Report (AR6)<ref>1</ref> on the physical science basis of climate change. The report builds upon the 2013 Working Group I contribution to the IPCC’s Fifth Assessment Report (AR5) and the 2018–2019 IPCC Special Reports<ref>2</ref> of the AR6 cycle and incorporates subsequent new evidence from climate science<ref>3</ref>.",
+
+        "glossary": {
+            "1.5°C pathway": {
+                "see":"pathways"
+            },
+            "Ablation": {
+                "see":"Mass balance"
+            },
+            "Abrupt change":{
+                "en_EN":"A change in the system that is substantially faster than the typical rate of the changes in its history."
+            },
+            "Abrupt climate change":{
+                "en_EN":"A large-scale abrupt change in the climate system that takes place over a few decades or less, persists (or is anticipated to persist) for at least a few decades and causes substantial impacts in human and/or natural systems. See also Tipping point and Abrupt change."
+            },
+            "Active layer":{
+                "en_EN":"Layer of ground above permafrost subject to annual thawing and freezing."
+            },
+            "GHG":{
+                "en_EN":"GreenHouse Gases"
+            },
+            "CFC":{
+                "en_EN":"Chlorofluorocarbons"
+            }
+        },
+        "footnotes": {
+            "6": "Other GHG concentrations in 2019 were: PFCs (109 ppt CF<sub>4</sub> equivalent); SF<sub>6</sub> (10 ppt); NF<sub>3</sub> (2 ppt); HFCs (237 ppt HFC-134a equivalent); other Montreal Protocol gases (mainly CFCs, HCFCs, 1032 ppt CFC-12 equivalent). Increases from 2011 are 19 ppm for CO<sub>2</sub>, 63 ppb for CH<sub>4</sub> and 8 ppb for N<sub>2</sub>O.",
+            "7": "Land and ocean are not substantial sinks for other GHGs.",
+            "8": "The term ‘global surface temperature’ is used in reference to both global mean surface temperature and global surface air temperature throughout this SPM. Changes in these quantities are assessed with high confidence to differ by at most 10% from one another, but conflicting lines of evidence lead to low confidence in the sign of any difference in long-term trend. {Cross-Section Box TS.1}",
+            "9":"The period 1850–1900 represents the earliest period of sufficiently globally complete observations to estimate global surface temperature and, consistent with AR5 and SR1.5, is used as an approximation for pre-industrial conditions.",
+            "10":"Since AR5, methodological advances and new datasets have provided a more complete spatial representation of changes in surface temperature, including in the Arctic. These and other improvements have additionally increased the estimate of global surface temperature change by approximately 0.1 ºC, but this increase does not represent additional physical warming since the AR5",
+            "11":"The period distinction with A.1.2 arises because the attribution studies consider this slightly earlier period. The observed warming to 2010–2019 is 1.06 [0.88 to 1.21] °C.",
+            "12":"Throughout this SPM, ‘main driver’ means responsible for more than 50% of the change.",
+            "13":"As stated in section B.1, even under the very low emissions scenario SSP1-1.9, temperatures are assessed to remain elevated above those of the most recent decade until at least 2100 and therefore warmer than the century-scale period 6500 years ago.",
+            "14":"Throughout this SPM, ‘main driver’ means responsible for more than 50% of the change.",
+            "15":"Agricultural and ecological drought (depending on the affected biome): a period with abnormal soil moisture deficit, which results from combined shortage of precipitation and excess evapotranspiration, and during the growing season impinges on crop production or ecosystem function in general. Observed changes in meteorological droughts (precipitation deficits) and hydrological droughts (streamflow deficits) are distinct from those in agricultural and ecological droughts and addressed in the underlying AR6 material (Chapter <goto>11</goto>).",
+            "16":"The combined processes through which water is transferred to the atmosphere from open water and ice surfaces, bare soil, and vegetation that make up the Earth’s surface.",
+            "17":"The global monsoon is defined as the area in which the annual range (local summer minus local winter) of precipitation is greater than 2.5 mm day<sup>–1</sup> . Global land monsoon precipitation refers to the mean precipitation over land areas within the global monsoon.",
+            "18":"Compound extreme events are the combination of multiple drivers and/or hazards that contribute to societal or environmental risk. Examples are concurrent heatwaves and droughts, compound flooding (e.g., a storm surge in combination with extreme rainfall and/or river flow), compound fire weather conditions (i.e., a combination of hot, dry, and windy conditions), or concurrent extremes at different locations.",
+            "19":"cumulative energy increase of 282 [177 to 387] ZJ over 1971–2006 (1 ZJ = 10<sup>21</sup> J).",
+            "20":"cumulative energy increase of 152 [100 to 205] ZJ over 2006–2018.",
+            "21":"Understanding of climate processes, the instrumental record, paleoclimates and model-based emergent constraints (see glossary).",
+            "22":"Throughout this report, the five illustrative scenarios are referred to as SSPx-y, where ‘SSPx’ refers to the Shared Socio-economic Pathway or ‘SSP’ describing the socio-economic trends underlying the scenario, and ‘y’ refers to the approximate level of radiative forcing (in W m<sup>–2</sup> ) resulting from the scenario in the year 2100. A detailed comparison to scenarios used in earlier IPCC reports is provided in Section TS1.3 and 1.6 and 4.6. The SSPs that underlie the specific forcing scenarios used to drive climate models are not assessed by WGI. Rather, the SSPx-y labelling ensures traceability to the underlying literature in which specific forcing pathways are used as input to the climate models. IPCC is neutral with regard to the assumptions underlying the SSPs, which do not cover all possible scenarios. Alternative scenarios may be considered or developed.",
+            "23":"Net negative CO<sub>2</sub> emissions are reached when anthropogenic removals of CO<sub>2</sub> exceed anthropogenic emissions. {Glossary}",
+            "24":"Changes in global surface temperature are reported as running 20-year averages, unless stated otherwise.",
+            "25":"SSP1-1.9 and SSP1-2.6 are scenarios that start in 2015 and have very low and low GHG emissions and CO 2 emissions declining to net zero around or after 2050, followed by varying levels of net negative CO<sub>2</sub> emissions.",
+            "26":"Crossing is defined here as having the assessed global surface temperature change, averaged over a 20-year period, exceed a particular global warming level.",
+            "27":"The AR6 assessment of when a given global warming level is first exceeded benefits from the consideration of the illustrative scenarios, the multiple lines of evidence entering the assessment of future global surface temperature response to radiative forcing, and the improved estimate of historical warming. The AR6 assessment is thus not directly comparable to the SR1.5 SPM, which reported likely reaching 1.5°C global warming between 2030 and 2052, from a simple linear extrapolation of warming rates of the recent past. When considering scenarios similar to SSP1-1.9 instead of linear extrapolation, the SR1.5 estimate of when 1.5°C global warming is first exceeded is close to the best estimate reported here.",
+            "28":"Natural variability refers to climatic fluctuations that occur without any human influence, that is, internal variability combined with the response to external natural factors such as volcanic eruptions, changes in solar activity and, on longer time scales, orbital effects and plate tectonics.",
+            "29":"The internal variability in any single year is estimated to be ±0.25°C (5–95% range, _high confidence_).",
+            "30":"Projected changes in agricultural and ecological droughts are primarily assessed based on total column soil moisture. See footnote 15 for definition and relation to precipitation and evapotranspiration.",
+            "31":"monthly average sea ice area of less than 1 million km<sup>2</sup> which is about 15% of the average September sea ice area observed in 1979-1988",
+            "32":"These projected adjustments of carbon sinks to stabilization or decline of atmospheric CO<sub>2</sub> are accounted for in calculations of remaining carbon budgets."
+        },
+        "chapters": [
+            {
+                "ref":"A",
+                "en_EN": "The Current State of the Climate",
+                "fr_FR":"La situation climatique actuelle",
+                "desc": {
+                    "en_EN":"Since AR5, improvements in observationally based estimates and information from paleoclimate archives provide a comprehensive view of each component of the climate system and its changes to date. New climate model simulations, new analyses, and methods combining multiple lines of evidence lead to improved understanding of human influence on a wider range of climate variables, including weather and climate extremes. The time periods considered throughout this Section depend upon the availability of observational products, paleoclimate archives and peer-reviewed studies.",
+                    "fr_FR":"Depuis le cinquième Rapport d’Évaluation (AR5), des améliorations sur la manière d’observer et d’évaluer ainsi que de nouvelles informations grâce aux archives paléo-climatiques permettent d’avoir une vision exhaustive de chaque élément du système climatique et de son évolution jusqu’à aujourd’hui. De nouveaux modèles de simulations climatiques, de nouvelles analyses, de nouvelles méthodes combinent différentes formes de preuves permettant d’améliorer la compréhension de l’influence humaine sur un éventail plus large de variables climatiques, notamment la météo et les climat extrêmes. Les périodes temporelles considérées dans cette Section dépendent de la disponibilité des données observées, des archives paléoclimatiques et des études scientifiques."
+                },
+                "startPage":6,
+                "endPage:":15,
+                "chapters": [
+                    {
+                        "ref":"A.1",
+                        "startPage":6,
+                        "endPage":7,
+                        "en_EN":"It is unequivocal that human influence has warmed the atmosphere, ocean and land. Widespread and rapid changes in the atmosphere, ocean, cryosphere and biosphere have occured.",
+                        "fr_FR":"Sans équivoque, l’influence humaine a réchauffé la planète, les océans et les terres. L’atmosphère, l’océan, la cryosphère et la biosphère ont été soumis à des changements rapides et de grande ampleur.",
+                        "cites": [
+                            "2.2","2.3","Cross-Chapter Box 2.3","3.3","3.4","3.5","3.6","3.8","5.2","5.3","6.4","7.3","8.3","9.2","9.3","9.5","9.6","Cross-Chapter Box 9.1"
+                        ],
+                        "figures": ["SPM.1","SPM.2"],
+                        "chapters": [
+                        {
+                            "ref": "A.1.1",
+                            "en_EN":"Observed increases in well-mixed greenhouse gas (GHG) concentrations since around 1750 are unequivocally caused by human activities. Since 2011 (measurements reported in AR5), concentrations have continued to increase in the atmosphere, reaching annual averages of 410 ppm for carbon dioxide (CO<sub>2</sub>), 1866 ppb for methane (CH<sub>4</sub>), and 332 ppb for nitrous oxide (N<sub>2</sub>O) in 2019<ref>6</ref>. Land and ocean have taken up a near-constant proportion (globally about 56% per year) of CO<sub>2</sub> emissions from human activities over the past six decades, with regional differences (_high confidence_) <ref>7</ref>.",
+                            "fr_FR":"Les hausses observées de la concentration de gaz à effets de serre (GES) depuis 1750 environ sont causées par l’activité humaine, sans équivoque. Depuis 2011 (dates des mesures reportées dans l’AR5) les concentrations ont continué d’augmenter dans l’atmosphère, atteignant des moyennes annuelles de 410 ppm pour le dioxyde de carbone (CO<sub>2</sub>), 1866 ppb pour le méthane (CH<sub>4</sub>), et 332 ppb pour le protoxyde d’Azote (N<sub>2</sub>O) en 2019<ref>6</ref>. Les terres et océans ont connu une augmentation quasi constante en proportion (d’environ 56 % par an) des émissions de CO<sub>2</sub> en raison des activités humaines sur les six dernières décennies, avec des différences selon les régions (_fiabilité forte_)<ref>7</ref>.",
+                            "cites":["2.2","5.2","7.3","TS.2.2","Box TS.5"]
+                        },
+                        {
+                            "ref": "A.1.2",
+                            "en_EN":"Each of the last four decades has been successively warmer than any decade that preceded it since 1850. Global surface temperature<ref>8</ref> in the first two decades of the 21st century (2001-2020) was 0.99 [0.84-1.10] °C higher than 1850-1900<ref>9</ref>. Global surface temperature was 1.09 [0.95 to 1.20] °C higher in 2011–2020 than 1850–1900, with larger increases over land (1.59 [1.34 to 1.83] °C) than over the ocean (0.88 [0.68 to 1.01] °C). The estimated increase in global surface temperature since AR5 is principally due to further warming since 2003–2012 (+0.19 [0.16 to 0.22] °C). Additionally, methodological advances and new datasets contributed approximately 0.1ºC to the updated estimate of warming in AR6<ref>10</ref>.",
+                            "fr_FR":"Chacune des quatre dernières décennies a été à chaque fois la décennie la plus chaude sans précédent depuis 1850. La température de la surface<ref>8</ref> de la planète dans les deux premières décennies du 21ème siècle (2001-2020) était O.99 [0.84-1.10] ° C plus élevée en 2011-2020 qu’en 1850-1900<ref>9</ref>, avec de plus grandes hausses sur les terres (1.59 [1.34 – 1.83] °C) que dans les océans (0.88 [0.68 à 1.01] °C). L’augmentation de l’estimation de la température mondiale par rapport AR5 est principalement dû à des réchauffements supplémentaires depuis la période 2003-2012 (+0.19 [0.16 à 0.22] °C). A cela s’ajoute les avancées méthodologiques et de nouvelles données qui ont contribué à l’ajout d’environ 0.1ºC dans la nouvelle estimation du réchauffement dans l’AR6.<ref>10</ref>"
+                        },
+                        {
+                            "ref": "A.1.3",
+                            "en_EN":"The _likely_ range of total human-caused global surface temperature increase from 1850–1900 to 2010–2019<ref>11</ref> is 0.8°C to 1.3°C, with a best estimate of 1.07°C. It is _likely_ that well-mixed GHGs contributed a warming of 1.0°C to 2.0°C, other human drivers (principally aerosols) contributed a cooling of 0.0°C to 0.8°C, natural drivers changed global surface temperature by –0.1°C to 0.1°C, and internal variability changed it by –0.2°C to 0.2°C. It is _very likely_ that well-mixed GHGs were the main driver<ref>12</ref> of tropospheric warming since 1979, and _extremely likely_ that human-caused stratospheric ozone depletion was the main driver of cooling of the lower stratosphere between 1979 and the mid-1990s.",
+                            "fr_FR":"L’étendue vraisemblable de l’ensemble du réchauffement climatique sur la surface mondiale causée par l’activité humaine entre 1850–1900 et 2010–2019<ref>11</ref> est de 0.8°C à 1.3°C, avec 1.07°C comme estimation la plus sûre. Sur cette période, il est _probable_ que les GES ont contribué à un réchauffement de 1.0°C à 2.0°C, que d’autres facteurs humains (principalement les aérosols) ont contribué à un rafraîchissement de 0.0°C à 0.8°C, que des facteurs naturels ont contribué à une variation de la température mondiale entre –0.1°C et 0.1°C, et que la variabilité interne naturelle au système climatique ait contribué entre –0.2°C et 0.2°C. Il est _très probable_ que les GES aient été le facteur principal<ref>12</ref> du réchauffement atmosphérique depuis 1979, et _extrêmement probable_ que la diminution de la couche d’ozone était le principal facteur de rafraîchissement de la stratosphère entre 1979 et le milieu des années 90.",
+                            "cites":["3.3","6.4","7.3","Cross-Section Box TS.1","TS.2.3"],
+                            "figref":"SPM.2"
+                        },
+                        {
+                            "ref": "A.1.4",
+                            "en_EN":"Globally averaged precipitation over land has _likely_ increased since 1950, with a faster rate of increase since the 1980s (_medium confidence_). It is _likely_ that human influence contributed to the pattern of observed precipitation changes since the mid-20th century, and _extremely likely_ that human influence contributed to the pattern of observed changes in near-surface ocean salinity. Mid-latitude storm tracks have _likely_ shifted poleward in both hemispheres since the 1980s, with marked seasonality in trends (_medium confidence_). For the Southern Hemisphere, human influence _very likely_ contributed to the poleward shift of the closely related extratropical jet in austral summer.",
+                            "fr_FR":"Les moyennes mondiales des précipitations sur les terres ont _probablement_ augmenté depuis 1950, avec une accélération du taux de l’augmentation depuis les années 1980 (_fiabilité moyenne_). Il est _probable_ que l’influence humaine ait contribué à la variation observée dans les précipitations depuis le milieu du 20ème siècle, et il est _extrêmement probable_ que l’influence humaine ait contribué aux changements observés dans la salinité de la zone de surface de l’océan. Les trajectoires des tempêtes dans les latitudes moyennes ont légèrement déviées vers les pôles dans les deux hémisphères depuis les années 1980, avec des caractères saisonniers dans les tendances (_fiabilité moyenne_). Dans l’hémisphère Sud, l’influence humaine a _très probablement_ contribué à la déviation vers le pôle du courant-jet extratropical (nom d’un courant aérien) dans l’été austral.",
+                            "cites":["2.3","3.3","8.3","9.2","TS2.4","Box TS.6"]
+                        },
+                        {
+                            "ref": "A.1.5",
+                            "en_EN":"Human influence is _very likely_ the main driver of the global retreat of glaciers since the 1990s and the decrease in Arctic sea ice area between 1979–1988 and 2010–2019 (about 40% in September and about 10% in March). There has been no significant trend in Antarctic sea ice area from 1979 to 2020 due to regionally opposing trends and large internal variability. Human influence _very likely_ contributed to the decrease in Northern Hemisphere spring snow cover since 1950. It is _very likely_ that human influence has contributed to the observed surface melting of the Greenland Ice Sheet over the past two decades, but there is only _limited evidence_, with _medium agreement_, of human influence on the Antarctic Ice Sheet mass loss.",
+                            "fr_FR":"L’influence humaine est _probablement_ le facteur principal du recul mondial des glaciers depuis les années 1990 et de la fonte de la banquise en Arctique entre 1979–1988 et 2010–2019 (environ 40% en Septembre et environ 10% en Mars). Il n’y a pas de tendance significative dans l’étendue de la banquise entre 1979 et 2020 en raison de tendances régionales opposées et de larges variabilités internes. L’influence humaine a _très probablement_ contribué à la baisse des couvertures de neige printanière depuis 1950. Il est _très probable_ que l’influence humaine ait contribué à la fonte des surfaces observée de la calotte glaciaire du Groenland dans les deux dernières décennies, en revanche, il y a assez _peu de preuves_, avec un _consensus limité_, de l’influence humaine dans la fonte de la calotte glaciaire de l’Antarctique.",
+                            "cites":["2.3","3.4","8.3","9.3","9.5","TS.2.5"]
+                        },
+                        {
+                            "ref": "A.1.6",
+                            "en_EN":"It is _virtually certain_ that the global upper ocean (0–700 m) has warmed since the 1970s and _extremely likely_ that human influence is the main driver. It is _virtually certain_ that human-caused CO<sub>2</sub> emissions are the main driver of current global acidification of the surface open ocean. There is _high confidence_ that oxygen levels have dropped in many upper ocean regions since the mid-20th century, and _medium confidence_ that human influence contributed to this drop.",
+                            "fr_FR":"Il est _pratiquement certain_ que la couche océanique supérieure (0-700m) se soit réchauffée depuis les années 1970 et il est _extrêmement probable_ que l’influence humaine en soit le principal facteur. Il est _pratiquement certain_ que les émissions de CO<sub>2</sub> d’origine humaine sont le facteur principal de l’acidification mondiale actuelle des surfaces des océans. Il y a une _certitude élevée_ que les niveaux d’oxygène ont chuté dans plusieurs régions océaniques en surface depuis le milieu du 20ème siècle, et une _certitude moyenne_ que l’influence humaine aie contribué à cette chute.",
+                            "cites":["2.3","3.5","3.6","5.3","9.2","TS.2.4"]
+                        },
+                        {
+                            "ref": "A.1.7",
+                            "en_EN":"Global mean sea level increased by 0.20 [0.15 to 0.25] m between 1901 and 2018. The average rate of sea level rise was 1.3 [0.6 to 2.1] mm yr<sup>–1</sup> between 1901 and 1971, increasing to 1.9 [0.8 to 2.9] mm yr<sup>–1</sup> between 1971 and 2006, and further increasing to 3.7 [3.2 to 4.2] mm yr –1 between 2006 and 2018 (_high confidence_). Human influence was _very likely_ the main driver of these increases since at least 1971.",
+                            "fr_FR":"Le niveau moyen de la mer a augmenté de 0.20 [0.15 à 0.25]m entre 1901 et 2018. Le taux moyen de l’augmentation du niveau des mers était de 1.3 [0.6 – 2.1] mm par an entre 1901 et 1971, augmentant de 1.9 [0.8 – 2.9] mm par an entre 1971 et 2006, et augmentant encore ensuite de 3.7 [3.2 to 4.2] mm par an entre 2006 et 2018 (_fiabilité forte_). L’influence humaine était _très probablement_ le facteur principal de ces augmentations depuis au moins 1971.",
+                            "cites":["2.3","3.5","9.6","Box 9.1","Box TS.4"]
+                        },
+                        {
+                            "ref": "A.1.8",
+                            "en_EN":"Changes in the land biosphere since 1970 are consistent with global warming: climate zones have shifted poleward in both hemispheres, and the growing season has on average lengthened by up to two days per decade since the 1950s in the Northern Hemisphere extratropics (_high confidence_).",
+                            "fr_FR":"Les changements dans la biosphère terrestre depuis 1970 sont cohérents avec le réchauffement climatique : les aires climatiques ont dévié vers les pôles dans les deux hémisphères, et les saisons de croissance de la végétation ont en moyenne été allongées d’un jour ou deux par décennie depuis les années 1950 dans les zones extratropiques de l’hémisphère Nord (_fiabilité forte_).",
+                            "cites":["2.3","TS.2.6"]
+                        }
+                    ]
+                    },
+                    {
+                        "ref":"A.2",
+                        "startPage":10,
+                        "endPage":10,
+                        "en_EN":"The scale of recent changes across the climate system as a whole and the present state of many aspects of the climate system are unprecedented over many centuries to many thousands of years.",
+                        "fr_FR":"L’ampleur des changements récents du système climatique dans son ensemble et l’état actuel de nombreux aspects du changement climatique sont sans précédent depuis des centaines de milliers d’années.",
+                        "cites": [
+                            "Box 2.1","2.2","2.3","5.1"
+                        ],
+                        "figures": ["SPM.1"],
+                        "chapters": [
+                            {
+                                "ref":"A.2.1",
+                                "en_EN": "In 2019, atmospheric CO<sub>2</sub> concentrations were higher than at any time in at least 2 million years (_high confidence_), and concentrations of CH<sub>4</sub> and N<sub>2</sub>O were higher than at any time in at least 800,000 years (_very high confidence_). Since 1750, increases in CO<sub>2</sub> (47%) and CH<sub>4</sub> (156%) concentrations far exceed, and increases in N<sub>2</sub>O (23%) are similar to, the natural multi-millennial changes between glacial and interglacial periods over at least the past 800,000 years (_very high confidence_).",
+                                "fr_FR":"En 2019, les concentrations atmosphériques de CO<sub>2</sub> étaient plus élevées qu’à n’importe quel moment sur au moins 2 millions d’années (fiabilité élevée), et les concentrations de CH<sub>4</sub> et N<sub>2</sub>O étaient plus élevées que jamais sur les dernières 800 000 années (_fiabilité très élevée_). Depuis 1750, les augmentations de concentrations de CO<sub>2</sub> (47%) et CH<sub>4</sub> (156%) dépassent largement les changements naturels multi-millénaires entre les périodes glaciaires et interglaciaires sur au moins les dernières 800 000 années (_très forte fiabilité_), et les augmentations de N<sub>2</sub>O (23%) en sont similaires.",
+                                "cites":["2.2","5.1","TS.2.2"]
+                            },
+                            {
+                                "ref":"A.2.2",
+                                "en_EN": "Global surface temperature has increased faster since 1970 than in any other 50-year period over at least the last 2000 years (_high confidence_). Temperatures during the most recent decade (2011–2020) exceed those of the most recent multi-century warm period, around 6500 years ago 13 [0.2°C to 1°C relative to 1850–1900] (_medium confidence_). Prior to that, the next most recent warm period was about 125,000 years ago when the multi-century temperature [0.5°C to 1.5°C relative to 1850–1900] overlaps the observations of the most recent decade (_medium confidence_).",
+                                "fr_FR":"La température de la surface terrestre a augmenté plus vite depuis 1970 que sur n’importe quelle période de 50 ans sur les dernières 2000 ans (_fiabilité forte_). Les températures sur la décennie la plus récente (2011-2020) excèdent celles de la plus récente ère climatique chaude, qui a eu lieu il y a environ 6500 ans (qui était entre 0.2°C et 1°C plus chaude par rapport à 1850-1900). (_fiabilité moyenne_). Avant ça, il faut remonter à 125 000 années pour connaître une période chaude dont les températures dépassent celles observées dans la décennie récente [0.5°C à 1.5°C par rapport à 1850–1900] (_fiabilité moyenne_).",
+                                "cites":["Cross-Chapter Box 2.1","2.3","Cross-Section Box TS.1"]
+                            },
+                            {
+                                "ref":"A.2.3",
+                                "en_EN": "In 2011–2020, annual average Arctic sea ice area reached its lowest level since at least 1850 (_high confidence_). Late summer Arctic sea ice area was smaller than at any time in at least the past 1000 years (_medium confidence_). The global nature of glacier retreat, with almost all of the world’s glaciers retreating synchronously, since the 1950s is unprecedented in at least the last 2000 years (_medium confidence_).",
+                                "fr_FR":"En 2011-2020, la moyenne annuelle de l’étendue de la zone de banquise en Arctique atteignait son plus bas niveau depuis 1850 (_fiabilité forte_). L’été dernier la mer de glace arctique était plus petite que jamais connue dans les 1000 dernières années (_fiabilité moyenne_). Le recul des glaciers au niveau mondial, avec presque tous les glaciers du monde reculant de manière synchronisée depuis les années 1950, est sans précédent sur au moins les 2000 dernières années (_fiabilité moyenne_).",
+                                "cites":["2.3","TS.2.5"]
+                            },
+                            {
+                                "ref":"A.2.4",
+                                "en_EN": "Global mean sea level has risen faster since 1900 than over any preceding century in at least the last 3000 years (_high confidence_). The global ocean has warmed faster over the past century than since the end of the last deglacial transition (around 11,000 years ago) (_medium confidence_). A long-term increase in surface open ocean pH occurred over the past 50 million years (_high confidence_), and surface open ocean pH as low as recent decades is unusual in the last 2 million years (_medium confidence_).",
+                                "fr_FR":"Le niveau mondial des mers s’est élevé plus vite depuis 1900 que jamais sur aucun siècle précédent dans les 3000 dernières années (_fiabilité forte_). Les océans à l’échelle planétaire se sont réchauffés plus vite durant le dernier siècle que durant toute la période depuis la fin de la dernière transition glaciaire (il y a environ 11000 ans) (_fiabilité moyenne_). Une hausse sur le long terme du pH de l’océan en surface a eu lieu durant les derniers 50 millions d’années (_fiabilité forte_), et un pH de l’océan en surface aussi bas que durant les dernières décennies est inhabituel sur les deux derniers millions d’années. (_fiabilité moyenne_)",
+                                "cites":["2.3","TS.2.4","Box TS.4"]
+                            }
+                        ]
+                    },
+                    {
+                        "ref":"A.3",
+                        "startPage":11,
+                        "endPage":12,
+                        "en_EN":"Human-induced climate change is already affecting many weather and climate extremes in every region across the globe. Evidence of observed changes in extremes such as heatwaves, heavy precipitation, droughts, and tropical cyclones, and, in particular, their attribution to human influence, has strengthened since AR5.",
+                        "fr_FR":"Le changement climatique causé par les humains est déjà en train d’affecter de nombreux climats et extrêmes climatiques à travers le monde. Les preuves de changements ont été renforcés depuis AR5 (le précédent rapport) concernant des extrêmes climatiques tels que des vagues de chaleur, de fortes précipitations, des sécheresses, des cyclones tropicaux, ainsi que leur attribution à l’influence humaine.",
+                        "cites": [
+                            "2.3","3.3","8.2","8.3","8.4","8.5","8.6","Box 8.1","Box 8.2","Box 9.2","10.6","11.2","11.3","11.4","11.6","11.7",
+                            "11.8","11.9","12.3"
+                        ],
+                        "figures": ["SPM.3"],
+                        "chapters": [
+                            {
+                                "ref":"A.3.1",
+                                "en_EN": "It is _virtually certain_ that hot extremes (including heatwaves) have become more frequent and more intense across most land regions since the 1950s, while cold extremes (including cold waves) have become less frequent and less severe, with _high confidence_ that human-induced climate change is the main driver<ref>14</ref> of these changes. Some recent hot extremes observed over the past decade would have been _extremely unlikely_ to occur without human influence on the climate system. Marine heatwaves have approximately doubled in frequency since the 1980s (_high confidence_), and human influence has _very likely_ contributed to most of them since at least 2006.",
+                                "fr_FR":"Il est _pratiquement certain_ que les canicules (y compris les vagues de chaleurs) sont devenues plus fréquentes et plus intenses à travers la plupart des régions continentales depuis les années 1950, alors que les froids extrêmes (y compris les vagues de froid) sont devenus moins fréquents et moins importants. Il est possible de dire avec une _forte fiabilité_ que le changement climatique causé par les humains est le principal moteur de ces changements<ref>14</ref>. Il est _extrêmement improbable_ que certaines vagues de chaleur récentes observées pendant la dernière décennie aient pu se produire sans l’influence humaine sur le système climatique. Les vagues de chaleurs maritimes ont (environ) doublé en fréquence depuis les années 1980 (_fiabilité forte_), et l’influence humaine a _très probablement_ contribué à la plupart de ces vagues depuis au moins 2006.",
+                                "cites":["Box 9.2","11.2","11.3","11.9","TS.2.4","TS.2.6","Box TS.10"],
+                                "figref":"SPM.3"
+                            },
+                            {
+                                "ref":"A.3.2",
+                                "en_EN": "The frequency and intensity of heavy precipitation events have increased since the 1950s over most land area for which observational data are sufficient for trend analysis (_high confidence_), and human-induced climate change is _likely_ the main driver. Human-induced climate change has contributed to increases in agricultural and ecological droughts<ref>15</ref> in some regions due to increased land evapotranspiration<ref>16</ref> (_medium confidence_).",
+                                "fr_FR":"La fréquence et l’intensité d’événements de fortes précipitations a augmenté depuis les années 1950 dans la plupart des zones continentales pour lesquelles les données d’observation sont suffisantes pour une analyse des tendances (_fiabilité forte_), et l’influence humaine sur le changement climatique est _vraisemblablement_ le moteur principal. Le changement climatique causé par l’influence humaine a contribué à des augmentations des sécheresses agricoles et écologiques dans certaines régions en raison de l’augmentation de l’évapotranspiration<ref>16</ref> (_fiabilité moyenne_).",
+                                "cites":["8.2","8.3","11.4","11.6","11.9","TS.2.6","Box TS.10"],
+                                "figref":"SPM.3"
+                            },
+                            {
+                                "ref":"A.3.3",
+                                "en_EN": "Decreases in global land monsoon precipitation<ref>17</ref> from the 1950s to the 1980s are partly attributed to human-caused Northern Hemisphere aerosol emissions, but increases since then have resulted from rising GHG concentrations and decadal to multi-decadal internal variability (_medium confidence_). Over South Asia, East Asia and West Africa increases in monsoon precipitation due to warming from GHG emissions were counteracted by decreases in monsoon precipitation due to cooling from human-caused aerosol emissions over the 20th century (_high confidence_). Increases in West African monsoon precipitation since the 1980s are partly due to the growing influence of GHGs and reductions in the cooling effect of human-caused aerosol emissions over Europe and North America (_medium confidence_).",
+                                "fr_FR":"Les diminutions mondiales du volume des moussons entre les années 1950 et les années 1980 sont en partie attribuées aux émissions d’aérosols engendrées par les humains de l’hémisphère Nord, mais les augmentations depuis sont le résultat de l’augmentation de la concentration de GES et de la variabilité décennale et multi-décennale (_fiabilité moyenne_). Les augmentations du volume des moussons à travers l’Asie du Sud, l’Asie de l’Est et l’Afrique de l’Ouest liées au réchauffement dû aux émissions de GES ont été contrebalancés par les diminutions du volume des moussons liées au refroidissement causé par les émissions d’aérosol engendrées par les humains pendant le XXe siècle (_fiabilité forte_). Les augmentations du volume des moussons d’Afrique de l’Ouest depuis les années 1980 sont en partie liées à l’influence croissante des GES et à la réduction de l’effet refroidissant des émissions d’aérosols engendrées par les humains en Europe et en Amérique du Nord (_fiabilité moyenne_).",
+                                "cites":["2.3","3.3","8.2","8.3","8.4","8.5","8.6","Box 8.1","Box 8.2","10.6","Box TS.13"]
+                            },
+                            {
+                                "ref":"A.3.4",
+                                "en_EN": "It is _likely_ that the global proportion of major (Category 3–5) tropical cyclone occurrence has increased over the last four decades, and the latitude where tropical cyclones in the western North Pacific reach their peak intensity has shifted northward; these changes cannot be explained by internal variability alone (_medium confidence_). There is _low confidence_ in long-term (multi-decadal to centennial) trends in the frequency of all-category tropical cyclones. Event attribution studies and physical understanding indicate that human-induced climate change increases heavy precipitation associated with tropical cyclones (_high confidence_) but data limitations inhibit clear detection of past trends on the global scale.",
+                                "fr_FR":"Il est _probable_ que la proportion mondiale d’événements majeurs de cyclones tropicaux ait augmenté au cours des quatre dernières décennies, et la latitude où les cyclones tropicaux dans la partie ouest du Pacifique Nord atteignent leur intensité maximale s’est décalée vers le nord ; ces changements ne peuvent être expliqués par la seule variabilité interne (_fiabilité moyenne_). Il y a une _faible fiabilité_ des tendances à long-terme (multi-décennales à centenaires) dans la fréquence des cyclones tropicaux (quelle que soit leur catégorie). Les études attribuant les événements ainsi que la compréhension des phénomènes physiques indiquent que le changement climatique engendré par les humains augmente les fortes pluies associées aux cyclones tropicaux (_forte fiabilité_) mais l’insuffisance des données empêche la détection claire de tendances passées sur une échelle mondiale.",
+                                "cites":["8.2","11.7","Box TS.10"]
+                            },
+                            {
+                                "ref":"A.3.5",
+                                "en_EN": "Human influence has _likely_ increased the chance of compound extreme events<ref>18</ref> since the 1950s. This includes increases in the frequency of concurrent heatwaves and droughts on the global scale (_high confidence_); fire weather in some regions of all inhabited continents (_medium confidence_); and compound flooding in some locations (_medium confidence_).",
+                                "fr_FR":"L’influence humaine a _probablement_ augmenté la probabilité de la formation d’événements extrêmes<ref>18</ref> depuis les années 1950. Cela inclut les augmentations dans la fréquence de vagues de chaleur et de sécheresses simultanées sur une échelle mondiale (_fiabilité forte_); des incendies dans certaines régions de tous les continents habités (_fiabilité moyenne_); et des inondations simultanées dans certains endroits (_fiabilité moyenne_).",
+                                "cites":["8.2","11.7","Box TS.10"]
+                            }
+                        ]
+                    },
+                    {
+                        "ref":"A.4",
+                        "startPage":14,
+                        "endPage":15,
+                        "en_EN":"Improved knowledge of climate processes, paleoclimate evidence and the response of the climate system to increasing radiative forcing gives a best estimate of equilibrium climate sensitivity of 3°C with a narrower range compared to AR5.",
+                        "fr_FR":"Connaissances améliorées du processus climatique, preuve paléoclimatique et la réponse du système climatique à l’augmentation du forçage radiatif nous donne une meilleure estimation de l’équilibre relatif à la sensibilité climatique de 3°C avec une plage plus étroite par rapport à AR5.",
+                        "cites": [
+                            "2.2","7.3","7.4","7.5","Box 7.2","Cross-Chapter Box 9.1","9.4","9.5","9.6"
+                        ],
+                        "figures": [],
+                        "chapters": [
+                            {
+                                "ref":"A.4.1",
+                                "en_EN": "Human-caused radiative forcing of 2.72 [1.96 to 3.48] W m<sup>–2</sup> in 2019 relative to 1750 has warmed the climate system. This warming is mainly due to increased GHG concentrations, partly reduced by cooling due to increased aerosol concentrations. The radiative forcing has increased by 0.43 W m<sup>–2</sup> (19%) relative to AR5, of which 0.34 W m<sup>–2</sup> is due to the increase in GHG concentrations since 2011. The remainder is due to improved scientific understanding and changes in the assessment of aerosol forcing, which include decreases in concentration and improvement in its calculation (_high confidence_).",
+                                "fr_FR":"Un forçage radiatif de 2.72 [entre 1.96 et 3.48] W m<sup>-2</sup> en 2019 par rapport à 1750 a réchauffé le système climatique. La hausse de chaleur est principalement due à l’augmentation de la concentration de GES, en partie réduite par le refroidissement causé par l’augmentation des concentrations aérosol. Le forçage radiatif a augmenté de 0.43 W m<sup>-2</sup> (19%) par rapport à AR5 pour qui 0.34 W m<sup>-2</sup> est due à l’augmentation de la concentration de GES depuis 2011. La partie restante est trouvée grâce à l’amélioration de la compréhension scientifique et change de ce fait l’évaluation du forçage aérosol, qui inclus des baisses de concentration et une amélioration dans son calcul (_fiabilité forte_)",
+                                "cites":["2.2","7.3","TS.2.2","TS.3.1"]
+                            },
+                            {
+                                "ref":"A.4.2",
+                                "en_EN": "Human-caused net positive radiative forcing causes an accumulation of additional energy (heating) in the climate system, partly reduced by increased energy loss to space in response to surface warming. The observed average rate of heating of the climate system increased from 0.50 [0.32 to 0.69] W <sup>m –2</sup> for the period 1971–2006<ref>19</ref>, to 0.79 [0.52 to 1.06] W m<sup>–2</sup> for the period 2006–2018<ref>20</ref> (_high confidence_). Ocean warming accounted for 91% of the heating in the climate system, with land warming, ice loss and atmospheric warming accounting for about 5%, 3% and 1%, respectively (_high confidence_).",
+                                "fr_FR":"Une nette augmentation du forçage radiatif causée par l’homme produit une accumulation de surplus d’énergie (réchauffement) dans le système climatique, en partie réduite par l’augmentation de la perte d’énergie vers l’espace en réponse au réchauffement de la surface. Le taux moyen observé du réchauffement du système climatique a augmenté, partant de 0.50 [de 0.32 à 0.69] W m<sup>-2</sup> pour la période 1971-2006, à 0.79 [0.52 à 1.06] W m<sup>-2</sup> pour la période 2006-2018 (_fiabilité forte_). Le réchauffement des océans compte pour 91% du réchauffement climatique, avec le réchauffement des terres, la calotte glaciaire et le réchauffement de l’atmosphère comptent respectivement pour 5%,3% et 1% (_fiabilité forte_).",
+                                "cites":["7.2","Box 7.2","TS.3.1"]
+                            },
+                            {
+                                "ref":"A.4.3",
+                                "en_EN": "Heating of the climate system has caused global mean sea level rise through ice loss on land and thermal expansion from ocean warming. Thermal expansion explained 50% of sea level rise during 1971– 2018, while ice loss from glaciers contributed 22%, ice sheets 20% and changes in land water storage 8%. The rate of ice sheet loss increased by a factor of four between 1992–1999 and 2010–2019. Together, ice sheet and glacier mass loss were the dominant contributors to global mean sea level rise during 2006-2018. (_high confidence_)",
+                                "fr_FR":"L’augmentation globale des températures dans le système climatique a causé une augmentation globale et inquiétante du niveau de l’eau à travers la fonte des glaces sur terre et une dilatation thermique causée par le réchauffement des océans. La dilatation thermique a expliqué 50% de la montée du niveau des eaux pendant la période 1971-2018, pendant que la fonte des glaciers y a contribué à 22%, la calotte glaciaire à 20% et les changements dans le stockage des eaux continentales à 8%. Le taux de fonte des glaces a augmenté d’un facteur quatre entre les périodes 1992-1999 et 2010-2019. Ensemble, les calottes glaciaires et les pertes de masses des glaciers étaient les contributions dominantes à l’augmentation globale du niveau de l’eau pour la période 2006-2018 (_fiabilité forte_).",
+                                "cites":["Cross-Chapter Box 9.1","9.4","9.5","9.6"]
+                            },
+                            {
+                                "ref":"A.4.4",
+                                "en_EN": "The equilibrium climate sensitivity is an important quantity used to estimate how the climate responds to radiative forcing. Based on multiple lines of evidence<ref>21</ref>, the _very likely_ range of equilibrium climate sensitivity is between 2°C (_high confidence_) and 5°C (_medium confidence_). The AR6 assessed best estimate is 3°C with a _likely_ range of 2.5°C to 4°C (_high confidence_), compared to 1.5°C to 4.5°C in AR5, which did not provide a best estimate.",
+                                "fr_FR":"L’équilibre de la sensibilité climatique est une quantification importante utilisée pour estimer comment le climat réagit au forçage radiatif. Basé sur de nombreux éléments faisant preuve, la marge d’équilibre de la sensibilité du climat la plus probable se situe en 2°C (_fiabilité forte_) et 5°C (_fiabilité moyenne_). L’AR6 a jugé la meilleure estimation comme étant 3°C avec une marge entre 2.5°C et 4°C (_fiabilité forte_), comparé aux 1.5°C à 4.5°C du rapport AR5 qui n’a pas produit de meilleure estimation.",
+                                "cites":["7.4","7.5","TS.3.2"]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ref":"B",
+                "en_EN": "Possible Climate Futures",
+                "fr_FR":"Futurs climatiques possibles",
+                "desc": {
+                    "en_EN":"A set of five new illustrative emissions scenarios is considered consistently across this report to explore the climate response to a broader range of greenhouse gas (GHG), land use and air pollutant futures than assessed in AR5. This set of scenarios drives climate model projections of changes in the climate system. These projections account for solar activity and background forcing from volcanoes. Results over the 21st century are provided for the near-term (2021–2040), mid-term (2041–2060) and long-term (2081–2100) relative to 1850–1900, unless otherwise stated.",
+                    "fr_FR":"Un ensemble de cinq nouveaux scénarios illustratifs des émissions est pris en compte de manière cohérente dans ce rapport, pour interroger les réponses climatiques vis-à-vis des gaz à effet de serre (GES), de l’utilisation de la terre et des polluants atmosphériques, plus spécifiquement que dans le cinquième Rapport d’évaluation. Cet ensemble de scénarios permet de construire les projections des modèles, dans le cadre du changement climatique. Ces projections tiennent compte de l’activité solaire et du forçage volcanique. Les résultats pour le XXIe siècle séparent le court-terme (2021-2040), le moyen-terme (2041-2060) et le long-terme (2081-2100), sur la base de la situation en 1850-1900, sauf mention contraire."
+                },
+                "refBox":"Box SPM.1",
+                "startPage":16,
+                "endPage:":31,
+                "chapters": [
+                    {
+                        "ref":"B.1",
+                        "startPage":18,
+                        "endPage":20,
+                        "en_EN":"Global surface temperature will continue to increase until at least the mid-century under all emissions scenarios considered. Global warming of 1.5°C and 2°C will be exceeded during the 21st century unless deep reductions in CO<sub>2</sub> and other greenhouse gas emissions occur in the coming decades.",
+                        "fr_FR":"La température à la surface du globe continuera d’augmenter au moins jusqu’au milieu du siècle, dans tous les scénarios d’émissions envisagés. Le réchauffement planétaire dépassera les 1,5°C et 2°C au cours du XXIe siècle, à moins que des réductions importantes des émissions de CO<sub>2</sub> et d’autres gaz à effet de serre n’interviennent dans les prochaines décennies",
+                        "cites": [
+                            "2.3","Cross-Chapter Box 2.3","Cross-Chapter Box 2.4","4.3","4.4","4.5"
+                        ],
+                        "figures": ["SPM.1","SPM.4","SPM.8"],
+                        "tables":["Table SPM.1"],
+                        "boxes":["Box SPM.1"],
+                        "chapters": [
+                            {
+                                "ref":"B.1.1",
+                                "en_EN": "Compared to 1850–1900, global surface temperature averaged over 2081–2100 is very likely to be higher by 1.0°C to 1.8°C under the very low GHG emissions scenario considered (SSP1-1.9), by 2.1°C to 3.5°C in the intermediate scenario (SSP2-4.5) and by 3.3°C to 5.7°C under the very high GHG emissions scenario (SSP5-8.5)<ref>24</ref>. The last time global surface temperature was sustained at or above 2.5°C higher than 1850–1900 was over 3 million years ago (_medium confidence_).",
+                                "fr_FR":"Par rapport à la période 1850-1900, la température moyenne à la surface du globe entre 2081 et 2100 sera très probablement supérieur de 1,0°C à 1,8°C, dans le scénario de très faibles émissions de GES (SSP1-1.9), de 2,1 °C à 3,5 °C dans le scénario intermédiaire (SSP2-4.5) et de 3,3°C à 5,7°C dans le scénario d’émissions de GES très élevées (SSP5-8.5). La dernière fois que la température à la surface du globe a été maintenue à une niveau égal ou supérieur à 2.5°C, par rapport à la période 1850-1900, remonte à plus de trois millions d’années (_fiabilité moyenne_).",
+                                "cites":["2.3","Cross-Chapter Box 2.4","4.3","4.5","Box TS.2","Box TS.4","Cross-Section Box TS.1"],
+                                "tableref":["Table SPM.1"]
+                            },
+                            {
+                                "ref":"B.1.2",
+                                "en_EN": "Based on the assessment of multiple lines of evidence, global warming of 2°C, relative to 1850–1900, would be exceeded during the 21st century under the high and very high GHG emissions scenarios considered in this report (SSP3-7.0 and SSP5-8.5, respectively). Global warming of 2°C would _extremely likely_ be exceeded in the intermediate scenario (SSP2-4.5). Under the very low and low GHG emissions scenarios, global warming of 2°C is _extremely unlikely_ to be exceeded (SSP1-1.9), or _unlikely_ to be exceeded (SSP1-2.6)<ref>25</ref>. Crossing the 2°C global warming level in the mid-term period (2041–2060) is _very likely_ to occur under the very high GHG emissions scenario (SSP5-8.5), _likely_ to occur under the high GHG emissions scenario (SSP3-7.0), and _more likely than not_ to occur in the intermediate GHG emissions scenario (SSP2-4.5)<ref>26</ref>.",
+                                "fr_FR":"D’après l’évaluation de plusieurs séries de données, le réchauffement planétaire de 2°C, par rapport à la période 1850-1900, serait dépassé au cours du XXIe siècle, dans le cadre des scénarios d’émissions de GES élevées et très élevées de ce rapport (respectivement SSP3-7.0 et SSP5-8.5). Le réchauffement planétaire de 2°C serait _très probablement_ dépassé dans le scénario intermédiaire (SSP2-4.5). Dans les scénarios à très faibles et faibles émissions de GES, il est _extrêmement improbable_ que le réchauffement planétaire de 2°C soit dépassé (SSP1-1.9) ou _peu probable_ qu’il le soit (SSP1-2.6)<ref>25</ref>. Le dépassement du niveau de réchauffement de 2°C planétaire au cours de la période à moyen-terme (2041-2060) est _très probable_ dans le cadre du scénario d’émissions de GES très élevées, _probable_ dans le cadre du scénario élevé et _plus probable qu’improbable_ dans le scénario intermédiaire<ref>26</ref>.",
+                                "cites":["4.3","Cross-Section Box TS.1","Box SPM.1"],
+                                "figref":["SPM.4"],
+                                "tableref":["Table SPM.1"]
+                            },
+                            {
+                                "ref":"B.1.3",
+                                "en_EN": "Global warming of 1.5°C relative to 1850-1900 would be exceeded during the 21st century under the intermediate, high and very high scenarios considered in this report (SSP2-4.5, SSP3-7.0 and SSP5-8.5, respectively). Under the five illustrative scenarios, in the near term (2021-2040), the 1.5°C global warming level is _very likely_ to be exceeded under the very high GHG emissions scenario (SSP5-8.5), _likely_ to be exceeded under the intermediate and high GHG emissions scenarios (SSP2-4.5 and SSP3-7.0), _more likely than not_ to be exceeded under the low GHG emissions scenario (SSP1-2.6) and _more likely than not_ to be reached under the very low GHG emissions scenario (SSP1-1.9)<ref>27</ref>. Furthermore, for the very low GHG emissions scenario (SSP1-1.9), it is _more likely than not_ that global surface temperature would decline back to below 1.5°C toward the end of the 21st century, with a temporary overshoot of no more than 0.1°C above 1.5°C global warming.",
+                                "fr_FR":"Le réchauffement planétaire de 1,5°C, par rapport à la période 1850-1900, serait dépassé au cours du XXIe siècle, dans le cadre des scénarios intermédiaire, élevé et très élevé. Dans les cinq scénarios illustratifs, il est _très probable_ que le niveau de réchauffement planétaire de 1,5°C à court-terme (2021-2040) soit dépassé dans le scénario très élevé, _probable_ dans les scénarios intermédiaire et élevé, _plus probable qu’improbable_ dans le scénario faible et _plus probable qu’improbable_ d’être atteint dans le scénario très faible<ref>27</ref>. En outre, dans le cas du scénario de très faibles émissions de GES, il est _plus probable qu’improbable_ que la température à la surface de la terre redescende en dessous de 1,5°C, vers la fin du XXIe siècle, avec un dépassement temporaire d’au maximum 0,1°C au-dessus de la barre des 1,5°C de réchauffement climatique",
+                                "cites":["4.3","Cross-Section Box TS.1"],
+                                "figref":["SPM.4"],
+                                "tableref":["Table SPM.1"]
+                            },
+                            {
+                                "ref":"B.1.4",
+                                "en_EN": "Global surface temperature in any single year can vary above or below the long-term human-induced trend, due to substantial natural variability<ref>28</ref>. The occurrence of individual years with global surface temperature change above a certain level, for example 1.5°C or 2ºC, relative to 1850–1900 does not imply that this global warming level has been reached<ref>29</ref>.",
+                                "cites":["Cross-Chapter Box 2.3","4.3","4.4","Box 4.1","Cross-Section Box TS.1"],
+                                "fr_FR":"La température à la surface du globe peut, au cours d’une année donnée, varier au-dessous ou en dessous de la tendance à long-terme induite par l’homme, en raison d’une variabilité naturelle importante<ref>28</ref>. L’apparition, au cours d’une année donnée, d’une variation de la température mondiale en surface supérieur à un certain niveau, par exemple 1,5 °C ou 2 °C par rapport à la période 1850-1900, n’implique pas que ce niveau de réchauffement planétaire ait été atteint<ref>29</ref>.",
+                                "figref":["SPM.1","SPM.8"],
+                                "tableref":["Table SPM.1"]
+                            }
+                        ]
+                    },
+                    {
+                        "ref":"B.2",
+                        "startPage":20,
+                        "endPage":21,
+                        "en_EN":"Many changes in the climate system become larger in direct relation to increasing global warming. They include increases in the frequency and intensity of hot extremes, marine heatwaves, and heavy precipitation, agricultural and ecological droughts in some regions, and proportion of intense tropical cyclones, as well as reductions in Arctic sea ice, snow cover and permafrost.",
+                        "fr_FR":"De multiples changements dans le système climatiques s’intensifient, en relation directe avec l’augmentation du réchauffement de la planète. On peut notamment mentionner l’augmentation de la fréquence et de l’intensité des chaleurs extrêmes, les vagues de chaleur marine, les fortes précipitations, les sécheresses agricoles et écologiques dans certaines régions, la proportion de cyclones tropicaux intenses, ainsi que la réduction de la banquise arctique, du manteau neigeux et du pergélisol",
+                        "cites": [
+                            "4.3","4.5","4.6","7.4","8.2","8.4","Box 8.2","9.3","9.5","Box 9.2","11.1","11.2","11.3","11.4","11.6","11.7","11.9",
+                            "Cross-Chapter Box 11.1", "12.4", "12.5","Cross-Chapter Box 12.1", "Atlas.4","Atlas.5","Atlas.6","Atlas.7",
+                            "Atlas.8","Atlas.9","Atlas.10","Atlas.11"
+                        ],
+                        "figures": ["SPM.5","SPM.6","SPM.8"],
+                        "chapters": [
+                            {
+                                "ref":"B.2.1",
+                                "en_EN": "It is _virtually certain_ that the land surface will continue to warm more than the ocean surface (_likely_ 1.4 to 1.7 times more). It is _virtually certain_ that the Arctic will continue to warm more than global surface temperature, with _high confidence_ above two times the rate of global warming.",
+                                "fr_FR":"Il est pratiquement certain que la surface terrestre continuera à se réchauffer plus que la surface des océans (sans doute 1,4 à 1,7 fois plus). Il est pratiquement certain que l’Arctique continuera à se réchauffer davantage que la température de la surface de la planète, à hauteur de deux fois le taux de réchauffement de la planète (_fiabilité forte_).",
+                                "cites":["2.3","4.3","4.5","4.6","7.4","11.1","11.3","11.9","12.4","12.5",
+                                "Cross-Chapter Box 12.1", "Atlas.4","Atlas.5","Atlas.6","Atlas.7",
+                                "Atlas.8","Atlas.9","Atlas.10","Atlas.11","Cross-Section Box TS.1", "TS.2.6"],
+                                "figref":["SPM.5"]
+                            },
+                            {
+                                "ref":"B.2.2",
+                                "en_EN": "With every additional increment of global warming, changes in extremes continue to become larger. For example, every additional 0.5°C of global warming causes clearly discernible increases in the intensity and frequency of hot extremes, including heatwaves (_very likely_), and heavy precipitation (_high confidence_), as well as agricultural and ecological droughts<ref>30</ref> in some regions (_high confidence_). Discernible changes in intensity and frequency of meteorological droughts, with more regions showing increases than decreases, are seen in some regions for every additional 0.5°C of global warming (_medium confidence_). Increases in frequency and intensity of hydrological droughts become larger with increasing global warming in some regions (_medium confidence_). There will be an increasing occurrence of some extreme events unprecedented in the observational record with additional global warming, even at 1.5°C of global warming. Projected percentage changes in frequency are higher for rarer events (_high confidence_).",
+                                "fr_FR":"À chaque incrément supplémentaire du réchauffement climatique, les changements extrêmes s’amplifieront. Par exemple, chaque 0,5 °C supplémentaire entraînerait une augmentation clairement perceptible de l’intensité et de la fréquence des chaleurs extrêmes, y compris les vagues de chaleur (_très probable_) et les fortes précipitations (_fiabilité forte_), ainsi que les sécheresses agricoles et écologiques<ref>30</ref> dans certaines régions (_fiabilité forte_). Des changements perceptibles dans l’intensité et la fréquence des sécheresses météorologiques, avec davantage de régions présentant des augmentations que des diminutions, sont observés dans certaines régions, pour chaque 0,5 °C supplémentaire (_fiabilité moyenne_). Les augmentations de la fréquence et de l’intensité des sécheresses hydrologiques deviennent plus importantes avec l’augmentation du réchauffement climatique dans certaines régions (_fiabilité moyenne_). L’occurrence de certains événements extrêmes, sans précédents dans les archives d’observation climatique, augmentera avec le réchauffement planétaire, même avec une barre à 1,5 °C. Les pourcentages de changement de fréquence sont plus élevés pour les événements les plus rares (_fiabilité élevée_)",
+                                "cites":["8.2","11.2","11.3","11.4","11.6","11.9","Cross-Chapter Box 11.1","Cross-Chapter Box 12.1","TS.2.6"],
+                                "figref":["SPM.5","SPM.6"]
+                            },
+                            {
+                                "ref":"B.2.3",
+                                "en_EN": "Some mid-latitude and semi-arid regions, and the South American Monsoon region, are projected to see the highest increase in the temperature of the hottest days, at about 1.5 to 2 times the rate of global warming (_high confidence_). The Arctic is projected to experience the highest increase in the temperature of the coldest days, at about 3 times the rate of global warming (_high confidence_). With additional global warming, the frequency of marine heatwaves will continue to increase (_high confidence_), particularly in the tropical ocean and the Arctic (_medium confidence_).",
+                                "fr_FR":"Certaines régions de latitudes moyennes et semi-arides, ainsi que la région de la mousson sud-américaine, devraient connaître la plus forte augmentation de la température des maximums de chaleur, soit environ 1,5 à 2 fois le taux de réchauffement planétaire (_fiabilité élevée_). L’Arctique devrait connaître la plus forte augmentation de la température des minimums de chaleur, à environ 3 fois le taux de réchauffement planétaire (_fiabilité élevée_). Avec la poursuite du réchauffement climatique, la fréquence des vagues de chaleur marine continuera d’augmenter (_fiabilité élevée_), en particulier dans l’océan tropical et l’Arctique (_fiabilité moyenne_).",
+                                "cites":["Box 9.2","11.1","11.3","11.9","Cross-Chapter Box 11.1","Cross-Chapter Box 12.1","12.4","TS.2.4","TS.2.6"],
+                                "figref":["SPM.6"]
+                            },
+                            {
+                                "ref":"B.2.4",
+                                "en_EN": "It is _very likely_ that heavy precipitation events will intensify and become more frequent in most regions with additional global warming. At the global scale, extreme daily precipitation events are projected to intensify by about 7% for each 1°C of global warming (_high confidence_). The proportion of intense tropical cyclones (categories 4-5) and peak wind speeds of the most intense tropical cyclones are projected to increase at the global scale with increasing global warming (_high confidence_).",
+                                "fr_FR":"Il est très probable que les épisodes de fortes précipitations s’intensifieront et deviendront plus fréquents dans la plupart des régions affectées par un réchauffement climatique important. À l’échelle mondiale, les précipitations quotidiennes extrêmes devraient s’intensifier d’environ 7 % pour chaque 1 °C supplémentaire (_fiabilité élevée_). La proportion de cyclones tropicaux intenses (catégories 4 et 5) et les vitesses de vent maximales des cyclones tropicaux les plus intenses devraient augmenter à l’échelle mondiale avec le réchauffement climatique (_fiabilité élevée_).",
+                                "cites":["8.2","11.4","11.7","11.9","Cross-Chapter Box 11.1","Box TS.6","TS.4.3.1"],
+                                "figref":["SPM.5","SPM.6"]
+                            },
+                            {
+                                "ref":"B.2.5",
+                                "en_EN": "Additional warming is projected to further amplify permafrost thawing, and loss of seasonal snow cover, of land ice and of Arctic sea ice (_high confidence_). The Arctic is _likely_ to be practically sea ice free in September<ref>31</ref> at least once before 2050 under the five illustrative scenarios considered in this report, with more frequent occurrences for higher warming levels. There is _low confidence_ in the projected decrease of Antarctic sea ice.",
+                                "fr_FR":"Un réchauffement supplémentaire devrait amplifier le dégel du pergélisol et la fonte du manteau neigeux saisonnier, ainsi que de la glace terrestre et la banquise arctique (_fiabilité élevée_). Il est _probable_ que l’Arctique soit pratiquement dépourvu de glace marine en septembre<ref>31</ref>, au moins une fois avant 2050, dans le cadre des cinq scénarios illustratifs envisagés, les occurrences étant plus fréquentes pour les niveaux de réchauffement les plus élevés. Il existe une _confiance faible_ dans la diminution projetée de la glace arctique.",
+                                "cites":["4.3","4.5","7.4","8.2","8.4","Box 8.2","9.3","9.5","12.4","Cross-Chapter Box 12.1","Atlas.5","Atlas.6","Atlas.8","Atlas.9",
+                                "Atlas.11","TS.2.5"],
+                                "figref":["SPM.8"]
+                            }
+                        ]
+                    },
+                    {
+                        "ref":"B.3",
+                        "startPage":26,
+                        "endPage":26,
+                        "en_EN":"Continued global warming is projected to further intensify the global water cycle, including its variability, global monsoon precipitation and the severity of wet and dry events.",
+                        "fr_FR":"La poursuite du réchauffement climatique devrait encore intensifier le cycle planétaire de l’eau, notamment sa variabilité, les précipitations de la mousson et la sévérité des épisodes humides et secs.",
+                        "cites": [
+                            "4.3","4.4","4.5","4.6","8.2","8.3","8.4","8.5","Box 8.2","11.4","11.6","11.9","12.4","Atlas.3"
+                        ],
+                        "figures": ["SPM.5","SPM.6"],
+                        "chapters": [
+                            {
+                                "ref":"B.3.1",
+                                "en_EN": "There is strengthened evidence since AR5 that the global water cycle will continue to intensify as global temperatures rise (_high confidence_), with precipitation and surface water flows projected to become more variable over most land regions within seasons (_high confidence_) and from year to year (_medium confidence_). The average annual global land precipitation is projected to increase by 0–5% under the very low GHG emissions scenario (SSP1-1.9), 1.5-8% for the intermediate GHG emissions scenario (SSP2-4.5) and 1–13% under the very high GHG emissions scenario (SSP5-8.5) by 2081–2100 relative to 1995-2014 (_likely_ ranges). Precipitation is projected to increase over high latitudes, the equatorial Pacific and parts of the monsoon regions, but decrease over parts of the subtropics and limited areas in the tropics in SSP2-4.5, SSP3-7.0 and SSP5-8.5 (_very likely_). The portion of the global land experiencing detectable increases or decreases in seasonal mean precipitation is projected to increase (_medium confidence_). There is _high confidence_ in an earlier onset of spring snowmelt, with higher peak flows at the expense of summer flows in snow-dominated regions globally.",
+                                "fr_FR":"Depuis le rapport précédent, il est de plus en plus évident que le cycle planétaire de l’eau continuera à s’intensifier avec l’augmentation des températures mondiales (_fiabilité élevée_). Les précipitations et les flux d’eau de surface devraient devenir plus variables sur la plupart des régions terrestres au cours des saisons (_fiabilité élevée_) et d’une année à l’autre (_fiabilité moyenne_). Les précipitations terrestres mondiales annuelles moyennes devraient augmenter de 0 à 5 % dans le scénario très faible, de 1,5 à 8 % dans le scénario intermédiaires et de 1 à 13 % dans le scénario très élevé des émissions de GES, d’ici 2081-2100, par rapport à la période 1995-2014 (fourchettes _probables_). Les précipitations devraient augmenter dans les zones de hautes latitudes, dans le Pacifique équatorial et dans certaines parties des régions de mousson, mais diminuer dans certaines parties des régions subtropicales et dans certaines parties des régions tropicales, dans les scénarios SSP2-4,5, SSP3-7,0 et SSP5-8,5 (_très probable_). La partie des terres émergées qui connaît des augmentations ou des diminutions détectables des précipitations moyennes saisonnières devrait augmenter (_fiabilité moyenne_). Il y a une _forte probabilité_ que la fonte des neiges printanières commence plus tôt, avec des débuts de pointe plus élevés, au détriment des débits estivaux, dans les régions dominées par la neige, peu importe la position sur le globe.",
+                                "cites":["4.3","4.5","4.6","8.2","8.4","Atlas.3","TS.2.6","Box TS.6","TS.4.3"],
+                                "figref":["SPM.5"]
+                            },
+                            {
+                                "ref":"B.3.2",
+                                "en_EN": "A warmer climate will intensify very wet and very dry weather and climate events and seasons, with implications for flooding or drought (_high confidence_), but the location and frequency of these events depend on projected changes in regional atmospheric circulation, including monsoons and mid-latitude storm tracks. It is _very likely_ that rainfall variability related to the El Niño–Southern Oscillation is projected to be amplified by the second half of the 21st century in the SSP2-4.5, SSP3-7.0 and SSP5-8.5 scenarios.",
+                                "fr_FR":"Un climat plus chaud intensifiera les périodes très humides et très sèches, ainsi que les événements climatiques et les saisons, avec des conséquences sur les inondations ou les sécheresses (_fiabilité élevée_), mais l’emplacement et la fréquence de ces événements dépendent des changements projetés dans la circulation atmosphérique à l’échelle régionale, y compris les moussons et les trajectoires des tempêtes pour les latitudes moyennes. Il est _très probable_ que la variabilité des précipitations liée à El Niño – Oscillation australe (ENSO) s’amplifie d’ici la seconde moitié du XXIe siècle dans les scénarios SSP2-4,5, SSP3-7,0 et SSP5-8,5.",
+                                "cites":["4.3","4.5","4.6","8.2","8.4","8.5","11.4","11.6","11.9","12.4","TS.2.6","TS.4.2","Box TS.6"],
+                                "figref":["SPM.5","SPM.6"]
+                            },
+                            {
+                                "ref":"B.3.3",
+                                "en_EN": "Monsoon precipitation is projected to increase in the mid- to long term at global scale, particularly over South and Southeast Asia, East Asia and West Africa apart from the far west Sahel (_high confidence_). The monsoon season is projected to have a delayed onset over North and South America and West Africa (_high confidence_) and a delayed retreat over West Africa (_medium confidence_).",
+                                "fr_FR":"Selon les estimations, les précipitations de mousson devraient augmenter à moyen et long-terme, à l’échelle mondiale, mais en particulier en Asie du Sud et du Sud-Est, en Asie de l’Est et en Afrique de l’Ouest, à l’exception de l’extrême-occidental du Sahel (_fiabilité élevée_). La saison de la mousson devrait être décalée sur l'Amérique du Nord et du Sud et l'Afrique de l'Ouest (_fiabilité élevée_), et sa période de fin serait reculée sur l'Afrique de l'Ouest (_medium confidence_)",
+                                "cites":["4.4","4.5","8.2","8.3","8.4","Box 8.2","Box TS.13"]
+                            },
+                            {
+                                "ref":"B.3.4",
+                                "en_EN": "A projected southward shift and intensification of Southern Hemisphere summer mid-latitude storm tracks and associated precipitation is _likely_ in the long term under high GHG emissions scenarios (SSP3-7.0, SSP5-8.5), but in the near term the effect of stratospheric ozone recovery counteracts these changes (_high confidence_). There is _medium confidence_ in a continued poleward shift of storms and their precipitation in the North Pacific, while there is _low confidence_ in projected changes in the North Atlantic storm tracks.",
+                                "fr_FR":"Un déplacement vers le sud et une intensification des trajectoires des tempêtes estivales aux latitudes moyennes de l’hémisphère Sud sont _probables_, avec les précipitations qui y sont associées à long-terme, dans le cadre du scénario très élevé d’émissions de GES. À court-terme, l’effet de la reconstitution de l’ozone stratosphérique contrebalance ces changements (_fiabilité élevée_). Une _confiance moyenne_ est disponible en ce qui concerne la poursuite du déplacement vers le pôle des tempêtes et de leurs précipitations dans le Pacifique Nord, tandis qu'il existe une _confiance faible_ en ce qui concerne les changements prévus pour les trajectoires des tempêtes de l’Atlantique Nord.",
+                                "cites":["TS.4.2","4.4","4.5","8.4","TS.2.3"]
+                            }
+                        ]
+                    },
+                    {
+                        "ref":"B.4",
+                        "startPage":26,
+                        "endPage":27,
+                        "en_EN":"Under scenarios with increasing CO 2 emissions, the ocean and land carbon sinks are projected to be less effective at slowing the accumulation of CO 2 in the atmosphere.",
+                        "fr_FR":"Dans les scénarios où les émissions de CO2 augmentent, les puits de carbone océaniques et terrestres devraient être moins efficaces pour ralentir l’accumulation du dioxyde de carbone dans l’atmosphère.",
+                        "cites": [
+                            "4.3","5.2","5.4","5.5","5.6"
+                        ],
+                        "figures": ["SPM.7"],
+                        "chapters": [
+                            {
+                                "ref":"B.4.1",
+                                "en_EN": "While natural land and ocean carbon sinks are projected to take up, in absolute terms, a progressively larger amount of CO<sub>2</sub> under higher compared to lower CO<sub>2</sub> emissions scenarios, they become less effective, that is, the proportion of emissions taken up by land and ocean decrease with increasing cumulative CO<sub>2</sub> emissions. This is projected to result in a higher proportion of emitted CO<sub>2</sub> remaining in the atmosphere (_high confidence_).",
+                                "fr_FR":"Bien que les puits de carbone naturels terrestres et océaniques devraient absorber, en termes absolus, une quantité de CO<sub>2</sub> plus grande, dans les scénarios d’émissions de CO<sub>2</sub> élevés par rapport aux scénarios plus faibles, ils perdent relativement de leur efficacité, c’est-à-dire que la proportion des émissions absorbées par les terres et les océans diminue avec l’augmentation des émissions cumulées de CO<sub>2</sub>. Il en résulterait une plus grande proportion restante de CO<sub>2</sub> émis dans l’atmosphère (_fiabilité élevée_).",
+                                "cites":["5.2","5.4","Box TS.5"],
+                                "figref":["SPM.7"]
+                            },
+                            {
+                                "ref":"B.4.2",
+                                "en_EN": "Based on model projections, under the intermediate scenario that stabilizes atmospheric CO<sub>2</sub> concentrations this century (SSP2-4.5), the rates of CO<sub>2</sub> taken up by the land and oceans are projected to decrease in the second half of the 21st century (_high confidence_). Under the very low and low GHG emissions scenarios (SSP1-1.9, SSP1-2.6), where CO<sub>2</sub> concentrations peak and decline during the 21st century, land and oceans begin to take up less carbon in response to declining atmospheric CO<sub>2</sub> concentrations (_high confidence_) and turn into a weak net source by 2100 under SSP1-1.9 (_medium confidence_). It is very unlikely that the combined global land and ocean sink will turn into a source by 2100 under scenarios without net negative emissions<ref>32</ref> (SSP2-4.5, SSP3-7.0, SSP5-8.5).",
+                                "fr_FR":"D’après les projections, dans le cadre du scénario intermédiaire d’émissions, qui stabilise les concentrations de CO<sub>2</sub> dans l’atmosphère au cours de ce siècle, les taux d’absorption du CO<sub>2</sub> par les terres et les océans devraient diminuer au cours de la seconde moitié du XXIe siècle (_fiabilité élevée_). Dans les scénarios de très faibles ou faibles émissions de GES, où les concentrations de CO<sub>2</sub> atteignent un pic, puis diminuent au cours du XXIe siècle, les terres et les océans commencent à absorber moins de carbone, du fait de la baisse des concentrations de CO2 dans l’atmosphère (_fiabilité élevée_) et deviennent une source nette faible d’ici 2100, dans le scénario SSP1-1,9 (_fiabilité moyenne_). Il est _très peu probable_ que le puits global combiné des terres et des océans devienne une source d’ici 2100, dans les scénarios sans émissions négatives nettes<ref>32</ref>.",
+                                "cites":["4.3","5.4","5.5","5.6","Box TS.5","TS.3.3"]
+                            },
+                            {
+                                "ref":"B.4.3",
+                                "en_EN": "The magnitude of feedbacks between climate change and the carbon cycle becomes larger but also more uncertain in high CO<sub>2</sub> emissions scenarios (_very high confidence_). However, climate model projections show that the uncertainties in atmospheric CO<sub>2</sub> concentrations by 2100 are dominated by the differences between emissions scenarios (_high confidence_). Additional ecosystem responses to warming not yet fully included in climate models, such as CO<sub>2</sub> and CH<sub>4</sub> fluxes from wetlands, permafrost thaw and wildfires, would further increase concentrations of these gases in the atmosphere (_high confidence_).",
+                                "fr_FR":"L’ampleur des rétroactions entre le changement climatique et le cycle du carbone devient de plus en plus importante, mais aussi de plus en plus incertaine dans les scénarios à fortes émissions de CO<sub>2</sub> (_fiabilité très élevée_). Néanmoins, les projections des modèles climatiques montrent que les incertitudes relatives aux concentrations de CO<sub>2</sub> dans l’atmosphère d’ici 2100 sont dominées par les différences entre les scénarios d’émissions (_fiabilité élevée_). D’autres réactions des écosystèmes vis-à-vis du réchauffement ne sont pas totalement prises en compte dans les modèles climatiques, ainsi les flux de CO<sub>2</sub> et de CH<sub>4</sub> provenant des zones humides, la fonte du pergélisol et les incendies de forêt. Ils augmenteraient encore les concentrations de ces gaz dans l’atmosphère (_fiabilité élevée_).",
+                                "cites":["5.4","Box TS.5","TS.3.2"]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ref":"C",
+                "en_EN": "Climate Information for Risk Assessment and Regional Adaptation",
+                "fr_FR":"Informations climatiques pour l'analyse de risques et l'adaptation régionale",
+                "startPage":32,
+                "endPage:":36,
+                "chapters": [
+                    {
+
+                    }
+                ]
+            },
+            {
+                "ref":"D",
+                "en_EN": "Limiting Future Climate Change",
+                "fr_FR":"Limiter le changement climatique futur",
+                "startPage":37,
+                "endPage:":42,
+                "chapters": [
+                    {
+                        
+                    }
+                ]
+            }
+        ]
+    },
+
+    "figures": {
+        "SPM.1": {
+            "title":{
+                "en_EN":"Human inﬂuence has warmed the climate at a rate that is unprecedented in at least the last 2000 years",
+                "fr_FR":""
+            },
+            "subtitle":{
+                "en_EN":"History of global temperature change and causes of recent warming."
+            },
+            "description": {
+                "en_EN":[
+                    "<b>Panel a): Changes in global surface temperature reconstructed from paleoclimate archives</b> (solid grey line,1–2000) <b>and from direct observations</b> (solid black line, 1850–2020), both relative to 1850–1900 and decadally averaged. The vertical bar on the left shows the estimated temperature (very likely range) during the warmest multi-century period in at least the last 100,000 years, which occurred around 6500 years ago during the current interglacial period (Holocene). The Last Interglacial, around 125,000 years ago, is the next most recent candidate for a period of higher temperature. These past warm periods were caused by slow  multi-millennial) orbital variations. The grey shading with white diagonal lines shows the very likely ranges for the temperature reconstructions.",
+
+                    "<b>Panel b): Changes in global surface temperature over the past 170 years</b> (black line) relative to 1850–1900 and annually averaged, compared to CMIP6 climate model simulations (see Box SPM.1) of the temperature response to both human and natural drivers (brown), and to only natural drivers (solar and volcanic activity, green). Solid coloured lines show the multi-model average, and coloured shades show the very likely range of simulations. (see Figure SPM.2 for the assessed contributions to warming)."
+                ]
+            },
+            "cites": ["2.3.1","3.3","Cross-Chapter Box 2.3","Cross-Section Box TS.1","Figure 1a","TS.2.2"]
+        },
+        "SPM.2": {
+            "title":{
+                "en_EN":"Observed warming is driven by emissions from human activities, with greenhouse gas warming partly masked by aerosol cooling"
+            },
+            "subtitle":{
+                "en_EN":"Assessed contributions to observed warming in 2010–2019 relative to 1850–1900."
+            },
+            "description":{
+                "en_EN":["<b>Panel a): Observed global warming</b> (increase in global surface temperature) and its _very likely_ range.",
+                    
+                "<b>Panel b): Evidence from attribution studies</b>, which synthesize information from climate models and observations. The panel shows temperature change attributed to total human influence, changes in well-mixed greenhouse gas concentrations, other human drivers due to aerosols, ozone and land-use change (land-use reflectance), solar and volcanic drivers, and internal climate variability. Whiskers show _likely_ ranges.",
+                
+                "<b>Panel c): Evidence from the assessment of radiative forcing and climate sensitivity.</b> The panel shows temperature changes from individual components of human influence, including emissions of greenhouse gases, aerosols and their precursors; land-use changes (land-use reflectance and irrigation); and aviation contrails. Whiskers show _very likely_ ranges. Estimates account for both direct emissions into the atmosphere and their effect, if any, on other climate drivers. For aerosols, both direct (through radiation) and indirect (through interactions with clouds) effects are considered."]
+            },
+            "cites_by_panel": [
+                ["3.3.1","Box 2.3"],
+                ["3.3.1"],
+                ["6.4.2","7.3"]
+            ]
+        },
+        "SPM.3": {
+            "title":{
+                "en_EN":"Climate change is already aﬀecting every inhabited region across the globe with human inﬂuence contributing to many observed changes in weather and climate extremes"
+            },
+            "subtitle":{
+                "en_EN":"Synthesis of assessed observed and attributable regional changes."
+            },
+            "description":{
+                "en_EN":[
+                    "The IPCC AR6 WGI inhabited regions are displayed as <b>hexagons</b> with identical size in their approximate geographical location (see legend for regional acronyms). All assessments are made for each region as a whole and for the 1950s to the present. Assessments made on different time scales or more local spatial scales might differ from what is shown in the figure. The <b>colours</b> in each panel represent the four outcomes of the assessment on observed changes. White and light grey striped hexagons are used where there is low agreement in the type of change for the region as a whole, and grey hexagons are used when there is limited data and/or literature that prevents an assessment of the region as a whole. Other colours indicate at least _medium confidence_ in the observed change. The <b>confidence level</b> for the human influence on these observed changes is based on assessing trend detection and attribution and event attribution literature, and it is indicated by the number of dots: three dots for _high confidence_, two dots for _medium confidence_ and one dot for _low confidence_ (filled: limited agreement; empty: limited evidence).",
+                    "<b>Panel a) For hot extremes</b>, the evidence is mostly drawn from changes in metrics based on daily maximum temperatures; regional studies using other indices (heatwave duration, frequency and intensity) are used in addition. Red hexagons indicate regions where there is at least _medium confidence_ in an observed increase in hot extremes.",
+                    "<b>Panel b) For heavy precipitation</b>, the evidence is mostly drawn from changes in indices based on one-day or five- day precipitation amounts using global and regional studies. Green hexagons indicate regions where there is at least _medium confidence_ in an observed increase in heavy precipitation.",
+                    "<b>Panel c) Agricultural and ecological droughts</b> are assessed based on observed and simulated changes in total column soil moisture, complemented by evidence on changes in surface soil moisture, water balance (precipitation minus evapotranspiration) and indices driven by precipitation and atmospheric evaporative demand. Yellow hexagons indicate regions where there is at least _medium confidence_ in an observed increase in this type of drought and green hexagons indicate regions where there is at least _medium confidence_ in an observed decrease in agricultural and ecological drought.",
+                    "For all regions, table TS.5 shows a broader range of observed changes besides the ones shown in this figure. Note that SSA is the only region that does not display observed changes in the metrics shown in this figure, but is affected by observed increases in mean temperature, decreases in frost, and increases in marine heatwaves."
+                ]
+            },
+            "cites": ["11.9", "Table TS.5", "Box TS.10", "Figure 1", "Atlas 1.3.3", "Figure Atlas.2"]
+        }
+    },
+
+    "1": {
+        "ref":"1",
+        "en_EN":"Framing, context, and methods",
+        "chapters": [
+            {
+                "ref":"1.es",
+                "en_EN":"Executive Summary"
+            },
+            {
+                "ref":"1.1",
+                "en_EN": "Report and chapter overview",
+                "chapters":[
+                    {
+                        "ref":"1.1.1",
+                        "en_EN":"The AR6 WGI Report"
+                    },
+                    {
+                        "ref":"1.1.2",
+                        "en_EN":"Rationale for the new AR6 WGI structure and its relation to the previous AR5 WGI Report"
+                    },
+                    {
+                        "ref":"1.1.3",
+                        "en_EN":"Integration of AR6 WGI assessments with other Working Groups"
+                    },
+                    {
+                        "ref":"1.1.4",
+                        "en_EN":"Chapter preview"
+                    }
+                ]
+            },
+            {
+                "ref":"1.2",
+                "en_EN": "Where we are now",
+                "chapters": [
+                    {
+                        "ref":"1.2.1",
+                        "en_EN":"The changing state of the physical climate system"
+                    },
+                    {
+                        "ref":"1.2.2",
+                        "en_EN":"The policy and governance context",
+                        "chapters": [
+                            {
+                                "ref":"1.2.2.1",
+                                "en_EN":"Recent changes in multiple climate indicators"
+                            },
+                            {
+                                "ref":"1.2.2.2",
+                                "en_EN":"Long-term perspectives on anthropogenic climate change"
+                            }
+                        ]
+                    },
+                    {
+                        "ref":"1.2.3",
+                        "en_EN":"Linking science and society: communication, values, and the IPCC assessment process",
+                        "chapters":[
+                            {
+                                "ref":"1.2.3.1",
+                                "en_EN":"Climate change understanding, communication, and uncertainties"
+                            },
+                            {
+                                "ref":"1.2.3.2",
+                                "en_EN":"Values, science, and climate change communication"
+                            },
+                            {
+                                "ref":"1.2.3.3",
+                                "en_EN":"Climate information, co-production, and climate services"
+                            },
+                            {
+                                "ref":"1.2.3.4",
+                                "en_EN":"Media coverage of climate change"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ref":"Cross-Chapter Box 1.1",
+                "en_EN":"The WG-I contribution to the AR6 and its potential relevance for the global stocktake"
+            },
+            {
+                "ref":"1.3",
+                "en_EN":"How we got here: the scientific context",
+                "chapters":[
+                    {
+                        "ref":"1.3.1",
+                        "en_EN":"Lines of evidence: instrumental observations"
+                    },
+                    {
+                        "ref":"1.3.2",
+                        "en_EN":"Lines of evidence: paleoclimate"
+                    },
+                    {
+                        "ref":"1.3.3",
+                        "en_EN":"Lines of evidence: identifying natural and human drivers"
+                    },
+                    {
+                        "ref":"1.3.4",
+                        "en_EN":"Lines of evidence: understanding and attributing climate change"
+                    },
+                    {
+                        "ref":"1.3.5",
+                        "en_EN":"Projections of future climate change"
+                    },
+                    {
+                        "ref":"1.3.6",
+                        "en_EN":"How do previous climate projections compare with subsequent observations?"
+                    }
+                ]
+            },
+            {
+                "ref":"1.4",
+                "en_EN":"AR6 foundations and concepts",
+                "chapters":[
+                    {
+                        "ref":"1.4.1",
+                        "en_EN":"Baselines, reference periods and anomalies"
+                    },
+                    {
+                        "ref":"1.4.2",
+                        "en_EN":"Variability and emergence of the climate change signal",
+                        "chapters": [
+                            {
+                                "ref":"1.4.2.1",
+                                "en_EN":"Climate variability can influence trends over short periods"
+                            },
+                            {
+                                "ref":"1.4.2.2",
+                                "en_EN":"The emergence of the climate change signal"
+                            }
+                        ]
+                    },
+                    {
+                        "ref":"1.4.3",
+                        "en_EN":"Sources of uncertainty in climate simulations",
+                        "chapters": [
+                            {
+                                "ref":"1.4.3.1",
+                                "en_EN":"Sources of uncertainty"
+                            },
+                            {
+                                "ref":"1.4.3.2",
+                                "en_EN":"Uncertainty quantification"
+                            }
+                        ]
+                    },
+                    {
+                        "ref":"1.4.4",
+                        "en_EN":"Considering an uncertain future",
+                        "chapters":[
+                            {
+                                "ref":"1.4.4.1",
+                                "en_EN":"Low-likelihood outcomes"
+                            },
+                            {
+                                "ref":"1.4.4.2",
+                                "en_EN":"Storylines"
+                            },
+                            {
+                                "ref":"1.4.4.3",
+                                "en_EN":"Abrupt change, tipping points and surprises"
+                            }
+                        ]
+                    },
+                    {
+                        "ref":"1.4.5",
+                        "en_EN":"Climate regions used in AR6",
+                        "chapters":[
+                            {
+                                "ref":"1.4.5.1",
+                                "en_EN":"Defining climate regions"
+                            },
+                            {
+                                "ref":"1.4.5.2",
+                                "en_EN":"Types of regions used in AR6"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ref":"Cross-Chapter Box 1.2",
+                "en_EN":"Changes in global temperature between 1750 and 1850"
+            },
+            {
+                "ref":"Cross-Chapter Box 1.3",
+                "en_EN":"Risk framing in IPCC AR6"
+            },
+            {
+                "ref":"Cross-Working Group Box",
+                "en_EN":"Attributions"
+            },
+            {
+                "ref":"1.5",
+                "en_EN":"Major developments and their implications",
+                "chapters":[
+                    {
+                        "ref":"1.5.1",
+                        "en_EN":"Observational data and observing systems",
+                        "chapters":[
+                            {
+                                "ref":"1.5.1.1",
+                                "en_EN":"Major expansions of observational capacity"
+                            },
+                            {
+                                "ref":"1.5.1.2",
+                                "en_EN":"Threats to observational capacity or continuity"
+                            }
+                        ]
+                    },
+                    {
+                        "ref":"1.5.2",
+                        "en_EN":"New developments in reanalyses"
+                    },
+                    {
+                        "ref":"1.5.3",
+                        "en_EN":"Climate Models",
+                        "chapters":[
+                            {
+                                "ref":"1.5.3.1",
+                                "en_EN":"Earth System Models"
+                            },
+                            {
+                                "ref":"1.5.3.2",
+                                "en_EN":"Model tuning and adjustment"
+                            },
+                            {
+                                "ref":"1.5.3.3",
+                                "en_EN":"From global to regional models"
+                            },
+                            {
+                                "ref":"1.5.3.4",
+                                "en_EN":"Models of lower complexity"
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "1.5.4",
+                        "en_EN": "Modelling techniques, comparisons and performance assessments",
+                        "startPage": 89,
+                        "chapters": [
+                            {
+                                "ref": "1.5.4.2",
+                                "en_EN": "Ensemble modelling techniques",
+                                "startPage": 89
+                            },
+                            {
+                                "ref": "1.5.4.3",
+                                "en_EN": "The sixth phase of the Coupled Model Intercomparison Project (CMIP6)",
+                                "startPage": 91
+                            },
+                            {
+                                "ref": "1.5.4.4",
+                                "en_EN": "Coordinated Regional Downscaling Experiment (CORDEX)",
+                                "startPage": 93
+                            },
+                            {
+                                "ref": "1.5.4.5",
+                                "en_EN": "Model Evaluation Tools",
+                                "startPage": 94
+                            },
+                            {
+                                "ref": "1.5.4.6",
+                                "en_EN": "Evaluation of process-based models against observations",
+                                "startPage": 94
+                            },
+                            {
+                                "ref": "1.5.4.7",
+                                "en_EN": "Emergent constraints on climate feedbacks, sensitivities and projections",
+                                "startPage": 95
+                            },
+                            {
+                                "ref": "1.5.4.8",
+                                "en_EN": "Weighting techniques for model comparisons",
+                                "startPage": 96
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ref":"Box 1.3",
+                "en_EN":"Emission metrics in AR6 WGI"
+            },
+            {
+                "ref":"1.6",
+                "en_EN":"Dimensions of Integration: Scenarios, global warming levels and cumulative carbon emissions",
+                "chapters":[
+                    {
+                        "ref": "1.6.1",
+                        "en_EN": "Scenarios",
+                        "startPage": 98,
+                        "chapters": [
+                            {
+                                "ref": "1.6.1.1",
+                                "en_EN": "Shared Socio-economic Pathways",
+                                "startPage": 100
+                            },
+                            {
+                                "ref": "1.6.1.2",
+                                "en_EN": "Scenario generation process for CMIP6",
+                                "startPage": 107
+                            },
+                            {
+                                "ref": "1.6.1.3",
+                                "en_EN": "History of scenarios within the IPCC",
+                                "startPage": 108
+                            },
+                            {
+                                "ref": "1.6.1.4",
+                                "en_EN": "The likelihood of reference scenarios, scenario uncertainty and storylines",
+                                "startPage": 109
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "1.6.2",
+                        "en_EN": "Global warming levels",
+                        "startPage": 111
+                    },
+                    {
+                        "ref": "1.6.3",
+                        "en_EN": "Cumulative CO2 emissions",
+                        "startPage": 112
+                    }
+                ]
+            },
+            {
+                "ref":"Cross-Chapter Box 1.4",
+                "en_EN":"The SSP scenarios as used in Working Group I"
+            },
+            {
+                "ref":"1.7",
+                "en_EN":"Final remarks"
+            },
+            {
+                "ref":"FAQ1.1",
+                "en_EN": "Do we understand climate change better now compared to when IPCC started?"
+            },
+            {
+                "ref":"FAQ1.2",
+                "en_EN": "Where is climate change most apparent?"
+            },
+            {
+                "ref":"FAQ1.3",
+                "en_EN":"What can past climate teach us about the future?"
+            }
+        ]
+    },
+
+    "2": {
+        "ref":"2",
+        "en_EN":"Changing state of the climate system",
+        "chapters":[
+            {
+                "ref":"2.es",
+                "en_EN":"Executive Summary"
+            },
+            {
+                "ref":"2.1",
+                "en_EN":"Introduction"
+            },
+            {
+                "ref":"2.2",
+                "en_EN":"Changes in Climate Drivers",
+                "startPage": 12,
+                "chapters": [
+                    {
+                        "ref": "2.2.1",
+                        "en_EN": "Solar and Orbital Forcing",
+                        "startPage": 12
+                    },
+                    {
+                        "ref": "2.2.2",
+                        "en_EN": "Volcanic Aerosol Forcing",
+                        "startPage": 14
+                    },
+                    {
+                        "ref": "2.2.3",
+                        "en_EN": "Well-mixed Greenhouse Gases (WMGHGs)",
+                        "startPage": 15,
+                        "chapters": [
+                            {
+                                "ref": "2.2.3.1",
+                                "en_EN": "CO<sub>2</sub> during 450 Ma to 800 ka",
+                                "startPage": 15
+                            },
+                            {
+                                "ref": "2.2.3.2",
+                                "en_EN": "Glacial-interglacial WMGHG Fluctuations from 800 ka",
+                                "startPage": 17
+                            },
+                            {
+                                "ref": "2.2.3.3",
+                                "en_EN": "Modern measurements of WMGHGs",
+                                "startPage": 18
+                            },
+                            {
+                                "ref": "2.2.3.4",
+                                "en_EN": "Summary of changes in WMGHGs",
+                                "startPage": 20
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "2.2.4",
+                        "en_EN": "Halogenated Greenhouse Gases (CFCs, HCFCs, HFCs, PFCs, SF6 and others)",
+                        "startPage": 21,
+                        "chapters": [
+                            {
+                                "ref": "2.2.4.1",
+                                "en_EN": "CFCs",
+                                "startPage": 21
+                            },
+                            {
+                                "ref": "2.2.4.2",
+                                "en_EN": "HCFCs",
+                                "startPage": 21
+                            },
+                            {
+                                "ref": "2.2.4.3",
+                                "en_EN": "HFCs, PFCs, SF6 and other radiatively important halogenated gases",
+                                "startPage": 22
+                            },
+                            {
+                                "ref": "2.2.4.4",
+                                "en_EN": "Summary of changes in halogenated gases",
+                                "startPage": 22
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "2.2.5",
+                        "en_EN": "Other short-lived gases",
+                        "startPage": 23,
+                        "chapters": [
+                            {
+                                "ref": "2.2.5.1",
+                                "en_EN": "Stratospheric water vapour",
+                                "startPage": 23
+                            },
+                            {
+                                "ref": "2.2.5.2",
+                                "en_EN": "Stratospheric ozone",
+                                "startPage": 23
+                            },
+                            {
+                                "ref": "2.2.5.3",
+                                "en_EN": "Tropospheric ozone",
+                                "startPage": 24
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "2.2.6",
+                        "en_EN": "Aerosols",
+                        "startPage": 26
+                    },
+                    {
+                        "ref": "2.2.7",
+                        "en_EN": "Land use and land cover",
+                        "startPage": 27
+                    },
+                    {
+                        "ref": "2.2.8",
+                        "en_EN": "Effective radiative forcing (ERF) exerted by the assessed climate drivers",
+                        "startPage": 28
+                    }
+                ]
+            },
+            {
+                "ref":"2.3",
+                "en_EN":"Changes in large-scale climate",
+                "startPage": 30,
+                "chapters": [
+                    {
+                        "ref": "2.3.1",
+                        "en_EN": "Atmosphere and Earth's surface",
+                        "startPage": 32,
+                        "chapters": [
+                            {
+                                "ref": "2.3.1.1",
+                                "en_EN": "Surface temperatures",
+                                "startPage": 32
+                            },
+                            {
+                                "ref": "2.3.1.2",
+                                "en_EN": "Temperatures during the instrumental period \u2013 free atmosphere",
+                                "startPage": 47
+                            },
+                            {
+                                "ref": "2.3.1.3",
+                                "en_EN": "Global hydrological cycle",
+                                "startPage": 50
+                            },
+                            {
+                                "ref": "2.3.1.4",
+                                "en_EN": "Atmospheric circulation",
+                                "startPage": 56
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "2.3.2",
+                        "en_EN": "Cryosphere",
+                        "startPage": 63,
+                        "chapters": [
+                            {
+                                "ref": "2.3.2.1",
+                                "en_EN": "Sea ice coverage and thickness",
+                                "startPage": 63
+                            },
+                            {
+                                "ref": "2.3.2.2",
+                                "en_EN": "Terrestrial snow cover",
+                                "startPage": 67
+                            },
+                            {
+                                "ref": "2.3.2.3",
+                                "en_EN": "Glacier mass",
+                                "startPage": 67
+                            },
+                            {
+                                "ref": "2.3.2.4",
+                                "en_EN": "Ice sheet mass and extent",
+                                "startPage": 69
+                            },
+                            {
+                                "ref": "2.3.2.5",
+                                "en_EN": "Terrestrial permafrost",
+                                "startPage": 71
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "2.3.3",
+                        "en_EN": "Ocean",
+                        "startPage": 73,
+                        "chapters": [
+                            {
+                                "ref": "2.3.3.1",
+                                "en_EN": "Ocean temperature, heat content and thermal expansion",
+                                "startPage": 73
+                            },
+                            {
+                                "ref": "2.3.3.2",
+                                "en_EN": "Ocean salinity",
+                                "startPage": 75
+                            },
+                            {
+                                "ref": "2.3.3.3",
+                                "en_EN": "Sea level",
+                                "startPage": 76
+                            },
+                            {
+                                "ref": "2.3.3.4",
+                                "en_EN": "Ocean circulation",
+                                "startPage": 79
+                            },
+                            {
+                                "ref": "2.3.3.5",
+                                "en_EN": "Ocean pH",
+                                "startPage": 82
+                            },
+                            {
+                                "ref": "2.3.3.6",
+                                "en_EN": "Ocean deoxygenation",
+                                "startPage": 83
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "2.3.4",
+                        "en_EN": "Biosphere",
+                        "startPage": 84,
+                        "chapters": [
+                            {
+                                "ref": "2.3.4.1",
+                                "en_EN": "Seasonal Cycle of CO2",
+                                "startPage": 85
+                            },
+                            {
+                                "ref": "2.3.4.2",
+                                "en_EN": "Marine biosphere",
+                                "startPage": 85
+                            },
+                            {
+                                "ref": "2.3.4.3",
+                                "en_EN": "Terrestrial biosphere",
+                                "startPage": 88
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "2.3.5",
+                        "en_EN": "Synthesis of evidence for past changes",
+                        "startPage": 92
+                    }
+                ]
+            },
+            {
+                "ref":"2.4",
+                "en_EN":"Changes in modes of variability",
+                "startPage": 95,
+                "chapters": [
+                    {
+                        "ref": "2.4.1",
+                        "en_EN": "Annular modes",
+                        "startPage": 95,
+                        "chapters": [
+                            {
+                                "ref": "2.4.1.1",
+                                "en_EN": "Northern Annular Mode (NAM) \/ North Atlantic Oscillation (NAO)",
+                                "startPage": 95
+                            },
+                            {
+                                "ref": "2.4.1.2",
+                                "en_EN": "Southern Annular Mode (SAM)",
+                                "startPage": 96
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "2.4.2",
+                        "en_EN": "El Ni\u00f1o-Southern Oscillation (ENSO)",
+                        "startPage": 97
+                    },
+                    {
+                        "ref": "2.4.3",
+                        "en_EN": "Indian Ocean Basin and dipole modes",
+                        "startPage": 99
+                    }
+                ]
+            },
+            {
+                "ref":"2.5",
+                "en_EN":"Final remarks"
+            },
+            {
+                "ref":"FAQ2.1",
+                "en_EN":"The Earth's temperature has varied before. How is the current warming any different?"
+            },
+            {
+                "ref":"FAQ2.2",
+                "en_EN":"What is the evidence for climate change?"
+            }
+        ]
+    },
+
+    "3": {
+        "ref":"3",
+        "en_EN":"Human influence on the climate system",
+        "chapters":[
+            {
+                "ref":"3.es",
+                "en_EN":"Executive Summary"
+            },
+            {
+                "ref": "3.1",
+                "en_EN": "Scope and Overview",
+                "startPage": 9
+            },
+            {
+                "ref": "3.2",
+                "en_EN": "Methods",
+                "startPage": 10,
+                "chapters": [
+                    {
+                        "ref": "3.2.1",
+                        "en_EN": "Methods Based on Regression",
+                        "startPage": 11
+                    },
+                    {
+                        "ref": "3.2.2",
+                        "en_EN": "Other Probabilistic Approaches",
+                        "startPage": 12
+                    }
+                ]
+            },
+            {
+                "ref": "3.3",
+                "en_EN": "Human Influence on the Atmosphere and Surface",
+                "startPage": 12,
+                "chapters": [
+                    {
+                        "ref": "3.3.1",
+                        "en_EN": "Temperature",
+                        "startPage": 12,
+                        "chapters": [
+                            {
+                                "ref": "3.3.1.1",
+                                "en_EN": "Surface Temperature",
+                                "startPage": 12
+                            },
+                            {
+                                "ref": "3.3.1.2",
+                                "en_EN": "Upper-Air Temperature",
+                                "startPage": 23
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "3.3.2",
+                        "en_EN": "Precipitation, Humidity and Streamflow",
+                        "startPage": 29,
+                        "chapters": [
+                            {
+                                "ref": "3.3.2.1",
+                                "en_EN": "Atmospheric Water Vapour",
+                                "startPage": 31
+                            },
+                            {
+                                "ref": "3.3.2.2",
+                                "en_EN": "Precipitation",
+                                "startPage": 32
+                            },
+                            {
+                                "ref": "3.3.2.3",
+                                "en_EN": "Streamflow",
+                                "startPage": 36
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "3.3.3",
+                        "en_EN": "Atmospheric Circulation",
+                        "startPage": 39,
+                        "chapters": [
+                            {
+                                "ref": "3.3.3.1",
+                                "en_EN": "The Hadley and Walker Circulations",
+                                "startPage": 39
+                            },
+                            {
+                                "ref": "3.3.3.2",
+                                "en_EN": "Global Monsoon",
+                                "startPage": 42
+                            },
+                            {
+                                "ref": "3.3.3.3",
+                                "en_EN": "Extratropical Jets, Storm Tracks and Blocking",
+                                "startPage": 44
+                            },
+                            {
+                                "ref": "3.3.3.4",
+                                "en_EN": "Sudden Stratospheric Warming Activity",
+                                "startPage": 47
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ref": "3.4",
+                "en_EN": "Human Influence on the Cryosphere",
+                "startPage": 47,
+                "chapters": [
+                    {
+                        "ref": "3.4.1",
+                        "en_EN": "Sea Ice",
+                        "startPage": 47,
+                        "chapters": [
+                            {
+                                "ref": "3.4.1.1",
+                                "en_EN": "Arctic Sea Ice",
+                                "startPage": 47
+                            },
+                            {
+                                "ref": "3.4.1.2",
+                                "en_EN": "Antarctic Sea Ice",
+                                "startPage": 49
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "3.4.2",
+                        "en_EN": "Snow Cover",
+                        "startPage": 51
+                    },
+                    {
+                        "ref": "3.4.3",
+                        "en_EN": "Glaciers and Ice Sheets",
+                        "startPage": 52,
+                        "chapters": [
+                            {
+                                "ref": "3.4.3.1",
+                                "en_EN": "Glaciers",
+                                "startPage": 52
+                            },
+                            {
+                                "ref": "3.4.3.2",
+                                "en_EN": "Ice Sheets",
+                                "startPage": 53
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ref": "3.5",
+                "en_EN": "Human Influence on the Ocean",
+                "startPage": 55,
+                "chapters": [
+                    {
+                        "ref": "3.5.1",
+                        "en_EN": "Ocean Temperature",
+                        "startPage": 55,
+                        "chapters": [
+                            {
+                                "ref": "3.5.1.1",
+                                "en_EN": "Sea Surface and Zonal Mean Ocean Temperature Evaluation",
+                                "startPage": 55
+                            },
+                            {
+                                "ref": "3.5.1.2",
+                                "en_EN": "Tropical Sea Surface Temperature Evaluation",
+                                "startPage": 57
+                            },
+                            {
+                                "ref": "3.5.1.3",
+                                "en_EN": "Ocean Heat Content Change Attribution",
+                                "startPage": 58
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "3.5.2",
+                        "en_EN": "Ocean Salinity",
+                        "startPage": 60,
+                        "chapters": [
+                            {
+                                "ref": "3.5.2.1",
+                                "en_EN": "Sea Surface and Depth-profile Salinity Evaluation",
+                                "startPage": 61
+                            },
+                            {
+                                "ref": "3.5.2.2",
+                                "en_EN": "Salinity Change Attribution",
+                                "startPage": 62
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "3.5.3",
+                        "en_EN": "Sea Level",
+                        "startPage": 63,
+                        "chapters": [
+                            {
+                                "ref": "3.5.3.1",
+                                "en_EN": "Sea Level Evaluation",
+                                "startPage": 63
+                            },
+                            {
+                                "ref": "3.5.3.2",
+                                "en_EN": "Sea Level Change Attribution",
+                                "startPage": 64
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "3.5.4",
+                        "en_EN": "Ocean Circulation",
+                        "startPage": 65,
+                        "chapters": [
+                            {
+                                "ref": "3.5.4.1",
+                                "en_EN": "Atlantic Meridional Overturning Circulation (AMOC)",
+                                "startPage": 65
+                            },
+                            {
+                                "ref": "3.5.4.2",
+                                "en_EN": "Southern Ocean Circulation",
+                                "startPage": 67
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ref": "3.6",
+                "en_EN": "Human Influence on the Biosphere",
+                "startPage": 68,
+                "chapters": [
+                    {
+                        "ref": "3.6.1",
+                        "en_EN": "Terrestrial Carbon Cycle",
+                        "startPage": 68
+                    },
+                    {
+                        "ref": "3.6.2",
+                        "en_EN": "Ocean Biogeochemical Variables",
+                        "startPage": 71
+                    }
+                ]
+            },
+            {
+                "ref": "3.7",
+                "en_EN": "Human Influence on Modes of Climate Variability",
+                "startPage": 73,
+                "chapters": [
+                    {
+                        "ref": "3.7.1",
+                        "en_EN": "North Atlantic Oscillation and Northern Annular Mode",
+                        "startPage": 73
+                    },
+                    {
+                        "ref": "3.7.2",
+                        "en_EN": "Southern Annular Mode",
+                        "startPage": 77
+                    },
+                    {
+                        "ref": "3.7.3",
+                        "en_EN": "El Ni\u00f1o-Southern Oscillation",
+                        "startPage": 79
+                    },
+                    {
+                        "ref": "3.7.4",
+                        "en_EN": "Indian Ocean Basin and Dipole Modes",
+                        "startPage": 83
+                    },
+                    {
+                        "ref": "3.7.5",
+                        "en_EN": "Atlantic Meridional and Zonal Modes",
+                        "startPage": 85
+                    },
+                    {
+                        "ref": "3.7.6",
+                        "en_EN": "Pacific Decadal Variability",
+                        "startPage": 86
+                    },
+                    {
+                        "ref": "3.7.7",
+                        "en_EN": "Atlantic Multidecadal Variability",
+                        "startPage": 88
+                    }
+                ]
+            },
+            {
+                "ref": "3.8",
+                "en_EN": "Synthesis across Earth System Components",
+                "startPage": 91,
+                "chapters": [
+                    {
+                        "ref": "3.8.1",
+                        "en_EN": "Multivariate Attribution of Climate Change",
+                        "startPage": 91
+                    },
+                    {
+                        "ref": "3.8.2",
+                        "en_EN": "Multivariate Model Evaluation",
+                        "startPage": 92,
+                        "chapters": [
+                            {
+                                "ref": "3.8.2.1",
+                                "en_EN": "Integrative Measures of Model Performance",
+                                "startPage": 92
+                            },
+                            {
+                                "ref": "3.8.2.2",
+                                "en_EN": "Process Representation in Different Classes of Models",
+                                "startPage": 97
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ref":"FAQ3.1",
+                "en_EN":"How do we know humans are responsible for climate change?"
+            },
+            {
+                "ref":"FAQ3.2",
+                "en_EN":"What is natural variability and how has it influenced recent climate changes?"
+            },
+            {
+                "ref":"FAQ3.3",
+                "en_EN":"Are climate models improving?"
+            }
+        ]
+    },
+
+    "4": {
+        "ref":"4",
+        "en_EN":"Future global climate: scenario-based projections and near-term information",
+        "chapters":[
+            {
+                "ref":"4.es",
+                "en_EN":"Executive Summary"
+            },
+            {
+                "ref": "4.1",
+                "en_EN": "Scope and Overview of this Chapter",
+                "startPage": 9
+            },
+            {
+                "ref": "4.2",
+                "en_EN": "Methodology",
+                "startPage": 11,
+                "chapters": [
+                    {
+                        "ref": "4.2.1",
+                        "en_EN": "Models, Model Intercomparison Projects, and Ensemble Methodologies",
+                        "startPage": 11
+                    },
+                    {
+                        "ref": "4.2.2",
+                        "en_EN": "Scenarios",
+                        "startPage": 13
+                    },
+                    {
+                        "ref": "4.2.3",
+                        "en_EN": "Sources of Near-Term Information",
+                        "startPage": 14
+                    },
+                    {
+                        "ref": "4.2.4",
+                        "en_EN": "Pattern Scaling",
+                        "startPage": 17
+                    },
+                    {
+                        "ref": "4.2.5",
+                        "en_EN": "Quantifying Various Sources of Uncertainty",
+                        "startPage": 18
+                    },
+                    {
+                        "ref": "4.2.6",
+                        "en_EN": "Display of Model Agreement and Spread",
+                        "startPage": 20
+                    }
+                ]
+            },
+            {
+                "ref": "4.3",
+                "en_EN": "Projected Changes in Global Climate Indices in the 21st Century",
+                "startPage": 24,
+                "chapters": [
+                    {
+                        "ref": "4.3.1",
+                        "en_EN": "Atmosphere",
+                        "startPage": 25,
+                        "chapters": [
+                            {
+                                "ref": "4.3.1.1",
+                                "en_EN": "Surface Air Temperature",
+                                "startPage": 25
+                            },
+                            {
+                                "ref": "4.3.1.2",
+                                "en_EN": "Precipitation",
+                                "startPage": 27
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "4.3.2",
+                        "en_EN": "Cryosphere, Ocean, and Biosphere",
+                        "startPage": 28,
+                        "chapters": [
+                            {
+                                "ref": "4.3.2.1",
+                                "en_EN": "Arctic Sea Ice",
+                                "startPage": 28
+                            },
+                            {
+                                "ref": "4.3.2.2",
+                                "en_EN": "Global Mean Sea Level",
+                                "startPage": 30
+                            },
+                            {
+                                "ref": "4.3.2.3",
+                                "en_EN": "Atlantic Meridional Overturning Circulation",
+                                "startPage": 30
+                            },
+                            {
+                                "ref": "4.3.2.4",
+                                "en_EN": "Ocean and Land Carbon Uptake",
+                                "startPage": 31
+                            },
+                            {
+                                "ref": "4.3.2.5",
+                                "en_EN": "Surface Ocean pH",
+                                "startPage": 32
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "4.3.3",
+                        "en_EN": "Modes of Variability",
+                        "startPage": 32,
+                        "chapters": [
+                            {
+                                "ref": "4.3.3.1",
+                                "en_EN": "Northern and Southern Annular Modes",
+                                "startPage": 32
+                            },
+                            {
+                                "ref": "4.3.3.2",
+                                "en_EN": "El Ni\u00f1o-Southern Oscillation",
+                                "startPage": 34
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "4.3.4",
+                        "en_EN": "Synthesis Assessment of Projected Change in Global Surface Air Temperature",
+                        "startPage": 35
+                    }
+                ]
+            },
+            {
+                "ref": "4.4",
+                "en_EN": "Near-term Global Climate Changes",
+                "startPage": 39,
+                "chapters": [
+                    {
+                        "ref": "4.4.1",
+                        "en_EN": "Atmosphere",
+                        "startPage": 39,
+                        "chapters": [
+                            {
+                                "ref": "4.4.1.1",
+                                "en_EN": "Average Global Surface Air Temperature",
+                                "startPage": 39
+                            },
+                            {
+                                "ref": "4.4.1.2",
+                                "en_EN": "Spatial Patterns of Surface Warming",
+                                "startPage": 40
+                            },
+                            {
+                                "ref": "4.4.1.3",
+                                "en_EN": "Precipitation",
+                                "startPage": 40
+                            },
+                            {
+                                "ref": "4.4.1.4",
+                                "en_EN": "Global Monsoon Precipitation and Circulation",
+                                "startPage": 41
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "4.4.2",
+                        "en_EN": "Cryosphere, Ocean, and Biosphere",
+                        "startPage": 42,
+                        "chapters": [
+                            {
+                                "ref": "4.4.2.1",
+                                "en_EN": "Arctic Sea Ice",
+                                "startPage": 42
+                            },
+                            {
+                                "ref": "4.4.2.2",
+                                "en_EN": "Ocean and Land Carbon flux",
+                                "startPage": 43
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "4.4.3",
+                        "en_EN": "Modes of Variability",
+                        "startPage": 44,
+                        "chapters": [
+                            {
+                                "ref": "4.4.3.1",
+                                "en_EN": "Northern and Southern Annular Modes",
+                                "startPage": 44
+                            },
+                            {
+                                "ref": "4.4.3.2",
+                                "en_EN": "El Ni\u00f1o-Southern Oscillation",
+                                "startPage": 45
+                            },
+                            {
+                                "ref": "4.4.3.3",
+                                "en_EN": "Indian Ocean Basin and Dipole Modes",
+                                "startPage": 46
+                            },
+                            {
+                                "ref": "4.4.3.4",
+                                "en_EN": "Tropical Atlantic Modes",
+                                "startPage": 46
+                            },
+                            {
+                                "ref": "4.4.3.5",
+                                "en_EN": "Pacific Decadal Variability",
+                                "startPage": 47
+                            },
+                            {
+                                "ref": "4.4.3.6",
+                                "en_EN": "Atlantic Multidecadal Variability",
+                                "startPage": 47
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "4.4.4",
+                        "en_EN": "Response to Short-Lived Climate Forcers and Volcanic Eruptions",
+                        "startPage": 48
+                    }
+                ]
+            },
+            {
+                "ref": "4.5",
+                "en_EN": "Mid- to Long-term Global Climate Change",
+                "startPage": 53,
+                "chapters": [
+                    {
+                        "ref": "4.5.1",
+                        "en_EN": "Atmosphere",
+                        "startPage": 53,
+                        "chapters": [
+                            {
+                                "ref": "4.5.1.1",
+                                "en_EN": "Near-Surface Air Temperature",
+                                "startPage": 53
+                            },
+                            {
+                                "ref": "4.5.1.2",
+                                "en_EN": "Annual Mean Atmospheric Temperature",
+                                "startPage": 57
+                            },
+                            {
+                                "ref": "4.5.1.3",
+                                "en_EN": "Near-Surface Relative Humidity",
+                                "startPage": 58
+                            },
+                            {
+                                "ref": "4.5.1.4",
+                                "en_EN": "Precipitation",
+                                "startPage": 60
+                            },
+                            {
+                                "ref": "4.5.1.5",
+                                "en_EN": "Global Monsoon Precipitation and Circulation",
+                                "startPage": 61
+                            },
+                            {
+                                "ref": "4.5.1.6",
+                                "en_EN": "Sea Level Pressure, Large-scale Atmospheric Circulation, Storm Tracks and Blocking",
+                                "startPage": 62
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "4.5.2",
+                        "en_EN": "Ocean",
+                        "startPage": 67,
+                        "chapters": [
+                            {
+                                "ref": "4.5.2.1",
+                                "en_EN": "Ocean Temperature",
+                                "startPage": 67
+                            },
+                            {
+                                "ref": "4.5.2.2",
+                                "en_EN": "Ocean acidification",
+                                "startPage": 67
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "4.5.3",
+                        "en_EN": "Modes of Variability",
+                        "startPage": 68,
+                        "chapters": [
+                            {
+                                "ref": "4.5.3.1",
+                                "en_EN": "Northern and Southern Annular Modes",
+                                "startPage": 68
+                            },
+                            {
+                                "ref": "4.5.3.2",
+                                "en_EN": "El Ni\u00f1o-Southern Oscillation",
+                                "startPage": 69
+                            },
+                            {
+                                "ref": "4.5.3.3",
+                                "en_EN": "Indian Ocean Basin and Dipole Modes",
+                                "startPage": 70
+                            },
+                            {
+                                "ref": "4.5.3.4",
+                                "en_EN": "Tropical Atlantic Modes",
+                                "startPage": 71
+                            },
+                            {
+                                "ref": "4.5.3.5",
+                                "en_EN": "Pacific Decadal Variability",
+                                "startPage": 71
+                            },
+                            {
+                                "ref": "4.5.3.6",
+                                "en_EN": "Atlantic Multidecadal Variability",
+                                "startPage": 71
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ref": "4.6",
+                "en_EN": "Implications of Climate Policy",
+                "startPage": 72,
+                "chapters": [
+                    {
+                        "ref": "4.6.1",
+                        "en_EN": "Patterns of Climate Change for Specific Levels of Global",
+                        "startPage": 72,
+                        "chapters": [
+                            {
+                                "ref": "4.6.1.1",
+                                "en_EN": "Temperature",
+                                "startPage": 73
+                            },
+                            {
+                                "ref": "4.6.1.2",
+                                "en_EN": "Precipitation",
+                                "startPage": 74
+                            },
+                            {
+                                "ref": "4.6.1.3",
+                                "en_EN": "Atmospheric Circulation",
+                                "startPage": 75
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "4.6.2",
+                        "en_EN": "Climate Goals, Overshoot, and Path-Dependence",
+                        "startPage": 76,
+                        "chapters": [
+                            {
+                                "ref": "4.6.2.1",
+                                "en_EN": "Climate change under overshoot",
+                                "startPage": 76
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "4.6.3",
+                        "en_EN": "Climate Response to mitigation, Carbon Dioxide Removal, and Solar Radiation Modification",
+                        "startPage": 78,
+                        "chapters": [
+                            {
+                                "ref": "4.6.3.1",
+                                "en_EN": "Emergence of the climate response to mitigation",
+                                "startPage": 79
+                            },
+                            {
+                                "ref": "4.6.3.2",
+                                "en_EN": "Climate Response to Mitigation by Carbon Dioxide Removal",
+                                "startPage": 81
+                            },
+                            {
+                                "ref": "4.6.3.3",
+                                "en_EN": "Climate Response to Solar Radiation Modification",
+                                "startPage": 83
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ref": "4.7",
+                "en_EN": "Climate Change Beyond 2100",
+                "startPage": 91,
+                "chapters": [
+                    {
+                        "ref": "4.7.1",
+                        "en_EN": "Commitment and Climate Change Beyond 2100",
+                        "startPage": 91,
+                        "chapters": [
+                            {
+                                "ref": "4.7.1.1",
+                                "en_EN": "Climate change following zero emissions",
+                                "startPage": 91
+                            },
+                            {
+                                "ref": "4.7.1.2",
+                                "en_EN": "Change in Global Climate Indices Beyond 2100",
+                                "startPage": 93
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "4.7.2",
+                        "en_EN": "Potential for Abrupt and Irreversible Climate Change",
+                        "startPage": 95
+                    }
+                ]
+            },
+            {
+                "ref": "4.8",
+                "en_EN": "Low-Likelihood High-Warming Storylines",
+                "startPage": 97
+            },
+            {
+                "ref":"FAQ4.1",
+                "en_EN":"How will the climate change over the next twenty years?"
+            },
+            {
+                "ref":"FAQ4.2",
+                "en_EN":"How quickly would we see the effects of reducing carbon dioxide emissions?"
+            },
+            {
+                "ref":"FAQ4.3",
+                "en_EN":"At a given level of global warming, what are the spatial patterns of climate change?"
+            }
+        ]
+    },
+
+    "5": {
+        "ref":"5",
+        "en_EN":"Global Carbon and other Biogeochemical Cycles and Feedbacks",
+        "chapters":[
+            {
+                "ref":"5.es",
+                "en_EN":"Executive Summary"
+            },
+            {
+                "ref": "5.1",
+                "en_EN": "Introduction",
+                "startPage": 11,
+                "chapters": [
+                    {
+                        "ref": "5.1.1",
+                        "en_EN": "The Physical and Biogeochemical Processes in Carbon-Climate feedbacks",
+                        "startPage": 12
+                    },
+                    {
+                        "ref": "5.1.2",
+                        "en_EN": "Paleo Trends and Feedbacks",
+                        "startPage": 14,
+                        "chapters": [
+                            {
+                                "ref": "5.1.2.1",
+                                "en_EN": "Cenozoic Proxy CO2 Record",
+                                "startPage": 14
+                            },
+                            {
+                                "ref": "5.1.2.2",
+                                "en_EN": "Glacial-Interglacial Greenhouse Gases Records",
+                                "startPage": 15
+                            },
+                            {
+                                "ref": "5.1.2.3",
+                                "en_EN": "Holocene Changes",
+                                "startPage": 18
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ref": "5.2",
+                "en_EN": "Historical Trends, Variability and Budgets of CO2, CH4, and N2O",
+                "startPage": 19,
+                "chapters": [
+                    {
+                        "ref": "5.2.1",
+                        "en_EN": "CO2: Trends, Variability and Budget",
+                        "startPage": 19,
+                        "chapters": [
+                            {
+                                "ref": "5.2.1.1",
+                                "en_EN": "Evaluation of the Contemporary Carbon Cycle in Concentration-Driven Runs",
+                                "startPage": 70
+                            },
+                            {
+                                "ref": "5.2.1.2",
+                                "en_EN": "Atmosphere",
+                                "startPage": 21
+                            },
+                            {
+                                "ref": "5.2.1.3",
+                                "en_EN": "Ocean Carbon Fluxes and Storage",
+                                "startPage": 23
+                            },
+                            {
+                                "ref": "5.2.1.4",
+                                "en_EN": "Land CO2 Fluxes: Historical and Contemporary Variability and Trends",
+                                "startPage": 27
+                            },
+                            {
+                                "ref": "5.2.1.5",
+                                "en_EN": "CO2 Budget",
+                                "startPage": 32
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "5.2.2",
+                        "en_EN": "CH4: Trends, Variability and Budget",
+                        "startPage": 34,
+                        "chapters": [
+                            {
+                                "ref": "5.2.2.1",
+                                "en_EN": "Atmosphere",
+                                "startPage": 34
+                            },
+                            {
+                                "ref": "5.2.2.2",
+                                "en_EN": "Anthropogenic CH4 emissions",
+                                "startPage": 35
+                            },
+                            {
+                                "ref": "5.2.2.3",
+                                "en_EN": "Land Biospheric Emissions and Sinks",
+                                "startPage": 37
+                            },
+                            {
+                                "ref": "5.2.2.4",
+                                "en_EN": "Ocean and Inland Water Emissions and Sinks",
+                                "startPage": 38
+                            },
+                            {
+                                "ref": "5.2.2.5",
+                                "en_EN": "CH4 Budget",
+                                "startPage": 39
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "5.2.3",
+                        "en_EN": "N2O: Trends, Variability and Budget",
+                        "startPage": 41,
+                        "chapters": [
+                            {
+                                "ref": "5.2.3.1",
+                                "en_EN": "Atmosphere",
+                                "startPage": 42
+                            },
+                            {
+                                "ref": "5.2.3.2",
+                                "en_EN": "Anthropogenic N2O Emissions",
+                                "startPage": 43
+                            },
+                            {
+                                "ref": "5.2.3.3",
+                                "en_EN": "Emissions from Ocean, Inland Water Bodies and Estuaries",
+                                "startPage": 44
+                            },
+                            {
+                                "ref": "5.2.3.4",
+                                "en_EN": "Emissions and Sinks in Non-Agricultural Land",
+                                "startPage": 44
+                            },
+                            {
+                                "ref": "5.2.3.5",
+                                "en_EN": "N2O budget",
+                                "startPage": 45
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "5.2.4",
+                        "en_EN": "The Relative Importance of CO2, CH4, and N2O",
+                        "startPage": 47
+                    }
+                ]
+            },
+            {
+                "ref": "5.3",
+                "en_EN": "Ocean Acidification and Deoxygenation",
+                "startPage": 48,
+                "chapters": [
+                    {
+                        "ref": "5.3.1",
+                        "en_EN": "Paleoclimate Context",
+                        "startPage": 48,
+                        "chapters": [
+                            {
+                                "ref": "5.3.1.1",
+                                "en_EN": "Paleocene-Eocene Thermal Maximum",
+                                "startPage": 48
+                            },
+                            {
+                                "ref": "5.3.1.2",
+                                "en_EN": "Last Deglacial Transition",
+                                "startPage": 49
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "5.3.2",
+                        "en_EN": "Historical Trends and Spatial Characteristics in the Upper Ocean",
+                        "startPage": 50,
+                        "chapters": [
+                            {
+                                "ref": "5.3.2.1",
+                                "en_EN": "Reconstructed Centennial Ocean Acidification Trends",
+                                "startPage": 50
+                            },
+                            {
+                                "ref": "5.3.2.2",
+                                "en_EN": "Observations of Ocean Acidification over the Recent Decades",
+                                "startPage": 51
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "5.3.3",
+                        "en_EN": "Ocean Interior Change",
+                        "startPage": 52,
+                        "chapters": [
+                            {
+                                "ref": "5.3.3.1",
+                                "en_EN": "Ocean Memory \u2013 Acidification in the Ocean Interior",
+                                "startPage": 52
+                            },
+                            {
+                                "ref": "5.3.3.2",
+                                "en_EN": "Ocean Deoxygenation and its Implications for GHGs",
+                                "startPage": 53
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "5.3.4",
+                        "en_EN": "Future Projections for Ocean Acidification",
+                        "startPage": 54,
+                        "chapters": [
+                            {
+                                "ref": "5.3.4.1",
+                                "en_EN": "Future Projections with Earth System Models",
+                                "startPage": 54
+                            },
+                            {
+                                "ref": "5.3.4.2",
+                                "en_EN": "Reversal of Ocean Acidification by Carbon Dioxide Removal",
+                                "startPage": 56
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "5.3.5",
+                        "en_EN": "Coastal Ocean Acidification and Deoxygenation",
+                        "startPage": 56,
+                        "chapters": [
+                            {
+                                "ref": "5.3.5.1",
+                                "en_EN": "Drivers",
+                                "startPage": 56
+                            },
+                            {
+                                "ref": "5.3.5.2",
+                                "en_EN": "Spatial Characteristics",
+                                "startPage": 57
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ref": "5.4",
+                "en_EN": "Biogeochemical Feedbacks on Climate Change",
+                "startPage": 58,
+                "chapters": [
+                    {
+                        "ref": "5.4.1",
+                        "en_EN": "Direct CO2 Effect on Land Carbon Uptake",
+                        "startPage": 59
+                    },
+                    {
+                        "ref": "5.4.2",
+                        "en_EN": "Direct CO2 Effects on Projected Ocean Carbon Uptake",
+                        "startPage": 60
+                    },
+                    {
+                        "ref": "5.4.3",
+                        "en_EN": "Climate Effect on Land Carbon Uptake",
+                        "startPage": 61,
+                        "chapters": [
+                            {
+                                "ref": "5.4.3.1",
+                                "en_EN": "Plant Physiology",
+                                "startPage": 61
+                            },
+                            {
+                                "ref": "5.4.3.2",
+                                "en_EN": "Fire and Other Disturbances",
+                                "startPage": 61
+                            },
+                            {
+                                "ref": "5.4.3.3",
+                                "en_EN": "Soil Carbon",
+                                "startPage": 62
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "5.4.4",
+                        "en_EN": "Climate Effects on Future Ocean Carbon Uptake",
+                        "startPage": 67,
+                        "chapters": [
+                            {
+                                "ref": "5.4.4.1",
+                                "en_EN": "Physical Drivers of Future Ocean Carbon Uptake and Storage",
+                                "startPage": 67
+                            },
+                            {
+                                "ref": "5.4.4.2",
+                                "en_EN": "Biological Drivers of Future Ocean Carbon Uptake",
+                                "startPage": 67
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "5.4.5",
+                        "en_EN": "Carbon Cycle Projections in Earth System Models",
+                        "startPage": 69,
+                        "chapters": [
+                            {
+                                "ref": "5.4.5.1",
+                                "en_EN": "Evaluation of Historical Carbon Cycle Simulations in Concentration-Driven Runs",
+                                "startPage": 71
+                            },
+                            {
+                                "ref": "5.4.5.2",
+                                "en_EN": "Evaluation of Latitudinal Distribution of Simulated Carbon Sinks",
+                                "startPage": 71
+                            },
+                            {
+                                "ref": "5.4.5.3",
+                                "en_EN": "Coupled Climate-Carbon Cycle Projections",
+                                "startPage": 72
+                            },
+                            {
+                                "ref": "5.4.5.4",
+                                "en_EN": "Linear Feedback Analysis",
+                                "startPage": 73
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "5.4.6",
+                        "en_EN": "Emergent constraints to reduce uncertainties in projections",
+                        "startPage": 75
+                    },
+                    {
+                        "ref": "5.4.7",
+                        "en_EN": "Climate Feedbacks from CH4 and N2O",
+                        "startPage": 76
+                    },
+                    {
+                        "ref": "5.4.8",
+                        "en_EN": "Combined Biogeochemical Climate Feedback",
+                        "startPage": 77
+                    },
+                    {
+                        "ref": "5.4.9",
+                        "en_EN": "Abrupt Changes and Tipping Points",
+                        "startPage": 78,
+                        "chapters": [
+                            {
+                                "ref": "5.4.9.1",
+                                "en_EN": "Assessment of biogeochemical tipping points",
+                                "startPage": 79
+                            },
+                            {
+                                "ref": "5.4.9.2",
+                                "en_EN": "Abrupt Changes Detected in ESM Projections",
+                                "startPage": 81
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "5.4.10",
+                        "en_EN": "Long Term Response past 2100",
+                        "startPage": 81
+                    },
+                    {
+                        "ref": "5.4.11",
+                        "en_EN": "Near-Term Prediction of Ocean and Land Carbon Sinks",
+                        "startPage": 82
+                    }
+                ]
+            },
+            {
+                "ref": "5.5",
+                "en_EN": "Remaining Carbon Budgets",
+                "startPage": 83,
+                "chapters": [
+                    {
+                        "ref": "5.5.1",
+                        "en_EN": "Transient Climate Response to Cumulative Emissions of carbon dioxide (TCRE)",
+                        "startPage": 83,
+                        "chapters": [
+                            {
+                                "ref": "5.5.1.1",
+                                "en_EN": "Contributing Physical Processes and Theoretical Frameworks",
+                                "startPage": 83
+                            },
+                            {
+                                "ref": "5.5.1.2",
+                                "en_EN": "Assessment of Limits of the TCRE Concept",
+                                "startPage": 87
+                            },
+                            {
+                                "ref": "5.5.1.3",
+                                "en_EN": "Estimates of TCRE",
+                                "startPage": 89
+                            },
+                            {
+                                "ref": "5.5.1.4",
+                                "en_EN": "Combined assessment of TCRE",
+                                "startPage": 91
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "5.5.2",
+                        "en_EN": "Remaining Carbon Budget Assessment",
+                        "startPage": 91,
+                        "chapters": [
+                            {
+                                "ref": "5.5.2.1",
+                                "en_EN": "Framework and Earlier Approaches",
+                                "startPage": 91
+                            },
+                            {
+                                "ref": "5.5.2.2",
+                                "en_EN": "Assessment of Individual Components",
+                                "startPage": 93
+                            },
+                            {
+                                "ref": "5.5.2.3",
+                                "en_EN": "Remaining Carbon Budget",
+                                "startPage": 95
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ref": "5.6",
+                "en_EN": "Biogeochemical Implications of Carbon Dioxide Removal and Solar Radiation Modification",
+                "startPage": 99,
+                "chapters": [
+                    {
+                        "ref": "5.6.1",
+                        "en_EN": "Introduction",
+                        "startPage": 99
+                    },
+                    {
+                        "ref": "5.6.2",
+                        "en_EN": "Biogeochemical Responses to Carbon Dioxide Removal (CDR)",
+                        "startPage": 99,
+                        "chapters": [
+                            {
+                                "ref": "5.6.2.1",
+                                "en_EN": "Global Carbon Cycle Responses to CDR",
+                                "startPage": 102
+                            },
+                            {
+                                "ref": "5.6.2.2",
+                                "en_EN": "Effects of Specific CDR Methods on Biogeochemical Cycles and Climate",
+                                "startPage": 106
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "5.6.3",
+                        "en_EN": "Biogeochemical responses to Solar Radiation Modification (SRM)",
+                        "startPage": 111,
+                        "chapters": [
+                            {
+                                "ref": "5.6.3.1",
+                                "en_EN": "Effects of SRM on the Carbon Cycle",
+                                "startPage": 111
+                            },
+                            {
+                                "ref": "5.6.3.2",
+                                "en_EN": "Consequences of SRM and its termination on atmospheric CO2 burden",
+                                "startPage": 113
+                            },
+                            {
+                                "ref": "5.6.3.3",
+                                "en_EN": "Consequences of SRM on other Biogeochemical Cycles",
+                                "startPage": 113
+                            },
+                            {
+                                "ref": "5.6.3.4",
+                                "en_EN": "Synthesis of biogeochemical responses to SRM",
+                                "startPage": 113
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ref": "5.7",
+                "en_EN": "Final Remarks",
+                "startPage": 113
+            },
+            {
+                "ref":"FAQ5.1",
+                "en_EN":"Is the natural removal of carbon from the atmosphere weakening?"
+            },
+            {
+                "ref":"FAQ5.2",
+                "en_EN":"Can thawing permafrost substantially incrase global warming?"
+            },
+            {
+                "ref":"FAQ5.3",
+                "en_EN":"Could climate change be reversed by removing carbon dioxide from the atmosphere?"
+            },
+            {
+                "ref":"FAQ5.4",
+                "en_EN":"What are carbon budgets?"
+            }
+        ]
+    },
+    "6": {
+        "ref":"6",
+        "en_EN":"Short-lived climate forcers",
+        "chapters":[
+            
+        ]
+    },
+
+    "crossRefs": {
+        "Box SPM.1":16,
+        "Table SPM.1":19,
+        "Table SPM.2":39,
+        "Box TS.1":48,
+        "TS.1":54,
+        "Box TS.2":55,
+        "TS.1.1":54,
+        "TS.1.2":58,
+        "TS.1.3":63,
+        "TS.1.4":68,
+        "Cross-Section Box TS.1":70,
+        "TS.2":74,
+        "TS.2.1":74,
+        "TS.2.2":78,
+        "Table TS.1":75,
+        "Table TS.2":77,
+        "TS.2.3":80,
+        "Box TS.3":81,
+        "TS.2.4":83,
+        "TS.2.5":85,
+        "Box TS.4":87,
+        "Box TS.5":89,
+        "TS.2.6":91,
+        "Box TS.6":93,
+        "TS.3":98,
+        "TS.3.1":98,
+        "TS.3.2":100,
+        "TS.3.3":104,
+        "Table TS.3":105,
+        "Box TS.7":111,
+        "Box TS.8":112,
+        "Box TS.9":114,
+        "TS.4":115,
+        "TS.4.1":115,
+        "Box TS.10":116,
+        "Box TS.11":119,
+        "Box TS.12":119,
+        "TS.4.2":120,
+        "Table TS.4":122,
+        "Box TS.13":126,
+        "Box TS.4.3":128,
+        "Table TS.5":128,
+        "Box TS.14":142,
+        "1":194,
+        "1.es":199,
+        "1.1":202,
+        "1.2":207,
+        "Box 1.1":224,
+        "1.3":230,
+        "Box 1.2":244,
+        "1.4":247,
+        "Cross-Chapter Box 1.2":249,
+        "Cross-Chapter Box 1.3":257,
+        "Cross-Working Group Box":261,
+        "1.5":266,
+        "Box 1.3":282,
+        "1.6":291,
+        "Cross-Chapter Box 1.4":296,
+        "Box 1.4":307,
+        "1.7":308,
+        "FAQ1.1":310,
+        "FAQ1.2":311,
+        "FAQ1.3":312,
+        "Appendix 1.A":359,
+        "1.SM":412,
+        "1.SM.1":412,
+        "2":430,
+        "2.es":434,
+        "2.1":438,
+        "Cross-Chapter Box 2.1":439,
+        "2.2":441,
+        "2.3":459,
+        "Cross-Chapter Box 2.2":459,
+        "Cross-Chapter Box 2.3":464,
+        "Cross-Chapter Box 2.4":522,
+        "2.4":524,
+        "FAQ2.1":533,
+        "FAQ2.2":534,
+        "2.SM":643,
+        "2.SM.1":645,
+        "3":726
+    }
+}

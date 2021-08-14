@@ -1,0 +1,246 @@
+/* sidebar table of contents */
+header, .section, footer {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+
+h1, h5, .brand-logo, .card-title {
+    font-family:Inter,sans-serif;
+}
+
+/* slide out left menu table of contents */
+#slide-out li a {
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+#slide-out a.collapsible-header {
+    padding-left:5px;
+}
+#slide-out i.material-icons {
+    margin-right:5px;
+    width:12px;
+}
+#slide-out .collapsible-body a {
+    border-left:4px solid #283593;
+    padding-left:10px;
+    position: relative;
+}
+#slide-out .toc-ref {
+    font-size:9px;
+    height:10px;
+    line-height:10px;
+    position:absolute;
+    top:5px;
+    left:10px;
+    color:#bf360c;
+}
+
+#side-panel-pdf {
+    position:fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    width:50%;
+    z-index:200;
+    background-color:white;
+    visibility:hidden;
+    box-shadow: 0 0 50px 30px rgba(0,0,0,0.8);
+}
+#side-panel-pdf .close-panel {
+    position: absolute;
+    left:-80px;
+    width:80px;
+    height:80px;
+    top:100px;
+    background:white;
+    z-index:202;
+    text-align:center;
+    cursor:pointer;
+}
+#side-panel-pdf iframe {
+    z-index:203;
+}
+.close-panel i.material-icons {
+    font-size:40px;
+    line-height:80px;
+}
+.card-content p {
+    font-family: Inter, sans-serif;
+}
+.href-card {
+    text-decoration:none;
+}
+.card.hoverable {
+    transition: all .2s ease-in-out;
+}
+.card.hoverable:hover{
+    transform:scale(1.05);
+    background-color:#455a64 !important;
+}
+#SPM-follow-line {
+    background-color:#1a237e;
+    width:10px;
+    display:block;
+    position:absolute;
+    left:40px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.7);
+}
+.chaplev2 p {
+    font-family:Inter,sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    margin-top:0;
+}
+.chaplev2 {
+    margin-bottom:0;
+    background:#e3f2fd;
+}
+.chaplev2 .chap-ref {
+    font-size:40px;
+    float:left;
+    margin-right:10px;
+    color:#1a237e;
+}
+
+/* chap lev3 */
+.chaplev3-holder {
+    margin:0; padding:0;
+    border-left:4px solid #5c6bc0;
+    border-bottom:4px solid #5c6bc0;
+    margin-left:60px;
+    margin-bottom:30px;
+    padding-top:20px;
+    padding-bottom:20px;
+    background:#e3f2fd;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.chaplev3-holder .chaplev3:first-child {
+    margin-top: 0;
+}
+.chaplev3 {
+    margin-left:15px;
+    margin-right:15px;
+    padding:14px 24px;
+}
+.chaplev3 p {
+    font-family:Inter, sans-serif;
+    margin-bottom:5px;
+}
+.chaplev3 .chap-ref {
+    font-size:30px;
+    float:left;
+    margin-right:10px;
+    color:#1a237e;
+}
+
+/* référence vers une source */
+.src1 {
+    background-color:rgba(0,0,0,0.1);
+    border-radius:3px;
+    padding:1px 5px;
+    display:inline-block;
+    margin: 2px;
+    font-size:12px;
+}
+.src1:hover {
+    background-color:rgba(0,0,0,0.2);
+}
+
+/* levels of confidence */
+.high-confidence, .medium-confidence, .very-low-confidence, .low-confidence, .very-high-confidence {
+    border-radius:50%;
+    line-height:14px;
+    text-align:center;
+    display:inline-block;
+    width: 14px;
+    height:14px;
+    vertical-align:middle;
+    color:white;
+}
+.very-high-confidence {
+    background:#64dd17;
+}
+.high-confidence {
+    background:#2e7d32;
+}
+.medium-confidence {
+    background:#afb42b;
+}
+.low-confidence {
+    background:#e65100;
+}
+.very-low-confidence {
+    background:#b71c1c;
+}
+/* text version of confidence levels */
+.high-confidence-text, .medium-confidence-text, .very-low-confidence-text, .low-confidence-text, .very-high-confidence-text {
+    font-weight:bold;
+}
+.very-high-confidence-text {
+    color:#2e7d32;
+}
+.high-confidence-text {
+    color:#64dd17;
+}
+.medium-confidence-text {
+    color:#afb42b;
+}
+.low-confidence-text {
+    color:#e65100;
+}
+.very-low-confidence-text {
+    color:#b71c1c;
+}
+
+/* certainty levels */
+.virtually-certain-text, .very-likely-text, .likely-text,
+.about-as-likely-as-not-text, .unlikely-text, .very-unlikely-text,
+.exceptionally-unlikely-text, .extremely-likely-text,
+.more-likely-than-not-text, .extremely-unlikely-text {
+    font-weight:bold;
+}
+.virtually-certain-text, .extremely-likely-text {
+    color:#2e7d32;
+}
+.very-likely-text {
+    color:#64dd17;
+}
+.likely-text, .more-likely-than-not-text {
+    color:#afb42b;
+}
+.unlikely-text {
+    color:#e65100;
+}
+.very-unlikely-text, .extremely-unlikely-text, .exceptionally-unlikely-text {
+    color:#b71c1c;
+}
+
+/* footnotes in text */
+.footnote-ref {
+    color: #0091ea;
+    cursor:pointer;
+}
+
+/* figures in text */
+.figure-level2 img {
+    max-width:300px;
+}
+.figure-level2 {
+    padding:0 5px;
+}
+.figure-level2-holder {
+    display: flex;
+    align-items: center;
+}
+
+/* changes to modal size */
+#modal-figure.modal {
+    width: 70%;
+}
