@@ -14,31 +14,49 @@
 
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <!-- cards on social media -->
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="assets/header.png">
+        <meta property="og:title" content="IPCC reports navigator">
+        <meta property="og:description" content="Browse and learn from the IPCC reports">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:creator" content="@fredericameye">
+        <meta name="twitter:title" content="IPCC reports navigator">
+        <meta name="twitter:description" content="Browse and learn from the IPCC reports">
+        <meta name="twitter:image" content="assets/header.png">
     </head>
 
     <body>
         <!-- fixed header -->
         <nav class="light-blue lighten-1" role="navigation">
             <div class="nav-wrapper container">
-                <a id="logo-container" href="#" class="brand-logo">Comprendre les rapports du GIEC / Understanding IPCC reports</a>
+                <a id="logo-container" href="#" class="lang-en brand-logo">Exploring IPCC reports</a>
+                <a id="logo-container" href="#" class="lang-fr brand-logo">Explorer les rapports du GIEC</a>
 
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#" title="Change language"><i class="material-icons">language</i></a></li>
+                <ul class="right hide-on-med-and-down language-selector">
+                    <li><a href="#" onclick="return changeLang('en_EN');" title="Switch to English">
+                        <img src="assets/en.png" />
+                    </a></li>
+                    <li><a href="#" onclick="return changeLang('fr_FR');" title="Switch to French / lire en français">
+                        <img src="assets/fr.png" />
+                    </a></li>
+                    <li><a href="#" onclick="return togglePdfPanel();" title="Display/hide PDF panel">
+                        <i class="material-icons">picture_as_pdf</i>
+                    </a></li>
                 </ul>
-        
-                <!--<ul id="nav-mobile" class="sidenav">
-                    <li><a href="#">Navbar Link</a></li>
-                </ul>
-                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>-->
             </div>
         </nav>
-        <div class="section no-pad-bot" id="index-banner">
+        <div class="section" id="index-banner" style="background:rgba(0,0,0,0.08)">
             <div class="container">
                 <br><br>
-                <h1 class="header center orange-text" style="margin-top:0">Navigating <span>IPCC Working Group I report</span></h1>
+                <h1 class="lang-en header center orange-text" style="margin-top:0">Navigating <span>IPCC Working Group I report</span></h1>
+                <h1 class="lang-fr header center orange-text" style="margin-top:0">Naviguer dans les rapports du GIEC</h1>
                 <div class="row center">
-                    <h5 class="header col s12 light">The IPCC WGI report is a 3900-page summary of state-of-the-art scientific knowledge.<br>This app helps you navigate it, understand and learn from it.</h5>
-                    <h5 class="header col s12 light">Le rapport WGI du GIEC est un condensé de l'état de l'art scientifique sur le changement climatique, de plus de 3900 pages.<br>Ce site vous aide à y naviguer, à le comprendre et à apprendre.</h5>
+                    <h5 class="lang-en header col s12 light">The IPCC WGI report is a 3900-page summary of state-of-the-art scientific knowledge.<br>This app helps you navigate it, understand and learn from it.</h5>
+                    <h5 class="lang-fr header col s12 light">
+                        Le rapport WGI du GIEC est un condensé de l'état de l'art scientifique sur le changement climatique, de plus de 3900 pages.<br>Ce site vous aide à y naviguer, à le comprendre et à apprendre.
+                    </h5>
                 </div>
             </div>
         </div>
@@ -46,12 +64,25 @@
         
         <div class="section" style="border-top: 5px solid rgba(0,0,0,0.5)">
 
-            <h2 class="header center orange-text" style="margin-top:0">Summary for policymakers</h2>
+            <!-- SPM -->
+            <h2 class="header center orange-text lang-en" style="margin-top:0">Summary for policymakers (and citizens!)</h2>
+            <h2 class="header center orange-text lang-fr" style="margin-top:0">Résumé pour les décideurs (et citoyens !)</h2>
 
-            <p style="text-align:center">Pour commencer, choisir un chapitre ci-dessous.</p>
+            <p style="text-align:center" class="lang-fr">Pour commencer, choisir un chapitre ci-dessous.</p>
+            <p style="text-align:center" class="lang-en">Choose a chapter below to start learning.</p><br>
             <div id="SPM-follow-line"></div>
             <div class="row" id="SPM-chapters-level1"></div>
             <div class="row" id="SPM-chapters-level2" style="margin:0 40px"></div>
+    
+        </div>
+
+        <div class="section" style="border-top: 5px solid rgba(0,0,0,0.5); margin-top: 50px">
+
+            <!-- FAQ -->
+            <h2 class="header center orange-text lang-en" style="margin-top:0">Frequently Asked Questions</h2>
+            <h2 class="header center orange-text lang-fr" style="margin-top:0">Réponse aux questions fréquentes</h2>
+
+            <div class="row" id="FAQ-chapters-level1"></div>
     
         </div>
         
@@ -60,24 +91,33 @@
                 <div class="row black-text">
                     <div class="col l6 s12">
                         <h5>About</h5>
-                        <p>
+                        <p class="lang-en">
                             Just a volunteer side-project by <a href="https://twitter.com/fredericameye" rel="noopener">@fredericameye</a>,
-                            creator of <a href="https://www.infoclimat.fr" rel="noopener">infoclimat.fr</a>.<br>
+                            creator of <a href="https://www.infoclimat.fr" rel="noopener">infoclimat.fr</a>.
+                        </p>
+                        <p class="lang-fr">
                             Simple projet personnel de <a href="https://twitter.com/fredericameye" rel="noopener">@fredericameye</a>, créateur du site <a href="https://www.infoclimat.fr" rel="noopener">Infoclimat</a>.
                         </p>
+                        <p>
+                            <br>
+                            La traduction française est <b>partielle</b> et adaptée de <a href="https://resumegiec.wordpress.com/2021/08/11/rapport-du-giec-resume-pour-les-decideurs/" rel="noopener" target="_blank">resumegiec.wordpress.com</a> et de l'Institut Royal Météorologique (IRM) de Belgique. 
+                        </p>
                     </div>
-                    <div class="col l3 s12">
+                    <div class="col l4 s12">
+                        <h5>More</h5>
                         <a href="https://bonpote.com/10-actions-simples-pour-devenir-ecolo/" rel="noopener" target="_blank">Simple citoyen, que faire ?</a><br>
                         <a href="https://www.youtube.com/watch?v=C_UTlTiVQ_0" rel="noopener" target="_blank">Comprendre le fonctionnement du GIEC</a>
                     </div>
-                    <div class="col l3 s12">
-                        
+                    <div class="col l2 s12">
+                        <h5>Contribute</h5>
+                        <a href="https://github.com/FredericAmeye/ipcc-browser" target="_blank" rel="noopener">GitHub</a>
                     </div>
                 </div>
             </div>
             <div class="grey-text footer-copyright">
                 <div class="container">
-                    Made with <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+                    This website is not endorsed by the IPCC in any ways, the content is provided as-is and can contain errors or outdated information. Please always double-check with the official publications.<br>
+                    The author of the website has no specific relationship with the IPCC or other organizations involved in the process.
                 </div>
             </div>
         </footer>
@@ -87,7 +127,39 @@
             <div class="modal-content">
             </div>
             <div class="modal-footer">
-                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                <a href="#" onclick="return false" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+
+        <!-- modal affichage FAQ -->
+        <div id="modal-faq" class="modal modal-fixed-footer">
+            <div class="modal-content">
+            </div>
+            <div class="modal-footer">
+                <a href="#" onclick="return false" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+
+        <!-- modal beforedownload PDF -->
+        <div id="modal-beforedownload" class="modal">
+            <div class="modal-content">
+                <h4 class="lang-en">Downloading complete report</h4>
+                <h4 class="lang-fr">Téléchargement du rapport complet</h4>
+                <p class="lang-fr">
+                    Afin de pouvoir naviguer dans le rapport, cette application
+                    doit télécharger un fichier d'environ 80Mo.<br>
+                    Assurez-vous que cela n'engendre pas de surcoût pour votre abonnement Internet.<br>
+                    Ce téléchargement ne se fera qu'une fois, sauf si vous rechargez la page ou quittez le navigateur.
+                </p>
+                <p class="lang-en">
+                    Before allowing you to navigate through the report, this app needs to download a 80MB file.<br>
+                    Please ensure your internet provided won't charge you for this amount of data.<br>
+                    This download will be done only one time, unless you reload the page or quit the browser.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" onclick="return false" class="modal-close waves-effect waves-green btn-flat">Cancel</a>
+                <a href="#!" onclick="return post_pdfLoad();" class="modal-close waves-effect waves-green btn">Continue</a>
             </div>
         </div>
 

@@ -1,6 +1,20 @@
 /* sidebar table of contents */
-header, .section, footer {
-    padding-left: 300px;
+header, .section, footer, nav {
+    padding-left: 350px; /* size of .sidenav */
+}
+
+body {
+    background:white;
+}
+
+.language-selector a img {
+    height:40px;
+    vertical-align:middle;
+}
+
+#SPM-chapters-level2 {
+    position: relative;
+    z-index:2;
 }
 
 @media only screen and (max-width : 992px) {
@@ -25,6 +39,9 @@ h1, h5, .brand-logo, .card-title {
 #slide-out i.material-icons {
     margin-right:5px;
     width:12px;
+}
+.sidenav {
+    width:350px;
 }
 #slide-out .collapsible-body a {
     border-left:4px solid #283593;
@@ -79,7 +96,7 @@ h1, h5, .brand-logo, .card-title {
 .card.hoverable {
     transition: all .2s ease-in-out;
 }
-.card.hoverable:hover{
+#SPM-chapters-level1 .card.hoverable:hover{
     transform:scale(1.05);
     background-color:#455a64 !important;
 }
@@ -90,6 +107,7 @@ h1, h5, .brand-logo, .card-title {
     position:absolute;
     left:40px;
     box-shadow: 0 0 2px rgba(0,0,0,0.7);
+    z-index:0;
 }
 .chaplev2 p {
     font-family:Inter,sans-serif;
@@ -100,12 +118,24 @@ h1, h5, .brand-logo, .card-title {
 .chaplev2 {
     margin-bottom:0;
     background:#e3f2fd;
+    cursor:pointer;
+}
+.chaplev2:hover {
+    background:#d2ecff;
 }
 .chaplev2 .chap-ref {
     font-size:40px;
     float:left;
     margin-right:10px;
     color:#1a237e;
+}
+.chapter-ref {
+    opacity:0.3;
+    position:absolute;
+    right:5px;
+    font-size:50px;
+    font-family:inter;
+    color:white;
 }
 
 /* chap lev3 */
@@ -120,6 +150,7 @@ h1, h5, .brand-logo, .card-title {
     background:#e3f2fd;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
+    display:none;
 }
 .chaplev3-holder .chaplev3:first-child {
     margin-top: 0;
@@ -230,7 +261,7 @@ h1, h5, .brand-logo, .card-title {
 
 /* figures in text */
 .figure-level2 img {
-    max-width:300px;
+    height:150px;
 }
 .figure-level2 {
     padding:0 5px;
@@ -243,4 +274,27 @@ h1, h5, .brand-logo, .card-title {
 /* changes to modal size */
 #modal-figure.modal {
     width: 70%;
+}
+#modal-figure p{
+    margin:12px 0;
+    font-family:Inter,sans-serif;
+    font-size:16px;
+    line-height:20px;
+}
+
+.tooltip-ref-chapter {
+    font-family:Inter, sans-serif;
+    font-weight:bold;
+}
+.tooltip-ref-subchapters li {
+    font-size:0.9em;
+    padding-left:10px;
+}
+
+#modal-faq {
+    font-family:Inter,sans-serif;
+}
+.faq-intro {
+    font-weight:bold;
+    color:#1a237e;
 }
