@@ -34,7 +34,7 @@
             _paq.push(['enableLinkTracking']);
             (function() {
             var u="//app.understanding-ipcc.org/";
-            _paq.push(['setTrackerUrl', u+'apps.php']);
+            _paq.push(['setTrackerUrl', u+'apps.php?ref=0&']);
             _paq.push(['setSiteId', '1']);
             var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
             g.async=true; g.src=u+'apps.js'; s.parentNode.insertBefore(g,s);
@@ -46,6 +46,11 @@
     <body>
         <!-- fixed header -->
         <div class="navbar-fixed">
+            <ul id="quickreference" class="dropdown-content">
+                <li><a href="#!" data-figref="1.18" onclick="return dispFig(this)">AR6 regions</a></li>
+                <li><a href="#!" data-figref="Cross-Chapter Box 1.4,Figure1" onclick="return dispFig(this)">SSP scenarios</a></li>
+                <li><a href="#!" onclick="return displayFullToc();">Table of contents</a></li>
+            </ul>
             <nav class="light-blue lighten-1" role="navigation">
                 <div class="nav-wrapper container">
                     <ul class="materialize left">
@@ -68,6 +73,7 @@
                         <li><a href="#" onclick="return togglePdfPanel();" title="Display/hide PDF panel">
                             <i class="material-icons">picture_as_pdf</i>
                         </a></li>
+                        <li style="margin-left:25px"><a href="#!" class="dropdown-trigger" data-target="quickreference" title="Helpers" style="font-size:2rem">Helpers<i style="margin-left:0" class="material-icons right">arrow_drop_down</i></a></li>
                     </ul>
                     <ul class="right hide-on-large-only language-selector">
                         <li class="lang-fr"><a href="#" onclick="return changeLang('en_EN');">
@@ -125,15 +131,17 @@
                     <div class="col l6 s12">
                         <h5>About</h5>
                         <p class="lang-en">
-                            Just a volunteer side-project by <a href="https://twitter.com/fredericameye" rel="noopener">@fredericameye</a>,
+                            Just a volunteer side-project by <a href="https://twitter.com/fredericameye" rel="noopener">@FredericAmeye</a>,
                             creator of <a href="https://www.infoclimat.fr" rel="noopener">infoclimat.fr</a>.
                         </p>
                         <p class="lang-fr">
-                            Simple projet personnel de <a href="https://twitter.com/fredericameye" rel="noopener">@fredericameye</a>, créateur du site <a href="https://www.infoclimat.fr" rel="noopener">Infoclimat</a>.
+                            Simple projet personnel de <a href="https://twitter.com/fredericameye" rel="noopener">@FredericAmeye</a>, créateur du site <a href="https://www.infoclimat.fr" rel="noopener">Infoclimat</a>.
                         </p>
                         <p>
                             <br>
-                            La traduction française est <b>partielle</b> et adaptée de <a href="https://resumegiec.wordpress.com/2021/08/11/rapport-du-giec-resume-pour-les-decideurs/" rel="noopener" target="_blank">resumegiec.wordpress.com</a> et de l'Institut Royal Météorologique (IRM) de Belgique. 
+                            La traduction française est <b>partielle</b> et adaptée de <a href="https://resumegiec.wordpress.com/2021/08/11/rapport-du-giec-resume-pour-les-decideurs/" rel="noopener" target="_blank">resumegiec.wordpress.com</a>,
+                            de <a href="https://twitter.com/YannWeb" rel="noopener" target="_blank">@YannWeb</a>, de l'Institut Royal Météorologique (IRM) de Belgique,
+                            et de <a href="https://twitter.com/fredericameye" rel="noopener" target="_blank">@FredericAmeye</a>. 
                         </p>
                     </div>
                     <div class="col l4 s12">
@@ -166,6 +174,15 @@
 
         <!-- modal affichage FAQ -->
         <div id="modal-faq" class="modal modal-fixed-footer">
+            <div class="modal-content">
+            </div>
+            <div class="modal-footer">
+                <a href="#" onclick="return false" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+
+        <!-- modal affichage FAQ -->
+        <div id="modal-toc" class="modal modal-fixed-footer">
             <div class="modal-content">
             </div>
             <div class="modal-footer">

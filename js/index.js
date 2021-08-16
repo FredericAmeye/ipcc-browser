@@ -65,8 +65,8 @@ let initFn = (function()
                     faq += /*html*/`<div class="col s12 m6 l3">
                     
                         <a href="#" onclick="return dispFAQ(this);" data-cite="${chaps[j].ref}">
-                            <div class="hoverable card green lighten-5">
-                                <span class="chapter-ref" style="color:black; opacity:0.1">${chaps[j].ref}</span>
+                            <div class="hoverable faq-card card green lighten-5">
+                                <span class="chapter-ref" style="color:black; transform: translateY(-8px)">${chaps[j].ref}</span>
                                 <div class="card-content" style="color:black">
                                     <p>${chaptitle}</p>
                                 </div>
@@ -79,6 +79,13 @@ let initFn = (function()
         }
         $('#FAQ-chapters-level1').html(faq);
     });
+
+    // menu dropdown
+    let elems = document.querySelectorAll('.dropdown-trigger');
+    let instances = M.Dropdown.init(elems, {
+        constrainWidth: false
+    });
+
 })();
 
 /* affichage d'une FAQ */
@@ -128,6 +135,7 @@ function dispFAQ(e)
 }
 
 /* remplit le sommaire */
+let TOC_Modal;
 function populateToC()
 {
     let html = '';
@@ -136,6 +144,13 @@ function populateToC()
     {
         html += constructSubMenu(wgI[ order[i] ], 0);
     }
+
+    // link to full ToC
+    html += /*html*/`
+        <li>
+            <a class="btn btn-small" href="#" onclick="return displayFullToc();">View full table of contents</a>
+        </li>
+    `;
     $('#slide-out').html(html);
 
     var elems = document.querySelectorAll('.collapsible');
@@ -145,6 +160,73 @@ function populateToC()
     // load sidenav handler
     let sidenav_elm = document.querySelectorAll('.sidenav');
     let sidenav_inst = M.Sidenav.init(sidenav_elm, {});
+
+    // FULL table of contents in popup:
+    html = '';
+    for(let i = 0; i < order.length; i++)
+    {
+        html += recursiveTOC(wgI[ order[i] ], 0);
+    }
+    $('#modal-toc .modal-content').html("<ul class='toc-holder'>"+html+"</ul>");
+    TOC_Modal = M.Modal.init(document.getElementById('modal-toc'), {});
+}
+
+function displayFullToc()
+{
+    TOC_Modal.open();
+    return false;
+}
+
+function recursiveTOC(chapter, recnum)
+{
+    if(recnum > 5) return '';
+
+    let chaptitle = chapter[lang] || chapter.en_EN;
+
+    let spage = '';
+    if(chapter.startPage)
+    {
+        let ref = chapter.ref
+            .replace('FAQ','')
+            .split('.'),
+            page = chapter.startPage;
+        if(ref.length > 1 && ref[0] >= 1 && ref[0] <= 12) {
+            // sous chapitre : incrémenter le n° de page :
+            page = chapter.startPage + wgI[ref[0]].offsetPagesFromFull;
+        }
+        spage = `<span class="toc-page">${page}</span>`;
+    }
+
+    if(chapter.chapters)
+    {
+        // has child
+        let sub_c = '';
+        for(let i = 0; i < chapter.chapters.length; i++)
+        {
+            sub_c += recursiveTOC(chapter.chapters[i], recnum+1);
+        }
+
+        return /*html*/`<li>
+            <a href="#" class="modal-close" onclick="return dispSource(this);" data-cite="${chapter.ref}">
+                <span class="toc-chaptitle">${chapter.ref}</span>
+                ${chaptitle}${spage}
+            </a>
+            <ul>
+                ${sub_c}
+            </ul>
+        </li>`;
+    }
+    else
+    {
+        // leaf
+        return /*html*/`<li data-ref="${chapter.ref}">
+                <a href="#" class="modal-close" onclick="return dispSource(this);" data-cite="${chapter.ref}">
+                    <span class="toc-chaptitle">${chapter.ref}</span>
+                    ${chaptitle}${spage}
+                </a>
+            </li>`;
+    }
+    
 }
 
 function constructSubMenu(chapter, recnum)
