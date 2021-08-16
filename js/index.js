@@ -141,6 +141,10 @@ function populateToC()
     var elems = document.querySelectorAll('.collapsible');
     var instances = M.Collapsible.init(elems);
     updateTooltips();
+
+    // load sidenav handler
+    let sidenav_elm = document.querySelectorAll('.sidenav');
+    let sidenav_inst = M.Sidenav.init(sidenav_elm, {});
 }
 
 function constructSubMenu(chapter, recnum)

@@ -29,24 +29,41 @@
 
     <body>
         <!-- fixed header -->
-        <nav class="light-blue lighten-1" role="navigation">
-            <div class="nav-wrapper container">
-                <a id="logo-container" href="#" class="lang-en brand-logo">Exploring IPCC reports</a>
-                <a id="logo-container" href="#" class="lang-fr brand-logo">Explorer les rapports du GIEC</a>
+        <div class="navbar-fixed">
+            <nav class="light-blue lighten-1" role="navigation">
+                <div class="nav-wrapper container">
+                    <ul class="materialize left">
+                        <li><a style="margin:0" href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a></li>
+                    </ul>
 
-                <ul class="right hide-on-med-and-down language-selector">
-                    <li><a href="#" onclick="return changeLang('en_EN');" title="Switch to English">
-                        <img src="assets/en.png" />
-                    </a></li>
-                    <li><a href="#" onclick="return changeLang('fr_FR');" title="Switch to French / lire en français">
-                        <img src="assets/fr.png" />
-                    </a></li>
-                    <li><a href="#" onclick="return togglePdfPanel();" title="Display/hide PDF panel">
-                        <i class="material-icons">picture_as_pdf</i>
-                    </a></li>
-                </ul>
-            </div>
-        </nav>
+                    <a id="logo-container" href="#" onclick="return false;" class="lang-en brand-logo">Exploring IPCC<span class="hide-on-small-only"> reports</span></a>
+                    <a id="logo-container" href="#" onclick="return false;" class="lang-fr brand-logo">
+                        <span class="hide-on-small-only">Explorer les rapports du GIEC</span>
+                        <span class="show-on-small-only">Rapports du GIEC</span>
+                    </a>
+
+                    <ul class="right hide-on-med-and-down language-selector">
+                        <li><a href="#" onclick="return changeLang('en_EN');" title="Switch to English">
+                            <img src="assets/en.png" />
+                        </a></li>
+                        <li><a href="#" onclick="return changeLang('fr_FR');" title="Switch to French / lire en français">
+                            <img src="assets/fr.png" />
+                        </a></li>
+                        <li><a href="#" onclick="return togglePdfPanel();" title="Display/hide PDF panel">
+                            <i class="material-icons">picture_as_pdf</i>
+                        </a></li>
+                    </ul>
+                    <ul class="right hide-on-large-only language-selector">
+                        <li class="lang-fr"><a href="#" onclick="return changeLang('en_EN');">
+                            <img src="assets/en.png" />
+                        </a></li>
+                        <li class="lang-en"><a href="#" onclick="return changeLang('fr_FR');">
+                            <img src="assets/fr.png" />
+                        </a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
         <div class="section" id="index-banner" style="background:rgba(0,0,0,0.08)">
             <div class="container">
                 <br><br>
@@ -151,10 +168,16 @@
                     Assurez-vous que cela n'engendre pas de surcoût pour votre abonnement Internet.<br>
                     Ce téléchargement ne se fera qu'une fois, sauf si vous rechargez la page ou quittez le navigateur.
                 </p>
+                <p class="lang-fr">
+                    <b>Cet outil n'est pas fonctionnel sur smartphone, seulement sur ordinateur.</b>
+                </p>
                 <p class="lang-en">
                     Before allowing you to navigate through the report, this app needs to download a 80MB file.<br>
                     Please ensure your internet provided won't charge you for this amount of data.<br>
                     This download will be done only one time, unless you reload the page or quit the browser.
+                </p>
+                <p class="lang-en">
+                    <b>Navigating the PDF is heavyweight and is not made for smartphones, only for desktop computers.</b>
                 </p>
             </div>
             <div class="modal-footer">

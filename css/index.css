@@ -2,6 +2,11 @@
 header, .section, footer, nav {
     padding-left: 350px; /* size of .sidenav */
 }
+@media only screen and (max-width : 992px) {
+    header, .section, footer, nav {
+        padding-left: 0;
+    }
+}
 
 body {
     background:white;
@@ -18,10 +23,12 @@ body {
 }
 
 @media only screen and (max-width : 992px) {
-    header, main, footer {
-        padding-left: 0;
+    .container {
+        width: 98%;
     }
 }
+
+
 
 h1, h5, .brand-logo, .card-title {
     font-family:Inter,sans-serif;
