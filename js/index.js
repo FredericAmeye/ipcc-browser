@@ -27,7 +27,7 @@ let initFn = (function()
     }
 
     /* init page */
-    jQuery.getJSON('content.json?v2.json', function(r){
+    jQuery.getJSON('content/wgI.json?v2.json', function(r){
         const nb_chap = r.SPM.chapters.length;
         wgI = r;
         
