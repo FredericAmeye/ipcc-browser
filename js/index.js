@@ -116,6 +116,13 @@ let initFn = (function()
                 $('#FAQ-chapters-level1 [data-cite=\''+urlParams['faq']+'\']')
             );
         }
+
+        if(urlParams['fig'] && urlParams['fig'].length)
+        {
+            dispFig(
+                $('<div data-figref="'+urlParams['fig']+'"></div>')
+            );
+        }
     });
 
     // menu dropdown
@@ -359,6 +366,9 @@ function updateHash()
     }
     if(pdfCurrentPage !== false) {
         hash += "&reportpage="+pdfCurrentPage;
+    }
+    if(currentFig !== false) {
+        hash += "&fig="+currentFig;
     }
 
     document.location.hash = hash;
@@ -870,10 +880,14 @@ function processText(txt)
 }
 
 // affichage d'une figure en plein écran
+let currentFig = false;
 function dispFig(e)
 {
     let fig = $(e).attr('data-figref');
     let figdata = wgI.figures[fig];
+
+    currentFig = fig;
+    updateHash();
 
     let figdesc = "";
     // add description for figure
@@ -901,9 +915,14 @@ function dispFig(e)
     <i>Figure ${fig}: ${figsubti}</i>
     ${figdesc}`);
     $('#modal-figure p').html();
+    $('#modal-figure .fig-sharelink').attr('href', document.location.href);
 
     let mod = M.Modal.init(document.getElementById('modal-figure'), {
-        endingTop: '4%'
+        endingTop: '4%',
+        onCloseStart: function(){
+            currentFig = false;
+            updateHash();
+        }
     });
     mod.open();
     updateTooltips();
