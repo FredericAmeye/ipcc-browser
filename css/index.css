@@ -288,6 +288,34 @@ h1, h5, .brand-logo, .card-title {
     font-size:16px;
     line-height:20px;
 }
+.modal.modal-fixed-footer {
+    height: 90%;
+    max-height: 90%;
+}
+.modal {
+    width: 70%;
+    max-width:1400px;
+}
+.modal h4 {
+    position: sticky;
+    top: 0;
+    background: white;
+    box-shadow: 0 0 5px 10px white;
+}
+
+@media only screen and (max-width: 992px)
+{
+.modal {
+max-width:95%;
+width: 95%;
+}
+.modal h4 {
+    position:relative;
+    background:none;
+    box-shadow:none;
+}
+}
+
 
 .tooltip-ref-chapter {
     font-family:Inter, sans-serif;
@@ -302,7 +330,8 @@ h1, h5, .brand-logo, .card-title {
     font-family:Inter,sans-serif;
 }
 .faq-intro {
-    font-weight:bold;
+    font-size:18px;
+    line-height:24px;
     color:#1a237e;
 }
 .faq-card .card-content {

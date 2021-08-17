@@ -157,7 +157,9 @@ function dispFAQ(e)
 
             $('#modal-faq .modal-content').html(html);
             $('#modal-faq .faq-reflink').attr('data-cite', ref);
-            let mod = M.Modal.init(document.getElementById('modal-faq'), {});
+            let mod = M.Modal.init(document.getElementById('modal-faq'), {
+                endingTop: '4%'
+            });
             mod.open();
             document.location.hash = "#faq="+ref;
         } else {
@@ -203,7 +205,9 @@ function populateToC()
         html += recursiveTOC(wgI[ order[i] ], 0);
     }
     $('#modal-toc .modal-content').html("<ul class='toc-holder'>"+html+"</ul>");
-    TOC_Modal = M.Modal.init(document.getElementById('modal-toc'), {});
+    TOC_Modal = M.Modal.init(document.getElementById('modal-toc'), {
+        endingTop:'4%'
+    });
 }
 
 function displayFullToc()
@@ -316,9 +320,21 @@ function displaySubLevel(e)
 }
 
 /* change chap niv1 */
+let currentChapter = false;
 function switchChapter(e)
 {
     let chapter = $(e).attr('data-chapter');
+    if(chapter === currentChapter)
+    {
+        // close current chapter
+        $('#SPM-chapters-level2').html('');
+        $('#SPM-follow-line').css('display','none');
+        currentChapter = false;
+        return;
+    }
+    
+    currentChapter = chapter;
+
     // display correct chapters
     let html = ``;
     for(let i = 0; i < wgI.SPM.chapters.length; i++)
@@ -420,6 +436,7 @@ function switchChapter(e)
 
     // ligne décorative
     $('#SPM-follow-line').css({
+        display: 'block',
         top: $(e).position().top,
         left: $(e).position().left + 20,
         height: $('#SPM-chapters-level2').position().top
@@ -828,7 +845,7 @@ function dispFig(e)
     $('#modal-figure p').html();
 
     let mod = M.Modal.init(document.getElementById('modal-figure'), {
-        
+        endingTop: '4%'
     });
     mod.open();
     updateTooltips();
