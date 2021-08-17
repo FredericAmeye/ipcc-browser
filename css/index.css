@@ -67,7 +67,7 @@ h1, h5, .brand-logo, .card-title {
 
 #side-panel-pdf {
     position:fixed;
-    top:0;
+    top:64px;
     bottom:0;
     right:0;
     width:50%;

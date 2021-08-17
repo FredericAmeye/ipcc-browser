@@ -17,7 +17,15 @@ let initFn = (function()
     }
 
     // lang selection
-    if(document.location.hash === "#lang=fr") {
+    let hash = document.location.hash.substr(1).split('&');
+    let urlParams = {};
+    for(let i = 0; i < hash.length; i++)
+    {
+        let p = hash[i].split('=');
+        urlParams[p[0]] = p[1];
+    }
+
+    if(urlParams['lang'] === "fr_FR" || urlParams['lang'] === 'fr') {
         lang = "fr_FR";
         localStorage.setItem('lang','fr_FR');
     } else {
@@ -89,6 +97,25 @@ let initFn = (function()
             }
         }
         $('#FAQ-chapters-level1').html(faq);
+
+
+        // init from hash url
+        if(urlParams['chapter'] && urlParams['chapter'].length)
+        {
+            let chap = urlParams['chapter'].split('.');
+            if(chap[0] === 'SPM') {
+                switchChapter(
+                    $('#SPM-chapters-level1 [data-chapter=\''+chap[1]+'\']')
+                );
+            }
+        }
+
+        if(urlParams['faq'] && urlParams['faq'].length)
+        {
+            dispFAQ(
+                $('#FAQ-chapters-level1 [data-cite=\''+urlParams['faq']+'\']')
+            );
+        }
     });
 
     // menu dropdown
@@ -123,6 +150,7 @@ function markAsRead(e)
 }
 
 /* affichage d'une FAQ */
+let currentFAQ = false;
 function dispFAQ(e)
 {
     let ref = $(e).attr('data-cite');
@@ -158,10 +186,17 @@ function dispFAQ(e)
             $('#modal-faq .modal-content').html(html);
             $('#modal-faq .faq-reflink').attr('data-cite', ref);
             let mod = M.Modal.init(document.getElementById('modal-faq'), {
-                endingTop: '4%'
+                endingTop: '4%',
+                onCloseStart: function(){
+                    currentFAQ = false;
+                    updateHash();
+                }
             });
             mod.open();
-            document.location.hash = "#faq="+ref;
+            currentFAQ = ref;
+            updateHash();
+            $('#modal-faq .faq-sharelink').attr('href', document.location.href);
+            
         } else {
             // affichage dans le PDF (fallback)
             dispSource(e);
@@ -313,6 +348,22 @@ function constructSubMenu(chapter, recnum)
     return html;
 }
 
+function updateHash()
+{
+    let hash = "lang="+lang;
+    if(currentChapter !== false) {
+        hash += "&chapter=SPM."+currentChapter;
+    }
+    if(currentFAQ !== false) {
+        hash += "&faq="+currentFAQ;
+    }
+    if(pdfCurrentPage !== false) {
+        hash += "&reportpage="+pdfCurrentPage;
+    }
+
+    document.location.hash = hash;
+}
+
 function displaySubLevel(e)
 {
     $(e).next('.chaplev3-holder').css('display','block');    
@@ -330,7 +381,8 @@ function switchChapter(e)
         $('#SPM-chapters-level2').html('');
         $('#SPM-follow-line').css('display','none');
         currentChapter = false;
-        return;
+        updateHash();
+        return false;
     }
     
     currentChapter = chapter;
@@ -428,7 +480,7 @@ function switchChapter(e)
         }
 
         $('#SPM-chapters-level2').html(html);
-        document.location.hash = "#chapter=SPM."+chapter;
+        updateHash();
         updateTooltips();
 
         break;
@@ -467,11 +519,12 @@ function post_pdfLoad()
     document.getElementById('pdf-iframe').contentWindow.PDFViewerApplication.eventBus.on('pagerendered', function(e){
         console.log("pagerender",this,e);
         if(pdfGoToPage) {
+            document.getElementById('pdf-iframe').contentWindow.PDFViewerApplication.page = pdfGoToPage;
             setTimeout(function(){
                 console.log("asking specific page", pdfGoToPage);
                 document.getElementById('pdf-iframe').contentWindow.PDFViewerApplication.page = pdfGoToPage;
                 pdfGoToPage = false;
-            }, 500);
+            }, 1500);
         }
         pdfLoadInProgress = false;
     });
@@ -505,10 +558,16 @@ function togglePdfPanel()
 function closePdfPanel()
 {
     $('#side-panel-pdf').css('visibility','hidden');
+    pdfCurrentPage = false;
+    updateHash();
 }
 
+let pdfCurrentPage = false;
 function pdfChangePage(page)
 {
+    pdfCurrentPage = page;
+    updateHash();
+
     // TODO split in multiple small pdf files
     if(!pdfAskedForLoad && !pdfLoadInProgress){
         console.log("Asking for a PDF load");
@@ -519,7 +578,6 @@ function pdfChangePage(page)
     }
 
     document.getElementById('pdf-iframe').contentWindow.PDFViewerApplication.page = page;
-    document.location.hash = "#reportpage="+page;
 }
 
 /* mouse over/out a source : display brief information about it */
