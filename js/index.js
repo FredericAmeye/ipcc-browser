@@ -1,5 +1,6 @@
 let wgI;
 let lang = "en_EN";
+let userParams = {};
 
 function changeLang(lang)
 {
@@ -10,6 +11,11 @@ function changeLang(lang)
 
 let initFn = (function()
 {
+    // getting user params
+    if(window.localStorage && localStorage.getItem('settings')) {
+        userParams = JSON.parse(localStorage.getItem('settings'));
+    }
+
     // lang selection
     if(document.location.hash === "#lang=fr") {
         lang = "fr_FR";
@@ -62,11 +68,16 @@ let initFn = (function()
                 if(chaps[j].ref.startsWith("FAQ"))
                 {
                     let chaptitle = chaps[j][lang] || chaps[j].en_EN;
+                    let read = (userParams['read'] && userParams['read'][chaps[j].ref])
+                                    ? ' style="display:block" '
+                                    : '';
+                    
                     faq += /*html*/`<div class="col s12 m6 l3">
                     
                         <a href="#" onclick="return dispFAQ(this);" data-cite="${chaps[j].ref}">
                             <div class="hoverable faq-card card green lighten-5">
                                 <span class="chapter-ref" style="color:black; transform: translateY(-8px)">${chaps[j].ref}</span>
+                                <span data-readmarker="${chaps[j].ref}" class="chapter-read" title="You have read this part" ${read}><i class="material-icons">done_all</i></span>
                                 <div class="card-content" style="color:black">
                                     <p>${chaptitle}</p>
                                 </div>
@@ -87,6 +98,29 @@ let initFn = (function()
     });
 
 })();
+
+/* history and localStorage */
+function saveLocalStorage()
+{
+    localStorage.setItem('settings', JSON.stringify(userParams));
+}
+
+function markAsRead(e)
+{
+    let ref = $(e).attr('data-cite');
+
+    if(typeof userParams['read'] === 'undefined')
+    {
+        userParams['read'] = {};
+    }
+
+    userParams['read'][ref] = new Date().getTime();
+    $('.chapter-read[data-readmarker=\''+ref+'\']').css('display','block');
+
+    saveLocalStorage();
+
+    return false;
+}
 
 /* affichage d'une FAQ */
 function dispFAQ(e)
@@ -122,6 +156,7 @@ function dispFAQ(e)
             }
 
             $('#modal-faq .modal-content').html(html);
+            $('#modal-faq .faq-reflink').attr('data-cite', ref);
             let mod = M.Modal.init(document.getElementById('modal-faq'), {});
             mod.open();
             document.location.hash = "#faq="+ref;

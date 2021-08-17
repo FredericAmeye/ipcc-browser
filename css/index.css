@@ -311,6 +311,14 @@ h1, h5, .brand-logo, .card-title {
 .faq-card .chapter-ref {
     font-size:18px;
 }
+.faq-card .chapter-read {
+    color: #1b5e20;
+    cursor: pointer;
+    position: absolute;
+    left:3px;
+    top:0;
+    display:none;
+}
 
 /* full table of contents */
 .toc-holder {
