@@ -541,11 +541,9 @@ function post_pdfLoad()
     pdfLoadInProgress = true;
     document.getElementById('pdf-iframe').contentWindow.PDFViewerApplication.initialBookmark = "page="+pdfGoToPage;
     document.getElementById('pdf-iframe').contentWindow.PDFViewerApplication.open("../../../pdf/noIMG.pdf");
-    // TODO proposer d'utiliser un fichier local plutot que le télécharger
 
-    // affing end of loading callback:
+    // adding end of loading callback:
     document.getElementById('pdf-iframe').contentWindow.PDFViewerApplication.eventBus.on('pagerendered', function(e){
-        console.log("pagerender",this,e);
         if(pdfGoToPage) {
             pdfGoToPage = false;
         }
@@ -553,6 +551,40 @@ function post_pdfLoad()
     });
 
     return false;
+}
+
+function openLocalPdf()
+{
+    var input = document.createElement('input');
+    input.type = 'file';
+    input.accept = '.pdf';
+
+    input.onchange = function(e){
+        if(e && e.target && e.target.files.length)
+        {
+            let file = e.target.files[0];
+            let x = document.getElementById('pdf-iframe').contentWindow;
+            let PDFViewerApplication = x.PDFViewerApplication;
+            PDFViewerApplication.eventBus.dispatch("fileinputchange", {
+                source: x,
+                fileInput: e.target
+            });
+
+            // adding end of loading callback:
+            document.getElementById('pdf-iframe').contentWindow.PDFViewerApplication.eventBus.on('pagerendered', function(e){
+                if(pdfGoToPage) {
+                    var askedPageChange = pdfGoToPage;
+                    setTimeout(function(){
+                        pdfChangePage(askedPageChange);
+                    }, 500);
+                    pdfGoToPage = false;
+                }
+                pdfLoadInProgress = false;
+            });
+        }
+    };
+
+    input.click();
 }
 
 function pdfLoad()
@@ -588,6 +620,7 @@ function closePdfPanel()
 let pdfCurrentPage = false;
 function pdfChangePage(page)
 {
+    console.log("asking for page change",page);
     pdfCurrentPage = page;
     updateHash();
 
@@ -675,7 +708,12 @@ function dispSource(e)
                 pageOffset = wgI[ exp_ref[0] ].offsetPagesFromFull;
                 console.log(" > searching in FAQ", pageOffset);
             }
-            else if(src.substr(0,18) == "Cross-Chapter Box "){
+            else if(src.substr(0,5) == "Atlas"){
+                // Atlas chapter
+                exp_ref = src.substr(5).split('.');
+                pageOffset = wgI.Atlas.offsetPagesFromFull;
+                console.log(" > searching in Atlas", pageOffset);
+            }else if(src.substr(0,18) == "Cross-Chapter Box "){
                 // CC-Box chapter
                 exp_ref = src.substr(18).split('.');
                 pageOffset = wgI[ exp_ref[0] ].offsetPagesFromFull;
@@ -723,6 +761,7 @@ function dispSource(e)
 /* find source by ref */
 const regular_chapter_match = /^[0-9es.]+$/g;
 const TS_chapter_match = /^TS\.[0-9.]+$/g;
+const Atlas_chapter_match = /^Atlas\.[0-9.]+$/g;
 const CCBox_chapter_match = /^Cross-Chapter Box [0-9.]+$/g;
 const CSBox_chapter_match = /^Cross-Section Box TS\.[0-9.]+$/g;
 const BoxTS_chapter_match = /^Box TS\.[0-9.]+$/g;
@@ -765,6 +804,12 @@ function findSourceByRef(src)
         let path = src.split('.');
         
         matched = returnElementByRefName(wgI.TS, src);
+    }
+    // Atlas chapter
+    else if(src.match(Atlas_chapter_match)) {
+        let path = src.split('.');
+        
+        matched = returnElementByRefName(wgI.Atlas, src);
     }
     // Cross-chapter box
     else if(src.match(CCBox_chapter_match)){

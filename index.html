@@ -220,27 +220,43 @@
             <div class="modal-content">
                 <h4 class="lang-en">Downloading complete report</h4>
                 <h4 class="lang-fr">Téléchargement du rapport complet</h4>
+
                 <p class="lang-fr">
-                    Afin de pouvoir naviguer dans le rapport, cette application
+                    Afin de pouvoir naviguer dans cette partie du rapport, cette application
                     doit télécharger un fichier d'environ 80Mo.<br>
                     Assurez-vous que cela n'engendre pas de surcoût pour votre abonnement Internet.<br>
                     Ce téléchargement ne se fera qu'une fois, sauf si vous rechargez la page ou quittez le navigateur.
                 </p>
                 <p class="lang-fr">
+                    Si vous disposez déjà du fichier PDF complet du rapport du GIEC sur votre ordinateur (<a href="https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Full_Report.pdf" rel="noopener" target="_blank">IPCC_AR6_WGI_Full_Report.pdf</a>),
+                    vous pouvez l'utiliser directement en cliquant sur "Ouvrir en local" ci-dessous. Cela sera plus rapide, ou économisera votre forfait de données.
+                </p>
+                <p class="lang-fr">
                     <b>Cet outil n'est pas fonctionnel sur smartphone, seulement sur ordinateur.</b>
                 </p>
+
                 <p class="lang-en">
-                    Before allowing you to navigate through the report, this app needs to download a 80MB file.<br>
+                    Before allowing you to navigate through this part of the report, this app needs to download a 80MB file.<br>
                     Please ensure your internet provided won't charge you for this amount of data.<br>
                     This download will be done only one time, unless you reload the page or quit the browser.
+                </p>
+                <p class="lang-fr">
+                    If you already have the complete IPCC PDF report on your computer (<a href="https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Full_Report.pdf" rel="noopener" target="_blank">IPCC_AR6_WGI_Full_Report.pdf</a>),
+                    you can use it directly here by clicking "Open local" below. This will be faster and save bandwidth.
                 </p>
                 <p class="lang-en">
                     <b>Navigating the PDF is heavyweight and is not made for smartphones, only for desktop computers.</b>
                 </p>
             </div>
             <div class="modal-footer">
-                <a href="#" onclick="return false" class="modal-close waves-effect waves-green btn-flat">Cancel</a>
-                <a href="#!" onclick="return post_pdfLoad();" class="modal-close waves-effect waves-green btn">Continue</a>
+                <a href="#" onclick="openLocalPdf(); return false" class="left lang-en modal-close waves-effect waves-green btn-flat">Open local</a>
+                <a href="#" onclick="openLocalPdf(); return false" class="left lang-fr modal-close waves-effect waves-green btn-flat">Ouvrir en local</a>
+
+                <a href="#" onclick="return false" class="lang-en modal-close waves-effect waves-green btn-flat">Cancel</a>
+                <a href="#" onclick="return false" class="lang-fr modal-close waves-effect waves-green btn-flat">Annuler</a>
+
+                <a href="#!" onclick="return post_pdfLoad();" class="lang-en modal-close waves-effect waves-green btn">Download</a>
+                <a href="#!" onclick="return post_pdfLoad();" class="lang-fr modal-close waves-effect waves-green btn">Télécharger</a>
             </div>
         </div>
 

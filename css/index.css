@@ -282,7 +282,7 @@ h1, h5, .brand-logo, .card-title {
 #modal-figure.modal {
     width: 70%;
 }
-#modal-figure p{
+.modal p{
     margin:12px 0;
     font-family:Inter,sans-serif;
     font-size:16px;
