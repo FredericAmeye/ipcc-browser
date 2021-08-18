@@ -1084,6 +1084,161 @@
             "description":{
                 "en_EN":["The core set of scenarios used in this report, i.e., SSP1-1.9, SSP1-2.6, SSP2-4.5, SSP3-7.0 and SSP5-8.5, is shown together with an additional four SSPs that are part of ScenarioMIP, as well as previous RCP scenarios. In the left panel, the indicative temperature evolution is shown (adapted from Meinshausen et al., 2020). The black stripes on the respective scenario family panels on the left side indicate a larger set of IAM-based SSP scenarios that span the scenario range more fully, but are not used in this report. The SSP-radiative forcing matrix is shown on the right, with the SSP socioeconomic narratives shown as columns and the indicative radiative forcing categorisation by 2100 shown as rows. Note that the descriptive labels for the five SSP narratives refer mainly to the reference scenario futures without additional climate policies. For example, SSP5 can accommodate strong mitigation scenarios leading to net-zero emissions; these do not match a ‘fossil-fueled development’ label. Further details on data sources and processing are available in the chapter data table (Table 1.SM.1)."]
             }
+        },
+        "Box TS.2,Figure1": {
+            "title":{
+                "en_EN":"Paleoclimate and recent reference periods, with selected key indicators."
+            },
+            "subtitle":{
+                "en_EN":"The intent of this figure is to list the paleoclimate reference periods used in the WGI report, to summarize three key global climate indicators, and compare CO2 with global temperature over multiple periods."
+            },
+            "description": {
+                "en_EN":[
+                    "(a) Three large-scale climate indicators (atmospheric CO2, global surface temperature relative to 1850-1900, and global mean sea level relative to 1900), based on assessments in Chapter 2, with confidence levels ranging from low to very high.\n(b) Comparison between global surface temperature (relative to 1850-1900) and atmospheric CO2 concentration for multiple reference periods (mid-points with 5–95% ranges). {2.2.3, 2.3.1.1, 2.3.3.3, Figure 2.34} "
+                ]
+            }
+        },
+        "Box TS.2,Figure2": {
+            "title":{
+                "en_EN":"Global surface temperature as estimated from proxy records (reconstructed) and climate models (simulated)."
+            },
+            "subtitle":{
+                "en_EN":"The intent of this figure is to show the agreement between observations and models of global temperatures during paleo reference periods."
+            },
+            "description": {
+                "en_EN":[
+                    "(a) For individual paleoclimate reference periods.\n(b) For the last millennium, with instrumental temperature (AR6 assessed mean,10-year smoothed). Model uncertainties in (a) and (b) are 5-95% ranges of multi-model ensemble means; reconstructed uncertainties are 5-95% ranges (medium confidence) of (a) midpoints and (b) multi-method ensemble median. {2.3.1.1, Figure 2.34, Figure 3.2c, Figure 3.44} "
+                ]
+            }
+        },
+        "Cross-Section Box TS.1,Figure1": {
+            "title":{
+                "en_EN":"Earth’s surface temperature history and future with key findings annotated within each panel."
+            },
+            "subtitle":{
+                "en_EN":"The intent of this figure is to show global surface temperature observed changes from the Holocene to now, and projected changes."
+            },
+            "description": {
+                "en_EN":[
+                    "(a) Global surface temperature over the Holocene divided into three time scales. (i) 12,000 to 1000 years ago (10,000 BCE to 1000 CE) in 100-year time steps, (ii) 1000 to 1900 CE, 10-year smooth, and (iii) 1900 to 2020 CE (mean of four datasets in panel (c)). Median of the multi-method reconstruction (bold lines), with 5% and 95% percentiles of the ensemble members (thin lines). Vertical bars are 5th to 95th percentile ranges of estimated global surface temperature for the Last Interglacial and mid Holocene (medium confidence) (Section 2.3.1.1). All temperatures relative to 1850–1900.",
+                    
+                    "(b) Spatially resolved trends (°C per decade) for (upper map) HadCRUTv5 over 1981–2020, and (lower map, total change) multi-model mean projected changes from 1995–2014 to 2081–2010 in the SST3-7.0 scenario. Observed trends have been calculated where data are present in both the first and last decade and for at least 70% of all years within the period using OLS. Significance is assessed with AR(1) correction and denoted by stippling. Hatched areas in the lower map show areas of conflicting model evidence on significance of changes.",
+                    
+                    "(c) Temperature from instrumental data for 1850–2020, including annually resolved averages for the four global surface temperature datasets assessed in Section 2.3.1.1.3 (see text for references). The grey shading shows the uncertainty associated with the HadCRUTv5 estimate. All temperatures relative to the 1850–1900 reference period.",
+                    
+                    "(d)  Recent past and 2015–2050 evolution of annual mean global surface temperature change relative to 1850–1900, from HadCRUTv5 (black), CMIP6 historical simulations (up to 2014, in grey, ensemble mean solid, 5% and 95% percentiles dashed, individual models thin), and CMIP6 projections under scenario SSP2-4.5, from four models that have an equilibrium climate sensitivity near the assessed central value (thick yellow). Solid thin coloured lines show the assessed central estimate of 20-year change in global surface temperature for 2015–2050 under three scenarios, and dashed thin coloured lines the corresponding 5% and 95% quantiles.",
+                    
+                    "(e) Assessed projected change in 20-year running mean global surface temperature for five scenarios (central estimate solid, very likely range shaded for SSP1-2.6 and SSP3-7.0), relative to 1995–2014 (left y-axis) and 1850–1900 (right y-axis). The y-axis on the right-hand side is shifted upward by 0.85°C, the central estimate of the observed warming for 1995–2014, relative to 1850–1900. The right y-axis in (e) is the same as the y-axis in (d).  "
+                ]
+            }
+        },
+        "Box TS.3,Figure1": {
+            "title":{
+                "en_EN":"High-warming storylines"
+            },
+            "subtitle":{
+                "en_EN":""
+            },
+            "description": {
+                "en_EN":[
+                    "(a) CMIP6 multi-model mean linearly scaled to the assessed best global surface temperature estimate for SSP1-2.6 in 2081–2100 relative to 1995–2014,",
+                    "(b) mean across five high-warming models with global surface temperature changes warming nearest to the upper bound of the assessed very likely range,",
+                    "(c) mean across five very high-warming models with global surface temperature changes warming higher than the assessed very likely.",
+                    "(d-f) Same as (a-c) but for SSP5-8.5. Note the different colour bars in (a-c) and (d-f). {4.7, Figure 4.41}  "
+                ]
+            }
+        },
+        "Box TS.4,Figure1": {
+            "title":{
+                "en_EN":"Global mean sea level change on different time scales and under different scenarios."
+            },
+            "subtitle":{
+                "en_EN":""
+            },
+            "description": {
+                "en_EN":[
+                    "(a) GMSL change from 1900 to 2150, observed (1900–2018) and projected under the SSP scenarios (2000–2150), relative to a 1995–2014 baseline. Solid lines show median projections.Shaded regions show likely ranges for SSP1-2.6 and SSP3-7.0. Dotted and dashed lines show respectively the 83rd and 95th percentile low-confidence projections for SSP5-8.5. Bars at right show likely ranges for SSP1-1.9, SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5 in 2150. Lightly shaded thick/thin bars show 17th–83rd/5th–95th percentile low-confidence ranges in 2150 for SSP1-2.6 and SSP5-8.5, based upon projection methods incorporating structured expert judgement and Marine Ice Cliff Instability. Low-confidence range for SSP5-8.5 in 2150 extends to 4.8/5.4 m at the 83rd/95th percentile.",
+                    "(b) GMSL change on 100- (blue), 2,000- (green) and 10,000-year (magenta) time scales as a function of global surface temperature, relative to 1850–1900. For 100-year projections, GMSL is projected for the year 2100, relative to a 1995-2014 baseline, and temperature anomalies are average values over 2081–2100. For longer-term commitments, warming is indexed by peak warming above 1850–1900 reached after cessation of emissions. Shaded regions show paleo-constraints on global surface temperature and GMSL for the Last Interglacial and mid-Pliocene Warm Period. Lightly shaded thick/thin blue bars show 17th–83rd/5th–95th percentile low-confidence ranges for SSP1-2.6 and SSP5-8.5 in 2100, plotted at 2°C and 5°C.",
+                    "(c) Timing of exceedance of GMSL thresholds of 0.5, 1.0, 1.5 and 2.0 m, under different SSPs. Lightly shaded thick/thin bars show 1th7–83rd/5th–95th percentile low-confidence ranges for SSP1-2.6 and SSP5-8.5.  "
+                ]
+            }
+        },
+        "Box TS.6,Figure1": {
+            "title":{
+                "en_EN":"Projected water cycle changes."
+            },
+            "subtitle":{
+                "en_EN":""
+            },
+            "description": {
+                "en_EN":[
+                    "Long-term (2081–2100) projected annual mean changes (%) relative to present-day (1995–2014) in the SSP2-4.5 emissions scenario for (a) precipitation, (b) surface evapotranspiration, (c) total runoff and (d) surface soil moisture. Top-right panel numbers indicate the number of CMIP6 models used for estimating the ensemble mean. For other scenarios, please refer to relevant figures in Chapter 8. Uncertainty is represented using the simple approach: No overlay indicates regions with high model agreement, where ≥80% of models agree on sign of change; diagonal lines indicate regions with low model agreement, where <80% of models agree on sign of change. For more information on the simple approach, please refer to the Cross-Chapter Box Atlas.1. {8.4.1, Figures 8.14, 8.17, 8.18, 8.19} "
+                ]
+            }
+        },
+        "Box TS.7,Figure1": {
+            "title":{
+                "en_EN":"Effects of short-lived climate forcers (SLCFs) on global surface temperature and air pollution across the WGI core set of Shared Socio-Economic Pathways (SSPs)"
+            },
+            "subtitle":{
+                "en_EN":"The intent of this figure is to show the climate and air quality (surface ozone and PM2.5) response to SLCFs in the SSP scenarios for near and long-term."
+            },
+            "description": {
+                "en_EN":[
+                    "Effects of net aerosols, tropospheric ozone, hydrofluorocarbons (HFCs) (with lifetimes less than 50 years), and methane are compared with those of total anthropogenic forcing for 2040 and 2100 relative to year 2019. The global surface temperature changes are based on historical and future evolution of Effective Radiative Forcing (ERF) as assessed in chapter 7 of this report. The temperature responses to the ERFs are calculated with a common impulse response function (RT) for the climate response, consistent with the metric calculations in Chapter 7 (Box 7.1). The RT has an equilibrium climate sensitivity of 3.0°C for a doubling of atmospheric CO2 concentration (feedback parameter of -1.31 W m-2 °C-1). The scenario total (grey bar) includes all anthropogenic forcings (long- and short-lived climate forcers, and land use changes). Uncertainties are 5-95% ranges. The global changes in air pollutant concentrations (ozone and PM2.5) are based on multimodel CMIP6 simulations and represent changes in 5-year mean surface continental concentrations for 2040 and 2098 relative to 2019. Uncertainty bars represent inter-model ±1 standard deviation. {6.7.2, 6.7.3, Figure 6.24}"
+                ]
+            }
+        },
+        "Box TS.10,Figure1": {
+            "title":{
+                "en_EN":"Synthesis of assessed observed changes and human influence of hot extremes (panel a), heavy precipitation (panel b) and agricultural and ecological drought (panel c) for the IPCC AR6 regions (displayed as hexagons)."
+            },
+            "subtitle":{
+                "en_EN":"The colours in each panel represent the four outcomes of the assessment on the observed changes:"
+            },
+            "description": {
+                "en_EN":[
+                    "In Panel a): red – at least medium confidence in an observed increase in hot extremes; blue – at least medium confidence in an observed decrease in hot extremes; white – no significant change in hot extremes is observed for the region as a whole; grey – the evidence in this region is insufficient (because of a lack of data and/or literature) to make an assessment for the region as a whole.",
+
+                    "In panel b): green – at least medium confidence in an observed increase in heavy rainfall; yellow - at least medium confidence in an observed decrease in heavy rainfall; white – no significant change in heavy rainfall is observed for the region as a whole; grey – the evidence in this region is insufficient (because of a lack of data and/or literature) to make an assessment for the region as a whole.",
+
+                    "In panel c): yellow – at least medium confidence in an observed increase in agricultural and ecological drought; green - at least medium confidence in an observed decrease in agricultural and ecological drought; white – no significant change in agricultural and ecological drought is observed for the region as a whole; grey – the evidence in this region is insufficient (because of a lack of data and/or literature) to make an assessment for the region as a whole.",
+
+                    "Each panel represents in addition the synthesis of assessment of the human influence on the observed changes based on available trend detection and attribution and event attribution scientific publications. The level of confidence is indicated by a number of dots: high confidence (three dots), medium confidence (two dots), low confidence (one dot), and when no assessment is possible, due to insufficient evidence for the specific region (horizontal bar). For hot extremes, the evidence is mostly drawn from changes in metrics based on daily maximum temperatures, regional studies using other metrics (heatwave duration, frequency and intensity) are used in addition {11.9.2}. For heavy precipitation, the evidence is mostly drawn from changes in metrics based on one-day or five-day precipitation amounts using global and regional studies {11.9.3}. Agricultural and ecological droughts are assessed based on observed and projected changes in total column soil moisture, complemented by evidence on changes in surface soil moisture, water-balance (precipitation minus evapotranspiration) and metrics driven by precipitation and atmospheric evaporative demand. {11.9.3} All assessments are made for each AR6 region as a whole and for the timeframe from 1950 to present thus, more local or assessment made on shorter time scales might differ from what is shown in the figure. {11.9, Table TS.5}."
+                ]
+            }
+        },
+        "Box TS.12,Figure1": {
+            "title":{
+                "en_EN":"Example of generating regional climate information from multiple lines of evidence for the case of Mediterranean summer warming, with indication of the information available from the  Interactive  Atlas."
+            },
+            "subtitle":{
+                "en_EN":""
+            },
+            "description": {
+                "en_EN":[
+                    "(a) Mechanisms  and  feedbacks  involved  in  enhanced  Mediterranean summer warming.",
+                    "(b) Locations of observing stations from different datasets.",
+                    "(c) Distribution of 1960‒2014 summer temperature trends (°C per decade) for observations (black crosses), CMIP5 (blue circles), CMIP6 (red circles), HighResMIP (orange circles), CORDEX EUR-44 (light blue circles), CORDEX EUR-11 (green circles), and selected single Model Initial-condition Large Ensembles - SMILEs (grey boxplots, MIROC6, CSIRO-Mk3-6-0, MPI-ESM and d4PDF).",
+                    "(d) Time  series  of  area  averaged  (25°N‒50°N,  10°W‒40°E)  land  point  summer  temperature anomalies  (°C,  baseline  period  is  1995–2014):  the  boxplot  shows  long  term  (2081–2100) temperature changes of different CMIP6 scenarios in respect to the baseline period.",
+                    "(e) Projected Mediterranean  summer  warming  in  comparison  to  global  annual  mean  warming  of  CMIP5 (RCP2.6, RCP4.5, RCP6.0 and RCP8.5) and CMIP6 (SSP1-2.6, SSP2-4.5, SSP3-7.0 and SSP5-8.5) ensemble means (lines) and spread (shading). {Figure 10.20, Figure 10.21, Figure Atlas.8} "
+                ]
+            }
+        },
+        "Box TS.13,Figure1": {
+            "title":{
+                "en_EN":"Global and regional monsoons: past trends and projected changes."
+            },
+            "subtitle":{
+                "en_EN":"The intent of this figure is to show changes in precipitation over regional monsoon domains in terms of observed past trends,  how  greenhouse  gases  and  aerosols  relate  to  these  changes,  and  in  terms  of  future projections in one intermediate emission scenario in the near, medium and long terms."
+            },
+            "description": {
+                "en_EN":[
+                    "(a) Global (black contour) and regional monsoons (colour shaded) domains. The global monsoon (GM) is defined as the area with local summer-minus-winter precipitation rate exceeding 2.5 mm day–1 (see Annex V). The regional monsoon domains are defined based on published literature and expert judgement (see Annex V), and also accounting for the fact that the climatological summer monsoon  rainy  season  varies  across  the  individual  regions.  Assessed  regional  monsoons  are South and Southeast Asia (SAsiaM, Jun-Jul-Aug-Sep), East Asia (EAsiaM, Jun-Jul-Aug), West Africa  (WAfriM,  Jun-Jul-Aug-Sep),  North  America  (NAmerM,  Jul-Aug-Sep),  South  America (SAmerM,  Dec-Jan-Feb),  Australia  and  Maritime  Continent  Monsoon  (AusMCM,  Dec-Jan-Feb). Equatorial South America (EqSAmer) and South Africa (SAfri) regions are also shown, as they  receive  unimodal  summer  seasonal  rainfall  although  their  qualification  as  monsoons  is subject to discussion.",
+                    "(b) Global and regional monsoons precipitation trends based on DAMIP CMIP6  simulations  with  both  natural  and  anthropogenic  (ALL),  GHG  only  (GHG),  aerosols only (AER) and natural only (NAT) radiative forcing. Weighted ensemble means are based on nine  CMIP6  models  contributing  to  the  MIP  (with  at  least  3  members).  Observed  trends computed from CRU GPCP, and APHRO (only for SAsiaM and EAsiaM) datasets are shown as well.",
+                    "(c) Percentage change in projected seasonal mean precipitation over global and regional monsoons domain in the near-term (2021–2040), mid-term (2041–2060), and long-term (2081–2100) under SSP2-4.5 based on 24 CMIP6 models. {Figure 8.11, Figure 8.22}  "
+                ]
+            }
         }
     },
 
@@ -1582,11 +1737,11 @@
                     "en_EN": [
                         "Since the first IPCC report in 1990, large numbers of new instruments have been deployed to collect data in the air, on land, at sea and from outer space. These instruments measure temperature, clouds, winds, ice, snow, ocean currents, sea level, soot and dust in the air, and many other aspects of the climate system. New satellite instruments have also provided a wealth of increasingly fine-grained data. Additional data from older observing systems and even hand-written historical records are still being incorporated into observational datasets, and these datasets are now better integrated and adjusted for historical changes in instruments and measurement techniques. Ice cores, sediments, fossils, and other new evidence from the distant past have taught us much about how Earth’s climate has changed throughout its history.",
 
-                        "Understanding of climate system processes has also improved. For example, in 1990 very little was known about how the deep ocean responds to climate change. Today, reconstructions of deep ocean temperatures extend as far back as 1871. We now know that the oceans absorb most of the excess energy trapped by greenhouse gases and that even the deep ocean is warming up. As another example, in 1990, relatively little was known about exactly how or when the gigantic ice sheets of Greenland and Antarctica would respond to warming. Today, much more data and better models of ice sheet behaviour reveal unexpectedly high melt rates that will lead to major changes within this century, including substantial sea level rise (see <goto>FAQ9.2</goto>).",
+                        "Understanding of climate system processes has also improved. For example, in 1990 very little was known about how the deep ocean responds to climate change. Today, reconstructions of deep ocean temperatures extend as far back as 1871. We now know that the oceans absorb most of the excess energy trapped by greenhouse gases and that even the deep ocean is warming up. As another example, in 1990, relatively little was known about exactly how or when the gigantic ice sheets of Greenland and Antarctica would respond to warming. Today, much more data and better models of ice sheet behaviour reveal unexpectedly high melt rates that will lead to major changes within this century, including substantial sea level rise (see FAQ9.2).",
 
-                        "The major natural factors contributing to climate change on time scales of decades to centuries are volcanic eruptions and variations in the sun’s energy output. Today, data show that changes in incoming solar energy since 1900 have contributed only slightly to global warming, and they exhibit a slight downward trend since the 1970s. Data also show that major volcanic eruptions have sometimes cooled the entire planet for relatively short periods of time (typically several years) by erupting aerosols (tiny airborne particles) high into the atmosphere.\nThe main human causes of climate change are the heat-absorbing greenhouse gases released by fossil fuel combustion, deforestation, and agriculture, which warm the planet, and aerosols such as sulphate from burning coal, which have a short-term cooling effect that partially counteracts human-caused warming. Since 1990, we have more and better observations of these human factors as well as improved historical records, resulting in more precise estimates of human influences on the climate system (see <goto>FAQ3.1</goto>).",
+                        "The major natural factors contributing to climate change on time scales of decades to centuries are volcanic eruptions and variations in the sun’s energy output. Today, data show that changes in incoming solar energy since 1900 have contributed only slightly to global warming, and they exhibit a slight downward trend since the 1970s. Data also show that major volcanic eruptions have sometimes cooled the entire planet for relatively short periods of time (typically several years) by erupting aerosols (tiny airborne particles) high into the atmosphere.\nThe main human causes of climate change are the heat-absorbing greenhouse gases released by fossil fuel combustion, deforestation, and agriculture, which warm the planet, and aerosols such as sulphate from burning coal, which have a short-term cooling effect that partially counteracts human-caused warming. Since 1990, we have more and better observations of these human factors as well as improved historical records, resulting in more precise estimates of human influences on the climate system (see FAQ3.1).",
 
-                        "While most climate models in 1990 focused on the atmosphere, using highly simplified representations of oceans and land surfaces, today’s Earth system simulations include detailed models of oceans, ice, snow, vegetation and many other variables. An important test of models is their ability to simulate Earth’s climate over the period of instrumental records (since about 1850). Several rounds of such testing have taken place since 1990, and the testing itself has become much more rigorous and extensive. As a group and at large scales, models have predicted the observed changes well in these tests (see <goto>FAQ3.3</goto>). Since there is no way to do a controlled laboratory experiment on the actual Earth, climate model simulations can also provide a kind of ‘alternate Earth’ to test what would have happened without human influences. Such experiments show that the observed warming would not have occurred without human influence.",
+                        "While most climate models in 1990 focused on the atmosphere, using highly simplified representations of oceans and land surfaces, today’s Earth system simulations include detailed models of oceans, ice, snow, vegetation and many other variables. An important test of models is their ability to simulate Earth’s climate over the period of instrumental records (since about 1850). Several rounds of such testing have taken place since 1990, and the testing itself has become much more rigorous and extensive. As a group and at large scales, models have predicted the observed changes well in these tests (see FAQ3.3). Since there is no way to do a controlled laboratory experiment on the actual Earth, climate model simulations can also provide a kind of ‘alternate Earth’ to test what would have happened without human influences. Such experiments show that the observed warming would not have occurred without human influence.",
 
                         "Finally, physical theory predicts that human influences on the climate system should produce specific patterns of change, and we see those patterns in both observations and climate simulations. For example, nights are warming faster than days, less heat is escaping to space, and the lower atmosphere (troposphere) is warming but the upper atmosphere (stratosphere) has cooled. These confirmed predictions are all evidence of changes driven primarily by increases in greenhouse gas concentrations rather than natural causes."
                     ],
@@ -1659,11 +1814,11 @@
                 },
                 "paragraphs": {
                     "en_EN": [
-                        " Rising greenhouse gas concentrations are driving profound changes to the Earth system, including global warming, sea level rise, increases in climate and weather extremes, ocean acidification, and ecological shifts (see <goto>FAQ2.2</goto>, <goto>FAQ7.1</goto>). The vast majority of instrumental observations of climate began during the 20th century, when greenhouse gas emissions from human activities became the dominant driver of changes in Earth\u2019s climate (see <goto>FAQ3.1</goto>).  ",
-                        " As scientists seek to refine our understanding of Earth\u2019s climate system and how it may evolve in coming decades to centuries, past climate states provide a wealth of insights. Data about these past states help to establish the relationship between natural climate drivers and the history of changes in global temperature, global sea levels, the carbon cycle, ocean circulation, and regional climate patterns, including climate extremes. Guided by such data, scientists use Earth system models to identify the chain of events underlying the transitions between past climatic states (see <goto>FAQ3.3</goto>). This is important because during present-day climate change, just as in past climate changes, some aspects of the Earth system (e.g., surface temperature) respond to changes in greenhouse gases on a time scale of decades to centuries, while others (e.g., sea level and the carbon cycle) respond over centuries to millennia (see <goto>FAQ5.3</goto>). In this way, past climate states serve as critical benchmarks for climate model simulations, improving our understanding of the sequences, rates, and magnitude of future climate change over the next decades to millennia.  ",
-                        "  Analyzing previous warm periods caused by natural factors can help us understand how key aspects of the climate system evolve in response to warming. For example, one previous warm-climate state occurred roughly 125,000 years ago, during the Last Interglacial period, when slight variations in the Earth\u2019s orbit triggered a sequence of changes that caused about 1\u00b0C\u20132\u00b0C of global warming and about 2\u20138 m of sea level rise relative to the 1850-1900, even though atmospheric carbon dioxide concentrations were similar to 1850-1900 values (<goto>FAQ1.3,Figure 1</goto>). Modelling studies highlight that increased summer heating in the higher latitudes of the Northern Hemisphere during this time caused widespread melting of snow and ice, reducing the reflectivity of the planet and increasing the absorption of solar energy by the Earth\u2019s surface. This gave rise to global-scale warming, which led in turn to further ice loss and sea level rise. These self-reinforcing positive feedback cycles are a pervasive feature of Earth\u2019s climate system, with clear implications for future climate change under continued greenhouse gas emissions. In the case of sea level rise, these cycles evolved over several centuries to millennia, reminding us that the rates and magnitude of sea level rise in the 21st century are just a fraction of the sea level rise that will ultimately occur after the Earth system fully adjusts to current levels of global warming.  ",
+                        " Rising greenhouse gas concentrations are driving profound changes to the Earth system, including global warming, sea level rise, increases in climate and weather extremes, ocean acidification, and ecological shifts (see FAQ2.2, FAQ7.1). The vast majority of instrumental observations of climate began during the 20th century, when greenhouse gas emissions from human activities became the dominant driver of changes in Earth\u2019s climate (see FAQ3.1).  ",
+                        " As scientists seek to refine our understanding of Earth\u2019s climate system and how it may evolve in coming decades to centuries, past climate states provide a wealth of insights. Data about these past states help to establish the relationship between natural climate drivers and the history of changes in global temperature, global sea levels, the carbon cycle, ocean circulation, and regional climate patterns, including climate extremes. Guided by such data, scientists use Earth system models to identify the chain of events underlying the transitions between past climatic states (see FAQ3.3). This is important because during present-day climate change, just as in past climate changes, some aspects of the Earth system (e.g., surface temperature) respond to changes in greenhouse gases on a time scale of decades to centuries, while others (e.g., sea level and the carbon cycle) respond over centuries to millennia (see FAQ5.3). In this way, past climate states serve as critical benchmarks for climate model simulations, improving our understanding of the sequences, rates, and magnitude of future climate change over the next decades to millennia.  ",
+                        "  Analyzing previous warm periods caused by natural factors can help us understand how key aspects of the climate system evolve in response to warming. For example, one previous warm-climate state occurred roughly 125,000 years ago, during the Last Interglacial period, when slight variations in the Earth\u2019s orbit triggered a sequence of changes that caused about 1\u00b0C\u20132\u00b0C of global warming and about 2\u20138 m of sea level rise relative to the 1850-1900, even though atmospheric carbon dioxide concentrations were similar to 1850-1900 values (FAQ1.3,Figure 1). Modelling studies highlight that increased summer heating in the higher latitudes of the Northern Hemisphere during this time caused widespread melting of snow and ice, reducing the reflectivity of the planet and increasing the absorption of solar energy by the Earth\u2019s surface. This gave rise to global-scale warming, which led in turn to further ice loss and sea level rise. These self-reinforcing positive feedback cycles are a pervasive feature of Earth\u2019s climate system, with clear implications for future climate change under continued greenhouse gas emissions. In the case of sea level rise, these cycles evolved over several centuries to millennia, reminding us that the rates and magnitude of sea level rise in the 21st century are just a fraction of the sea level rise that will ultimately occur after the Earth system fully adjusts to current levels of global warming.  ",
                         " Roughly 3 million years ago, during the Pliocene Epoch, the Earth witnessed a prolonged period of elevated temperatures (2.5\u00b0C\u20134\u00b0C higher than 1850-1900) and higher sea levels (5\u201325 m higher than 1850-1900), in combination with atmospheric carbon dioxide concentrations similar to present-day. The fact that Pliocene atmospheric carbon dioxide concentrations were similar to present, while global temperatures and sea levels were significantly higher, reflects the difference between an Earth system that has fully-adjusted to changes in natural drivers (the Pliocene) and one where greenhouse gases concentrations, temperature, and sea level rise are still increasing (present-day). Much about the transition into the Pliocene climate state \u2013 in terms of key causes, the role of cycles that hastened or slowed the transition, and the rate of change in climate indicators such as sea level \u2013 remain topics of intense study by climate researchers using a combination of paleoclimate observations and Earth system models. Insights from such studies may help to reduce the large uncertainties around estimates of global sea level rise by 2300, which range from 0.3 m to 3 m above 1850-1900 (in a low-emissions scenario) to as much as 16 m higher than 1850-1900 (in a very high-emissions scenario that includes accelerating structural disintegration of the polar ice sheets). ",
-                        " While present-day warming is unusual in the context of the recent geologic past in several different ways (see <goto>FAQ2.1</goto>), past warm climate states present a stark reminder that the long-term adjustment to present-day atmospheric carbon dioxide concentrations has only just begun. That adjustment will continue over the coming centuries to millennia. "
+                        " While present-day warming is unusual in the context of the recent geologic past in several different ways (see FAQ2.1), past warm climate states present a stark reminder that the long-term adjustment to present-day atmospheric carbon dioxide concentrations has only just begun. That adjustment will continue over the coming centuries to millennia. "
                     ],
                     "fr_FR":[
                         "L'augmentation des concentrations de gaz à effet de serre provoquent des changements profonds au système Terre, y compris le réchauffement global, la hausse du niveau des mers, une augmentation des extrêmes climatiques et météorologiques, l'acidification des océans, et des changements écologiques (voir FAQ2.2, FAQ7.1). La grande majorité de l'observation instrumentale du climat a commencé au cours du 20e siècle, quand les émissions de gaz à effet de serre issus des activités humaines sont devenus le facteur principal des changements du climat (voir FAQ3.1).",
@@ -2017,7 +2172,7 @@
                         " <i>It\u2019s warming rapidly.<\/i> Over the past 2 million years, Earth\u2019s climate has fluctuated between relatively warm interglacial periods and cooler glacial periods, when ice sheets grew over vast areas of the northern continents. Intervals of rapid warming coincided with the collapse of major ice sheets, heralding interglacial periods such as the present Holocene Epoch, which began about 12,000 years ago. During the shift from the last glacial period to the current interglacial, the total temperature increase was about 5\u00b0C. That change took about 5000 years, with a maximum warming rate of about 1.5\u00b0C per thousand years, although the transition was not smooth. In contrast, Earth\u2019s surface has warmed approximately 1.1\u00b0C since 1850\u20131900. However, even the best reconstruction of global surface temperature during the last deglacial period is too coarsely resolved for direct comparison with a period as short as the past 150 years. But for the past 2000 years, we have higher-resolution records that show that the rate of global warming during the last 50 years has exceeded the rate of any other 50-year period. ",
                         " <i>Recent warming reversed a long-term global cooling trend.<\/i> Following the last major glacial period, global surface temperature peaked by around 6500 years ago, then slowly cooled. The long-term cooling trend was punctuated by warmer decades and centuries. These fluctuations were minor compared with the persistent and prominent warming that began in the mid-19th century when the millennial-scale cooling trend was reversed.  ",
                         " <i>It\u2019s been a long time since it\u2019s been this warm.<\/i> Averaged over the globe, surface temperatures of the past decade were probably warmer than when the long cooling trend began around 6500 years ago. If so, we need to look back to at least the previous interglacial period, around 125,000 years ago, to find evidence for multi-centennial global surface temperatures that were warmer than now.  ",
-                        " Previous temperature fluctuations were caused by large-scale natural processes, while the current warming is largely due to human causes (see, for example, <goto>FAQ1.3<\/goto>, <goto>FAQ3.1<\/goto>). But understanding how and why temperatures have changed in the past is critical for understanding the current warming and how human and natural influences will interact to determine what happens in the future. Studying past climate changes also makes it clear that, unlike previous climate changes, the effects of recent warming are occurring on top of stresses that make humans and nature vulnerable to changes in ways that they have never before experienced (for example, see <goto>FAQ11.2<\/goto>, <goto>FAQ12.3<\/goto>)."
+                        " Previous temperature fluctuations were caused by large-scale natural processes, while the current warming is largely due to human causes (see, for example, FAQ1.3, FAQ3.1). But understanding how and why temperatures have changed in the past is critical for understanding the current warming and how human and natural influences will interact to determine what happens in the future. Studying past climate changes also makes it clear that, unlike previous climate changes, the effects of recent warming are occurring on top of stresses that make humans and nature vulnerable to changes in ways that they have never before experienced (for example, see FAQ11.2, FAQ12.3)."
                     ],
                     "fr_FR":[
                         "Même si le climat peut être caractérisé par de nombreuses variables, la température est un indicateur-clé de l'état global du climat, et la température globale de surface est fondamentale pour caractériser et comprendre le changement climatique global, y compris le bilan radiatif de la Terre. Une grande variété de preuves géologiques montrent que la température a changé au cours de l'histoire de la Terre. Une variété d'archives naturelles autour du globe, comme les sédiments océaniques et lacustres, les carottes de glace ou les cernes des arbres, nous montrent qu'il y a eu des périodes où la planète était plus froide, et des périodes où elle était plus chaude. Même si notre confiance dans la quantification des changements de large échelle des températures diminue au fur et à mesure que l'on remonte dans le temps, les scientifiques peuvent tout de même identifier au moins 4 différences majeures entre le réchauffement actuel et ceux passés.",
@@ -8580,12 +8735,14 @@
                 "ref":"Box TS.2",
                 "en_EN":"Paleoclimate",
                 "fr_FR":"Paléoclimat",
-                "startPage":12
+                "startPage":12,
+                "hasFile":1
             },
             {
                 "ref":"Cross-Section Box TS.1",
                 "en_EN":"Global Surface Temperature Change",
-                "startPage":27
+                "startPage":27,
+                "hasFile": 1
             },
             {
                 "ref": "TS.2",
@@ -8628,22 +8785,26 @@
             {
                 "ref":"Box TS.3",
                 "en_EN":"Low-likelihood, High-Warming Storylines",
-                "startPage":38
+                "startPage":38,
+                "hasFile": 1
             },
             {
                 "ref":"Box TS.4",
                 "en_EN":"Sea Level",
-                "startPage":44
+                "startPage":44,
+                "hasFile":1
             },
             {
                 "ref":"Box TS.5",
                 "en_EN":"The Carbon Cycle",
-                "startPage":46
+                "startPage":46,
+                "hasFile":1
             },
             {
                 "ref":"Box TS.6",
                 "en_EN":"Water Cycle",
-                "startPage":5
+                "startPage":5,
+                "hasFile":1
             },
             {
                 "ref":"Infographic TS.1",
@@ -8705,17 +8866,20 @@
             {
                 "ref":"Box TS.7",
                 "en_EN":"Climate and Air Quality Responses to Short-lived Climate Forcers in Shared Socioeconomic Pathways",
-                "startPage":68
+                "startPage":68,
+                "hasFile":1
             },
             {
                 "ref":"Box TS.8",
                 "en_EN":"Earth System Response to Solar Radiation Modification",
-                "startPage":69
+                "startPage":69,
+                "hasFile":1
             },
             {
                 "ref":"Box TS.9",
                 "en_EN":"Irreversibility, Tipping Points and Abrupt Changes",
-                "startPage":71
+                "startPage":71,
+                "hasFile":1
             },
             {
                 "ref": "TS.4",
@@ -8784,27 +8948,32 @@
             {
                 "ref":"Box TS.10",
                 "en_EN":"Event Attribution",
-                "startPage":73
+                "startPage":73,
+                "hasFile":1
             },
             {
                 "ref":"Box TS.11",
                 "en_EN":"Climate Services",
-                "startPage":76
+                "startPage":76,
+                "hasFile":1
             },
             {
                 "ref":"Box TS.12",
                 "en_EN":"Multiple Lines of Evidence for Assessing Regional Climate Change and the Interactive Atlas",
-                "startPage":76
+                "startPage":76,
+                "hasFile":1
             },
             {
                 "ref":"Box TS.13",
                 "en_EN":"Monsoons",
-                "startPage":83
+                "startPage":83,
+                "hasFile":1
             },
             {
                 "ref":"Box TS.14",
                 "en_EN":"Urban Areas",
-                "startPage":99
+                "startPage":99,
+                "hasFile": 1
             }
         ]
     }
