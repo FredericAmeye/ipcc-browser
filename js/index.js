@@ -522,6 +522,7 @@ let pdfAskedForLoad = false, pdfLoadInProgress = false, pdfGoToPage = false;
 function post_pdfLoad()
 {
     pdfLoadInProgress = true;
+    document.getElementById('pdf-iframe').contentWindow.PDFViewerApplication.initialBookmark = "page="+pdfGoToPage;
     document.getElementById('pdf-iframe').contentWindow.PDFViewerApplication.open("../../../pdf/noIMG.pdf");
     // TODO proposer d'utiliser un fichier local plutot que le télécharger
 
@@ -529,12 +530,7 @@ function post_pdfLoad()
     document.getElementById('pdf-iframe').contentWindow.PDFViewerApplication.eventBus.on('pagerendered', function(e){
         console.log("pagerender",this,e);
         if(pdfGoToPage) {
-            document.getElementById('pdf-iframe').contentWindow.PDFViewerApplication.page = pdfGoToPage;
-            setTimeout(function(){
-                console.log("asking specific page", pdfGoToPage);
-                document.getElementById('pdf-iframe').contentWindow.PDFViewerApplication.page = pdfGoToPage;
-                pdfGoToPage = false;
-            }, 1500);
+            pdfGoToPage = false;
         }
         pdfLoadInProgress = false;
     });
@@ -587,7 +583,11 @@ function pdfChangePage(page)
         return false;
     }
 
-    document.getElementById('pdf-iframe').contentWindow.PDFViewerApplication.page = page;
+    let x = document.getElementById('pdf-iframe').contentWindow;
+    x.PDFViewerApplication.page = page;
+    x.PDFViewerApplication.pdfViewer._currentPageNumber = page;
+    x.PDFViewerApplication.pdfViewer.update();
+
 }
 
 /* mouse over/out a source : display brief information about it */
