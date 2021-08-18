@@ -58,7 +58,7 @@ let initFn = (function()
     }
 
     /* init page */
-    jQuery.getJSON('content/wgI.json?v4.json', function(r){
+    jQuery.getJSON('content/wgI.json?v5.json', function(r){
         const nb_chap = r.SPM.chapters.length;
         wgI = r;
         
@@ -359,7 +359,7 @@ function constructSubMenu(chapter, recnum)
             let n = chapter.chapters[k].ref + ". " + chaptitle;
 
             let dispRead = '';
-            if(userParams['read'][ chapter.chapters[k].ref ]) {
+            if(userParams['read'] && userParams['read'][ chapter.chapters[k].ref ]) {
                 dispRead = `<i data-tippy-content="Already read" class="right material-icons green-text">done_all</i>`;
             }
 
