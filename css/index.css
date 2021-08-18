@@ -190,6 +190,12 @@ h1, h5, .brand-logo, .card-title {
 .src1:hover {
     background-color:rgba(0,0,0,0.2);
 }
+#modal-box .src1 {
+    margin:0;
+    background:none;
+    font-size:0.8em;
+    display:inline;
+}
 
 /* levels of confidence */
 .high-confidence, .medium-confidence, .very-low-confidence, .low-confidence, .very-high-confidence {
@@ -393,4 +399,27 @@ width: 95%;
     float:right;
     color:#444;
     font-size:10px;
+}
+
+.small-figure {
+    background: rgb(209, 209, 209);
+    padding:10px;
+    border-radius: 4px;
+    max-width:95%;
+    display:inline-block;
+    cursor:pointer;
+    position:relative;
+    text-align:left;
+}
+.small-figure img {
+    max-width:100%;
+    margin:0 auto;
+    display: block;
+    margin-bottom:8px;
+}
+.small-figure span.fig-legend {
+    font-weight:bold;
+}
+.small-figure .fig-legend-ext {
+    display:none;
 }

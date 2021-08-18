@@ -890,13 +890,55 @@ let regex_ref_fn = function(orig, txt, value){
 
     return /*html*/`<abbr class="tippy footnote-ref" data-tippy-content="${footnote}" data-ref="${txt}"><sup>${txt}</sup></abbr>`;
 };
-const TS_chapter_repl = /(Cross-Section Box TS\.[0-9.]+)|(Cross-Chapter Box [0-9.]+)|(Cross-Chapter Box Atlas\.[0-9.]+)|(Box SPM\.[0-9.]+)|(Box TS\.[0-9.]+)|(TS\.[0-9.]+)|(SPM\.[0-9.]+)|(FAQ\s?[0-9.]+)|(Box [0-9.]+)|(<goto>([A-Za-z0-9.]+)<\/goto>)|([0-9]+\.[0-9]+\.[0-9]+)|(Atlas\.[0-9]+)/g;
-let regex_autoref_fn = function(orig, txt, value){
+
+const TS_chapter_repl = /(Cross-Section Box TS\.[0-9.]+)|(Cross-Chapter Box [0-9.]+)|(Cross-Chapter Box Atlas\.[0-9.]+)|(Box SPM\.[0-9.]+)|(Box TS\.[0-9.]+)|(TS\.[0-9.]+)|(SPM\.[0-9.]+)|(FAQ\s?[0-9.]+)|(Box [0-9.]+)|([0-9]+\.[0-9]+\.[0-9]+)|(Atlas\.[0-9]+)/g;
+let regex_autoref_fn = function(orig, CSBTS, CCB, CCBA, BSPM, BTS, TS, SPM, FAQ, B, ABC, Atlas, value, complete_string)
+{
+    let has_figref_tag = (complete_string.substr(value-8, 8) == '<figref>');
+    let has_goto_tag   = (complete_string.substr(value-6, 6) == '<goto>');
+    if(has_figref_tag || has_goto_tag) {
+        return orig; // do nothing
+    }
+    
     if(orig.substr(0,4) === 'FAQ '){
         orig = orig.replace(' ', '');
     }
+
     return /*html*/`<a href="#" class="src1" data-cite="${orig}" onmouseover="return hoverSource(this);" onmouseout="return mouseoutSource(this)" onclick="return dispSource(this)">${orig}</a>`;
 };
+
+const markup_regex = /<(goto|figref)>([A-Za-z0-9., -]+)<\/(goto|figref)>/g;
+let regex_markup_fn = function(orig1, balise, content, balise2, position)
+{
+    if(balise == 'goto')
+    {
+        return /*html*/`<a href="#" class="src1" data-cite="${content}" onmouseover="return hoverSource(this);" onmouseout="return mouseoutSource(this)" onclick="return dispSource(this)">${content}</a>`;
+    }
+    else if(balise == 'figref')
+    {
+        let fig = wgI.figures[content];
+        let fig_title = '', fig_subtitle = '', fig_description = '';
+        if(fig){
+            fig_title = fig.title[lang] || fig.title.en_EN;
+            fig_subtitle = fig.subtitle[lang] || fig.subtitle.en_EN;
+            let fig_arr = fig.description[lang] || fig.description.en_EN;
+            for(let i = 0; i < fig_arr.length; i++) {
+                fig_description += `<p>${fig_arr[i]}</p>`;
+            }
+        }
+
+        return /*html*/`<div class="center"><div class="small-figure hoverable" onclick="$(this).find('.fig-clicker').toggle(); $(this).find('.fig-legend-ext').toggle();">
+            <img src="content/img/en_EN/${content}.png" onerror="console.error('failed to load image',this); $(this).parent().remove();">
+            <span class="fig-legend">${content}: ${fig_title}</span><span class="fig-clicker"> (click to read the legend)</span>
+            <div class="fig-legend-ext"><em>${fig_subtitle}</em>${fig_description}</div>
+        </div></div>`;
+    }
+    else
+    {
+        return orig1;
+    }
+};
+
 const conf_image = "<br><img src='content/img/en_EN/confidence.png' style='width:500px'>";
 function processText(txt)
 {
@@ -961,6 +1003,8 @@ function processText(txt)
     txt = txt.replaceAll(regex_ref, regex_ref_fn);
 
     txt = txt.replaceAll(TS_chapter_repl, regex_autoref_fn);
+
+    txt = txt.replaceAll(markup_regex, regex_markup_fn); // IMPORTANT d'être en dernier
 
     return txt;
 }
