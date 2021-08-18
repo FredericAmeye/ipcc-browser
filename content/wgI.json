@@ -7826,6 +7826,681 @@
         ]
     },
 
+    "Atlas": {
+        "ref":"Atlas",
+        "en_EN":"Atlas",
+        "fr_FR":"Atlas",
+        "offsetPagesFromFull": 3453,
+        "chapters": [
+            {
+                "ref": "Atlas.1",
+                "en_EN": "Introduction",
+                "startPage": 11,
+                "chapters": [
+                    {
+                        "ref": "Atlas.1.1",
+                        "en_EN": "Purpose",
+                        "startPage": 11
+                    },
+                    {
+                        "ref": "Atlas.1.2",
+                        "en_EN": "Context and framing",
+                        "startPage": 11
+                    },
+                    {
+                        "ref": "Atlas.1.3",
+                        "en_EN": "Defining temporal and spatial scales and regions",
+                        "startPage": 12,
+                        "chapters": [
+                            {
+                                "ref": "Atlas.1.3.1",
+                                "en_EN": "Baselines and temporal scales of analysis for projections across scenarios",
+                                "startPage": 12
+                            },
+                            {
+                                "ref": "Atlas.1.3.2",
+                                "en_EN": "Global warming levels",
+                                "startPage": 13
+                            },
+                            {
+                                "ref": "Atlas.1.3.3",
+                                "en_EN": "Spatial scales and reference regions",
+                                "startPage": 14
+                            },
+                            {
+                                "ref": "Atlas.1.3.4",
+                                "en_EN": "Typological and socio-economic regions",
+                                "startPage": 15
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "Atlas.1.4",
+                        "en_EN": "Combining multiple sources of information for regions",
+                        "startPage": 16,
+                        "chapters": [
+                            {
+                                "ref": "Atlas.1.4.1",
+                                "en_EN": "Observations",
+                                "startPage": 16
+                            },
+                            {
+                                "ref": "Atlas.1.4.2",
+                                "en_EN": "Reanalysis",
+                                "startPage": 17
+                            },
+                            {
+                                "ref": "Atlas.1.4.3",
+                                "en_EN": "Global model data (CMIP5 and CMIP6)",
+                                "startPage": 17
+                            },
+                            {
+                                "ref": "Atlas.1.4.4",
+                                "en_EN": "Regional model data (CORDEX)",
+                                "startPage": 18
+                            },
+                            {
+                                "ref": "Atlas.1.4.5",
+                                "en_EN": "Bias adjustment",
+                                "startPage": 21
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ref": "Atlas.2",
+                "en_EN": "The online \u2018Interactive Atlas\u2019",
+                "startPage": 26,
+                "chapters": [
+                    {
+                        "ref": "Atlas.2.1",
+                        "en_EN": "Why an interactive online Atlas in AR6?",
+                        "startPage": 27
+                    },
+                    {
+                        "ref": "Atlas.2.2",
+                        "en_EN": "Description of the Interactive Atlas: functionalities and datasets",
+                        "startPage": 27
+                    },
+                    {
+                        "ref": "Atlas.2.3",
+                        "en_EN": "Accessibility, reproducibility and reusability (FAIR principles)",
+                        "startPage": 29
+                    },
+                    {
+                        "ref": "Atlas.2.4",
+                        "en_EN": "Guidance for users",
+                        "startPage": 31,
+                        "chapters": [
+                            {
+                                "ref": "Atlas.2.4.1",
+                                "en_EN": "Purpose of the Interactive Atlas",
+                                "startPage": 31
+                            },
+                            {
+                                "ref": "Atlas.2.4.2",
+                                "en_EN": "Guidelines for the Interactive Atlas",
+                                "startPage": 31
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ref": "Atlas.3",
+                "en_EN": "Global synthesis",
+                "startPage": 33,
+                "chapters": [
+                    {
+                        "ref": "Atlas.3.1",
+                        "en_EN": "Global atmosphere and land surface",
+                        "startPage": 34
+                    },
+                    {
+                        "ref": "Atlas.3.2",
+                        "en_EN": "Global ocean",
+                        "startPage": 40
+                    }
+                ]
+            },
+            {
+                "ref": "Atlas.4",
+                "en_EN": "Africa",
+                "startPage": 41,
+                "chapters": [
+                    {
+                        "ref": "Atlas.4.1",
+                        "en_EN": "Key features of the regional climate and findings from previous IPCC assessments",
+                        "startPage": 41,
+                        "chapters": [
+                            {
+                                "ref": "Atlas.4.1.1",
+                                "en_EN": "Key features of the regional climate",
+                                "startPage": 41
+                            },
+                            {
+                                "ref": "Atlas.4.1.2",
+                                "en_EN": "Findings from previous IPCC assessments",
+                                "startPage": 41
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "Atlas.4.2",
+                        "en_EN": "Assessment and synthesis of observations, trends and attribution",
+                        "startPage": 42
+                    },
+                    {
+                        "ref": "Atlas.4.3",
+                        "en_EN": "Assessment of model performance",
+                        "startPage": 43
+                    },
+                    {
+                        "ref": "Atlas.4.4",
+                        "en_EN": "Assessment and synthesis of projections",
+                        "startPage": 44
+                    },
+                    {
+                        "ref": "Atlas.4.5",
+                        "en_EN": "Summary",
+                        "startPage": 45
+                    }
+                ]
+            },
+            {
+                "ref": "Atlas.5",
+                "en_EN": "Asia",
+                "startPage": 46,
+                "chapters": [
+                    {
+                        "ref": "Atlas.5.1",
+                        "en_EN": "East Asia",
+                        "startPage": 47,
+                        "chapters": [
+                            {
+                                "ref": "Atlas.5.1.1",
+                                "en_EN": "Key features of the regional climate and findings from previous IPCC assessments",
+                                "startPage": 47
+                            },
+                            {
+                                "ref": "Atlas.5.1.2",
+                                "en_EN": "Assessment and synthesis of observations, trends and attribution",
+                                "startPage": 47
+                            },
+                            {
+                                "ref": "Atlas.5.1.3",
+                                "en_EN": "Assessment of model performance",
+                                "startPage": 48
+                            },
+                            {
+                                "ref": "Atlas.5.1.4",
+                                "en_EN": "Assessment and synthesis of projections",
+                                "startPage": 49
+                            },
+                            {
+                                "ref": "Atlas.5.1.5",
+                                "en_EN": "Summary",
+                                "startPage": 50
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "Atlas.5.2",
+                        "en_EN": "North Asia",
+                        "startPage": 51,
+                        "chapters": [
+                            {
+                                "ref": "Atlas.5.2.1",
+                                "en_EN": "Key features of the regional climate and findings from previous IPCC assessments",
+                                "startPage": 51
+                            },
+                            {
+                                "ref": "Atlas.5.2.2",
+                                "en_EN": "Assessment and synthesis of observations, trends and attribution",
+                                "startPage": 51
+                            },
+                            {
+                                "ref": "Atlas.5.2.3",
+                                "en_EN": "Assessment of model performance",
+                                "startPage": 52
+                            },
+                            {
+                                "ref": "Atlas.5.2.4",
+                                "en_EN": "Assessment and synthesis of projections",
+                                "startPage": 53
+                            },
+                            {
+                                "ref": "Atlas.5.2.5",
+                                "en_EN": "Summary",
+                                "startPage": 54
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "Atlas.5.3",
+                        "en_EN": "South Asia",
+                        "startPage": 54,
+                        "chapters": [
+                            {
+                                "ref": "Atlas.5.3.1",
+                                "en_EN": "Key features of the regional climate and findings from IPCC previous assessments",
+                                "startPage": 54
+                            },
+                            {
+                                "ref": "Atlas.5.3.2",
+                                "en_EN": "Assessment and synthesis of observations, trends and attribution",
+                                "startPage": 55
+                            },
+                            {
+                                "ref": "Atlas.5.3.3",
+                                "en_EN": "Assessment of model performance",
+                                "startPage": 56
+                            },
+                            {
+                                "ref": "Atlas.5.3.4",
+                                "en_EN": "Assessment and synthesis of projections",
+                                "startPage": 57
+                            },
+                            {
+                                "ref": "Atlas.5.3.5",
+                                "en_EN": "Summary",
+                                "startPage": 58
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "Atlas.5.4",
+                        "en_EN": "Southeast Asia",
+                        "startPage": 58,
+                        "chapters": [
+                            {
+                                "ref": "Atlas.5.4.1",
+                                "en_EN": "Key features of the regional climate and findings from previous IPCC assessments",
+                                "startPage": 58
+                            },
+                            {
+                                "ref": "Atlas.5.4.2",
+                                "en_EN": "Assessment and synthesis of observations, trends and attribution",
+                                "startPage": 59
+                            },
+                            {
+                                "ref": "Atlas.5.4.3",
+                                "en_EN": "Assessment of model performance",
+                                "startPage": 60
+                            },
+                            {
+                                "ref": "Atlas.5.4.4",
+                                "en_EN": "Assessment and synthesis of projections",
+                                "startPage": 60
+                            },
+                            {
+                                "ref": "Atlas.5.4.5",
+                                "en_EN": "Summary",
+                                "startPage": 61
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "Atlas.5.5",
+                        "en_EN": "Southwest Asia",
+                        "startPage": 61,
+                        "chapters": [
+                            {
+                                "ref": "Atlas.5.5.1",
+                                "en_EN": "Key features of the regional climate and findings from previous IPCC assessments",
+                                "startPage": 61
+                            },
+                            {
+                                "ref": "Atlas.5.5.2",
+                                "en_EN": "Assessment and synthesis of observations, trends and attribution",
+                                "startPage": 62
+                            },
+                            {
+                                "ref": "Atlas.5.5.3",
+                                "en_EN": "Assessment of model performance",
+                                "startPage": 63
+                            },
+                            {
+                                "ref": "Atlas.5.5.4",
+                                "en_EN": "Assessment and synthesis of projections",
+                                "startPage": 64
+                            },
+                            {
+                                "ref": "Atlas.5.5.5",
+                                "en_EN": "Summary",
+                                "startPage": 65
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ref": "Atlas.6",
+                "en_EN": "Australasia",
+                "startPage": 66,
+                "chapters": [
+                    {
+                        "ref": "Atlas.6.1",
+                        "en_EN": "Key features of the regional climate and findings from previous IPCC assessments",
+                        "startPage": 66,
+                        "chapters": [
+                            {
+                                "ref": "Atlas.6.1.1",
+                                "en_EN": "Key features of the regional climate",
+                                "startPage": 66
+                            },
+                            {
+                                "ref": "Atlas.6.1.2",
+                                "en_EN": "Findings from previous IPCC assessments",
+                                "startPage": 66
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "Atlas.6.2",
+                        "en_EN": "Assessment and synthesis of observations, trends and attribution",
+                        "startPage": 67
+                    },
+                    {
+                        "ref": "Atlas.6.3",
+                        "en_EN": "Assessment of climate model performance",
+                        "startPage": 68
+                    },
+                    {
+                        "ref": "Atlas.6.4",
+                        "en_EN": "Assessment and synthesis of projections",
+                        "startPage": 68
+                    },
+                    {
+                        "ref": "Atlas.6.5",
+                        "en_EN": "Summary",
+                        "startPage": 70
+                    }
+                ]
+            },
+            {
+                "ref": "Atlas.7",
+                "en_EN": "Central and South America",
+                "startPage": 70,
+                "chapters": [
+                    {
+                        "ref": "Atlas.7.1",
+                        "en_EN": "Central America and the Caribbean",
+                        "startPage": 71,
+                        "chapters": [
+                            {
+                                "ref": "Atlas.7.1.1",
+                                "en_EN": "Key features of the regional climate and findings from previous IPCC assessments",
+                                "startPage": 71
+                            },
+                            {
+                                "ref": "Atlas.7.1.2",
+                                "en_EN": "Assessment and synthesis of observations, trends and attribution",
+                                "startPage": 72
+                            },
+                            {
+                                "ref": "Atlas.7.1.3",
+                                "en_EN": "Assessment of model performance",
+                                "startPage": 72
+                            },
+                            {
+                                "ref": "Atlas.7.1.4",
+                                "en_EN": "Assessment and synthesis of projections",
+                                "startPage": 73
+                            },
+                            {
+                                "ref": "Atlas.7.1.5",
+                                "en_EN": "Summary",
+                                "startPage": 74
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "Atlas.7.2",
+                        "en_EN": "South America",
+                        "startPage": 75,
+                        "chapters": [
+                            {
+                                "ref": "Atlas.7.2.1",
+                                "en_EN": "Key features of the regional climate and findings from previous IPCC assessments",
+                                "startPage": 75
+                            },
+                            {
+                                "ref": "Atlas.7.2.2",
+                                "en_EN": "Assessment and synthesis of observations, trends and attribution",
+                                "startPage": 76
+                            },
+                            {
+                                "ref": "Atlas.7.2.3",
+                                "en_EN": "Assessment of model performance",
+                                "startPage": 77
+                            },
+                            {
+                                "ref": "Atlas.7.2.4",
+                                "en_EN": "Assessment and synthesis of projections",
+                                "startPage": 78
+                            },
+                            {
+                                "ref": "Atlas.7.2.5",
+                                "en_EN": "Summary",
+                                "startPage": 79
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ref": "Atlas.8",
+                "en_EN": "Europe",
+                "startPage": 79,
+                "chapters": [
+                    {
+                        "ref": "Atlas.8.1",
+                        "en_EN": "Key features of the regional climate and findings from previous IPCC assessments",
+                        "startPage": 80,
+                        "chapters": [
+                            {
+                                "ref": "Atlas.8.1.1",
+                                "en_EN": "Key features of the regional climate",
+                                "startPage": 80
+                            },
+                            {
+                                "ref": "Atlas.8.1.2",
+                                "en_EN": "Findings from previous IPCC assessments",
+                                "startPage": 80
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "Atlas.8.2",
+                        "en_EN": "Assessment and synthesis of observations, trends and attribution",
+                        "startPage": 81
+                    },
+                    {
+                        "ref": "Atlas.8.3",
+                        "en_EN": "Assessment of model performance",
+                        "startPage": 83
+                    },
+                    {
+                        "ref": "Atlas.8.4",
+                        "en_EN": "Assessment and synthesis of projections",
+                        "startPage": 84
+                    },
+                    {
+                        "ref": "Atlas.8.5",
+                        "en_EN": "Summary",
+                        "startPage": 86
+                    }
+                ]
+            },
+            {
+                "ref": "Atlas.9",
+                "en_EN": "North America",
+                "startPage": 86,
+                "chapters": [
+                    {
+                        "ref": "Atlas.9.1",
+                        "en_EN": "Key features of the regional climate and findings from previous IPCC assessments",
+                        "startPage": 87,
+                        "chapters": [
+                            {
+                                "ref": "Atlas.9.1.1",
+                                "en_EN": "Key features of the regional climate",
+                                "startPage": 87
+                            },
+                            {
+                                "ref": "Atlas.9.1.2",
+                                "en_EN": "Findings from previous IPCC assessments",
+                                "startPage": 87
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "Atlas.9.2",
+                        "en_EN": "Assessment and synthesis of observations, trends, and attribution",
+                        "startPage": 88
+                    },
+                    {
+                        "ref": "Atlas.9.3",
+                        "en_EN": "Assessment of model performance",
+                        "startPage": 89
+                    },
+                    {
+                        "ref": "Atlas.9.4",
+                        "en_EN": "Assessment and synthesis of projections",
+                        "startPage": 90
+                    },
+                    {
+                        "ref": "Atlas.9.5",
+                        "en_EN": "Summary",
+                        "startPage": 92
+                    }
+                ]
+            },
+            {
+                "ref": "Atlas.10",
+                "en_EN": "Small islands",
+                "startPage": 93,
+                "chapters": [
+                    {
+                        "ref": "Atlas.10.1",
+                        "en_EN": "Key features of the regional climate and findings from previous IPCC assessments",
+                        "startPage": 93,
+                        "chapters": [
+                            {
+                                "ref": "Atlas.10.1.1",
+                                "en_EN": "Key features of the regional climate",
+                                "startPage": 93
+                            },
+                            {
+                                "ref": "Atlas.10.1.2",
+                                "en_EN": "Findings from previous IPCC assessments",
+                                "startPage": 93
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "Atlas.10.2",
+                        "en_EN": "Assessment and synthesis of observations, trends and attribution",
+                        "startPage": 93
+                    },
+                    {
+                        "ref": "Atlas.10.3",
+                        "en_EN": "Assessment of model performance",
+                        "startPage": 95
+                    },
+                    {
+                        "ref": "Atlas.10.4",
+                        "en_EN": "Assessment and synthesis of projections",
+                        "startPage": 95
+                    },
+                    {
+                        "ref": "Atlas.10.5",
+                        "en_EN": "Summary",
+                        "startPage": 97
+                    }
+                ]
+            },
+            {
+                "ref": "Atlas.11",
+                "en_EN": "Polar regions",
+                "startPage": 101,
+                "chapters": [
+                    {
+                        "ref": "Atlas.11.1",
+                        "en_EN": "Antarctica",
+                        "startPage": 102,
+                        "chapters": [
+                            {
+                                "ref": "Atlas.11.1.1",
+                                "en_EN": "Key features of the regional climate and findings from previous IPCC assessments",
+                                "startPage": 102
+                            },
+                            {
+                                "ref": "Atlas.11.1.2",
+                                "en_EN": "Assessment and synthesis of observations, trends and attribution",
+                                "startPage": 103
+                            },
+                            {
+                                "ref": "Atlas.11.1.3",
+                                "en_EN": "Assessment of model performance",
+                                "startPage": 105
+                            },
+                            {
+                                "ref": "Atlas.11.1.4",
+                                "en_EN": "Assessment and synthesis of projections",
+                                "startPage": 107
+                            },
+                            {
+                                "ref": "Atlas.11.1.5",
+                                "en_EN": "Summary",
+                                "startPage": 108
+                            }
+                        ]
+                    },
+                    {
+                        "ref": "Atlas.11.2",
+                        "en_EN": "Arctic",
+                        "startPage": 109,
+                        "chapters": [
+                            {
+                                "ref": "Atlas.11.2.1",
+                                "en_EN": "Key features of the regional climate and findings from previous IPCC assessments",
+                                "startPage": 109
+                            },
+                            {
+                                "ref": "Atlas.11.2.2",
+                                "en_EN": "Assessment and synthesis of observations, trends and attribution",
+                                "startPage": 110
+                            },
+                            {
+                                "ref": "Atlas.11.2.3",
+                                "en_EN": "Assessment of model performance",
+                                "startPage": 111
+                            },
+                            {
+                                "ref": "Atlas.11.2.4",
+                                "en_EN": "Assessment and synthesis of projections",
+                                "startPage": 112
+                            },
+                            {
+                                "ref": "Atlas.11.2.5",
+                                "en_EN": "Summary",
+                                "startPage": 114
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ref": "Atlas.12",
+                "en_EN": "Final remarks",
+                "startPage": 114
+            }
+        ]
+    },
+
     "TS": {
         "ref":"TS",
         "en_EN":"Technical Summary",
