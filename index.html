@@ -52,11 +52,18 @@
     <body>
         <!-- fixed header -->
         <div class="navbar-fixed">
+
             <ul id="quickreference" class="dropdown-content">
-                <li><a href="#!" data-figref="1.18" onclick="return dispFig(this)">AR6 regions</a></li>
-                <li><a href="#!" data-figref="Cross-Chapter Box 1.4,Figure1" onclick="return dispFig(this)">SSP scenarios</a></li>
-                <li><a href="#!" onclick="return displayFullToc();">Table of contents</a></li>
+                <li class="lang-en"><a href="#!" data-figref="1.18" onclick="return dispFig(this)">AR6 regions</a></li>
+                <li class="lang-fr"><a href="#!" data-figref="1.18" onclick="return dispFig(this)">Régions AR6</a></li>
+
+                <li class="lang-en"><a href="#!" data-figref="Cross-Chapter Box 1.4,Figure1" onclick="return dispFig(this)">Shared Socioeconomic Pathways (SSP)</a></li>
+                <li class="lang-fr"><a href="#!" data-figref="Cross-Chapter Box 1.4,Figure1" onclick="return dispFig(this)">Trajectoire socioéconomiques partagées (SSP)</a></li>
+
+                <li class="lang-en"><a href="#!" onclick="return displayFullToc();">Table of contents</a></li>
+                <li class="lang-fr"><a href="#!" onclick="return displayFullToc();">Table des matières</a></li>
             </ul>
+
             <nav class="light-blue lighten-1" role="navigation">
                 <div class="nav-wrapper container">
                     <ul class="materialize left">
@@ -79,7 +86,8 @@
                         <li><a href="#" onclick="return togglePdfPanel();" title="Display/hide PDF panel">
                             <i class="material-icons">picture_as_pdf</i>
                         </a></li>
-                        <li style="margin-left:25px"><a href="#!" class="dropdown-trigger" data-target="quickreference" title="Helpers" style="font-size:2rem">Helpers<i style="margin-left:0" class="material-icons right">arrow_drop_down</i></a></li>
+                        <li style="margin-left:25px" class="lang-en"><a href="#!" class="dropdown-trigger" data-target="quickreference" title="Helpers" style="font-size:2rem">Helpers<i style="margin-left:0" class="material-icons right">arrow_drop_down</i></a></li>
+                        <li style="margin-left:25px" class="lang-fr"><a href="#!" class="dropdown-trigger" data-target="quickreference" title="Aides" style="font-size:2rem">Aides<i style="margin-left:0" class="material-icons right">arrow_drop_down</i></a></li>
                     </ul>
                     <ul class="right hide-on-large-only language-selector">
                         <li class="lang-fr"><a href="#" onclick="return changeLang('en_EN');">
