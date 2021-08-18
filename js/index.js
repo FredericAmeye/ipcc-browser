@@ -140,6 +140,12 @@ let initFn = (function()
                 $('<div data-figref="'+urlParams['fig']+'"></div>')
             );
         }
+
+        if(urlParams['box'] && urlParams['box'].length)
+        {
+            let element = findSourceByRef(decodeURI(urlParams['box']));
+            displayBox(element.elm);
+        }
     });
 
     // menu dropdown
@@ -181,6 +187,7 @@ function dispFAQ(e)
     let faq = findSourceByRef(ref);
 
     if(faq) {
+        faq = faq.elm;
         if(faq.intro || faq.paragraphs){
             // affichage en popup
             let faqtitle = faq[lang] || faq.en_EN;
@@ -351,21 +358,18 @@ function constructSubMenu(chapter, recnum)
             let chaptitle = chapter.chapters[k][lang] || chapter.chapters[k].en_EN;
             let n = chapter.chapters[k].ref + ". " + chaptitle;
 
-            // TODO integrate subchapters
-            /*let subchaps = '';
-            if(chapter.chapters[k].chapters && chapter.chapters[k].chapters.length)
-            {
-                for(let z = 0; z < chapter.chapters[k].chapters.length; z++)
-                {
-                    let subchap = chapter.chapters[k].chapters[z];
-                    subchaps += `<li><a href="#">subchap ${z}</a></li>`;
-                }
-            }*/
+            let dispRead = '';
+            if(userParams['read'][ chapter.chapters[k].ref ]) {
+                dispRead = `<i data-tippy-content="Already read" class="right material-icons green-text">done_all</i>`;
+            }
 
-            html += /*html*/`<li><a href="#" data-cite="${chapter.chapters[k].ref}" onclick="return dispSource(this);" data-tippy-content="${n}">
-            <span class="toc-ref">${chapter.chapters[k].ref}</span>
-            ${chaptitle}
-            </a></li>`;
+            html += /*html*/`<li>
+                <a href="#" data-cite="${chapter.chapters[k].ref}" onclick="return dispSource(this);" data-tippy-content="${n}">
+                    <span class="toc-ref">${chapter.chapters[k].ref}</span>
+                    ${chaptitle}
+                    ${dispRead}
+                </a>
+            </li>`;
         }
         html += `</ul></div></li></ul></li>`;
     }
@@ -386,6 +390,9 @@ function updateHash()
     }
     if(currentFig !== false) {
         hash += "&fig="+currentFig;
+    }
+    if(currentBox !== false) {
+        hash += "&box="+currentBox;
     }
 
     document.location.hash = hash;
@@ -649,6 +656,7 @@ function hoverSource(e)
     // reference has been found in detailed text
     if(findSrc)
     {
+        findSrc = findSrc.elm;
         tippy(e, {
             content: "<span class='tooltip-ref-chapter'>" + findSrc.ref + ". " + findSrc.en_EN + "</span>" + getChildChapters(findSrc)
                 + "<br><i>click to go to this section</i>",
@@ -681,67 +689,36 @@ function mouseoutSource(e)
 function dispSource(e)
 {
     let src = $(e).attr('data-cite');
-    let refpage = wgI.crossRefs[src];
+    let element;
 
-    if(!refpage)
+    // finding it in full text :
+    console.log("searching ref in full text");
+    element = findSourceByRef(src);
+    if(!element || !element.elm.startPage){
+        alert('An error has occured');
+        console.log("could not find ref", src, element);
+        return false;
+    }
+
+    let pageOffset = element.offset;
+    element = element.elm;
+
+    // chapitre principal
+    if(element.offsetPagesFromFull)
     {
-        // finding it in full text :
-        console.log("searching ref in full text");
-        let element = findSourceByRef(src);
-        if(!element || !element.startPage){
-            console.log("could not find ref", src, element);
-        }
+        refpage = element.offsetPagesFromFull;
+    }
+    else
+    {
+        // sous-partie avec un offset
+        refpage = element.startPage + pageOffset;
+    }
 
-        // chapitre principal
-        if(element.offsetPagesFromFull)
-        {
-            refpage = element.offsetPagesFromFull;
-        }
-        else
-        {
-
-            let exp_ref = src.split('.');
-            let pageOffset = 0;
-            if(src.substr(0,3) == "FAQ"){
-                // FAQ chapter
-                exp_ref = src.substr(3).split('.');
-                pageOffset = wgI[ exp_ref[0] ].offsetPagesFromFull;
-                console.log(" > searching in FAQ", pageOffset);
-            }
-            else if(src.substr(0,5) == "Atlas"){
-                // Atlas chapter
-                exp_ref = src.substr(5).split('.');
-                pageOffset = wgI.Atlas.offsetPagesFromFull;
-                console.log(" > searching in Atlas", pageOffset);
-            }else if(src.substr(0,18) == "Cross-Chapter Box "){
-                // CC-Box chapter
-                exp_ref = src.substr(18).split('.');
-                pageOffset = wgI[ exp_ref[0] ].offsetPagesFromFull;
-                console.log(" > searching in CC-Box", pageOffset);
-            }
-            else if(src.substr(0,4) == "Box "){
-                // Box chapter
-                exp_ref = src.substr(4).split('.');
-                pageOffset = wgI[ exp_ref[0] ].offsetPagesFromFull;
-                console.log(" > searching in Box", pageOffset);
-            }
-            else if(src.substr(0,18) == "Cross-Section Box "){
-                // CS-Box chapter
-                exp_ref = src.substr(18).split('.');
-                pageOffset = wgI[ exp_ref[0] ].offsetPagesFromFull;
-                console.log(" > searching in CS-Box", pageOffset);
-            }
-            else if(exp_ref[0] >= 1 && exp_ref[0] <= 12){
-                // regular chapter
-                pageOffset = wgI[ exp_ref[0] ].offsetPagesFromFull;
-                console.log("setting page offset to", pageOffset);
-            }
-            else{
-                console.log("NO ELEMENT REF");
-            }
-
-            refpage = element.startPage + pageOffset;
-        }
+    if(element && element.hasFile)
+    {
+        // the element has been converted to html, display it as a popup :
+        displayBox(element);
+        return false;
     }
 
     if($('#side-panel-pdf').css('visibility')=='visible')
@@ -756,6 +733,32 @@ function dispSource(e)
     pdfChangePage(refpage);
 
     return false;
+}
+
+let currentBox = false;
+function displayBox(element)
+{
+    let title = element[lang] || element.en_EN;
+    currentBox = element.ref;
+
+    $.get('pdf/html/' + element.ref + '.html', function(html){
+        html = processText(html);
+        updateHash();
+
+        $('#modal-box .modal-content').html(`<h4>${element.ref}: ${title}</h4>${html}`);
+        $('#modal-box .box-sharelink').attr('href', document.location.href);
+        $('#modal-box .box-reflink').attr('data-cite', element.ref);
+        let mod = M.Modal.init(document.getElementById('modal-box'), {
+            endingTop: '4%',
+            onCloseStart: function(){
+                currentBox = false;
+                updateHash();
+            }
+        });
+        mod.open();
+        updateTooltips();
+
+    });
 }
 
 /* find source by ref */
@@ -779,6 +782,30 @@ function findSourceByRef(src)
         } else {
             console.log("error finding FAQ ref", src, path);
         }
+    }
+    // box TS
+    else if(src.match(BoxTS_chapter_match)){
+        let path = src.substr(7).split(".");
+        matched = returnElementByRefName(wgI.TS, src);
+    }
+    // Cross-chapter box
+    else if(src.match(CCBox_chapter_match)){
+        let path = src.substr(18).split(".");
+        if(wgI[ path[0] ]){
+            matched = returnElementByRefName(wgI[ path[0] ], src);
+        } else {
+            console.log("error finding CC-Box ref", src, path);
+        }
+    }
+    // box SPM
+    else if(src.match(BoxSPM_chapter_match)){
+        let path = src.substr(8).split(".");
+        matched = returnElementByRefName(wgI.SPM, src);
+    }
+    // Cross-section box TS
+    else if(src.match(CSBox_chapter_match)){
+        let path = src.substr(21).split(".");
+        matched = returnElementByRefName(wgI.TS, src);
     }
     // simple box
     else if(src.match(Box_chapter_match)){
@@ -811,54 +838,41 @@ function findSourceByRef(src)
         
         matched = returnElementByRefName(wgI.Atlas, src);
     }
-    // Cross-chapter box
-    else if(src.match(CCBox_chapter_match)){
-        let path = src.substr(18).split(".");
-        if(wgI[ path[0] ]){
-            matched = returnElementByRefName(wgI[ path[0] ], src);
-        } else {
-            console.log("error finding CC-Box ref", src, path);
-        }
-    }
-    // Cross-section box TS
-    else if(src.match(CSBox_chapter_match)){
-        let path = src.substr(21).split(".");
-        matched = returnElementByRefName(wgI.TS, src);
-    }
-    // box TS
-    else if(src.match(BoxTS_chapter_match)){
-        let path = src.substr(7).split(".");
-        matched = returnElementByRefName(wgI.TS, src);
-    }
-    // box SPM
-    else if(src.match(BoxSPM_chapter_match)){
-        let path = src.substr(8).split(".");
-        matched = returnElementByRefName(wgI.SPM, src);
-    }
+    
 
-    console.info("FOUND", matched);
+    console.info("FOUND", matched, src);
     return matched;
 }
 
-function returnElementByRefName(table, query)
+function returnElementByRefName(table, query, parentOffset = 0)
 {
     console.log("searching", table.ref, "for",query);
     if(table.ref == query) {
         console.log("early return");
-        return table;
+        return {
+            'elm': table,
+            'offset':0
+        };
     }
 
     if(table.chapters && table.chapters.length)
     {
+        if(table.offsetPagesFromFull){
+            parentOffset = table.offsetPagesFromFull;
+        }
+
         for(let i = 0; i < table.chapters.length; i++)
         {
             console.log("is match?", table.chapters[i].ref, query);
             if(table.chapters[i].ref === query) {
-                return table.chapters[i];
+                return {
+                    'offset': parentOffset,
+                    'elm': table.chapters[i]
+                };
             }
 
             // try subchapters
-            let tr = returnElementByRefName(table.chapters[i], query);
+            let tr = returnElementByRefName(table.chapters[i], query, parentOffset);
             if(tr) {
                 return tr;
             }
@@ -875,6 +889,13 @@ let regex_ref_fn = function(orig, txt, value){
     // TODO replace quotes in footnote text
 
     return /*html*/`<abbr class="tippy footnote-ref" data-tippy-content="${footnote}" data-ref="${txt}"><sup>${txt}</sup></abbr>`;
+};
+const TS_chapter_repl = /(Cross-Section Box TS\.[0-9.]+)|(Cross-Chapter Box [0-9.]+)|(Cross-Chapter Box Atlas\.[0-9.]+)|(Box SPM\.[0-9.]+)|(Box TS\.[0-9.]+)|(TS\.[0-9.]+)|(SPM\.[0-9.]+)|(FAQ\s?[0-9.]+)|(Box [0-9.]+)|(<goto>([A-Za-z0-9.]+)<\/goto>)|([0-9]+\.[0-9]+\.[0-9]+)|(Atlas\.[0-9]+)/g;
+let regex_autoref_fn = function(orig, txt, value){
+    if(orig.substr(0,4) === 'FAQ '){
+        orig = orig.replace(' ', '');
+    }
+    return /*html*/`<a href="#" class="src1" data-cite="${orig}" onmouseover="return hoverSource(this);" onmouseout="return mouseoutSource(this)" onclick="return dispSource(this)">${orig}</a>`;
 };
 const conf_image = "<br><img src='content/img/en_EN/confidence.png' style='width:500px'>";
 function processText(txt)
@@ -938,6 +959,9 @@ function processText(txt)
     txt = txt.replaceAll("_extremely unlikely_", '<span class="extremely-unlikely-text" data-tippy-content="extremely unlikely = 0-5% probability">extremely unlikely</span>');
 
     txt = txt.replaceAll(regex_ref, regex_ref_fn);
+
+    txt = txt.replaceAll(TS_chapter_repl, regex_autoref_fn);
+
     return txt;
 }
 
