@@ -5,6 +5,23 @@ let userParams = {};
 function changeLang(lang)
 {
     localStorage.setItem('lang',lang);
+
+    // remove lang param from hash
+    let hash = document.location.hash.substr(1).split('&');
+    let urlParams = {}, newHash = [];
+    for(let i = 0; i < hash.length; i++)
+    {
+        let p = hash[i].split('=');
+        if(p[0] == '') continue;
+        urlParams[p[0]] = p[1];
+    }
+    if(urlParams['lang']){
+        delete urlParams['lang'];
+    }
+    for(param in urlParams) {
+        newHash.push(param + "=" + urlParams[param]);
+    }
+    document.location.hash = "#" + newHash.join('&');
     document.location.reload();
     return false;
 }
@@ -41,7 +58,7 @@ let initFn = (function()
     }
 
     /* init page */
-    jQuery.getJSON('content/wgI.json?v3.json', function(r){
+    jQuery.getJSON('content/wgI.json?v4.json', function(r){
         const nb_chap = r.SPM.chapters.length;
         wgI = r;
         
@@ -218,7 +235,7 @@ let TOC_Modal;
 function populateToC()
 {
     let html = '';
-    const order = [/*"SPM",*/"TS","1","2","3","4","5","6","7","8","9","10","11","12"];
+    const order = [/*"SPM",*/"TS","1","2","3","4","5","6","7","8","9","10","11","12","Atlas"];
     for(let i = 0; i < order.length; i++)
     {
         html += constructSubMenu(wgI[ order[i] ], 0);
