@@ -1108,21 +1108,25 @@
                     {
                         "ref":"1.1.1",
                         "en_EN":"The AR6 WGI Report",
+                        "fr_FR":"Le rapport AR6 WGI",
                         "startPage":8
                     },
                     {
                         "ref":"1.1.2",
                         "en_EN":"Rationale for the new AR6 WGI structure and its relation to the previous AR5 WGI Report",
+                        "fr_FR":"Justificatif de la nouvelle structure du AR6 WGI et relation avec le rapport précédent",
                         "startPage":9
                     },
                     {
                         "ref":"1.1.3",
                         "en_EN":"Integration of AR6 WGI assessments with other Working Groups",
+                        "fr_FR":"Intégration des évaluations de AR6 avec les autres Working Groups",
                         "startPage":12
                     },
                     {
                         "ref":"1.1.4",
                         "en_EN":"Chapter preview",
+                        "fr_FR":"Aperçu du chapitre",
                         "startPage":13
                     }
                 ]
@@ -1136,46 +1140,55 @@
                     {
                         "ref":"1.2.1",
                         "en_EN":"The changing state of the physical climate system",
+                        "fr_FR":"L'état changeant du système climatique physique",
                         "startPage":13,
                         "chapters": [
                             {
                                 "ref":"1.2.2.1",
-                                "en_EN":"Recent changes in multiple climate indicators"
+                                "en_EN":"Recent changes in multiple climate indicators",
+                                "fr_FR":"Changements récents dans plusieurs indicateurs climatiques"
                             },
                             {
                                 "ref":"1.2.2.2",
-                                "en_EN":"Long-term perspectives on anthropogenic climate change"
+                                "en_EN":"Long-term perspectives on anthropogenic climate change",
+                                "fr_FR":"Perspectives long-terme sur le changement climatique anthropique"
                             }
                         ]
                     },
                     {
                         "ref":"1.2.2",
                         "en_EN":"The policy and governance context",
+                        "fr_FR":"Contexte politique et de gouvernance",
                         "startPage":18
                     },
                     {
                         "ref":"1.2.3",
                         "en_EN":"Linking science and society: communication, values, and the IPCC assessment process",
+                        "fr_FR":"Lier sciences et société : communcation, valeurs, et processus d'évaluation du GIEC",
                         "startPage":29,
                         "chapters":[
                             {
                                 "ref":"1.2.3.1",
                                 "en_EN":"Climate change understanding, communication, and uncertainties",
+                                "fr_FR":"Compréhension du changement climatique, communication, et incertitudes",
                                 "startPage":29
                             },
                             {
                                 "ref":"1.2.3.2",
                                 "en_EN":"Values, science, and climate change communication",
+                                "fr_FR":"Valeurs, science, et communication sur le changement climatique",
                                 "startPage":32
                             },
                             {
                                 "ref":"1.2.3.3",
                                 "en_EN":"Climate information, co-production, and climate services",
+                                "fr_FR":"L'information climatique, co-production, services climatiques",
                                 "startPage":34
                             },
                             {
                                 "ref":"1.2.3.4",
                                 "en_EN":"Media coverage of climate change",
+                                "fr_FR":"Couverture médiatique du changement climatique",
                                 "startPage":35
                             }
                         ]
@@ -1185,21 +1198,25 @@
             {
                 "ref":"Cross-Chapter Box 1.1",
                 "en_EN":"The WG-I contribution to the AR6 and its potential relevance for the global stocktake",
+                "fr_FR":"La contribution du WG-I à l'AR6 et sa pertinence pour le bilan mondial",
                 "startPage":19
             },
             {
                 "ref":"Box 1.1",
                 "en_EN":"Treatment of uncertainty and calibrated uncertainty language in AR6",
+                "fr_FR":"Traitement des incertitudes et vocabulaire calibré d'incertitude dans l'AR6",
                 "startPage":30
             },
             {
                 "ref":"Box 1.2",
                 "en_EN":"Special Reports in the 6th IPCC assessment cycle: key findings",
+                "fr_FR":"Rapports Spéciaux dans le 6ème cycle d'évaluation du GIEC : conclusions principales",
                 "startPage":50
             },
             {
                 "ref":"Box 1.4",
                 "en_EN":"The relationships between 'net zero' emissions, temperature outcomes and carbon dioxide removal",
+                "fr_FR":"La relation entre des émissions 'net zéro', l'évolution de température, et le retrait de CO2",
                 "startPage":113
             },
             {
@@ -1211,31 +1228,37 @@
                     {
                         "ref":"1.3.1",
                         "en_EN":"Lines of evidence: instrumental observations",
+                        "fr_FR":"Faisceau de preuves : observation instrumentale",
                         "startPage":36
                     },
                     {
                         "ref":"1.3.2",
                         "en_EN":"Lines of evidence: paleoclimate",
+                        "fr_FR":"Faisceau de preuves : paléoclimat",
                         "startPage":39
                     },
                     {
                         "ref":"1.3.3",
                         "en_EN":"Lines of evidence: identifying natural and human drivers",
+                        "fr_FR":"Faisceau de preuves : identification des facteurs naturels et humains",
                         "startPage":40
                     },
                     {
                         "ref":"1.3.4",
                         "en_EN":"Lines of evidence: understanding and attributing climate change",
+                        "fr_FR":"Faisceau de preuves : compréhension et attribution du changement climatique",
                         "startPage":43
                     },
                     {
                         "ref":"1.3.5",
                         "en_EN":"Projections of future climate change",
+                        "fr_FR":"Projection du changement climatique futur",
                         "startPage":45
                     },
                     {
                         "ref":"1.3.6",
                         "en_EN":"How do previous climate projections compare with subsequent observations?",
+                        "fr_FR":"Comment les simulations climatiques précédentes se comparent avec les observations postérieures?",
                         "startPage":48
                     }
                 ]
@@ -1243,6 +1266,7 @@
             {
                 "ref":"Cross-Chapter Box 1.2",
                 "en_EN":"Changes in global temperature between 1750 and 1850",
+                "fr_FR":"Changement des températures globales entre 1750 et 1850",
                 "startPage":55
             },
             {
@@ -1254,21 +1278,25 @@
                     {
                         "ref":"1.4.1",
                         "en_EN":"Baselines, reference periods and anomalies",
+                        "fr_FR":"Lignes de base (baselines), périodes de référence et anomalies",
                         "startPage":53
                     },
                     {
                         "ref":"1.4.2",
                         "en_EN":"Variability and emergence of the climate change signal",
+                        "fr_FR":"Variabilité et émergence d'un signal du changement climatique",
                         "startPage":56,
                         "chapters": [
                             {
                                 "ref":"1.4.2.1",
                                 "en_EN":"Climate variability can influence trends over short periods",
+                                "fr_FR":"La variabilité du climat peut influencer les tendances à court-terme",
                                 "startPage":57
                             },
                             {
                                 "ref":"1.4.2.2",
                                 "en_EN":"The emergence of the climate change signal",
+                                "fr_FR":"L'émergence du signal de changement climatique",
                                 "startPage":57
                             }
                         ]
@@ -1276,16 +1304,19 @@
                     {
                         "ref":"1.4.3",
                         "en_EN":"Sources of uncertainty in climate simulations",
+                        "fr_FR":"Sources d'incertitude dans les simulations climatiques",
                         "startPage":59,
                         "chapters": [
                             {
                                 "ref":"1.4.3.1",
                                 "en_EN":"Sources of uncertainty",
+                                "fr_FR":"Sources d'incertitude",
                                 "startPage":59
                             },
                             {
                                 "ref":"1.4.3.2",
                                 "en_EN":"Uncertainty quantification",
+                                "fr_FR":"Quantification de l'incertitude",
                                 "startPage":60
                             }
                         ]
@@ -1293,21 +1324,25 @@
                     {
                         "ref":"1.4.4",
                         "en_EN":"Considering an uncertain future",
+                        "fr_FR":"Considérer un futur incertain",
                         "startPage":61,
                         "chapters":[
                             {
                                 "ref":"1.4.4.1",
                                 "en_EN":"Low-likelihood outcomes",
+                                "fr_FR":"Conséquences à faible probabilité",
                                 "startPage":62
                             },
                             {
                                 "ref":"1.4.4.2",
                                 "en_EN":"Storylines",
+                                "fr_FR":"Intrigues (storylines)",
                                 "startPage":62
                             },
                             {
                                 "ref":"1.4.4.3",
                                 "en_EN":"Abrupt change, tipping points and surprises",
+                                "fr_FR":"Changements brutaux, points de bascule et surprises",
                                 "startPage":65
                             }
                         ]
@@ -1315,16 +1350,19 @@
                     {
                         "ref":"1.4.5",
                         "en_EN":"Climate regions used in AR6",
+                        "fr_FR":"Régions climatiques utilisées dans AR6",
                         "startPage":70,
                         "chapters":[
                             {
                                 "ref":"1.4.5.1",
                                 "en_EN":"Defining climate regions",
+                                "fr_FR":"Définir les régions climatiques",
                                 "startPage":70
                             },
                             {
                                 "ref":"1.4.5.2",
                                 "en_EN":"Types of regions used in AR6",
+                                "fr_FR":"Types de régions dans AR6",
                                 "startPage":71
                             }
                         ]
@@ -1334,11 +1372,13 @@
             {
                 "ref":"Cross-Chapter Box 1.3",
                 "en_EN":"Risk framing in IPCC AR6",
+                "fr_FR":"Cadrage des risques dans l'AR6",
                 "startPage":63
             },
             {
                 "ref":"Cross-Working-Group Box",
                 "en_EN":"Attribution",
+                "fr_FR":"Attribution",
                 "startPage":67
             },
             {
@@ -1350,16 +1390,19 @@
                     {
                         "ref":"1.5.1",
                         "en_EN":"Observational data and observing systems",
+                        "fr_FR":"Données et systèmes d'observation",
                         "startPage":72,
                         "chapters":[
                             {
                                 "ref":"1.5.1.1",
                                 "en_EN":"Major expansions of observational capacity",
+                                "fr_FR":"Améliorations majeures des capacités d'observation",
                                 "startPage":73
                             },
                             {
                                 "ref":"1.5.1.2",
                                 "en_EN":"Threats to observational capacity or continuity",
+                                "fr_FR":"Menaces aux capacités d'observation ou à la continuité",
                                 "startPage":77
                             }
                         ]
@@ -1367,31 +1410,37 @@
                     {
                         "ref":"1.5.2",
                         "en_EN":"New developments in reanalyses",
+                        "fr_FR":"Évolutions des réanalyses",
                         "startPage":78
                     },
                     {
                         "ref":"1.5.3",
                         "en_EN":"Climate Models",
+                        "fr_FR":"Modèles climatiques",
                         "startPage":82,
                         "chapters":[
                             {
                                 "ref":"1.5.3.1",
                                 "en_EN":"Earth System Models",
+                                "fr_FR":"Modèles du système Terre",
                                 "startPage":82
                             },
                             {
                                 "ref":"1.5.3.2",
                                 "en_EN":"Model tuning and adjustment",
+                                "fr_FR":"Réglage et ajustements des modèles",
                                 "startPage":84
                             },
                             {
                                 "ref":"1.5.3.3",
                                 "en_EN":"From global to regional models",
+                                "fr_FR":"Des modèles globaux aux modèles régionaux",
                                 "startPage":85
                             },
                             {
                                 "ref":"1.5.3.4",
                                 "en_EN":"Models of lower complexity",
+                                "fr_FR":"Modèles de moindre complexité",
                                 "startPage":86
                             }
                         ]
@@ -1399,41 +1448,49 @@
                     {
                         "ref": "1.5.4",
                         "en_EN": "Modelling techniques, comparisons and performance assessments",
+                        "fr_FR": "Techniques de modélisation, comparaisons et évaluation des performances",
                         "startPage": 89,
                         "chapters": [
                             {
                                 "ref": "1.5.4.2",
                                 "en_EN": "Ensemble modelling techniques",
+                                "fr_FR": "Techniques de modélisation d'ensemble",
                                 "startPage": 89
                             },
                             {
                                 "ref": "1.5.4.3",
                                 "en_EN": "The sixth phase of the Coupled Model Intercomparison Project (CMIP6)",
+                                "fr_FR": "La 6ème phase du modèle couplé CMIP (CMIP6)",
                                 "startPage": 91
                             },
                             {
                                 "ref": "1.5.4.4",
                                 "en_EN": "Coordinated Regional Downscaling Experiment (CORDEX)",
+                                "fr_FR": "Réduction d'échelle (CORDEX)",
                                 "startPage": 93
                             },
                             {
                                 "ref": "1.5.4.5",
                                 "en_EN": "Model Evaluation Tools",
+                                "fr_FR": "Outils d'évaluation des modèles",
                                 "startPage": 94
                             },
                             {
                                 "ref": "1.5.4.6",
                                 "en_EN": "Evaluation of process-based models against observations",
+                                "fr_FR": "Évaluation des modèles basés sur les processus face aux observations",
                                 "startPage": 94
                             },
                             {
                                 "ref": "1.5.4.7",
                                 "en_EN": "Emergent constraints on climate feedbacks, sensitivities and projections",
+                                "fr_FR": "Contraintes émergentes sur les boucles de rétroactions climatiques, sensibilité et projections",
                                 "startPage": 95
                             },
                             {
                                 "ref": "1.5.4.8",
                                 "en_EN": "Weighting techniques for model comparisons",
+                                "fr_FR": "Techniques de pondération pour la comparaison des modèles",
                                 "startPage": 96
                             }
                         ]
@@ -1443,6 +1500,7 @@
             {
                 "ref":"Box 1.3",
                 "en_EN":"Emission metrics in AR6 WGI",
+                "fr_FR":"Métriques des émissions dans AR6 WG-I",
                 "startPage":88
             },
             {
@@ -1453,26 +1511,31 @@
                     {
                         "ref": "1.6.1",
                         "en_EN": "Scenarios",
+                        "fr_FR": "Scénarios",
                         "startPage": 98,
                         "chapters": [
                             {
                                 "ref": "1.6.1.1",
                                 "en_EN": "Shared Socio-economic Pathways",
+                                "fr_FR": "Trajectoire socioéconomiques partagées (SSP)",
                                 "startPage": 100
                             },
                             {
                                 "ref": "1.6.1.2",
                                 "en_EN": "Scenario generation process for CMIP6",
+                                "fr_FR": "Processus de génération de scénarios pour CMIP6",
                                 "startPage": 107
                             },
                             {
                                 "ref": "1.6.1.3",
                                 "en_EN": "History of scenarios within the IPCC",
+                                "fr_FR": "Historique des scénarios du GIEC",
                                 "startPage": 108
                             },
                             {
                                 "ref": "1.6.1.4",
                                 "en_EN": "The likelihood of reference scenarios, scenario uncertainty and storylines",
+                                "fr_FR": "Vraisemblance des scénarios de référence, incertitude des scénarios et intrigues (storylines)",
                                 "startPage": 109
                             }
                         ]
@@ -1480,11 +1543,13 @@
                     {
                         "ref": "1.6.2",
                         "en_EN": "Global warming levels",
+                        "fr_FR": "Niveaux de réchauffement global",
                         "startPage": 111
                     },
                     {
                         "ref": "1.6.3",
                         "en_EN": "Cumulative CO2 emissions",
+                        "fr_FR": "Émissions cumulées de CO2",
                         "startPage": 112
                     }
                 ]
@@ -1492,6 +1557,7 @@
             {
                 "ref":"Cross-Chapter Box 1.4",
                 "en_EN":"The SSP scenarios as used in Working Group I",
+                "fr_FR":"Les scénarios SSP utilisés par le Working Group I",
                 "startPage":102
             },
             {
@@ -1503,7 +1569,7 @@
             {
                 "ref":"FAQ1.1",
                 "en_EN": "Do we understand climate change better now compared to when IPCC started?",
-                "en_EN":"Est-ce que nous comprenons mieux le changement climatique depuis les débuts du GIEC ?",
+                "fr_FR":"Est-ce que nous comprenons mieux le changement climatique depuis les débuts du GIEC ?",
                 "startPage":116,
                 "intro": {
                     "en_EN":"Yes, much better. The first IPCC report, released in 1990, concluded that human-caused climate change would soon become evident, but could not yet confirm that it was already happening. Today, evidence is overwhelming that the climate has indeed changed since the pre-industrial era and that human activities are the principal cause of that change. With much more data and better models, we also understand more about how the atmosphere interacts with the ocean, ice, snow, ecosystems and land surfaces of the Earth. Computer climate simulations have also improved dramatically, incorporating many more natural processes and providing projections at much higher resolutions.",
@@ -6359,7 +6425,7 @@
                 "figref": ["FAQ10.1,Figure1"],
                 "intro": {
                     "en_EN": "The world is physically and culturally diverse, and the challenges posed by climate change vary by region and location. Because climate change affects so many aspects of people\u2019s daily work and living, climate change information can help with decision-making, but only when the information is relevant for the people involved in making those decisions. Users of climate information may be highly diverse, ranging from professionals in areas such as human health, agriculture or water management to a broader community that experiences the impacts of changing climate. Providing information that supports response actions thus requires engaging all relevant stakeholders, their knowledge and their experiences, formulating appropriate information, and developing a mutual understanding of the usefulness and limitations of the information.  ",
-                    "fr_Fr": "Le monde est physiquement et culturellement varié, et les défis posés par le changement climatique varient par région et par localité. Parce que le changement climatique affecte tant d'aspects du travail et des vies des populations, l'information sur le changement climatique peut aider à la prise de décision, mais seulement quand l'information est pertinente pour les décisionnaires. Les utilisateurs d'information climatique peuvent être très divers, allant des professionnels de la santé, de l'agriculture ou de la gestion de l'eau, à une communauté plus globale qui vit les impacts d'un climat changeant. Proposer de l'information qui permet des actions en réponse requiert donc un engagement de toutes les parties prenantes, leurs connaissances et leurs expériences, formuler l'information de manière appropriée, et développer une compréhension commune de l'utilité et des limites de l'information fournie."
+                    "fr_Fr": "Le monde est physiquement et culturellement varié, et les défis posés par le changement climatique varient par région et par localité. Parce que le changement climatique affecte tant d'aspects du travail et des vies des populations, l'information sur le changement climatique peut aider à la prise de décision, mais seulement quand l'information est pertinente pour les décideurs. Les utilisateurs d'information climatique peuvent être très divers, allant des professionnels de la santé, de l'agriculture ou de la gestion de l'eau, à une communauté plus globale qui vit les impacts d'un climat changeant. Proposer de l'information qui permet des actions en réponse requiert donc un engagement de toutes les parties prenantes, leurs connaissances et leurs expériences, formuler l'information de manière appropriée, et développer une compréhension commune de l'utilité et des limites de l'information fournie."
                 },
                 "paragraphs": {
                     "en_EN": [
@@ -7693,7 +7759,8 @@
                 "startPage":131,
                 "figref": ["FAQ12.2,Figure1"],
                 "intro": {
-                    "en_EN": "Climatic thresholds tell us about the tolerance of society and ecosystems so that we can better scrutinize the types of climate changes that are expected to impact things we care about. Many systems have natural or structural thresholds.  If conditions exceed those thresholds, the result can be sudden changes or even collapses in health, productivity, utility or behavior. Adaptation and risk management efforts can change these thresholds, altering the profile of climate conditions that would be problematic and increasing overall system resilience. "
+                    "en_EN": "Climatic thresholds tell us about the tolerance of society and ecosystems so that we can better scrutinize the types of climate changes that are expected to impact things we care about. Many systems have natural or structural thresholds.  If conditions exceed those thresholds, the result can be sudden changes or even collapses in health, productivity, utility or behavior. Adaptation and risk management efforts can change these thresholds, altering the profile of climate conditions that would be problematic and increasing overall system resilience. ",
+                    "fr_FR": "Les seuils climatiques nous informent sur la tolérance des sociétés et des écosystèmes, afin que l'on puisse mieux examiner les types de changements climatiques qui devraient impacter les choses importantes de nos vies. Beaucoup de systèmes ont des seuils naturels ou structurels. Si les conditions excèdent ces seuils, la conséquence peut être un changement soudain ou un effondrement de la santé, la productivité, les services publics ou le comportement. Les efforts dans l'adaptation et la gestion des risques peuvent faire varier ces seuils, altérer le profil des conditions climatiques qui seraient problématiques, et augmenter globalement la résilience du système."
                 },
                 "paragraphs": {
                     "en_EN": [
@@ -7702,6 +7769,17 @@
                         " Thresholds may be defined according to raw values (such as maximum temperature exceeding 35\u2103) or percentiles (such as the local 99th percentile daily rainfall total). They also often have strong seasonal dependence (see FAQ 12.3). For example, the amount of snowfall that a deciduous tree can withstand depends on whether the snowfall occurs before or after the tree sheds its leaves. Most systems respond to changes in complex ways, and those responses are not determined solely or precisely by specific thresholds of a single climate variable. Nonetheless, thresholds can be useful indicators of system behaviours, and an understanding of these thresholds can help inform risk management decisions. ",
                         " FAQ 12.2 Figure 1 illustrates how threshold conditions can help us understand climate conditions that are suitable for normal system operation and the thresholds beyond which impacts occur. Crops tend to grow most optimally within a suitable range of daily temperatures that is influenced by the varieties being cultivated and the way the farm is managed. As daily temperatures rise above a \u2018critical\u2019 temperature threshold, plants begin to experience heat stress that reduces growth and may lower resulting yields. If temperatures reach a higher \u2018limiting\u2019 temperature threshold, crops may suffer leaf loss, pollen sterility, or tissue damage that can lead to crop failure. Farmers typically select a cropping system with some consideration to the probability of extreme temperature events that may occur within a typical season, and so identifying hot temperature thresholds helps farmers select their seed and field management strategies as part of their overall risk management. Climate experts may therefore aim to assist farm planning by providing information about the climate change-induced shifts to the expected frequency of daily heat extremes that exceed crop tolerance thresholds. ",
                         " Adaptation and other changes in societies and environment can shift climatic thresholds by modifying vulnerability and exposure. For example, adaptation efforts may include breeding new crops with higher heat tolerance levels so that corresponding dangerous thresholds occur less frequently. Likewise, increasing the height of a flood embankment protecting a given community can increase the level of river flow that may be tolerated without flooding, reducing the frequency of damaging floods. Stakeholders therefore benefit from climate services that are based on a co-development process, with scientists identifying system-relevant thresholds and developing tailored climatic impact-driver indices that represent these thresholds (FAQ 12.1). These thresholds help focus the provision of action-relevant climate information for adaptation and risk management.  "
+                    ],
+                    "fr_FR": [
+                        "Les décideurs observent depuis longtemps que certaines conditions météorologiques ou climatiques peuvent être problématiques ou dangereuses, pour les sujets qui les concernent (des sujets ayant une valeur socioéconomique, culturelle, ou intrinsèque). De nombreux éléments de nos sociétés et écosystèmes fonctionnent dans une zone climatique adaptée, sélectionnée naturellement ou par les décideurs, considérant les conditions climatiques attendues. Cependant, alors que le changement climatique déplace les conditions climatiques au-delà des plages attendues, celles-ci pourraient dépasser un 'seuil' climatique (climatic threshold) - un niveau au-delà duquel il y a soit des changements graduels dans le comportement des systèmes, soit des impacts abrupts, non-linéaire et potentiellement irréversibles.",
+                        
+                        "Les seuils climatiques peuvent être associés avec des niveaux de tolérance naturels ou structurels. Les seuils naturels, par exemple, incluent les conditions de chaleur et d'humidité au-delà desquelles les humains ne peuvent plus réguler leur température interne à travers la transpiration ; les durées de sécheresses qui augmentent la concurrence entre espèces ; ou les températures hivernales létales pour les animaux ravageurs ou vecteurs de maladies. Les seuils structurels sont par exemple des limites de capacité dans la conception des systèmes d'évacuation des eaux pluviales ; les vents maximaux supportés par les éoliennes ; la hauteur des digues de protection côtières ; la localisation des infrastructure d'irrigation, ou encore les abris para-cycloniques.",
+
+                        "Les seuils peuvent être définis selon des valeurs brutes (comme une température maximale dépassant 35°C), ou selon des centiles (comme le 99ème centile des précipitations journalières locales). Ils ont aussi souvent une dépendance aux saisons (FAQ12.3). Par exemple, la quantité de chutes de neige qu'un arbre à feuille caduques peut supporter varie si la neige est tombée avant ou après la chute des feuilles de l'arbre. La majorité des systèmes répondent aux changements de manière complexe, et ces réponses ne sont pas seulement déterminées ou précisément par des seuils spécifiques d'une seule variable climatique. Néanmoins, les seuils sont des indicateurs utiles du comportement des systèmes, et la compréhension de ces seuils peut aider aux décisions de gestion des risques.",
+
+                        "La Figure 1 illustre comment les seuils peuvent aider à comprendre les conditions climatiques adaptées au fonctionnement normal d'un système, et les seuils au-delà desquels des impacts apparaissent. Les cultures tendent à croître de manière optimal dans une gamme adaptée de températures qui dépend des variétés cultivées et de la gestion agricole. Lorsque les températures journalières montent au-dessus d'un seuil 'critique', les plantations commencent à subir un stress qui réduit leur pousse et peut réduire les rendements. Si les températures atteindent un seuil 'limitant' plus haut, les cultures peuvent perdre leurs feuilles, le pollen devenir stérile, ou être endommagées jusqu'à destruction. Les agriculteurs sélectionnent généralement leurs systèmes de cultures en considérant la probabilité d'occurence de températures extrêmes dans une saison typique - l'identification des seuils de haute température aide donc les agriculteurs à sélectionner leurs grains et les stratégies de culture, dans l'optique de leur gestion globale des risques. Les experts du climat peuvent donc aider à assister la planification agricole, en proposant de l'information sur les décalages, induits par le changement climatique, des probabilités et intensités attendues des extrêmes de chaleur dépassant le seuil de tolérance des cultures.",
+
+                        "L'adaptation et les autres changements sociétaux et environmentaux peuvent faire varier les seuils climatiques, en modifiant la vulnérabilité et l'exposition. Par exemple, des efforts d'adaptation peuvent être de reproduire de nouvelles variétés de cultures ayant une tolérance à la chaleur plus élevée, pour que le dépassement des seuils se produise moins souvent. De la même manière, augmenter la hauteur d'une digue permet d'augmenter le débit fluvial possible avant inondation, réduisant la fréquence d'inondations destructrices. Les parties-prenantes bénéficient donc des services climatiques qui sont basés sur un processus de co-développement, où les scientifiques identifient les seuils pertinents selon le système, et développent des indicateurs d'impact climatique adaptés qui représentent ces seuils (FAQ12.1). Ces seuils aident à se concentrer sur la fourniture d'information climatique propice à l'action, pour l'adaptation et la gestion des risques."
                     ]
                 }
             },
@@ -7712,7 +7790,8 @@
                 "startPage":133,
                 "figref": ["FAQ12.3,Figure1"],
                 "intro": {
-                    "en_EN": "Human-driven climate change can alter the regional characteristics of climate hazard by changing the magnitude or intensity of a climate hazard, the frequency with which it occurs, the duration that hazardous conditions persist, the timing when a hazard occurs, or the spatial extent threatened by a hazard. By examining each of these aspects of a hazard\u2019s profile change, climate services may provide climate risk information that allows decision makers to better tailor adaptation, mitigation and risk management strategies.  "
+                    "en_EN": "Human-driven climate change can alter the regional characteristics of climate hazard by changing the magnitude or intensity of a climate hazard, the frequency with which it occurs, the duration that hazardous conditions persist, the timing when a hazard occurs, or the spatial extent threatened by a hazard. By examining each of these aspects of a hazard\u2019s profile change, climate services may provide climate risk information that allows decision makers to better tailor adaptation, mitigation and risk management strategies.  ",
+                    "fr_FR": "Le changement climatique dû à l'homme peut altérer les caractéristiques régionales des dangers climatiques, en changeant leur intensité, la fréquence d'occurrence, la durée des conditions dangereuses, le moment où l'événement se produit, ou l'étendue spatiale mise en danger. En examinant chacun de ces aspects du profil d'évolution des dangers, les services climatiques peuvent proposer une information sur les risques climatiques aidant les décideurs à mieux calibrer leurs stratégies d'adaptation, d'atténuation et gestion des risques."
                 },
                 "paragraphs": {
                     "en_EN": [
@@ -7724,6 +7803,23 @@
                         " Spatial extent is the region in which a hazardous condition is expected, such as the area currently threatened by tropical cyclones, geographical areas where the coldest day of the year restricts a particular pest or pathogen, terrain where permafrost is present, the area that would flood following a common storm, zones where climate conditions are conducive to outdoor labour, or the size of a marine heatwave. ",
                         " Hazard profile changes are often intertwined or stem from related physical changes to the climate system. For example, changes in the frequency and magnitude of extreme events are often directly related to each other as a result of atmospheric dynamics and chemical processes. In many cases, one aspect of hazard change is more apparent than others, which may provide a first emergent signal indicating a larger set of changes to come (FAQ1.2).  ",
                         " Information about how a hazard has changed or will change helps stakeholders prioritize more robust adaptation, mitigation and risk management strategies. For example, allocation of limited disaster relief resources may be designed to recognize that tropical cyclones are projected to become more intense even as the frequency of those storms may not change. Planning may also factor in the fact that even heatwaves that are not record-breaking in their intensity can still be problematic for vulnerable populations when they persist over a long period. Likewise, firefighters recognize new logistical challenges in the lengthening of the fire weather season and an expansion of fire conditions into parts of the world where fires were not previously a great concern. Strong engagement between climate scientists and stakeholders therefore helps climate services tailor and communicate clear information about the types of changing climate hazards to be addressed in resilience efforts.  "
+                    ],
+                    "fr_FR": [
+                        "Un danger climatique est une condition climatique ayant le potentiel d'endommager des systèmes naturels ou sociétaux. Il s'agit par exemple de vagies de chaleur, de sécheresses, de fortes chutes de neige, ou de l'élévation du niveau des mers. Les scientifiques du climat recherche des motifs dans les Facteurs d'impact climatique pour détecter la signature de dangers changeants, qui pourraient influencer la planification des décideurs (FAQ12.1). Les fournisseurs de services climatiques travaillent avec ces parties-prenantes et les experts en impacts pour identifier les réponses-clé des systèmes, et les seuils de tolérance (FAQ12.2), pour ensuite examiner les observations historiques et les projections climatiques futures, afin d'identifier les changements associés aux caractéristiques régionales du danger (Figure 1).",
+
+                        "<i>L'amplitude ou l'intensité</i> est la valeur brute d'un danger climatique, comme l'augmentation de la température maximale annuelle, ou la hauteur des inondations provoquée par une tempête ayant 1% de chance de se produire chaque année.",
+
+                        "<i>La fréquence</i> est le nombre de fois où un danger climatique atteint ou dépasse un seuil sur une période donnée. Par exemple, une augmentation du nombre de chutes de neige intenses, de tornades ou d'inondations vécues chaque année ou sur une décennie.",
+
+                        "<i>La durée</i> est la longueur dans le temps durant laquelle les conditions dangereuses persistent au-delà d'un seuil, comme par exemple une augmentation dans le nombre de jours consécutifs avec une température supérieure à 35°C, le nombre de mois consécutifs de sécheresse, ou le nombre de jours durant lesquels un cyclone touche une localité.",
+
+                        "<i>La chronologie</i> comprend le moment où un danger se produit au cours d'une journée, d'une saison, d'une année ou d'une autre période dans laquelle des éléments sectoriels évoluent ou sont interdépendants (comme le moment de l'année où les animaux migrateurs devraient trouvé une certaine nourriture saisonnière). Par exemple, un décalage du jour le plus tôt dans l'année où se produit la dernière gelée de printemps, ou un décalage dans l'arrivée habituelle des premières pluies saisonnières, la durée de la période hivernale où le sol est recouvert de neige, ou bien la réduction du délai typique nécessaire pour que l'humidité du sol passe d'un état normal à un état de sécheresse.",
+
+                        "<i>L'étendue spatiale</i> est la région dans laquelle une condition dangereuse se produit, comme l'étendue actuellement menacée par les cyclones tropicaux, l'aire géographique où le jour le plus froid de l'année neutralise un ravageur ou pathogène particulier, les zones où du pergélisol est présent, la surface qui serait inondée suivant un orage, les zones où les conditions climatiques sont favorables aux labours, ou bien l'étendue d'une vague de chaleur marine.",
+
+                        "Les changements dans les profils des dangers sont souvent entrelacés ou découlent de changements physiques du système climatique. Par exemple, des changements dans la fréquence ou l'amplitude d'événements extrêmes sont souvent liés directement entre eux, en conséquence de la dynamique atmosphérique et de processus chimiques. Dans beaucoup de cas, un aspect de l'évolution d'un danger est plus visible qu'un autre, ce qui peut fournir un premier signal émergeant indiquant un ensemble plus grand de changements à venir (FAQ1.2).",
+
+                        "L'information sur la manière dont un danger a changé ou va changer aide les parties-prenantes à prioriser de manière plus robustes des stratégies d'adaptation, d'atténuation et de gestion des risques. Par exemple, l'allocation limitée de ressources de secours peut être conçue pour prendre en compte une prévision de cyclones tropicaux moins intenses, même si leur fréquence devrait rester identique. La planification peut aussi prendre en compte le fait que même les canicules ne battant pas des records dans leur intensité peuvent tout de même être problématiques pour les populations vulnérables quand elles persistent sur de longues périodes. De la même manière, les pompiers voient de nouveaux défis logistiques dans l'augmentation de la durée de la saison des feux de forêt, et une expansion des conditions propices aux feux de forêt dans des zones du monde où les feux n'étaient précédemment pas une préoccupation. Un engagement fort entre les scientifiques du climat et les parties-prenantes aide donc les services climatiques à adapter et communiquer de l'information claire sur le type des changements dans les dangers climatiques qui doivent être pris en compte par les efforts de résilience."
                     ]
                 }
             }
