@@ -902,6 +902,7 @@ let regex_autoref_fn = function(orig, CSBTS, CCB, CCBA, BSPM, BTS, TS, SPM, FAQ,
     
     if(orig.substr(0,4) === 'FAQ '){
         orig = orig.replace(' ', '');
+        return /*html*/`<a href="#" onclick="return dispFAQ(this);" data-cite="${orig}" class="src1">${orig}</a>`;
     }
 
     return /*html*/`<a href="#" class="src1" data-cite="${orig}" onmouseover="return hoverSource(this);" onmouseout="return mouseoutSource(this)" onclick="return dispSource(this)">${orig}</a>`;
