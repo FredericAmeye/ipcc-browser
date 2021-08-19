@@ -167,9 +167,9 @@ function saveLocalStorage()
     localStorage.setItem('settings', JSON.stringify(userParams));
 }
 
-function markAsRead(e)
+function markAsRead(e, tag = 'data-cite')
 {
-    let ref = $(e).attr('data-cite');
+    let ref = $(e).attr(tag);
 
     if(typeof userParams['read'] === 'undefined')
     {
@@ -177,7 +177,7 @@ function markAsRead(e)
     }
 
     userParams['read'][ref] = new Date().getTime();
-    $('.chapter-read[data-readmarker=\''+ref+'\']').css('display','block');
+    $('.chapter-read[data-readmarker=\''+ref+'\']').css('display','inline-block');
 
     saveLocalStorage();
 
@@ -216,7 +216,7 @@ function dispFAQ(e)
             // paragraphs in FAQ
             for(let i = 0; i < faqtext.length; i++)
             {
-                html += `<p style="padding:8px 0">${faqtext[i]}</p>`;
+                html += `<p>${faqtext[i]}</p>`;
             }
 
             $('#modal-faq .modal-content').html(html);
@@ -664,10 +664,12 @@ function hoverSource(e)
     // reference has been found in detailed text
     if(findSrc)
     {
+        // has already been read?
         findSrc = findSrc.elm;
+        let read = (userParams['read'] && userParams['read'][findSrc.ref]) ? `<br><i class="green-text material-icons">done_all</i> already read` : '';
         tippy(e, {
             content: "<span class='tooltip-ref-chapter'>" + findSrc.ref + ". " + findSrc.en_EN + "</span>" + getChildChapters(findSrc)
-                + "<br><i>click to go to this section</i>",
+                + read + "<br><i>click to go to this section</i>",
             allowHTML: true
         });
     }
@@ -706,8 +708,12 @@ function dispSource(e)
 
     if(src.substr(0,2) == 'TS') {
         // part of the TS
-        // TODO change hash
         loadMainPanel('TS', src);
+        return false;
+    }
+    if(src.substr(0,2) == '1.') {
+        // chapter 1 available
+        loadMainPanel('1', src);
         return false;
     }
 
@@ -778,6 +784,9 @@ function displayBox(element)
         mod.open();
         updateTooltips();
 
+    }).fail(function(){
+        // fallback to PDF
+        dispSource($('<span data-cite="'+element.ref+'"></span>'));
     });
 }
 
@@ -913,8 +922,8 @@ function returnElementByRefName(table, query, parentOffset = 0)
     return false;
 }
 
-const TS_chapter_repl = /(Cross-Section Box TS\.[0-9.]+)|(Cross-Chapter Box [0-9.]+)|(Cross-Chapter Box Atlas\.[0-9.]+)|(Box SPM\.[0-9.]+)|(Box TS\.[0-9.]+)|(TS\.[0-9.]+)|(SPM\.[0-9.]+)|(FAQ\s?[0-9.]+)|(Box [0-9.]+)|([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)|([0-9]+\.[0-9]+\.[0-9]+)|(Atlas\.[0-9]+\.[0-9]+)|(Atlas\.[0-9]+)/g;
-let regex_autoref_fn = function(orig, CSBTS, CCB, CCBA, BSPM, BTS, TS, SPM, FAQ, B, ABCD, ABC, AtlasAB, AtlasA, value, complete_string)
+const TS_chapter_repl = /(Cross-Section Box TS\.[0-9.]+)|(Cross-Chapter Box [0-9.]+)|(Cross-Chapter Box Atlas\.[0-9.]+)|(Box SPM\.[0-9.]+)|(Box TS\.[0-9.]+)|(Infographic TS\.[0-9]+)|(TS\.[0-9.]+)|(SPM\.[0-9.]+)|(FAQ\s?[0-9.]+)|(Box [0-9.]+)|([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)|([0-9]+\.[0-9]+\.[0-9]+)|(Atlas\.[0-9]+\.[0-9]+)|(Atlas\.[0-9]+)/g;
+let regex_autoref_fn = function(orig, CSBTS, CCB, CCBA, BSPM, BTS, InfoTS, TS, SPM, FAQ, B, ABCD, ABC, AtlasAB, AtlasA, value, complete_string)
 {
     let has_figref_tag = (complete_string.substr(value-8, 8) == '<figref>');
     let has_goto_tag   = (complete_string.substr(value-6, 6) == '<goto>');
@@ -955,7 +964,7 @@ let regex_markup_fn = function(orig1, balise, content, balise2, position)
     {
         let footnote = wgI.SPM.footnotes[content];
         if(!footnote)
-            return /*html*/`<abbr class="footnote-ref" data-tippy-content="(reference not found, see PDF)"><sup>${content}</sup></abbr>`;
+            return /*html*/`<abbr class="footnote-ref" data-tippy-content="(reference not yet available, see PDF)"><sup>${content}</sup></abbr>`;
 
         return /*html*/`<abbr class="footnote-ref" data-tippy-content="${footnote}" data-ref="${content}"><sup>${content}</sup></abbr>`;
     }
@@ -985,23 +994,29 @@ let regex_markup_fn = function(orig1, balise, content, balise2, position)
 };
 
 const conf_image = "<br><img src='content/img/en_EN/confidence.png' style='width:500px'>";
+const confidence_regex = /\(?(_?high confidence|very high confidence|medium confidence|low confidence|very low confidence_?)\)?/g;
+const conf_levels = {
+    "high confidence":"high-confidence", "very high confidence":"very-high-confidence",
+    "medium confidence":"medium-confidence", "low confidence":"low-confidence", "very low confidence":"very-low-confidence"
+};
+const symbollevels = {
+    "high confidence":"+", "very high confidence":"↑",
+    "medium confidence":"~", "low confidence":"-", "very low confidence":"↓"
+};
+let regex_confidence_fn = function(orig, value){
+    let conf = conf_levels[value];
+    let symb = symbollevels[value];
+    if(orig[0] == '('){
+        return /*html*/`<span class="${conf}" data-tippy-content="${conf_image}${value}">${symb}</span>`;
+    } else {
+        return /*html*/`<span class="${conf}-text" data-tippy-content="${conf_image}">${value}</span>`;
+    }
+};
+
 function processText(txt)
 {
     // confidence levels
-    txt = txt.replaceAll("(_high confidence_)", '<span class="high-confidence" data-tippy-content="high confidence'+conf_image+'">+</span>');
-    txt = txt.replaceAll("_high confidence_", '<span class="high-confidence-text">high confidence</span>');
-
-    txt = txt.replaceAll("(_very high confidence_)", '<span class="very-high-confidence" data-tippy-content="very high confidence'+conf_image+'">+</span>');
-    txt = txt.replaceAll("_very high confidence_", '<span class="very-high-confidence-text">very high confidence</span>');
-
-    txt = txt.replaceAll("(_medium confidence_)", '<span class="medium-confidence" data-tippy-content="medium confidence'+conf_image+'">~</span>');
-    txt = txt.replaceAll("_medium confidence_", '<span class="medium-confidence-text">medium confidence</span>');
-
-    txt = txt.replaceAll("(_low confidence_)", '<span class="low-confidence" data-tippy-content="low confidence'+conf_image+'">-</span>');
-    txt = txt.replaceAll("_low confidence_", '<span class="low-confidence-text">low confidence</span>');
-
-    txt = txt.replaceAll("(_very low confidence_)", '<span class="very-low-confidence" data-tippy-content="very low confidence'+conf_image+'">-</span>');
-    txt = txt.replaceAll("_very low confidence_", '<span class="very-low-confidence-text">very low confidence</span>');
+    txt = txt.replaceAll(confidence_regex, regex_confidence_fn);
 
     // certainty level
     txt = txt.replaceAll("_virtually certain_", '<span class="virtually-certain-text" data-tippy-content="virtually certain = 99-100% probability">virtually certain</span>');
@@ -1111,7 +1126,7 @@ function loadMainPanel(chapter = 'TS', toRef = false)
     });
 
     $('#main-panel-doc').css('display', 'block');
-    if(currentlyLoadedPanel && currentlyLoadedPanel.substr(0, 2) == chapter) {
+    if(currentlyLoadedPanel && currentlyLoadedPanel.split('.')[0] == chapter) {
         // TODO do not reload, just display it
         currentlyLoadedPanel = toRef;
         updateHash();
@@ -1136,17 +1151,48 @@ function loadMainPanel(chapter = 'TS', toRef = false)
         // marquer comme lu plutôt quand on arrive en fin de paragraphe avec barre qui montre quelle partie sera marquée comme lue
         // headers sticky sur la partie gauche ou mini-sommaire?
         // TODO div to the left not correct on mobiles
-        /*html.find('h1,h2,h3,h4').prepend(`<div class="section-tools hide-on-small-only">
-            <!--<a data-tippy-content="Sharing link"><i class="material-icons">shared</i></a>
-            <a href="#"><i class="material-icons">bookmark</i></a>
-            <a href="#" data-tippy-content="Mark section as read"><i class="material-icons">check_box</i></a>-->
-        </div>`);*/
+        html.find('h1,h2,h3,h4,h5').each(function(){
+            let ref = $(this).find('a[data-cite]').attr('data-cite');
+            let already_read = userParams['read'] && userParams['read'][ref]
+                ? 'display:inline-block'
+                : 'display:none';
+            
+            let has_prev_section = findEndOfReading(this);
+            let disp_mread = '';
+            if(!has_prev_section){
+                disp_mread = 'style="display:none"';
+            };
+
+            let prev_id = has_prev_section?.id || false;
+            let prev_ref = $(has_prev_section).find('a[data-cite]').text();
+
+            $(this).prepend(/*html*/`<div class="section-tools hide-on-small-only">
+                <a data-tippy-content="Sharing link" href="#lang=${lang}&opened=${ref}">
+                    <i class="material-icons">shared</i>
+                </a>
+                <!--<a href="#"><i class="material-icons">bookmark</i></a>-->
+                <a ${disp_mread} href="#"
+                    onmouseover="highlightEndOfReading(this, $('#${prev_id}'))"
+                    onmouseout="lowlightEndOfReading();"
+                    onclick="return markAsRead(this, 'data-mread');"
+                    data-mread="${prev_ref}"
+                    data-tippy-content="Mark previous section (${prev_ref}) as read">
+                    <i class="material-icons">done_all</i>
+                </a>
+            </div>`).append(/*html*/`<i class="chapter-read material-icons green-text" data-tippy-content="Already read" data-readmarker="${ref}" style="vertical-align:bottom; margin-left:10px;${already_read}">done_all</i>`);
+        });
         html.appendTo('#main-panel-holder');
 
         updateTooltips();
-        if(toRef) {
-            goToRefInMarkdown(toRef);
-        } else {
+        if(toRef)
+        {
+            // on attend que toutes les images soient chargées avant de scroller
+            $('#main-panel-holder').waitForImages(function(){
+                goToRefInMarkdown(toRef);
+            });
+        }
+        else
+        {
             window.scrollTo(0, 0);
         }
     });
@@ -1157,6 +1203,10 @@ function goToRefInMarkdown(ref)
     // https://stackoverflow.com/a/18749238/14799573
     let sanitized = ref.replaceAll('.','').toLowerCase();
     let uRef = "doc-TS-"+sanitized+"-";
+    if(ref.split('.')[0] == '1'){
+        uRef = "doc-1-"+sanitized+"-";
+    }
+    console.log("searching for ref", uRef);
 
     let pos = $('#main-panel-holder').find('h1[id^=\''+uRef+'\'],h2[id^=\''+uRef+'\'],h3[id^=\''+uRef+'\'],h4[id^=\''+uRef+'\'],h5[id^=\''+uRef+'\']').offset();
     if(pos) {
@@ -1172,4 +1222,48 @@ function closePanelDoc()
     $('#main-panel-doc').css('display', 'none');
     updateHash();
     return false;
+}
+
+function findEndOfReading(element)
+{
+    let closest = $(element).prevAll('h1,h2,h3,h4,h5');
+    if(!closest.length) {
+        console.error('no element found');
+        return;
+    }
+    let cur_depth = $(element).prop('tagName').substr(1);
+    let found_previous = false;
+    for(let i = 0; i < closest.length; i++)
+    {
+        let depth = $(closest[i]).prop('tagName').substr(1); // retourne H1,H2,H3, donc 1,2,3,4
+        if(depth >= cur_depth) {
+            found_previous = closest[i];
+            break;
+        } else {
+            break; // we crossed a section
+        }
+    }
+
+    return found_previous;
+}
+
+let readingBar = $('<div style="border-left:6px solid green; background:rgba(0,255,0,0.1)"></div>').appendTo('body');
+function highlightEndOfReading(current, previous)
+{
+    let pos_prev = $(previous).offset();
+    let pos_next = $(current).offset();
+
+    readingBar.css({
+        position: 'absolute',
+        display: 'block',
+        top: pos_prev.top,
+        height: (pos_next.top - pos_prev.top),
+        left: pos_prev.left - 20,
+        width: $(previous).parent().width() + 40
+    });
+}
+
+function lowlightEndOfReading()
+{
+    readingBar.css('display', 'none');
 }
