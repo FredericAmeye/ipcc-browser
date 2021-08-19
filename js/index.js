@@ -942,7 +942,14 @@ let regex_markup_fn = function(orig1, balise, content, balise2, position)
     {
         let box = findSourceByRef(content).elm || {};
         let boxTitle = box[lang] || box.en_EN || "";
-        return /*html*/`<div onclick="return displayBoxByRef(this)" data-boxref="${content}" class="card-panel indigo darken-4 white-text hoverable" style="cursor:pointer; margin:0 30px;">Read ${content}: ${boxTitle}</div>`;
+        let alreadyRead = userParams['read'] && userParams['read'][content]
+            ? /*html*/`<span class="right green-text" data-tippy-content="You have already read this Box"><i class="material-icons">done_all</i></span>`
+            : '';
+
+        return /*html*/`<div onclick="return displayBoxByRef(this)" data-boxref="${content}" class="card-panel indigo darken-4 white-text hoverable" style="cursor:pointer; margin:0 30px;">
+            Read ${content}: ${boxTitle}
+            ${alreadyRead}
+        </div>`;
     }
     else if(balise == 'ref')
     {
