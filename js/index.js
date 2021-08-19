@@ -923,8 +923,8 @@ function returnElementByRefName(table, query, parentOffset = 0)
     return false;
 }
 
-const TS_chapter_repl = /(Cross-Section Box TS\.[0-9.]+)|(Cross-Chapter Box [0-9.]+)|(Cross-Chapter Box Atlas\.[0-9.]+)|(Box SPM\.[0-9.]+)|(Box TS\.[0-9.]+)|(Infographic TS\.[0-9]+)|(TS\.[0-9.]+)|(SPM\.[0-9.]+)|(FAQ\s?[0-9.]+)|(Box [0-9.]+)|([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)|([0-9]+\.[0-9]+\.[0-9]+)|(Atlas\.[0-9]+\.[0-9]+)|(Atlas\.[0-9]+)/g;
-let regex_autoref_fn = function(orig, CSBTS, CCB, CCBA, BSPM, BTS, InfoTS, TS, SPM, FAQ, B, ABCD, ABC, AtlasAB, AtlasA, value, complete_string)
+const TS_chapter_repl = /(Cross-Section Box TS\.[0-9.]+)|(Cross-Chapter Box [0-9.]+)|(Cross-Chapter Box Atlas\.[0-9.]+)|(Box SPM\.[0-9.]+)|(Box TS\.[0-9.]+)|(Infographic TS\.[0-9]+)|(TS\.[0-9.]+)|(SPM\.[0-9.]+)|(FAQ\s?[0-9.]+)|(Box [0-9.]+)|([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)|([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)|([0-9]+\.[0-9]+\.[0-9]+)|(Atlas\.[0-9]+\.[0-9]+)|(Atlas\.[0-9]+)/g;
+let regex_autoref_fn = function(orig, CSBTS, CCB, CCBA, BSPM, BTS, InfoTS, TS, SPM, FAQ, B, ABCDE, ABCD, ABC, AtlasAB, AtlasA, value, complete_string)
 {
     let has_figref_tag = (complete_string.substr(value-8, 8) == '<figref>');
     let has_goto_tag   = (complete_string.substr(value-6, 6) == '<goto>');
