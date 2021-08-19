@@ -190,7 +190,7 @@ h1, h5, .brand-logo, .card-title {
 .src1:hover {
     background-color:rgba(0,0,0,0.2);
 }
-#modal-box .src1 {
+#modal-box .src1, #main-panel-doc .src1 {
     margin:0;
     background:none;
     font-size:0.8em;
@@ -422,4 +422,75 @@ width: 95%;
 }
 .small-figure .fig-legend-ext {
     display:none;
+}
+
+#main-panel-doc {
+    color: rgb(41,41,41);
+    position:absolute;
+    top:64px;
+    left:350px;
+    right:0;
+    background:white;
+    display:none;
+}
+#main-panel-doc p {
+    font-family:'Bitter',serif;
+    font-size: 16px;
+    line-height:24px;
+    text-align:justify;
+    margin:10px 0;
+}
+#main-panel-doc ol, #main-panel-doc ul {
+    font-family:'Bitter',sans-serif;
+    font-size: 16px;
+    line-height:24px;
+    padding-left:20px;
+}
+#main-panel-doc li {
+    margin:4px 0;
+}
+#main-panel-doc ul li {
+    list-style-type: initial;
+}
+#main-panel-doc h1, #main-panel-doc h2, #main-panel-doc h3, #main-panel-doc h4 {
+    font-weight:700;
+    font-family:'Inter',-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+#main-panel-doc img {
+    max-width:100%;
+}
+#main-panel-doc em {
+    font-weight:bold;
+    font-style:normal;
+    color:#00324b;
+}
+#main-panel-doc blockquote p {
+    font-family:'Inter',-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight:400;
+}
+#main-panel-holder {
+    max-width:1000px;
+    margin:0 auto;
+}
+@media only screen and (max-width : 992px) {
+    #main-panel-doc {
+        left: 0;
+        padding:10px;
+        top:56px;
+    }
+    #main-panel-doc p {
+        text-align:left; /* better without jsutification on mobile ?*/
+    }
+}
+.section-tools {
+    float:left;
+    margin-left:-35px;
+}
+.section-tools i {
+    width:24px;
+}
+.main-panel-close {
+    position: fixed;
+    bottom:20px;
+    right:10px;
 }

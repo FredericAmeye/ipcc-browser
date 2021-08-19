@@ -58,7 +58,7 @@ let initFn = (function()
     }
 
     /* init page */
-    jQuery.getJSON('content/wgI.json?v5.json', function(r){
+    jQuery.getJSON('content/wgI.json?v6.json', function(r){
         const nb_chap = r.SPM.chapters.length;
         wgI = r;
         
@@ -145,6 +145,11 @@ let initFn = (function()
         {
             let element = findSourceByRef(decodeURI(urlParams['box']));
             displayBox(element.elm);
+        }
+
+        if(urlParams['opened'] && urlParams['opened'].length)
+        {
+            dispSource($('<div data-cite="'+urlParams['opened']+'"></div>'));
         }
     });
 
@@ -238,7 +243,7 @@ function dispFAQ(e)
 }
 
 /* remplit le sommaire */
-let TOC_Modal;
+let TOC_Modal, sidenav_inst;
 function populateToC()
 {
     let html = '';
@@ -262,7 +267,7 @@ function populateToC()
 
     // load sidenav handler
     let sidenav_elm = document.querySelectorAll('.sidenav');
-    let sidenav_inst = M.Sidenav.init(sidenav_elm, {});
+    sidenav_inst = M.Sidenav.init(sidenav_elm, {});
 
     // FULL table of contents in popup:
     html = '';
@@ -393,6 +398,9 @@ function updateHash()
     }
     if(currentBox !== false) {
         hash += "&box="+currentBox;
+    }
+    if(currentlyLoadedPanel !== false) {
+        hash += "&opened="+currentlyLoadedPanel;
     }
 
     document.location.hash = hash;
@@ -691,6 +699,18 @@ function dispSource(e)
     let src = $(e).attr('data-cite');
     let element;
 
+    // close sidenav if on mobile
+    if(window.innerWidth < 992 && sidenav_inst[0].isOpen) {
+        sidenav_inst[0].close();
+    }
+
+    if(src.substr(0,2) == 'TS') {
+        // part of the TS
+        // TODO change hash
+        loadMainPanel('TS', src);
+        return false;
+    }
+
     // finding it in full text :
     console.log("searching ref in full text");
     element = findSourceByRef(src);
@@ -759,6 +779,17 @@ function displayBox(element)
         updateTooltips();
 
     });
+}
+
+function displayBoxByRef(elm)
+{
+    let ref = $(elm).attr('data-boxref');
+    let element = findSourceByRef(ref);
+    if(element && element.elm) {
+        displayBox(element.elm);
+    }
+
+    return false;
 }
 
 /* find source by ref */
@@ -840,13 +871,13 @@ function findSourceByRef(src)
     }
     
 
-    console.info("FOUND", matched, src);
+    //console.info("FOUND", matched, src);
     return matched;
 }
 
 function returnElementByRefName(table, query, parentOffset = 0)
 {
-    console.log("searching", table.ref, "for",query);
+    //console.log("searching", table.ref, "for",query);
     if(table.ref == query) {
         console.log("early return");
         return {
@@ -863,7 +894,7 @@ function returnElementByRefName(table, query, parentOffset = 0)
 
         for(let i = 0; i < table.chapters.length; i++)
         {
-            console.log("is match?", table.chapters[i].ref, query);
+            //console.log("is match?", table.chapters[i].ref, query);
             if(table.chapters[i].ref === query) {
                 return {
                     'offset': parentOffset,
@@ -882,21 +913,13 @@ function returnElementByRefName(table, query, parentOffset = 0)
     return false;
 }
 
-const regex_ref = /<ref>([0-9A-Za-z.-]+)<\/ref>/ig;
-let regex_ref_fn = function(orig, txt, value){
-    let footnote = wgI.SPM.footnotes[txt];
-    if(!footnote) return;
-    // TODO replace quotes in footnote text
-
-    return /*html*/`<abbr class="tippy footnote-ref" data-tippy-content="${footnote}" data-ref="${txt}"><sup>${txt}</sup></abbr>`;
-};
-
-const TS_chapter_repl = /(Cross-Section Box TS\.[0-9.]+)|(Cross-Chapter Box [0-9.]+)|(Cross-Chapter Box Atlas\.[0-9.]+)|(Box SPM\.[0-9.]+)|(Box TS\.[0-9.]+)|(TS\.[0-9.]+)|(SPM\.[0-9.]+)|(FAQ\s?[0-9.]+)|(Box [0-9.]+)|([0-9]+\.[0-9]+\.[0-9]+)|(Atlas\.[0-9]+)/g;
-let regex_autoref_fn = function(orig, CSBTS, CCB, CCBA, BSPM, BTS, TS, SPM, FAQ, B, ABC, Atlas, value, complete_string)
+const TS_chapter_repl = /(Cross-Section Box TS\.[0-9.]+)|(Cross-Chapter Box [0-9.]+)|(Cross-Chapter Box Atlas\.[0-9.]+)|(Box SPM\.[0-9.]+)|(Box TS\.[0-9.]+)|(TS\.[0-9.]+)|(SPM\.[0-9.]+)|(FAQ\s?[0-9.]+)|(Box [0-9.]+)|([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)|([0-9]+\.[0-9]+\.[0-9]+)|(Atlas\.[0-9]+\.[0-9]+)|(Atlas\.[0-9]+)/g;
+let regex_autoref_fn = function(orig, CSBTS, CCB, CCBA, BSPM, BTS, TS, SPM, FAQ, B, ABCD, ABC, AtlasAB, AtlasA, value, complete_string)
 {
     let has_figref_tag = (complete_string.substr(value-8, 8) == '<figref>');
     let has_goto_tag   = (complete_string.substr(value-6, 6) == '<goto>');
-    if(has_figref_tag || has_goto_tag) {
+    let has_boxref_tag   = (complete_string.substr(value-8, 8) == '<boxref>');
+    if(has_figref_tag || has_goto_tag || has_boxref_tag) {
         return orig; // do nothing
     }
     
@@ -908,12 +931,26 @@ let regex_autoref_fn = function(orig, CSBTS, CCB, CCBA, BSPM, BTS, TS, SPM, FAQ,
     return /*html*/`<a href="#" class="src1" data-cite="${orig}" onmouseover="return hoverSource(this);" onmouseout="return mouseoutSource(this)" onclick="return dispSource(this)">${orig}</a>`;
 };
 
-const markup_regex = /<(goto|figref)>([A-Za-z0-9., -]+)<\/(goto|figref)>/g;
+const markup_regex = /<(goto|figref|ref|boxref)>([A-Za-z0-9., -]+)<\/(goto|figref|ref|boxref)>/g;
 let regex_markup_fn = function(orig1, balise, content, balise2, position)
 {
     if(balise == 'goto')
     {
         return /*html*/`<a href="#" class="src1" data-cite="${content}" onmouseover="return hoverSource(this);" onmouseout="return mouseoutSource(this)" onclick="return dispSource(this)">${content}</a>`;
+    }
+    else if(balise == 'boxref')
+    {
+        let box = findSourceByRef(content).elm || {};
+        let boxTitle = box[lang] || box.en_EN || "";
+        return /*html*/`<div onclick="return displayBoxByRef(this)" data-boxref="${content}" class="card-panel indigo darken-4 white-text hoverable" style="cursor:pointer; margin:0 30px;">Read ${content}: ${boxTitle}</div>`;
+    }
+    else if(balise == 'ref')
+    {
+        let footnote = wgI.SPM.footnotes[content];
+        if(!footnote)
+            return /*html*/`<abbr class="footnote-ref" data-tippy-content="(reference not found, see PDF)"><sup>${content}</sup></abbr>`;
+
+        return /*html*/`<abbr class="footnote-ref" data-tippy-content="${footnote}" data-ref="${content}"><sup>${content}</sup></abbr>`;
     }
     else if(balise == 'figref')
     {
@@ -1001,8 +1038,6 @@ function processText(txt)
     txt = txt.replaceAll("_more likely than not_", '<span class="more-likely-than-not-text" data-tippy-content="more likely than not = >50-100% probability">more likely than not</span>');
     txt = txt.replaceAll("_extremely unlikely_", '<span class="extremely-unlikely-text" data-tippy-content="extremely unlikely = 0-5% probability">extremely unlikely</span>');
 
-    txt = txt.replaceAll(regex_ref, regex_ref_fn);
-
     txt = txt.replaceAll(TS_chapter_repl, regex_autoref_fn);
 
     txt = txt.replaceAll(markup_regex, regex_markup_fn); // IMPORTANT d'être en dernier
@@ -1058,5 +1093,76 @@ function dispFig(e)
     mod.open();
     updateTooltips();
 
+    return false;
+}
+
+let currentlyLoadedPanel = false;
+function loadMainPanel(chapter = 'TS', toRef = false)
+{
+    marked.setOptions({
+        headerPrefix: 'doc-'+chapter+'-'
+    });
+
+    $('#main-panel-doc').css('display', 'block');
+    if(currentlyLoadedPanel && currentlyLoadedPanel.substr(0, 2) == chapter) {
+        // TODO do not reload, just display it
+        currentlyLoadedPanel = toRef;
+        updateHash();
+        if(toRef) {
+            goToRefInMarkdown(toRef);
+        } else {
+            window.scrollTo(0, 0);
+        }
+        return;
+    }
+
+    $.get('pdf/chap'+chapter+'.md', function(md){
+        let html = processText(marked(md));
+        currentlyLoadedPanel = toRef;
+        updateHash();
+
+        // insert permalinks in headers
+        html = $('<div>'+html+'</div>');
+
+        // OR use marked renderers instead
+        // marquer comme lu : seulement sur les § qui ont des identifiants
+        // marquer comme lu plutôt quand on arrive en fin de paragraphe avec barre qui montre quelle partie sera marquée comme lue
+        // headers sticky sur la partie gauche ou mini-sommaire?
+        // TODO div to the left not correct on mobiles
+        /*html.find('h1,h2,h3,h4').prepend(`<div class="section-tools hide-on-small-only">
+            <!--<a data-tippy-content="Sharing link"><i class="material-icons">shared</i></a>
+            <a href="#"><i class="material-icons">bookmark</i></a>
+            <a href="#" data-tippy-content="Mark section as read"><i class="material-icons">check_box</i></a>-->
+        </div>`);*/
+        html.appendTo('#main-panel-holder');
+
+        updateTooltips();
+        if(toRef) {
+            goToRefInMarkdown(toRef);
+        } else {
+            window.scrollTo(0, 0);
+        }
+    });
+}
+
+function goToRefInMarkdown(ref)
+{
+    // https://stackoverflow.com/a/18749238/14799573
+    let sanitized = ref.replaceAll('.','').toLowerCase();
+    let uRef = "doc-TS-"+sanitized+"-";
+
+    let pos = $('#main-panel-holder').find('h1[id^=\''+uRef+'\'],h2[id^=\''+uRef+'\'],h3[id^=\''+uRef+'\'],h4[id^=\''+uRef+'\'],h5[id^=\''+uRef+'\']').offset();
+    if(pos) {
+        window.scrollTo(0, pos.top-64);
+    } else {
+        window.scrollTo(0, 0);
+    }
+}
+
+function closePanelDoc()
+{
+    currentlyLoadedPanel = false;
+    $('#main-panel-doc').css('display', 'none');
+    updateHash();
     return false;
 }
