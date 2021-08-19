@@ -58,7 +58,7 @@ let initFn = (function()
     }
 
     /* init page */
-    jQuery.getJSON('content/wgI.json?v6.json', function(r){
+    jQuery.getJSON('content/wgI.json?v7.json', function(r){
         const nb_chap = r.SPM.chapters.length;
         wgI = r;
         
@@ -711,9 +711,10 @@ function dispSource(e)
         loadMainPanel('TS', src);
         return false;
     }
-    if(src.substr(0,2) == '1.') {
+    let chap0 = src.split('.')[0];
+    if(chap0 == '1' || chap0 == '2') {
         // chapter 1 available
-        loadMainPanel('1', src);
+        loadMainPanel(chap0, src);
         return false;
     }
 
@@ -1138,6 +1139,7 @@ function loadMainPanel(chapter = 'TS', toRef = false)
         return;
     }
 
+    $('#main-panel-holder').html('');
     $.get('pdf/chap'+chapter+'.md', function(md){
         let html = processText(marked(md));
         currentlyLoadedPanel = toRef;
@@ -1203,8 +1205,9 @@ function goToRefInMarkdown(ref)
     // https://stackoverflow.com/a/18749238/14799573
     let sanitized = ref.replaceAll('.','').toLowerCase();
     let uRef = "doc-TS-"+sanitized+"-";
-    if(ref.split('.')[0] == '1'){
-        uRef = "doc-1-"+sanitized+"-";
+    let chap = ref.split('.')[0];
+    if(chap == '1' || chap == '2'){
+        uRef = "doc-"+chap+"-"+sanitized+"-";
     }
     console.log("searching for ref", uRef);
 
