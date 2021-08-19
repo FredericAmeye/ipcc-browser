@@ -86,8 +86,8 @@ parenthesis after each bullet point.
 - Human influence<ref>7</ref> on the climate system is now an established fact: The Fourth Assessment 
 Report (AR4) stated in 2007 that ‘warming of the climate system is unequivocal’, and the AR5 
 stated in 2013 that ‘human influence on the climate system is clear’. Combined evidence from across 
-the climate system strengthens this finding. It is unequivocal that the increase of CO2, methane 
-(CH4) and nitrous oxide (N2O) in the atmosphere over the industrial era is the result of human 
+the climate system strengthens this finding. It is unequivocal that the increase of CO₂, methane 
+(CH₄) and nitrous oxide (N₂O) in the atmosphere over the industrial era is the result of human 
 activities and that human influence is the principal driver of many changes observed across the 
 atmosphere, ocean, cryosphere and biosphere. (TS.1.2, TS.2.1) 
 - Observed global warming to date: A combination of improved observational records and a series 
@@ -134,7 +134,7 @@ lived climate forcers in scenarios with the highest air pollution. (TS.1.3, TS.2
 - Effects of short-lived climate forcers on global warming: The AR5 assessed the radiative forcing 
 for emitted compounds. The AR6 has extended this by assessing the emission-based effective 
 radiative forcings (ERFs) also accounting for aerosol–cloud interactions. The best estimates of ERF 
-attributed to sulphur dioxide (SO2) and CH4 emissions are substantially greater than in AR5, while 
+attributed to sulphur dioxide (SO2) and CH₄ emissions are substantially greater than in AR5, while 
 that of black carbon is substantially reduced. The magnitude of uncertainty in the ERF due to black 
 carbon emissions has also been reduced relative to AR5. 
 - Global water cycle: The AR5 assessed that anthropogenic influences have likely affected the global 
@@ -160,8 +160,8 @@ scenarios, the central estimate of crossing 1.5°C of global warming (for a 20-y
 the early 2030s, ten years earlier than the midpoint of the likely range assessed in the SR1.5, 
 assuming no major volcanic eruption. (TS.1.3, Cross-Section Box TS.1) 
 - Remaining carbon budgets: The AR5 had assessed the transient climate response to cumulative 
-emissions of CO2 to be likely in the range of 0.8°C to 2.5°C per 1000 GtC (1 GtC = 1 PgC = 3.667 
-GtCO2), and this was also used in SR1.5. The assessment in AR6, based on multiple lines of 
+emissions of CO₂ to be likely in the range of 0.8°C to 2.5°C per 1000 GtC (1 GtC = 1 PgC = 3.667 
+GtCO₂), and this was also used in SR1.5. The assessment in AR6, based on multiple lines of 
 evidence, leads to a narrower likely range of 1.0°C–2.3°C per 1000 GtC. This has been incorporated 
 in updated estimates of remaining carbon budgets (see TS.3.3.1), together with methodological 
 improvements and recent observations. (TS.1.3, TS.3.3) 
@@ -184,12 +184,12 @@ growth since 2007 to be largely driven by emissions from the fossil fuels and ag
 by livestock) sectors. (TS.2.2) 
 - Land and ocean carbon sinks: SRCCL assessed that the persistence of the land carbon sink is 
 uncertain due to climate change. WGI AR6 finds that land and ocean carbon sinks are projected to 
-continue to grow until 2100 with increasing atmospheric concentrations of CO2, but the fraction of 
-emissions taken up by land and ocean is expected to decline as the CO2 concentration increases, with 
+continue to grow until 2100 with increasing atmospheric concentrations of CO₂, but the fraction of 
+emissions taken up by land and ocean is expected to decline as the CO₂ concentration increases, with 
 a much larger uncertainty range for the land sink. AR5, SR1.5 and SRCCL assessed carbon dioxide 
 removal options and scenarios. WGI AR6 finds that the carbon cycle response is asymmetric for 
-pulse emissions or removals, which means that CO2 emissions would be more effective at raising 
-atmospheric CO2 than CO2 removals are at lowering atmospheric CO2. (TS.3.3, Box TS.5) 
+pulse emissions or removals, which means that CO₂ emissions would be more effective at raising 
+atmospheric CO₂ than CO₂ removals are at lowering atmospheric CO₂. (TS.3.3, Box TS.5) 
 - Ocean stratification increase<ref>9</ref>: Refined analyses of available observations in the AR6 lead to a 
 reassessment of the rate of increase of the global stratification in the upper 200 m to be double that 
 estimated in SROCC from 1970 to 2018. (TS.2.4) 
@@ -237,13 +237,13 @@ Section TS.2). {1.2.1, 1.3, Box 1.2, 2.2, 2.3, Figure 2.34, 5.1, 5.3, 9.2, 9.4-9
 
 Earth’s climate system has evolved over many millions of years, and evidence from natural archives 
 provides a long-term perspective on observed and projected changes over the coming centuries. These 
-reconstructions of past climate also show that atmospheric CO2 concentrations and global surface 
+reconstructions of past climate also show that atmospheric CO₂ concentrations and global surface 
 temperature are strongly coupled (Figure TS.1), based on evidence from a variety of proxy records over 
 multiple time scales (Box TS.2; TS.2). Levels of global warming (see Core Concepts Box) that have not 
 been seen in millions of years could be reached by 2300, depending on the emissions pathway that is 
 followed (TS.1.3). For example, there is medium confidence that, by 2300, an intermediate scenario<ref>11</ref> used in 
 the report leads to global surface temperatures of 2.3°C–4.6°C higher than 1850–1900, similar to the mid-
-Pliocene Warm Period (2.5°C–4°C), about 3.2 million years ago, whereas the high CO2 emissions scenario 
+Pliocene Warm Period (2.5°C–4°C), about 3.2 million years ago, whereas the high CO₂ emissions scenario 
 SSP5-8.5 leads to temperatures of 6.6°C–14.1°C by 2300, which overlaps with the Early Eocene Climate 
 Optimum (10°C–18°C), about 50 million years ago. {Cross-Chapter Box 2.1 and 2.4, 2.3.1, 4.3.1.1, 4.7.1.2, 
 7.4.4.1} 
@@ -252,11 +252,11 @@ Optimum (10°C–18°C), about 50 million years ago. {Cross-Chapter Box 2.1 and 
  
 Understanding of the climate system’s fundamental elements is robust and well established. Scientists in the 
 19th century identified the major natural factors influencing the climate system. They also hypothesized the 
-potential for anthropogenic climate change due to carbon dioxide (CO2) emitted by combustion of fossil 
+potential for anthropogenic climate change due to carbon dioxide (CO₂) emitted by combustion of fossil 
 fuels (petroleum, coal, natural gas). The principal natural drivers of climate change, including changes in 
 incoming solar radiation, volcanic activity, orbital cycles, and changes in global biogeochemical cycles, have 
 been studied systematically since the early 20th century. Other major anthropogenic drivers, such as 
-atmospheric aerosols (fine solid particles or liquid droplets), land-use change and non-CO2 greenhouse 
+atmospheric aerosols (fine solid particles or liquid droplets), land-use change and non-CO₂ greenhouse 
 gases, were identified by the 1970s. Since systematic scientific assessments began in the 1970s, the influence 
 of human activity on the warming of the climate system has evolved from theory to established fact (see also 
 TS.2). The evidence for human influence on recent climate change strengthened from the IPCC First 
@@ -398,7 +398,7 @@ observed estimates and model simulations of changes in upper (<700 m) ocean heat
 and overturning circulations of the Southern Ocean and the mean overturning circulation of the North 
 Atlantic (AMOC) are broadly reproduced by CMIP5 and CMIP6 models. {3.5.1, 3.5.4, 9.2.3, 9.3.2, 9.4.2} 
  
-CMIP6 models better simulate the sensitivity of Arctic sea ice area to anthropogenic CO2 emissions, and 
+CMIP6 models better simulate the sensitivity of Arctic sea ice area to anthropogenic CO₂ emissions, and 
 thus better capture the time evolution of the satellite-observed Arctic sea ice loss (high confidence). The 
 ability to model ice-sheet processes has improved substantially since AR5. As a consequence, we have 
 medium confidence in the representation of key processes related to surface-mass balance and retreat of the 
@@ -421,7 +421,7 @@ also TS.1.4.2.2, Table TS.4). {3.7.3-3.7.7}
  
 Earth system models simulate globally averaged land carbon sinks within the range of observation-based 
 estimates (high confidence), but global-scale agreement masks large regional disagreements. There is also 
-high confidence that the ESMs simulate the weakening of the global net flux of CO2 into the ocean during 
+high confidence that the ESMs simulate the weakening of the global net flux of CO₂ into the ocean during 
 the 1990s, as well as the strengthening of the flux from 2000. {3.6.1, 3.6.2}  
   
 Two important quantities used to estimate how the climate system responds to changes in GHG 
@@ -539,7 +539,7 @@ climate models (high confidence) (see TS.2, TS.4). {Cross-Working Group Box: Att
  
 Various frameworks can be used to assess future climatic changes and to synthesize knowledge across 
 climate change assessment in WGI, WGII and WGIII. These frameworks include: (i) scenarios, (ii) global 
-warming levels and (iii) cumulative CO2 emissions (see Core Concepts Box). The latter two offer scenario- 
+warming levels and (iii) cumulative CO₂ emissions (see Core Concepts Box). The latter two offer scenario- 
 and path-independent approaches to assess future projections. Additional choices, for instance with regard to 
 common reference periods and time windows for which changes are assessed, can further help to facilitate 
 integration across the WGI report and across the whole AR6 (see TS.1.1). {1.4.1, 1.6, Cross-Chapter Box 
@@ -551,7 +551,7 @@ integration across the WGI report and across the whole AR6 (see TS.1.1). {1.4.1,
 A core set of five scenarios based on the Shared Socioeconomic Pathways (SSPs) are used consistently 
 across this report: SSP1-1.9, SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5. These scenarios cover a broader 
 range of greenhouse gas and air pollutant futures than assessed in earlier WGI reports, and they include high-
-CO2 emissions pathways without climate change mitigation as well as new low-CO2 emissions pathways 
+CO₂ emissions pathways without climate change mitigation as well as new low-CO₂ emissions pathways 
 (Figure TS.4). In these scenarios, differences in air pollution control and variations in climate change 
 mitigation stringency strongly affect anthropogenic emission trajectories of SLCFs. Modelling studies 
 relying on the Representative Concentration Pathways (RCPs) used in the AR5 complement the assessment 
@@ -593,8 +593,8 @@ different uncertainties may vary substantially. {1.4.3, 1.6, 4.2.5, Box 4.1, 8.5
 In this report, a core set of five scenarios is used to explore climate change over the 21st century and beyond 
 (Section TS.2). They are labelled SSP1-1.9, SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5<ref>14</ref>, and span a wide 
 range of radiative forcing levels in 2100. Scenarios in AR6 cover a broader range of emissions futures than 
-considered in AR5, including high CO2 emissions scenarios without climate change mitigation as well as a 
-low CO2 emissions scenario reaching net zero CO2 emissions (see Core Concepts Box) around mid-century. 
+considered in AR5, including high CO₂ emissions scenarios without climate change mitigation as well as a 
+low CO₂ emissions scenario reaching net zero CO₂ emissions (see Core Concepts Box) around mid-century. 
 These SSP scenarios offer unprecedented detail of input data for ESM simulations and allow for a more 
 comprehensive assessment of climate drivers and responses, in particular because some aspects, such as the 
 temporal evolution of pollutants, emissions or changes in land use and land cover, span a broader range in 
@@ -609,13 +609,13 @@ Box 7.1}
 SSP1-1.9 represents the low end of future emissions pathways, leading to warming below 1.5°C in 2100 and 
 limited temperature overshoot over the course of the 21st century (see Figure TS.6). At the opposite end of 
 the range, SSP5-8.5 represents the very high warming end of future emissions pathways from the literature. 
-SSP3-7.0 has overall lower GHG emissions than SSP5-8.5 but, for example, CO2 emissions still almost 
+SSP3-7.0 has overall lower GHG emissions than SSP5-8.5 but, for example, CO₂ emissions still almost 
 double by 2100 compared to today’s levels. SSP2-4.5 and SSP1-2.6 represent scenarios with stronger 
 climate change mitigation and thus lower GHG emissions. SSP1-2.6 was designed to limit warming to below 
 2°C. Infographic TS.1 presents a narrative depiction of SSP-related climate futures. No likelihood is attached 
 to the scenarios assessed in this report, and the feasibility of specific scenarios in relation to current trends is 
 best informed by the WGIII contribution to AR6. In the scenario literature, the plausibility of some scenarios 
-with high CO2 emissions, such as RCP8.5 or SSP5-8.5, has been debated in light of recent developments in 
+with high CO₂ emissions, such as RCP8.5 or SSP5-8.5, has been debated in light of recent developments in 
 the energy sector. However, climate projections from these scenarios can still be valuable because the 
 concentration-levels reached in RCP8.5 or SSP5-8.5 and corresponding simulated climate futures cannot be 
 ruled out. That is because of uncertainty in carbon-cycle feedbacks which in nominally lower emissions 
@@ -640,7 +640,7 @@ on climate and air pollution are assessed in Box TS.7. {4.4.4, 6.6.1, Figure 6.4
 Since the RCPs are also labelled by the level of radiative forcing they reach in 2100, they can in principle be 
 related to the core set of AR6 scenarios (Figure TS.4). However, the RCPs and SSP-based scenarios are not 
 directly comparable. First, the gas-to-gas compositions differ; for example, the SSP5-8.5 scenario has higher 
-CO2 but lower methane concentrations compared to RCP8.5. Second, the projected 21st-century trajectories 
+CO₂ but lower methane concentrations compared to RCP8.5. Second, the projected 21st-century trajectories 
 may differ, even if they result in the same radiative forcing by 2100. Third, the overall effective radiative 
 forcing (see Core Concepts Box) may differ, and tends to be higher for the SSPs compared to RCPs that 
 share the same nominal stratospheric-temperature-adjusted radiative forcing label. Comparing the 
@@ -655,25 +655,25 @@ CMIP5 (medium confidence). Note that AR6 uses multiple lines of evidence beyond 
 global surface temperature under various scenarios (see Cross-Section Box TS.1 for the detailed assessment). 
 {1.6, 4.2.2, 4.6.2.2, Cross-Chapter Box 7.1} 
  
-Earth system models can be driven by anthropogenic CO2 emission (‘emissions-driven’ runs), in which case 
-atmospheric CO2 concentration is a projected variable; or by prescribed time-varying atmospheric 
+Earth system models can be driven by anthropogenic CO₂ emission (‘emissions-driven’ runs), in which case 
+atmospheric CO₂ concentration is a projected variable; or by prescribed time-varying atmospheric 
 concentrations (‘concentration-driven’ runs). In emissions-driven runs, changes in climate feed back on the 
-carbon cycle and interactively modify the projected CO2 concentration in each ESM, thus adding the 
+carbon cycle and interactively modify the projected CO₂ concentration in each ESM, thus adding the 
 uncertainty in the carbon cycle response to climate change to the projections. Concentration-driven 
 simulations are based on a central estimate of carbon cycle feedbacks, while emissions-driven simulations 
 help quantify the role of feedback uncertainty. The differences in the few ESMs for which both emission and 
 concentration-driven runs were available for the same scenario are small and do not affect the assessment of 
 global surface temperature projections discussed in Cross-Section Box TS.1 and Section TS.2 (high 
 confidence). By the end of the 21st century, emission-driven simulations are on average around 0.1°C cooler 
-than concentration-driven runs reflecting the generally lower CO2 concentrations simulated by the emission 
-driven ESMs, and a spread about 0.1°C greater reflecting the range of simulated CO2 concentrations. 
-However, these carbon cycle–climate feedbacks do affect the transient climate response to cumulative CO2 
+than concentration-driven runs reflecting the generally lower CO₂ concentrations simulated by the emission 
+driven ESMs, and a spread about 0.1°C greater reflecting the range of simulated CO₂ concentrations. 
+However, these carbon cycle–climate feedbacks do affect the transient climate response to cumulative CO₂ 
 emissions (TCRE<ref>15</ref>), and their quantification is crucial for the assessment of remaining carbon budgets 
 consistent with global warming levels simulated by ESMs (see TS.3). {1.6.1, Cross-Chapter Box 1.4, 4.2, 
 4.3.1, 5.4.5, Cross-Chapter Box 7.1} 
  
 
-### TS.1.3.2  Global Warming Levels and Cumulative CO2 Emissions 
+### TS.1.3.2  Global Warming Levels and Cumulative CO₂ Emissions 
  
 Quantifying geographical response patterns of climate change at various global warming levels (GWLs), 
 such as 1.5 or 2°C above the 1850–1900 period, is useful for characterizing changes in mean climate, 
@@ -684,7 +684,7 @@ scenarios. However, this is not the case for slowly responding processes, such a
 loss, deep ocean warming, and the related sea level rise. The response of these variables depends on the time 
 it takes to reach the GWL, differs if the warming is reached in a transient warming state or after a temporary 
 overshoot of the warming level, and will continue to evolve, over centuries to millennia, even after global 
-warming has stabilized. Different GWLs correspond closely to specific cumulative CO2 emissions due to 
+warming has stabilized. Different GWLs correspond closely to specific cumulative CO₂ emissions due to 
 their near-linear relationship with global surface temperature. This report uses 1.0°C, 1.5°C, 2.0°C, 3.0°C, 
 and 4.0°C above 1850–1900 conditions as a primary set of GWLs. {1.6.2, 4.2.4, 4.6.1, 5.5, Cross-Chapter 
 Box 11.1, Cross-chapter Box 12.1} 
@@ -748,20 +748,20 @@ Interactive Atlas}
  
 <figref>TS.5</figref>
  
-Global warming levels are closely related to cumulative CO2 (and in some cases CO2-equivalent) emissions. 
+Global warming levels are closely related to cumulative CO₂ (and in some cases CO₂-equivalent) emissions. 
 This report confirms the assessment of the WGI AR5 and SR1.5 that a near-linear relationship exists 
-between cumulative CO2 emissions and the resulting increase in global surface temperature (Section TS.3.2). 
-This implies that continued CO2 emissions will cause further warming and associated changes in all 
-components of the climate system. For declining cumulative CO2 emissions (i.e., if negative net emissions 
+between cumulative CO₂ emissions and the resulting increase in global surface temperature (Section TS.3.2). 
+This implies that continued CO₂ emissions will cause further warming and associated changes in all 
+components of the climate system. For declining cumulative CO₂ emissions (i.e., if negative net emissions 
 are achieved), the relationship is less strong for some components, such as the hydrological cycle. The WGI 
-report uses cumulative CO2 emissions to compare climate response across scenarios and provides a link to 
-the emission pathways assessment in WGIII. The advantage of using cumulative CO2 emissions is that it is 
+report uses cumulative CO₂ emissions to compare climate response across scenarios and provides a link to 
+the emission pathways assessment in WGIII. The advantage of using cumulative CO₂ emissions is that it is 
 an inherent emissions scenario characteristic rather than an outcome of the scenario-based projections, where 
 uncertainties in the cause–effect chain from emissions to temperature change are important (Figure TS.4), for 
 example, the uncertainty in effective radiative forcing (ERF) and transient climate response (TCR). 
-Cumulative CO2 emissions can also provide a link to the assessments of mitigation options. Cumulative CO2 
-emissions do not carry information about non-CO2 emissions, although these can be included with specific 
-emission metrics to estimate CO2-equivalent emissions. (TS.3.3) {1.3.2, 1.6, 4.6.2, 5.5, 7.6, 8.4.3}  
+Cumulative CO₂ emissions can also provide a link to the assessments of mitigation options. Cumulative CO₂ 
+emissions do not carry information about non-CO₂ emissions, although these can be included with specific 
+emission metrics to estimate CO₂-equivalent emissions. (TS.3.3) {1.3.2, 1.6, 4.6.2, 5.5, 7.6, 8.4.3}  
  
  
 ## TS.1.4  From Global to Regional Climate Information for Impact and Risk Assessment 
@@ -908,12 +908,12 @@ in most locations (very likely). {9.6.4, 11.2, 11,3, 11.4, 11.6, 11.7, 11.8, 11.
 Since 1750, changes in the drivers of the climate system are dominated by the warming influence of 
 increases in atmospheric GHG concentrations and a cooling influence from aerosols, both resulting from 
 human activities. In comparison there has been negligible long-term influence from solar activity and 
-volcanoes. Concentrations of CO2, CH4, and N2O have increased to levels unprecedented in at least 800,000 
-years, and there is high confidence that current CO2 concentrations have not been experienced for at least 2 
+volcanoes. Concentrations of CO₂, CH₄, and N₂O have increased to levels unprecedented in at least 800,000 
+years, and there is high confidence that current CO₂ concentrations have not been experienced for at least 2 
 million years. Global mean concentrations of anthropogenic aerosols peaked in the late 20th century and 
 have slowly declined since in northern mid-latitudes, although they continue to increase in South Asia and 
 East Africa (high confidence). The total anthropogenic effective radiative forcing (ERF) in 2019, relative to 
-1750, was 2.72 [1.96 to 3.48] W m−2 (medium confidence) and has likely been growing at an increasing rate 
+1750, was 2.72 [1.96 to 3.48] W⋅m<sup>−2</sup> (medium confidence) and has likely been growing at an increasing rate 
 since the 1970s. {2.2, 6.4, 7.2, 7.3} 
  
 Solar activity since 1900 was high but not exceptional compared to the past 9000 years (high confidence). 
@@ -921,27 +921,27 @@ The average magnitude and variability of volcanic aerosols since 1900 has not be
 least the past 2500 years (medium confidence). However, sporadic strong volcanic eruptions can lead to 
 temporary drops in global surface temperature lasting 2–5 years. {2.2.1, 2.2.2, 2.2.8, CCB4.1}  
  
-Atmospheric CO2 concentrations have changed substantially over millions of years (Figure TS.1). Current 
-levels of atmospheric CO2 have not been experienced for at least 2 million years (high confidence, Figure 
-TS.9a). Over 1750–2019, CO2 increased by 131.6 ± 2.9 ppm (47.3%). The centennial rate of change of CO2 
+Atmospheric CO₂ concentrations have changed substantially over millions of years (Figure TS.1). Current 
+levels of atmospheric CO₂ have not been experienced for at least 2 million years (high confidence, Figure 
+TS.9a). Over 1750–2019, CO₂ increased by 131.6 ± 2.9 ppm (47.3%). The centennial rate of change of CO₂ 
 since 1850 has no precedent in at least the past 800,000 years (Figure TS.9), and the fastest rates of change 
 over the last 56 million years were at least a factor of 4 lower (low confidence) than over 1900–2019. Several 
-networks of high-accuracy surface observations show that concentrations of CO2 have exceeded 400 ppm, 
-reaching 409.9 (± 0.3) ppm in 2019 (Figure TS.9c). The ERF from CO2 in 2019 (relative to 1750) was 2.16 
-Wm-2. {2.2.3, 5.1.2, 5.2.1, 7.3, Box TS.5} 
+networks of high-accuracy surface observations show that concentrations of CO₂ have exceeded 400 ppm, 
+reaching 409.9 (± 0.3) ppm in 2019 (Figure TS.9c). The ERF from CO₂ in 2019 (relative to 1750) was 2.16 
+W⋅m<sup>−2</sup>. {2.2.3, 5.1.2, 5.2.1, 7.3, Box TS.5} 
  
-By 2019, concentrations of CH4 reached 1866.3 (± 3.3) ppb (Figure TS.9c). The increase since 1750 of 1137 
+By 2019, concentrations of CH₄ reached 1866.3 (± 3.3) ppb (Figure TS.9c). The increase since 1750 of 1137 
 ± 10 ppb (157.8%) far exceeds the range over multiple glacial-interglacial transitions of the past 800,000 
-years (high confidence). In the 1990s, CH4 concentrations plateaued, but started to increase again around 
+years (high confidence). In the 1990s, CH₄ concentrations plateaued, but started to increase again around 
 2007 at an average rate of 7.6 ± 2.7 ppb yr-1 (2010–2019; high confidence). There is high confidence that this 
 recent growth is largely driven by emissions from fossil fuel exploitation, livestock, and waste, with ENSO 
-driving multi-annual variability of wetland and biomass burning emissions. In 2019, ERF from CH4 was 0.54 
-Wm-2. {2.2.3, 5.2.2, 7.3} 
+driving multi-annual variability of wetland and biomass burning emissions. In 2019, ERF from CH₄ was 0.54 
+W⋅m<sup>−2</sup>. {2.2.3, 5.2.2, 7.3} 
  
-Since 1750, N2O increased by 62.0 ± 6.0 ppb, reaching a level of 332.1 (± 0.4) ppb in 2019. The increase 
+Since 1750, N₂O increased by 62.0 ± 6.0 ppb, reaching a level of 332.1 (± 0.4) ppb in 2019. The increase 
 since 1750 is of comparable magnitude to glacial-interglacial fluctuations of the past 800,000 years (Figure 
-TS.9c). N2O concentration trends since 1980 are largely driven by a 30% increase in emissions from the 
-expansion and intensification of global agriculture (high confidence). By 2019 its ERF was 0.21 Wm-2. 
+TS.9c). N₂O concentration trends since 1980 are largely driven by a 30% increase in emissions from the 
+expansion and intensification of global agriculture (high confidence). By 2019 its ERF was 0.21 W⋅m<sup>−2</sup>. 
 {2.2.3, 5.2.3} 
  
 <figref>TS.9</figref> 
@@ -952,7 +952,7 @@ atmosphere. In response to controls on production and consumption mandated by th
 Substances that Deplete the Ozone Layer and its amendments, the atmospheric abundances of most CFCs 
 have continued to decline since AR5. Abundances of of HFCs, which are replacements for CFCs and 
 HCFCs, are increasing (high confidence), though increases of the major HCFCs have slowed in recent years. 
-The ERF from halogenated components in 2019 was 0.41 Wm-2. {2.2.4, 6.3.4, 7.3.2} 
+The ERF from halogenated components in 2019 was 0.41 W⋅m<sup>−2</sup>. {2.2.4, 6.3.4, 7.3.2} 
  
 Tropospheric aerosols mainly act to cool the climate system, directly by reflecting solar radiation, and 
 indirectly through enhancing cloud reflectance. Ice cores show increases in aerosols across the Northern 
@@ -963,7 +963,7 @@ confidence). Trends in AOD are more pronounced from sub-micrometre aerosols for 
 anthropogenic contribution is particularly large. Global carbonaceous aerosol budgets and trends remain 
 poorly characterised due to limited observations, but black carbon (BC), a warming aerosol component, is 
 declining in several regions of the Northern Hemisphere (low confidence). Total aerosol ERF in 2019, 
-relative to 1750, is −1.1 [−1.7 to −0.4] W m−2 (medium confidence), and more likely than not became less 
+relative to 1750, is −1.1 [−1.7 to −0.4] W⋅m<sup>−2</sup> (medium confidence), and more likely than not became less 
 negative since the late 20th century, with low confidence in the magnitude of post-2014 changes due to 
 conflicting evidence (TS.3.1). {2.2.6, 6.2.1, 6.3.5, 6.4.1, 7.3.3} 
  
@@ -978,7 +978,7 @@ will be primarily driven by changes in precursor emissions rather than climate c
 Stratospheric ozone has declined between 60˚S–60˚N by 2.2% from 1964–1980 to 2014–2017 (high 
 confidence), with the largest declines during 1980–1995. The strongest loss of stratospheric ozone continues 
 to occur in austral spring over Antarctica (ozone hole), with emergent signs of recovery after 2000. The 
-1750–2019 ERF for total (stratospheric and tropospheric) ozone is 0.47 [0.24 to 0.71] W m−2, which is 
+1750–2019 ERF for total (stratospheric and tropospheric) ozone is 0.47 [0.24 to 0.71] W⋅m<sup>−2</sup>, which is 
 dominated by tropospheric ozone changes. {2.2.5; 6.3.2., 7.3.2, 7.3.5} 
  
 The global mean abundance of hydroxyl (OH) radical, or ‘oxidising capacity’, chemically regulates the 
@@ -987,17 +987,17 @@ secondary aerosols and many halogenated species. Model estimates suggest no sign
 oxidising capacity from 1850 to 1980 (low confidence). Increases of about 9% over 1980–2014 computed by 
 ESMs and carbon cycle models are not confirmed by observationally constrained inverse models, rendering 
 an overall medium confidence in stable OH or positive trends since the 1980s, and implying that OH is not 
-the primary driver of recent observed growth in CH4. {6.3.6, CCB5.2} 
+the primary driver of recent observed growth in CH₄. {6.3.6, CCB5.2} 
  
 Land use and land-cover change exert biophysical and biogeochemical effects. There is medium confidence 
 that the biophysical effects of land-use change since 1750, most notably the increase in global albedo, have 
 had an overall cooling on climate, whereas biogeochemical effects (i.e., changes in GHG and volatile 
 organic compound emissions or sinks) led to net warming. Overall land use and land cover ERF is estimated 
-at -0.2 [-0.3 to -0.1] W m−2. {2.2.7, 7.3.4, SRCCL 2.5} 
+at -0.2 [-0.3 to -0.1] W⋅m<sup>−2</sup>. {2.2.7, 7.3.4, SRCCL 2.5} 
  
-The total anthropogenic ERF (Figure TS.9) in 2019 relative to 1750 was 2.72 [1.96 to 3.48] W m−2 (Figure 
+The total anthropogenic ERF (Figure TS.9) in 2019 relative to 1750 was 2.72 [1.96 to 3.48] W⋅m<sup>−2</sup> (Figure 
 TS.9), dominated by GHGs (positive ERF) and partially offset by aerosols (negative ERF). The rate of 
-change of ERF likely has increased since the 1970s, mainly due to growing CO2 concentrations and less 
+change of ERF likely has increased since the 1970s, mainly due to growing CO₂ concentrations and less 
 negative aerosol ERF. {2.2.8, 7.3} 
 
 ## TS.2.3  Upper Air Temperatures and Atmospheric Circulation 
@@ -1010,7 +1010,7 @@ mid-20th century, and human influence has likely contributed to the observed pol
 Southern Hemisphere Hadley Cell and very likely contributed to the observed poleward shift of the Southern 
 Hemisphere extratropical jet in summer. It is likely that the mid-latitude jet will shift poleward and 
 strengthen, accompanied by a strengthening of the storm track in the Southern Hemisphere by 2100 under 
-the high CO2 emissions scenarios. It is likely that the proportion of intense tropical cyclones has increased 
+the high CO₂ emissions scenarios. It is likely that the proportion of intense tropical cyclones has increased 
 over the last four decades and that this cannot be explained entirely by natural variability. There is low 
 confidence in observed recent changes in the total number of extratropical cyclones over both hemispheres. 
 The proportion of tropical cyclones which are intense is expected to increase (high confidence) but the total 
@@ -1022,7 +1022,7 @@ cooled. It is very likely that human-induced increases in GHGs were the main dri
 since 1979. It is extremely likely that anthropogenic forcing, both from increases in GHG concentration and 
 depletion of stratospheric ozone due to ozone-depleting substances, was the main driver of upper 
 stratospheric cooling since 1979. It is very likely that global mean stratospheric cooling will be larger for 
-scenarios with higher atmospheric CO2 concentrations. In the tropics, since at least 2001 (when new 
+scenarios with higher atmospheric CO₂ concentrations. In the tropics, since at least 2001 (when new 
 techniques permit more robust quantification), the upper troposphere has warmed faster than the near-surface 
 (medium confidence) (Figure TS.10). There is medium confidence that most CMIP5 and CMIP6 models 
 overestimate the observed warming in the upper tropical troposphere over the period 1979–2014, in part 
@@ -1106,7 +1106,7 @@ increase in the global energy inventory (TS.3.1). The ocean is currently warming
 time since at least the last deglacial transition (medium confidence), with warming extending to depths well 
 below 2000 m (very high confidence). It is extremely likely that human influence was the main driver of 
 ocean warming. Ocean warming will continue over the 21st century (virtually certain), and will likely 
-continue until at least to 2300 even for low CO2 emissions scenarios. Ocean warming is irreversible over 
+continue until at least to 2300 even for low CO₂ emissions scenarios. Ocean warming is irreversible over 
 centuries to millennia (medium confidence), but the magnitude of warming is scenario-dependent from about 
 the mid-21st century (medium confidence). The warming will not be globally uniform, with heat primarily 
 stored in Southern Ocean water-masses and weaker warming in the subpolar North Atlantic (high 
@@ -1156,7 +1156,7 @@ systems are projected to weaken at low latitudes and intensify at high latitudes
 confidence). {2.3.3, 9.2.3} 
  
 It is virtually certain that surface pH has declined globally over the last 40 years and that the main driver is 
-uptake of anthropogenic CO2. Ocean acidification and associated reductions in the saturation state of calcium 
+uptake of anthropogenic CO₂. Ocean acidification and associated reductions in the saturation state of calcium 
 carbonate – a constituent of skeletons or shells of a variety of marine organisms – is expected to increase in 
 the 21st century under all emissions scenarios (high confidence). There is very high confidence that present-
 day surface pH values are unprecedented for at least 26,000 years and current rates of pH change are 
@@ -1190,7 +1190,7 @@ unprecedented for at least 1000 years) and the widespread retreat of glaciers (u
 last 2,000 years, medium confidence). Furthermore, human influence very likely contributed to the observed 
 Northern Hemisphere spring snow cover decrease since 1950. By contrast, Antarctic sea ice area experienced 
 no significant net change since 1979, and there is only low confidence in its projected changes. The Arctic 
-Ocean is projected to become practically sea ice-free in late summer under high CO2 emissions scenarios by 
+Ocean is projected to become practically sea ice-free in late summer under high CO₂ emissions scenarios by 
 the end of the 21st century (high confidence). It is virtually certain that further warming will lead to further 
 reductions of Northern Hemisphere snow cover, and there is high confidence that this is also the case for 
 near-surface permafrost volume. Glaciers will continue to lose mass at least for several decades even if 
@@ -1207,7 +1207,7 @@ greenhouse gas increases, was the main driver of this loss, although new evidenc
 anthropogenic aerosol forcing has offset part of the greenhouse gas–induced losses since the 1950s (medium 
 confidence). The annual Arctic sea ice area minimum will likely fall below 1 million km2 at least once before 
 2050 under all assessed SSP scenarios. This practically sea ice-free state will become the norm for late 
-summer by the end of the 21st century in high CO2 emissions scenarios (high confidence). Arctic summer 
+summer by the end of the 21st century in high CO₂ emissions scenarios (high confidence). Arctic summer 
 sea ice varies approximately linearly with global surface temperature, implying that there is no tipping point 
 and observed/projected losses are potentially reversible (high confidence). {2.3.2, 3.4.1, 4.3.2, 9.3.1, 12.4.9} 
  
@@ -1275,8 +1275,8 @@ observational coverage (high confidence) and will extremely likely increase over
 additional global warming. Over the past half century, key aspects of the biosphere have changed in ways 
 that are consistent with large-scale warming: climate zones have shifted poleward, and the growing season 
 length in the Northern Hemisphere extratropics has increased (high confidence). The amplitude of the 
-seasonal cycle of atmospheric CO2 poleward of 45°N has increased since the 1960s (very high confidence), 
-with increasing productivity of the land biosphere due to the increasing atmospheric CO2 concentration as 
+seasonal cycle of atmospheric CO₂ poleward of 45°N has increased since the 1960s (very high confidence), 
+with increasing productivity of the land biosphere due to the increasing atmospheric CO₂ concentration as 
 the main driver (medium confidence). Global-scale vegetation greenness has increased since the 1980s (high 
 confidence). {2.3, 3.6, 4.3, 4.5, 5.2, 11.3, 11.4, 11.9, 12.4} 
  
@@ -1303,7 +1303,7 @@ precipitation and runoff, and their variability, increases with global warming (
 of the land area has experienced decreases in available water during dry seasons due to the overall increase 
 in evapotranspiration (medium confidence). The land area affected by increasing drought frequency and 
 severity will expand with increasing global warming (high confidence; Figure TS.12c). There is low 
-confidence that the increase of plant water-use efficiency due to higher atmospheric CO2 concentration 
+confidence that the increase of plant water-use efficiency due to higher atmospheric CO₂ concentration 
 alleviates extreme agricultural and ecological droughts in conditions characterized by limited soil moisture 
 and increased atmospheric evaporative demand. {2.3.1, CCB 5.1, 8.2.3, 8.4.1, Box 11.1, 11.2.4, 11.4, 11.6} 
  
@@ -1331,16 +1331,16 @@ with tropical cyclones (high confidence). {11.8.1, 11.8.2, 11.8.3}
  
 Changes in key aspects of the terrestrial biosphere, such as an increase of the growing season length in much 
 of the Northern Hemisphere extratropics since the mid-20th century (high confidence), are consistent with 
-large-scale warming. At the same time an increase in the amplitude of the seasonal cycle of atmospheric CO2 
+large-scale warming. At the same time an increase in the amplitude of the seasonal cycle of atmospheric CO₂ 
 beyond 45°N since the early 1960s (high confidence) and a global-scale increase in vegetation greenness of 
 the terrestrial surface since the early 1980s (high confidence) have been observed. Increasing atmospheric 
-CO2, warming at high latitudes and land management interventions have contributed to the observed 
+CO₂, warming at high latitudes and land management interventions have contributed to the observed 
 greening trend, but there is low confidence in their relative roles. There is medium confidence that increased 
-plant growth associated with CO2 fertilization is the main driver of the observed increase in amplitude of the 
-seasonal cycle of atmospheric CO2 in the Northern hemisphere. Reactive nitrogen, ozone and aerosols affect 
+plant growth associated with CO₂ fertilization is the main driver of the observed increase in amplitude of the 
+seasonal cycle of atmospheric CO₂ in the Northern hemisphere. Reactive nitrogen, ozone and aerosols affect 
 terrestrial vegetation and carbon cycle through deposition and effects on large-scale radiation (high 
 confidence), but the magnitude of these effects on the land carbon sink, ecosystem productivity and indirect 
-CO2 forcing remains uncertain. {2.3.4, 3.6.1, 5.2.1, 6.4.5, 12.3.7, 12.4}  
+CO₂ forcing remains uncertain. {2.3.4, 3.6.1, 5.2.1, 6.4.5, 12.3.7, 12.4}  
  
 Over the last century, there has been a poleward and upslope shift in the distribution of many land species 
 (very high confidence) as well as increases in species turnover within many ecosystems (high confidence). 
@@ -1384,7 +1384,7 @@ Joules) for the period 1971–2018 and 153 [100 to 206] ZJ for the period 2006�
 more than 90% accounted for by ocean warming. To put these numbers in context, the 2006–2018 average 
 Earth system heating is equivalent to approximately 20 times the rate of global energy consumption in 2018.  
 The accumulation of energy is driven by a positive total anthropogenic effective radiative forcing (ERF) 
-relative to 1750. The best estimate ERF of 2.72 W m−2 has increased by 0.43 Wm-2 relative to that given in 
+relative to 1750. The best estimate ERF of 2.72 W⋅m<sup>−2</sup> has increased by 0.43 W⋅m<sup>−2</sup> relative to that given in 
 AR5 (for 1750–2014) due to an increase in the greenhouse gas ERF that is partly compensated by a more 
 negative aerosol ERF compared to AR5. The greenhouse gas ERF has been revised due to changes in 
 atmospheric concentrations and updates to forcing efficiencies, while the revision to aerosol ERF is due to 
@@ -1398,7 +1398,7 @@ Table 7.1, 7.3.5, 7.5.2, FAQ7.1}
 <figref>TS.13</figref>
 
 The global energy inventory change for the period 1971–2018 corresponds to an Earth energy imbalance 
-(Box TS.1) of 0.57 [0.43 to 0.72] W m-2, increasing to 0.79 [0.52 to 1.06] W m-2 for the period 2006–2018. 
+(Box TS.1) of 0.57 [0.43 to 0.72] W⋅m<sup>−2</sup>, increasing to 0.79 [0.52 to 1.06] W⋅m<sup>−2</sup> for the period 2006–2018. 
 Ocean heat uptake is by far the largest contribution and accounts for 91% of the total energy change. Land 
 warming, melting of ice and warming of the atmosphere account for about 5%, 3% and 1% of the total 
 change, respectively. More comprehensive analysis of inventory components, cross-validation of satellite 
@@ -1423,15 +1423,15 @@ an independent observation-based assessment of the global energy increase of 284
 likely range) expressed relative to the estimated 1850–1900 Earth energy imbalance. (high confidence) 
 {7.2.2, Box 7.2, 7.3.5} 
  
-The assessed greenhouse gas ERF over the 1750–2019 period (TS.2.2) has increased by 0.59 W m−2 over 
-AR5 estimates for 1750–2011. This increase includes +0.34 W m-2 from increases in atmospheric 
-concentrations of well-mixed greenhouse gases (including halogenated species) since 2011, +0.15 W m-2 
-from upwards revisions of their radiative efficiencies and +0.10 W m-2 from re-evaluation of the ozone and 
+The assessed greenhouse gas ERF over the 1750–2019 period (TS.2.2) has increased by 0.59 W⋅m<sup>−2</sup> over 
+AR5 estimates for 1750–2011. This increase includes +0.34 W⋅m<sup>−2</sup> from increases in atmospheric 
+concentrations of well-mixed greenhouse gases (including halogenated species) since 2011, +0.15 W⋅m<sup>−2</sup> 
+from upwards revisions of their radiative efficiencies and +0.10 W⋅m<sup>−2</sup> from re-evaluation of the ozone and 
 stratospheric water vapour ERF. {7.3.2, 7.3.4, 7.3.5}  
  
-For CO2, CH4, N2O, and chlorofluorocarbons, there is now evidence to quantify the effect on ERF of 
-tropospheric adjustments. The assessed ERF for a doubling of CO2 compared to 1750 levels (3.9 ± 0.5 
-Wm‑2) is larger than in AR5. For CO2, the adjustments include the physiological effects on vegetation. The 
+For CO₂, CH₄, N₂O, and chlorofluorocarbons, there is now evidence to quantify the effect on ERF of 
+tropospheric adjustments. The assessed ERF for a doubling of CO₂ compared to 1750 levels (3.9 ± 0.5 
+Wm‑2) is larger than in AR5. For CO₂, the adjustments include the physiological effects on vegetation. The 
 reactive well-mixed greenhouse gases (methane, nitrous oxide, and halocarbons) cause additional chemical 
 adjustments to the atmosphere through changes in ozone and aerosols (Figure TS.15a). The ERF due to 
 methane emissions is 1.21 [0.90 to 1.51] W m–2, of which 0.33 [0.25 to 0.41] W m–2 is attributed to chemical 
@@ -1442,7 +1442,7 @@ surface temperature changes broadly match their contributions to the ERF (high c
 TS.15b). Since a peak in emissions-induced SO2 ERF has already occurred recently (TS.2.2) and since there 
 is a delay in the full global surface temperature response owing to the thermal inertia in the climate system, 
 changes in SO2 emissions have a slightly larger contribution to global surface temperature change compared 
-with changes in CO2 emissions, relative to their respective contributions to ERF. {6.4.2, 7.3.2} 
+with changes in CO₂ emissions, relative to their respective contributions to ERF. {6.4.2, 7.3.2} 
  
 Aerosols contributed an ERF of –1.3 [–2.0 to –0.6] W m–2 over the period 1750 to 2014 (medium 
 confidence). The ERF due to aerosol–cloud interactions (ERFaci) contributes most to the magnitude of the 
@@ -1516,23 +1516,23 @@ based on currently available evidence (Cross-Section Box TS.1). {4.3.1, 4.3.4, 7
  
 Uncertainties regarding the true value of ECS and TCR are the dominant source of uncertainty in global 
 temperature projections over the 21st century under moderate to high GHG concentrations scenarios. For 
-scenarios that reach net zero CO2 emissions (TS.3.3), the uncertainty in the ERF values of aerosol and other 
+scenarios that reach net zero CO₂ emissions (TS.3.3), the uncertainty in the ERF values of aerosol and other 
 SLCFs contribute substantial uncertainty in projected temperature. Global ocean heat uptake is a smaller 
 source of uncertainty in centennial warming. {7.5.7} 
  
 <figref>TS.16</figref>
  
-The transient climate response to cumulative CO2 emissions (TCRE) is the ratio between globally averaged 
-surface temperature increase and cumulative CO2 emissions (see Glossary). This report reaffirms with high 
-confidence the finding of AR5 that there is a near-linear relationship between cumulative CO2 emissions and 
-the increase in global average temperature caused by CO2 over the course of this century for global warming 
+The transient climate response to cumulative CO₂ emissions (TCRE) is the ratio between globally averaged 
+surface temperature increase and cumulative CO₂ emissions (see Glossary). This report reaffirms with high 
+confidence the finding of AR5 that there is a near-linear relationship between cumulative CO₂ emissions and 
+the increase in global average temperature caused by CO₂ over the course of this century for global warming 
 levels up to at least 2°C relative to 1850–1900. The TCRE falls likely in the 1.0°C–2.3°C per 1000 PgC 
 range, with a best estimate of 1.65°C per 1000 PgC. This range is about 15% narrower than the 0.8°–2.5°C 
 per 1000 PgC assessment of the AR5 because of a better integration of evidence across chapters, in particular 
 the assessment of TCR. Beyond this century, there is low confidence that the TCRE alone remains an 
-accurate predictor of temperature changes in scenarios of very low or net negative CO2 emissions because of 
+accurate predictor of temperature changes in scenarios of very low or net negative CO₂ emissions because of 
 uncertain Earth system feedbacks that can result in further changes in temperature or a path dependency of 
-warming as a function of cumulative CO2 emissions. {5.4, 5.5.1, 4.6.2} 
+warming as a function of cumulative CO₂ emissions. {5.4, 5.5.1, 4.6.2} 
  
  
 ### TS.3.2.2  Earth System Feedbacks 
@@ -1542,7 +1542,7 @@ certain). While major advances in the understanding of cloud processes have incr
 confidence and decreased the uncertainty range for the cloud feedback by about 50% compared to AR5, 
 clouds remain the largest contribution to overall uncertainty in climate feedbacks (high confidence). 
 Uncertainties in the ECS and other climate sensitivity metrics, such as the transient climate response (TCR) 
-and the transient climate response to cumulative CO2 emissions (TCRE), are the dominant source of 
+and the transient climate response to cumulative CO₂ emissions (TCRE), are the dominant source of 
 uncertainty in global temperature projections over the 21st century under moderate to high GHG emissions 
 scenarios. CMIP6 models have higher mean values and wider spreads in ECS and TCR than the assessed 
 best estimates and very likely ranges within this Report, leading the models to project a range of future 
@@ -1553,14 +1553,14 @@ Earth system feedbacks can be categorised into three broad groups: physical feed
 biogeochemical feedbacks, and feedbacks associated with ice sheets. In previous assessments, the ECS has 
 been associated with a distinct set of physical feedbacks (Planck response, water vapour, lapse rate, surface 
 albedo, and cloud feedbacks). In this assessment, a more general definition of ECS is adopted whereby all 
-biogeophysical and biogeochemical feedbacks that do not affect the atmospheric concentration of CO2 are 
+biogeophysical and biogeochemical feedbacks that do not affect the atmospheric concentration of CO₂ are 
 included. These include changes in natural methane emissions, natural aerosol emissions, nitrous oxide, 
 ozone, and vegetation, which all act on time scales of years to decades and are therefore relevant for 
-temperature change over the 21st century. Because the total biogeophysical and non-CO2 biogeochemical 
+temperature change over the 21st century. Because the total biogeophysical and non-CO₂ biogeochemical 
 feedback is assessed to have a central value that is near zero (low confidence), including it does not affect 
 the assessed ECS but does contribute to the net feedback uncertainty. The biogeochemical feedbacks that 
-affect the atmospheric concentration of CO2 are not included because ECS is defined as the response to a 
-sustained doubling of CO2. Moreover, the long-term feedbacks associated with ice sheets are not included in 
+affect the atmospheric concentration of CO₂ are not included because ECS is defined as the response to a 
+sustained doubling of CO₂. Moreover, the long-term feedbacks associated with ice sheets are not included in 
 the ECS owing to their long time scales of adjustment. {5.4, 6.4, 7.4, 7.5, Box 7.1} 
  
 The net effect of changes in clouds in response to global warming is to amplify human-induced warming, 
@@ -1577,23 +1577,23 @@ feedback and combined water vapour-lapse rate feedback are positive (Figure TS.1
 in the estimated value of each based on multiple lines of evidence, including observations, models, and 
 theory. {7.4.2, Figure 7.14, Table 7.10, Box TS.6} 
  
-Natural sources and sinks of non-CO2 greenhouse gases such as methane (CH4) and nitrous oxide (N2O) 
-respond both directly and indirectly to atmospheric CO2 concentration and climate change, and thereby give 
+Natural sources and sinks of non-CO₂ greenhouse gases such as methane (CH₄) and nitrous oxide (N₂O) 
+respond both directly and indirectly to atmospheric CO₂ concentration and climate change, and thereby give 
 rise to additional biogeochemical feedbacks in the climate system. Many of these feedbacks are only 
 partially understood and are not yet fully included in ESMs. There is medium confidence that the net 
-response of natural ocean and land CH4 and N2O sources to future warming will be increased emissions, but 
+response of natural ocean and land CH₄ and N₂O sources to future warming will be increased emissions, but 
 the magnitude and timing of the responses of each individual process is known with low confidence. {5.4.7} 
  
-Non-CO2 biogeochemical feedbacks induced from changes in emissions, abundances or lifetimes of SLCFs 
+Non-CO₂ biogeochemical feedbacks induced from changes in emissions, abundances or lifetimes of SLCFs 
 mediated by natural processes or atmospheric chemistry are assessed to decrease ECS (Figure TS.17b). 
-These non-CO2 biogeochemical feedbacks are estimated from ESMs, which since AR5 have advanced to 
+These non-CO₂ biogeochemical feedbacks are estimated from ESMs, which since AR5 have advanced to 
 include a consistent representation of biogeochemical cycles and atmospheric chemistry. However, process-
 level understanding of many biogeochemical feedbacks involving SLCFs, particularly natural emissions, is 
 still emerging, resulting in low confidence in the magnitude and sign of the feedbacks. The central estimate 
-of the total biogeophysical and non-CO2 biogeochemical feedback is assessed to be −0.01 [–0.27 to +0.25] 
+of the total biogeophysical and non-CO₂ biogeochemical feedback is assessed to be −0.01 [–0.27 to +0.25] 
 W m–2 °C–1 (Figure TS.17a). {5.4.7, 5.4.8, 6.2.2, 6.4.5, 7.4, Table 7.10} 
  
-The combined effect of all known radiative feedbacks (physical, biogeophysical, and non-CO2 
+The combined effect of all known radiative feedbacks (physical, biogeophysical, and non-CO₂ 
 biogeochemical) is to amplify the base climate response (in the absence of feedbacks), also known as the 
 Planck temperature response<ref>17</ref> (virtually certain). Combining these feedbacks with the Planck response, the 
 net climate feedback parameter is assessed to be –1.16 [–1.81 to –0.51] W m–2 °C–1, which is slightly less 
@@ -1606,24 +1606,24 @@ likely positive, promoting additional warming on millennial timescales as ice sh
 with the forcing. (high confidence) {7.4.2, 7.4.3, Figure 7.14, Table 7.10} 
  
 The carbon cycle provides for additional feedbacks on climate owing to the sensitivity of land–atmosphere 
-and ocean–atmosphere carbon fluxes and storage to changes in climate and in atmospheric CO2 (Figure 
+and ocean–atmosphere carbon fluxes and storage to changes in climate and in atmospheric CO₂ (Figure 
 TS.17c). Because of the time scales associated with land and ocean carbon uptake, these feedbacks are 
 known to be scenario dependent. Feedback estimates deviate from linearity in scenarios of stabilizing or 
-reducing concentrations. With high confidence, increased atmospheric CO2 will lead to increased land and 
+reducing concentrations. With high confidence, increased atmospheric CO₂ will lead to increased land and 
 ocean carbon uptake, acting as a negative feedback on climate change. It is likely that a warmer climate will 
 lead to reduced land and ocean carbon uptake, acting as a positive feedback. {4.3.2, 5.4.1-5, Box TS.4} 
  
 Thawing terrestrial permafrost will lead to carbon release (high confidence), but there is low confidence in 
-the timing, magnitude and the relative roles of CO2 versus CH4 as feedback processes. An ensemble of 
-models projects CO2 release from permafrost to be 3–41 PgC per 1ºC of global warming by 2100, leading to 
+the timing, magnitude and the relative roles of CO₂ versus CH₄ as feedback processes. An ensemble of 
+models projects CO₂ release from permafrost to be 3–41 PgC per 1ºC of global warming by 2100, leading to 
 warming strong enough that it must be included in estimates of the remaining carbon budget but weaker than 
 the warming from fossil fuel burning. However, the incomplete representation of important processes, such 
 as abrupt thaw, combined with weak observational constraints, only allow low confidence in both the 
 magnitude of these estimates and in how linearly proportional this feedback is to the amount of global 
-warming. There is emerging evidence that permafrost thaw and thermokarst give rise to increased CH4 and 
-N2O emissions, which leads to the combined radiative forcing from permafrost thaw being larger than from 
-CO2 emissions only. However, the quantitative understanding of these additional feedbacks is low, 
-particularly for N2O. These feedbacks, as well as potential additional carbon losses due to climate-induced 
+warming. There is emerging evidence that permafrost thaw and thermokarst give rise to increased CH₄ and 
+N₂O emissions, which leads to the combined radiative forcing from permafrost thaw being larger than from 
+CO₂ emissions only. However, the quantitative understanding of these additional feedbacks is low, 
+particularly for N₂O. These feedbacks, as well as potential additional carbon losses due to climate-induced 
 fire feedback are not routinely included in Earth System models. {Box 5.1, 5.4.3, 5.4.7, 5.4.8, Box TS.9} 
  
 <figref>TS.17</figref> 
@@ -1632,62 +1632,62 @@ fire feedback are not routinely included in Earth System models. {Box 5.1, 5.4.3
  
 ### TS.3.3.1   Remaining Carbon Budgets and Temperature Stabilization 
  
-The near-linear relationship between cumulative CO2 emissions and maximum global surface temperature 
-increase caused by CO2 implies that stabilizing human-induced global temperature increase at any level 
-requires net anthropogenic CO2 emissions to become zero. This near-linear relationship further implies that 
+The near-linear relationship between cumulative CO₂ emissions and maximum global surface temperature 
+increase caused by CO₂ implies that stabilizing human-induced global temperature increase at any level 
+requires net anthropogenic CO₂ emissions to become zero. This near-linear relationship further implies that 
 mitigation requirements for limiting warming to specific levels can be quantified in terms of a carbon budget 
 (high confidence). Remaining carbon budget estimates have been updated since the AR5 with 
 methodological improvements, resulting in larger estimates that are consistent with SR1.5. Several factors, 
 including estimates of historical warming, future emissions from thawing permafrost, variations in projected 
-non-CO2 warming, and the global surface temperature change after cessation of CO2 emissions, affect the 
+non-CO₂ warming, and the global surface temperature change after cessation of CO₂ emissions, affect the 
 exact value of carbon budgets (high confidence). {1.3.5, Box 1.2, 4.7.1, 5.5} 
 
  
 Limiting further climate change would require substantial and sustained reductions of GHG emissions. 
-Without net zero CO2 emissions, and a decrease in the net non-CO2 forcing (or sufficient net negative CO2 
-emissions to offset any further warming from net non-CO2 forcing), the climate system will continue to 
+Without net zero CO₂ emissions, and a decrease in the net non-CO₂ forcing (or sufficient net negative CO₂ 
+emissions to offset any further warming from net non-CO₂ forcing), the climate system will continue to 
 warm. There is high confidence that mitigation requirements for limiting warming to specific levels over this 
-century can be estimated using a carbon budget that relates cumulative CO2 emissions to global mean 
-temperature increase (Figure TS.18, Table TS.3). For the period 1850–2019, a total of 2390 ± 240 GtCO2 of 
-anthropogenic CO2 has been emitted. Remaining carbon budgets (starting from 1 January 2020) for limiting 
-warming to 1.5°C, 1.7°C, and 2.0°C are estimated at 500 GtCO2, 850 GtCO2 and 1350 GtCO2, respectively, 
-based on the 50th percentile of TCRE. For the 67th percentile, the respective values are 400 GtCO2, 700 
-GtCO2 and 1150 GtCO2. The remaining carbon budget estimates for different temperature limits assume that 
-non-CO2 emissions are mitigated consistent with the median reductions found in scenarios in the literature as 
-assessed in SR1.5, but they may vary by an estimated ±220 GtCO2 depending on how deeply future non-CO2 
+century can be estimated using a carbon budget that relates cumulative CO₂ emissions to global mean 
+temperature increase (Figure TS.18, Table TS.3). For the period 1850–2019, a total of 2390 ± 240 GtCO₂ of 
+anthropogenic CO₂ has been emitted. Remaining carbon budgets (starting from 1 January 2020) for limiting 
+warming to 1.5°C, 1.7°C, and 2.0°C are estimated at 500 GtCO₂, 850 GtCO₂ and 1350 GtCO₂, respectively, 
+based on the 50th percentile of TCRE. For the 67th percentile, the respective values are 400 GtCO₂, 700 
+GtCO₂ and 1150 GtCO₂. The remaining carbon budget estimates for different temperature limits assume that 
+non-CO₂ emissions are mitigated consistent with the median reductions found in scenarios in the literature as 
+assessed in SR1.5, but they may vary by an estimated ±220 GtCO₂ depending on how deeply future non-CO₂ 
 emissions are assumed to be reduced (Table TS.3). {5.5.2, 5.6, Box 5.2, 7.6} 
  
 <figref>TS.18</figref>
 <tableref>TS.3</tableref>
 
 There is high confidence that several factors, including estimates of historical warming, future emissions 
-from thawing permafrost, and variations in projected non-CO2 warming, affect the value of carbon budgets 
-but do not change the conclusion that global CO2 emissions would need to decline to net zero to halt global 
-warming. Estimates may vary by ±220 GtCO2 depending on the level of non-CO2 emissions at the time 
-global anthropogenic CO2 emissions reach net zero levels. This variation is referred to as non-CO2 scenario 
+from thawing permafrost, and variations in projected non-CO₂ warming, affect the value of carbon budgets 
+but do not change the conclusion that global CO₂ emissions would need to decline to net zero to halt global 
+warming. Estimates may vary by ±220 GtCO₂ depending on the level of non-CO₂ emissions at the time 
+global anthropogenic CO₂ emissions reach net zero levels. This variation is referred to as non-CO₂ scenario 
 uncertainty and will be further assessed in the AR6 Working Group III Contribution. Geophysical 
-uncertainties surrounding the climate response to these non-CO2 emissions result in an additional uncertainty 
-of at least ±220 GtCO2, and uncertainties in the level of historical warming result in a ±550 GtCO2 
+uncertainties surrounding the climate response to these non-CO₂ emissions result in an additional uncertainty 
+of at least ±220 GtCO₂, and uncertainties in the level of historical warming result in a ±550 GtCO₂ 
 uncertainty. {5.4, 5.5.2}  
  
 Methodological improvements and new evidence result in updated remaining carbon budget estimates. The 
 assessment in AR6 applies the same methodological improvements as in SR1.5, which uses a recent 
 observed baseline for historic temperature change and cumulative emissions. Changes compared to SR1.5 
 are therefore small: the assessment of new evidence results in updated median remaining carbon budget 
-estimates for limiting warming to 1.5°C and 2°C being the same and about 60 GtCO2 smaller, respectively, 
+estimates for limiting warming to 1.5°C and 2°C being the same and about 60 GtCO₂ smaller, respectively, 
 after accounting for emissions since SR1.5. Meanwhile, remaining carbon budgets for limiting warming to 
-1.5°C would be about 300–350 GtCO2 larger if evidence and methods available at the time of the AR5 
+1.5°C would be about 300–350 GtCO₂ larger if evidence and methods available at the time of the AR5 
 would be used. If a specific remaining carbon budget is exceeded, this results in a lower probability of 
 keeping warming below a specified temperature level and higher irreversible global warming over decades to 
-centuries, or alternatively a need for net negative CO2 emissions or further reductions in non-CO2 
-greenhouse gases after net zero CO2 is achieved to return warming to lower levels in the long term. {5.5.2, 
+centuries, or alternatively a need for net negative CO₂ emissions or further reductions in non-CO₂ 
+greenhouse gases after net zero CO₂ is achieved to return warming to lower levels in the long term. {5.5.2, 
 5.6, Box 5.2} 
  
-Based on idealized model simulations that explore the climate response once CO2 emissions have been 
-brought to zero, the magnitude of the zero CO2 emissions commitment (ZEC, see Glossary) is assessed to be 
-likely smaller than 0.3°C for time scales of about half a century and cumulative CO2 emissions broadly 
+Based on idealized model simulations that explore the climate response once CO₂ emissions have been 
+brought to zero, the magnitude of the zero CO₂ emissions commitment (ZEC, see Glossary) is assessed to be 
+likely smaller than 0.3°C for time scales of about half a century and cumulative CO₂ emissions broadly 
 consistent with global warming of 2°C. However, there is low confidence about its sign on time scales of 
-about half a century. For lower cumulative CO2 emissions, the range would be smaller yet with equal 
+about half a century. For lower cumulative CO₂ emissions, the range would be smaller yet with equal 
 uncertainty about the sign. If the ZEC is positive on decadal time scales, additional warming leads to a 
 reduction in the estimates of remaining carbon budgets, and vice versa if it is negative. {4.7.1, 5.5.2} 
  
@@ -1697,67 +1697,67 @@ the magnitude of these estimates (TS.3.2.2). Despite the large uncertainties sur
 the effect of additional Earth system feedback processes, such as emissions from wetlands and permafrost 
 thaw, these feedbacks represent identified additional risk factors that scale with additional warming and 
 mostly increase the challenge of limiting warming to specific temperature levels. These uncertainties do not 
-change the basic conclusion that global CO2 emissions would need to decline to net zero to halt global 
+change the basic conclusion that global CO₂ emissions would need to decline to net zero to halt global 
 warming. {Box 5.1, 5.4.8, 5.5.2} 
 
 ### TS.3.3.2   Carbon Dioxide Removal 
 
 Deliberate carbon dioxide removal (CDR) from the atmosphere has the potential to compensate for residual 
-CO2 emissions to reach net zero CO2 emissions or to generate net negative CO2 emissions. In the same way 
-that part of current anthropogenic net CO2 emissions are taken up by land and ocean carbon stores, net CO2 
-removal will be partially counteracted by CO2 release from these stores (very high confidence). Asymmetry 
-in the carbon cycle response to simultaneous CO2 emissions and removals implies that a larger amount of 
-CO2 would need to be removed to compensate for an emission of a given magnitude to attain the same 
-change in atmospheric CO2 (medium confidence). CDR methods have wide-ranging side-effects that can 
+CO₂ emissions to reach net zero CO₂ emissions or to generate net negative CO₂ emissions. In the same way 
+that part of current anthropogenic net CO₂ emissions are taken up by land and ocean carbon stores, net CO₂ 
+removal will be partially counteracted by CO₂ release from these stores (very high confidence). Asymmetry 
+in the carbon cycle response to simultaneous CO₂ emissions and removals implies that a larger amount of 
+CO₂ would need to be removed to compensate for an emission of a given magnitude to attain the same 
+change in atmospheric CO₂ (medium confidence). CDR methods have wide-ranging side-effects that can 
 either weaken or strengthen the carbon sequestration and cooling potential of these methods and affect the 
 achievement of sustainable development goals (high confidence). {4.6.3, 5.6} 
 
-Carbon dioxide removal (CDR) refers to anthropogenic activities that deliberately remove CO2 from the 
+Carbon dioxide removal (CDR) refers to anthropogenic activities that deliberately remove CO₂ from the 
 atmosphere and durably store it in geological, terrestrial or ocean reservoirs, or in products. Carbon dioxide 
 is removed from the atmosphere by enhancing biological or geochemical carbon sinks or by direct capture of 
-CO2 from air. Emission pathways that limit global warming to 1.5°C or 2°C typically assume the use of 
+CO₂ from air. Emission pathways that limit global warming to 1.5°C or 2°C typically assume the use of 
 CDR approaches in combination with GHG emissions reductions. CDR approaches could be used to 
 compensate for residual emissions from sectors that are difficult or costly to decarbonize. CDR could also be 
-implemented at a large scale to generate global net negative CO2 emissions (i.e., anthropogenic CO2 
+implemented at a large scale to generate global net negative CO₂ emissions (i.e., anthropogenic CO₂ 
 removals exceeding anthropogenic emissions), which could compensate for earlier emissions as a way to 
 meet long-term climate stabilization goals after a temperature overshoot. This Report assesses the effects of 
 CDR on the carbon cycle and climate. Co-benefits and trade-offs for biodiversity, water and food production 
 are briefly discussed for completeness, but a comprehensive assessment of the ecological and socio-
 economic dimensions of CDR options is left to the WGII and WGIII reports. {4.6.3, 5.6} 
  
-CDR methods have the potential to sequester CO2 from the atmosphere (high confidence). In the same way 
-part of current anthropogenic net CO2 emissions are taken up by land and ocean carbon stores, net CO2 
-removal will be partially counteracted by CO2 release from these stores, such that the amount of CO2 
-sequestered by CDR will not result in an equivalent drop in atmospheric CO2 (very high confidence). The 
-fraction of CO2 removed from the atmosphere that is not replaced by CO2 released from carbon stores, a 
+CDR methods have the potential to sequester CO₂ from the atmosphere (high confidence). In the same way 
+part of current anthropogenic net CO₂ emissions are taken up by land and ocean carbon stores, net CO₂ 
+removal will be partially counteracted by CO₂ release from these stores, such that the amount of CO₂ 
+sequestered by CDR will not result in an equivalent drop in atmospheric CO₂ (very high confidence). The 
+fraction of CO₂ removed from the atmosphere that is not replaced by CO₂ released from carbon stores, a 
 measure of CDR effectiveness, decreases slightly with increasing amounts of removal (medium confidence) 
-and decreases strongly if CDR is applied at lower atmospheric CO2 concentrations (medium confidence). The 
-reduction in global surface temperature is approximately linearly related to cumulative CO2 removal (high 
-confidence). Because of this near-linear relationship, the amount of cooling per unit CO2 removed is 
+and decreases strongly if CDR is applied at lower atmospheric CO₂ concentrations (medium confidence). The 
+reduction in global surface temperature is approximately linearly related to cumulative CO₂ removal (high 
+confidence). Because of this near-linear relationship, the amount of cooling per unit CO₂ removed is 
 approximately independent of the rate and amount of removal (medium confidence). {4.6.3, 5.6.2.1, Figure 
 5.32, Figure 5.34} 
  
-Due to non-linearities in the climate system, the century-scale climate–carbon cycle response to a CO2 
-removal from the atmosphere is not always equal and opposite to its response to a simultaneous CO2 
-emission (medium confidence). For CO2 emissions of 100 PgC released from a pre-industrial from a state in 
-equilibrium with pre-industrial atmospheric CO2 levels, CMIP6 models simulate that 27± 6% (mean ± 1 
+Due to non-linearities in the climate system, the century-scale climate–carbon cycle response to a CO₂ 
+removal from the atmosphere is not always equal and opposite to its response to a simultaneous CO₂ 
+emission (medium confidence). For CO₂ emissions of 100 PgC released from a pre-industrial from a state in 
+equilibrium with pre-industrial atmospheric CO₂ levels, CMIP6 models simulate that 27± 6% (mean ± 1 
 standard deviation) of emissions remain in the atmosphere 80–100 years after the emissions, whereas for 
 removals of 100 PgC only 23 ± 6% of removals remain out of the atmosphere. This asymmetry implies that 
 an extra amount of CDR is required to compensate for a positive emission of a given magnitude to attain the 
-same change in atmospheric CO2. Due to limited agreement between models, there is low confidence in the 
-sign of the asymmetry of the temperature response to CO2 emissions and removals. {4.6.3, 5.6.2.1, Figure 
+same change in atmospheric CO₂. Due to limited agreement between models, there is low confidence in the 
+sign of the asymmetry of the temperature response to CO₂ emissions and removals. {4.6.3, 5.6.2.1, Figure 
 5.35} 
  
-Simulations with ESMs indicate that under scenarios where CO2 emissions gradually decline, reach net zero 
+Simulations with ESMs indicate that under scenarios where CO₂ emissions gradually decline, reach net zero 
 and become net negative during the 21st century (e.g., SSP1–2.6), land and ocean carbon sinks begin to 
-weaken in response to declining atmospheric CO2 concentrations, and the land sink eventually turns into a 
-source (Figure TS.19). This sink-to-source transition occurs decades to a few centuries after CO2 emissions 
-become net negative. The ocean remains a sink of CO2 for centuries after emissions become net negative. 
-Under scenarios with large net negative CO2 emissions (e.g., SSP5–3.4–OS) and rapidly declining CO2 
+weaken in response to declining atmospheric CO₂ concentrations, and the land sink eventually turns into a 
+source (Figure TS.19). This sink-to-source transition occurs decades to a few centuries after CO₂ emissions 
+become net negative. The ocean remains a sink of CO₂ for centuries after emissions become net negative. 
+Under scenarios with large net negative CO₂ emissions (e.g., SSP5–3.4–OS) and rapidly declining CO₂ 
 concentrations, the land source is larger than for SSP1–2.6 and the ocean also switches to a source. While the 
 general response is robust across models, there is low confidence in the timing of the sink-to-source 
-transition and the magnitude of the CO2 source in scenarios with net negative CO2 emissions. Carbon dioxide 
-removal could reverse some aspects climate change if CO2 emissions become net negative, but some changes 
+transition and the magnitude of the CO₂ source in scenarios with net negative CO₂ emissions. Carbon dioxide 
+removal could reverse some aspects climate change if CO₂ emissions become net negative, but some changes 
 would continue in their current direction for decades to millennia. For instance, sea level rise due to ocean 
 thermal expansion would not reverse for several centuries to millennia (high confidence) (Box TS.4). {4.6.3, 
 5.4.10, 5.6.2.1, Figure 5.30, Figure 5.33} 
@@ -1767,9 +1767,9 @@ thermal expansion would not reverse for several centuries to millennia (high con
 CDR methods have a range of side effects that can either weaken or strengthen the carbon sequestration and 
 cooling potential of these methods and affect the achievement of sustainable development goals (high 
 confidence). Biophysical and biogeochemical side-effects of CDR methods are associated with changes in 
-surface albedo, the water cycle, emissions of CH4 and N2O, ocean acidification and marine ecosystem 
+surface albedo, the water cycle, emissions of CH₄ and N₂O, ocean acidification and marine ecosystem 
 productivity (high confidence). These side-effects and associated Earth system feedbacks can decrease 
-carbon uptake and/or change local and regional climate and in turn limit the CO2 sequestration and cooling 
+carbon uptake and/or change local and regional climate and in turn limit the CO₂ sequestration and cooling 
 potential of specific CDR methods (medium confidence). Deployment of CDR, particularly on land, can also 
 affect water quality and quantity, food production and biodiversity (high confidence). These effects are often 
 highly dependent on local context, management regime, prior land use, and scale (high confidence). The 
@@ -1784,45 +1784,45 @@ emissions and their resulting temperature outcome (high confidence). Reaching an
 emissions typically leads to a peak and decline in temperatures when quantified with the global warming 
 potential over a 100-year period (GWP-100). Carbon-cycle responses are more robustly accounted for in 
 emission metrics compared to AR5 (high confidence). New emission metric approaches can be used to 
-generate equivalent cumulative emissions of CO2 for short-lived greenhouse gases based on their rate of 
+generate equivalent cumulative emissions of CO₂ for short-lived greenhouse gases based on their rate of 
 emissions. {7.6.2} 
  
 Over 10- to 20-year time scales, the temperature response to a single year’s worth of current emissions of 
-SLCFs is at least as large as that of CO2, but because the effect of SLCFs decays rapidly over the first few 
+SLCFs is at least as large as that of CO₂, but because the effect of SLCFs decays rapidly over the first few 
 decades after emission, the net long-term temperature response to a single year’s worth of emissions is 
-predominantly determined by cumulative CO2 emissions. Emission reductions in 2020 associated with 
+predominantly determined by cumulative CO₂ emissions. Emission reductions in 2020 associated with 
 COVID-19 containment led to small and positive global ERF; however, global and regional climate 
 responses to the forcing are undetectable above internal variability due to the temporary nature of emission 
 reductions. {6.6, Cross-Chapter Box 6.1} 
 
 The relative climate effects of different forcing agents are typically quantified using emission metrics that 
 compare the effects of an idealised pulse of 1 kg of some climate forcing agent against a reference climate 
-forcing agent, almost always CO2. The two most prominent pulse emissions metrics are the global warming 
+forcing agent, almost always CO₂. The two most prominent pulse emissions metrics are the global warming 
 potential (GWP) and global temperature change potential (GTP) (see Glossary). The climate responses to 
-CO2 emissions by convention include the effects of warming on the carbon cycle, so for consistency these 
-need to be determined also for non-CO2 emissions. The methodology for doing this has been placed on a 
+CO₂ emissions by convention include the effects of warming on the carbon cycle, so for consistency these 
+need to be determined also for non-CO₂ emissions. The methodology for doing this has been placed on a 
 more robust scientific footing compared to AR5 (high confidence). Methane from fossil fuel sources has 
-slightly higher emission metric values than those from biogenic sources since it leads to additional fossil CO2 
+slightly higher emission metric values than those from biogenic sources since it leads to additional fossil CO₂ 
 in the atmosphere (high confidence). Updates to the chemical adjustments for methane and nitrous oxide 
 emissions (Section TS.3.1) and revisions in their lifetimes result in emission metrics for GWP and GTP that 
 are slightly lower than in AR5 (medium confidence). Emission metrics for the entire suite of GHGs assessed 
 in the AR6 have been calculated for various time horizons. {7.6.1, Table 7.15, Table 7.SM.7} 
  
 New emission metric approaches, such as GWP* and Combined-GTP (CGTP), relate changes in the 
-emission rate of short-lived greenhouse gases to equivalent cumulative emissions of CO2 (cumulative CO2-e 
+emission rate of short-lived greenhouse gases to equivalent cumulative emissions of CO₂ (cumulative CO₂-e 
 emissions). Global surface temperature response from aggregated emissions of short-lived greenhouse gases 
-over time is determined by multiplying these cumulative CO2-e by TCRE (see TS.3.2.1). When GHGs are 
-aggregated using standard metrics such as GWP or GTP, cumulative CO2-e emissions are not necessarily 
+over time is determined by multiplying these cumulative CO₂-e by TCRE (see TS.3.2.1). When GHGs are 
+aggregated using standard metrics such as GWP or GTP, cumulative CO₂-e emissions are not necessarily 
 proportional to future global surface temperature outcomes (high confidence) {Box 7.3, 7.6.1} 
  
 Emission metrics are needed to aggregate baskets of gases to determine net zero GHG emissions. Generally, 
-achieving net zero CO2 emissions and declining non-CO2 radiative forcing would halt human-induced 
+achieving net zero CO₂ emissions and declining non-CO₂ radiative forcing would halt human-induced 
 warming. Reaching net zero GHG emissions quantified by GWP-100 typically leads to declining 
 temperatures after net zero GHGs emissions are achieved if the basket includes short-lived gases, such as 
-methane. Net zero GHG emissions defined by CGTP or GWP* imply net zero CO2 and other long-lived 
+methane. Net zero GHG emissions defined by CGTP or GWP* imply net zero CO₂ and other long-lived 
 GHG emissions and constant (CGTP) or gradually declining (GWP*) emissions of short-lived gases. The 
 warming evolution resulting from net zero GHG emissions defined in this way corresponds approximately to 
-reaching net zero CO2 emissions, and would thus not lead to declining temperatures after net zero GHG 
+reaching net zero CO₂ emissions, and would thus not lead to declining temperatures after net zero GHG 
 emissions are achieved but to an approximate temperature stabilization (high confidence). The choice of 
 emission metric hence affects the quantification of net zero GHG emissions, and therefore the resulting 
 temperature outcome of reaching and sustaining net zero GHG emissions levels (high confidence). {7.6.1.4, 
@@ -1840,17 +1840,17 @@ for how long the emissions are reduced, and the thermal inertia in the climate s
 emission reductions and implemented through new legislation or technology standards, implies that 
 emissions reductions occur year after year. Global temperature response to a year’s worth of current 
 emissions from different sectors informs about the mitigation potential (Figure TS.20). Over 10- to 20-year 
-time scales, the influence of SLCFs is at least as large as that of CO2, with sectors producing the largest 
+time scales, the influence of SLCFs is at least as large as that of CO₂, with sectors producing the largest 
 warming being fossil fuel production and distribution, agriculture, and waste management. Because the 
 effect of the SLCFs decays rapidly over the first few decades after emission, the net long-term temperature 
-effect from a single year’s worth of current emissions is predominantly determined by CO2. Fossil fuel 
+effect from a single year’s worth of current emissions is predominantly determined by CO₂. Fossil fuel 
 combustion for energy, industry and land transportation are the largest contributing sectors on a 100-year 
-time scale (high confidence). Current emissions of CO2, N2O and SLCFs from East Asia and North America 
+time scale (high confidence). Current emissions of CO₂, N₂O and SLCFs from East Asia and North America 
 are the largest regional contributors to additional net future warming on both short (medium confidence) and 
 long time scales (10 and 100 year) (high confidence). {6.6.1, 6.6.2, Figure 6.16} 
  
 COVID-19 restrictions led to detectable reductions in global anthropogenic NOx (about 35% in April 2020) 
-and fossil CO2 (7%, with estimates ranging from 5.8% to 13.0%) emissions, driven largely by reduced 
+and fossil CO₂ (7%, with estimates ranging from 5.8% to 13.0%) emissions, driven largely by reduced 
 emissions from the transportation sector (medium confidence). There is high confidence that, with the 
 exception of surface ozone, reductions in pollutant precursors contributed to temporarily improved air 
 quality in most regions of the world. However, these reductions were lower than that would be expected 
@@ -1858,7 +1858,7 @@ from sustained implementation of policies addressing air quality and climate cha
 Overall, the net global ERF from COVID-19 containment was likely small and positive for 2020 (with a 
 temporary peak value less than 0.2 W m–2), thus temporarily adding to the total anthropogenic climate 
 influence, with positive forcing (warming influence) from aerosol changes dominating over negative 
-forcings (cooling influence) from CO2, NOx and contrail cirrus changes. Consistent with this small net 
+forcings (cooling influence) from CO₂, NOx and contrail cirrus changes. Consistent with this small net 
 radiative forcing, and against a large component of internal variability, Earth system models show no 
 detectable effect on global or regional surface temperature or precipitation (high confidence). {Cross Chapter 
 Box 6.1} 
@@ -1985,7 +1985,7 @@ and  the  relative  importance  of  internal  variability.  Since  the  late  19
 (MoVs) exhibited fluctuations in frequency and magnitude at multi-decadal time scales, but no sustained trends 
 outside the range of internal variability (Table TS.4). An exception is the  Southern Annular Mode (SAM), 
 which has become systematically more positive (high confidence) and is projected to be more positive in all 
-seasons, except for  December-January-February (DJF), in high CO2 emissions scenarios (high confidence). 
+seasons, except for  December-January-February (DJF), in high CO₂ emissions scenarios (high confidence). 
 The  influence  of  stratospheric  ozone  forcing  on  the  SAM  trend  has  been  reduced  since  the  early  2000s 
 compared to earlier decades, contributing to the weakening of its positive trend as observed over 2000–2019 
 (medium confidence). In the near-term, projected changes in most of the MoVs and related teleconnections 
@@ -2239,8 +2239,8 @@ ocean,  acidification,  changes  in  sea  ice  and  deoxygenation  have  already
 confidence). Marine heatwaves (MWHs) are also expected to increase around the globe over the 21st century 
 (high confidence). {TS.2.4, Box 9.2, 9.2.1.1, 9.6, 9.6.4, 9.6.4.2, 12.4} 
  
-*Other variables and concurrent CID changes:* It is virtually certain that atmospheric CO2 and oceanic pH 
-will increase in all climate scenarios, until net zero CO2 emissions are achieved (TS.2.2). In nearly all regions, 
+*Other variables and concurrent CID changes:* It is virtually certain that atmospheric CO₂ and oceanic pH 
+will increase in all climate scenarios, until net zero CO₂ emissions are achieved (TS.2.2). In nearly all regions, 
 there  is  low  confidence  in  changes  in  hail,  ice  storms,  severe  storms,  dust  storms,  heavy  snowfall,  and 
 avalanches, although this does not indicate that these CIDs will not be affected by climate change. For such 
 CIDs,  observations  are  often  short-term  or  lack  homogeneity,  and  models  often  do  not  have  sufficient 
@@ -2351,7 +2351,7 @@ and Southwest Asia (ARP+WCA).
 > (high confidence). Future projections indicate continuing decline in seasonal snow duration, glacial mass, and 
 > permafrost area by mid-century (high confidence). Snow-covered areas and snow volumes will decrease in 
 > most  regions  of  the  Hindu  Kush  Himalaya  during the  21st  century  and  snowline  elevations  will  rise  (high 
-> confidence) and glacier volumes are likely to decline with greater mass loss in higher CO2 emissions scenarios. 
+> confidence) and glacier volumes are likely to decline with greater mass loss in higher CO₂ emissions scenarios. 
 > Heavy snowfall is increasing in East Asia and North Asia (medium confidence) but with limited evidence on 
 > future changes in hail and snow avalanches.  
 >  
@@ -2473,7 +2473,7 @@ confidence in southwest Western Australia), eastern Australia (medium confidence
 of New Zealand (medium confidence) for GWLs around 2°C. {11.4, Table 11.6, 11.9, 12.4.3.2, Atlas.6.2} 
  
 *Wind:* Mean wind speeds are projected to increase in parts of northeastern Australia (medium confidence) by 
-the end of the 21st century, under high CO2 emissions scenarios. TCs in north eastern and north Australia are 
+the end of the 21st century, under high CO₂ emissions scenarios. TCs in north eastern and north Australia are 
 projected to decrease in number (high confidence) but increase in intensity except for ‘east coast lows’ (low 
 confidence). {12.4.3.3} 
  
@@ -2723,7 +2723,7 @@ those regions with substantial land uplift (Arctic Northeast North America and G
 > Southern  Ocean  are  projected  to  freshen  and  the  Atlantic  to  become  more  saline  (medium  confidence). 
 > Anthropogenic warming is very likely to further decrease ocean oxygen concentrations, and this deoxygenation 
 > is  expected  to  persist  for  thousands  of  years  (medium  confidence).  Arctic  sea  ice  losses  are  projected  to 
-> continue, leading to a practically ice-free Arctic in September by the end of the 21st century under high CO2 
+> continue, leading to a practically ice-free Arctic in September by the end of the 21st century under high CO₂ 
 > emissions scenarios (high confidence). {2.3, 5.3, 9.2, 9.3, Box 9.2, 12.4.8} 
 
  
@@ -2741,7 +2741,7 @@ MHWs (more than 360 days per year) are projected to occur in the 21st century in
 the Arctic Ocean and around 45°S; however, the occurrence of such permanent MHWs can be largely avoided 
 under SSP1-2.6 scenario. {Box 9.2, 12.4.8} 
  
-*Ocean acidity:* With the rising CO2 concentration, the ocean surface pH has declined globally over the past 
+*Ocean acidity:* With the rising CO₂ concentration, the ocean surface pH has declined globally over the past 
 four decades (virtually certain). {2.3.3.5, 5.3.3.2, 12.4.8} 
  
 *Ocean salinity:* At the basin scale, it is very likely that the Pacific and the Southern Ocean have freshened 

@@ -1239,6 +1239,339 @@
                     "(c) Percentage change in projected seasonal mean precipitation over global and regional monsoons domain in the near-term (2021–2040), mid-term (2041–2060), and long-term (2081–2100) under SSP2-4.5 based on 24 CMIP6 models. {Figure 8.11, Figure 8.22}  "
                 ]
             }
+        },
+        "TS.1": {
+            "title": {
+                "en_EN":"Changes in atmospheric CO2 and global surface temperature (relative to 1850-1900) from the deep past to the next 300 years."
+            },
+            "subtitle": {
+                "en_EN": "The intent is to show that CO2 and temperature covary, both in the past and into the future, and that projected CO2 and temperatures are similar to those only from many millions of years ago."
+            },
+            "description": {
+                "en_EN": [
+                    "CO2 concentrations from millions of years ago are reconstructed from multiple proxy records (grey dots are data from 2.2.3.1, Figure 2.3 shown with cubic-spline fit). CO2 levels for the last 800,000 years through the mid-20th century are from air trapped in polar ice; recent values are from direct air measurements (Figure TS.9). {1.2.1.2, 2.2.3, Figures 1.5, 2.4, 2.5} Global surface temperature prior to 1850 is estimated from marine oxygen isotopes, one of multiple sources of evidence used to assess paleo temperatures in this report. {2.3.1.1.1, Cross-Chapter Box 2.1, Figure 1} Temperature of the past 170 years is the AR6 assessed mean (Cross-Section Box TS.1). {2.3.1.1} CO2 levels and global surface temperature change for the future are shown for three SSP scenarios (TS.1.3) through 2300 CE, using Earth System Model emulators calibrated to the assessed global surface temperatures. {4.7.1, Cross-Chapter Box 7.1} Their smooth trajectories do not account for inter-annual to inter-decadal variability, including transient response to potential volcanic eruptions. {Cross-Chapter Box 4.1} Global maps for two paleo reference periods are based on CMIP6 and pre-CMIP6 multi-model means, with site-level proxy data for comparison (squares and circles are marine and terrestrial, respectively) (Box TS.2). {Cross-Chapter Box 2.1, Figure 7.13} The map for 2020 is an estimate of the total observed warming since 1850-1900. {Figure 1.14} Global maps at right show two SSP scenarios at 2100 (2081-2100) {4.5.1} and at 2300 (2281-2300; map from CMIP6 models; temperature assessed in 4.7.1). A brief account of the major climate forcings associated with past global temperature changes is in Cross-Chapter Box 2.1. "
+                ]
+            }
+        },
+        "TS.2": {
+            "title": {
+                "en_EN":"Progress in climate models."
+            },
+            "subtitle": {
+                "en_EN": "The intent is to show present improvements in climate models in resolution, complexity and representation of key variables."
+            },
+            "description": {
+                "en_EN": [
+                    "(a) Evolution of model horizontal resolution and vertical levels (based on Figure 1.19);",
+                    "(b) Evolution of inclusion of processes and resolution from CMIP Phase 3 (CMIP3) to CMIP6 (Annex II).",
+                    "(c) Centred pattern correlations between models and observations for the annual mean climatology over the period 1980–1999. Results are shown for individual CMIP3 (cyan), CMIP5 (blue) and CMIP6 (red) models (one ensemble member is used) as short lines, along with the corresponding ensemble averages (long lines). The correlations are shown between the models and the primary reference observational data set (from left to right: ERA5, GPCP-SG, CERES-EBAF, CERES-EBAF, CERES-EBAF, CERES-EBAF, JR-55, ERA5, ERA5, ERA5, ERA5, ERA5, ERA5, AIRS, ERA5, ESACCI-Soilmoisture, LAI3g, MTE). In addition, the correlation between the primary reference and additional observational data sets (from left to right: NCEP, GHCN, -, -, -, -, ERA5, HadISST, NCEP, NCEP, NCEP, NCEP, NCEP, NCEP, ERA5, NCEP, -, -, FLUXCOM) are shown (solid grey circles) if available. To ensure a fair comparison across a range of model resolutions, the pattern correlations are computed after regridding all datasets to a resolution of 4º in longitude and 5º in latitude. (Expanded from Figure 3.43; produced with ESMValTool version 2). "
+                ]
+            }
+        },
+        "TS.3": {
+            "title": {
+                "en_EN":"Emergence of changes in temperature over the historical period"
+            },
+            "subtitle": {
+                "en_EN": "The intent of this figure is to show how observed changes in temperature have emerged and that the emergence pattern agrees with model simulations."
+            },
+            "description": {
+                "en_EN": [
+                    "The observed change in temperature at a global warming level of 1°C (top map), and the signal-to-noise ratio (the change in temperature at a global warming level of 1°C, divided by the size of year-to-year variations, bottom map) using data from Berkeley Earth. The right panels show the zonal means of the maps and include data from different observational datasets (red) and the CMIP6 simulations (black, including the 5-95% range) processed in the same way as the observations. {1.4.2, 10.4.3} "
+                ]
+            }
+        },
+        "TS.4": {
+            "title": {
+                "en_EN":"The climate change cause-effect chain"
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "from anthropogenic emissions, to changes in atmospheric concentration, to changes in the Earth’s energy balance (‘forcing’), to changes to changes in global climate and ultimately regional climate and climatic impact-drivers. Shown is the core set of five SSP scenarios as well as emission and concentration ranges for the previous RCP scenarios in year 2100; CO2 emissions (GtCO2 yr–1), panel top left; CH4 emissions (middle) and SO2, NOx emissions (all in Mt yr–1), top right; concentrations of atmospheric CO2 (ppm) and CH4 (ppb), second row left and right; effective radiative forcing for both anthropogenic and natural forcings (W m–2), third row; changes in global surface air temperature (°C) relative to 1850–1900, fourth row; maps of projected temperature change (°C) (left) and changes in annual-mean precipitation (%) (right) at GWL 2°C relative to 1850–1900 (see also Figure TS.5), bottom row. Carbon cycle and non-CO2 biogeochemical feedbacks will also influence the ultimate response to anthropogenic emissions (arrows on the left). {1.6.1, Cross-Chapter Box 1.4, 4.2.2, 4.3.1, 4.6.1, 4.6.2} "
+                ]
+            }
+        },
+        "TS.5": {
+            "title": {
+                "en_EN":"How scenarios are linked to global warming levels (GWLs), and examples of the evolution of patterns of change with global warming levels."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Left: Illustrative example of GWLs defined as global surface temperature response to anthropogenic emissions in unconstrained CMIP6 simulations, for two illustrative scenarios (SSP1-2.6 and SSP3-7.0). The time when a given simulation reaches a GWL, e.g., +2°C, relative to 1850-1900 is taken as the time when the central year of a 20-year running mean first reaches that level of warming. See the dots for +2°C, and how not all simulations reach all levels of warming. The assessment of the timing when a GWL is reached takes into account additional lines of evidence and is discussed in Cross-Section Box TS.1.",
+
+                    "Right: Multi-model, multi-simulation average response patterns of change in near-surface air temperature, precipitation (expressed as percentage change) and soil moisture (expressed in standard deviations of interannual variability), for three GWLs. The number to the top right of the panels shows the number of model simulations averaged across including all models that reach the corresponding GWL in any of the 5 SSPs. See TS.2 for discussion. (See also Cross-Chapter Box 11.1) "
+                ]
+            }
+        },
+        "TS.6": {
+            "title": {
+                "en_EN":"A graphical abstract for key aspects of the Technical Summary related to observed and projected changes in global surface temperature and associated regional changes in climatic impact-drivers relevant for impact and risk assessment."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Top left: a schematic representation of the likelihood for equilibrium climate sensitivity (ECS), consistent with the AR6 assessment (see Chapter 7; TS.3). ECS values above 5°C and below 2°C are termed low-likelihood high warming (LLHW) and low-likelihood low warming, respectively. Top right: Observed (see Cross-Section Box TS.1) and projected global surface temperature changes, shown as global warming levels (GWL) relative to 1850-1900, using the assessed 95% (top), 50% (middle) and 5% (bottom) likelihood time series (see Chapter 4; TS.2).",
+
+                    "Bottom panels show maps of CMIP6 median projections of two climatic impact-drivers (CIDs) at three different GWLs (columns for 1.5, 2 and 4°C) for the AR6 land regions (see Chapters 1, 10, Atlas; TS.4). The heat warning index is the number of days per year averaged across each region at which a heat warning for human health at level ‘danger’ would be issued according to the U.S. National Oceanic and Atmospheric Administration (NOAA) (NOAA HI41, see Chapter 12 and Technical Annex VI). The maps of extreme rainfall changes show the percentage change in the amount of rain falling on the wettest day of a year (Rx1day, relative to 1995-2014, see Chapter 11) averaged across each region when the respective GWL is reached. Additional CIDs are discussed in TS.4. "
+                ]
+            }
+        },
+        "TS.7": {
+            "title": {
+                "en_EN":"Simulated and observed changes compared to the 1995–2014 average  in key large-scale indicators of climate change across the climate system, for continents, ocean basins and globally up to 2014."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Black lines show observations, orange lines and shading show the multi-model mean and 5–95th percentile ranges for CMIP6 historical simulations including anthropogenic and natural forcing, and green lines and shading show corresponding ensemble means and 5-95th percentile ranges for CMIP6 natural-only simulations. Observations after 2014 (including, for example, a strong subsequent decrease of Antarctic sea-ice area that leads to no significant overall trend since 1979) are not shown because the CMIP6 historical simulations end in 2014. A 3-year running mean smoothing has been applied to all observational time series. {3.8, Figure 3.41}"
+                ]
+            }
+        },
+        "TS.8": {
+            "title": {
+                "en_EN":"Observed, simulated and projected changes compared to the 1995–2014 average in 4 key indicators of the climate system through to 2100 differentiated by SSP scenario pathway."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Past simulations are based on the CMIP6 multi-model ensemble. Future projections are based on the assessed ranges based upon multiple lines of evidence for (a) global surface temperature (Cross-Section Box TS.1) and (b) global ocean heat content and the associated thermosteric sea level contribution to Global Mean Sea Level (GMSL) change (right-hand axis) using a climate model emulator (Cross-Chapter Box 7.1), and CMIP6 simulations for (c) Arctic September sea ice and (d) Global land precipitation. SSP1-1.9 and SSP1-2.6 projections show that reduced GHG emissions lead to a stabilization of global surface temperature, Arctic sea ice area and global land precipitation over the 21st century. SSP1-2.6 shows that emissions reductions have the potential to substantially reduce the increase in ocean heat content and thermosteric sea level rise over the 21st century but that some increase is unavoidable. {4.3, 9.3, 9.6, Figure 4.2, Figure 9.6} "
+                ]
+            }
+        },
+        "TS.9": {
+            "title": {
+                "en_EN":"Changes in well-mixed greenhouse gas (WMGHG) concentrations and Effective Radiative Forcing."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "a) Changes in CO2 from proxy records over the past 3.5 million years;",
+                    "b) Changes in all three WMGHGs from ice core records over the Common Era;",
+                    "c) directly observed WMGHG changes since the mid-20th century;",
+                    "d) Evolution of ERF and components since 1750.",
+                    "Further details on data sources and processing are available in the associated FAIR data table. {2.2, Figures 2.3, 2.4 and 2.10} "
+                ]
+            }
+        },
+        "TS.10": {
+            "title": {
+                "en_EN":"Observed and projected upper air temperature and circulation changes."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Upper panels: Left: Zonal cross-section of temperature trends for 2002-2019 in the upper troposphere region for the ROM SAF radio-occultation dataset. Middle: Change in the annual and zonal mean atmospheric temperature (°C) in 2081-2100 in SSP1-2.6 relative to 1995-2014 for 36 CMIP6 models. Right: the same in SSP3-7.0 for 32 models.",
+                    "Lower panels: Left: Long-term mean (thin black colour) and linear trend (colour) of zonal mean DJF zonal winds for ERA5. Middle: multi-model mean change in annual and zonal mean wind (m s-1) in 2081-2100 in SSP1-2.6 relative to 1995-2014 based on 34 CMIP6 models. The 1995-2014 climatology is shown in contours with spacing 10 m s-1. Right: the same for SP3-7.0 for 31 models. {2.3.1, 4.5.1, Figures 2.12, 2.18, and 4.26}"
+                ]
+            }
+        },
+        "TS.11": {
+            "title": {
+                "en_EN":"Past and future ocean and ice sheet changes."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [    "Paste in some lines of text.Observed and simulated historical changes and projected future changes under varying greenhouse gas emissions scenarios. Simulated and projected ocean changes are shown as CMIP6 ensemble mean, and 5-95% range (shading) is provided for scenario SSP1-2.6 and SSP3-7.0 (except in panel a where range provided for scenario SSP1-2.6 and SSP5-8.5). Mean and 5-95% range in 2100 are shown as vertical bars on the right-hand side of each panel.",    "(a) Change in multiplication factor in surface ocean marine heatwave days relative to 1995-2014 (defined as days exceeding the 99th percentile in SST from 1995-2014 distribution). Assessed observational change span 1982-2019 from AVHRR satellite SST.",    "(b) AMOC transport relative to 1995-2014 (defined as maximum transport at 26°N). Assessed observational change spans 2004-2018 from the RAPID array smoothed with a 12-month running mean (shading around the mean shows the 12-month running standard deviation around the mean).",    "(c) Global mean percent change in ocean oxygen (100–600 m depth), relative to 1995-2014. Assessed observational trends and very likely range are from the SROCC assessment, and spans 1970–2010 centered on 2005.",    "(d) Global mean surface pH. Assessed observational change span 1985-2019, from the CMEMS SOCAT-based reconstruction (shading around the global mean shows the 90% confidence interval).",    "(e), (f): Ice sheet mass changes. Projected ice sheet changes are shown as median, 5-95% range (light shading), and 17-83% range (dark shading) of cumulative mass loss and sea level equivalent from ISMIP6 emulation under SSP1-26 and SSP5-85 (shading and bold line), with individual emulated projections as thin lines. Median (dot), 17-83% range (thick vertical bar), and 5-95% range (thin vertical bar) in 2100 are shown as vertical bars on the right-hand side of each panel, from ISMIP6, ISMIP6 emulation, and LARMIP-2. ",    "Observation-based estimates: For Greenland (e), for 1972-2018 (Mouginot), for 1992-2016 (Bamber), for 1992-2020 (IMBIE) and total estimated mass loss range for 1840-1972 (Box). For Antarctica (f), estimates based on satellite data combined with simulated surface mass balance and glacial isostatic adjustment for 1992-2020 (IMBIE), 1992-2016 (Bamber), and 1979-2017 (Rignot). Left inset maps: mean Greenland elevation changes 2010-2017 derived from CryoSat-2 radar altimetry (e) and mean Antarctica elevation changes 1978-2017 derived from restored analog radar records (f). Right inset maps: ISMIP6 model mean (2093- 2100) projected changes under the MIROC5 climate model for the RCP8.5 scenario. {Box 9.2, 2.3.3, 2.3.4, 3.5.4, 4.3.2, 5.3.2, 5.3.3, 5.6.3, 9.2.3, 9.4.1, 9.4.2, Box 9.2,Figure1, Figure 9.10, Figure 9.17, Figure 9.18}  "]
+            }
+        },
+        "TS.12": {
+            "title": {
+                "en_EN":"Land-related changes relative to the 1850-1900 as a function of global warming levels."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [    "a) Changes in the frequency (left scale) and intensity (in °C, right scale) of daily hot extremes occurring ",    "every 10- and 50-years;",    "b) as a), but for daily heavy precipitation extremes, with intensity change in %;",    "c) Changes in 10-year droughts aggregated over drought-prone regions (CNA, NCA, SCA, NSA, SAM, SWS, SSA, MED, WSAF, ESAF, MDG, SAU, and EAU; for definitions of these regions, see Atlas.2), with drought intensity (right scale) represented by the change of annual mean soil moisture, normalized with respect to interannual variability;",    "d) Changes in Northern Hemisphere spring (March-April-May) snow cover extent relative to 1850-1900;",    "e,f) Relative change (%) in annual mean of total precipitable water (grey line), precipitation (red solid lines), runoff (blue solid lines) and in standard deviation (i.e. variability) of precipitation (red dashed lines) and runoff (blue dashed lines) averaged over (e) tropical and (f) extratropical land as function of global warming levels. CMIP6 models that reached a 5°C warming level in the 21st century in SSP5-8.5 above the 1850-1900 average have been used. Precipitation and runoff variability are estimated by respective standard deviation after removing linear trends. Error bars show the 17-83% confidence interval for the warmest +5°C global warming level. {Figures 11.6, 11.7, 11.12, 11.15, 11.18, 9.24, 8.16, Atlas.2} "]
+            }
+        },
+        "TS.13": {
+            "title": {
+                "en_EN":"Estimates of the net cumulative energy change (ZJ = 1021 Joules) for the period 1971–2018 associated with: (a) observations of changes in the Global Energy Inventory (b) Integrated Radiative Forcing; (c) Integrated Radiative Response."
+            },
+            "subtitle": {
+                "en_EN": "The intent is to show assessed changes in energy budget and ERFs."
+            },
+            "description": {
+                "en_EN": [
+                    "Black dotted lines indicate the central estimate with likely and very likely ranges as indicated in the legend. The grey dotted lines indicate the energy change associated with an estimated 1850-1900 Earth energy imbalance of 0.2 W m-2 (panel a) and an illustration of an assumed pattern effect of –0.5 W m–2°C–1 (panel c). Background grey lines indicate equivalent heating rates in W m–2 per unit area of Earth’s surface. Panels (d) and (e) show the breakdown of components, as indicated in the legend, for the Global Energy Inventory and Integrated Radiative Forcing, respectively. Panel (f) shows the Global Energy Budget assessed for the period 1971–2018, i.e. the consistency between the change in the Global Energy Inventory relative to 1850-1900 and the implied energy change from Integrated Radiative Forcing plus Integrated Radiative Response under a number of different assumptions, as indicated in the figure legend, including assumptions of correlated and uncorrelated uncertainties in Forcing plus Response. Shading represents the very likely range for observed energy change relative to 1850-1900 and likely range for all other quantities. Forcing and Response timeseries are expressed relative to a baseline period of 1850–1900. {Box 7.2 Figure 1} "
+                ]
+            }
+        },
+        "TS.14": {
+            "title": {
+                "en_EN":"Schematic representation of changes in the top-of atmosphere (TOA) radiation budget following a perturbation."
+            },
+            "subtitle": {
+                "en_EN": "The intent of the figure is to illustrate the concept of adjustments in the climate system following a perturbation in the radiation budget."
+            },
+            "description": {
+                "en_EN": [
+                    "The baseline TOA energy budget (a) responds instantaneously to perturbations (b), leading to adjustments in the atmospheric meteorology and composition, and land surface that are independent of changes in surface temperature (c). Surface temperature changes (here using an increase as an example) lead to physical, biogeophysical and biogeochemical feedback processes (d). Long term feedback processes, such as those involving ice sheets, are not shown here. {adapted from Chapter 7 Figure 7.2, FAQ 7.2 Figure 1, and Figure 8.3} "
+                ]
+            }
+        },
+        "TS.15": {
+            "title": {
+                "en_EN":"Contribution to ERF and b) global surface temperature change from component emissions between 1750 to 2019 based on CMIP6 models and c) net aerosol effective radiative forcing (ERF) from different lines of evidence."
+            },
+            "subtitle": {
+                "en_EN": "The intent of the figure is to show advances since AR5 in the understanding of a) aerosol ERF from different lines of evidence as assessed in Chapter 7, b) emissions-based ERF and c) global surface temperature response for SLCFs as estimated in Chapter 6."
+            },
+            "description": {
+                "en_EN": [    "In panel a), ERFs for well-mixed greenhouse gases (WMGHGs) are from the analytical formulae. ERFs for other components are multi-model means based on ESM simulations that quantify the effect of individual components.  The derived emission-based ERFs are rescaled to match the concentration-based ERFs in Figure 7.6. Error bars are 5-95% and for the ERF account for uncertainty in radiative efficiencies and multi-model error in the means.",    "In panel b), the global mean temperature response is calculated from the ERF time series using an impulse response function.",    "In panel c), the AR6 assessment is based on energy balance constraints, observational evidence from satellite retrievals, and climate model-based evidence. For each line of evidence, the assessed best-estimate contributions from ERF due to ERFari and ERFaci are shown with darker and paler shading, respectively. Estimates from individual CMIP5 and CMIP6 models are depicted by blue and red crosses, respectively. The observational assessment for ERFari is taken from the instantaneous forcing due to aerosol-radiation interactions (IRFari). Uncertainty ranges are given in black bars for the total aerosol ERF and depict very likely ranges. {Sections 7.3.3, 6.4.2,  Cross-Chapter Box 7.1, Figures 6.12, 7.5 ; Table 7.8}   "]
+            }
+        },
+        "TS.16": {
+            "title": {
+                "en_EN":"a) Evolution of equilibrium climate sensitivity (ECS) assessments from the Charney Report through a succession of IPCC Assessment Reports to AR6, and lines of evidence and combined assessment for (b) ECS and (c) transient climate response (TCR) in AR6."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [    "In panel (a), the lines of evidence considered are listed below each assessment. Best estimates are marked by horizontal bars, likely ranges by vertical bars, and very likely ranges by dotted vertical bars. ",    "In panel (b) and (c), assessed ranges are taken from Tables 7.13 and 7.14 for ECS and TCR respectively. Note that for the ECS assessment based on both the instrumental record and paleoclimates, limits (i.e., one-sided distributions) are given, which have twice the probability of being outside the maximum/minimum value at a given end, compared to ranges (i.e., two tailed distributions) which are given for the other lines of evidence. For example, the extremely likely limit of greater than 95% probability corresponds to one side of the very likely (5% to 95%) range. Best estimates are given as either a single number or by a range represented by grey box. CMIP6 ESM values are not directly used as a line of evidence but are presented on the Figure for comparison. {Sections 1.5, 7.5; Tables 7.13, 7.14; Figures 7.18} "]
+            }
+        },
+        "TS.17": {
+            "title": {
+                "en_EN":"An overview of physical and biogeochemical feedbacks in the climate system."
+            },
+            "subtitle": {
+                "en_EN": "The intent is to summarize assessed estimates of physical, biogeophysical and biogeochemical feedbacks on global temperature based on Chapters 5, 6 and 7."
+            },
+            "description": {
+                "en_EN": [    "(a) Synthesis of physical, biogeophysical and non-CO2 biogeochemical feedbacks that are included in the definition of ECS assessed in this Technical Summary. These feedbacks have been assessed using multiple lines of evidence including observations, models and theory. The net feedback is the sum of the Planck response, water vapour and lapse rate, surface albedo, cloud, and biogeophysical and non-CO2 biogeochemical feedbacks. Bars denote the mean feedback values and uncertainties represent very likely ranges;",    "(b) Estimated values of individual biogeophysical and non-CO2 biogeochemical feedbacks. The atmospheric methane lifetime and other non-CO2 biogeochemical feedbacks have been calculated using global Earth System Model simulations from AerChemMIP, while the CH4 and N2O source responses to climate have been assessed for the year 2100 using a range of modelling approaches using simplified radiative forcing equations. The estimates represent the mean and 5-95% range. The level of confidence in these estimates is low owing to the large model spread.",    "(c) carbon-cycle feedbacks as simulated by models participating in the C4MIP of CMIP6. An independent estimate of the additional positive carbon-cycle climate feedbacks from permafrost thaw, which is not considered in most C4MIP models, is added. The estimates represent the mean and 5-95% range. Note that these feedbacks act through modifying the atmospheric concentration of CO2 and thus are not included in the definition of ECS, which assumes a doubling of CO2 but are included in the definition and assessed range of TCRE. {Sections Box 5.1, 5.4.7, 5.4.8, 6.4.5, 7.4.2, Figure 5.29, Tables 6.9, 7.10} "]
+            }
+        },
+        "TS.18": {
+            "title": {
+                "en_EN":"Illustration of (a) relationship between cumulative emissions of CO2 and global mean surface air temperature increase and (b) the assessment of the remaining carbon budget from its constituting components based on multiple lines of evidence."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [    "Carbon budgets consistent with various levels of additional warming are provided in Table 5.8 and should not be read from the illustrations in either panel.",    "In panel (a) thin black line shows historical CO2 emissions together with the assessed global surface temperature increase from 1850-1900 as assessed in Chapter 2 (Box 2.3). The orange-brown range with its central line shows the estimated human-induced share of historical warming. The vertical orange-brown line shows the assessed range of historical human-induced warming for the 2010–2019 period relative to 1850-1900 (Chapter 3). The grey cone shows the assessed likely range for the transient climate response to cumulative emissions of carbon dioxide (TCRE) (Section 5.5.1.4), starting from 2015. Thin coloured lines show CMIP6 simulations for the five scenarios of the WGI core set (SSP1-1.9, green; SSP1-2.6, blue; SSP2-4.5, yellow; SSP3-7.0, red; SSP5-8.5, maroon), starting from 2015 and until 2100. Diagnosed carbon emissions are complemented with estimated land-use change emissions for each respective scenario. Coloured areas show the Chapter 4 assessed very likely range of global surface temperature projections and thick coloured central lines the median estimate, for each respective scenario, relative to the original scenario emissions.",    "For panel (b), the remaining allowable warming is estimated by combining the ",    "global warming limit of interest with the assessed historical human induced warming (Section 5.5.2.2.2), the assessed future potential non-CO2 warming contribution (Section 5.5.2.2.3) and the ZEC (Section 5.5.2.2.4). The remaining allowable warming (vertical blue bar) is subsequently combined with the assessed TCRE (Section 5.5.1.4 and 5.5.2.2.1) and contribution of unrepresented Earth system feedbacks (Section 5.5.2.2.5) to provide an assessed estimate of the remaining carbon budget (horizontal blue bar, Table 5.8). Note that contributions in panel (b) are illustrative and are not to scale. For example, the central ZEC estimate was assessed to be zero. {Box 2.3; Sections 5.2.1, 5.2.2; Figure 5.31} "]
+            }
+        },
+        "TS.19": {
+            "title": {
+                "en_EN":"Carbon sink response in a scenario with net CO2 removal from the atmosphere."
+            },
+            "subtitle": {
+                "en_EN": "The intent of this figure is to show how atmospheric CO2 evolves under negative emissions and its dependence on the negative emissions technologies. It also shows the evolution of the ocean and land sinks."
+            },
+            "description": {
+                "en_EN": [
+                    "Shown are CO2 flux components from concentration-driven Earth system model simulations during different emission stages of SSP1–2.6 and its long-term extension. (a) Large net positive CO2 emissions, (b) small net positive CO2 emissions, (c) – (d) net negative CO2 emissions, (e) net zero CO2 emissions. Positive flux components act to raise the atmospheric CO2 concentration, whereas negative components act to lower the CO2 concentration. Net CO2 emissions, land and ocean CO2 fluxes represent the multi-model mean and standard deviation (error bar) of four ESMs (CanESM5, UKESM1, CESM2-WACCM, IPSL-CM6a-LR) and one EMIC (UVic ESCM). Net CO2 emissions are calculated from concentration-driven Earth system model simulations as the residual from the rate of increase in atmospheric CO2 and land and ocean CO2 fluxes. Fluxes are accumulated over each 50-year period and converted to concentration units (ppm). {5.6.2.1, Figure 5.33}  "
+                ]
+            }
+        },
+        "TS.20": {
+            "title": {
+                "en_EN":"Global surface temperature change 10 and 100 years after a one-year pulse of present-day emissions."
+            },
+            "subtitle": {
+                "en_EN": "This figure shows the sectoral contribution to present-day climate change by specific climate forcers including CO2 as well as SLCFs."
+            },
+            "description": {
+                "en_EN": [
+                    "The temperature response is broken down by individual species and shown for total anthropogenic emissions (top), and sectoral emissions on 10-year (left) and 100-year time scales (right). Sectors are sorted by (high-to-low) net temperature effect on the 10-year time scale. Error bars in the top panel show the 5-95% range in net temperature effect due to uncertainty in radiative forcing only (calculated using a Monte Carlo approach and best estimate uncertainties from the literature). Emissions for 2014 are from the CMIP6 emissions dataset, except for HFCs and aviation H2O which rely on other datasets (see Section 6.6.2 for more details). CO2 emissions are excluded from open biomass burning and residential biofuel use. {6.6.2, Figure 6.16} "
+                ]
+            }
+        },
+        "TS.21": {
+            "title": {
+                "en_EN":"Example of the interplay between drivers of climate variability and change at regional scale to understand past and projected changes."
+            },
+            "subtitle": {
+                "en_EN": "The figure intent is to show an illustrative pathway for understanding past, and anticipating future, climate change at regional scale in the presence of uncertainties."
+            },
+            "description": {
+                "en_EN": [    "(a) Identification of the climate drivers and their influences on climate phenomena contributing through teleconnection to Southeastern South America summer (DJF) precipitation variability and trends observed over 1950–2014. Drivers (red squares) include MoVs as well as external forcing. Observed precipitation linear trend from GPCC is shown on continents (green-brown colour bar in mm month–1 per decade) and the SES AR6 WGI reference region is outlined with the thick black contour. Climate phenomena leading to local effect on SES are schematically presented (blue ovals).",    "(b) Time series of decadal precipitation anomalies for DJF SES simulated from seven large ensembles of historical + RCP8.5 simulations over 1950–2100. Shading corresponds to the 5th–95th range of climate outcomes given from each large ensemble for precipitation (in mm/month) and thick coloured lines stand for their respective ensemble mean. The thick timeseries in white corresponds to the multi-model multi-member ensemble mean with model contribution being weighted according to their ensemble size. GPCC observation is shown in the light black line with squares over 1950–2014 and the 1995–2014 baseline period has been retained for calculation of anomalies in all datasets.",    "(c) Quantification of the respective weight (in percent) between the individual sources of uncertainties (internal in grey, model in magenta and scenario in green) at near-term, mid-term and long-term temporal windows defined in AR6 and highlighted in (b) for SES DJF precipitation.",    "All computations are done with respect to 1995–2014, taken as the reference period and the scenario uncertainty is estimated from CMIP5 using the same set of models as for the large ensembles that have run different RCP scenarios. {Figure 10.12a} "]
+            }
+        },
+        "TS.22": {
+            "title": {
+                "en_EN":""
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [    "(Panel a): shows the geographical location of regions belonging to one of five groups characterized by a specific combination of changing climatic impact-drivers (CIDs). The five groups are represented by the five different colours, and the CID combinations associated with each group are represented in the corresponding ‘fingerprint’ and text below the map. Each fingerprint comprises a set of CIDs projected to change with high confidence in every region in the group, and a second set of CIDs, one or more of which are projected to change in each region with high or medium confidence. The CID combinations follow a progression from those becoming hotter and drier (group 1) to those becoming hotter and wetter (group 5). In between (groups 2–-4), the CIDs that change include some becoming drier and some wetter and always include a set of CIDs which are getting hotter. Tropical cyclones and severe wind CID changes are represented on the map with black dots in the regions affected. Regions affected by coastal CID changes are described by text on the map. The five groups are chosen to provide a reasonable level of detail for each region-specific detail whilst not overwhelming the map with a full summary all aspects of the assessment, which is available in Table TS.5. [Placeholder: This summary is also represented visually in the Interactive Atlas.] The CID changes summarized in the figure represent high and medium confidence changes projected if a level of 2°C of global warming is attained around 2050.",    "The bar chart in panel b) shows the numbers of regions where each CID is increasing or decreasing with medium or high confidence for all land regions reported in the map of panel a) and for the ocean regions. The regions coloured in the map comprise the WG I AR6 reference regions, which include inhabited land areas and an additional non-continuous Pacific Islands region labelled PAC. Definitions of the acronyms of the other regions are rovided in Atlas.1 and the Interactive Atlas. {Table TS.5, Figure TS.24}  "]
+            }
+        },
+        "TS.23": {
+            "title": {
+                "en_EN":"Time period during which the signals of temperature change in observed data aggregated over the reference regions emerged from the noise of annual variability in the respective aggregated data, using a signal-to-noise ratio of 2 as the threshold for emergence."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Emergence time is calculated for two global observational datasets, (a) Berkeley Earth and (b) CRUTEM5. Regions in the CRUTEM5 map are shaded grey when data are available over less than 50% of the area of the region. {Figure Atlas.11, TS.1.2.4} "
+                ]
+            }
+        },
+        "TS.24": {
+            "title": {
+                "en_EN":"Projected change in the mean number of days per year with maximum temperature exceeding 35°C for CMIP5 (first column), CMIP6 (second column) and CORDEX (thirth column)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The map shows the median change in the number of days per year between the mid-century (2041–2060) or end-century (2081–2100) and historical (1995–2014) periods for the CMIP5 and CORDEX  RCP8.5 and RCP2.6 and CMIP6 SSP5-8.5 and SSP1-2.6 scenarios ensembles. Stippling indicates areas where less than 80% of the models agree on the sign of change. {Interactive Atlas} "
+                ]
+            }
+        },
+        "TS.25": {
+            "title": {
+                "en_EN":"Distribution of projected changes in selected climatic impact-driver indices for selected regions for CMIP6, CMIP5 and CORDEX model ensembles."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Different indices are shown for different region: for east Europe and north Asia the mean number of days per year with maximum temperature exceeding 35°C, for Central America and the Caribbean, and the Arabian peninsula, western, southern and easten Asia the mean number of days per year with the NOAA Heat Index exceeding 41°C, for Australasia, East Asia and Russia far East the average shoreline position change, for South America, Europe and Africa the mean change in 1-in-100-years river discharge per unit catchment area (m3 s–1 km–2), and for North America the median change in the number of days with snow water equivalent (SWE) over 100 mm. For each box plot the changes or the climatological values are reported respect to, or compared to, the recent past (1995–2014) period for 1.5 oC, 2oC and 4oC global warming levels and for mid-century (2041–2060) or end-century (2081–2100) periods for the CMIP5 and CORDEX  RCP8.5 and RCP2.6 and CMIP6 SSP5-8.5 and SSP1-2.6 scenarios ensembles {Figure 12.5, Figure 12.6, Figure 12.9, Figure 12.SM.1, Figure 12.SM.2, Figure 12.SM.6}. "
+                ]
+            }
+        },
+        "TS.X": {
+            "title": {
+                "en_EN":""
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    ""
+                ]
+            }
         }
     },
 
