@@ -33,6 +33,9 @@ body {
 h1, h5, .brand-logo, .card-title {
     font-family:Inter,sans-serif;
 }
+.brand-logo {
+    white-space:nowrap;
+}
 
 /* slide out left menu table of contents */
 #slide-out li a {
