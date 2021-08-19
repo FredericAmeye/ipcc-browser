@@ -1394,7 +1394,7 @@
                 "en_EN": ""
             },
             "description": {
-                "en_EN": [    "Paste in some lines of text.Observed and simulated historical changes and projected future changes under varying greenhouse gas emissions scenarios. Simulated and projected ocean changes are shown as CMIP6 ensemble mean, and 5-95% range (shading) is provided for scenario SSP1-2.6 and SSP3-7.0 (except in panel a where range provided for scenario SSP1-2.6 and SSP5-8.5). Mean and 5-95% range in 2100 are shown as vertical bars on the right-hand side of each panel.",    "(a) Change in multiplication factor in surface ocean marine heatwave days relative to 1995-2014 (defined as days exceeding the 99th percentile in SST from 1995-2014 distribution). Assessed observational change span 1982-2019 from AVHRR satellite SST.",    "(b) AMOC transport relative to 1995-2014 (defined as maximum transport at 26°N). Assessed observational change spans 2004-2018 from the RAPID array smoothed with a 12-month running mean (shading around the mean shows the 12-month running standard deviation around the mean).",    "(c) Global mean percent change in ocean oxygen (100–600 m depth), relative to 1995-2014. Assessed observational trends and very likely range are from the SROCC assessment, and spans 1970–2010 centered on 2005.",    "(d) Global mean surface pH. Assessed observational change span 1985-2019, from the CMEMS SOCAT-based reconstruction (shading around the global mean shows the 90% confidence interval).",    "(e), (f): Ice sheet mass changes. Projected ice sheet changes are shown as median, 5-95% range (light shading), and 17-83% range (dark shading) of cumulative mass loss and sea level equivalent from ISMIP6 emulation under SSP1-26 and SSP5-85 (shading and bold line), with individual emulated projections as thin lines. Median (dot), 17-83% range (thick vertical bar), and 5-95% range (thin vertical bar) in 2100 are shown as vertical bars on the right-hand side of each panel, from ISMIP6, ISMIP6 emulation, and LARMIP-2. ",    "Observation-based estimates: For Greenland (e), for 1972-2018 (Mouginot), for 1992-2016 (Bamber), for 1992-2020 (IMBIE) and total estimated mass loss range for 1840-1972 (Box). For Antarctica (f), estimates based on satellite data combined with simulated surface mass balance and glacial isostatic adjustment for 1992-2020 (IMBIE), 1992-2016 (Bamber), and 1979-2017 (Rignot). Left inset maps: mean Greenland elevation changes 2010-2017 derived from CryoSat-2 radar altimetry (e) and mean Antarctica elevation changes 1978-2017 derived from restored analog radar records (f). Right inset maps: ISMIP6 model mean (2093- 2100) projected changes under the MIROC5 climate model for the RCP8.5 scenario. {Box 9.2, 2.3.3, 2.3.4, 3.5.4, 4.3.2, 5.3.2, 5.3.3, 5.6.3, 9.2.3, 9.4.1, 9.4.2, Box 9.2,Figure1, Figure 9.10, Figure 9.17, Figure 9.18}  "]
+                "en_EN": [    "Observed and simulated historical changes and projected future changes under varying greenhouse gas emissions scenarios. Simulated and projected ocean changes are shown as CMIP6 ensemble mean, and 5-95% range (shading) is provided for scenario SSP1-2.6 and SSP3-7.0 (except in panel a where range provided for scenario SSP1-2.6 and SSP5-8.5). Mean and 5-95% range in 2100 are shown as vertical bars on the right-hand side of each panel.",    "(a) Change in multiplication factor in surface ocean marine heatwave days relative to 1995-2014 (defined as days exceeding the 99th percentile in SST from 1995-2014 distribution). Assessed observational change span 1982-2019 from AVHRR satellite SST.",    "(b) AMOC transport relative to 1995-2014 (defined as maximum transport at 26°N). Assessed observational change spans 2004-2018 from the RAPID array smoothed with a 12-month running mean (shading around the mean shows the 12-month running standard deviation around the mean).",    "(c) Global mean percent change in ocean oxygen (100–600 m depth), relative to 1995-2014. Assessed observational trends and very likely range are from the SROCC assessment, and spans 1970–2010 centered on 2005.",    "(d) Global mean surface pH. Assessed observational change span 1985-2019, from the CMEMS SOCAT-based reconstruction (shading around the global mean shows the 90% confidence interval).",    "(e), (f): Ice sheet mass changes. Projected ice sheet changes are shown as median, 5-95% range (light shading), and 17-83% range (dark shading) of cumulative mass loss and sea level equivalent from ISMIP6 emulation under SSP1-26 and SSP5-85 (shading and bold line), with individual emulated projections as thin lines. Median (dot), 17-83% range (thick vertical bar), and 5-95% range (thin vertical bar) in 2100 are shown as vertical bars on the right-hand side of each panel, from ISMIP6, ISMIP6 emulation, and LARMIP-2. ",    "Observation-based estimates: For Greenland (e), for 1972-2018 (Mouginot), for 1992-2016 (Bamber), for 1992-2020 (IMBIE) and total estimated mass loss range for 1840-1972 (Box). For Antarctica (f), estimates based on satellite data combined with simulated surface mass balance and glacial isostatic adjustment for 1992-2020 (IMBIE), 1992-2016 (Bamber), and 1979-2017 (Rignot). Left inset maps: mean Greenland elevation changes 2010-2017 derived from CryoSat-2 radar altimetry (e) and mean Antarctica elevation changes 1978-2017 derived from restored analog radar records (f). Right inset maps: ISMIP6 model mean (2093- 2100) projected changes under the MIROC5 climate model for the RCP8.5 scenario. {Box 9.2, 2.3.3, 2.3.4, 3.5.4, 4.3.2, 5.3.2, 5.3.3, 5.6.3, 9.2.3, 9.4.1, 9.4.2, Box 9.2,Figure1, Figure 9.10, Figure 9.17, Figure 9.18}  "]
             }
         },
         "TS.12": {
@@ -1565,7 +1565,353 @@
                 ]
             }
         },
-        "TS.X": {
+        "1.1": {
+            "title": {
+                "en_EN":"The structure of the AR6 WGI Report."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Shown are the three pillars of the AR6 WGI, its relation to the WGII and WGIII contributions, and the cross-working-group AR6 Synthesis Report (SYR)."
+                ]
+            }
+        },
+        "1.2": {
+            "title": {
+                "en_EN":"Main relations between AR5 WGI and AR6 WGI chapters."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The left column shows the AR5 WGI chapter categories. The central column lists the AR5 WGI chapters, with the colour code indicating their relation to the AR6 WGI structure shown in Figure 1.1: Large-Scale Information (red), Process Understanding (gold), Regional Information (light blue), and Whole-Report Information (dark blue). AR5 WGI chapters depicted in white have their topics distributed over multiple AR6 WGI chapters and categories. The right column explains where to find related information in the AR6 WGI report. "
+                ]
+            }
+        },
+        "1.3": {
+            "title": {
+                "en_EN":"A roadmap to the contents of Chapter 1."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": []
+            }
+        },
+        "1.4": {
+            "title": {
+                "en_EN":"Changes are occurring throughout the climate system."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [    "Left: Main realms of the climate system: atmosphere, biosphere, cryosphere, and ocean.",    "Right: Six key indicators of ongoing changes since 1850, or the start of the observational or assessed record, through 2018. Each stripe indicates the global (except for precipitation which shows two latitude band means), annual mean anomaly for a single year, relative to a multi-year baseline (except for CO2 concentration and glacier mass loss, which are absolute values). Grey indicates that data are not available. Datasets and baselines used are: (1) CO2: Antarctic ice cores (Lüthi et al., 2008; Bereiter et al., 2015) and direct air measurements (Tans and Keeling, 2020) (see Figure 1.5 for details); (2) precipitation: Global Precipitation Climatology Centre (GPCC) V8 (updated from Becker et al. 2013), baseline 1961-1990 using land areas only with latitude bands 33°N–66°N and 15°S–30°S; (3) glacier mass loss: Zemp et al., 2019; (4) global surface air temperature (GMST): HadCRUT5 (Morice et al., 2021), baseline 1961–1990; (5) sea level change: (Dangendorf et al., 2019), baseline 1900–1929; (6) ocean heat content (model-observation hybrid): Zanna et al., (2019), baseline 1961–1990. Further details on data sources and processing are available in the chapter data table (Table 1.SM.1). "]
+            }
+        },
+        "1.5": {
+            "title": {
+                "en_EN":"Long-term context of anthropogenic climate change based on selected paleoclimatic reconstructions over the past 800,000 years for three key indicators: atmospheric CO2 concentrations, Global Mean Surface Temperature (GMST), and Global Mean Sea Level (GMSL)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [    "a) Measurements of CO2 in air enclosed in Antarctic ice cores (Lüthi et al., 2008; Bereiter et al., 2015 [a compilation]; uncertainty ±1.3ppm; see Chapter 2, Section 2.2.3 and Chapter 5, Section 5.1.2 for an assessment) and direct air measurements (Tans and Keeling, 2020; uncertainty ±0.12 ppm). Projected CO2 concentrations for five Shared Socioeconomic Pathways (SSP) scenarios are indicated by dots on the right-hand side panels of the figure (grey background) (Meinshausen et al., 2020; SSPs are described in Section 1.6).",    "b) Reconstruction of GMST from marine paleoclimate proxies (light grey: Snyder (2016); dark grey: Hansen et al. (2013); see Chapter 2, Section 2.3.1 for an assessment). Observed and reconstructed temperature changes since 1850 are the AR6 assessed mean (referenced to 1850–1900; Box TS.3; 2.3.1.1); dots/whiskers on the right-hand side panels of the figure (grey background) indicate the projected mean and ranges of warming derived from Coupled Model Intercomparison Project Phase 6 (CMIP6) SSP-based (2081–2100) and Model for the Assessment of Greenhouse Gas Induced Climate Change (MAGICC7) (2300) simulations (Chapter 4, Tables 4.5 and 4.9).",    "c) Sea level changes reconstructed from a stack of oxygen isotope measurements on seven ocean sediment cores (Spratt and Lisiecki, 2016; see Chapter 2, Section 2.3.3.3 and Chapter 9, Section 9.6.2 for an assessment). The sea level record from 1850 to 1900 is from Kopp et al. (2016), while the 20th century record is an updated ensemble estimate of GMSL change (Palmer et al., 2021; see also Chapter 2, Section 2.3.3.3 and Chapter 9, Section 9.6.1.1). Dots/whiskers on the right-hand side panels of the figure (grey background) indicate the projected median and ranges derived from SSP-based simulations (2081–2100: Chapter 9, Table 9.9; 2300: Chapter 9, Section 9.6.3.5). Best estimates (dots) and uncertainties (whiskers) as assessed by Chapter 2 are included in the left and middle panels for each of the three indicators and selected paleo-reference periods used in this report (CO2: Chapter 2, Table 2.1; GMST: Chapter 2, Section 2.3.1.1 and Cross-Chapter Box 2.3, Table 1 in Chapter 2; GMSL: Chapter 2, Section 2.3.3.3 and Chapter 9, Section 9.6.2. See also Cross-Chapter Box 2.1 in Chapter 2). Selected paleo-reference periods: LIG – Last Interglacial; LGM – Last Glacial Maximum; MH – mid-Holocene (Cross-Chapter Box 2.1, Table 1 in Chapter 2). The non-labelled best estimate in panel c) corresponds to the sea level high-stand during Marine Isotope Stage 11, about 410,000 years ago (see Chapter 9, Section 9.6.2). Further details on data sources and processing are available in the chapter data table (Table 1.SM.1). "]
+            }
+        },
+        "1.6": {
+            "title": {
+                "en_EN":"Climate science milestones, between 1817-2021"
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [    "Milestones in observations (top); Curves of global surface air temperature (GMST) using HadCRUT5 (Morice et al., 2021) and atmospheric CO2 concentrations from Antarctic ice cores (Lüthi et al., 2008; Bereiter et al., 2015) and direct air measurements from 1957 onwards (Tans and Keeling, 2020) (see Figure 1.4 for details) (middle). ",    "Milestone in scientific understanding of the CO2 enhanced greenhouse effect (bottom). Further details on each milestone are available in Chapter 1, Section 1.3, and Chapter 1 of AR4. "]
+            }
+        },
+        "1.7": {
+            "title": {
+                "en_EN":"Schematic of temporal coverage of selected instrumental climate observations (top) and selected paleoclimate archives (bottom)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The satellite era began in 1979 CE (Common Era). The width of the taper gives an indication of the amount of available records."
+                ]
+            }
+        },
+        "1.8": {
+            "title": {
+                "en_EN":"G.S. Callendar’s estimates of global land temperature variations and their possible causes."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [    "(a) The original figure from Callendar (1938), using measurements from 147 surface stations for 1880–1935, showing: (top) ten-year moving departures from the mean of 1901-1930 (°C), with the dashed line representing his estimate of the ‘CO2 effect’ on temperature rise, and (bottom) annual departures from the 1901–1930 mean (°C).",    "(b) Comparing the estimates of global land (60°S–60°N) temperatures tabulated in Callendar (1938, 1961) with a modern reconstruction (Osborn et al., 2021) for the same period, after (Hawkins and Jones (2013). Further details on data sources and processing are available in the chapter data table (Table 1.SM.1)."]
+            }
+        },
+        "1.9": {
+            "title": {
+                "en_EN":"Assessing past projections of global temperature change."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Projected temperature change post-publication on a temperature vs time (1970–2020, top panel) and temperature vs radiative forcing (1970–2017, bottom panel) basis for a selection of prominent climate model projections (taken from Hausfather et al., 2020). Model projections (using global surface air temperature, GSAT) are compared to temperature observations (using global mean surface temperature, GMST) from HadCRUT5 (black) and anthropogenic forcings (through 2017) from Dessler and Forster (2018), and have a baseline generated from the first five years of the projection period. Projections shown are: Manabe (1970), Rasool and Schneider (1971), Broecker (1975), Nordhaus (1977), Hansen et al. (1981, H81), Hansen et al. (1988, H88), Manabe and Stouffer (1993), along with the Energy Balance Model (EBM) projections from the FAR, SAR and TAR, and the multi-model mean projection using CMIP3 simulations of the Special Reports on Emission Scenarios (SRES) A1B scenario from AR4. H81 and H88 show most excpected scenarios 1 and B, respectively. See Hausfather et al. (2020) for more details of the projections. Further details on data sources and processing are available in the chapter data table (Table 1.SM.1). "
+                ]
+            }
+        },
+        "1.10": {
+            "title": {
+                "en_EN":"Range of projected temperature change for 1990–2030 for various regions defined in IPCC First Assessment Report (FAR)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The left panel shows the FAR projections (IPCC, 1990a) for Southern Europe, with darker red bands representing the range of projected change given for the best estimate of 1.8°C global warming since pre-industrial to 2030, and the fainter red bands show the range scaled by –30% to +50% for lower and higher estimates of global warming. Blue lines show the regionally averaged observations from several global temperature gridded datasets, and blue dashed lines show the linear trends in those datasets for 1990–2020 extrapolated to 2030. Observed datasets are: HadCRUT5, Cowtan and Way, GISTEMP, Berkeley Earth and NOAA GlobalTemp. The inset map shows the definition of the FAR regions used. The right panel shows projected temperature changes by 2030 for the various FAR regions, compared to the extrapolated observational trends, following Grose et al. (2017). Further details on data sources and processing are available in the chapter data table (Table 1.SM.1). "
+                ]
+            }
+        },
+        "1.11": {
+            "title": {
+                "en_EN":"Choice of baseline matters when comparing observations and model simulations."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Global surface air temperature (GSAT, grey) from a range of CMIP6 historical simulations (1850–2014, 25 models) and SSP1-2.6 (2015–2100) using absolute values (top) and anomalies relative to two different baselines: 1850–1900 (middle) and 1995–2014 (bottom). An estimate of GSAT from a reanalysis (ERA-5, orange, 1979–2020) and an observation-based estimate of global mean surface air temperature (GMST) (Berkeley Earth, black, 1850–2020) are shown, along with the mean GSAT for 1961–1990 estimated by Jones et al. (1999), light blue shading, 14.0±0.5°C). Using the more recent baseline (bottom) allows the inclusion of datasets which do not include the periods of older baselines. The middle and bottom panels have scales which are the same size but offset. Further details on data sources and processing are available in the chapter data table (Table 1.SM.1). "
+                ]
+            }
+        },
+        "1.12": {
+            "title": {
+                "en_EN":"Global warming over the instrumental period"
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Observed global mean surface temperature (GMST) from four datasets, relative to the average temperature of 1850–1900 in each dataset (see Cross-Chapter Box 2.3 and Section 2.3.1.1 for more details). The shaded grey band indicates the assessed likely range for the period around 1750 (see Cross-Chapter Box 1.2). Different reference periods are indicated by the coloured horizontal lines, and an estimate of total GMST change up to that period is given, enabling a translation of the level of warming between different reference periods. The reference periods are all chosen because they have been used in the AR6 or previous IPCC assessment reports. The value for the 1981–2010 reference period, used as a ‘climate normal’ period by the World Meteorological Organization, is the same as the 1986–2005 reference period shown. Further details on data sources and processing are available in the chapter data table (Table 1.SM.1). "
+                ]
+            }
+        },
+        "1.13": {
+            "title": {
+                "en_EN":"Simulated changes in various climate indicators under historical and RCP4.5 scenarios using the MPI ESM Grand Ensemble."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The grey shading shows the 5–95% range from the 100-member ensemble. The coloured lines represent individual example ensemble members, with linear trends for the 2011–2021 period indicated by the thin dashed lines. Changes in Ocean Heat Content (OHC) over the top 2000m represents the integrated signal of global warming (left). The top row shows surface air temperature-related indicators (annual GSAT change and UK summer temperatures) and the bottom row shows Arctic sea-ice related indicators (annual ice volume and September sea ice extent). For smaller regions and for shorter time period averages the variability increases and simulated short-term trends can temporarily obscure or intensify anthropogenic changes in climate. Data from Maher et al., (2019). Further details on data sources and processing are available in the chapter data table (Table 1.SM.1). "
+                ]
+            }
+        },
+        "1.14": {
+            "title": {
+                "en_EN":"The observed emergence of changes in temperature."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [    "Top left: the total change in temperature estimated for 2020 relative to 1850–1900 (following Hawkins et al. 2020), showing the largest warming in the Arctic.",    "Top right: the amplitude of estimated year-to-year variations in temperature. Middle left: the ratio of the observed total change in temperature and the amplitude of temperature variability (the ‘signal-to-noise (S/N) ratio’), showing that the warming is most apparent in the tropical regions (also see FAQ1.2).",    "Middle right: the global warming level at which the change in local emperature becomes larger than the local year-to-year variability.",    "The bottom panels show time series of observed annual mean surface air temperatures over land in various example regions, as indicated as boxes in the top left panel. The 1 and 2 standard deviations of estimated year-to-year variations for that region are shown by the pink shaded bands. Observed temperature data from Berkeley Earth (Rohde and Hausfather, 2020). Further details on data sources and processing are available in the chapter data table (Table 1.SM.1). "]
+            }
+        },
+        "1.15": {
+            "title": {
+                "en_EN":"The ‘cascade of uncertainties’ in CMIP6 projections"
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Changes in GSAT (left), northern South America (region NSA) temperature change (middle), and East Asia (region EAS) summer (JJA) precipitation change (right) are shown for two time periods (2041–2060, top, and 2081–2100, bottom). The SSP-radiative forcing combination is indicated at the top of each cascade at the value of the multi-model mean for each scenario. This branches downwards to show the ensemble mean for each model, and further branches into the individual ensemble members, although often only a single member is available. These diagrams highlight the relative importance of different sources of uncertainty in climate projections, which varies for different time periods, regions and climate variables. See Section 1.4.5 for the definition of the regions used. Further details on data sources and processing are available in the chapter data table (Table 1.SM.1). "
+                ]
+            }
+        },
+        "1.16": {
+            "title": {
+                "en_EN":"Illustrating concepts of low-likelihood scenarios."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [    "Left: schematic likelihood distribution consistent with the IPCC AR6 assessments that equilibrium climate sensitivity (ECS) is likely in the range 2.5 to 4.0°C, and very likely between 2.0 and 5.0°C (Chapter 7). ECS values outside the assessed very likely range are designated low-likelihood scenarios in this example (light grey).",    "Middle and right columns: additional risks due to climate change for 2020–2090 using the Reasons For Concern (RFCs, see IPCC, 2014), specifically RFC1 describing the risks to unique and threatened systems and RFC3 describing risks from the distribution of impacts (O’Neill et al., 2017b; Zommers et al., 2020). The projected changes of GSAT used are the 95%, median and 5% assessed ranges from Chapter 4 for each SSP (top, middle and bottom); these are designated High ECS, Mid-range ECS and Low ECS respectively. The burning-ember risk spectrum is usually associated with levels of committed GSAT change; instead, this illustration associates the risk spectrum with the GSAT reached in each year from 2020 to 2090. Note that this illustration does not include the vulnerability aspect of each SSP scenario.",    "Further details on data sources and processing are available in the chapter data table (Table 1.SM.1). "]
+            }
+        },
+        "1.17": {
+            "title": {
+                "en_EN":"Illustration of two types of tipping points: noise-induced (panels a, b) and bifurcation (panels c, d)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a), (c) example time-series (coloured lines) through the tipping point with black solid lines indicating stable climate states (e.g., low or high rainfall) and dashed lines represent the boundary between stable states. (b), (d) stability landscapes provide an intuitive understanding for the different types of tipping point. The valleys represent different climate states the system can occupy, with hill tops separating the stable states. The resilience of a climate state is implied by the depth of the valley. The current state of the system is represented by a ball. Both scenarios assume that the ball starts in the left-hand valley (black dashed lines) and then through different mechanisms dependent on the type of tipping transitions to the right valley (coloured lines). Noise-induced tipping events, for instance drought events causing sudden dieback of the Amazonian rainforest, develop from fluctuations within the system. The stability landscape in this scenario remains fixed and stationary. A series of perturbations in the same direction or one large perturbation are required to force the system over the hill top and into the alternative stable state. Bifurcation tipping events, such as a collapse of the thermohaline circulation in the Atlantic Ocean under climate change, occur when a critical level in the forcing is reached. Here the stability landscape is subjected to a change in shape. Under gradual anthropogenic forcing the left valley begins to shallow and eventually vanishes at the tipping point, forcing the system to transition to the right-hand valley."
+                ]
+            }
+        },
+        "1.19": {
+            "title": {
+                "en_EN":"Resolution of the atmospheric and oceanic components of global climate models participating in CMIP5, CMIP6, and HighResMIP:"
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) (b) horizontal resolution (km), and (c) (d) number of vertical levels. Darker colour circles indicate high-top models (whose top of the atmosphere is above 50 km). The crosses are the median values. These models are documented in Annex II. Note that duplicated models in a modelling group are counted as one entry when their horizontal and vertical resolutions are same. For HighResMIP, one atmosphere-ocean coupled model with the highest resolution from each modelling group is used. The horizontal resolution (rounded to 10km) is the square root of the number of grid points divided by the surface area of the Earth, or the number of surface ocean grid points divided by the area of the ocean surface, for the atmosphere and ocean respectively. "
+                ]
+            }
+        },
+        "1.20": {
+            "title": {
+                "en_EN":"A world map showing the increased diversity of modelling centres contributing to CMIP and CORDEX."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Climate models are often developed by international consortia. EC-Earth is shown as an example (involving SMHI, Sweden; KNMI, The Netherlands; DMI, Denmark; AEMET, Spain; Met Éireann, Ireland; CNR‐ISAC, Italy; Instituto de Meteorologia, Portugal; FMI, Finland), but there are too many such collaborations to display all of them on this map. More complete information about institutions contributing to CORDEX and CMIP6 is found in Annex II.  "
+                ]
+            }
+        },
+        "1.21": {
+            "title": {
+                "en_EN":"Illustration of common types of model ensemble, simulating the time evolution of a quantity Q (such as global mean surface temperature)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [    "(a) Multi-model ensemble, where each model has its own realization of the processes affecting Q, and its own internal variability around the baseline value (dashed line). The multi-model mean (black) is commonly taken as the ensemble average.",    "(b) Initial condition ensemble, where several realizations from a single model are compared. These differ only by minute (‘micro’) perturbations to the initial conditions of the simulation, such that over time, internal variability will progress differently in each ensemble member.",    "(c) Perturbed physics ensemble, which also compares realizations from a single model, but where one or more internal parameters that may affect the simulations of Q are systematically changed to allow for a quantification of the effects of those quantities on the model results. Additionally, each parameter set may be taken as the starting point for an initial condition ensemble. In this figure, each set has three ensemble members. "]
+            }
+        },
+        "1.22": {
+            "title": {
+                "en_EN":"Structure of CMIP6, the 6th phase of the Coupled Model Intercomparison Project."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The centre shows the common DECK (Diagnostic, Evaluation and Characterization of Klima) and historical experiments that all participating models must perform. The outer circles show the topics covered by the endorsed (blue) and other MIPs (red). See Table 1.3 for explanation of the MIP acronyms. (Expanded from Eyring et al., 2016)."
+                ]
+            }
+        },
+        "1.23": {
+            "title": {
+                "en_EN":"The principle of emergent constraints."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "An ensemble of models (blue dots) defines a relationship between an observable, mean, trend or variation in the climate (x-axis) and an uncertain projection, climate sensitivity or feedback (y-axis). An observation of the x-axis variable can then be combined with the model-derived relationship to provide a tighter estimate of the climate projection, sensitivity or feedback on the y-axis (adapted from Eyring et al. 2019)."
+                ]
+            }
+        },
+        "1.24": {
+            "title": {
+                "en_EN":"The Dimensions of Integration across Chapters and Working Groups in the IPCC AR6 assessment."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "This report adopts three explicit dimensions of integration to integrate knowledge across chapters and Working Groups. The first dimension is scenarios, the second dimension is global-mean warming levels relative to 1850-1900, and the third dimension is cumulative CO2 emissions. For the scenarios, illustrative 2100 end-points are also indicated (white circles). Further details on data sources and processing are available in the chapter data table (Table 1.SM.1)."
+                ]
+            }
+        },
+        "1.25": {
+            "title": {
+                "en_EN":"Global mean surface air temperature (GSAT) illustrated as warming stripes from blue (cold) to red (warm) over three different time periods."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "From 1750 to 1850 based on PAGES 2K reconstructions (2017, 2019); from 1850 to 2018 showing the composite GSAT time series assessed in Chapter 2; and from 2020 onwards using the assessed GSAT projections for each Shared Socio-economic Pathway (SSP) (from Chapter 4). For the projections, the upper end of each arrow aligns with colour corresponding to the 95th percentile of the projected temperatures and the lower end aligns with the colour corresponding to the 5th percentile of the projected temperature range. Projected temperatures are shown for five scenarios from ‘very low’ SSP1-1.9 to ‘very high’ SSP5-8.5 (see Cross-Chapter Box 1.4 for more details on the scenarios). For illustrative purposes, natural variability has been added from a single CMIP6 Earth system model (MRI ESM2). The points in time when total CO2 emissions peak, reach halved levels of the peak and reach net-zero emissions are indicated with arrows, ‘½’ and ‘0’ marks, respectively. Further details on data sources and processing are available in the chapter data table (Table 1.SM.1). "
+                ]
+            }
+        },
+        "1.26": {
+            "title": {
+                "en_EN":"Historical and projected future concentrations of CO2, CH4 and N2O and global mean surface temperatures (GMST)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [    "GMST temperature reconstructions over the last 2000 years were compiled by the PAGES 2k Consortium (2017, 2019) (grey line, with 95% uncertainty range), joined by historical GMST timeseries assessed in Chapter 2 (black line) – both referenced against the 1850-1900 period. ",    "Future GSAT temperature projections are from CMIP6 ESM models across all concentration-driven SSP scenario projections (Chapter 4). The discontinuity around year 2100 for CMIP6 temperature projections results from the fact that not all ESM models ran each scenario past 2100. The grey vertical band indicates the future 2015-2300 period. The concentrations used to drive CMIP6 Earth System Models are derived from ice core, firn and instrumental datasets (Meinshausen et al., 2017) and projected using an emulator (Cross-Chapter Box 7.1 in Chapter 7; Meinshausen et al., 2020). The colours of the lines indicate the SSP scenarios used in this report (see Cross-Chapter Box 1.4, Figure 1). ",    "Further details on data sources and processing are available in the chapter data table (Table 1.SM.1). "]
+            }
+        },
+        "1.27": {
+            "title": {
+                "en_EN":"A simplified illustration of the scenario generation process that involves the scientific communities represented in the three IPCC Working Groups."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The circular set of arrows at the top indicate the main set of models and workflows used in that scenario generation process, with the lower level indicating the datasets. "
+                ]
+            }
+        },
+        "1.28": {
+            "title": {
+                "en_EN":"Comparison of the range of fossil and industrial CO2 emissions from scenarios used in previous assessments up to AR6."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Previous assessments are the IS92 scenarios from 1992 (top panel), the Special Report on Emissions Scenarios (SRES) scenarios from the year 2000 (second panel), the Representative Concentration Pathway (RCP) scenarios designed around 2010 (third panel) and the Shared Socio-economic Pathways (SSP) scenarios (second bottom panel). In addition, historical emissions are shown (black line) (Chapter 5, Figure 5.5); a more complete set of scenarios is assessed in SR1.5 (bottom panel) (Huppmann et al., 2018). Further details on data sources and processing are available in the chapter data table (Table 1.SM.1). "
+                ]
+            }
+        },
+        "1.29": {
+            "title": {
+                "en_EN":"The role of CO2 in driving future climate change in comparison to other greenhouse gases (GHGs). "
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The GHGs included here are CH4, N2O, and 40 other long-lived, well-mixed GHGs. The blue shaded area indicates the approximate forcing exerted by CO2 in Shared Socio-economic Pathways (SSP) scenarios, ranging from very low SSP1-1.9 to very high SSP5-8.5 (Chapter 7). The CO2 concentrations under the SSP1-1.9 scenarios reach approximately 350 ppm after 2150, while those of SSP5-8.5 exceed 2000 ppm CO2 in the longer term (through year 2300). Similarly to the dominant radiative forcing share at each point in time (lower area plots), cumulative GWP-100-weighted GHG emissions happen to be closely correlated with cumulative CO2 emissions, allowing policymakers to make use of the carbon budget concept in a policy context with multi-gas GHG baskets as it exhibits relatively low variation across scenarios with similar cumulative emissions until 2050 (inset panel). Further details on data sources and processing are available in the chapter data table (Table 1.SM.1). "
+                ]
+            }
+        },
+        "1.X": {
             "title": {
                 "en_EN":""
             },
