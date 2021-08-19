@@ -245,7 +245,7 @@ followed (TS.1.3). For example, there is medium confidence that, by 2300, an int
 the report leads to global surface temperatures of 2.3°C–4.6°C higher than 1850–1900, similar to the mid-
 Pliocene Warm Period (2.5°C–4°C), about 3.2 million years ago, whereas the high CO₂ emissions scenario 
 SSP5-8.5 leads to temperatures of 6.6°C–14.1°C by 2300, which overlaps with the Early Eocene Climate 
-Optimum (10°C–18°C), about 50 million years ago. {Cross-Chapter Box 2.1 and 2.4, 2.3.1, 4.3.1.1, 4.7.1.2, 
+Optimum (10°C–18°C), about 50 million years ago. {Cross-Chapter Box 2.1 , Cross-Chapter Box 2.4, 2.3.1, 4.3.1.1, 4.7.1.2, 
 7.4.4.1} 
  
 <figref>TS.1</figref>
@@ -289,8 +289,7 @@ allow a better closure of the global energy and sea level budgets relative to AR
 based networks, apparent regional data reductions result from a combination of data policy issues, data 
 curation/provision challenges, and real cessation of observations, and are to an extent counter-balanced by 
 improvements elsewhere. Limited observational records of extreme events and spatial data gaps currently 
-limit the assessment of some observed regional climate change. {1.5.1, 2.3.2, 7.2.2, Box 7.2, Cross-Chapter 
-Box 9.1, 9.6.1, 10.2.2, 10.6, 11.2, 12.4} 
+limit the assessment of some observed regional climate change. {1.5.1, 2.3.2, 7.2.2, Box 7.2, Cross-Chapter Box 9.1, 9.6.1, 10.2.2, 10.6, 11.2, 12.4} 
  
 New paleoclimate reconstructions from natural archives have enabled more robust reconstructions of the 
 spatial and temporal patterns of past climate changes over multiple time scales (Box TS.2). However, 
@@ -844,7 +843,7 @@ cryospheric hazards (snow cover, ice extent, permafrost) and oceanic hazards (ma
 confidence) (Figure TS.6). Establishing links between specific GWLs with tipping points and irreversible 
 behaviour is challenging due to model uncertainties and lack of observations, but their occurrence cannot be 
 excluded, and their likelihood of occurrence generally increases at greater warming levels (Box TS.1, TS.9). 
-{11.2.4, Box 11.2, Cross-Chapter Boxes 11.1 and 12.1} 
+{11.2.4, Box 11.2, Cross-Chapter Box 11.1 and Cross-Chapter Box 12.1} 
  
  
 # TS.2  Large-scale Climate Change: Mean Climate, Variability and Extremes 

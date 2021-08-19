@@ -31,6 +31,11 @@
             }
         },
         "footnotes": {
+            "1":"In this Technical Summary, the following summary terms are used to describe the available evidence: limited, medium, or robust; and for the degree of agreement: low, medium, or high. A level of confidence is expressed using five qualifiers: very low, low, medium, high, and very high, and typeset in italics, e.g., medium confidence. For a given evidence and agreement statement, different confidence levels can be assigned, but increasing levels of evidence and degrees of agreement are correlated with increasing confidence (see Chapter 1, Box 1.1 for more details). ",
+            "2":"In this Technical Summary, the following terms have been used to indicate the assessed likelihood of an outcome or a result: virtually certain 99–100% probability, very likely 90–100%, likely 66–100%, about as likely as not 33–66%, unlikely 0–33%, very unlikely 0–10%, exceptionally unlikely 0–1%. Additional terms (extremely likely: 95–100%, more likely than not >50–100%, and extremely unlikely 0–5%) may also be used when appropriate. Assessed likelihood is typeset in italics, e.g., very likely (see Chapter 1, Box 1.1 for more details). Throughout the WGI report and unless stated otherwise, uncertainty is quantified using 90% uncertainty intervals. The 90% uncertainty interval, reported in square brackets [x to y], is estimated to have a 90% likelihood of covering the value that is being estimated. The range encompasses the median value, and there is an estimated 10% combined likelihood of the value being below the lower end of the range (x) and above its upper end (y). Often the distribution will be considered symmetric about the corresponding best estimate, but this is not always the case. In this report, an assessed 90% uncertainty interval is referred to as a ‘very likely range’. Similarly, an assessed 66% uncertainty interval is referred to as a ‘likely range’. ",
+            "3":"The regional trackback matrices that provide the location of the assessment findings synthesized in TS.4 are in the Supplementary Material (SM) for Chapter 10. ",
+            "4":"The AR6 figures follow either one of the following approaches. For observations, the absence of ‘x’ symbols shows areas with statistical significance (while the presence of ‘x’ indicates non-significance). For model projections, the method offers two approaches with varying complexity. In the simple approach, high agreement (≥80%) is indicated with no overlay, and diagonal lines (\/\/\/) shows low agreement (<80%); In the advanced approach, areas with no overlay display robust signal (≥66% of models show change greater than the variability threshold and ≥80% of all models agree on the sign of change), reverse diagonal lines (\\\\\\\\) shows no robust signal, and crossed lines show conflicting signals (i.e., significant change but low agreement). Cross-Chapter Box Atlas.1 provides more information on the AR6 method for visualizing robustness and uncertainty on maps. ",
+            "5":"Although not a core concept of the WGI Report, deep uncertainty is used in the Technical Summary in the following sense: ‘A situation of deep uncertainty exists when experts or stakeholders do not know or cannot agree on: (1) appropriate conceptual models that describe relationships among key driving forces in a system; (2) the probability distributions used to represent uncertainty about key variables and parameters; and/or (3) how to weigh and value desirable alternative outcomes’ (Lempert et al., 2003). Lempert, R. J., Popper, S. W., and Bankes, S. C. (2003). Shaping the next one hundred years: New methods for quantitative long-term strategy analysis (MR-1626-RPC). Santa Monica, CA: The RAND Pardee Center. ",
             "6": "Other GHG concentrations in 2019 were: PFCs (109 ppt CF<sub>4</sub> equivalent); SF<sub>6</sub> (10 ppt); NF<sub>3</sub> (2 ppt); HFCs (237 ppt HFC-134a equivalent); other Montreal Protocol gases (mainly CFCs, HCFCs, 1032 ppt CFC-12 equivalent). Increases from 2011 are 19 ppm for CO<sub>2</sub>, 63 ppb for CH<sub>4</sub> and 8 ppb for N<sub>2</sub>O.",
             "7": "Land and ocean are not substantial sinks for other GHGs.",
             "8": "The term ‘global surface temperature’ is used in reference to both global mean surface temperature and global surface air temperature throughout this SPM. Changes in these quantities are assessed with high confidence to differ by at most 10% from one another, but conflicting lines of evidence lead to low confidence in the sign of any difference in long-term trend. {Cross-Section Box TS.1}",
@@ -9272,7 +9277,19 @@
                             {
                                 "ref": "TS.4.3.2",
                                 "en_EN": "Region-by-Region Changes in Climatic Impact-Drivers",
-                                "startPage": 89
+                                "startPage": 89,
+                                "chapters": [
+                                    {"ref":"TS.4.3.2.1","en_EN":"Africa", "startPage":90},
+                                    {"ref":"TS.4.3.2.2","en_EN":"Asia", "startPage":91},
+                                    {"ref":"TS.4.3.2.3","en_EN":"Australasia", "startPage":93},
+                                    {"ref":"TS.4.3.2.4","en_EN":"Central and South America", "startPage":94},
+                                    {"ref":"TS.4.3.2.5","en_EN":"Europe", "startPage":95},
+                                    {"ref":"TS.4.3.2.6","en_EN":"North America", "startPage":95},
+                                    {"ref":"TS.4.3.2.7","en_EN":"Small Islands", "startPage":96},
+                                    {"ref":"TS.4.3.2.8","en_EN":"Polar", "startPage":97},
+                                    {"ref":"TS.4.3.2.9","en_EN":"Ocean", "startPage":98},
+                                    {"ref":"TS.4.3.2.10","en_EN":"Other Typological Domains", "startPage":99}
+                                ]
                             }
                         ]
                     }
