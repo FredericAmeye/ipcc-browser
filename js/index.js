@@ -712,7 +712,7 @@ function dispSource(e)
         return false;
     }
     let chap0 = src.split('.')[0];
-    if(chap0 == '1' || chap0 == '2') {
+    if(chap0 == '1' || chap0 == '2' || chap0 == '3') {
         // chapter 1 available
         loadMainPanel(chap0, src);
         return false;
