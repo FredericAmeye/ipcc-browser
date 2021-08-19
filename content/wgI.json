@@ -1911,7 +1911,491 @@
                 ]
             }
         },
-        "1.X": {
+        "2.1": {
+            "title": {
+                "en_EN":"Chapter 2 visual abstract of contents. "
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": []
+            }
+        },
+        "2.2": {
+            "title": {
+                "en_EN":"Time series of solar and volcanic forcing for the past 2.5 kyr (panels a, c) and since 1850 (panels b, d)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [    "(a) Total solar irradiance (TSI) reconstruction (10-year running averages) recommended for CMIP6 / PMIP4 millennial experiments based on the radiocarbon dataset before 1850 (blue) scaled to the CMIP6 historical forcing after 1850 (purple).",    "(b) TSI time series (6-month running averages) from CMIP6 historical forcing as inferred from sunspot numbers (blue), compared to CMIP5 forcing based on (red) and an update to CMIP6 by a TSI composite (orange).",    "(c) Volcanic forcing represented as reconstructed Stratospheric aerosol optical depth (SAOD; as presented in Section 7.3.4.6) at 550 nm. Estimates covering 500 BCE to 1900 CE (green) and 1850–2015 (blue).",    "(d) SAOD reconstruction from CMIP6 (v4) (blue), compared to CMIP5 forcing (red).",    "Note the change in y-axis range between panels c and d. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1). "]
+            }
+        },
+        "2.3": {
+            "title": {
+                "en_EN":"The evolution of atmospheric CO2 through the last 450 million years."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The periods covered are 0–450 Ma (a), 0–58 Ma (b), and 0–3500 ka (c), econstructed from continental rock, marine sediment and ice core records. Note different timescales and axes ranges in panels (a), (b) and (c). Dark and light green bands in (a) are uncertainty envelopes at 68% and 95% uncertainty, respectively. 100 ppm in each panel is shown by the marker in the lower right hand corner to aid comparison between panels. In panel (b) and (c) the major paleoclimate reference periods (CCB2.1) have been labelled, and in addition: MPT (Mid Pleistocene Transition), MCO (Miocene Climatic Optimum). Further details on data sources and processing are available in the chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.4": {
+            "title": {
+                "en_EN":"Atmospheric WMGHG concentrations from ice cores. "
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) Records during the last 800 kyr with the LGM to Holocene transition as inset. (b) Multiple high-resolution records over the CE. The horizontal black bars in the panel a inset indicate Last Glacial Maximum (LGM) and Last Deglacial Termination (LDT) respectively. The red and blue lines in (b) are 100-year running averages for CO2 and N2O concentrations, respectively. The numbers with vertical arrows in (b) are instrumentally measured concentrations in 2019. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.5": {
+            "title": {
+                "en_EN":"Globally averaged dry-air mole fractions of well-mixed greenhouse gases."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) CO2 from SIO, CSIRO, and NOAA/GML (b) CH4 from NOAA, AGAGE, CSIRO, and UCI; and (c) N2O from NOAA, AGAGE, and CSIRO (see Table 2.2). Growth rates, calculated as the time derivative of the global means after removing seasonal cycle are shown as inset figures. Note that the CO2 series is 1958–2019 whereas CH4, and N2O are 1979–2019. Further details on data are in Annex III,  and on data sources and processing are available in the chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.6": {
+            "title": {
+                "en_EN":"Global mean atmospheric mixing ratios of select ozone-depleting substances and other greenhouse gases."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Data shown are based on the CMIP6 historical dataset and data from NOAA and AGAGE global networks. PFCs include CF4, C2F6, and C3F8, and c-C4F8; Halons include halon-1211, halon-1301, and halon-2402; other HFCs include HFC-23, HFC-32, HFC-125, HFC-143a, HFC-152a, HFC-227ea, HFC-236fa, HFC-245fa, and HFC-365mfc, and HFC-43-10mee. Note that the y-axis range is different for a, b and c and a 25 ppt yardstick is given next to each panel to aid interpretation. Further data are in Annex III,  and details on data sources and processing are available in the chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.7": {
+            "title": {
+                "en_EN":"Time series of annual mean total column ozone from 1964-2019."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Values are in Dobson Units (DU), a good proxy for vertically integrated stratospheric ozone. Time series are shown for (a) near-global domain, (b-d) three zonal bands and (e) polar (60°–90°) total ozone in March (NH) and October (SH) ; the months when polar ozone losses usually are largest. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.8": {
+            "title": {
+                "en_EN":"Surface and tropospheric ozone trends."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [    "(a) Decadal ozone trends by latitude at 28 remote surface sites and in the lower free troposphere (650 hPa, about 3.5 km) as measured by IAGOS aircraft above 11 regions. All trends are estimated for the time series up to the most recently available year, but begin in 1995 or 1994. Colours indicate significance (p-value) as denoted in the in-line key. See Figure 6.5 for a depiction of these trends globally.",    "(b) Trends of ozone since 1994 as measured by IAGOS aircraft in 11 regions in the mid-troposphere (700–300 hPa; about 3–9 km) and upper troposphere (about 10-12 km), as measured by IAGOS aircraft and ozonesondes.",    "(c) Trends of average tropospheric column ozone mixing ratios from the TOST composite ozonesonde product and three composite satellite products based on TOMS, OMI/MLS (Sat1), GOME, SCIAMACHY, OMI, GOME-2A, GOME-2B (Sat2), and GOME, SCIAMACHY, GOME-II (Sat3). Vertical bars indicate the latitude range of each product, while horizontal lines indicate the very likely uncertainty range. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1)."]
+            }
+        },
+        "2.9": {
+            "title": {
+                "en_EN":"Aerosol evolution from ice-core measurements."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Changes are shown as 10-yr averaged time series (a, b) and trends in remote-sensing aerosol optical depth (AOD) and AODf (c, d). (a) Concentrations of non-sea salt (nss) sulphate (ng g-1). (b) Black carbon (BC) in glacier ice from the Arctic (Lomonosovfonna), Russia (Belukha), Europe (Colle Gnifetti), South America (Illimani), Antarctica (stacked sulphate record, and BC from the B40 core), and BC from Greenland (stacked rBC record from Greenland and Eastern Europe (Elbrus)). (c) Linear trend in annual mean AOD retrieved from satellite data for the 2000–2019 period (% yr-1). The average trend from MODerate Resolution Imaging Spectroradiometer (MODIS) and Multi-Angle Imaging Spectroradiometer (MISR) is shown. Trends are calculated using OLS regression with significance assessed following AR(1) adjustment after Santer et al., (2008a). Superimposed are the trends in annual-mean AOD from the AERONET surface sunphotometer network for 2000–2019. (d) Linear trend in 2000–2019 as in (c), but for fine-mode AOD, AODf, and using only MISR over land. Significance is assessed following AR(1) adjustment after Santer et al., (2008a), ‘x’ marks denote non-significant trends. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1)."
+                ]
+            }
+        },
+        "2.10": {
+            "title": {
+                "en_EN":"Temporal evolution of effective radiative forcing (ERF) related to the drivers assessed in Section 2.2."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "ERFs are based upon the calculations described in Chapter 7, of which the global annual mean, central assessment values are shown as lines and the 5 to 95% uncertainty range as shading (Section 7.3, see Figures 7.6 to 7.8 for more detail on uncertainties). The inset plot shows the rate of change (linear trend) in total anthropogenic ERF (total without TSI and volcanic ERF) for 30-year periods centred at each dot. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1)."
+                ]
+            }
+        },
+        "2.11": {
+            "title": {
+                "en_EN":"Earth’s surface temperature history with key findings annotated within each panel."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [    "(a) GMST over the Holocene divided into three time scales. (i) 12 kyr–1 kyr in 100-year time steps, (ii) 1000–1900 CE, 10-year smooth, and (iii) 1900–2020 CE (from panel c). Median of the multi-method reconstruction (bold lines), with 5th and 95th percentiles of the ensemble members (thin lines). Vertical bars are the assessed medium confidence ranges of GMST for the Last Interglacial and mid-Holocene (Section 2.3.1.1). The last decade value and very likely range arises from 2.3.1.1.3.",    "(b) Spatially resolved trends (°C per decade) for HadCRUTv5 over (upper map) 1900–1980, and (lower map) 1981–2020. Significance is assessed following AR(1) adjustment after Santer et al., (2008a), ‘x’ marks denote non-significant trends.",    "(c) Temperature from instrumental data for 1850–2020, including (upper panel) multi-product mean annual timeseries assessed in Section 2.3.1.1.3 for temperature over the ocean (blue line) and temperature over the land (red line) and indicating the warming to the most recent 10 years; and annually (middle panel) and decadally (bottom panel) resolved averages for the GMST datasets assessed in Section 2.3.1.1.3.",    "The grey shading in each panel shows the uncertainty associated with the HadCRUT5 estimate (Morice et al., 2021). All temperatures relative to the 1850–1900 reference period. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1).  "]
+            }
+        },
+        "2.12": {
+            "title": {
+                "en_EN":"Temperature trends in the upper air."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) Zonal cross-section of temperature anomaly trends (2007–2016 baseline) for 2002–2019 in the upper troposphere and lower stratosphere region. The climatological tropopause altitude is marked as a grey line. Significance is not indicated due to the short period over which trends are shown, and because the assessment findings associated to this figure relate to difference between trends at different heights, not the absolute trends. (b) Trends in temperature at various atmospheric heights for 1980–2019 and 2002–2019 for the near-global (70°N–70°S) domain. (d) (e) as for (b) (c) but for the tropical (20°N–20°S) region. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.13": {
+            "title": {
+                "en_EN":"Changes in surface humidity."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) Trends in surface specific humidity over 1973–2019. Trends are calculated using OLS regression with significance assessed following AR(1) adjustment after Santer et al (2008a) (‘x’ marks denote non-significant trends). (b) Global average surface specific humidity annual anomalies (1981–2010 base period). (c) as (a) but for the relative humidity. (d) as (b) but for the global average surface relative humidity annual anomalies. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.14": {
+            "title": {
+                "en_EN":"Timeseries of global mean total column water vapour annual anomalies (mm) relative to a 1988–2008 base period."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Further details on data sources and processing are available in the chapter data table (Table 2.SM.1)."
+                ]
+            }
+        },
+        "2.15": {
+            "title": {
+                "en_EN":"Changes in observed precipitation."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a, b) Spatial variability of observed precipitation trends over land for 1901–2019 for two global in-situ products. Trends are calculated using OLS regression with significance assessed following AR(1) adjustment after Santer et al (2008a) (‘x’ marks denote non-significant trends). (c) Annual time series and decadal means from 1891 to date relative to a 1981–2010 climatology (note that different products commence at distinct times). (d, e) as (a, b), but for the periods starting in 1980. (f) is for the same period for the globally complete merged GPCP v2.3 product. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1)."
+                ]
+            }
+        },
+        "2.16": {
+            "title": {
+                "en_EN":"Changes in precipitation minus evaporation. "
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) Trends in precipitation minus evaporation (P-E) between 1980 and 2019. Trends are calculated using OLS regression with significance assessed following AR(1) adjustment after (Santer et al., 2008; ‘x’ marks denote non-significant trends). Time series of (b) global, (c) land-only and (d) ocean-only average annual P-E (mm/day). Further details on data sources and processing are available in the chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.17": {
+            "title": {
+                "en_EN":"Timeseries of the annual mean Northern Hemisphere (NH, top curves) and Southern Hemisphere (SH, bottom curves) Hadley Cell extent (a) and Hadley Cell intensity (b) since 1979."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Further details on data sources and rocessing are available in the chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.18": {
+            "title": {
+                "en_EN":"Trends in ERA5 zonal-mean zonal wind speed."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Shown are (a) DJF (December-January-February), (b) MAM (March-April-May), (c) JJA (June-July-August) and (d) SON (September-October-November). Climatological zonal winds during the data period are shown in solid contour lines for  westerly winds and in dashed lines for easterly. Trends are calculated using OLS regression after Santer et al (2008a) (‘x’ marks denote non-significant trends). Further details on data sources and processing are available in the chapter data table (Table 2.SM.1)."
+                ]
+            }
+        },
+        "2.19": {
+            "title": {
+                "en_EN":"Trends in surface wind speed."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) Station observed winds from the integrated surface database (HadISD v2.0.2.2017f); (b) Cross-Calibrated Multi-Platform wind product; (c) ERA5; and (d) wind speed from the Objectively Analyzed Air-Sea Heat Fluxes dataset, release 3. White areas indicate incomplete or missing data. Trends are calculated using OLS regression with significance assessed following AR(1) adjustment after Santer et al (2008c) (‘x’ marks denote non-significant trends). Further details on data sources and processing are available in the chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.20": {
+            "title": {
+                "en_EN":"Changes in Arctic and Antarctic sea ice area."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) Three time series of Arctic sea ice area (SIA) for March and September from 1979 to 2020 (passive microwave satellite era). In addition, the range of SIA from 1850–1978 is indicated by the vertical bar to the left. Decadal means for the three series for the first and most recent decades of observations are shown by horizontal lines in grey (1979–1988) and black (2010–2019). (b): Three time series of Antarctic sea ice area for September and February (1979–2020). Sea ice area values have been calculated from sea ice concentration fields. Available data for 2020 (OSISAF) is shown in both (a) and (b). Further details on data sources and processing are available in the chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.21": {
+            "title": {
+                "en_EN":"Arctic sea ice thickness changes (means) for autumn (red/dotted red) and winter (blue/dotted blue)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Shadings (blue and red) show 1 S.E. ranges from the regression analysis of submarine ice thickness and expected uncertainties in satellite ice thickness estimates. Data release area of submarine data ice thickness data is shown in inset. Satellite ice thickness estimates are for the Arctic south of 88°N. Thickness estimates from more localized airborne/ground electromagnetic surveys near the North Pole (diamonds) and from Operation IceBridge (circles) are shown within the context of the larger scale changes in the submarine and satellite records. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.22": {
+            "title": {
+                "en_EN":"April snow cover extent (SCE) for the Northern Hemisphere (1922–2018)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Shading shows very likely range. The trend over the entire 1922–2018 period (black line) is –0.29 (± 0.07) million km2 per decade. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1)."
+                ]
+            }
+        },
+        "2.23": {
+            "title": {
+                "en_EN":"Glacier advance and annual mass change."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) Number of a finite selection of surveyed glaciers that advanced during the past 2000 years. (b) Annual and decadal global glacier mass change (Gt yr-1) from 1961 until 2018. In addition, mass change mean estimates are shown. Ranges show the 90% confidence interval. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.24": {
+            "title": {
+                "en_EN":"Cumulative Antarctic Ice Sheet (AIS) and Greenland Ice Sheet (GrIS) mass changes."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Values shown are in gigatons and come from satellite-based measurements (IMBIE Consortium, 2018, 2020) for the period 1992–2018 for GrIS and 1992–2017 for AIS. The estimated uncertainties, very likely range, for the respective cumulative changes are shaded. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.25": {
+            "title": {
+                "en_EN":"Changes in permafrost temperature."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Average departures of permafrost temperature (measured in the upper 20–30 m) from a baseline established during International Polar Year (2007–2009) for Arctic regions. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.26": {
+            "title": {
+                "en_EN":"Changes in Ocean heat content (OHC)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Changes are shown over (a) full depth of the ocean from 1871 to 2019 from a selection of indirect and direct measurement methods. The series from Table 2.7 is shown in solid black in both (a) and (b) (see Table 2.7 caption for details). (b) as (a) but for 0–2000 m depths only and reflecting the broad range of available estimates over this period all of which are broadly similar. For further details see chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.27": {
+            "title": {
+                "en_EN":"Changes in ocean salinity."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Estimates of salinity trends using a total least absolute differences fitting method for (a) global near-surface salinity (SSS) changes and (b) global zonal mean subsurface salinity changes. Black contours show the associated limatological mean salinity (either near-surface (a) or subsurface (b)) for the analysis period (1950–2019). Both panels represent changes of Practical Salinity Scale 1978 [PSS-78], per decade. In both panels green denotes freshening regions and orange/brown denotes regions with enhanced salinities. ‘x’ marks denote non-significant changes. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.28": {
+            "title": {
+                "en_EN":"Changes in global mean sea level."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) Reconstruction of sea-level from ice core oxygen isotope analysis for the last 800 kyr. For target paleo periods (CCB2.1) and MIS11 the estimates based upon a broader range of sources are given as box whiskers. Note the much broader axis range (200 m) than for later panels (tenths of metres). (b) Reconstructions for the last 2500 years based upon a range of proxy sources with direct instrumental records superposed since the late 19th century. (c) Tide-gauge and, more latterly, altimeter based estimates since 1850. The consensus estimate used in various calculations in Chapters 7 and 9 is shown in black. (d) The most recent period of record from tide-gauge and altimeter based records. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1)."
+                ]
+            }
+        },
+        "2.29": {
+            "title": {
+                "en_EN":"Low latitude surface ocean pH over the last 65 million years."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) Low-latitude (30°N–30°S) surface ocean pH over the last 65 million years, reconstructed using boron isotopes in foraminifera. (b) as (a) but for the last 3.5 million years. Double headed arrow shows the approximate magnitude of glacial-interglacial pH changes. (c) Multisite composite of surface pH. In a)-c), uncertainty is shown at 95% confidence as a shaded band. Relevant paleoclimate reference periods (CCB2.1) have been labelled. Period windows for succeeding panels are shown as horizontal black lines in a) and b). (d) Estimated low-latitude surface pH from direct observations (BATS, HOT) and global mean pH (65°S–65°N) from two indirect estimates (CMEMS, OCEAN-SODA). Further details on data sources and processing are available in the chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.30": {
+            "title": {
+                "en_EN":"Changes in the amplitude of the seasonal cycle of CO2."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) Observed peak-to-trough seasonal amplitude given by the day of year of downward zero crossing, of CO2 concentration at Barrow (71°N, blue) and Mauna Loa (20°N, black). Seasonal CO2 cycles observed at (b) Barrow and (c) Mauna Loa for the 1961–1963 or 1958–1963 and 2017–2019 time periods. The first six months of the year are repeated. Reprinted with permission from AAAS. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.31": {
+            "title": {
+                "en_EN":" Phytoplankton dynamics in the ocean."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) Climatology of chlorophyll-a concentration derived from ocean-colour data (1998–2018); (b) Linear trends in chlorophyll concentration. Trends are calculated using OLS regression with significance assessed following AR(1) adjustment after Santer et al (2008c) (‘x’ marks denote non-significant changes). (c) Histogram of linear trends in chlorophyll concentration, after area weighting and with per-pixel uncertainty estimates based on comparison with in situ data. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.32": {
+            "title": {
+                "en_EN":"Phenological indicators of changes in growing season."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [    "(a) cherry blossom peak bloom in Kyoto, Japan; ",    "(b) grape harvest in Beaune, France;",    "(c) spring phenology index in eastern China;",    "(d) full flower of Piedmont species in Philadelphia, USA;",    "(e) Grape harvest in Central Victoria, Australia;",    "(f) start of growing season in Tibetan Plateau, China.",    "Red lines depict the 25-year moving average (top row) or the 9-year moving average (middle and bottom rows) with the minimum roughness boundary constraint of Mann (2004). Further details on data sources and processing are available in the chapter data table (Table 2.SM.1). "]
+            }
+        },
+        "2.33": {
+            "title": {
+                "en_EN":"Satellite-based trends in Fraction of Absorbed hotosynthetically Active Radiation (per decade) for 1998–2019"
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Trends are calculated using OLS regression with significance assessed following AR(1) adjustment after Santer et al (2008c) (‘x’ marks denote non-significant trend). Unvegetated areas such as barren deserts (grey) and ice sheets (white) have no trend in FAPAR. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1)."
+                ]
+            }
+        },
+        "2.34": {
+            "title": {
+                "en_EN":"Selected large-scale climate indicators during paleoclimate and recent reference periods of the Cenozoic Era."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Values are based upon assessments carried out in this chapter, with confidence levels ranging from low to very high. Refer to Cross-Chapter Box 2.1 for description of paleoclimate reference periods and Section 1.4.1 for recent reference periods. Values are reported as either the very likely range (x to y), or best estimates from beginning to end of the reference period with no stated uncertainty (x → y), or lowest and highest values with no stated uncertainty (x ~ y). Temperature is global mean surface temperature. Glacier extent is relative and colour scale is inverted so that more extensive glacier extent is intuitively blue. "
+                ]
+            }
+        },
+        "2.35": {
+            "title": {
+                "en_EN":"Southern Annular Mode (SAM) reconstruction over the last millennium."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) SAM reconstructions as 7-year moving averages (thin lines) and 70-year LOESS filter (thick lines). (b) observed SAM index during 1900–2019. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.36": {
+            "title": {
+                "en_EN":"Reconstructed and historical variance ratio of El Niño–Southern Oscillation (ENSO)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) 30-year running variance of the reconstructed annual mean Niño 3.4 or related indicators from various published reconstructions. (b) variance of June-November Southern Oscillation Index (SOI) and April-March mean Niño 3.4 (1981–2010 base period) along with the mean reconstruction from (a). Further details on data sources and processing are available in the chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.37": {
+            "title": {
+                "en_EN":"Indices of interannual climate variability from 1950–2019 based upon several sea surface temperature based data products."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Shown are the following indices from top to bottom: IOB mode, IOD, Niño4, AMM and AZM. All indices are based on area-averaged annual data (see Technical Annex IV). Further details on data sources and processing are available in the chapter data table (Table 2.SM.1). "
+                ]
+            }
+        },
+        "2.38": {
+            "title": {
+                "en_EN":"Indices of multi-decadal climate variability from 1854–2019 based upon several sea surface temperature based data products."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Shown are the indices of the AMV and PDV based on area averages for the regions indicated in Technical Annex IV. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1)."
+                ]
+            }
+        },
+        "2.X": {
             "title": {
                 "en_EN":""
             },
