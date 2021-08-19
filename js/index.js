@@ -1,5 +1,5 @@
 let wgI;
-let lang = "en_EN";
+let lang = (document.location.hostname === 'comprendre-giec.fr') ? "fr_FR" : "en_EN";
 let userParams = {};
 
 function changeLang(lang)
