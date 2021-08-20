@@ -60,7 +60,7 @@ let initFn = (function()
     }
 
     /* init page */
-    jQuery.getJSON('content/wgI.json?v9.json', function(r){
+    jQuery.getJSON('content/wgI.json?v10.json', function(r){
         const nb_chap = r.SPM.chapters.length;
         wgI = r;
         
@@ -960,7 +960,7 @@ let regex_autoref_fn = function(orig, CSBTS, CCB, CCBA, BSPM, BTS, InfoTS, TS, S
     return /*html*/`<a href="#" class="src1" data-cite="${orig}" onmouseover="return hoverSource(this);" onmouseout="return mouseoutSource(this)" onclick="return dispSource(this)">${orig}</a>`;
 };
 
-const markup_regex = /<(goto|figref|ref|boxref)>([A-Za-z0-9., -]+)<\/(goto|figref|ref|boxref)>/g;
+const markup_regex = /<(goto|figref|ref|boxref|tableref)>([A-Za-z0-9., -]+)<\/(goto|figref|ref|boxref|tableref)>/g;
 let regex_markup_fn = function(orig1, balise, content, balise2, position)
 {
     if(balise == 'goto')
@@ -1007,6 +1007,12 @@ let regex_markup_fn = function(orig1, balise, content, balise2, position)
             <img src="content/img/en_EN/${fname}" onerror="console.error('failed to load image',this); $(this).parent().remove();" alt="${content}">
             <span class="fig-legend">${content}: ${fig_title}</span><span class="fig-clicker"> (click to read the legend)</span>
             <div class="fig-legend-ext"><em>${fig_subtitle}</em>${fig_description}</div>
+        </div></div>`;
+    }
+    else if(balise == 'tableref')
+    {
+        return /*html*/`<div class="center"><div class="small-figure hoverable">
+            <span class="fig-legend">Table ${content}</span>
         </div></div>`;
     }
     else

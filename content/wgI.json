@@ -3514,6 +3514,487 @@
                 ]
             }
         },
+        "5.1": {
+            "title": {
+                "en_EN": "  Visual abstract for Chapter 5."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "  "
+                ]
+            }
+        },
+        "5.2": {
+            "title": {
+                "en_EN": "  Key compartments, processes and pathways that govern historical and future CO2 concentrations and carbon\u2013climate feedbacks through the coupled earth system."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The anthropogenic CO2 emissions, including land use change, are partitioned via negative feedbacks (turquoise dotted arrows) between the ocean (23%), the land (31%) and the airborne fraction (46%) of anthropogenic CO2 that sets the changing CO2 concentration in the atmosphere (2010\u20132019, Table 5.1). This regulates most of the radiative forcing that creates the heat imbalance that drives the climate feedbacks to the ocean (blue) and land (green). Positive feedbacks (red arrows) result from processes in the ocean and on land (red text). Positive feedbacks are influenced by both carbon-concentration and carbon-climate feedbacks simultaneously. Additional biosphere processes have been included but these have an as yet uncertain feedback impact (blue-dotted arrows). CO2 removal from the atmosphere into the ocean, land and geological reservoirs, necessary for negative emissions, has been included (grey arrows). Although this schematic is built around CO2, the dominant GHG, some of the same processes also influence the fluxes of CH4 and N2O and the strength of the positive feedbacks from the terrestrial and ocean systems.   "
+                ]
+            }
+        },
+        "5.3": {
+            "title": {
+                "en_EN": "  Atmospheric CO2 concentrations and growth rates for the past 60 million years and projections to 2100."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) CO2 concentrations. Concentrations data for the period 60 Myr to the time prior to 800 Kyr (left Chapter 5 column) are shown as the LOESS Fit and 68% range (data from Chapter 2) (Foster et al., 2017). Concentrations from 1750 and projections through 2100 are taken from Shared Socioeconomic Pathways of IPCC AR6 (Meinshausen et al., 2017). (b) Growth rates are shown as the time derivative of the concentration time series. Inserts in (b) show growth rates at the scale of the sampling resolution. Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.4": {
+            "title": {
+                "en_EN": "  Atmospheric concentrations of CO2, CH4 and N2O in air bubbles and clathrate crystals in ice cores (800,000 BCE to 1990 CE)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Note the variable x-axis range and tick mark intervals for the 3 columns. Ice core data is over-plotted by atmospheric observations from 1958 to present for CO2, from 1984 for CH4 and from 1994 for N2O. The time-integrated, millennial-scale linear growth rates for different time periods (800,000\u20130 BCE, 0\u20131900 CE and 1900\u20132017 CE) are given in each panel. For the BCE period, mean rise and fall rates are calculated for the individual slopes between the peaks (interglacials) and troughs (glacial periods), which are given in the panels in left column. The data for BCE period are used from the Vostok, EPICA, Dome C and WAIS ice cores (Petit et al., 1999; Monnin, 2001; P\u00e9pin et al., 2001; Raynaud et al., 2005; Siegenthaler et al., 2005; Loulergue et al., 2008; L\u00fcthi et al., 2008; Schilt et al., 2010a). The data after 0\u2013yr CE are taken mainly from Law Dome ice core analysis (MacFarling Meure et al., 2006).  The surface observations for all species are taken from NOAA cooperative research network (Dlugokencky and Tans, 2019), where ALT, MLO and SPO stand for Alert (Canada), Mauna Loa Observatory, and South Pole Observatory, respectively. BCE = before current era, CE = current era. Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.5": {
+            "title": {
+                "en_EN": "  Global anthropogenic CO2 emissions."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Historical trends of anthropogenic CO2 emission (fossil fuels and net land use change, including land management, called LULUCF flux in the main text) for the period 1870 to 2019, with \u2018others\u2019 representing flaring, emissions from carbonates during cement manufacture. Data sources: (Boden et al., 2017; IEA, 2017; Andrew, 2018; BP, 2018; Le Qu\u00e9r\u00e9 et al., 2018a; Friedlingstein et al., 2020). (b) The net land use change CO2 flux (PgC yr-1) as estimated by three bookkeeping models and 16 Dynamic Global Vegetation Models (DGVMs) for the global annual carbon budget 2019 (Friedlingstein et al., 2020). The three bookkeeping models are from Hansis et al., (2015); Houghton and Nassikas, (2017); Gasser et al., (2020) and are all updated to 2019; their average is used to determine the net land use change flux in the annual global carbon budget (black line). The DGVM estimates are the result of differencing a simulation with and without land use changes run under observed historical climate and CO2, following the Trendy v9 protocol; they are used to provide an uncertainty range to the bookkeeping estimates (Friedlingstein et al., 2020). All estimates are unsmoothed annual data. Estimates differ in process comprehensiveness of the models and in definition of flux components included in the net land use change flux. Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.6": {
+            "title": {
+                "en_EN": "  Time series of CO2 concentrations and related measurements in ambient air."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) concentration time series and MLO-SPO difference, (b) growth rates, (c) 14C and 13C isotopes, and (d) O2\/N2 ratio. The data for Mauna Loa Observatory (MLO) and South Pole Observatory (SPO) are taken from the Scripps Institution of Oceanography (SIO)\/University of California, San Diego (Keeling et al., 2001). The global mean CO2 are taken from NOAA cooperative network (as in Chapter 2), and GOSAT monthly-mean XCO2 time series are taken from National Institute for Environmental Studies (Yoshida et al., 2013). CO2 growth rates are calculated as the time derivative of deseasonalised time series (Nakazawa et al., 1997). The \u2206(O2\/N2) are expressed in per meg units (= (FF\/M)\u00d7106, where FF = moles of O2 consumed by fossil-fuel burning, M = 3.706\u00d71019, total number of O2 molecules in the atmosphere (Keeling and Manning, 2014). The 14CO2 time series at Barring Head, Wellington, New Zealand (BHD) is taken from GNS Science and NIWA (Turnbull et al., 2017). The multivariate ENSO index (MEI) is shown as the shaded background in panel (b; warmer shade indicates El Ni\u00f1o). Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.7": {
+            "title": {
+                "en_EN": "  Airborne fraction and anthropogenic (fossil fuel and land use change) CO2 emissions."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Data as in Section 5.2.1.1. The multivariate ENSO index (shaded) and the major volcanic eruptions are marked along the x-axis. Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.8": {
+            "title": {
+                "en_EN": "  Multi-decadal trends for the ocean sink of CO2."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a): The multi-decadal (1960\u20132019) trends in the annual ocean sink (Socean) reconstructed from 9 Global Ocean Biogeochemical Models (GOBM) forced with observed atmospheric re-analysis products (Hauck et al., 2020), 6 observationally-based gap-filling products that reconstructed spatial and temporal variability in the ocean CO2 flux from sparse observations of surface ocean pCO2 (Supplementary Materials 5.SM.2). The trends in Socean were calculated from the mean annual global GOBM outputs and the observational products were used to provide confidence in the GOBM assessments (r2=0.85). Thick lines represent the multi-model mean. Observationally-based products have been corrected for pre-industrial river carbon fluxes (0.62 PgC yr-1) based on the average of estimates from Jacobson et al., (2007) and Resplandy et al. (2018). (b): Mean decadal constraints and their confidence intervals for global ocean sink (Socean) of anthropogenic CO2 using multiple independent or quasi-independent lines of evidence or methods for the period 1990\u20132019 (See Supplementary Materials Tables 5.SM.1 and 5.SM.2 for magnitudes, uncertainties and published sources). Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).   "
+                ]
+            }
+        },
+        "5.9": {
+            "title": {
+                "en_EN": "  Comparative regional characteristics of the mean decadal (1994\u20132007) sea-air CO2 flux (Fnet) and ocean storage of anthropogenic CO2."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) regional sink\u2013source characteristics for contemporary ocean air-sea CO2 fluxes (Fnet) derived from the ensemble of 6 observation-based products using SOCATv6 observational data set (Bakker et al., 2020; Landsch\u00fctzer et al., 2014; R\u00f6denbeck et al., 2014; Zeng et al., 2014; Denvil-Sommer et al., 2019; Gregor et al., 2019; Iida et al., 2020). Warm colours depict outgassing fluxes and black contours characterise the the five basin-scale biomes aggregated from the original 17 Chapter 5 from Fay and McKinley (2014) and adjusted by Gregor et al., (2019) also used to calculate the regional variability in flux anomalies (Supplementary Materials Figure 5.SM.1); and (b) the regional characteristics of the storage fluxes of CO2 in the ocean interior for the same period (Gruber et al., 2019a). The dots reflect ocean areas where the 1-sigma standard deviation of Fnet from the 6 observation product is larger than the magnitude of the mean.  This reflects source-sink transition areas where the mean Fnet is small and more strongly influenced by spatial and temporal variability across the products. Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.10": {
+            "title": {
+                "en_EN": "  Trends of the net land CO2 sink and related vegetation observations during 1980\u20132019."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Net land CO2 sink. The residual net land CO2 sink is estimated from the global CO2 mass balance (fossil fuel emission minus atmospheric CO2 growth rate and ocean CO2 sink). Inversions indicate the net land CO2 sink estimated by an ensemble of four atmospheric inversions. Dynamic Global Vegetation Models (DGVMs) indicate the mean net land CO2 sink estimated by 17 dynamic global vegetation models driven by climate change, rising atmospheric CO2, land use change and nitrogen deposition change (for carbon-nitrogen models). The positive values indicate net CO2 uptake from the atmosphere. (b) Normalised difference vegetation index (NDVI). The anomaly of global area-weighted NDVI observed by AVHRR and MODIS satellite sensors. AVHRR data are accessible during 1982\u20132016 and MODIS data are accessible during 2000\u20132018. (c) Near-infrared reflectance of vegetation (NIRv) and contiguous solar-induced chlorophyll fluorescence (CSIF).  The standardised anomaly of area-weighted NIRv during 2001-2018 (Badgley et al., 2017) and CSIF during 2000-2018 (Zhang et al., 2018). (d) Gross primary production (GPP). The GPP from Cheng et al. (2017), DGVMs and MODIS GPP product (MOD17A3). GPP from Cheng et al. (2017) is based on an analytical model driven by climate change, rising atmospheric CO2, AVHRR leaf area index datasets and evapotranspiration datasets. GPP from DGVMs is the ensemble mean global GPP estimated by the same 17 DGVMs that provide the net land CO2 sink estimates. Shaded area indicates 1\u2013\u03c3 inter-model spread except for atmospheric inversions, whose ranges were used due to limited number of models. Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  Chapter 5 Interannual variability in land-atmosphere CO2 exchange   "
+                ]
+            }
+        },
+        "5.11": {
+            "title": {
+                "en_EN": "  Interannual variation in detrended anomalies of the net land CO2 sink and land surface air temperature during 1980\u20132019."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "  Correlation coefficients between the net land CO2 sink anomalies and temperature anomalies are show on the right bar plots. The net land CO2 sink is estimated by four atmospheric inversions (blue) and fifteen Dynamic Global Vegetation Models (DGVMs) (green), respectively (Friedlingstein et al., 2020). Solid blue and green lines show model mean detrended anomalies of the net land CO2 sink. The ensemble mean of DGVMs is bounded by the 1\u2013\u03c3 inter-model spread in each large latitude band (North 30\u00b0N\u201390\u00b0N, Tropics 30\u00b0S\u201330\u00b0N, South 90\u00b0S\u201330\u00b0S) and the globe. The ensemble mean of atmospheric inversions is bounded by model spread. For each latitudinal band, the anomalies of the net land CO2 sink and temperature (orange) were obtained by removing the long-term trend and seasonal cycle. A 12-month running mean was applied to reduce high-frequency noise. The bars in the right panels show correlation coefficients between the net land CO2 sink anomalies and temperature anomalies for each region. Two asterisks indicate P<0.01, and one indicates P<0.05. Grey shaded area shows the intensity of El Ni\u00f1o southern oscillation (ENSO) as defined by the Ni\u00f1o 3.4 index. Two volcanic eruptions (El Chich\u00f3n eruption and Pinatubo eruption) are indicated with light blue dashed lines. Temperature data are from the Climatic Research Unit (CRU), University of East Anglia (Harris et al., 2014). Anomalies were calculated following Patra et al. (2005), but using 12-month low-pass filter and detrended to obtain interannual variations. Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.12": {
+            "title": {
+                "en_EN": "  Global carbon (CO2) budget (2010-2019)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Yellow arrows represent annual carbon fluxes (in PgC yr-1) associated with the natural carbon cycle estimated for the time prior to the industrial era, around 1750. Pink arrows represent anthropogenic fluxes averaged over the period 2010\u20132019. The rate of carbon accumulation in the atmosphere is equal to net land-use change emissions, including land management (called LULUCF in the main text) plus fossil fuel emissions, minus land and ocean net sinks (plus a small budget imbalance, Table 5.1). Circles with yellow numbers represent pre-industrial carbon stocks in PgC. Circles with pink numbers represent anthropogenic changes to these stocks (cumulative anthropogenic fluxes) since 1750. Anthropogenic net fluxes are reproduced from Friedlingstein et al., (2020). The relative change of gross photosynthesis since pre-industrial times is based on 15 DGVMs used in Friedlingstein et al., (2020). The corresponding emissions by Total respiration and fire are those required to match the net land flux, exclusive of net land-use change emissions which are accounted for separately. The cumulative change of anthropogenic carbon in the terrestrial reservoir is the sum of carbon cumulatively lost by net land use change emissions, and net carbon accumulated since 1750 in response to environmental drivers (warming, rising CO2, nitrogen deposition). The adjusted gross natural ocean-atmosphere CO2 flux was derived by rescaling the value in figure 1 of (Sarmiento and Gruber, 2002) of 70 PgC\/yr by the revised estimate of the bomb 14C inventory in the ocean. The original bomb 14C inventoy yielded an average global gas transfer velocity of 22 cm\/hr; the revised estimate is 17cm\/h leading to 17\/22*70=54. Dissolved organic carbon reservoir and fluxes from (Hansell et al., 2009). Dissolved inorganic carbon exchanges between surface and deep ocean, subduction and obduction from (Levy et al., 2013) Levy et al. 2013. Export production and flux from (Boyd et al., 2019). NPP and remineralisation in surface layer of the ocean from (Kwiatkowski et al., 2020; S\u00e9f\u00e9rian et al., 2020). Deep ocean reservoir from (Keppler et al., 2020). Note that the mass balance of the two ocean carbon stocks surface ocean and intermediate and deep ocean includes a yearly accumulation of anthropogenic carbon (not shown). Fossil fuel reserves are from (BGR, 2019); fossil fuel resources are 11,490 PgC for coal, 6,780 PgC for oil, and 365 PgC for natural gas. Permafrost region stores are from (Hugelius et al., 2014; Strauss et al., 2017; Mishra et al., 2021) (see also Box 5.1) and soil carbon stocks outside of permafrost region from Batjes, (2016); Jackson et al., (2017). Biomass stocks (range of seven estimates) are from Erb et al., (2018). Sources for the fluxes of the continuum land-to-ocean are provided in main text and adjusted within the ranges of the various assessment to balance the budget (section 5.2.1.5).  "
+                ]
+            }
+        },
+        "5.13": {
+            "title": {
+                "en_EN": "  Time series of CH4 concentrations, growth rates and isotopic composition."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " a) CH4 concentrations, b) CH4 growth rates, c) \u03b413-CH4. Data from selected site networks operated by NOAA (Dlugokencky et al., 2003), AGAGE (Prinn et al., 2018) and PDX (Portland State University) (Rice et al., 2016). To maintain clarity, data from many other measurement networks are not included here, and all measurements are shown in WMO X2004ACH4 global calibration standard. Global mean values of XCH4 (total-column), retrieved from radiation spectra measured by the greenhouse gases observation satellite (GOSAT) are shown in panels (a) and (b). Cape Grim Observatory (CGO; 41oS, 145oE) and Trinidad Head (THD; 41oN, 124oW) data are taken from the AGAGE network, NOAA global and northern hemispheric (NH) means for \u03b413C are calculated from 10 and 6 sites, respectively. The PDX data adjusted to NH (period: 1977\u20132000) are merged with THD (period: 2001\u20132019) for CH4 concentration and growth rate analysis, and PDX and NOAA NH means of \u03b413C data are used for joint interpretation of long-term trends analysis. The multivariate ENSO index (MEI) is shown in panel (b). Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.14": {
+            "title": {
+                "en_EN": "  Global methane (CH4) budget (2008\u20132017)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Values and data sources as in Table 5.2 (in TgCH4). The atmospheric stock is calculated from mean CH4 concentration, multiplying a factor of 2.75 \u00b1 0.015 Tg ppb-1, which accounts for the uncertainties in global mean CH4 (Chandra et al., 2021). Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.15": {
+            "title": {
+                "en_EN": "  Changes in atmospheric nitrous oxide (N2O) and its isotopic composition since 1940."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Atmospheric N2O abundance (parts per billion, ppb) and growth rate (ppb yr-1), (b) \u03b415N of atmospheric N2O, and (c) alpha-site 15N\u2013N2O. Estimate are based on direct atmospheric measurements in the AGAGE , CSIRO, and NOAA networks (Prinn et al., 2000, 2018; Francey et al., 2003; Hall et al., 2007; Elkins et al., 2018), archived air samples from Cape Grim, Australia (Park et al., 2012), and firn air from NGRIP Greenland and H72 Antarctica (Ishijima et al., 2007), Law Dome Antarctica (Park et al., 2012), as well as a collection of firn ice samples from Greenland (Prokopiou et al., 2017, 2018). Shading in (a) is based on the multivariate ENSO index, with red indicating El Ni\u00f1o conditions (Wolter and Timlin, 1998). Further Chapter 5 details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.16": {
+            "title": {
+                "en_EN": " Decadal mean nitrous oxide (N2O) emissions for 2007\u20132016 and its change since 1850 based on process-model projections."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The total effect including that from anthropogenic nitrogen additions (atmospheric deposition, manure addition, fertiliser use and land-use) is evaluated against the background flux driven by changes in atmospheric CO2 concentration, and climate change. Fluxes are derived from the N2O Model Intercomparison Project ensemble of terrestrial biosphere models (Tian et al., 2019) and three ocean biogeochemical models (Landolfi et al., 2017; Battaglia and Joos, 2018a; Buitenhuis et al., 2018b). Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).   "
+                ]
+            }
+        },
+        "5.17": {
+            "title": {
+                "en_EN": "  Global nitrous oxide (N2O) budget (2007\u20132016)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Values and data sources as in Table 5.3. The atmospheric stock is calculated from mean N2O concentration, multiplying a factor of 4.79 \u00b1 0.05 Tg ppb-1 (Prather et al., 2012). Pool sizes for the other reservoirs are largely unknown. Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.18": {
+            "title": {
+                "en_EN": "  Contributions of carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O) and halogenated species to the total effective radiative forcing (ERF) increase since 1850 and 1960, and for 2000 to 2009."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " ERF data are taken from Annex III (based on calculations from Chapter 7). Note that the sum of the ERFs exceeds 100% because there are negative ERFs due to aerosols and clouds. Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.19": {
+            "title": {
+                "en_EN": " Regional distributions of net fluxes of carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O) on the Earth\u2019s surface."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The region divisions, shown as the shaded map, are made based on ecoclimatic characteristics of the land. The fluxes include those from anthropogenic activities and natural causes that result from responses to anthropogenic greenhouse gases and climate change (feedbacks) as in the three budgets shown in Sections 5.2.1.5, 5.2.2.5, and 5.2.3.5. The CH4 and N2O emissions are weighted by Chapter 5 arbitrary factors of 50 and 500, respectively, for depiction by common y-axes. Fluxes are shown as the mean of the inverse models as available from (Thompson et al., 2019; Friedlingstein et al., 2020; Saunois et al., 2020). Further details on data sources and processing are available in the chapter data table (Table 5.SM.6). -) and -2) ions, and increasing both bicarbonate (HCO3 "
+                ]
+            }
+        },
+        "5.20": {
+            "title": {
+                "en_EN": "  Multi-decadal trends of pH (Total Scale) in surface layer at various sites of the oceans and a global Chapter 5 distribution of annual mean pH adjusted to the year 2000."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Time-series data of pH are from Dore et al., 2009; Olafsson et al., 2009; Gonz\u00e1lez-D\u00e1vila et al., 2010; Bates et al., 2014b; Takahashi et al., 2014; Wakita et al., 2017; Merlivat et al., 2018; Ono et al., 2019; and Bates and Johnson, 2020. Global distribution of annual mean pH have been evaluated from data of surface ocean pCO2(Bakker et al., 2016; Jiang et al., 2019). Acronyms in panels: KNOT and K2 - Western Pacific subarctic gyre time-series; HOT - Hawaii Ocean Time-series; BATS - Bermuda Atlantic Time-series Study; DYFAMED - Dynamics of Atmospheric Fluxes in the Mediterranean Sea; ESTOC - European Station for Time-series in the Ocean Canary Islands; CARIACO - Carbon Retention in a Colored Ocean Time-series. Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  measurements  "
+                ]
+            }
+        },
+        "5.21": {
+            "title": {
+                "en_EN": "  Spread of ocean acidification from the surface into the interior of ocean since pre-industrial times."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) map showing the three transects used to create the cross sections shown in (b) and (c); vertical sections of the changes in (b) pH and (c) saturation state of aragonite (\u03a9arag) between 1800\u20132002 due to anthropogenic CO2 invasion (colour). Contour lines are their contemporary values in 2002. The red transect begins in the Nordic Seas and then follows the GO-SHIP lines A16 southward in the Atlantic Ocean, SR04 and S04P westward in the Southern Ocean, and P16 northward in the Pacific Ocean. The purple line follows the GO-SHIP line I09 southward in the Indian Ocean. The green line on the smaller inset crosses the Arctic Ocean from the Bering Strait to North Pole along 175\u00b0W and from the North Pole to the Fram Strait along 5\u00b0E (Lauvset et al., 2020). Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.22": {
+            "title": {
+                "en_EN": "  Overview scores for CMIP5 (left hand side of table) and CMIP6 (right hand side of table) Earth system models (ESMs), for multiple benchmarks against different datasets."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Benchmarking of ESM land models, (b) benchmarking of ocean models. Scores are relative to other models within each benchmark row, with positive scores indicating a better agreement with observations. Models included are only those from institutions that participated in both CMIP5 and CMIP6 carbon cycle experiments, in order to trace changes from one ensemble to the next.  CMIP5 models are labels in yellow and CMIP6 in green, with the multi-model ensemble means labelled in white. Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.23": {
+            "title": {
+                "en_EN": "  CMIP6 Earth system model (ESM) concentration-driven historical simulations for 1850 to 2014, compared to observation-based estimates from the global carbon project (GCP)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Panel (a) cumulative ocean carbon uptake from 1850 (PgC); (b) cumulative land carbon uptake from 1850 (PgC). Only models that simulate both land and ocean carbon fluxes are shown here. Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.24": {
+            "title": {
+                "en_EN": "  Comparison of modelled zonal distribution of contemporary carbon sinks against atmospheric inversion estimates for 2000\u20132009, (a) ocean carbon uptake; (b) net land uptake."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Latitude runs from 90oS (i.e. \u201390oN) to 90oN. Positive uptake represents a carbon sink to ocean\/land while negative uptake represents a carbon source. The land uptake is taken as Net Biome Productivity (NBP) and so includes net land-use change emissions. The bands show the mean \u00b11 standard deviation across the available inversions (black bands, 3 models), CMIP5 Earth system models (ESMs) (blue bands, 12 models for the ocean, 12 models for the land), and CMIP6 ESMs (red bands, 11 models for ocean, 10 models for land). Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.25": {
+            "title": {
+                "en_EN": "  Modelled evolution of the global land and ocean carbon sinks for 1850 to 2100 in concentration-driven CMIP6 Earth system model (ESM) scenario runs  (SSP1\u20132."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "6: blue; SSP2\u20134.5: skyblue; SSP3\u20137.0: yellow; SSP5\u20138.5: red): (a) prescribed atmospheric CO2 concentrations; (b) 5-year running mean ocean carbon sink (GtC yr-1); (c) 5-year running mean net land carbon sink (GtC yr-1); (d) inferred cumulative sink fraction of emissions from 1850; (e) change in ocean carbon storage from 1850 (GtC); (f) change in land carbon storage from 1850 (GtC). Thick lines represent the ensemble mean of the listed ESM runs, and the error bars represents \u00b1 one standard deviation about that mean. The grey wedges represent estimates from the global carbon project (GCP), assuming uncertainties in the annual mean ocean and net land carbon sinks of 0.5 GtC yr-1 and 1 GtC yr-1 respectively, and uncertainties in the changes in carbon stores (ocean, land and cumulative total emissions) of 25 GtC. The net land carbon sink is taken as net biome productivity (NBP) and so includes any modelled net land-use change emissions. Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  Chapter 5 "
+                ]
+            }
+        },
+        "5.26": {
+            "title": {
+                "en_EN": "  Maps of net carbon changes under four Shared Socioeconomic Pathway (SSP) scenarios, as evaluated from nine CMIP6 Earth system models."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Uncertainty is represented using the simple approach (see Cross-Chapter Box Atlas.1 for more information): No overlay indicates regions with high model agreement, where \u226580% of models agree with the ensemble mean on the sign of change; diagonal lines indicate regions with low model agreement, where <80% of models agree with the ensemble mean on the sign of change. On land, this is calculated as the time integral of NBP, for the ocean it is the time-integral of air-sea CO2 gas flux anomalies relative to the pre-industrial. Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.27": {
+            "title": {
+                "en_EN": "  Maps of carbon-concentration and carbon-climate feedback terms, as well as net carbon changes under the idealised 1% per year CO2 scenario, as evaluated from CMIP6 Earth system models (ESMs)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Shown are the model means from nine CMIP6 ESMs. Uncertainty is represented using the simple approach (see Cross-Chapter Box Atlas.1 for more information): No overlay indicates regions with high model agreement, where \u226580% of models agree with the ensemble mean on the sign of change; diagonal lines indicate regions with low model agreement, where <80% of models agree with the ensemble mean on the sign of change. Also shown are zonal-mean latitude profiles of land (green) and ocean (blue) feedbacks. On the land, the zonal mean feedback for the mean of the ensemble of models that include nitrogen is shown as dashed lines, and carbon-only models as dash-dotted lines, and the carbon-climate feedback from one permafrost-carbon enabled ESM is shown as a dotted line carbon changes are calculated as the difference between carbon stocks at different times on land and for the ocean as the time integral of atmosphere-ocean CO2 flux anomalies relative to the pre-industrial. The denominator for gamma here is the global mean surface air temperature. Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).   "
+                ]
+            }
+        },
+        "5.28": {
+            "title": {
+                "en_EN": " Examples of emergent constraints on the carbon cycle in Earth system models (ESMs), reproduced  from previously published studies: (a) projected global mean atmospheric CO2 concentration by 2060 under the RCP8."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "5 emissions scenario against the simulated CO2 in 2010 (Friedlingstein et al., 2014b; Hoffman et al., 2014); (b) sensitivity of tropical land carbon to warming (\u03b3LT) against the sensitivity of the atmospheric CO2 growth-rate to tropical temperature variability (Cox et al., 2013b; Wenzel et al., 2014); (c) sensitivity of extratropical (30oN\u201390oN) gross primary production to a doubling of atmospheric CO2 against the sensitivity of the amplitude of the CO2 seasonal cycle at Kumkahi, Hawaii to global atmospheric CO2 concentration (Wenzel et al., 2016); (d) change in high-latitude (30oN\u201390oN) gross primary production versus trend in high-latitude leaf area index or \u2018greenness\u2019 (Winkler et al., 2019); (e) sensitivity of the primary production of the Tropical ocean to climate change versus its sensitivity to ENSO-driven temperature variability (Kwiatkowski et al., 2017); (f) global ocean carbon sink in the 2090s versus the current-day carbon sink in the Southern Ocean. In each case, a red-dot represents a single ESM projection, the grey bar represents the emergent relationship between the y-variable and the x-variable, the blue bar represents the observational estimate of the x-axis variable, and the green bar represents the resulting emergent constraint on the y-axis variable. The thicknesses represent \u00b1 one standard error in each case. Figure after Cox, ( 2019). Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  Chapter 5 "
+                ]
+            }
+        },
+        "5.29": {
+            "title": {
+                "en_EN": "  Estimates of the biogeochemical climate feedback parameter (\u03b1)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The parameter \u03b1 (W m\u22122 \u00b0C\u22121) for a feedback variable x is defined as \ud835\udefc\ud835\udefc\ud835\udc65\ud835\udc65=\ud835\udf15\ud835\udf15\ud835\udf15\ud835\udf15\ud835\udf15\ud835\udf15\ud835\udc65\ud835\udc65\ud835\udc51\ud835\udc51\ud835\udc65\ud835\udc65\ud835\udc51\ud835\udc51\ud835\udc51\ud835\udc51 where \ud835\udf15\ud835\udf15\ud835\udf15\ud835\udf15\ud835\udf15\ud835\udf15\ud835\udc65\ud835\udc65 is the change in TOA energy balance in response to a change in x induced by a change in surface temperature (T), as in Section 7.4.1.1. (a) Synthesis of biogeochemical feedbacks from panels (b) and (c). Red (blue) bars correspond to positive (negative) feedbacks increasing (decreasing) radiative forcing at the top of the atmosphere. Bars denote the mean and the error bar represents the 5\u201395th percentile range of the estimates; (b) carbon-cycle feedbacks as estimated by coupled carbon-cycle climate models in the CMIP5 (Arora et al., 2013) and CMIP6 (Arora et al., 2020) ensembles, where dots represent single model estimates, and filled (open) circles are those estimates which do (not) include the representation of a terrestrial nitrogen cycle; (c) Estimates of other biogeochemical feedback mechanisms based on various modelling studies. Dots represent single estimates, and coloured bars denote the mean of these estimates with no weighting being made regarding the likelihood of any single estimate, and error bars the 5\u201395th percentile range derived from these estimates. Results in panel (c) have been compiled from (a) Section 5.4.3.2 (Eliseev et al., 2014a; Harrison et al., 2018); (b) Section 5.4.3.3 (Schneider von Deimling et al., 2012; Burke et al., 2013, 2017b, Koven et al., 2015c, 2015b; MacDougall and Knutti, 2016b; Gasser et al., 2018; Kleinen and Brovkin, 2018), where the estimates from Burke et al. have been constrained as assessed in their study (c) Section 5.4.7 (Schneider von Deimling et al., 2012, 2015; Koven et al., 2015c; Turetsky et al., 2020); (d) Section 5.4.7 (Arneth et al., 2010; Denisov et al., 2013; Shindell et al., 2013a; Stocker et al., 2013a; Zhang et al., 2017); (f) Section 5.4.7 (Xu-Ri et al., 2012; Zaehle, 2013; Stocker et al., 2013; Tian et al., 2019); (g) Section 5.4.7 (Martinez-Rey et al., 2015; Landolfi et al., 2017; Battaglia and Joos, 2018). (h) Section 6.3, Table 6.9 mean and the 5\u201395th percentile range the assessed feedback parameter. Further details on data Chapter 5 sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.30": {
+            "title": {
+                "en_EN": "  Trajectories of carbon cycle dynamics for models beyond 2100."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Shown are three scenarios, SSP5\u20138.5, Chapter 5 SSP5\u20133.4\u2013overshoot, and SSP1\u20132.6, from four ESMs (CanESM5, UKESM1, CESM2-WACCM, IPSL-CM6a-LR) and one EMIC (UVIC-ESCM, (Mengis et al., 2020)) for which extensions beyond 2100 are available. Solid lines represent the median flux value across the ensemble, and shading represents 15th\u201385th percentiles across the ensemble. Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.31": {
+            "title": {
+                "en_EN": "  Illustration of relationship between cumulative emissions of carbon dioxide (CO2) and global mean surface air temperature increase (left) and conceptual schematic of the assessment of the remaining carbon budget from its constituting components (right)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Carbon budgets consistent with various levels of additional warming are provided in Table 5.8 and should not be read from the illustrations in either panel. Left-hand panel: Historical data (thin black line data) shows historical CO2 emissions as reported in (Friedlingstein et al., 2020) together with the assessed global mean surface air temperature increase from 1850\u20131900 as assessed in Chapter 2 (Box 2.3, GSAT). The orange-brown range with its central line shows the estimated human-induced share of historical warming (Haustein et al., 2017). The vertical orange-brown line shows the assessed range of historical human-induced warming for the 2010\u20132019 climate response to cumulative emissions of carbon dioxide (TCRE) assessed to fall likely in the 1.0\u20132.3 \u00b0C per 1000 PgC range (Section 5.5.1.4), starting from 2015. Thin coloured lines show CMIP6 simulations for the five scenarios of the AR6 core set (SSP1\u20131.9, green; SSP1\u20132.6, blue; SSP2\u20134.5, yellow; SSP3\u20137.0, red; SSP5\u20138.5, maroon), starting from 2015. Diagnosed carbon emissions (Arora et al., 2020) are complemented with estimated land-use change emissions for each respective scenario (Gidden et al., 2018). Coloured areas show the Chapter 4 assessed very likely range of GSAT projections and thick coloured central lines the median estimate, for each respective scenario, relative to the original scenario emissions (Riahi et al., 2017; Gidden et al., 2018; Rogelj et al., 2018a). Right-hand panel: schematic illustration of assessment of remaining carbon budget based on multiple lines of evidence. The remaining allowable warming is estimated by combining the global warming limit of interest with the assessed historical human induced warming (Section 5.5.2.2.2), the assessed future potential non-CO2 warming contribution (Section 5.5.2.2.3) and the ZEC (Section 5.5.2.2.4). Note that contributions in the right-hand panel are illustrative and contributions are not to scale. For example, the central ZEC estimate was assessed to be zero. The remaining allowable warming (vertical blue bar) is subsequently combined with the assessed TCRE (Sections 5.5.1.4 and 5.5.2.2.1) and contribution of unrepresented Earth system feedbacks in models used to estimate ZEC and TCRE (Section 5.5.2.2.5) to provide an assessed estimate of the remaining carbon budget (horizontal blue bar, Table 5.8). Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.32": {
+            "title": {
+                "en_EN": "  Carbon cycle response to instantaneous carbon dioxide (CO2) removal from the atmosphere."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Atmospheric CO2 concentration, (b) change in land carbon reservoir, (c) change in ocean carbon reservoir. Results are shown for simulations with seven CMIP6 Earth system models and the UVic ESCM model of intermediate complexity forced with 100 PgC instantaneously removed from the atmosphere. The \u2018pulse\u2019 removal is applied from a model state in equilibrium with a pre-industrial atmospheric CO2 concentration (CDRMIP experiment CDR-pi-pulse; Keller et al., 2018b). Changes in land and ocean carbon reservoirs are calculated relative to a pre-industrial control simulation. Data for the UVic ESCM is from Zickfeld et al. (2021). Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.33": {
+            "title": {
+                "en_EN": "  Carbon sink response in a scenario with net carbon dioxide (CO2) removal from the atmosphere."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Shown are CO2 flux components from concentration-driven Earth system model simulations during different emission stages of SSP1\u20132.6 and its long-term extension. (a) Large net positive CO2 emissions, (b) small net positive CO2 emissions, (c) \u2013 (d) net negative CO2 emissions, (e) net zero CO2 emissions. Positive flux components act to raise the atmospheric CO2 concentration, whereas negative components act to lower the CO2 concentration. Net CO2 emissions, land and ocean CO2 fluxes represent the multi-model mean and standard deviation (error bar) of four ESMs (CanESM5, UKESM1, CESM2-WACCM, IPSL-CM6a-LR) and one EMIC (UVic ESCM; (Mengis et al., 2020)). Net CO2 emissions are calculated from concentration-driven Earth system model simulations as the residual from the rate of increase in atmospheric CO2 and land and ocean CO2 fluxes. Fluxes are accumulated over each 50-year period and converted to concentration units (ppm). Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.34": {
+            "title": {
+                "en_EN": "  Removal effectiveness of carbon dioxide removal (CDR)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Fraction of CO2 remaining out of the atmosphere for idealised model simulations with CDR applied instantly (pulse removals) from climate states in equilibrium with different atmospheric CO2 concentration levels (1 to 4 times the pre-industrial atmospheric CO2 concentration; shown on the horizontal axis). The fraction is calculated 100 years after pulse removal. The black triangle and error bar indicate the multi-model mean and standard deviation for the seven Earth system models shown in Figure 5.32 forced with a 100 PgC pulse removal. Other symbols illustrate results with the UVic ESCM model of intermediate complexity for different magnitudes of pulse removals (triangles: \u2013100 PgC; circles: \u2013500 PgC; squares: \u20131000 PgC). Data for the UVic ESCM is from (Zickfeld et al., 2021). (b) Perturbation airborne fraction (see text for definition) for model simulations where CDR is applied from four RCPs (shown on the horizontal axis in terms of their cumulative CO2 emissions during 2020\u20132099). Symbols indicate results for four CDR scenarios, which differ in terms of the magnitude and rate of CDR (see Jones et al. (2016b) for details). Results are based on simulations with the Hadley Centre Simple Climate-Carbon Model and are shown for the year 2100. Data from Jones et al. (2016b). Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.35": {
+            "title": {
+                "en_EN": "  Asymmetry in the atmospheric carbon dioxide (CO2) response to CO2 emissions and removals."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Chapter 5 Shown are the fractions of total CO2 emissions remaining in the atmosphere (right-hand side) and CO2 removals remaining out of the atmosphere (left-hand side) 80\u2013100 after a pulse emission\/removal. Triangles and green circles denote results for seven Earth system models (ESMs) and the UVic ESCM model of intermediate complexity forced with \u00b1100 PgC pulses applied from a pre-industrial state (1\u00d7CO2) (CDRMIP experiment CDR-pi-pulse; Keller et al. (2018b)). Yellow circles and diamonds indicate UVic ESCM results for CO2 emissions\/removals applied at 1.5 times (1.5\u00d7CO2) and 2 times (2\u00d7CO2) the pre-industrial CO2 concentration, respectively. Pulses applied from a 2\u00d7CO2 state span the magnitude \u00b1100 PgC to \u00b1500 PgC. UVic ESCM data is from (Zickfeld et al., 2021). Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.36": {
+            "title": {
+                "en_EN": "  Characteristics of carbon dioxide removal (CDR) methods, ordered according to the time scale of carbon storage."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The first column shows biogeophysical (for open-ocean methods) or technical (for all Chapter 5 other methods) sequestration potentials (i.e. the sequestration potentials constrained by biological, geophysical, geochemical limits and thermodynamics and, for technical potentials, availability of technologies and practices; technical potentials for some methods also consider social or environmental factors if these represent strong barriers for deployment; see Glossary, Annex VII), classified into low (< 0.3 GtCO2 yr-1), moderate (0.3\u22123 GtCO2 yr-1) and large (>3 GtCO2 yr-1) (details underlying this classification are provided in Supplementary Materials Table 5.SM.5). The other columns show Earth system feedbacks that deployment of a given CDR method would have on carbon sequestration and climate, along with biogeochemical, biophysical, and other side effects of a given method. Earth system feedbacks do not include the direct effect of CO2 sequestration on atmospheric CO2, only secondary effects. For Earth system feedbacks, the colours indicate whether the feedbacks strengthen or weaken carbon sequestration and the climate cooling effect of a given CDR method. For biogeochemical and biophysical side effects the colours indicate whether the deployment of a CDR method increases or decreases the magnitude of the effect, whereas for co-benefits and trade-offs the colour indicates whether deployment of a CDR method results in beneficial (co-benefits) or adverse side-effects (trade-offs) for water quality and quantity, food production and biodiversity. The details and references underlying the Earth system feedback and side-effect assessment are provided in Supplementary Materials Table 5.SM.4. Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
+        "5.37": {
+            "title": {
+                "en_EN": "  Cumulative carbon dioxide (CO2) uptake by land and ocean carbon sinks in response to stratospheric sulfur dioxide (SO2) injection."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Results are shown for a scenario with 50-year (2020\u22122069) continuous stratospheric SO2 injection at a rate of 5 Tg per year appplied to a RCP4.5 baseline scenario (GeoMIP experiment G4; Kravitz et al., (2011)), followed by termination in year 2070. Anomalies are shown relative to RCP4.5 for the multimodel ensemble mean and for each of six ESMs over the 50-year period of stratospheric SO2 injection (left), and over 20 years after termination of SO2 injection (right). Adapted from Plazzotta et al. (2019). Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
+                ]
+            }
+        },
         "2.X": {
             "title": {
                 "en_EN":""
