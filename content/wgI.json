@@ -2981,6 +2981,539 @@
                 ]
             }
         },
+        "4.1": {
+            "title": {
+                "en_EN": "  Visual abstract of Chapter 4."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The chapter outline and a quick guide for key topics and corresponding subsections are provided.  "
+                ]
+            }
+        },
+        "4.2": {
+            "title": {
+                "en_EN": "  Selected indicators of global climate change from CMIP6 historical and scenario simulations."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Global surface air temperature changes relative to the 1995\u20132014 average (left axis) and relative to the 1850\u20131900 average (right axis; offset by 0.82\u00b0C, which is the multi-model mean and close to observed best estimate, Cross-Chapter Box 2.1, Table 1). (b) Global land precipitation changes relative to the 1995\u20132014 average. (c) September Arctic sea-ice area. (d) Global mean sea-level change (GMSL) relative to the 1995\u20132014 average. (a), (b) and (d) are annual averages, (c) are September averages. In (a)-(c), the curves show averages over the CMIP6 simulations, the shadings around the SSP1-2.6 and SSP3-7.0 curves show 5\u201395% ranges, and the numbers near the top show the number of model simulations used. Results are derived from concentration-driven simulations. In (d), the barystatic contribution to GMSL (i.e., the contribution from land-ice melt) has been added offline to the CMIP6 simulated contributions from thermal expansion (thermosteric). The shadings around the SSP1-2.6 and SSP3-7.0 curves show 5\u201395% ranges. The dashed curve is the low confidence and low likelihood outcome at the high end of SSP5-8.5 and reflects deep uncertainties arising from potential ice-sheet and ice-cliff instabilities. This curve at year 2100 indicates 1.7 m of GMSL rise relative to 1995\u20132014. More information on the calculation of GMSL are available in Chapter 9, and further regional details are provided in the Atlas. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.3": {
+            "title": {
+                "en_EN": "  Comparison of concentration-driven and emission-driven simulation."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Atmospheric CO2 concentration, (b) GSAT from models which performed SSP5-8.5 scenario simulations in both emissions-driven (blue; esm-ssp585) and concentration-driven (red; ssp585) configurations. For concentration driven simulations, CO2 concentration is prescribed, and follows the red line in panel (a) in all models. For emissions-driven simulations, CO2 concentration is simulated and can therefore differ for each model, blue lines in panel (a). Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.4": {
+            "title": {
+                "en_EN": "  CMIP6 annual mean precipitation changes (%) from historical and scenario simulations."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Northern Hemisphere extratropics (30\u00b0N\u201390\u00b0N). (b) North Atlantic subtropics (5\u00b0N\u201330\u00b0N, 80\u00b0W\u20130\u00b0). Changes are relative to 1995\u20132014 averages. Displayed are multi-model averages and, in parentheses, 5\u201395% ranges. The numbers inside each panel are the number of model simulations. Results are derived from concentration-driven simulations. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.5": {
+            "title": {
+                "en_EN": "  Arctic sea-ice extent in September in a large initial-condition ensemble of observationally-constrained simulations of an Earth system model (CanESM2)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The black and red curves are average over twenty simulations following historical forcings to 2015 and RCP8.5 extensions to 2100. The coloured curves are averages over twenty simulations each after GSAT has been stabilized at the indicated degree of global mean warming relative to 1850\u20131900. The bars to the right are the minimum to maximum ranges over 2081\u20132100 (Sigmond et al., 2018). The horizontal dashed line indicates a practically ice-free Arctic. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.6": {
+            "title": {
+                "en_EN": "  CMIP6 annual mean AMOC strength change in historical and scenario simulations."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Changes are relative to averages from 1995\u20132014. The curves show ensemble averages and the shadings the 5\u201395% ranges across the SSP1-2.6 and SSP3-7.0 ensembles. The circles to the right of the panel show the anomalies averaged from 2081\u20132100 for each of the available model simulations. The numbers inside the panel are the number of model simulations. Here, the strength of the AMOC is computed as the maximum value of annual-mean ocean meridional overturning mass streamfunction in the Atlantic at 26\u00b0N. Results are from concentration-driven simulations. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.7": {
+            "title": {
+                "en_EN": "  CMIP6 carbon uptake in historical and scenario simulations."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Atmosphere to ocean carbon flux (PgC yr-1). (b) Atmosphere to land carbon flux (PgC yr-1). The curves show ensemble averages and the shadings show the 5\u201395% ranges across the SSP1-2.6 and SSP3-7.0 ensembles. The numbers inside each panel are the number of model simulations. The land uptake is taken as Net Biome Productivity (NBP) and so includes any modelled net land-use change emissions. Results are from concentration-driven simulations. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.8": {
+            "title": {
+                "en_EN": "  Global average surface ocean pH."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The shadings around the SSP1-2.6 and SSP5-7.0 curves are the 5\u201395% ranges across those ensembles. The numbers inside each panel are the number of model simulations. Results are from concentration-driven simulations. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.9": {
+            "title": {
+                "en_EN": "  CMIP6 simulations of boreal wintertime (DJF) Annular Mode indices."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) NAM and (b) SAM. The NAM is defined as the difference in zonal mean SLP at 35\u00b0N and 65\u00b0N (Li and Wang, 2003) and the SAM as the difference in zonal mean SLP at 40\u00b0S and 65\u00b0S (Gong and Wang, 1999). All anomalies are relative to averages from 1995\u20132014. The curves show multi-model ensemble averages over the CMIP6 r1 simulations. The shadings around the SSP1-2.6 and SSP3-7.0 curves denote the 5\u201395% ranges of the ensembles. The numbers inside each panel are the number of model simulations. The results are for concentration-driven simulations. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.10": {
+            "title": {
+                "en_EN": "  Changes in amplitude of ENSO Variability."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Variability of (a) SST and (b) precipitation anomalies averaged over Ni\u00f1o3.4 region for 1950\u20132014 from CMIP6 historical simulations and for 2015\u20132100 from four SSPs. Thick lines stand for multi-model mean and shading is the 5\u201395% range across CMIP6 models for historical simulation (grey), SSP1-2.6 (blue) and SSP3-7.0 (pink), respectively. The amplitude of ENSO SST and rainfall variability is defined as the standard deviation of the detrended Ni\u00f1o3.4-area averaged SST and rainfall index, respectively, over 30-year running windows. The standard deviation in every single model is normalized by each model\u2019s present-day standard deviation averaged from 1995 to 2014. The number of available models is listed in parentheses. This figure is adopted from (Yun et al., 2021). Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.11": {
+            "title": {
+                "en_EN": " Multiple lines of evidence for GSAT changes for the long-term period, 2081\u20132100, relative to the  average over 1995\u20132014, for all five priority scenarios."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The unconstrained CMIP6 5\u201395% ranges (coloured bars) in (a) differ slightly because different authors used different subsamples of the CMIP6 archive. The constrained CMIP6 5\u201395% ranges (coloured bars) in (b) are smaller than the unconstrained ranges in (a) and differ because of different samples from the CMIP6 archive and because different observations and methods are used. In (c), the average of the ranges in (b) is formed (grey bars). Green bars in (c) show the emulator ranges, defined such that the best estimate, lower bound of the very likely range, and upper bound of the very likely range of climate feedback parameter and ocean heat uptake coefficient take the values that map onto the corresponding values of ECS and TCR of Section 7.5 (see BOX 4.1). The time series in (d) are constructed by taking the average of the constrained CMIP6 ranges and the emulator ranges. The y-axes on the right-hand side are shifted upward by 0.85\u00b0C, the central estimate of the observed warming for 1995\u20132014, relative to 1850\u20131900 (Cross-Chapter Box 2.3, Table 1). Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.12": {
+            "title": {
+                "en_EN": "  Near-term change of seasonal mean surface temperature."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Displayed are projected spatial patterns of CMIP6 multi-model mean change (\u00b0C) in (top) DJF and (bottom) JJA near-surface air temperature for 2021\u20132040 from SSP1-2.6 and SSP3-7.0 relative to 1995\u20132014. The number of models used is indicated in the top right of the maps. No overlay indicates regions where the change is robust and likely emerges from internal variability, that is, where at least 66% of the models show a change greater than the internal-variability threshold (see Section 4.2.6) and at least 80% of the models agree on the sign of change. Diagonal lines indicate regions with no change or no robust significant change, where fewer than 66% of the models show change greater than the internal-variability threshold. Crossed lines indicate areas of conflicting signals where at least 66% of the models show change greater than the internal-variability threshold but fewer than 80% of all models agree on the sign of change. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.13": {
+            "title": {
+                "en_EN": "  Near-term change of seasonal mean precipitation."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Displayed are projected spatial patterns of CMIP6 multi-model mean change (%) in (top) DJF and (bottom) JJA precipitation from SSP1-2.6 and SSP3-7.0 in 2021\u20132040 relative to 1995\u20132014. The number of models used is indicated in the top right of the maps. No overlay indicates regions where the change is robust and likely emerges from internal variability, that is, where at least 66% of the models show a change greater than the internal-variability threshold (see Section 4.2.6) and at least 80% of the models agree on the sign of change. Diagonal lines indicate regions with no change or no robust significant change, where fewer than 66% of the models show change greater than the internal-variability threshold. Crossed lines indicate areas of conflicting signals where at least 66% of the models show change greater than the internal-variability threshold but fewer than 80% of all models agree on the sign of change. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).   "
+                ]
+            }
+        },
+        "4.14": {
+            "title": {
+                "en_EN": "  Time series of global land monsoon precipitation and Northern Hemisphere summer monsoon (NHSM) circulation index anomalies."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Global land monsoon precipitation index anomalies (Unit: %) defined as the area-weighted mean precipitation rate in the global land monsoon domain defined by Wang et al. (2013) for the CMIP6 historical simulation for 1950\u20132014 and five SSPs 2015\u20132100. (b) Anomalies in NHSM circulation index (Unit: m s-1), defined as the vertical shear of zonal winds between 850 and 200 hPa averaged in a zone stretching from Mexico eastward to the Philippines (0\u00b0\u201320\u00b0N, 120\u00b0W\u2013120\u00b0E) (Wang et al., 2013a) in the CMIP6 historical simulation and five SSPs. One realization is averaged from each model. Anomalies are shown relative to the present-day (1995\u20132014) mean. The curves show averages over the simulations, the shadings around the SSP1-2.6 and SSP5-8.5 curves show 5\u201395% ranges, and the numbers near the top show the number of model simulations used. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.15": {
+            "title": {
+                "en_EN": " CMIP6 linear trends in September Arctic sea-ice area for 10-year, 20-year, and 30-year periods ending in 2021\u20132040 following five SSPs."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Plotted are the 5\u201395% ranges across the ensembles of simulations. The numbers at the top of the plot are the number of model simulations in each SSP ensemble. The numbers near the bottom of the plot indicate the percentage of simulations across all the SSPs with decreasing sea-ice area. Results are from concentration-driven simulations. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1). "
+                ]
+            }
+        },
+        "4.16": {
+            "title": {
+                "en_EN": " CMIP6 trends in ocean and land carbon flux for 10-year, 20-year, and 30-year periods ending in 2021\u20132040."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Ocean carbon flux. (b) Land carbon flux. Plotted are the 5\u201395% ranges across the ensembles of simulations, for five SSPs. The numbers at the top of the plots are the number of model simulations in each SSP ensemble. Unites are PgC yr-1 per decade. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1). "
+                ]
+            }
+        },
+        "4.17": {
+            "title": {
+                "en_EN": "  CMIP6 Annular Mode index change (hPa) from 1995\u20132014 to 2021\u20132040."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) NAM and (b) SAM. The NAM is defined as the difference in zonal mean sea-level pressure (SLP) at 35\u00b0N and 65\u00b0N (Li and Wang, 2003) and the SAM as the difference in zonal mean SLP at 40\u00b0S and 65\u00b0S (Gong and Wang, 1999). The shadings are the 5\u201395% ranges across the simulations. The numbers near the top of each panel are the numbers of model simulations in each SSP ensemble. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.18": {
+            "title": {
+                "en_EN": "  Influence of SLCFs on projected GSAT change."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Change is shown relative to the 1995\u20132014 average (left axis) and relative to the 1850\u20131900 average (right axis). The comparison is for CMIP6 models for the AerChemMIP (Collins et al., 2017) SSP3-7.0-lowSLCF-highCH4 experiment (note in the original experiment protocol this is called SSP3-7.0-lowNTCF), where concentrations of short-lived species are reduced compared to reference SSP3-7.0 scenario. The curves show averages over the r1 simulations contributed to the CMIP6 exercise, the shadings around the SSP3-7.0 curve shows 5\u201395% ranges and the numbers near the top show the number of model simulations. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.19": {
+            "title": {
+                "en_EN": "  Mid- and long-term change of annual mean surface temperature."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Displayed are projected spatial patterns of multi-model mean change in annual mean near-surface air temperature (\u00b0C) in 2041\u20132060 and 2081\u20132100 relative to 1995\u20132014 for (top) SSP1-2.6 and (bottom) SSP3-7.0. The number of models used is indicated in the top right of the maps. No overlay indicates regions where the change is robust and likely emerges from internal variability, that is, where at least 66% of the models show a change greater than the internal-variability threshold (see Section 4.2.6) and at least 80% of the models agree on the sign of change. Diagonal lines indicate regions with no change or no robust significant change, where fewer than 66% of the models show change greater than the internal-variability threshold. Crossed lines indicate areas of conflicting signals where at least 66% of the models show change greater than the internal-variability threshold but fewer than 80% of all models agree on the sign of change. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.20": {
+            "title": {
+                "en_EN": "  Difference of surface temperature change between JJA and DJF."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Displayed are spatial patterns of multi-model mean difference in projected warming in JJA minus warming in DJF in 2081\u20132100 relative to 1995\u20132014 for (left) SSP1-2.6 and (right) SSP3-7.0. Diagonal lines mark areas where fewer than 80% of the models agree on the sign of change, and no overlay where at least 80% of the models agree. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.21": {
+            "title": {
+                "en_EN": "  Percentage change in interannual variability of (top) JJA and (bottom) DJF mean temperature averaged across seven large initial condition ensembles."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Average changes across seven single-model initial-condition large ensembles are shown for RCP8.5 in 2081\u20132100 (and where not available for 2080\u20132099) relative to 1995\u20132014. Standard deviations are calculated across all members of the large ensembles for every given year to avoid inflation due to the underlying trend and then averaged across the period. Changes are averaged across the ensembles MPI-GE (100 members, (Maher et al., 2019a)), CanESM2, 50 members (Kirchmeier-Young et al., 2017)), NCAR-CESM (30 members, (Kay et al., 2015)), GFDL-CM3, 20 members, (Rodgers et al., 2015)), GFDL-ESM2M (30 members, (Sun et al., 2018)), CSIRO-Mk3-6-0 (30 members, (Jeffrey et al., 2013)), EC-EARTH (16 members, (Hazeleger et al., 2010)), see (Deser et al., 2020). Diagonal lines indicate areas with low model agreement where fewer than 80% of the models agree on the sign of the change, and no overlay areas with high model agreement where at least 80% of the models agree on the sign of the change. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.22": {
+            "title": {
+                "en_EN": "  Long-term change of annual and zonal mean atmospheric temperature."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "  Displayed are multi-model mean change in annual and zonal mean atmospheric temperature (\u00b0C) in 2081\u20132100 relative to 1995\u20132014 for (left) SSP1-2.6 and (right) SSP5-8.5. The number of models used is indicated in the top right of the maps. Diagonal lines indicate regions where less than 80% of the models agree on the sign of the change and no overlay where 80% or more of the models agree on the sign of the change. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.23": {
+            "title": {
+                "en_EN": "  Long-term changes in seasonal mean relative humidity."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Displayed are projected spatial patterns of  multi-model mean change (%) in seasonal (top) DJF and (bottom) JJA mean near-surface relative humidity in 2081\u20132100 relative to 1995\u20132014, for (left) SSP1-2.6 and (right) SSP3-7.0. The number of models used is indicated in the top right of the maps. No overlay indicates regions where the change is robust and likely emerges from internal variability, that is, where at least 66% of the models show a change greater than the internal-variability threshold (see Section 4.2.6) and at least 80% of the models agree on the sign of change. Diagonal lines indicate regions with no change or no robust significant change, where fewer than 66% of the models show change greater than the internal-variability threshold. Crossed lines indicate areas of conflicting signals where at least 66% of the models show change greater than the internal-variability threshold but fewer than 80% of all models agree on the sign of change. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1). "
+                ]
+            }
+        },
+        "4.24": {
+            "title": {
+                "en_EN": "  Long-term change of seasonal mean precipitation."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Displayed are projected spatial patterns of multi-model mean change (%) in (top) DJF and (bottom) JJA mean precipitation in 2081\u20132100 relative to 1995\u20132014, for (left) SSP1-2.6 and (right) SSP3-7.0. The number of models used is indicated in the top right of the maps. No map overlay indicates regions where the change is robust and likely emerges from internal variability, that is, where at least 66% of the models show a change greater than the internal-variability threshold (see Section 4.2.6) and at least 80% of the models agree on the sign of change. Diagonal lines indicate regions with no change or no robust significant change, where fewer than 66% of the models show change greater than the internal-variability threshold. Crossed lines indicate areas of conflicting signals where at least 66% of the models show change greater than the internal-variability threshold but fewer than 80% of all models agree on the sign of change. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.25": {
+            "title": {
+                "en_EN": "  Long-term change of seasonal mean sea level pressure."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Displayed are projected spatial patterns of multi-model mean change in (top) DJF and (bottom) JJA mean sea level pressure (hPa) in 2081\u20132100 relative to 1995\u20132014, for (left) SSP1-2.6 and (right) SSP3-7.0. The number of models used is indicated in the top right of the maps. No overlay indicates regions where the change is robust and likely emerges from internal variability, that is, where at least 66% of the models show a change greater than the internal-variability threshold (see Section 4.2.6) and at least 80% of the models agree on the sign of change. Diagonal lines indicate regions with no change or no robust significant change, where fewer than 66% of the models show change greater than the internal-variability threshold. Crossed lines indicate areas of conflicting signals where at least 66% of the models show change greater than the internal-variability threshold but fewer than 80% of all models agree on the sign of change. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).   "
+                ]
+            }
+        },
+        "4.26": {
+            "title": {
+                "en_EN": "  Long-term change of zonal mean zonal wind."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Dispayed are multi-model mean change in (left) boreal winter (DJF) and (right) austral winter (JJA) zonal mean zonal wind (m s-1) in 2081\u20132100 for (top) SSP1-2.6 and (right) SSP3-7.0 relative to 1995\u20132014. The 1995\u20132014 climatology is shown in contours with spacing 10 m s-1. Crossed lines indicate regions where less than 80% of the models agree on the sign of the change and no overlay where at least 80% of the models agree on the sign of the change. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.27": {
+            "title": {
+                "en_EN": " Changes in extratropical storm track density."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "  Displayed are projected spatial pattern of multi-model mean change of extratropical storm track density in winter (NH DJF and SH JJA) in 2080\u20132100 for SSP5-8.5 relative to 1979\u20132014 based on 13 CMIP6 models. Diagonal lines indicate regions where fewer than 80% of the models agree on the sign of the change and no overlay where at least 80% of the models agree on the sign of change. Units are number density per 5 degree spherical cap per month. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.29": {
+            "title": {
+                "en_EN": "Long-term change of annual and zonal ocean pH."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Displayed are multi-model mean change in annual and zonal ocean pH in 2081\u20132100 relative to the mean of 1995\u20132014 for SSP1-2.6 and SSP3-7.0, respectively. Eleven CMIP6 model results are used. Diagonal lines indicate regions where fewer than 80% of the models agree on the sign of the change and no overlay where at least 80% of the models agree on the sign of change. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1)."
+                ]
+            }
+        },
+        "4.30": {
+            "title": {
+                "en_EN": "  CMIP6 Annular Mode index change from 1995\u20132014 to 2081\u20132100: (a) NAM and (b) SAM."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The NAM is defined as the difference in zonal mean SLP at 35\u00b0N and 65\u00b0N (Li and Wang, 2003) and the SAM as the difference in zonal mean SLP at 40\u00b0S and 65\u00b0S (Gong and Wang, 1999). The shadings are the 5\u201395% ranges across the simulations. The numbers near the top are the numbers of model simulations in each SSP ensemble. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.31": {
+            "title": {
+                "en_EN": "  Projected spatial patterns of change in annual average near-surface temperature (\u00b0C) at different levels of global warming."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Displayed are (a\u2013d) spatial patterns of change in annual average near-surface temperature at 1.5\u00b0C, 2\u00b0C, 3\u00b0C, and 4\u00b0C of global warming relative to the period 1850\u20131900 and (e\u2013g) spatial patterns of differences in temperature change at 2\u00b0C, 3\u00b0C, and 4\u00b0C of global warming compared to 1.5\u00b0C of global warming. The number of models used is indicated in the top right of the maps. No overlay indicates regions where the change is robust and likely emerges from internal variability, that is, where at least 66% of the models show a change greater than the internal-variability threshold (see Section 4.2.6) and at least 80% of the models agree on the sign of change. Diagonal lines indicate regions with no change or no robust significant change, where fewer than 66% of the models show change greater than the internal-variability threshold. Crossed lines indicate areas of conflicting signals where at least 66% of the models show change greater than the internal-variability threshold but fewer than 80% of all models agree on the sign of change. Values were assessed from a 20-year period at a given warming level, based on model simulations under the Tier-1 SSPs of CMIP6. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.32": {
+            "title": {
+                "en_EN": "  Projected spatial patterns of change in annual average precipitation (expressed as a percentage change) at different levels of global warming."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Displayed are (a\u2013d) spatial patterns of change in annual precipitation at 1.5\u00b0C, 2\u00b0C, 3\u00b0C, and 4\u00b0C of global warming reletive to the period 1850\u20131900. No map overlay indicates regions where the change is robust and likely emerges from internal variability, that is, where at least 66% of the models show a change greater than the internal-variability threshold (see Section 4.2.6) and at least 80% of the models agree on the sign of change. Diagonal lines indicate regions with no change or no robust significant change, where fewer than 66% of the models show change greater than the internal-variability threshold. Crossed lines indicate areas of conflicting signals where at least 66% of the models show change greater than the internal-variability threshold but fewer than 80% of all models agree on the sign of change. Values were assessed from a 20-year period at a given warming level, based on model simulations under the Tier-1 SSPs of CMIP6. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1)."
+                ]
+            }
+        },
+        "4.33": {
+            "title": {
+                "en_EN": "  Area fraction of significant precipitation change at 1."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "5\u00b0C, 2\u00b0C, 3\u00b0C, and 4\u00b0C of global warming. Range of land fraction (top) and global area fraction (bottom) with significant precipitation increase (left-hand side) and decrease (right-hand side) in the projected annual precipitation change (%) at levels of global warming compared to the period 1850\u20131900. Values were assessed from a 20-year period at a given warming level from SSP1-2.6, SSP3-7.0 and SSP5-8.5 in CMIP6. The solid line illustrates the CMIP6-multi model mean and the shaded band is the 5\u201395% range across models that reach a given level of warming. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.34": {
+            "title": {
+                "en_EN": "  Simulated changes in climate indices for SSP5-3."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "4-OS plotted against atmospheric CO2 concentration (ppm) from 480 up to 571 and back to 496 by 2100. (a) Global surface air temperature change; (b) Global land precipitation change; (c) September Arctic sea-ice area change; (d) Global thermosteric sea-level change. Plotted changes are relative to the 2034\u20132053 mean which has same CO2 as 2081\u20132100 mean (shaded grey bar). Red lines denote changes during the period up to 2062 when CO2 is rising, blue lines denote changes after 2062 when CO2 is decreasing again. Thick line is multi model mean; thin lines and shading show individual models and complete model range. Numbers in square brackets indicate number of models used in each panel. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.35": {
+            "title": {
+                "en_EN": "  Comparison of RCPs and SSPs run by a single emulator to estimate scenario differences."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Time series with 5\u201395% ranges and medians of (a) effective radiative forcings, calculated as described in Annex 7.A.1; and (b) GSAT projections relative to 1850\u20131900 for the RCP and SSP scenarios from MAGICC 7.5. Note that the nameplate radiative forcing level refers to stratospheric adjusted radiative forcings in AR5-consistent settings (Tebaldi et al., 2021) while ERFs may differ. MAGICC7.5 is here run in the recommended setup for WGIII, prescribing observed GHG concentrations for the historical period and switching to emission-driven runs in 2015. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.36": {
+            "title": {
+                "en_EN": "  Masking of climate response to mitigation by internal variability in the near term."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Near-term (2021\u20132040) pointwise maximum (top row) and pointwise minimum (middle row) surface air temperature trends in the large initial-condition ensemble from MPI (left and centre columns), and CESM (right column) models in the RCP2.6 (left column) and RCP8.5 scenarios (centre and right columns). The percentage of ensemble members with a warming trend in the near term is shown in the bottom panels. Figure modified from (Maher et al., 2020). Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.37": {
+            "title": {
+                "en_EN": "  Delayed climate response to CDR-caused net negative CO2 emissions."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Multi-model simulated response in global and annual mean climate variables for a ramp-up followed by ramp-down of CO2. Atmospheric CO2 increases from the pre-industrial level at a rate of 1% yr-1 to 4 \u2022 CO2, then decreases at the same rate to the pre-industrial level and then remains constant. The ramp-down phase represents the period of net negative CO2 emissions. a) normalized ensemble mean anomaly of key variables as a function of year, including atmospheric CO2, surface air temperature, precipitation, thermosteric sea-level rise (see Glossary), global sea-ice area, Northern Hemisphere sea-ice area in September, and Atlantic meridional overturning circulation (AMOC); b) surface air temperature; c) precipitation; d) September Arctic sea-ice area; e) AMOC; f) thermostatic sea level; 5-year running means are shown for all variables except the sea-level rise. In b\u2013f, red lines represent the phase of CO2 ramp-up, blue lines represent the phase of CO2 ramp-down, brown lines represent the period after CO2 has returned to pre-industrial level, and black lines represent the multi-model mean. For all of the segments in b\u2013f, the solid coloured lines are CMIP6 models, and the dashed lines are other models (i.e., EMICs, CMIP5 era models). Vertical dashed lines indicate peak CO2 and when CO2 again reaches pre-industrial value. The number of CMIP6 and non-CMIP6 models used is indicated in each panel. The time series for the multi-model means (b\u2013f) and the normalized anomalies (a) are terminated when data from all models are not available, in order to avoid the discontinuity in the time series. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.38": {
+            "title": {
+                "en_EN": "  Multi-model response per degree global mean cooling in temperature and precipitation in response to CO2 forcing and SRM forcing."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "  Top row shows the response to a CO2 decrease, calculated as the difference between pre-industrial control simulation and abrupt 4 \u2022 CO2 simulations where the CO2 concentration is quadrupled abruptly from the pre-industrial level (11-model average); second row shows the response to a globally uniform solar reduction, calculated as the difference between GeoMIP experiment G1 and abrupt 4 \u2022 CO2 (11-model average); third row shows the response to stratospheric sulphate aerosol injection, calculated as the difference between GeoMIP experiment G4 (a continuous injection of 5Tg SO2 per year at one point on the equator into the lower stratosphere against the RCP4.5 background scenario) and RCP4.5 (6-model average); and bottom row shows the response to marine cloud brightening, calculated as the difference between GeoMIP experiment G4cdnc (increase cloud droplet concentration number in marine low cloud by 50% over the global ocean against RCP4.5 background scenario) and RCP4.5 (8-model average).  All differences (average of years 11\u201350 of simulation) are normalized by the global mean cooling in each scenario, averaged over years 11\u201350. Diagonal lines represent regions where fewer than 80% of the models agree on the sign of change. The values of correlation represent the spatial correlation of each SRM-induced temperature and precipitation change pattern with the pattern of change caused by a reduction of atmospheric CO2. RMS (root mean square) is calculated based on the fields shown in the maps (normalized by global mean cooling). Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.39": {
+            "title": {
+                "en_EN": "  Zero Emissions Commitment (ZEC)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Changes in (a) atmospheric CO2 concentration and (b) evolution of GSAT  following cessation of CO2 emissions branched from the 1% per year experiment after emission of 1000 PgC (Jones et al., 2019a). ZEC is the temperature anomaly relative to the estimated temperature at the year of cessation. ZEC50 is the 20-year mean GSAT change centred on 50 years after the time of cessation (see Table 4.8) \u2013 this period is marked with the vertical dotted lines. Multi-model mean is shown as thick black line, individual model simulations are in grey. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.40": {
+            "title": {
+                "en_EN": "  Simulated climate changes up to 2300 under the extended SSP scenarios."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Displayed are (a) projected GSAT change, relative to 1850\u20131900, from CMIP6 models (individual lines) and MAGICC7 (shaded plumes), (b) as (a) but zoomed in to show low-emission scenarios, (c) global land precipitation change, and (d) September Arctic sea-ice area. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.41": {
+            "title": {
+                "en_EN": "  High-warming storylines for changes in annual mean temperature."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a, b) Changes in 2081\u20132100 relative to 1995\u20132014 consistent with the assessed best GSAT estimate (0.9\u00b0C and 3.5\u00b0C relative to 1995\u20132014 for SSP1-2.6 and SSP5-8.5, respectively). The CMIP6 multi-model mean is linearly pattern-scaled to the best GSAT estimate. (c\u2013h) Annual mean warming above the best estimate (relative to panels a and b, respectively, note the different colour bar) in a high and very high-warming storyline for 2081\u20132100. (c, d) Multi-model mean warming pattern scaled to very high GSAT level corresponding to the upper bound of the assessed very likely range (4.8\u00b0C for SSP5-8.5 and 1.5\u00b0C for SSP1-2.6, see Section 4.3.4). (e, f) Average of five models with high GSAT warming nearest to the upper estimate of the very likely range (CESM2, CESM2-WACCM, CNRM-CM6-1, CNRM-CM6-1-HR, EC-Earth3 for SSP1-2.6 and ACCESS-CM2, CESM2, CESM2-WACCM, CNRM-CM6-1, CNRM-CM6-1-HRfor SSP5-8.5), (g, h) Average of four and five models, respectively (ACCESS-CM2, HadGEM3-GC31-LL, HadGEM3-GC31-MM, UKESM1-0-LL for SSP1-2.6 and CanESM5, CanESM5-CanOE, HadGEM3-GC31-LL: HadGEM3-GC31-MM, UKESM1-0-LL for SSP5-8.5) projecting very high GSAT warming exceeding the very likely range. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
+        "4.42": {
+            "title": {
+                "en_EN": "   High-warming storylines for changes in annual mean precipitation."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Estimates for annual mean precipitation changes in 2081\u20132100 relative 1995\u20132014, consistent with the best GSAT estimate derived by linearly scaling the CMIP6 multi-model mean changes to a GSAT change of 3.5\u00b0C. (b, c) Estimates for annual mean precipitation changes in 2081\u20132100 relative 1995\u20132014 in a storyline representing a physically plausible high-global-warming level. (b) Multi-model mean precipitation scaled to high-global-warming level (corresponding to 4.8\u00b0C, the upper bound of the very likely range, see Section 4.3.4). (c) Average of five models with GSAT warming nearest to the high level of warming (ACCESS-CM2, CESM2, CESM2-WACCM, CNRM-CM6-1, CNRM-CM6-1-HR) (d) Annual mean precipitation changes in four of the five individual model simulations averaged in (c). (e, f) Local upper estimate (95% quantile across models) and lower estimate (5% quantile across models) at each grid point. Information at Chapter 4 individual grid points comes from different model simulations and illustrates local uncertainty range but should not be interpreted as a pattern. (g) Area fraction of changes in annual mean precipitation 2081\u20132100 relative to 1995\u20132014 for all CMIP6 model simulations (thin black lines), models shown in (c) (red lines), and models showing very high warming above the models shown in (c). The grey range illustrates the 5\u201395% range across CMIP6 models and the solid black line the area fraction of the multi-model mean pattern shown in (a). Further details on data sources and processing are available in the chapter data table (Table 4.SM.1).  "
+                ]
+            }
+        },
         "2.X": {
             "title": {
                 "en_EN":""
