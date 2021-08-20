@@ -925,22 +925,13 @@ function returnElementByRefName(table, query, parentOffset = 0)
     return false;
 }
 
-function supports_webp()
-{
-    var elem = document.createElement('canvas');
-
-    if (!!(elem.getContext && elem.getContext('2d')))
-    {
-        // was able or not to get WebP representation
-        return elem.toDataURL('image/webp').indexOf('data:image/webp') == 0;
-    }
-    else
-    {
-        // very old browser like IE 8, canvas not supported
-        return false;
-    }
-}
-const WEBP_supported = supports_webp();
+// checking for webp support
+var WEBP_supported = false;
+var webP = new Image();
+webP.onload = webP.onerror = function () {
+    WEBP_supported = (webP.height == 2);
+};
+webP.src = 'data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';
 
 const TS_chapter_repl = /(Cross-Section Box TS\.[0-9.]+)|(Cross-Chapter Box [0-9.]+)|(Cross-Chapter Box Atlas\.[0-9.]+)|(Box SPM\.[0-9.]+)|(Box TS\.[0-9.]+)|(Infographic TS\.[0-9]+)|(TS\.[0-9.]+)|(SPM\.[0-9.]+)|(FAQ\s?[0-9.]+)|(Box [0-9.]+)|([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)|([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)|([0-9]+\.[0-9]+\.[0-9]+)|(Atlas\.[0-9]+\.[0-9]+)|(Atlas\.[0-9]+)/g;
 let regex_autoref_fn = function(orig, CSBTS, CCB, CCBA, BSPM, BTS, InfoTS, TS, SPM, FAQ, B, ABCDE, ABCD, ABC, AtlasAB, AtlasA, value, complete_string)
