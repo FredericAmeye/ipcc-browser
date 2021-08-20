@@ -3994,6 +3994,343 @@
                     " Results are shown for a scenario with 50-year (2020\u22122069) continuous stratospheric SO2 injection at a rate of 5 Tg per year appplied to a RCP4.5 baseline scenario (GeoMIP experiment G4; Kravitz et al., (2011)), followed by termination in year 2070. Anomalies are shown relative to RCP4.5 for the multimodel ensemble mean and for each of six ESMs over the 50-year period of stratospheric SO2 injection (left), and over 20 years after termination of SO2 injection (right). Adapted from Plazzotta et al. (2019). Further details on data sources and processing are available in the chapter data table (Table 5.SM.6).  "
                 ]
             }
+        },"6.1": {
+            "title": {
+                "en_EN": "  Sources and processes leading to atmospheric short-lived climate forcer (SLCF) burden and their interactions with the climate system."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Both direct and indirect SLCFs and the role of atmospheric processes for the lifetime of SLCFs are depicted. Anthropogenic emission sectors illustrated are fossil fuel exploration, distribution and use, biofuel production and use, waste, transport, industry, agricultural sources, and open biomass burning. Emissions from natural systems include those from open biomass burning, vegetation, soil, oceans, lightning, and volcanoes. SLCFs interact with solar or terrestrial radiation, surface albedo, and cloud or precipitation system. The radiative forcing due to individual SLCF can be either positive or negative. Climate change induces changes in emissions from most natural systems as well as from some anthropogenic emission sectors (e.g. agriculture) leading to a climate feedback (purple arrows). Climate change also influences atmospheric chemistry processes, such as chemical reaction rates or via circulation changes, thus affecting atmospheric composition leading to a climate feedback. Air pollutants influence emissions from terrestrial vegetation, including agriculture (the grey arrow)."
+                ]
+            }
+        },
+        "6.2": {
+            "title": {
+                "en_EN": "  Chapter roadmap."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " See Section 6.1.3 for additional description of the chapter.   "
+                ]
+            }
+        },
+        "6.3": {
+            "title": {
+                "en_EN": "  Relative regional and sectoral contributions to the present day (year 2014) anthropogenic emissions of Short Lived Climate Forcers (SLCFs)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Emission data are from the Community Emissions Data System (CEDS) (Hoesly et al., 2018). Emissions are aggregated into the following sectors: fossil fuel production and distribution (coal mining, oil and gas production, upstream gas flaring, gas distribution networks), fossil fuel combustion for energy (power plants), residential and commercial (fossil and biofuel use for cooking and heating), industry (combustion and production processes, solvent use loses from production and end use), land transportation (road and off-road vehicles), shipping (including international shipping), aviation (including international aviation), agriculture (livestock and crop production), waste management (solid waste, including landfills and open trash burning, residential and industrial waste water), and other. Further details on data sources and processing are available in the chapter data table (Table 6.SM.1).  "
+                ]
+            }
+        },
+        "6.4": {
+            "title": {
+                "en_EN": "  Time evolution of global annual mean tropospheric ozone burden (in Tg) from 1850 to 2100."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Multi-model means for CMIP6 historical experiment (1850-2014) from UKESM1-LL-0, CESM2-WACCM, MRI-ESM2-0, GISS-E2.1-G and GFDL-ESM4 and for ScenarioMIP SSP3-7.0 experiment (2015-2100) are represented with their intermodel standard deviation (\u00b11 \uf073 , shaded areas). Observation based global tropospheric ozone burden estimate (from Table 6.3) is for 2010-2014. Tropospheric Ozone Assessment Report (TOAR) multi-model mean value (from Table 6.3) is for 2000 with a \u00b11 \uf073 error-bar. Atmospheric Chemistry and Climate Model Intercomparison Project (ACCMIP) multi-model means are for 1850, 1930, 1980 and 2000 time-slices with  \u00b11 \uf073 error-bars. The troposphere is masked by the tropopause pressure calculated in each model using the WMO thermal tropopause definition. Further details on data sources and processing are available in the chapter data table (Table 6.SM.1).  "
+                ]
+            }
+        },
+        "6.5": {
+            "title": {
+                "en_EN": "  Decadal tropospheric ozone trends since 1994."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Trends are shown at 28 remote and regionally representative surface sites (Cooper et al., 2020) and in 11 regions of the lower free troposphere (650 hPa, ca. 3.5 km) as measured by In-Service Aircraft for a Global Observing System (IAGOS) above Europe, northeastern USA, southeastern USA, western North America, northeast China, South East Asia, southern India, Persian Gulf, Malaysia\/Indonesia, Gulf of Guinea and northern South America (Gaudel et al., 2020). High elevation surface sites are >1500 m above sea level. All trends end with the most recently available year but begin in 1995 or 1994. The sites and datasets are the same as those used in Figure 2.8, further details on data sources and processing are available in the Chapter 2 data table (Table 2.SM.1).   "
+                ]
+            }
+        },
+        "6.6": {
+            "title": {
+                "en_EN": "  Long term climatological mean (a) and time evolution (b) of tropospheric nitrogen dioxide (NO2)  vertical column density."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Values come from the merged GOME\/SCIAMACHY\/GOME-2 (TM4NO2A version 2.3) dataset for the period 1996-2016 (Georgoulias et al., 2019). Time evolution of NO2 column shown in panel (b) is normalized to the fitted 1996 levels for the 10 regions shown as boxes in panel (a). Further details on data sources and processing are available in the chapter data table (Table 6.SM.1).  "
+                ]
+            }
+        },
+        "6.7": {
+            "title": {
+                "en_EN": "  Distribution of PM2.5 composition mass concentration (in \u03bcg m\u20133) for the major PM2.5 aerosol components."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Those aerosol components are sulphate, nitrate, ammonium, sodium, chloride, organic carbon, and elemental carbon. The central world map depicts the intermediate level regional breakdown of observations (10 regions) following the IPCC Sixth Assessment Report Working Group III (AR6 WGIII). Monthly averaged PM2.5 aerosol component measurements are from: (i) the Environmental Protection Agency (EPA) network which include 211 monitor sites primarily in urban areas of North America during 2000-2018 (Solomon et al., 2014)  (ii) the Interagency Monitoring of Protected Visual Environments (IMPROVE) network during 2000-2018 over 198 monitoring sites representative of the regional haze conditions over North America,  (iii) the European Monitoring and Evaluation Programme (EMEP) network over 70 monitoring in Europe and (eastern) Eurasia during 2000-2018, (iv) the Acid Deposition Monitoring Network in East Asia (EANET) network with 39 (18 remote, 10 rural, 11 urban) sites in Eurasia, Eastern Asia, South-East Asia and Developing Pacific, and Asia-Pacific Developed during 2001-2017, (v) the global Surface Particulate Matter Network (SPARTAN) during 2013-2019 with sites primarily in highly populated regions around the world (i.e, North America, Latin America and Caribbean, Africa, Middle East, Southern Asia, Eastern Asia, South-Eastern Asia and Developing Pacific) (Snider et al., 2015, 2016), and (vii) individual observational field campaign averages over Latin America and Caribbean, Africa, Europe, Eastern Asia, and Asia-Pacific Developed (Celis et al., 2004; Feng et al., 2006; Mariani and de Mello, 2007; Molina et al., 2007, 2010; Bourotte et al., 2007; Fuzzi et al., 2007; Mkoma, 2008; Favez et al., 2008; Aggarwal and Kawamura, 2009; Mkoma et al., 2009; Li et al., 2010; Martin et al., 2010; Radhi et al., 2010; Weinstein et al., 2010; de Souza et al., 2010; Batmunkh et al., 2011; Pathak et al., 2011; Gioda et al., 2011; Zhang et al., 2012a; Zhao et al., 2013; Cho and Park, 2013; Wang et al., 2019; Kuzu et al., 2020). Further details on data sources and processing are available in the chapter data table (Table 6.SM.1).  "
+                ]
+            }
+        },
+        "6.8": {
+            "title": {
+                "en_EN": "  Time evolution of changes in global mean aerosol optical depth (AOD) at 550 nm."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Year of reference is 1850. Data shown from individual Coupled Model Intercomparison Project Phase 6 (CMIP6) historical simulations. Each time series corresponds to the ensemble mean of realizations done by each model. Simulation results from years including major volcanic eruptions, e.g. Novarupta (1912) and Pinatubo (1991), are excluded from the analysis for models encompassing the contribution of stratospheric volcanic aerosols to total AOD. Further details on data sources and processing are available in the chapter data table (Table 6.SM.1). 2-)  "
+                ]
+            }
+        },
+        "6.9": {
+            "title": {
+                "en_EN": "  Time evolution of global annual mean tropospheric hydroxyl (OH) over the historical period, expressed as a percentage anomaly relative to the mean over 1998-2007."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " a) Results from three CMIP6 models, including UKESM1-0LL (green), GFDL-ESM4 (blue), and CESM2-WACCM (red), are shown; the shaded light green and light red bands show mean over multiple ensemble members for UKESM1-0LL (3) and CESM2-WACCM (3) models, respectively with the multi-model mean anomalies shown in thick black line.","b) multimodel mean OH anomalies for 1980-2015 period compared with those derived Chapter 6 from observational-based inversions from (Montzka et al., 2011; Rigby et al., 2017; Turner et al., 2017; Nicely et al., 2018; Naus et al., 2019; Patra et al., 2021) in the zoomed box. Further details on data sources and processing are available in the chapter data table (Table 6.SM.1).  "
+                ]
+            }
+        },
+        "6.10": {
+            "title": {
+                "en_EN": "  Multi-model mean Effective radiative forcings (ERFs) due to aerosol changes between 1850 and recent-past (1995-2014)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Panel (a) shows the spatial distribution of the net ERF with area-weighted global mean ERF shown at the lower right corner. Uncertainty is represented using the advanced approach: No overlay indicates regions with robust signal, where \u226566% of models show change greater than variability threshold and \u226580% of all models agree on sign of change; diagonal lines indicate regions with no change or no robust signal, where <66% of models show a change greater than the variability threshold; crossed lines indicate regions with conflicting signal, where \u226566% of models show change greater than variability threshold and <80% of all models agree on sign of change. For more information on the advanced approach, please refer to the Cross-Chapter Box Atlas.1.","Panel (b) shows the mean shortwave and longwave ERF for each of the 14 regions defined in the Atlas. Violins in panel (b) show the distribution of values over regions where ERFs are significant. ERFs are derived from the difference between top of the atmosphere (TOA) radiative fluxes for Aerosol Chemistry Model Intercomparison Project (AerChemMIP) experiments histSST and histSST-piAer (Collins et al., 2017) averaged over 1995-2014 (Box 1.4, Chapter 1). The results come from 7 Earth System Models: MIROC6, MPI-I-ESM-1-2-HAM, MRI-ESM2-0, GFDL-ESM4, GISS-E2-1-G, NorESM2-LM, and UKESM-0-LL.  These data can be seen in the Interactive Atlas. Further details on data sources and processing are available in the chapter data table (Table 6.SM.1).  "
+                ]
+            }
+        },
+        "6.11": {
+            "title": {
+                "en_EN": "  Time evolution of 20-year multi-model mean averages of the annual area-weighted mean regional net Effective Radiative Forcings (ERFs) due to aerosols."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Each of the 14 major regions in the Atlas are shown, as well as the global mean, using the models and model experiments as in Figure 6.10. Further details on data sources and processing are available in the chapter data table (Table 6.SM.1).    "
+                ]
+            }
+        },
+        "6.12": {
+            "title": {
+                "en_EN": "   Contribution to effective radiative forcing (ERF) (left) and global mean surface air temperature (GSAT) change (right) from component emissions between 1750 to 2019"
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "based on CMIP6 models  (Thornhill et al., 2021b). ERFs for the direct effect of well-mixed greenhouse gases (WMGHGs) are from the analytical formulae in section 7.3.2, H2O (strat) is from Table 7.8. ERFs for other components are multi-model means from Thornhill et al. (2021b) and are based on ESM simulations in which emissions of one species at a time are increased from 1850 to 2014 levels. The derived emission-based ERFs are rescaled to match the concentration-based ERFs in Figure 7.6. Error bars are 5-95% and for the ERF account for uncertainty in radiative efficiencies and multi-model error in the means. ERF due to aerosol-radiation (ERFari) and cloud effects are calculated from separate radiation calls for clear-sky and aerosol free conditions (Ghan, 2013; Thornhill et al., 2021b). \u201cCloud\u201d includes cloud adjustments (semi-direct effect) and indirect aerosol-cloud interactions (ERFaci). The aerosol components (SO2, organic carbon, black carbon) are scaled to sum to -0.22 W m-2 for ERFari and -0.84 W m-2 for \u201ccloud\u201d (section 7.3.3). For GSAT estimates, time series (1750-2019) for the ERFs have been estimated by scaling with concentrations for WMGHGs and with historical emissions for SLCFs. The time variation of ERFaci for aerosols is from Chapter 7. The global mean temperature response is calculated from the ERF time series using an impulse response function (see Cross-Chapter Box 7.1) with a climate feedback parameter of -1.31 W m-2 \uf0b0C-1. Further details on data sources and processing are available in the chapter data table (Table 6.SM.1).  "
+                ]
+            }
+        },
+        "6.13": {
+            "title": {
+                "en_EN": "  Multi-model mean surface air temperature response due to aerosol changes between 1850 and recent-past (1995-2014)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Calculation is based on the difference between CMIP6 \u2018historical\u2019 and AerChemMIP \u2018hist-piAer\u2019 experiments, where a) is the spatial pattern of the annual mean surface air temperature response, and b) is the mean zonally averaged response. Model means are derived from years 1995-2014. Uncertainty is represented using the advanced approach: No overlay indicates regions with robust signal, where \u226566% of models show change greater than variability threshold and \u226580% of all models agree on sign of change; diagonal lines indicate regions with no change or no robust signal, where <66% of models show a change greater than the variability threshold; crossed lines indicate regions with Chapter 6 conflicting signal, where \u226566% of models show change greater than variability threshold and <80% of all models agree on sign of change. For more information on the advanced approach, please refer to the Cross-Chapter Box Atlas.1. AerChemMIP models MIROC6, MRI-ESM2-0, NorESM2-LM, GFDL-ESM4, GISS-E2-1-G, UKESM1-0-LL are used in the analysis. Further details on data sources and processing are available in the chapter data table (Table 6.SM.1). Indirect radiative forcing through effects of SLCFs on the carbon cycle"
+                ]
+            }
+        },
+        "6.14": {
+            "title": {
+                "en_EN": "  Multi-model annual mean change in surface ozone (O3) (ppb) concentrations at different warming levels."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "  Changes are shown for a) 1.0\u00b0C, b) 1.5\u00b0C, c) 2.0\u00b0C and d) 2.5\u00b0C increase in global mean surface air temperature. CMIP6 models include GFDL-ESM4, GISS-E2-1-G, MRI-ESM2-0 and UKESM1-0-LL. For each model the change in surface O3 is calculated as difference between the ssp370SST and ssp370pdSST experiments in the year when the difference in the global mean surface air temperature between the experiments exceeds the temperature threshold. The difference is calculated as a 20-year mean in surface O3 around the year when the temperature threshold in each model is exceeded. The multi-model change in global annual mean surface O3 concentrations with \u00b1 1 \u03c3 are shown within parenthesis. Uncertainty is represented using the simple approach: No overlay indicates regions with high model agreement, 3 out of 4 models agree on sign of change; diagonal lines indicate regions with low model agreement, where 3 out of 4 models agree on sign of change. For more information on the simple approach, please refer to the Cross-Chapter Box Atlas.1. Further details on data sources and processing are available in the chapter data table (Table 6.SM.1). Impact of climate change on particulate matter  "
+                ]
+            }
+        },
+        "6.15": {
+            "title": {
+                "en_EN": "  Global mean surface air temperature (GSAT) response to an abrupt reduction in emissions (at time t=0) of idealized climate forcing agents with different lifetimes."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " All emissions are cut to give a radiative forcing of -1 W m-2 at steady state (except for CO2).  In other words, if the yearly emissions are E0 before the reduction, they will have a fixed lower value Eyear>0 = (E0 - \u0394E) for all succeeding years. For comparison, the GSAT response to a sustained reduction in CO2 emissions resulting in an RF of -1 W m-2 in year 100 is included (dashed line). The temperature response is calculated using an impulse response function (see Cross-Chapter Box 7.1) with a climate feedback parameter of -1.31 W m-2 \uf0b0C-1. Further details on data sources and processing are available in the chapter data table (Table 6.SM.1).  "
+                ]
+            }
+        },
+        "6.16": {
+            "title": {
+                "en_EN": "  Global-mean surface temperature response 10 and 100 years following one year of present-day (year 2014) emissions."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The temperature response is broken down by individual species and shown for total anthropogenic emissions (top), sectoral emissions (left) and regional emissions (right). Sectors and regions are sorted by (high-to-low) net temperature effect on the 10-year time scale. Error bars in the top panel show uncertainty (5-95% interval) in net temperature effect due to uncertainty in radiative forcing only (calculated using a Monte Carlo approach and best estimate uncertainties from the literature - see Lund et al. (Lund et al., 2020) for details). CO2 emissions are excluded from open biomass burning and residential biofuel use due to their unavailability in CEDS and uncertainties around non-sustainable emission fraction. Emissions for 2014 originate from the Community Emissions Data System (CEDS) (Hoesly et al., 2018), except for HFCs which are from Purohit et al. (2020), open biomass burning from van Marle et al. (2017), and aviation H2O which is from Lee et al.(2020b). The split of fossil fuel production and distribution and combustion for energy and residential and commercial fuel use into fossil fuel and biofuel components obtained from the GAINS model (ECLIPSE version 6b dataset). Open biomass burning emissions are not included for the regions. Emission are aggregated into fossil fuel production and distribution (coal mining, oil and gas production, upstream gas flaring, gas distribution networks), agriculture (livestock and crop production), fossil fuel combustion for energy (power plants), industry (combustion and production processes, solvent use loses from production and end use), residential and commercial (fossil fuel use for cooking and heating as well is HFCs leakage from A\/C and refrigeration), waste management (solid waste, incl. landfills and open trash burning, residential and industrial waste water), land transportation (road and off-road vehicles, and HFC leakage from A\/C and refrigeration equipment), residential and commercial (biofuels use for cooking and heating), open biomass burning (forest, grassland, savannah fires, and agricultural waste burning), shipping (incl. international shipping), and aviation (incl. international aviation). Further details on data sources and processing are available in the chapter data table (Table 6.SM.1).  "
+                ]
+            }
+        },
+        "6.17": {
+            "title": {
+                "en_EN": "  Emission source-sector attribution of regional population weighted mean concentrations of PM2.5 and ozone for present day emissions (year 2014)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Regional concentrations and source apportionment calculated with the TM5-FASST model (Van Dingenen et al., 2018) for the 2014 emission data from the Community Emissions Data System (CEDS) (Hoesly et al., 2018) and van Marle et al.(2017) for open biomass burning. PM2.5 dust and seasalt are monthly mean climatological average over 2010-2018 from CAMS global reanalysis (EAC4) (Inness et al., 2019), generated using Copernicus Climate Change Service information [January 2020]. Anthropogenic sectors are similar to those in Figures 6.3 and 6.16 except grouping of fossil fuel production, distribution and combustion for energy under \u201cEnergy\u201d and Chapter 6 grouping of use of fossil fuel and biofuel use for cooking and heating under \u201cResidential and Commercial\u201d. Further details on data sources and processing are available in the chapter data table (Table 6.SM.1).  "
+                ]
+            }
+        },
+        "6.18": {
+            "title": {
+                "en_EN": "  Global anthropogenic and biomass burning short-lived climate forcer (SLCF) and carbon dioxide (CO2) emissions from 1850 to 2100 and HFC emissions from 1990 to 2100."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Emissions for the Coupled Model Intercomparison Project Phase 6 (CMIP6) for the period 1850-2014 are based on Hoesly et al. (2018) and van Marle et al. (2017), emissions for CMIP5 for the period 1850-2005 are from Lamarque et al. (2010), CO2 emissions are from EDGAR database (Crippa et al., 2020); CH4 and HFCs are from (Crippa et al., 2019); and air pollutants are from (EC-JRC \/ PBL, 2020), H\u00f6glund-Isaksson (2012) and Klimont et al. (2017b) for ECLIPSE. Projections originate from the Shared Socio-Economic Pathway (SSP) database (Riahi et al., 2017; Rogelj et al., 2018a; Gidden et al., 2019), Representative Concentration Pathway (RCP) database (van Vuuren et al., 2011), GAINS (CLE \u2013 current legislation baseline, KA \u2013 Kigali Amendment, MTFR \u2013 maximum technical mitigation potential) for HFCs (Purohit et al., 2020), Velders et al. (2015), ECLIPSE (Stohl et al., 2015). Further details on data sources and processing are available in the chapter data table (Table 6.SM.1).  "
+                ]
+            }
+        },
+        "6.19": {
+            "title": {
+                "en_EN": "  Regional anthropogenic and biomass burning short-lived climate forcer (SLCF) emissions from 1850 to 2100."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Emissions for the Coupled Model Intercomparison Project Phase 6 (CMIP6) for the period 1850-2014 are  based on Hoesly et al. (2018) and van Marle et al. (2017) and emissions for CMIP5 for the period 1850-2005 are from Lamarque et al. (2010). Projections originate from the Shared Socio-Economic Pathway (SSP) database (Riahi et al., 2017; Rogelj et al., 2018a; Gidden et al., 2019) and Representative Concentration Pathway (RCP) database (van Vuuren et al., 2011). Further details on data sources and processing are available in the chapter data table (Table 6.SM.1).  "
+                ]
+            }
+        },
+        "6.20": {
+            "title": {
+                "en_EN": "  Projected changes in regional annual mean surface ozone (O3) (ppb) from 2015 to 2100 in different shared socio-economic pathways (SSPs)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Each panel represents values averaged over the corresponding land area (except for Global) shown on the map in Figure 6.7. Solid colored lines and shading indicate the multi-model mean and \u00b11 \u03c3 across the available CMIP6 models (Turnock et al., 2020; Allen et al., 2021)  for each scenario. Changes are relative to annual mean values calculated over the period 2005-2014 from the historical experiment as indicated in the top left of each regional panel along with \u00b11 \u03c3. For each model all available ensemble members are averaged before being used to calculate the multi-model mean. Ozone changes are also displayed in the Interactive Atlas. Further details on data sources and processing are available in the chapter data table (Table 6.SM.1).  "
+                ]
+            }
+        },
+        "6.21": {
+            "title": {
+                "en_EN": "  Future changes in regional 5-year mean surface PM2."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "5 from 2015 to 2100 in different shared socio-economic pathways (SSPs). PM2.5 stands for micrograms per cubic meter of aerosols with diameter less than 2.5 \u03bcm and is calculated by summing up individual aerosol mass components from each model as: black carbon + particulate organic matter + sulphate + 0.25 * sea salt + 0.1 * dust. Since not all CMIP6 models reported nitrate aerosol, it is not included here. See Figure 6.20 for further details. PM2.5 changes are also displayed in the Interactive Atlas. Further details on data sources and processing are available in the chapter data table (Table 6.SM.1).  "
+                ]
+            }
+        },
+        "6.22": {
+            "title": {
+                "en_EN": "  Time evolution of the effects of short-lived climate forcers (SLCFs) and hydrofluorocarbons (HFCs) on global surface air temperature (GSAT) across the WGI core set of Shared Socio-Economic Pathways (SSPs)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Effects of net aerosols, methane, tropospheric ozone and HFCs (with lifetimes <50years), relative to year 2019 and to year 1750. The GSAT changes are based on the assessed historic and future evolution of Effective Radiative Forcing (Section 7.3.5). The temperature responses to the ERFs are calculated with an impulse response function with an equilibrium climate sensitivity of 3.0\u00b0C for a doubling of atmospheric CO2 (feedback parameter of -1.31 W m-2 \uf0b0C-1, see CC-Box 7.1). Uncertainties are 5-95% ranges. The vertical bars to the right in each panel show the uncertainties for the GSAT change between 2019 and 2100. Further details on data sources and processing are available in the Chapter 6 chapter data table (Table 6.SM.1)."
+                ]
+            }
+        },
+        "6.23": {
+            "title": {
+                "en_EN": "  Contribution from regional emissions of short-lived climate forcers (SLCFs) to changes in global surface air temperature (GSAT) in 2040 (upper row) and 2100 (lower row), relative to 2020 for four Shared Socio-economic Pathways (SSP)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Adapted from (Lund et al., 2020). NOx, CO, and VOC account for the impact through changes in ozone and methane, NOx additionally includes the impact through formation of nitrate aerosols. BC, SO2 and OC accounts for the direct aerosol effect (aerosol-radiation interactions), as well as an estimate of the semi-direct effect for BC due to rapid adjustments and indirect effect (aerosol-cloud interactions) of sulfate aerosols. Regions are the same as shown in the map in Figure 6.7. Further details on data sources and processing are available in the chapter data table (Table 6.SM.1).  "
+                ]
+            }
+        },
+        "6.24": {
+            "title": {
+                "en_EN": "  Effects of short-lived climate forcers (SLCFs) and hydrofluorocarbons (HFCs) on global surface air temperature (GSAT) across the WGI core set of Shared Socio-Economic Pathways (SSPs)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Effects of net aerosols, methane, tropospheric ozone, and hydrofluorocarbons (HFCs; with lifetimes < 50 years), are compared with those of total anthropogenic forcing for 2040 and 2100 relative to year 2019. The GSAT changes are based on the assessed historic and future evolution of Effective Radiative Forcing (Section 7.3.5). The temperature responses to the ERFs are calculated with an impulse response function with an equilibrium climate sensitivity of 3.0\u00b0C for a doubling of atmospheric CO2 (feedback parameter of -1.31 W m-2 \uf0b0C-1, see Cross-Chapter Box 7.1). Uncertainties are 5-95% ranges. The scenario total (grey bar) includes all anthropogenic forcings (long- and short-lived climate forcers, and land use changes) whereas the white points and bars show the net effects of SLCFs and HFCs and their uncertainties. Further details on data sources and processing are available in the chapter data table (Table 6.SM.1).   "
+                ]
+            }
+        },
+        "6.25": {
+            "title": {
+                "en_EN": "  Effect of dedicated air pollution or climate policy on population-weighted PM2.5 concentrations (\u00b5g m-3) and share of population (%) exposed to different PM2.5 levels across selected world regions. "
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Thresholds of 10 \u00b5g m-3 and 35 \u00b5g m-3 represent the WHO air quality guideline and the WHO interim target 1, respectively; WHO (2017). Results are compared for SSP3-7.0 (no major improvement of current legislation is assumed), SSP3-LowSLCF (strong air pollution controls are assumed), and a climate mitigation scenario SSP3-3.4; details of scenario assumptions are discussed in Riahi et al. (2017) and Rao et al. (2017). Analysis performed with the TM5-FASST model (Van Dingenen et al., 2018) using emission projections from the Shared Socio-Economic Pathway (SSP) database  (Riahi et al., 2017; Rogelj et al., 2018a; Gidden et al., 2019). Further details on data sources and processing are available in the chapter data table (Table 6.SM.1).   "
+                ]
+            }
+        },
+        "6.26": {
+            "title": {
+                "en_EN": "  Effect of dedicated air pollution or climate policy on population-weighted ozone concentrations (SOMO0; ppb) and share of population (%) exposed to chosen ozone levels across ten world regions."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Results are compared for SSP3-7.0 (no major improvement of current legislation is assumed), SSP3-Low NTCF (strong air pollution controls are assumed), and a climate mitigation scenario (SSP3-3.4); details of scenario assumptions are discussed in Riahi et al. (2017) and Rao et al. (2017). Analysis performed with the TM5-FASST model (Van Dingenen et al., 2018) using emission projections from the Shared Socio-Economic Pathway (SSP) database (Riahi et al., 2017; Rogelj et al., 2018a; Gidden et al., 2019). Further details on data sources and processing are available in the chapter data table (Table 6.SM.1).  "
+                ]
+            }
         },
         "2.X": {
             "title": {
