@@ -58,7 +58,7 @@ let initFn = (function()
     }
 
     /* init page */
-    jQuery.getJSON('content/wgI.json?v8.json', function(r){
+    jQuery.getJSON('content/wgI.json?v9.json', function(r){
         const nb_chap = r.SPM.chapters.length;
         wgI = r;
         
@@ -712,7 +712,7 @@ function dispSource(e)
         return false;
     }
     let chap0 = src.split('.')[0];
-    if(chap0 == '1' || chap0 == '2' || chap0 == '3') {
+    if(chap0 == '1' || chap0 == '2' || chap0 == '3' || chap0 == '4') {
         // chapter 1 available
         loadMainPanel(chap0, src);
         return false;
@@ -1225,7 +1225,7 @@ function goToRefInMarkdown(ref)
     let sanitized = ref.replaceAll('.','').toLowerCase();
     let uRef = "doc-TS-"+sanitized+"-";
     let chap = ref.split('.')[0];
-    if(chap == '1' || chap == '2' || chap == '3'){
+    if(chap == '1' || chap == '2' || chap == '3' || chap == '4'){
         uRef = "doc-"+chap+"-"+sanitized+"-";
     }
     console.log("searching for ref", uRef);
