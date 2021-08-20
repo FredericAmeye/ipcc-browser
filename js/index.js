@@ -211,7 +211,7 @@ function dispFAQ(e)
             {
                 for(let i = 0; i < faq.figref.length; i++)
                 {
-                    html += `<img style="max-width:100%" src="content/img/en_EN/${faq.figref[i]}.png">`;
+                    html += `<img style="max-width:100%" onerror="this.src = 'content/img/en_EN/${faq.figref[i]}.png';" src="content/img/${lang}/${faq.figref[i]}.png">`;
                 }
             }
 
@@ -462,7 +462,7 @@ function switchChapter(e)
                     figures += /*html*/`
                     <a href="#" data-figref="${figref}" onclick="return dispFig(this);">
                         <div class="figure-level2">
-                            <img src="content/img/en_EN/${figref}.png">
+                            <img src="content/img/${lang}/${figref}.png" onerror="this.src = 'content/img/en_EN/${figref}.png';">
                             <span class="fig-name"></span>
                         </div>
                     </a>
@@ -995,7 +995,7 @@ let regex_markup_fn = function(orig1, balise, content, balise2, position)
         let fname = (!WEBP_supported) ? content + '.png' : 'webp/'+content+'.webp';
 
         return /*html*/`<div class="center"><div class="small-figure hoverable" onclick="$(this).find('.fig-clicker').toggle(); $(this).find('.fig-legend-ext').toggle();">
-            <img src="content/img/en_EN/${fname}" onerror="console.error('failed to load image',this); $(this).parent().remove();" alt="${content}">
+            <img src="content/img/${lang}/${fname}" onerror="this.src = 'content/img/en_EN/${fname}';" alt="${content}">
             <span class="fig-legend">${content}: ${fig_title}</span><span class="fig-clicker"> (click to read the legend)</span>
             <div class="fig-legend-ext"><em>${fig_subtitle}</em>${fig_description}</div>
         </div></div>`;
