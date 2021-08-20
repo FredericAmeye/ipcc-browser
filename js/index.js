@@ -2,6 +2,8 @@ let wgI;
 let lang = (document.location.hostname === 'comprendre-giec.fr') ? "fr_FR" : "en_EN";
 let userParams = {};
 
+const chapters_MD = ["1","2","3","4","5"];
+
 function changeLang(lang)
 {
     localStorage.setItem('lang',lang);
@@ -712,7 +714,7 @@ function dispSource(e)
         return false;
     }
     let chap0 = src.split('.')[0];
-    if(chap0 == '1' || chap0 == '2' || chap0 == '3' || chap0 == '4') {
+    if(chapters_MD.includes(chap0)) {
         // chapter 1 available
         loadMainPanel(chap0, src);
         return false;
@@ -1225,7 +1227,7 @@ function goToRefInMarkdown(ref)
     let sanitized = ref.replaceAll('.','').toLowerCase();
     let uRef = "doc-TS-"+sanitized+"-";
     let chap = ref.split('.')[0];
-    if(chap == '1' || chap == '2' || chap == '3' || chap == '4'){
+    if(chapters_MD.includes(chap)){
         uRef = "doc-"+chap+"-"+sanitized+"-";
     }
     console.log("searching for ref", uRef);
