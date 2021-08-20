@@ -2395,6 +2395,592 @@
                 ]
             }
         },
+        "3.1": {
+            "title": {
+                "en_EN": "Visual Abstract for Chapter 3: Human influence on the climate system."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": []
+            }
+        },
+        "3.2": {
+            "title": {
+                "en_EN": "Changes in surface temperature for different paleoclimates."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [    "Paste in some lines of text.(a) Comparison of reconstructed and modelled surface temperature anomalies for the Last Glacial Maximum over land and ocean in the Tropics (30°N to 30°S). Land-based reconstructions are from Cleator et al., (2020). Ocean-based reconstructions are from Tierney et al. (2020). Model points are calculated as the difference between Last Glacial Maximum and pre-industrial control simulations of the PMIP3 and PMIP4 ensembles, sampled at the reconstruction data points.",    "(b) Land-sea contrast in global mean surface temperature change for different paleoclimates. Crosses show individual model simulations from the CMIP5 and CMIP6 ensembles. Filled symbols show ensemble means and assessed values. Acronyms are LGM Last Glacial Maximum, LIG Last Inter Glacial, MPWP mid-Pliocene Warm Period, EECO Early Eocene Climatic Optimum.",    "(c) Upper panel shows time series of volcanic radiative forcing, in W m−2, as used in the CMIP5 (Gao et al., 2008; Crowley and Unterman, 2013; see also Schmidt et al., 2011) and CMIP6 (850 BCE to 1900 CE from Toohey and Sigl (2017), 1850-2015 from Luo (2018)). The forcing has been calculated from the stratospheric aerosol optical depth at 550 nm shown in Figure 2.2. Lower panel shows time series of global mean surface temperature anomalies, in K, with respect to 1850-1900 for the CMIP5 and CMIP6 past1000 simulations and their historical continuation simulations. Simulations are coloured according to the volcanic radiative forcing dataset they used. The temperature median reconstruction by PAGES 2k Consortium (2019) is shown in black, the 5-95% confidence interval by grey lines and the grey envelopes show the 1, 5, 15, 25, 35, 45, 55, 65, 75, 85, 95, and 99 percentiles. ",    "All data in both panels are band-passed, where frequencies longer than 20 years have been retained. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "]
+            }
+        },
+        "3.3": {
+            "title": {
+                "en_EN": "Annual-mean surface (2 m) air temperature (°C) for the period 1995–2014."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [    "(a) Multi-model (ensemble) mean constructed with one realization of the CMIP6 historical experiment from each model.",    "(b) Multi-model mean bias, defined as the difference between the CMIP6 multi-model mean and the climatology of the Fifth generation of ECMWF atmospheric reanalyses of the global climate (ERA5). ",    "(c) Multi-model mean of the root mean square error calculated over all months separately and averaged with respect to the climatology from ERA5.",    "(d) Multi-model-mean bias as the difference between the CMIP6 multi-model mean and the climatology from ERA5. Also shown is the multi-model mean bias as the difference between the multi-model mean of (e) high resolution and (f) low resolution simulations of four HighResMIP models and the climatology from ERA5. Uncertainty is represented using the advanced approach: No overlay indicates regions with robust signal, where ≥66% of models show change greater than variability threshold and ≥80% of all models agree on sign of change; diagonal lines indicate regions with no change or no robust signal, where <66% of models show a change greater than the variability threshold; crossed lines indicate regions with conflicting signal, where ≥66% of models show change greater than variability threshold and <80% of all models agree on sign of change. For more information on the advanced approach, please refer to the Cross-Chapter Box Atlas.1. Dots in panel e) mark areas where the bias in high resolution versions of the HighResMIP models is lower in at least 3 out of 4 models than in the corresponding low resolution versions. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "]
+            }
+        },
+        "3.4": {
+            "title": {
+                "en_EN": "Observed and simulated time series of the anomalies in annual and global mean near-surface air temperature (GSAT)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "All anomalies are differences from the 1850–1900 time-mean of each individual time series. The reference period 1850–1900 is indicated by grey shading. (a) Single simulations from CMIP6 models (thin lines) and the multi-model mean (thick red line). Observational data (thick black lines) are HadCRUT5, and are blended surface temperature (2 m air temperature over land and sea surface temperature over the ocean). All models have been subsampled using the HadCRUT5 observational data mask. Vertical lines indicate large historical volcanic eruptions. CMIP6 models which are marked with an asterisk are either tuned to reproduce observed warming directly, or indirectly by tuning equilibrium climate sensitivity. Inset: GSAT for each model over the reference period, not masked to any observations. (b). Multi-model means of CMIP5 (blue line) and CMIP6 (red line) ensembles and associated 5 to 95 percentile ranges (shaded regions). Observational data are HadCRUT5, Berkeley Earth, NOAAGlobalTemp-Interim and Kadow et al. (2020). Masking was done as in (a). CMIP6 historical simulations are extended with SSP2-4.5 simulations for the period 2015-2020 and CMIP5 simulations are extended with RCP4.5 simulations for the period 2006-2020. All available ensemble members were used (see Section 3.2). The multi-model means and percentiles were calculated solely from simulations available for the whole time span (1850-2020). Figure is updated from Bock et al. (2020), their Figures 1 and 2. / CC BY4.0 https://creativecommons.org/licenses/by/4.0/. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "
+                ]
+            }
+        },
+        "3.5": {
+            "title": {
+                "en_EN": "The standard deviation of annually averaged zonal-mean near-surface air temperature."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "This is shown for four detrended observed temperature datasets (HadCRUT5, Berkeley Earth, NOAAGlobalTemp-Interim and Kadow et al. (2020), for the years 1995-2014) and 59 CMIP6 pre- industrial control simulations (one ensemble member per model, 65 years) (after Jones et al., 2013). For line colours see the legend of Figure 3.4. Additionally, the multi-model mean (red) and standard deviation (grey shading) are shown. Observational and model datasets were detrended by removing the least- squares quadratic trend. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "
+                ]
+            }
+        },
+        "3.6": {
+            "title": {
+                "en_EN": "Simulated internal variability of global surface air temperature (GSAT) versus observed changes. "
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [    "(a) Time series of 5-year running mean GSAT anomalies in 45 CMIP6 pre-industrial control (unforced) simulations. The 10 most variable models in terms of 5-year running mean GSAT are coloured according to the legend on Figure 3.4.",    "(b) Histograms of GSAT changes in CMIP6 historical simulations (extended by SSP2-4.5 simulations) from 1850-1900 to 2010-2019 are shown by pink shading in (c), and GSAT changes from the first 51 years average to the last 20 years average of 170-year overlapping segments of the pre-industrial control simulations shown in (a) are shown by blue shading. GMST changes in observational datasets for the same period are indicated by black vertical lines.",    "(c) Observed GMST anomaly time series relative to the 1850-1900 average. Black lines represent the 5-year running means while grey lines show unfiltered annual time series. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1)."]
+            }
+        },
+        "3.7": {
+            "title": {
+                "en_EN": "Regression coefficients and corresponding attributable warming estimates for individual CMIP6 models."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Upper panels show regression coefficients based on a two-way regression (left) and three-way regression (right), of observed 5-yr mean global mean masked and blended surface temperature (HadCRUT4) onto individual model response patterns, and a multi-model mean, labelled ‘Multi’. Anthropogenic, natural, greenhouse gas, and other anthropogenic (aerosols, ozone, land-use change) regression coefficients are shown. Regression coefficients are the scaling factors by which the model responses must be multiplied to best match observations. Regression coefficients consistent with one indicate a consistent magnitude response in observations and models, and regression coefficients inconsistent with zero indicate a detectable response to the forcing concerned. Lower panels show corresponding observationally-constrained estimates of attributable warming in globally-complete GSAT for the period 2010-2019, relative to 1850-1900, and the horizontal black line shows an estimate of observed warming in GSAT for this period. Figure is adapted from Gillett et al. (2021), their Extended Data Figure 3. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "
+                ]
+            }
+        },
+        "3.8": {
+            "title": {
+                "en_EN": "Assessed contributions to observed warming, and supporting lines of evidence."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Shaded bands show assessed likely ranges of temperature change in GSAT, 2010-2019 relative to 1850-1900, attributable to net human influence, well-mixed greenhouse gases, other human forcings (aerosols, ozone, and land-use change), natural forcings, and internal variability, and the 5-95% range of observed warming. Bars show 5-95% ranges based on (left to right) Haustein et al. (2017), Gillett et al. (2021) and Ribes et al. (2021), and crosses show the associated best estimates. No 5-95% ranges were provided for the Haustein et al. (2017) greenhouse gas or other human forcings contributions. The Ribes et al. (2021) results were updated using a revised natural forcing time series, and the Haustein et al. (2017) results were updated using HadCRUT5. The Chapter 7 best estimates and ranges are derived using assessed forcing time series and a two-layer energy balance model as described in Section 7.3.5.3. Coloured symbols show the simulated responses to the forcings concerned in each of the models indicated. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1)."
+                ]
+            }
+        },
+        "3.9": {
+            "title": {
+                "en_EN": "Global, land, ocean and continental annual mean near-surface air temperatures anomalies in CMIP6 models and observations."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Time series are shown for CMIP6 historical anthropogenic and natural (brown), natural-only (green), greenhouse gas only (grey) and aerosol only (blue) simulations (multi-model means shown as thick lines, and shaded ranges between the 5th and 95th percentiles) and for HadCRUT5 (black). All models have been subsampled using the HadCRUT5 observational data mask. Temperatures anomalies are shown relative to 1950-2010 for Antarctica and relative to 1850–1900 for other continents. CMIP6 historical simulations are expand by the SSP2-4.5 scenario simulations. All available ensemble members were used (see Section 3.2). Regions are defined by Iturbide et al. (2020). Further details on data sources and processing are available in the chapter data table (Table 3.SM.1)."
+                ]
+            }
+        },
+        "3.10": {
+            "title": {
+                "en_EN": "Observed and simulated tropical mean temperature trends through the atmosphere."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Vertical profiles of temperature trends in the tropics (20°S-20°N) for three periods: (a) 1979-2014 (b) 1979-1997 (ozone depletion era) (c) 1998-2014 (ozone stabilisation era). The black lines show trends in the RICH 1.7 (long dashed) and RAOBCORE 1.7 (dashed) radiosonde datasets (Haimberger et al., 2012), and in the ERA5/5.1 reanalysis (solid). Grey envelopes are centred on the RICH 1.7 trends, but show the uncertainty based on 32 RICH-obs members of version 1.5.1 of the dataset, which used version 1.7.3 of the RICH software but with the parameters of version 1.5.1. ERA5 was used as reference for calculating the adjustments between 2010 and 2019, and ERA-Interim was used for the years before that. Red lines show trends in CMIP6 historical simulations from one realization of 60 models. Blue lines show trends in 46 CMIP6 models that used prescribed, rather than simulated, sea surface temperatures (SSTs). Figure is adapted from Mitchell et al. (2020), their Figure 1. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "
+                ]
+            }
+        },
+        "Cross-Chapter Box 3.1,Figure1":{
+            "title": {
+                "en_EN":"Figure 1: 15-year trends of surface global warming for 1998-2012 and 2012-2026"
+            },
+            "subtitle": {"en_EN":""},
+            "description":{
+                "en_EN": ["(a, b) GSAT and GMST trends for 1998-2012 (a) and 2012-2026 (b). Histograms are based on GSAT in historical simulations of CMIP6 (red shading, extended by SSP2-4.5) and CMIP5 (grey shading; extended by RCP4.5). Filled and open diamonds at the top represent multi-model ensemble means of GSAT and GMST trends, respectively. Diagonal lines show histograms of HadCRUT5.0.1.0. Triangles at the top of (a) represent GMST trends of Berkeley Earth, GISTEMP, Kadow et al. (2020) and NOAAGlobalTemp-Interim, and the GSAT trend of ERA5. Selected CMIP6 members whose 1998-2012 trends are lower than the HadCRUT5.0.1.0 mean trend are indicated by purple shading (a) and (b). In (a), model GMST and GSAT, and ERA5 GSAT are masked to match HadCRUT data coverage. (c-d) Trend maps of annual near-surface temperature for 1998-2012 based on HadCRUT5.0.1.0 mean (c) and composited surface air temperature trends of subsampled CMIP6 simulations (d) that are included in purple shading area in (a). In (c), cross marks indicate trends that are not significant at the 10% level based on t-tests with serial correlation taken into account. Ensemble size used for each of the histograms and the trend composite is indicated at the top right of each of panels (a,b,d). Model ensemble members are weighted with the inverse of the ensemble size of the same model, so that individual models are equally weighted. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "]
+            }
+        },
+        "3.11": {
+            "title": {
+                "en_EN": "Comparison between simulated annual precipitation changes and pollen-based reconstructions at the Mid-Holocene (6,000 years ago)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The area-averaged changes over five regions (Iturbide et al., 2020) as simulated by CMIP6 models (individually identifiable, one ensemble member per model) and CMIP5 models (blue) are shown, stretching from the tropics to high-latitudes. All regions contain multiple quantitative reconstructions: their interquartile range are shown by boxes and with whiskers for their full range excluding outliers. Figure is adapted from Brierley et al. (2020). Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "
+                ]
+            }
+        },
+        "3.12": {
+            "title": {
+                "en_EN": "Column water vapour path trends (%/decade) for the period 1998-2019 averaged over the near-global ocean (50°S-50°N)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The figure shows satellite data (RSS) and ERA5.1 reanalysis, as well as CMIP5 (sky blue) and CMIP6 (brown) historical simulations. All available ensemble members were used (see Section 3.2). Fits to the model trend probability distributions were performed with kernel density estimation. Figure is updated from Santer et al. (2007). Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "
+                ]
+            }
+        },
+        "3.13": {
+            "title": {
+                "en_EN": "Annual-mean precipitation rate (mm day–1) for the period 1995–2014."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) Multi-model (ensemble) mean constructed with one realization of the CMIP6 historical experiments from each model. (b) Multi- model mean bias, defined as the difference between the CMIP6 multi-model mean and precipitation analyses from the Global Precipitation Climatology Project (GPCP) version 2.3 (Adler et al., 2003). (c) Multi-model mean of the root mean square error calculated over all months separately and averaged with respect to the precipitation analyses from GPCP v2.3. (d) Multi-model-mean bias, calculated as the difference between the CMIP6 multi-model mean and the precipitation analyses from GPCP v2.3. Also shown is the multi-model mean bias as the difference between the multi-model mean of (e) high resolution and (f) low resolution simulations of four HighResMIP models and the precipitation analyses from GPCP v2.3. Uncertainty is represented using the advanced approach: No overlay indicates regions with robust signal, where ≥66% of models show change greater than variability threshold and ≥80% of all models agree on sign of change; diagonal lines indicate regions with no change or no robust signal, where <66% of models show a change greater than the variability threshold; crossed lines indicate regions with conflicting signal, where ≥66% of models show change greater than variability threshold and <80% of all models agree on the sign of change. For more information on the advanced approach, please refer to the Cross-Chapter Box Atlas.1. Dots in panel e) marks areas where the bias in high resolution versions of the HighResMIP models is lower in at least 3 out of 4 models than in the corresponding low resolution versions. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "
+                ]
+            }
+        },
+        "3.14": {
+            "title": {
+                "en_EN": "Wet (a) and dry (b) region tropical mean (30°S-30°N) annual precipitation anomalies."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Observed data are shown with black lines (GPCP), ERA5 reanalysis in grey, single model simulations results are shown with light blue/red lines (CMIP6), and multi-model-mean results are shown with dark blue/red lines (CMIP6). Wet and dry region annual anomalies are calculated as the running mean over 12 months relative to a 1988-2020 base period. The regions are defined as the wettest third and driest third of the surface area, calculated for the observations and for each model separately for each season (following Polson and Hegerl, 2017). Scaling factors (panels c,d) are calculated for the combination of the wet and dry region mean, where the observations, reanalysis and all the model simulations are first standardised using the mean standard deviation of the pre-industrial control simulations. Two total least squares regression methods are used: noise in variables (following Polson and Hegerl, 2017) which estimates a best estimate and a 5-95% confidence interval using the pre-industrial controls (circle and thick green line) and the pre-industrial controls with double the variance (thin green line); and a bootstrap method (DelSole et al., 2019) (5-95% confidence interval shown with a purple line and best estimate with a purple circle). Panel (c) shows results for GPCP and panel (d) for ERA5. Figure is adapted from Schurer et al. (2020). Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "
+                ]
+            }
+        },
+        "3.15": {
+            "title": {
+                "en_EN": "Observed and simulated time series of anomalies in zonal average annual mean precipitation."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "a), c)- f) Evolution of global and zonal average annual mean precipitation (mm day-1) over areas of land where there are observations, expressed relative to the base-line period of 1961–1990, simulated by CMIP6 models (one ensemble member per model) forced with both anthropogenic and natural forcings (brown) and natural forcings only (green). Multi-model means are shown in thick solid lines and shading shows the 5-95% confidence interval of the individual model simulations. The data is smoothed using a low pass filter. Observations from three different data sets are included: gridded values derived from Global Historical Climatology Network (GHCN V2) station data, updated from Zhang et al. (2007), data from the Global Precipitation Climatology Product (GPCP L3 v2.3, Huffman and Bolvin (2013)) and from the Climate Research Unit (CRU TS4.02, Harris et al. (2014)). Also plotted are boxplots showing interquartile and 5-95% ranges of simulated trends over the period for simulations forced with both anthropogenic and natural forcings (brown) and natural forcings only (blue). Observed trends for each observational product are shown as horizontal lines. Panel b) shows annual mean precipitation rate (mm day-1) of GHCN V2 for the years 1950-2014 over land areas used to compute the plots. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "
+                ]
+            }
+        },
+        "Cross-Chapter Box 3.2,Figure1": {
+            "title": {
+                "en_EN": "Comparison of observed and simulated changes in global mean temperature and precipitation extremes."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Time series of globally averaged 5- year mean anomalies of the annual maximum daily maximum temperature (TXx in °C) and annual maximum 1-day precipitation (Rx1day as standardized probability index in %) during 1953-2017 from the HadEX3 observations and the CMIP5 and CMIP6 multi-model ensembles with natural and human forcing (upper) and natural forcing only (lower). For CMIP5, historical simulations for 1953-2005 are combined with corresponding RCP4.5 scenario runs for 2006- 2017. For CMIP6, historical simulations for 1953-2014 are combined with SSP2-4.5 scenario simulations for 2015-2017. Numbers in brackets represents the number of models used. The time-fixed observational mask has been applied to model data throughout the whole period. Grid cells with more than 70% data availability during 1953-2017 plus data for at least 3 years during 2013-2017 are used. Coloured lines indicate multi-model means, while shading represents 5th-95th percentile ranges, based on all available ensemble members with equal weight given to each model (Section 3.2). Anomalies are relative to 1961-1990 means. Figure is updated from Seong et al. (2021), their Figure 3 and Paik et al. (2020), their Figure 3. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1)."
+                ]
+            }
+        },
+        "3.16": {
+            "title": {
+                "en_EN": "Model evaluation and attribution of changes in Hadley cell extent and Walker circulation strength."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a-c) Trends in subtropical edge latitude of the Hadley cells in (a) the Northern Hemisphere for 1980- 2014 annual mean and (b-c) Southern Hemisphere for (b) 1980-2014 annual mean and (c) 1980/81- 1999/2000 December-January-February mean. Positive values indicate northward shifts. (d-f) Trends in the Pacific Walker circulation strength for (d) 1901-2010, (e) 1951-2010 and (f) 1980-2014. Positive values indicate strengthening. Based on CMIP5 historical (extended with RCP4.5), CMIP6 historical, AMIP, pre-industrial control, and single forcing simulations along with HadSLP2 and reanalyses. Pre- industrial control simulations are divided into non-overlapping segments of the same length as the other simulations. White boxes and whiskers represent mean, interquartile ranges and 5th and 95th percentiles, calculated after weighting individual members with the inverse of the ensemble of the same model, so that individual models are equally weighted (Section 3.2). The filled boxes represent the 5-95% confidence interval on the multi-model mean trends of the models with at least 3 ensemble members, with dots indicating the ensemble means of individual models. The edge latitude of the Hadley cell is defined where the surface zonal wind velocity changes sign from negative to positive, as described in the Appendix of Grise et al. (2018). The Pacific Walker circulation strength is evaluated as the annual mean difference of sea level pressure between 5ºS-5ºN, 160ºW-80ºW and 5ºS-5ºN, 80ºE-160ºE. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1)."
+                ]
+            }
+        },
+        "3.17": {
+            "title": {
+                "en_EN": "Model evaluation of global monsoon domain, intensity, and circulation."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a-b) Climatological summer-winter range of precipitation rate, scaled by annual mean precipitation rate (shading) and 850 hPa wind velocity (arrows) based on (a) GPCP and ERA5 and (b) a multi-model ensemble mean of CMIP6 historical simulations for 1979-2014. Enclosed by red lines is the monsoon domain based on the definition by Wang and Ding (2008). (c-d) 5-year running mean anomalies of (c) global land monsoon precipitation index defined as the percentage anomaly of the summertime precipitation rate averaged over the monsoon regions over land, relative to its average for 1979-2014 (the period indicated by light grey shading) and (d) the tropical monsoon circulation index defined as the vertical shear of zonal winds between 850 and 200 hPa levels averaged over 0º-20ºN, from 120ºW eastward to 120ºE in NH summer (Wang et al., 2013; m s–1) in CMIP5 historical and RCP4.5 simulations, CMIP6 historical and AMIP simulations. Summer and winter are defined for individual hemispheres: May through September for NH summer and SH winter, and November through March for NH winter and SH summer. The number of models and ensembles are given in the legend. The multi-model ensemble mean and percentiles are calculated after weighting individual members with the inverse of the ensemble size of the same model, so that individual models are equally weighted irrespective of ensemble size. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "
+                ]
+            }
+        },
+        "3.18": {
+            "title": {
+                "en_EN": "Instantaneous Northern-Hemisphere blocking frequency (% of days) in the extended northern winter season (DJFM) for the years 1979-2000."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Results are shown for ERA5 reanalysis (black), CMIP5 (blue) and CMIP6 (red) models. Coloured lines show multi-model means and shaded ranges show corresponding 5-95% ranges constructed with one realization from each model. Figure is adapted from Davini and D’Andrea (2020), their Figure 12 and following the D’Andrea et al. (1998) definition of blocking. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "
+                ]
+            }
+        },
+        "3.19": {
+            "title": {
+                "en_EN": "Long-term mean (thin black contour) and linear trend (colour) of zonal mean DJF zonal winds over 1985-2014 in the SH"
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Displayed are (a) ERA5 and (b) CMIP6 multi-model mean (58 CMIP6 models). The solid contours show positive (westerly) and zero long-term mean zonal wind, and the dashed contours show negative (easterly) long-term mean zonal wind. Only one ensemble member per model is included. Figure is modified from Eyring et al. (2013), their Figure 12. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1)."
+                ]
+            }
+        },
+        "3.20": {
+            "title": {
+                "en_EN": "Mean (x-axis) and trend (y-axis) in Arctic sea ice area (SIA) in September (left) and Antarctic SIA in February (right) for 1979-2017 from CMIP5 (upper) and CMIP6 (lower) models. "
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "All individual models (ensemble means) and the multi-model mean values are compared with the observations (OSISAF, NASA Team, and Bootstrap). Solid line indicates a linear regression slope with corresponding correlation coefficient (r) and p-value provided. Note the different scales used on the y-axis for Arctic and Antarctic SIA. Results remain essentially the same when using sea ice extent (SIE) (not shown). Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "
+                ]
+            }
+        },
+        "3.21": {
+            "title": {
+                "en_EN": "Seasonal evolution of observed and simulated Arctic (left) and Antarctic (right) sea ice area (SIA) over 1979–2017."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "SIA anomalies relative to the 1979–2000 means from observations (OBS from OSISAF, NASA Team, and Bootstrap, top) and historical (ALL, middle) and natural only (NAT, bottom) simulations from CMIP5 and CMIP6 multi-models. These anomalies were obtained by computing non- overlapping 3-year mean SIA anomalies for March (February for Antarctic SIA), June, September, and December separately. CMIP5 historical simulations are extended by using RCP4.5 scenario simulations after 2005 while CMIP6 historical simulations are extended by using SSP2-4.5 scenario simulations after 2014. CMIP5 NAT simulations end in 2012. Numbers in brackets represents the number of models used. The multi-model mean is obtained by taking the ensemble mean for each model first and then averaging over models. Grey dots indicate multi-model mean anomalies stronger than inter-model spread (beyond ± 1 standard deviation). Results remain very similar when based on sea ice extent (SIE) (not shown). Units: 106 km2. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "
+                ]
+            }
+        },
+        "3.22": {
+            "title": {
+                "en_EN": "Time series of Northern Hemisphere March-April mean snow cover extent (SCE) from observations, CMIP5 and CMIP6 simulations. "
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The observations (grey lines) are updated Brown- NOAA (Brown and Robinson, 2011), Mudryk et al. (2020), and GLDAS2. CMIP5 (upper) and CMIP6 (lower) simulations of the response to natural plus anthropogenic forcing are shown in orange, natural forcing only in green, and the pre-industrial control simulation range is presented in blue. 5-year mean anomalies are shown for the 1923-2017 period with the x-axis representing the centre years of each 5- year mean. CMIP5 all forcing simulations are extended by using RCP4.5 scenario simulations after 2005 while CMIP6 all forcing simulations are extended by using SSP2-4.5 scenario simulations after 2014. Shading indicates 5th-95th percentile ranges for CMIP5 and CMIP6 all and natural forcings simulations, and solid lines are ensemble means, based on all available ensemble members with equal weight given to each model (Section 3.2). The blue vertical bar indicates the mean 5th-95th percentile range of pre- industrial control simulation anomalies, based on non-overlapping segments. The numbers in brackets indicate the number of models used. Anomalies are relative to the average over 1971-2000. For models, SCE is restricted to grid cells with land fraction ≥ 50%. Greenland is excluded from the total area summation. Figure is modified from Paik et al. (2020), their Figure 1. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "
+                ]
+            }
+        },
+        "3.23": {
+            "title": {
+                "en_EN": "Multi-model-mean bias of (a) sea surface temperature and (b) near-surface salinity, defined as the difference between the CMIP6 multi-model mean and the climatology from the World Ocean Atlas 2018."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The CMIP6 multi-model mean is constructed with one realization of 46 CMIP6 historical experiments for the period 1995–2014 and the climatology from the World Ocean Atlas 2018 is an average over all available years (1955-2017). Uncertainty is represented using the advanced approach: No overlay indicates regions with robust signal, where ≥66% of models show change greater than variability threshold and ≥80% of all models agree on sign of change; diagonal lines indicate regions with no change or no robust signal, where <66% of models show a change greater than the variability threshold; crossed lines indicate regions with conflicting signal, where ≥66% of models show change greater than the variability threshold and <80% of all models agree on sign of change. For more information on the advanced approach, please refer to the Cross-Chapter Box Atlas.1. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1)."
+                ]
+            }
+        },
+        "3.24": {
+            "title": {
+                "en_EN": "Biases in zonal mean and equatorial sea surface temperature (SST) in CMIP5 and CMIP6 models."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "CMIP6 (red), CMIP5 (blue) and HighResMIP (green) multi-model mean (a) zonally-averaged SST bias; (b) equatorial SST bias; and (c) equatorial SST compared to observed mean SST (black line) for 1979- 1999. The inter-model 5th and 95th percentiles are depicted by the respective shaded range. Model climatologies are derived from the 1979-1999 mean of the historical simulations, using one simulation per model. The Hadley Centre Sea Ice and Sea Surface Temperature version 1 (HadISST) (Rayner et al., 2003) observational climatology for 1979-1999 is used as the reference for the error calculation in (a) and (b); and for observations in (c). Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "
+                ]
+            }
+        },
+        "3.25": {
+            "title": {
+                "en_EN": "CMIP6 potential temperature and salinity biases for the global ocean, Atlantic, Pacific and Indian Oceans."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Shown in colour are the time-mean differences between the CMIP6 historical multi-model climatological mean and observations, zonally averaged for each basin (excluding marginal and regional seas). The observed climatological values are obtained from the World Ocean Atlas 2018 (WOA18, 1981-2010; Prepared by the Ocean Climate Laboratory, National Oceanographic Data Center, Silver Spring, MD, USA), and are shown as labelled black contours for each of the basins. The simulated annual mean climatologies for 1981 to 2010 are calculated from available CMIP6 historical simulations, and the WOA18 climatology utilized synthesized observed data from 1981 to 2010. A total of 30 available CMIP6 models have contributed to the temperature panels (left column) and 28 models to the salinity panels (right column). Potential temperature units are °C and salinity units are the Practical Salinity Scale 1978 [PSS-78]. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "
+                ]
+            }
+        },
+        "3.26": {
+            "title": {
+                "en_EN": "Global ocean heat content in CMIP6 simulations and observations."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Time series of observed (black) and simulated (red) global ocean heat content anomalies with respect to 1995-2014 for the full ocean depth (left panel), upper layer - 0 to 700 m (top right panel), intermediate layer -700 to 2000 m (middle right panel), and the abyssal ocean >2000 m (bottom right panel). The best estimate observations (black solid line) for the period of 1971-2018, along with very likely ranges (black shading) are from Section 2.3.3.1. For the models (1860-2014), ensemble members from 15 CMIP6 models are used to calculate the multi-model mean values (red solid line) after averaging across simulations for each independent model. The very likely ranges in the simulations are shown in red shading. Simulation drift has been removed from all CMIP6 historical runs using a contemporaneous portion of the linear fit to each corresponding pre-industrial control run (Gleckler et al., 2012). Units are 1021 Joules (Zettajoules). Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "
+                ]
+            }
+        },
+        "3.27": {
+            "title": {
+                "en_EN": "Maps of multi-decadal salinity trends for the near-surface ocean."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Units are Practical Salinity Scale 1978 [PSS-78] decade-1. (top) The best estimate (Section 2.3.3.2) observed trend (Durack and Wijffels, 2010 updated, 1950-2019). (bottom) Simulated trend from the CMIP6 historical experiment multi-model mean (1950-2014). Black contours show the climatological mean salinity in increments of 0.5 PSS-78 (thick lines 1 PSS-78). Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "
+                ]
+            }
+        },
+        "3.28": {
+            "title": {
+                "en_EN": "Long-term trends in halosteric and thermosteric sea level in CMIP6 models and observations."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Units are mm year-1. In the right column, three observed maps of 0 to 2000 m halosteric sea level trends (right column) top from (Durack and Wijffels, 2010, 1950-2019 updated - D&W), middle from (Good et al., 2013, 1950-2019 updated- EN4), and lower from (Ishii et al., 2017, 1955-2019 updated – Ishii), and bottom, the CMIP6 historical multi-model mean (1950-2014). Red and orange colours show a halosteric contraction (enhanced salinity) and blue and green a halosteric expansion (reduced salinity). In the left column, basin-integrated halosteric (top) and thermosteric (bottom) trends for the Atlantic and Pacific, the two largest ocean basins, where Pacific anomalies are presented on the x-axis and Atlantic on the y-axis. Observational estimates are presented in black, CMIP6 historical (all forcings) simulations are shown in orange squares, with the multi-model mean shown as a dark orange diamond with a black bounding box. CMIP6 hist-nat (historical natural forcings only) simulations are shown in green squares with the multi- model mean as a dark green diamond with a black bounding box. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1)."
+                ]
+            }
+        },
+        "3.29": {
+            "title": {
+                "en_EN": "Simulated and observed global mean sea level change due to thermal expansion for CMIP6 models and observations relative to the baseline period 1850-1900."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Historical simulations are shown in brown, natural only in green, greenhouse gas only in grey, and aerosol only in blue (multi-model means shown as thick lines, and shaded ranges between the 5th and 95th percentile). The best estimate observations (black solid line) for the period of 1971-2018, along with very likely ranges (black shading) are from Section 2.3.3.1 and are shifted to match the multi-model mean of the historical simulations for the 1995-2014 period. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "
+                ]
+            }
+        },
+        "3.30": {
+            "title": {
+                "en_EN": "  Observed and CMIP6 simulated AMOC mean state, variability and long-term trends."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) AMOC meridional streamfunction profiles at 26.5\u00b0N from the historical CMIP5 (1860-2004) and CMIP6 (1860-2014) simulations compared with the mean maximum overturning depth (horizontal grey line) and magnitude (vertical grey line) from the RAPID observations (2004-2018). The distributions of model ranges of AMOC maximum magnitude and depth are respectively displayed on the x- and y-axis. (b) Distributions of overlapping 8-year AMOC trends from individual CMIP6 historical simulations (pink box plots) are plotted along with the combined distributions of all available CMIP5 (blue boxplot) and CMIP6 (red boxplot) models. For reference, the observed 8-year trend calculated between 2004-2012 is also shown as a horizontal grey line (following Roberts et al., 2014) (c) Distributions of interannual AMOC variability from individual CMIP6 model historical simulations, along with the combined distributions of all available CMIP5 and CMIP6 models. Interannual variability in models and observations are estimated as annual mean (April-March) differences, and the horizontal grey line is the observed value for 2009\/2010 minus 2008\/2009 (following Roberts et al., 2014). (d-f) Distributions of linear AMOC trends calculated over various time periods (see panel titles) in CMIP6 simulations forced with: greenhouse gas forcing only (GHG), natural forcing only (NAT), anthropogenic aerosol forcing only (AER) and all forcing combined (Historical; HIST). (a-f) Boxes indicate 25th to 75th percentile, whiskers indicate 1st and 99th percentiles, and dots indicate outliers, while the horizontal black line is the multi-model mean trend. In (d-f) the multi-model mean trend is also written above each distribution. The multi-model distributions in (a-c) were produced with one historical ensemble member per model for which the AMOC variable was available (listed), while those in (d-f) were produced with the AMOC detection and attribution simulation data sets utilised by Menary et al. (2020). Further details on data sources and processing are available in the chapter data table (Table 3.SM.1).  "
+                ]
+            }
+        },
+        "3.31": {
+            "title": {
+                "en_EN": "  Evaluation of historical emission-driven CMIP6 simulations for 1850-2014."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Observations (black) are compared to simulations of global mean (a) atmospheric CO2 concentration (ppmv), with observations from the National Oceanic and Atmospheric Administration Earth System Research Laboratory (NOAA ESRL) (Dlugokencky and Tans, 2020), (b) air surface temperature anomaly (\u00b0C) with respect to the 1850-1900 mean, with observations from HadCRUT4 (Morice et al., 2012) (c) land carbon uptake (PgC yr-1), (d) ocean carbon uptake (PgC yr-1), both with observations from the Global Carbon Project (GCP) (Friedlingstein et al., 2019) and grey shading indicating the observational uncertainty. Land and ocean carbon uptakes are plotted using a 10-year running mean for better visibility. The ocean uptake is offset to 0 in 1850 to correct for pre-industrial riverine-induced carbon fluxes. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1).  "
+                ]
+            }
+        },
+        "3.32": {
+            "title": {
+                "en_EN": "  Relative change in the amplitude of the seasonal cycle of global land carbon uptake in the historical CMIP6 simulations from 1961-2014."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Net biosphere production estimates from 19 CMIP6 models (red), the data-led reconstruction JMA-TRANSCOM (Maki et al., 2010; dotted) and atmospheric CO2 seasonal cycle amplitude changes from observations (global as dashed line, Mauna Loa Observatory (MLO) (Dlugokencky et al., 2020) in bold black). Seasonal cycle amplitude is calculated using the curve fit algorithm package from the National Oceanic and Atmospheric Administration Earth System Research Laboratory (NOAA ESRL). Relative changes are referenced to the 1961-1970 mean and for short time series adjusted to have the same mean as the model ensemble in the last 10 years. Interannual variation was removed with a 9-year Gaussian smoothing. Shaded areas show the one sigma model spread (grey) for the CMIP6 ensemble and the one sigma standard deviation of the smoothing (red) for the CO2 MLO observations. Inset: average seasonal cycle of ensemble mean net biosphere production and its one sigma model spread for 1961-1970 (orange dashed line, light orange shading) and 2005-2014 (solid green line, green shading). Further details on data sources and processing are available in the chapter data table (Table 3.SM.1).  "
+                ]
+            }
+        },
+        "3.33": {
+            "title": {
+                "en_EN": "  Model evaluation of NAM, NAO and SAM in boreal winter."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Regression of Mean Sea Level Pressure (MSLP) anomalies (in hPa) onto the normalized principal component (PC) of the leading mode of variability obtained from empirical orthogonal decomposition of the boreal winter (Dec.-Feb) MSLP poleward of 20\u00baN for the observed Northern Annular Mode (NAM, a), over 20\u00baN-80\u00b0N, 90\u00b0W-40\u00b0E for the North Atlantic Oscillation as shown by the black sector (NAO, b), and poleward of 20\u00baS for the Southern Annular Mode (SAM, c) for the JRA-55 reanalysis. Cross marks indicate regions where the anomalies are not significant at the 10% level based on t-test. The period used to calculate the NAO\/NAM is 1958-2014 but 1979-2014 for the SAM. (d-f) Same but for the multi-model ensemble (MME) mean from CMIP6 historical simulations. Models are weighted in compositing to account for differences in their respective ensemble size. Diagonal lines stand for regions where less than 80% of the runs agree in sign. (g-i) Taylor diagram summarizing the representation of the modes in models and observations following Lee et al. (2019) for CMIP5 (light blue) and CMIP6 (red) historical runs. The reference pattern is taken from JRA-55 (a-c). The ratio of standard deviation (radial distance), spatial correlation (radial angle) and resulting root-mean-squared-errors (solid isolines) are given for individual ensemble members (crosses) and for other observational products (ERA5 and NOAA 20CRv3, black dots). Coloured dots stand for weighted multi-model mean statistics for CMIP5 (blue) and CMIP6 (light red) as well as for AMIP simulations from CMIP6 (orange). (j-l) Histograms of the trends built from all individual ensemble members and all the models (brown bars). Vertical lines in black show all the observational estimates. The orange, light-red, and light blue lines indicate the weighted multi-model mean of CMIP6 AMIP, CMIP6 and CMIP5 historical simulations, respectively. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1).  "
+                ]
+            }
+        },
+        "3.34": {
+            "title": {
+                "en_EN": "  Attribution of observed seasonal trends in the annular modes to forcings."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Simulated and observed trends in NAM indices over 1958-2019 (a) and in SAM indices over 1979-2019 (b) and over 2000-2019 (c) for boreal winter (December-February average; DJF) and summer (June-August average; JJA). The indices are based on the difference of the normalized zonally averaged monthly mean sea level pressure between 35\u00baN and 65\u00baN for the NAM and between 40\u00baS and 65\u00baS for the SAM as defined in Jianping and Wang (2003) and Gong and Wang (1999), respectively: the unit is decade\u20131. Ensemble mean, interquartile ranges and 5th and 95th percentiles are represented by empty boxes and whiskers for pre-industrial control simulations and historical simulations. The number of ensemble members and models used for computing the distribution is given in the upper-left legend. Grey lines show observed trends from the ERA5 and JRA-55 reanalyses. Multi-model multi-member ensemble means of the forced component of the trends as well as their 5- 95% confidence intervals assessed from t-statistics, are represented by filled boxes, based on CMIP6 individual forcing simulations from DAMIP ensembles; greenhouse gases in brown, aerosols in light blue, stratospheric ozone in purple and natural forcing in green. Models with at least 3 ensemble members are used for the filled boxes, with black dots representing the ensemble means of individual models. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1).  "
+                ]
+            }
+        },
+        "3.35": {
+            "title": {
+                "en_EN": "  Southern Annular Mode (SAM) indices in the last millennium."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Annual SAM reconstructions by Abram et al. (2014) and D\u00e4twyler et al. (2018). (b) The annual-mean SAM index defined by Gong and Wang (1999) in CMIP5 and CMIP6 Last Millennium simulations extended by historical simulations. All indices are normalized with respect to 1961-1990 means and standard deviations. Thin lines and thick lines show 7-year and 70-year moving averages, respectively. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1).  "
+                ]
+            }
+        },
+        "3.36": {
+            "title": {
+                "en_EN": "  Life cycle of (left) El Ni\u00f1o and (right) La Ni\u00f1a events in observations (black) and historical simulations from CMIP5 (blue; extended with RCP4."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "5) and CMIP6 (red). An event is detected when the December ENSO index value in year zero exceeds 0.75 times its standard deviation for 1951-2010. (a, b) Composites of the ENSO index (\u00baC). The horizontal axis represents month relative to the reference December (the grey vertical bar), with numbers in parentheses indicating relative years. Shading and lines represent 5th-95th percentiles and multi-model ensemble means, respectively. (c, d) Mean durations (months) of El Ni\u00f1o and La Ni\u00f1a events defined as number of months in individual events for which the ENSO index exceeds 0.5 times its December standard deviation. Each dot represents an ensemble member from the model indicated on the vertical axis. The boxes and whiskers represent multi-model ensemble mean, interquartile ranges and 5th and 95th percentiles of CMIP5 and CMIP6. The CMIP5 and CMIP6 multi-model ensemble means and observational values are indicated at top right of each panel. The multi-model ensemble means and percentile values are evaluated after weighting individual members with the inverse of the ensemble size of the same model, so that individual models are equally weighted irrespective of their ensemble sizes. The ENSO index is defined as the SST anomaly averaged over the Ni\u00f1o 3.4 region (5\u00baS-5\u00baN, 170\u00baW-120\u00baW). All results are based on 5-month running mean SST anomalies with triangular-weights after linear detrending. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1).  "
+                ]
+            }
+        },
+        "3.37": {
+            "title": {
+                "en_EN": "  ENSO seasonality in observations (black) and historical simulations from CMIP5 (blue; extended with RCP4."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "5) and CMIP6 (red) for 1951-2010. (a) Climatological standard deviation of the monthly ENSO index (SST anomaly averaged over the Ni\u00f1o 3.4 region; \u00b0C). Shading and lines represent 5th-95th percentiles and multi-model ensemble means, respectively. (b) Seasonality metric, which is defined for each model and each ensemble member as the ratio of the ENSO index climatological standard deviation in November-January (NDJ) to that in March-May (MAM). Each dot represents an ensemble member from the model indicated on the vertical axis. The boxes and whiskers represent the multi-model ensemble mean, interquartile ranges and 5th and 95th percentiles of CMIP5 and CMIP6 individually. The CMIP5 and CMIP6 multi-model ensemble means and observational values are indicated at the top right of the panel. The multi-model ensemble means and percentile values are evaluated after weighting individual members with the inverse of the ensemble size of the same model, so that individual models are equally weighted irrespective of their ensemble sizes. All results are based on 5-month running mean SST anomalies with triangular-weights after linear detrending. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1).  "
+                ]
+            }
+        },
+        "3.38": {
+            "title": {
+                "en_EN": "  Model evaluation of ENSO teleconnection for 2m-temperature and precipitation in boreal winter (December-January-February)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Teleconnections are identified by linear regression with the Ni\u00f1o 3.4 SST index based on ERSSTv5 during the period 1958-2014. Maps show observed patterns for temperature from the Berkeley Earth dataset over land and from ERSSTv5 over ocean (\u00baC, top) and for precipitation from GPCC over land (shading, mm day\u20131) and GPCP worldwide (contours, period: 1979-2014). Distributions of regression coefficients (grey histograms) are provided for a subset of AR6 reference regions defined in Atlas (Section A1.3) for temperature (top) and precipitation (bottom). All fields are linearly detrended prior to computation. Multi-model multi-member ensemble means are indicated by thick vertical black lines. Blue vertical lines show three observational estimates of temperature, based on Berkeley Earth, GISTEMP and CRUTS datasets, and two observational estimates of precipitation, based on GPCC and CRUTS datasets. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1).  "
+                ]
+            }
+        },
+        "3.39": {
+            "title": {
+                "en_EN": "  Model evaluation of the Pacific Decadal Variability (PDV)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a, b) Sea surface temperature (SST) anomalies (\u00baC) regressed onto the Tripole Index (TPI; Henley et al., 2015) for 1900-2014 in (a) ERSSTv5 and (b) CMIP6 multi-model ensemble (MME) mean composite obtained by weighting ensemble members by the inverse of the model ensemble size. A 10-year low-pass filter was applied beforehand. Cross marks in (a) represent regions where the anomalies are not significant at the 10% level based on t-test. Diagonal lines in (b) indicate regions where less than 80% of the runs agree in sign. (c) A Taylor diagram summarizing the representation of the PDV pattern in CMIP5 (each a cross in light blue, and the weighted multi-model mean as a dot in dark blue), CMIP6 (each ensemble member is shown as a cross in red, weighted multi-model mean as a dot in orange) and observations over [40\u00baS-60\u00baN, 110\u00baE-70\u00baW]. The reference pattern is taken from ERSSTv5 and black dots indicate other observational products (HadISSTv1 and COBE-SST2). (d) Autocorrelation of unfiltered annual TPI at lag 1 year and 10-year low-pass filtered TPI at lag 10 years for observations over 1900-2014 (horizontal lines) and 115-year chunks of pre-industrial control simulations (open boxes) and individual historical simulations over 1900-2014 (filled boxes) from CMIP5 (blue) and CMIP6 (red). (e) As in (d), but standard deviation of the unfiltered and filtered TPI (\u00baC). Boxes and whiskers show weighted multi-model mean, interquartile ranges and 5th and 95th percentiles. (f) Time series of the 10-year low-pass filtered TPI (\u00baC) in ERSSTv5, HadISSTv1 and COBE-SST2 observational estimates (black) and CMIP5 and CMIP6 historical simulations. The thick red and light blue lines are the weighted multi-model mean for the historical simulations in CMIP5 and CMIP6, respectively, and the envelopes represent the 5th-95th percentile range across ensemble members. The 5-95% confidence interval for the CMIP6 multi-model mean is given in thin dashed lines. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1).  "
+                ]
+            }
+        },
+        "3.40": {
+            "title": {
+                "en_EN": "  Model evaluation of Atlantic Multi-decadal Variability (AMV)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a, b) Sea surface temperature (SST) anomalies (\u00baC) regressed onto the AMV index defined as the 10-year low-pass filtered North Atlantic (0\u00ba-60\u00b0N, 80\u00b0W-0\u00b0E) area-weighted SST* anomalies over 1900-2014 in (a) ERSSTv5 and (b) the CMIP6 multi-model ensemble (MME) mean composite obtained by weighting ensemble members by the inverse of each model\u2019s ensemble size. The asterisk denotes that the global mean SST anomaly has been removed at each time step of the computation. Cross marks in (a) represent regions where the anomalies are not significant at the 10% level based on a t-test. Diagonal lines in (b) show regions where less than 80% of the runs agree in sign. (c) A Taylor diagram summarizing the representation of the AMV pattern in CMIP5 (each member is shown as a cross in light blue, and the weighted multi-model mean is shown as a dot in dark blue), CMIP6 (each member is shown as a cross in red, and the weighted multi-model mean is shown as a dot in orange) and observations over [0\u00ba-60\u00b0N, 80\u00b0W-0\u00b0E]. The reference pattern is taken from ERSSTv5 and black dots indicate other observational products (HadISSTv1 and COBE-SST2). (d) Autocorrelation of unfiltered annual AMV index at lag 1 year and 10-year low-pass filtered AMV index at lag 10 years for observations over 1900-2014 (horizontal lines) and 115-year chunks of pre-industrial control simulations (open boxes) and individual historical simulations over 1900-2014 (filled boxes) from CMIP5 (blue) and CMIP6 (red). (e) As in (d), but showing standard deviation of the unfiltered and filtered AMV indices (\u00baC). Boxes and whiskers show the weighted multi-model mean, interquartile ranges and 5th and 95th percentiles. (f) Time series of the AMV index (\u00baC) in ERSSTv5, HadISSTv1 and COBE-SST2 observational estimates (black) and CMIP5 and CMIP6 historical simulations. The thick red and light blue lines are the weighted multi-model mean for the historical simulations in CMIP5 and CMIP6, respectively, and the envelopes represent the 5th-95th percentile range obtained from all ensemble members. The 5- 95% confidence interval for the CMIP6 multi-model mean is shown by the thin dashed line. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1).  "
+                ]
+            }
+        },
+        "3.41": {
+            "title": {
+                "en_EN": "  Summary figure showing simulated and observed changes in key large-scale indicators of climate change across the climate system, for continental, ocean basin and larger scales."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Black lines show observations, brown lines and shading show the multi-model mean and 5th-95th percentile ranges for CMIP6 historical simulations including anthropogenic and natural forcing, and blue lines and shading show corresponding ensemble means and 5th-95th percentile ranges for CMIP6 natural-only simulations. Temperature time series are as in Figure 3.9, but with smoothing using a low pass filter. Precipitation time series are as in Figure 3.15 and ocean heat content as in Figure 3.26. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). Integrative Measures of Model Performance  "
+                ]
+            }
+        },
+        "3.42": {
+            "title": {
+                "en_EN": "  Relative space-time root-mean-square deviation (RMSD) calculated from the climatological seasonal cycle of the CMIP simulations (1980-1999) compared to observational datasets."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) CMIP3, CMIP5, and CMIP6 for 16 atmospheric variables (b) CMIP5 and CMIP6 for 10 land variables and four ocean\/sea-ice variables. A relative performance measure is displayed, with blue shading indicating better and red shading indicating worse performance than the median of all model results. A diagonal split of a grid square shows the relative error with respect to the reference data set (lower right triangle) and an additional data set (upper left triangle). Reference\/additional datasets are from top to bottom in (a): ERA5\/NCEP, GPCP-SG\/GHCN, CERES-EBAF\/-, CERES-EBAF\/-, CERES-EBAF\/-, CERES-EBAF\/-, JRA-55\/ERA5, ESACCI-SST\/HadISST, ERA5\/NCEP, ERA5\/NCEP, ERA5\/NCEP, ERA5\/NCEP, ERA5\/NCEP, ERA5\/NCEP, AIRS\/ERA5, ERA5\/NCEP and in (b): CERES-EBAF\/-, CERES-EBAF\/-, CERES-EBAF\/-, CERES-EBAF\/-, LandFlux-EVAL\/-, Landschuetzer2016\/ JMA-TRANSCOM; MTE\/FLUXCOM, LAI3g\/-, JMA-TRANSCOM, ESACCI-SOILMOISTURE\/-, HadISST\/ATSR, HadISST\/-, HadISST\/-, ERA-Interim\/-. White boxes are used when data are not available for a given model and variable. Figure is updated and expanded from Bock et al. (2020), their Figure 5 CC BY4.0 https:\/\/creativecommons.org\/licenses\/by\/4.0\/. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1). "
+                ]
+            }
+        },
+        "3.43": {
+            "title": {
+                "en_EN": "  Centred pattern correlations between models and observations for the annual mean climatology over the period 1980\u20131999."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Results are shown for individual CMIP3 (cyan), CMIP5 (blue) and CMIP6 (red) models (one ensemble member from each model is used) as short lines, along with the corresponding ensemble averages (long lines). Correlations are shown between the models and the primary reference observational data set (from left to right: ERA5, GPCP-SG, CERES-EBAF, CERES-EBAF, CERES-EBAF, CERES-EBAF, JRA-55, ESACCI-SST, ERA5, ERA5, ERA5, ERA5, ERA5, ERA5, AIRS, ERA5). In addition, the correlation between the primary reference and additional observational data sets (from left to right: NCEP, GHCN, -, -, -, -, ERA5, HadISST, NCEP, NCEP, NCEP, NCEP, NCEP, NCEP, ERA5, NCEP) are shown (solid grey circles) if available. To ensure a fair comparison across a range of model resolutions, the pattern correlations are computed after regridding all datasets to a resolution of 4\u00ba in longitude and 5\u00ba in latitude. Figure is updated and expanded from Bock et al. (2020), their Figure 7 CC BY4.0 https:\/\/creativecommons.org\/licenses\/by\/4.0\/. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1).  "
+                ]
+            }
+        },
+        "3.44": {
+            "title": {
+                "en_EN": "  Multivariate synopsis of paleoclimate model results compared to observational references."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Data-model comparisons for GSAT anomalies for five PMIP4 periods and for regional features for the (b) mid-Holocene and (c) LGM periods, for PMIP3 and PMIP4 models. The results from the CMIP6 models are specified as coloured dots. In (a) the light orange shading shows the very likely assessed ranges presented in Section 2.3.1.1. In (b) and (c), the regions and variables are defined as follows: North America (20-50\u00b0N, 140-60\u00b0W), Western Europe (35-70\u00b0N, 10\u00b0W-30\u00b0E) and West Africa (0\u00b0-30\u00b0N, 10\u00b0W-30\u00b0E); MTCO: Mean Temperature of the Coldest Month (\u00b0C), MTWA: Mean Temperature of the Warmest Month (\u00b0C), MAP: Mean Annual Precipitation (mm\/year). In (b) and (c) the ranges shown for the reconstructions (Bartlein et al. (2011) for MH and Cleator et al. (2020) for LGM) are based on the standard error given at each site: the average and associated standard deviation over each area is obtained by computing 1000 times the average of randomly drawn values from the Gaussian distributions defined at each site by the reconstruction mean and standard error; the light orange colour shows the \u00b1 1 standard deviation of these 1000 estimates. The dots on (b) and (c) show the average of the model output for grid points for which there are reconstructions. The ranges for the model results are based on an ensemble of 1000 averages over 50 years randomly picked in the model output time series for each region and each variable: the mean \u00b1 one standard deviation is plotted for each model. Figure is adapted from Brierley et al. (2020), their Figure S3 for the mid-Holocene and from Kageyama et al. (2021), their Figure 12 for the LGM. Further details on data sources and processing are available in the chapter data table (Table 3.SM.1).  "
+                ]
+            }
+        },
         "2.X": {
             "title": {
                 "en_EN":""

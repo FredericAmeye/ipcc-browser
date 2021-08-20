@@ -58,7 +58,7 @@ let initFn = (function()
     }
 
     /* init page */
-    jQuery.getJSON('content/wgI.json?v7.json', function(r){
+    jQuery.getJSON('content/wgI.json?v8.json', function(r){
         const nb_chap = r.SPM.chapters.length;
         wgI = r;
         
@@ -923,6 +923,23 @@ function returnElementByRefName(table, query, parentOffset = 0)
     return false;
 }
 
+function supports_webp()
+{
+    var elem = document.createElement('canvas');
+
+    if (!!(elem.getContext && elem.getContext('2d')))
+    {
+        // was able or not to get WebP representation
+        return elem.toDataURL('image/webp').indexOf('data:image/webp') == 0;
+    }
+    else
+    {
+        // very old browser like IE 8, canvas not supported
+        return false;
+    }
+}
+const WEBP_supported = supports_webp();
+
 const TS_chapter_repl = /(Cross-Section Box TS\.[0-9.]+)|(Cross-Chapter Box [0-9.]+)|(Cross-Chapter Box Atlas\.[0-9.]+)|(Box SPM\.[0-9.]+)|(Box TS\.[0-9.]+)|(Infographic TS\.[0-9]+)|(TS\.[0-9.]+)|(SPM\.[0-9.]+)|(FAQ\s?[0-9.]+)|(Box [0-9.]+)|([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)|([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)|([0-9]+\.[0-9]+\.[0-9]+)|(Atlas\.[0-9]+\.[0-9]+)|(Atlas\.[0-9]+)/g;
 let regex_autoref_fn = function(orig, CSBTS, CCB, CCBA, BSPM, BTS, InfoTS, TS, SPM, FAQ, B, ABCDE, ABCD, ABC, AtlasAB, AtlasA, value, complete_string)
 {
@@ -982,8 +999,10 @@ let regex_markup_fn = function(orig1, balise, content, balise2, position)
             }
         }
 
+        let fname = (!WEBP_supported) ? content + '.png' : 'webp/'+content+'.webp';
+
         return /*html*/`<div class="center"><div class="small-figure hoverable" onclick="$(this).find('.fig-clicker').toggle(); $(this).find('.fig-legend-ext').toggle();">
-            <img src="content/img/en_EN/${content}.png" onerror="console.error('failed to load image',this); $(this).parent().remove();">
+            <img src="content/img/en_EN/${fname}" onerror="console.error('failed to load image',this); $(this).parent().remove();" alt="${content}">
             <span class="fig-legend">${content}: ${fig_title}</span><span class="fig-clicker"> (click to read the legend)</span>
             <div class="fig-legend-ext"><em>${fig_subtitle}</em>${fig_description}</div>
         </div></div>`;

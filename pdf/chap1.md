@@ -330,7 +330,7 @@ scenarios, global warming levels and cumulative carbon emissions, are described 
 closes with a discussion of opportunities and gaps in knowledge integration in Section 1.7. 
  
  
-<figref>1.</figref>
+<figref>1.3</figref>
  
  
 # 1.2  Where we are now 
