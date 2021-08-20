@@ -1308,7 +1308,7 @@ function findEndOfReading(element)
     return found_previous;
 }
 
-let readingBar = $('<div style="border-left:6px solid green; background:rgba(0,255,0,0.1)"></div>').appendTo('body');
+let readingBar = $('<div style="border-left:6px solid green; background:rgba(0,255,0,0.1); z-index:5"></div>').appendTo('body');
 function highlightEndOfReading(current, previous)
 {
     let pos_prev = $(previous).offset();
