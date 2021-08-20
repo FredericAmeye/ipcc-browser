@@ -4335,6 +4335,291 @@
                     " Results are compared for SSP3-7.0 (no major improvement of current legislation is assumed), SSP3-Low NTCF (strong air pollution controls are assumed), and a climate mitigation scenario (SSP3-3.4); details of scenario assumptions are discussed in Riahi et al. (2017) and Rao et al. (2017). Analysis performed with the TM5-FASST model (Van Dingenen et al., 2018) using emission projections from the Shared Socio-Economic Pathway (SSP) database (Riahi et al., 2017; Rogelj et al., 2018a; Gidden et al., 2019). Further details on data sources and processing are available in the chapter data table (Table 6.SM.1).  "
                 ]
             }
+        },"7.1": {
+            "title": {
+                "en_EN": "  A visual abstract of the chapter, illustrating why the Earth\u2019s energy budget matters and how it relates to the underlying chapter assessment."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The methods used to assess processes and key new findings relative to AR5 are highlighted.  "
+                ]
+            }
+        },
+        "7.2": {
+            "title": {
+                "en_EN": "  Schematic representation of the global mean energy budget of the Earth (upper panel), and its equivalent without considerations of cloud effects (lower panel)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Numbers indicate best estimates for the magnitudes of the globally averaged energy balance components in W m\u20132 together with their uncertainty ranges in parentheses (5\u201395 % confidence range), representing climate conditions at the beginning of the 21st century. Note that the cloud-free energy budget shown in the lower panel is not the one that Earth would achieve in equilibrium when no clouds could form. It rather represents the global mean fluxes as determined solely by removing the clouds but otherwise retaining the entire atmospheric structure. This enables the quantification of the effects of clouds on the Earth energy budget and corresponds to the way clear-sky fluxes are calculated in climate models. Thus, the cloud-free energy budget is not closed and therefore the sensible and latent heat fluxes are not quantified in the lower panel. Adapted from Wild et al. (2015, 2019).    "
+                ]
+            }
+        },
+        "7.3": {
+            "title": {
+                "en_EN": "  Anomalies in global mean all-sky TOA fluxes from EBAF Ed4."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "0 (solid black lines) and various CMIP6 climate models (coloured lines) in terms of (a) reflected solar, (b) emitted thermal and (c) net TOA fluxes. The multi-model means are additionally depicted as dotted black lines. Model fluxes stem from simulations driven with prescribed SSTs and all known anthropogenic and natural forcings. Shown are anomalies of 12-month running means. All flux anomalies are defined as positive downwards, consistent with the sign convention used throughout this chapter. The correlations between the multi-model means (dotted black lines) and the CERES records (solid black lines) for 12-month running means are 0.85, 0.73 and 0.81 for the global mean reflected solar, outgoing thermal and net TOA radiation, respectively. Adapted from Loeb et al. (2020). Further details on data sources and processing are available in the chapter data table (Table 7.SM.14).  "
+                ]
+            }
+        },
+        "7.4": {
+            "title": {
+                "en_EN": "  Radiative adjustments at top of atmosphere for seven different climate drivers as a proportion of forcing."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Tropospheric temperature (orange), stratospheric temperature (yellow), water vapour (blue), surface albedo (green), clouds (grey) and the total adjustment (black) is shown. For the greenhouse gases (carbon dioxide, methane, nitrous oxide, CFC-12) the adjustments are expressed as a percentage of SARF, whereas for aerosol, solar and volcanic forcing they are expressed as a percentage of IRF. Land surface temperature response (outline red bar) is shown, but included in the definition of forcing. Data from Smith et al. (2018b) for carbon dioxide and methane, Smith et al. (2018b) and Gray et al. (2009) for solar, Hodnebrog et al. (2020b) for nitrous oxide and CFC-12, Smith et al. (2020a) for aerosol, and Marshall et al. (2020) for volcanic. Further details on data sources and processing are available in the chapter data table (Table 7.SM.14).  "
+                ]
+            }
+        },
+        "7.5": {
+            "title": {
+                "en_EN": "  Net aerosol effective radiative forcing from different lines of evidence."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The headline AR6 assessment of \u20131.3 [\u20132.0 to \u20130.6] W m\u20132 is highlighted in purple for 1750\u20132014 and compared to the AR5 assessment of \u20130.9 [\u20131.9 to \u20130.1] W m\u20132 for 1750\u20132011. The evidence comprising the AR6 assessment is shown below this: energy balance constraints (\u20132 to 0 W m\u20132 with no best estimate), observational evidence from satellite retrievals of \u20131.4 [\u20132.2 to \u20130.6] W m\u20132, and climate model-based evidence of \u20131.25 [\u20132.1 to \u20130.4] W m\u20132. Estimates from individual CMIP5 (Zelinka et al., 2014) and CMIP6 (Smith et al., 2020a and Table 7.6) models are depicted by blue and red crosses respectively. For each line of evidence the assessed best-estimate contributions from ERFari and ERFaci are shown with darker and paler shading respectively. The observational assessment for ERFari is taken from the IRFari. Uncertainty ranges are given in black bars for the total aerosol ERF and depict very likely ranges. Further details on data sources and processing are available in the chapter data table (Table 7.SM.14).  "
+                ]
+            }
+        },
+        "7.6": {
+            "title": {
+                "en_EN": "  Change in effective radiative forcing from 1750 to 2019 by contributing forcing agents (carbon dioxide, other well-mixed greenhouse gases (WMGHGs), ozone, stratospheric water vapour, surface albedo, contrails and aviation-induced cirrus, aerosols, anthropogenic total, and solar)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Solid bars represent best estimates, and very likely (5\u201395%) ranges are given by error bars. Non-CO2 WMGHGs are further broken down into contributions from methane (CH4), nitrous oxide (N2O) and halogenated compounds. Surface albedo is broken down into land use changes and light absorbing particles on snow and ice. Aerosols are broken down into contributions from aerosol-cloud interactions (ERFaci) and aerosol-radiation interactions (ERFari).  For aerosols and solar, the 2019 single-year values are given (Table 7.8) that differ from the headline assessments in both cases. Volcanic forcing is not shown due to the episodic nature of volcanic eruptions. Further details on data sources and processing are available in the chapter data table (Table 7.SM.14).  "
+                ]
+            }
+        },
+        "7.7": {
+            "title": {
+                "en_EN": "  The contribution of forcing agents to 2019 temperature change relative to 1750 produced using the two-layer emulator (Supplementary Material 7."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "SM.2), constrained to assessed ranges for key climate metrics described in Cross-Chapter Box 7.1. The results are from a 2,237-member ensemble. Temperature contributions are expressed for carbon dioxide, other well-mixed greenhouse gases (WMGHGs), ozone, stratospheric water vapour, surface albedo, contrails and aviation-induced cirrus, aerosols, solar, volcanic, and total. Solid bars represent best estimates, and very likely (5\u201395%) ranges are given by error bars. Dashed error bars show the contribution of forcing uncertainty alone, using best estimates of ECS (3.0\u00b0C), TCR (1.8\u00b0C) and two-layer model parameters representing the CMIP6 multi-model mean. Solid error bars show the combined effects of forcing and climate response uncertainty using the distribution of ECS and TCR from Tables 7.13 and 7.14, and the distribution of calibrated model parameters from 44 CMIP6 models. Non-CO2 WMGHGs are further broken down into contributions from methane (CH4), nitrous oxide (N2O) and halogenated compounds. Surface albedo is broken down into land use changes and light absorbing particles on snow and ice. Aerosols are broken down into contributions from aerosol-cloud interactions (ERFaci) and aerosol-radiation interactions (ERFari). Further details on data sources and processing are available in the chapter data table (Table 7.SM.14).  "
+                ]
+            }
+        },
+        "7.8": {
+            "title": {
+                "en_EN": "  Attributed global surface air temperature change (GSAT) from 1750 to 2019 produced using the two-layer emulator (Supplementary Material 7."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "SM.2), forced with ERF derived in this chapter (displayed in Chapter 2, Figure 2.10) and climate response constrained to assessed ranges for key climate metrics described in Cross-Chapter Box 7.1. The results shown are the medians from a 2,237-member ensemble that encompasses uncertainty in forcing and climate response (year-2019 best estimates and uncertainties are shown in Figure 7.7 for several components). Temperature contributions are expressed for carbon dioxide, methane, nitrous oxide, other well-mixed greenhouse gases (WMGHGs), ozone, aerosols, other anthropogenic forcings, total anthropogenic, solar, volcanic, and total. Shaded uncertainty bands show very likely ranges. Further details on data sources and processing are available in the chapter data table (Table 7.SM.14).  "
+                ]
+            }
+        },
+        "7.9": {
+            "title": {
+                "en_EN": "  Schematic cross section of diverse cloud responses to surface warming from the tropics to polar regions."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Thick solid and dashed curves indicate the tropopause and the subtropical inversion layer in the current climate, respectively. Thin grey text and arrows represent robust responses in the thermodynamic structure to greenhouse warming, of relevance to cloud changes. Text and arrows in red, orange and green show the major cloud responses assessed with high, medium and low confidence, respectively, and the sign of their feedbacks to the surface warming is indicated in the parenthesis. Major advances since AR5 are listed in a box.  "
+                ]
+            }
+        },
+        "7.10": {
+            "title": {
+                "en_EN": "  Global-mean climate feedbacks estimated in abrupt4xCO2 simulations of 29 CMIP5 models (light blue) and 49 CMIP6 models (orange), compared with those assessed in this Report (red)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Individual feedbacks for CMIP models are averaged across six radiative kernels as computed in Zelinka et al. (2020). The white line, black box and vertical line indicate the mean, 66% and 90% ranges, respectively. The shading represents the probability distribution across the full range of GCM\/ESM values and for the 2.5-97.5 percentile range of the AR6 normal distribution. The unit is W m\u20132 \u00b0C\u20131. Feedbacks associated with biogeophysical and non-CO2 biogeochemical processes are assessed in AR6, but they are not explicitly estimated from GCMs\/ESMs in CMIP5 and CMIP6. Further details on data sources and processing are available in the chapter data table (Table 7.SM.14).  "
+                ]
+            }
+        },
+        "7.11": {
+            "title": {
+                "en_EN": "  Feedback parameter, \u03b1 (W m\u20132 \u00b0C\u20131), as a function of global mean surface air temperature anomaly relative to preindustrial, for ESM simulations (red circles and lines) (Caballero and Huber, 2013; Jonko et al."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    ", 2013; Meraner et al., 2013; Good et al., 2015; Duan et al., 2019; Mauritsen et al., 2019; Stolpe et al., 2019; Zhu et al., 2019b), and derived from paleoclimate proxies (grey squares and lines) (von der Heydt et al., 2014; Anagnostou et al., 2016, 2020; Friedrich et al., 2016; Royer, 2016; Shaffer et al., 2016; K\u00f6hler et al., 2017; Snyder, 2019; Stap et al., 2019).  For the ESM simulations, the value on the x-axis refers to the average of the temperature before and after the system has equilibrated to a forcing (in most cases a CO2 doubling), and is expressed as an anomaly relative to an associated pre-industrial global mean temperature from that model.  The light blue shaded square extends across the assessed range of \u03b1 (Table 7.10) on the y-axis, and on the x-axis extends across the approximate temperature range over which the assessment of \u03b1 is based (taken as from zero to the assessed central value of ECS (Table 7.13). Further details on data sources and processing are available in the chapter data table (Table 7.SM.14).  "
+                ]
+            }
+        },
+        "7.12": {
+            "title": {
+                "en_EN": "  Contributions of effective radiative forcing, ocean heat uptake, atmospheric heat transport, and radiative feedbacks to regional surface temperature changes at year 100 of abrupt4xCO2 simulations of CMIP6 ESMs."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Pattern of near-surface air temperature change. (b-d) Contributions to net Arctic (>60\u00b0N), tropical (30\u00b0S \u2013 30\u00b0N), and Antarctic (<60\u00b0S) warming calculated by dividing regional-average energy inputs by the magnitude of the regional-average Planck response. The contributions from radiative forcing, changes in moist, dry-static, and total atmospheric energy transport, ocean heat uptake, and radiative feedbacks (orange bars) all sum to the value of net warming (grey bar). Inset shows regional warming contributions associated with individual feedbacks, all summing to the Chapter 7 total feedback contribution. Uncertainties show the interquartile range (25th and 75th percentiles) across models. The warming contributions (units of \u00b0C) for each process are diagnosed by calculating the energy flux (units of W m\u20132) that each process contributes to the atmosphere over a given region, either at the TOA or surface, then dividing that energy flux by the magnitude of the regional Planck response (around 3.2 W m\u20132 \u00b0C\u20131 but varying with region). By construction, the individual warming contributions sum to the total warming in each region. Radiative kernel methods (see Section 7.4.1) are used to decompose the net energy input from radiative feedbacks into contributions from changes in atmospheric water vapour, lapse-rate, clouds, and surface albedo (Zelinka et al. (2020) using the Huang et al. (2017) radiative kernel). The CMIP6 models included are those analysed by Zelinka et al. (2020) and the warming contribution analysis is based on that of Goosse et al. (2018). Further details on data sources and processing are available in the chapter data table (Table 7.SM.14).  "
+                ]
+            }
+        },
+        "7.13": {
+            "title": {
+                "en_EN": "  Polar amplification in paleo proxies and models of the early Eocene climatic optimum (EECO), the mid-Pliocene warm period (MPWP), and the Last Glacial Maximum (LGM)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "  Temperature anomalies compared with pre-industrial (equivalent to CMIP6 simulation piControl) are shown for the high-CO2 EECO and MPWP time periods, and for the low-CO2 LGM (expressed as pre-industrial minus LGM). (a,b,c) Modelled near-surface air temperature anomalies for ensemble-mean simulations of the (a) EECO (Lunt et al., 2021), (b) MPWP (Haywood et al., 2020; Zhang et al., 2021), and (c) LGM (Kageyama et al., 2021; Zhu et al., 2021). Also shown are proxy near-surface air temperature anomalies (coloured circles). (d,e,f) Proxy near-surface air temperature anomalies (grey circles), including published uncertainties (grey vertical bars), model ensemble mean zonal mean anomaly (solid red line) for the same model ensembles as in (a,b,c), light red lines show the modelled temperature anomaly for the individual models that make up each ensemble (LGM, N=9; MPWP, N=17; EECO, N=5). Black dashed lines show the average of the proxy values in each latitude bands 90\u00b0S to 30\u00b0S, 30\u00b0S to 30\u00b0N, and 30\u00b0N to 90\u00b0N.  Red dashed lines show the same banded average in the model ensemble mean, calculated from the same locations as the proxies.  Black and red dashed lines are only shown if there are 5 or more proxy points in that band.  Mean differences between the 90\u00b0S\/N to 30\u00b0S\/N and 30\u00b0S to 30\u00b0N bands are quantified for the models and proxies in each plot.  Panels (g,h,i) are like panels (d,e,f) but for SST instead of near-surface air temperature. Panels (j,k,l) are like panels (a,b,c) but for SST instead of near-surface air temperature.  For the EECO maps (a,j), the anomalies are relative to the zonal mean of the pre-industrial, due to the different continental configuration. Proxy datasets are (a,d) Hollis et al. (2019), (b,e) Salzmann et al. (2013); Vieira et al. (2018), (c,f) Cleator et al. (2020) at the sites defined in Bartlein et al. (2011), (g,j) ) Hollis et al. (2019), (h,k) McClymont et al. (2020) (i,l) Tierney et al. (2020b).  Where there are multiple proxy estimations at a single site, a mean is taken.  Model ensembles are (a,d,g,j) DeepMIP (only model simulations carried out with a mantle-frame paleogeography, and carried out under CO2 concentrations within the range assessed in Chapter 2, Table 2.2, are shown), (b,e,h,k) PlioMIP, and (c,f,i,l) PMIP4. Further details on data sources and processing are available in the chapter data table (Table 7.SM.14).  "
+                ]
+            }
+        },
+        "7.14": {
+            "title": {
+                "en_EN": " Illustration of tropospheric temperature and low-cloud response to observed and projected Pacific Ocean sea-surface temperature trends; adapted from Mauritsen (2016)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Atmospheric response to linear sea-surface temperature trend observed over 1870\u20132019 (HadISST1 dataset; Rayner et al., 2003).  (b) Atmospheric response to linear sea-surface temperature trend over 150 years following abrupt4xCO2 forcing as projected by CMIP6 ESMs (Dong et al., 2020). Relatively large historical warming in the western tropical Pacific has been communicated aloft (a shift from grey to red atmospheric temperature profile), remotely warming the tropical free troposphere and increasing the strength of the inversion in regions of the tropics where warming has been slower, such as the eastern equatorial Pacific. In turn, an increased inversion strength has increased the low-cloud cover (Zhou et al., 2016) causing an anomalously-negative cloud and lapse-rate feedbacks over the historical record (Andrews et al., 2018; Marvel et al., 2018). Relatively large projected warming in the eastern tropical Pacific is trapped near the surface (shift from grey to red atmospheric temperature profile), decreasing the strength of the inversion locally. In turn, a decreased inversion strength combined with surface warming is projected to decrease the low-cloud cover, causing the cloud and lapse-rate feedbacks to become less negative in the future. Further details on data sources and processing are available in the chapter data table (Table 7.SM.14).  "
+                ]
+            }
+        },
+        "7.15": {
+            "title": {
+                "en_EN": "  Relationship between historical and abrupt4xCO2 net radiative feedbacks in ESMs."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Radiative feedbacks in CMIP6 ESMs estimated under historical forcing (values for GFDL CM4.0 and HadGEM3-CG3.1-LL from Winton et al. (2020) and Andrews et al. (2019), respectively); horizontal lines show the range across ensemble members. The other points show effective feedback values for 29 ESMs estimated using regression over the first 50 years of abrupt4xCO2 simulations as an analogue for historical warming (Dong et al., 2020). (b) Historical radiative feedbacks estimated from atmosphere-only ESMs with prescribed observed sea-surface temperature and sea-ice concentration changes (Andrews et al. 2018) based on a linear regression of global TOA radiation against global near-surface air temperature over the period 1870\u20132010 (pattern of warming similar to Figure 7.14a) and compared with equilibrium feedbacks in a abrupt4xCO2 simulations of coupled versions of the same ESMs (pattern of warming similar to Figure 7.14b). In all cases, the equilibrium feedback magnitudes are estimated as CO2 ERF divided by ECS where ECS is derived from regression over years 1\u2013150 of abrupt4xCO2 simulations (Box 7.1); similar results are found if the equilibrium feedback is estimated directly from the slope of the linear regression. Further details on data sources and processing are available in the chapter data table (Table 7.SM.14).  "
+                ]
+            }
+        },
+        "7.16": {
+            "title": {
+                "en_EN": " 3."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "4\u00b0C with a likely range of 2.5\u20135.1 \u00b0C and very likely range of 2.1\u20137.7 \u00b0C. To this assessed range of ECS, right), derived from process-based assessments in Sections 7.3.2 and 7.4.2. Middle panel shows the  "
+                ]
+            }
+        },
+        "7.17": {
+            "title": {
+                "en_EN": "TCR is widened by about 10% (blue bar in Figure 7."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "17b). Yet, the dominant contribution to the uncertainty deviation) by ignoring their covariance (the mean value is very similar to that used for Chapter 4, Box 4.1,   (a) Time evolution of the effective radiative forcing (ERF) to the CO2 concentration increased by 1% per year until the year 70 (equal to the time of doubling) and kept fixed afterwards (white line). The likely and very likely ranges of ERF indicated by light and dark orange have been assessed in Section 7.3.2.1. (b) Surface temperature response to the CO2 forcing calculated using the emulator with a given value of ECS, considering uncertainty in \u0394F2\u00d7CO2, \u03b1, and \ud835\udf05\ud835\udf05 associated with the ocean heat uptake and efficacy (white line). The likely and very likely ranges are indicated by cyan and blue. For comparison, the temperature response to abrupt doubling of the CO2 concentration is displayed by a grey curve. The mean, likely and very likely ranges of ECS and TCR are shown at the right (the values of TCR also presented in the panel). Further details on data sources and processing are available in the chapter data table (Table 7.SM.14).  "
+                ]
+            }
+        },
+        "7.18": {
+            "title": {
+                "en_EN": "  Summary of the equilibrium climate sensitivity (ECS) and transient climate response (TCR) assessments using different lines of evidence."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Assessed ranges are taken from Tables 7.13 and 7.14 for ECS and TCR respectively. Note that for the ECS assessment based on both the instrumental record and paleoclimates, limits (i.e. one-sided distributions) are given, which have twice the probability of being outside the maximum\/minimum value at a given end, compared to ranges (i.e. two tailed distributions) which are given for the other lines of evidence. For example, the extremely likely limit of greater than 95% probability corresponds to one side of the very likely (5% to 95%) range. Best estimates are given as either a single number or by a range represented by grey box. CMIP6 model values are not directly used as a line of evidence but presented on the Figure for comparison. ECS values are taken from Schlund et al. (2020) and TCR values from Meehl et al. (2020), see Supplementary Material 7.SM.4. Further details on data sources and processing are available in the chapter data table (Table 7.SM.14).  "
+                ]
+            }
+        },
+        "7.19": {
+            "title": {
+                "en_EN": "  Global mean temperature anomaly in models and observations from 5 time periods."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Historical (CMIP6 models), (b) post 1975 (CMIP6 models), (c) Last Glacial Maximum (LGM; Cross-Chapter Box 2.1; PMIP4 models; (Kageyama et al., 2021; Zhu et al., 2021), (d) mid Pliocene warm period (MPWP; Cross-Chapter Box 2.4; PlioMIP models; Haywood et al., 2020; Zhang et al., 2021), (e) early Eocene climatic optimum (EECO; Cross-Chapter Box 2.1; DeepMIP models; Zhu et al., 2020; Lunt et al., 2021).  Grey circles show models with ECS in the assessed very likely range; models in red have an ECS greater than the assessed very likely range (>5\u00b0C), models in blue have an ECS lower than the assessed very likely range (<2\u00b0C).  Black ranges show the assessed temperature anomaly derived from observations (Chapter 2, Section 2.3). The Historical anomaly in models and observations is calculated as the difference between 2005\u20132014 and 1850\u20131900, and the post 1975 anomaly is calculated as the difference between 2005\u20132014 and 1975\u20131984.  For the LGM, MPWP, and EECO, temperature anomalies are compared with pre-industrial (equivalent to CMIP6 simulation piControl). All model simulations of the MPWP and LGM were carried out with atmospheric CO2 concentrations of 400 and 190 ppm respectively.  However, CO2 during the EECO is relatively more uncertain, and model simulations were carried out at either 1120ppm or 1680 ppm (except for the one high-ECS EECO simulation which was carried out at 560 ppm; Zhu et al., 2020).  The one low-ECS EECO simulation was carried out at 1680 ppm. Further details on data sources and processing are available in the chapter data table (Table 7.SM.14).  "
+                ]
+            }
+        },
+        "7.20": {
+            "title": {
+                "en_EN": "  Contributions of effective radiative forcing, ocean heat uptake and radiative feedbacks to global atmospheric energy input and near-surface air temperature change at year 100 of abrupt4xCO2 simulations of CMIP6 models."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) The energy flux to the global atmosphere associated with the effective CO2 forcing, global ocean heat uptake, Planck response, and radiative feedbacks, which together sum to zero. The inset shows energy input from individual feedbacks, summing to the total feedback energy input. (b) Contributions to net global warming are calculated by dividing the energy inputs by the magnitude of the global Planck response (3.2 W m\u20132 \u00b0C\u20131), with the contributions from radiative forcing, ocean heat uptake, and radiative feedbacks (orange bars) summing to the value of net warming (grey bar). The inset shows warming contributions associated with individual feedbacks, summing to the total feedback contribution. Uncertainties show the interquartile range (25% and 75% percentiles) across models. Radiative kernel methods (see Section 7.4.1) were used to decompose the net energy input from radiative feedbacks into contributions from changes in atmospheric water vapour, lapse-rate, clouds, and surface albedo (Zelinka et al. (2020) using the Huang et al. (2017) radiative kernel). The CMIP6 models included are those analysed by Zelinka et al. (2020) and the warming contribution analysis is based on that of Goosse et al. (2018). Further details on data sources and processing are available in the chapter data table (Table 7.SM.14).  "
+                ]
+            }
+        },
+        "7.21": {
+            "title": {
+                "en_EN": "  Emission metrics for two short-lived greenhouse gases: HFC-32 and CH4, (lifetimes of 5."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "4 and 11.8 years). The temperature response function comes from Supplementary Material 7.SM.5.2.  Values for non-CO2 species include the carbon cycle response (Section 7.6.1.3). Results for HFC-32 have been divided by 100 to show on the same scale. (a) temperature response to a step change in short-lived greenhouse gas emission. (b) temperature response to a pulse CO2 emission. (c) conventional GTP metrics (pulse vs pulse). (d) combined-GTP metric (step versus pulse). Further details on data sources and processing are available in the chapter data table (Table 7.SM.14).  "
+                ]
+            }
+        },
+        "7.22": {
+            "title": {
+                "en_EN": "  Explores how cumulative carbon dioxide equivalent emissions estimated for methane vary under different emission metric choices and how estimates of the global surface air temperature (GSAT) change deduced from these cumulative emissions compare to the actual temperature response computed with the two-layer emulator (solid black lines)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Panels a) and b) show the SSP4-6.0 and SSP1-2.6 scenarios respectively.  The panels show annual methane emissions as the dotted lines (left axis) from 1750\u20132100. The solid lines can be read as either estimates of GSAT change or estimates of the cumulative carbon dioxide equivalent emissions. This is because they are related by a constant factor, the TCRE. Thus, values can be read using either of the right hand axes.  Emission metric values are taken from Table 7.15. The GWP* calculation is given in Section 7.6.1.4. The two-layer emulator has been calibrated to the central values of the report\u2019s assessment (see Supplementary Material 7.SM.5.2). Further details on data sources and processing are available in the chapter data table (Table 7.SM.14).  "
+                ]
+            }
         },
         "2.X": {
             "title": {
