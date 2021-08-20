@@ -1225,7 +1225,7 @@ function goToRefInMarkdown(ref)
     let sanitized = ref.replaceAll('.','').toLowerCase();
     let uRef = "doc-TS-"+sanitized+"-";
     let chap = ref.split('.')[0];
-    if(chap == '1' || chap == '2'){
+    if(chap == '1' || chap == '2' || chap == '3'){
         uRef = "doc-"+chap+"-"+sanitized+"-";
     }
     console.log("searching for ref", uRef);
