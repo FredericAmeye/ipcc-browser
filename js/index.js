@@ -1211,11 +1211,12 @@ function loadMainPanel(chapter = 'TS', toRef = false)
             }
 
             // do not display "mark read" if already marked as read
-            if(userParams['read'] && userParams['read'][prev_ref]){
+            if(prev_ref && userParams['read'] && userParams['read'][prev_ref]){
                 disp_mread = 'style="display:none"';
 
                 // but instead show a green background for previous section
-                if(prev_id !== false){
+                if(prev_id){
+                    console.log("was read",prev_ref, prev_id);
                     $(this).prevUntil('#'+prev_id).addClass('textBlock-read')
                 }
             }
