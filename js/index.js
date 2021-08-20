@@ -60,7 +60,7 @@ let initFn = (function()
     }
 
     /* init page */
-    jQuery.getJSON('content/wgI.json?v11.json', function(r){
+    jQuery.getJSON('content/wgI.json?v12.json', function(r){
         const nb_chap = r.SPM.chapters.length;
         wgI = r;
         
@@ -180,6 +180,23 @@ function markAsRead(e, tag = 'data-cite')
 
     userParams['read'][ref] = new Date().getTime();
     $('.chapter-read[data-readmarker=\''+ref+'\']').css('display','inline-block');
+
+    saveLocalStorage();
+
+    return false;
+}
+
+function markUnread(e, tag = 'data-cite')
+{
+    let ref = $(e).attr(tag);
+
+    if(typeof userParams['read'] === 'undefined')
+    {
+        userParams['read'] = {};
+    }
+
+    delete userParams['read'][ref];
+    $('.chapter-read[data-readmarker=\''+ref+'\']').css('display','none');
 
     saveLocalStorage();
 
@@ -309,6 +326,13 @@ function recursiveTOC(chapter, recnum)
         spage = `<span class="toc-page">${page}</span>`;
     }
 
+    // was read?
+    let readClass = '', readMarker = '';
+    if(userParams['read'] && userParams['read'][chapter.ref]) {
+        readClass = 'toc-element-read';
+        readMarker = '<i class="material-icons green-text right" title="Already read" style="font-size:18px; margin-right:5px">done_all</i>';
+    }
+
     if(chapter.chapters)
     {
         // has child
@@ -318,10 +342,10 @@ function recursiveTOC(chapter, recnum)
             sub_c += recursiveTOC(chapter.chapters[i], recnum+1);
         }
 
-        return /*html*/`<li>
+        return /*html*/`<li class="${readClass}">
             <a href="#" class="modal-close" onclick="return dispSource(this);" data-cite="${chapter.ref}">
                 <span class="toc-chaptitle">${chapter.ref}</span>
-                ${chaptitle}${spage}
+                ${chaptitle}${spage}${readMarker}
             </a>
             <ul>
                 ${sub_c}
@@ -330,11 +354,13 @@ function recursiveTOC(chapter, recnum)
     }
     else
     {
+        
+
         // leaf
-        return /*html*/`<li data-ref="${chapter.ref}">
+        return /*html*/`<li class="${readClass}" data-ref="${chapter.ref}">
                 <a href="#" class="modal-close" onclick="return dispSource(this);" data-cite="${chapter.ref}">
                     <span class="toc-chaptitle">${chapter.ref}</span>
-                    ${chaptitle}${spage}
+                    ${chaptitle}${spage}${readMarker}
                 </a>
             </li>`;
     }
@@ -1166,9 +1192,6 @@ function loadMainPanel(chapter = 'TS', toRef = false)
         // insert permalinks in headers
         html = $('<div>'+html+'</div>');
 
-        // OR use marked renderers instead
-        // marquer comme lu : seulement sur les § qui ont des identifiants
-        // marquer comme lu plutôt quand on arrive en fin de paragraphe avec barre qui montre quelle partie sera marquée comme lue
         // headers sticky sur la partie gauche ou mini-sommaire?
         // TODO div to the left not correct on mobiles
         html.find('h1,h2,h3,h4,h5').each(function(){
@@ -1179,27 +1202,43 @@ function loadMainPanel(chapter = 'TS', toRef = false)
             
             let has_prev_section = findEndOfReading(this);
             let disp_mread = '';
-            if(!has_prev_section){
-                disp_mread = 'style="display:none"';
-            };
-
             let prev_id = has_prev_section?.id || false;
             let prev_ref = $(has_prev_section).find('a[data-cite]').text();
 
+            // do not display "mark read" if previous section is unknown
+            if(!has_prev_section || !prev_ref){
+                disp_mread = 'style="display:none"';
+            }
+
+            // do not display "mark read" if already marked as read
+            if(userParams['read'] && userParams['read'][prev_ref]){
+                disp_mread = 'style="display:none"';
+
+                // but instead show a green background for previous section
+                if(prev_id !== false){
+                    $(this).prevUntil('#'+prev_id).addClass('textBlock-read')
+                }
+            }
+
+            // click action to color in green until previous section
+            let clickAction = prev_id ? '$(this).parent().parent().prevUntil(\'#'+prev_id+'\').addClass(\'textBlock-read\');' : '';
+            let unClickAction = prev_id ? '$(this).parent().nextUntil(\'#'+this.id+'\').removeClass(\'textBlock-read\');' : '';
+
+
             $(this).prepend(/*html*/`<div class="section-tools hide-on-small-only">
-                <a data-tippy-content="Sharing link" href="#lang=${lang}&opened=${ref}">
-                    <i class="material-icons">shared</i>
-                </a>
                 <!--<a href="#"><i class="material-icons">bookmark</i></a>-->
-                <a ${disp_mread} href="#"
+                <a ${disp_mread} style="position:absolute; top:-55px;" href="#"
                     onmouseover="highlightEndOfReading(this, $('#${prev_id}'))"
                     onmouseout="lowlightEndOfReading();"
-                    onclick="return markAsRead(this, 'data-mread');"
+                    onclick="${clickAction} return markAsRead(this, 'data-mread');"
                     data-mread="${prev_ref}"
                     data-tippy-content="Mark previous section (${prev_ref}) as read">
                     <i class="material-icons">done_all</i>
                 </a>
-            </div>`).append(/*html*/`<i class="chapter-read material-icons green-text" data-tippy-content="Already read" data-readmarker="${ref}" style="vertical-align:bottom; margin-left:10px;${already_read}">done_all</i>`);
+            </div>`).append(/*html*/`<i class="chapter-read material-icons green-text" onclick="${unClickAction} return markUnread(this, 'data-readmarker');" data-tippy-content="Already read ; click to mark as unread" data-readmarker="${ref}" style="vertical-align:bottom; margin-left:10px;${already_read}">done_all</i>
+            <a class="right" data-tippy-content="Sharing link to section ${ref}" href="#lang=${lang}&opened=${ref}">
+                <i class="material-icons">shared</i>
+            </a>`);
         });
         html.appendTo('#main-panel-holder');
 
@@ -1278,9 +1317,9 @@ function highlightEndOfReading(current, previous)
         position: 'absolute',
         display: 'block',
         top: pos_prev.top,
-        height: (pos_next.top - pos_prev.top),
-        left: pos_prev.left - 20,
-        width: $(previous).parent().width() + 40
+        height: (pos_next.top - pos_prev.top) + 50,
+        left: pos_prev.left - 15,
+        width: $(previous).parent().width() + 30
     });
 }
 

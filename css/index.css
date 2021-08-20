@@ -357,6 +357,9 @@ width: 95%;
     top:0;
     display:none;
 }
+.chapter-read {
+    cursor:pointer;
+}
 
 /* full table of contents */
 .toc-holder {
@@ -402,6 +405,10 @@ width: 95%;
     float:right;
     color:#444;
     font-size:10px;
+}
+
+.toc-element-read {
+    background:rgba(0,255,0,0.15);
 }
 
 .small-figure {
@@ -487,7 +494,8 @@ width: 95%;
 }
 .section-tools {
     float:left;
-    margin-left:-80px;
+    margin-left:-40px;
+    position:relative;
 }
 .section-tools i {
     width:24px;
@@ -496,4 +504,9 @@ width: 95%;
     position: fixed;
     bottom:20px;
     right:10px;
+}
+
+.textBlock-read {
+    padding: 5px;
+    background-color:rgba(0,255,0,0.1);
 }
