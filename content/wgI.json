@@ -6522,6 +6522,32 @@
                 ]
             }
         },
+        "Cross-Chapter Box 12.2,Figure1": {
+            "title": {
+                "en_EN":"Schematic of three broad categories of engagement between users and providers of climate services (adapted from Hewitt et al., (2017b)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    ""
+                ]
+            }
+        },
+        "Cross-Chapter Box 12.2,Figure2": {
+            "title": {
+                "en_EN":"Climate Risk Narrative infographic developed through the FRACTAL Windhoek Learning Lab process (adapted from Jack et al., (2020))."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    ""
+                ]
+            }
+        },
         "2.X": {
             "title": {
                 "en_EN":""
@@ -13197,7 +13223,8 @@
             {
                 "ref":"Cross-Chapter Box 12.1",
                 "en_EN":"Projections by warming levels of hazards relevant to the assessment of representative Key Risks and Reasons for Concern",
-                "startPage":113
+                "startPage":113,
+                "hasFile": true
             },
             {
                 "ref": "12.6",
@@ -13220,7 +13247,8 @@
             {
                 "ref":"Cross-Chapter Box 12.2",
                 "en_EN":"Climate services and climate change information",
-                "startPage":124
+                "startPage":124,
+                "hasFile": true
             },
             {
                 "ref": "12.7",
