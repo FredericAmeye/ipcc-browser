@@ -333,6 +333,17 @@ function recursiveTOC(chapter, recnum)
         readMarker = '<i class="material-icons green-text right" title="Already read" style="font-size:18px; margin-right:5px">done_all</i>';
     }
 
+    // main chapter => word cloud
+    let header = '';
+    if(chapters_MD.includes(chapter.ref) || chapter.ref == 'TS')
+    {
+        let chp = (chapter.ref == 'TS') ? 'Technical Summary': 'Chapter '+chapter.ref;
+        header = /*html*/`<li>
+            <h1 class="center">${chp}</h1>
+            <img src="pdf/${chapter.ref}.png" style="width:100%;">
+        </li>`;
+    }
+
     if(chapter.chapters)
     {
         // has child
@@ -342,7 +353,7 @@ function recursiveTOC(chapter, recnum)
             sub_c += recursiveTOC(chapter.chapters[i], recnum+1);
         }
 
-        return /*html*/`<li class="${readClass}">
+        return /*html*/`${header}<li style="margin-top:0; border-top:none;" class="${readClass}">
             <a href="#" class="modal-close" onclick="return dispSource(this);" data-cite="${chapter.ref}">
                 <span class="toc-chaptitle">${chapter.ref}</span>
                 ${chaptitle}${spage}${readMarker}
@@ -1190,7 +1201,7 @@ function loadMainPanel(chapter = 'TS', toRef = false)
         updateHash();
 
         // insert permalinks in headers
-        html = $('<div>'+html+'</div>');
+        html = $('<div><img src="pdf/'+chapter+'.png" style="margin-top:15px; max-width:100%">'+html+'</div>');
 
         // headers sticky sur la partie gauche ou mini-sommaire?
         // TODO div to the left not correct on mobiles

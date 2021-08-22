@@ -376,6 +376,7 @@ width: 95%;
 .toc-holder > li {
     margin-top: 10px;
     border-top: 3px solid #1a237e;
+    padding-top:5px;
 }
 
 /* 2nd level */
