@@ -6236,6 +6236,32 @@
                 ]
             }
         },
+        "Box 6.1,Figure1": {
+            "title": {
+                "en_EN":"Knowledge exchange between laboratory/theoretical studies, observations and global chemistry-climate models to inform our understanding of short-lived climate forcers (SLCFs).  "
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    ""
+                ]
+            }
+        },
+        "Cross-Chapter Box 6.1,Figure1": {
+            "title": {
+                "en_EN":"Figure 1: Emission reductions and their effect on aerosols and climate in response to COVID-19."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Estimated reductions in emissions of CO2, SO2 and NOx are shown in panel (a) based on reconstructions using activity data (updated from Forster et al., 2020). Eight Earth System Models (ESMs) performed multiple ensemble simulations of the response to COVID-19 emissions reductions forced with these assumed emission reductions up till August 2020 followed by a constant continuation near the August value to the end of 2020. Emission reductions were applied relative to the SSP2-4.5 scenario. Panel (b) shows ESM simulated AOD at 550nm (only seven models reported this variable). Panel (c) shows ESM simulated GSAT anomalies during 2020; curves denote the ensemble mean result for each model with shading used for ±1 standard deviation for each model. ESM data from these simulations (“ssp245-covid”) is archived on the Earth System Grid CMIP6 database. Uncertainty is represented using the simple approach: No overlay indicates regions with high model agreement, where ≥80% of models agree on sign of change; diagonal lines indicate regions with low model agreement, where <80% of models agree on sign of change. For more information on the simple approach, please refer to the Cross-Chapter Box Atlas.1. "
+                ]
+            }
+        },
         "2.X": {
             "title": {
                 "en_EN":""
@@ -9059,7 +9085,8 @@
             {
                 "ref":"Box 6.1",
                 "en_EN":"Atmospheric abundance of SLCFs: from process level studies to global chemistry-climate models",
-                "startPage":21
+                "startPage":21,
+                "hasFile": true
             },
             {
                 "ref": "6.4",
@@ -9182,7 +9209,14 @@
             {
                 "ref":"Box 6.2",
                 "en_EN":"SLCF mitigation and sustainable development goals (SDG) opportunities",
-                "startPage":73
+                "startPage":73,
+                "hasFile": true
+            },
+            {
+                "ref":"Cross-Chapter Box 6.1",
+                "en_EN":"Implications of COVID-19 restrictions for emissions, air quality and climate",
+                "startPage":83,
+                "hasFile": true
             },
             {
                 "ref": "6.7",
