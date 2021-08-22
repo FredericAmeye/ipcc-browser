@@ -5388,6 +5388,279 @@
                 ]
             }
         },
+        "10.1": {
+            "title": {
+                "en_EN": "  Diagram of the processes leading to the construction of regional climate information (green) and user-relevant regional climate information (orange)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The chapter sections and the other chapters of the report involved in each step are indicated in rectangles. WGII stands for Working Group II.  "
+                ]
+            }
+        },
+        "10.2": {
+            "title": {
+                "en_EN": "  Visual abstract of the chapter, with its key elements."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "  "
+                ]
+            }
+        },
+        "10.3": {
+            "title": {
+                "en_EN": "  Schematic diagram to display interacting spatial and temporal scales relevant to regional climate change information."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Adapted from Orlanski (1975). The processes included in the different models and  "
+                ]
+            }
+        },
+        "10.4": {
+            "title": {
+                "en_EN": "  Schematic diagram that illustrates the treatment of regional climate change in the different parts of the WGI report and how the chapters relate to each other."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "     "
+                ]
+            }
+        },
+        "10.5": {
+            "title": {
+                "en_EN": "     Typical model types and chains used in modelling regional climate."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The dashed lines indicate model chains that might prove useful but have not or only rarely been used. Hybrid approaches combining the model types shown have been developed.  "
+                ]
+            }
+        },
+        "10.6": {
+            "title": {
+                "en_EN": "  Illustration of some model biases in simulations performed with dynamical models."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Top row: Mean summer (June to August) near-surface air temperature (in \u00b0C) over the Mediterranean area in Berkeley Earth and respective mean bias for five multi-model historical experiments with GCMs (CMIP5, CMIP6 and HighResMIP) and RCMs (CORDEX EUR-44 and EUR-11) averaged between 1986\u20132005. Bottom row: Box-and-whisker plot shows spread of the 20 annual mean summer surface air temperature averaged over land areas in the western Mediterranean region (33\u00b0N\u201345\u00b0N, 10\u00b0W\u201310\u00b0E, black quadrilateral in the first panel of the top row) for a set of references and single model runs of the five multi-model experiments (one simulation per model) between 1986\u20132005. Additional observation and reanalysis data included in the bottom row are CRU TS, HadCRUT4, HadCRUT5, E-OBS, WFDE5, ERA5, ERA-Interim, CERA-20C, JRA-25, JRA-55, CFSR, MERRA2, MERRA. Berkeley Earth is shown in the first box to the left. (b) as (a) but for precipitation rate (mm day-1) and showing CRU TS in the first panel of the top row. Biases of the five multi-model experiments are shown with respect to CRU TS. Additional observation and reanalysis data included in the bottom row are GPCC, REGEN, E-OBS, GHCN, WFDE5, CFSR, ERA-Interim, ERA5, JRA-55, MERRA2, MERRA. CRU TS is shown in the first box to the left. All box-and-whisker plots show the median (line), and the interquartile range (IQR = Q3\u2013Q1, box), with top whiskers extending to the last data less than Q3+1.5\u00d7IQR and analogously for bottom whiskers. Data outside the whiskers range appear as flyers (circles). Further details on data sources and processing are available in the chapter data table (Table 10.SM.11).   "
+                ]
+            }
+        },
+        "10.7": {
+            "title": {
+                "en_EN": "  Northern-Hemisphere blocking performance in historical coupled simulations for different multi-model ensembles."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " CMIP5\/6: CMIP5 and CMIP6 DECK historical simulations, 1950-2005, LC\/HC: Low\/High-resolution simulations from the PRIMAVERA project, 1950\u20132014 following the hist-1950 experiment of the CMIP6 HighResMIP Protocol, (Haarsma et al., 2016). (top) blocking frequency, i.e. fraction of blocked days; (middle) root-mean-squared error in blocking frequency; (bottom) 90th percentile of blocking persistence, aggregated over an Atlantic domain (left, ATL: 90\u00baW\u201390\u00baE, 50\u00ba\u201375\u00baN) and a Pacific domain (right, PAC: 90\u00baE\u2013270\u00baE, 50\u00ba\u201375\u00baN). Results are for boreal winter (DJF) and summer (JJA). Box-and-whisker plots for CMIP5\/6 follow the methodology used in Figure 10.6 and show median (line), mean (triangle), and interquartile range (box) across 29 models for each ensemble. The reference estimate (ERA, asterisk) is from a 50-year reanalysis dataset that merged ERA-40 (1962\u2013   1978) and ERA-Interim (1979\u20132011) reanalyses. An estimate of internal variability for each metric (IV) is shown as a box-and-whisker plot over the asterisk and is obtained from a single-model ensemble (ECMWF-IFS high-resolution hist-1950 experiment, 6 x 65 years). For details on the methodology see (Schiemann et al., 2020). Further details on data sources and processing are available in the chapter data table (Table 10.SM.11).   "
+                ]
+            }
+        },
+        "10.8": {
+            "title": {
+                "en_EN": "  Hourly accumulated precipitation profiles (mm hour-1) around the eye of Typhoon Haiyan."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "     Represented by (a) GSMaP (Global Satellite Mapping of Precipitation) data, (b) Guiuan radar (PAGASA), (c) Weekly Ensemble Prediction System (WEPS) data (JMA), (d) NHRCM (20 km), (e) NHRCM (5 km), and (f) WRF (1 km) models. Panels (b), (d)-(f) are adapted from Takayabu et al. (2015), CCBY3.0 https:\/\/creativecommons.org\/licenses\/by\/3.0. Further details on data sources and processing are available in the chapter data table (Table 10.SM.11).  "
+                ]
+            }
+        },
+        "10.9": {
+            "title": {
+                "en_EN": "  Projected changes in summer (June to August) precipitation (in percent with respect to the mean precipitation) over the Alps between the periods 2070\u20122099 and 1975\u20122004."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Mean of four GCMs regridded to a common 1.32\u00b0x1.32\u00b0 grid resolution; (b) mean of six RCMs driven with these GCMs. The grey isolines show elevation at 200 m intervals of the underlying model data. Further details on data sources and processing are available in the chapter data table (Table 10.SM.11). Adapted from Giorgi et al. (2016).  "
+                ]
+            }
+        },
+        "10.10": {
+            "title": {
+                "en_EN": " Observed and projected changes in austral summer (December to February) mean precipitation in GPCC, CRU TS and 100 members of the MPI-ESM."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) 55-year trends (2015\u20122070) from the ensemble members with the lowest (left) and highest (right) trend (% per decade, baseline 1995\u20132014). (b) Time series (%, baseline 1995\u20132014) for different spatial scales (from top to bottom: global averages; S.E. South America; grid boxes close to S\u00e3o Paulo and Buenos Aires) with a five-point weighted running mean applied (a variant on the binomial filter with weights [1-3-4-3-1]). The brown (green) lines correspond to the ensemble member with weakest (strongest) 55-year trend and the grey lines to all remaining ensemble members. Box-and-whisker plots show the distribution of 55-year linear trends across all ensemble members, and follow the methodology used in Figure 10.6. Trends are estimated using ordinary least squares. Further details on data sources and processing are available in the chapter data table (Table 10.SM.11).  "
+                ]
+            }
+        },
+        "10.11": {
+            "title": {
+                "en_EN": " Attribution of historic precipitation change in the Sahelian West African monsoon during June to September."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Time series of CRU TS precipitation anomalies (mm day-1, baseline 1955\u20131984) in the Sahel box (10\u00b0N\u201320\u00b0N, 20\u00b0W\u201330\u00b0E) indicated in panel (b) applying the same low-pass filter as that used in Figure 10.10. The two periods used for difference diagnostics are shown in grey columns. (b) Precipitation change (mm day-1) in CRU TS data for 1980\u20131990 minus 1950\u20131960 periods. (c) Precipitation difference (mm day-1) between 1.5x and 0.2x historical aerosol emissions scaling factors averaged over 1955\u20131984 and five ensemble members of HadGEM3 experiments after Shonk et al. (2020). (d) Sahel precipitation anomaly time series (mm day-1, baseline 1955\u20131984) in CMIP6 for 49 historical simulations with all forcings (red), and thirteen for each of greenhouse gas-only forcing (light blue) and aerosol-only forcing (grey), with a thirteen-point weighted running mean applied (a variant on the binomial filter with weights [1-6-19-42-71-96-106-96-71-42-19-6-1]). The CMIP6 subsample of all forcings matching the individual forcing simulations is also shown (pink). (e) Precipitation linear trend (% per decade) for (left) decline (1955\u20131984) and (right) recovery periods (1985\u20132014) for ensemble means and individual CMIP6 historical experiments (including single-forcing) as in panel (d) plus 34 CMIP5 models (dark blue). Box-and-whisker plots show the trend distribution of the three coupled and Figure 10.6. The two black crosses represent observational estimates from GPCC and CRU TS. Trends are estimated using ordinary least-squares regression. Further details on data sources and processing are available in the chapter data table (Table 10.SM.11).  "
+                ]
+            }
+        },
+        "10.12": {
+            "title": {
+                "en_EN": " Southeastern South America positive mean precipitation trend and its drivers during 1951\u20132014."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Mechanisms that have been suggested to contribute to southeastern South America summer wetting. (b) Time series of austral summer (December to February) precipitation anomalies (%, baseline 1995\u20132014) over the south-eastern South American region (26.25\u00b0S\u201338.75\u00b0S, 56.25\u00b0W\u201366.25\u00b0W), black quadrilateral in the first map of panel (c). Black, brown and green lines show low-pass filtered time series for CRU TS, and the members with driest and wettest trends of the MPI-ESM SMILE (between 1951\u20132014), respectively. The filter is the same as the one used in Figure 10.10. (c) Mean austral summer precipitation spatial linear 1951\u20132014 trends (mm per month and decade) from CRU TS and GPCC. Trends are estimated using ordinary least squares regression. (d) Distribution of precipitation 1951\u20132014 trends over southeastern South America from GPCC and CRU TS (black crosses), CMIP6 all-forcing historical (red circles) and MIROC6, CSIRO-Mk3-6-0, MPI-ESM and d4PDF SMILEs (grey box-and-whisker plots). Grey squares refer to ensemble mean trends of their respective SMILE and the red circle refers to the CMIP6 multi-model mean. Box-and-whisker plots follow the methodology used in Figure 10.6. Further details on data sources and processing are available in the chapter data table (Table 10.SM.11).     "
+                ]
+            }
+        },
+        "10.13": {
+            "title": {
+                "en_EN": " Attribution of the southwestern North America precipitation decline during the 1983\u20132014 period."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Water year (October to September) precipitation spatial linear trend (in percent per decade) over North America from 1983 to 2014. Trends are estimated using ordinary least squares. Top row: Observed trends from CRU TS, REGEN, GPCC, and the Global Precipitation Climatology Project (GPCP). Middle row: Driest, mean and wettest trends (relative to the region enclosed in the black quadrilateral, bottom row) from the 100 members of the MPI-ESM coupled SMILE. Bottom row: Driest, mean and wettest trends relative to the above region from the 100 members of the d4PDF atmosphere-only SMILE. (b) Time series of water year precipitation anomalies (%, baseline 1971\u20132000) over the above south-western North America region for CRU TS (grey bar charts). Black, brown and green lines show low-pass filtered time series for CRU TS, driest and wettest members of the d4PDF SMILE, respectively. The filter is the same as the one used in Figure 10.10. (c) Distribution of south-western region-averaged water-year precipitation 1983\u20122014 trends (in percent per decade) for observations (CRU TS, REGEN, GPCC and    GPCP, black crosses), CMIP6 all-forcing historical simulations (red circles), the MIROC6, CSIRO-Mk3-6-0, MPI-ESM and d4PDF SMILEs (grey box-and-whisker plots). Grey squares refer to ensemble mean trends of their respective SMILE and the red circle refers to the CMIP6 multi-model mean. Box-and-whisker plots follow the methodology used in Figure 10.6. Further details on data sources and processing are available in the chapter data table (Table 10.SM.11).  "
+                ]
+            }
+        },
+        "10.14": {
+            "title": {
+                "en_EN": "     Robustness and scalability of anthropogenic signals at regional scale."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Spatial patterns of Europe and Africa summer (June to August) surface air temperature change (in \u00b0C \u00b0C-1) from the CMIP6 multi-model mean (45 models, one member per model, historical simulations and scenario SSP5-8.5) at different global warming levels (GWLs) and the end-21st century scaling pattern estimated from the multi-model mean difference between 2081\u20132100 and the pre-industrial period (1850\u20131900) divided by the corresponding global mean warming. The scale of all GWL patterns has been adjusted to a global mean warming of 1\u00b0C (for example, the resulting 3\u00b0C spatial pattern has been divided by three). The scales of the GWL patterns have to be multiplied by their threshold values to obtain the actual simulated warming. The metrics shown in the bottom left corner of the GWL pattern plots indicate the spatial pattern correlation and the root-mean square difference between the GWL patterns and the scaling pattern. The number in bold just above the metrics gives the number of used CMIP6 models (out of 45) that have reached the GWL threshold. Areas with robust change (at least 66% of the models have a signal to noise ratio greater than one and 80% or more of the models agree on the sign of the change) are coloured with no pattern overlaid (Cross-Chapter Box Atlas.1). Areas with a significant change (at least 66% of the models have a signal to noise ratio greater than one) and lack of model agreement (meaning that less than 80% of the models agree on the sign of the change) are marked by cross-hatching. Areas with no change or no robust change (less than 66% of the models have a signal to noise ratio greater than one) are marked by negatively sloped hatching. (b) Same as (a) but for North, Central and South America annual mean precipitation relative change (percent \u00b0C-1). The baseline for precipitation climatology is 1850\u20131900. Further details on data sources and processing are available in the chapter data table (Table 10.SM.11).  "
+                ]
+            }
+        },
+        "10.15": {
+            "title": {
+                "en_EN": " Future emergence of anthropogenic signal at regional scale."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Percentage area of land regions with robust annual mean precipitation change as a function of increasing GWLs. Robustness of the precipitation change is first estimated at each grid-point followed by the estimation of the AR6 region area with robust changes. For each CMIP6 model considered (45 models, one member per model, historical simulations and scenario SSP5-8.5), the annual mean precipitation change is based on the difference between a 20-year average centred on the GWL crossing year and the mean precipitation during the pre-industrial period (1850\u20131900) taken as a reference. Robustness of the change is acted when at least 66% of the models (30 out of 45) have a signal to noise ratio greater than one and at least 80% of them (36 out of 45) agree on the sign of change. The signal to noise ratio is estimated for each model from the ratio between the change and the standard deviation of non-overlapping 20-year means of the corresponding pre-industrial simulation (scaled by square root of 2 times 1.645). (b) Time evolution of the percentage area of land region with robust annual mean precipitation change for five AR6 land regions. Thick solid lines represent precipitation changes based on the same CMIP6 ensemble as in (a). Thin solid, dotted and dashed lines represent changes based on the three coupled SMILEs used in Chapter 10, illustrating the influence of internal variability on the emergence of robust change. The change is estimated from the difference between all consecutive 20-year periods from 1900\u20131919 up to 2081\u20132100    and the pre-industrial period. The line colour indicates the sign of the robust change given by the multi-model mean (CMIP6) or ensemble mean (SMILE) change: brown (decreasing precipitation) and dark green (increasing precipitation). Further details on data sources and processing are available in the chapter data table (Table 10.SM.11).  "
+                ]
+            }
+        },
+        "10.16": {
+            "title": {
+                "en_EN": " Illustration of how using different sources can result in different and potentially conflicting information."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Change in daily precipitation (2071\u20122100 RCP8.5 relative to 1981\u20122010) over West Africa as simulated by an ensemble of GCM-driven RCMs. (a) Change in daily precipitation (mm) for April to September, as mean of 17 CORDEX models (Dosio et al., 2020) (b-e) Time-latitude diagram of daily precipitation change for four selected RCM-GCM combinations. For each month and latitude, model results are zonally averaged between 10\u00b0W\u201210\u00b0E (blue box in a). Different GCM-RCM combinations can produce substantially different and contrasting results, when the same RCM is used to downscale different GCMs (b, d), or the same GCM is downscaled by different RCMs (d, e). GCM1=IPSL-IPSL-CM5A, GCM2=ICHEC-EC-EARTH, RCM1=RCA4, RCM2=REMO2009. Adapted from (Dosio et al., 2020), CCBY4.0 https:\/\/creativecommons.org\/licenses\/by\/4.0\/. Further details on data sources and processing are available in the chapter data table (Table 10.SM.11).   "
+                ]
+            }
+        },
+        "10.17": {
+            "title": {
+                "en_EN": " Effective regional climate information requires shared development of actionable information that engages all parties involved and the values that guide their engagement."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Participants in the development of climate information come from varying perspectives, based in part on their professions and communities. Each of the three broad categories shown in the Venn diagram (Users,    Producers, Scientists) is not a homogenous group, and often has a diversity of perspectives, values and interests among its members. The subheadings in each category are illustrative and not all-inclusive. The arrows connecting those categories represent the distillation process of providing context and sharing climate relevant information. The arrows that point toward the centre represent the distillation of climate information that involves all three categories.  "
+                ]
+            }
+        },
+        "10.18": {
+            "title": {
+                "en_EN": " Historical and projected rainfall and Southern Annular Mode (SAM) over the Cape Town region."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Yearly accumulation of rainfall (in mm) obtained by summing monthly totals between January and December, with the drought years 2015 (orange), 2016 (red), and 2017 (purple) highlighted in colour. (b) Monthly rainfall for the drought years (in colour) compared with the 1981\u20122014 climatology (grey line). Rainfall in (a) and (b) is the average of 20 quality controlled and gap-filled series from stations within the Cape Town region (31\u00baS\u201235\u00baS, 18\u00baW\u201220.5\u00baW). (c) Time series of the SAM index and of historical and projected rainfall anomalies (%, baseline 1980\u20132010) over the Cape Town region. Observed data presented as 30-year running means of relative total annual rainfall over the Cape Town region for station-based data (black line, average of 20 stations as in (a) and (b)), and gridded data (average of all grid cells falling within 31\u00baS\u201235\u00baS, 18\u00baW\u201220.5\u00baW): GPCC (green line) and CRU TS (olive line). Model ensemble results presented as the 90th-percentile range of relative 30-year running means of rainfall and the SAM index from 35 CMIP5 (blue shading) and 35 CMIP6 (red shading) simulations, 6 CORDEX simulations driven by 1 to 10 GCMs (cyan shading), 6 CCAM (purple shading) simulations from individual ensemble members, and 50 members from the MIROC6 SMILE simulations (orange shading). The light blue, dark red and yellow lines correspond to NCEP\/NCAR, ERA20C and 20CR, respectively. The SAM index is calculated from sea-level pressure reanalysis and GCM data as per Gong and Wang (1999) and averaged over the aforementioned bounding box. CMIP5, CORDEX and CCAM projections use RCP8.5, and CMIP6 and MIROC6 SMILE projections use SSP5-8.5. (d) Historical and projected trends in rainfall over the Cape Town region and in the SAM index. Observations and gridded data processed as in (c). Trends calculated as Theil-Sen trend with block-bootstrap confidence interval estimate. Markers show median trend, bars 95% confidence interval. GCMs in each CMIP group were ordered according to the magnitude of trend in rainfall, and the same order is maintained in panels showing trends in the SAM. Further details on data sources and processing are available in the chapter data table (Table 10.SM.11).   "
+                ]
+            }
+        },
+        "10.19": {
+            "title": {
+                "en_EN": " Changes in the Indian summer monsoon in the historical and future periods."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Observational uncertainty demonstrated by a snapshot of rain-gauge density (% of 0.05\u00b0-subgrid boxes containing at    least one gauge) in the APHRO-MA 0.5\u00b0 daily precipitation dataset for June to September 1956. (b) Multi-model ensemble (MME)-mean bias of 34 CMIP6 models for June to September precipitation (mm day-1) compared to CRU TS observations for the 1985\u20122010 period. (c) Maps of rainfall trends (mm day-1 per decade) in CRU TS observations (1950\u20122000), the CMIP6 MME-mean of SSP5-8.5 future projections for 2015\u20122100 (34 models), the CMIP6 hist-GHG and hist-aer runs, both measured over 1950 to 2000. (d) Low-pass filtered time series of June to September precipitation anomalies (%, relative to 1995\u20122014 baseline) averaged over the central India box shown in panel (b). The averaging region (20\u00b0N\u201228\u00b0N, 76\u00b0E\u201287\u00b0E) follows other works (Bollasina et al., 2011; Jin and Wang, 2017; Huang et al., 2020b). Time series are shown for CRU TS (brown), GPCC (dark blue), REGEN (green), APHRO-MA (light brown) observational estimates and the IITM all-India rainfall product (light blue) in comparison with the CMIP6 mean of 13 models for the all-forcings historical (pink), the aerosol-only (hist-aer, grey) and greenhouse gas-only (hist-GHG, blue). Dark red and blue lines show low-pass filtered MME-mean change in the CMIP6 historical\/SSP5-8.5 (34 models) and CMIP5 historical\/RCP8.5 (41 models) experiments for future projections to 2100. The filter is the same as that used in Figure 10.11(d). To the right, box-and-whisker plots show the 2081\u20122100 change averaged over the CMIP5 (blue) and CMIP6 (dark red) ensembles. Note that some models exceed the plotting range (CMIP5: GISS-E2-R-CC, GISS-E2-R & IPSL-CM5B-LRl and CMIP6: CanESM5-CanOE, CanESM5 & GISS-E2-1-G). (e) Precipitation linear trend (% per decade) over central India for historical 1950\u20122000 (left) and future 2015\u20122100 (right) periods in Indian monsoon rainfall in observed estimates (black crosses), the CMIP5 historical-RCP8.5 simulations (blue), the CMIP6 ensemble (dark red) for historical all-forcings experiment and SSP5-8.5 future projection, the CMIP6 hist-GHG (light blue triangles), hist-aer (grey triangles) and historical all-forcings (same sample as for hist-aer and hist-GHG, pink circles). Ensemble means are also shown. Box-and-whisker plots show the trend distribution of the three coupled and the d4PDF atmosphere-only (for (f) Example spread of trends (mm day-1 per decade) out to the near term (2016\u20122045) in RCP8.5 SMILE experiments of the MPI-ESM model, showing the difference between the three driest and three wettest trends among ensemble members over central India. All trends are estimated using ordinary least-squares regression. Further details on data sources and processing are available in the chapter data table (Table 10.SM.11).   "
+                ]
+            }
+        },
+        "10.20": {
+            "title": {
+                "en_EN": " Aspects of Mediterranean summer warming."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Mechanisms and feedbacks involved in enhanced Mediterranean summer warming. (b) Locations of observing stations in E-OBS and (Donat et al., 2014). (c) Differences in temperature observational data sets (NOAA Global Temp, Berkeley Earth, CRUTEM4 and GISTEMP) with respect to E-OBS for the land points between the Mediterranean Sea and 46\u00b0N and west of 30\u00b0E. (d) Observed summer (June to August) surface air temperature linear trends (\u00b0C decade-1) over the 1960\u20122014 period from Berkeley Earth. (e) Time series of area averaged Mediterranean (25\u00b0N\u201250\u00b0N, 10\u00b0W\u201240\u00b0E) land point summer temperature anomalies (\u00b0C, baseline 1995\u20132014). Dark blue, brown and turquoise lines show low-pass filtered temperature of Berkeley Earth, CRU TS and HadCRUT5, respectively. Orange, light blue and green lines show low-pass filtered ensemble means of HighResMIP (4 members), CORDEX EUR-44 (20 members) and CORDEX EUR-11 (37 members). Blue and red lines and shadings show low-pass filtered ensemble means and standard deviations of CMIP5 (41 members) and CMIP6 (36 members). The filter is the same as the one used in Figure 10.10. (f) Distribution of 1960\u20122014 Mediterranean summer temperature linear trends (\u00b0C decade-1) for observations (black crosses), CORDEX EUR-11 (green circles), CORDEX EUR-44 (light blue circles), HighResMIP (orange circles), CMIP6 (red circles), CMIP5 (blue circles) and selected SMILEs (grey box-and-whisker plots, MIROC6, CSIRO-Mk3-6-0, MPI-ESM and d4PDF). Ensemble means are also shown. CMIP6 models showing a very high ECS (Box. 4.1) have been marked with a black cross. All trends are estimated using ordinary least-squares and box-and-whisker plots follow the methodology used in Figure 10.6. (g) Ensemble mean differences with respect to the Berkeley Earth linear trend for 1960\u20122014 (\u00b0C decade-1) of CMIP5, CMIP6, HighResMIP, CORDEX EUR-44 and CORDEX EUR-11. Further details on data sources and processing are available in the chapter data table (Table 10.SM.11).  "
+                ]
+            }
+        },
+        "10.21": {
+            "title": {
+                "en_EN": " Projected Mediterranean summer warming."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Time series of area averaged Mediterranean (25\u00b0N\u201250\u00b0N, 10\u00b0W\u201240\u00b0E) land point summer surface air temperature anomalies (\u00b0C, baseline period is 1995\u20132014). Orange, light blue and green lines show low-pass filtered ensemble means of HighResMIP (highres-future, 4 members), CORDEX EUR-44 (RCP8.5, 20 members) and CORDEX EUR-11 (RCP8.5, 37 members). Blue and dark red lines and shadings show low-pass filtered ensemble means and standard deviations of CMIP5 (RCP8.5, 41 members) and CMIP6 (SSP5-8.5, 36 members). The filter is the same as the one used in Figure 10.10. The box-and-whisker plots show long term (until 2081-2100) temperature changes of different CMIP6 scenarios with respect to the baseline period (SSP1-2.6 in dark blue, SSP2-4.5 in yellow, SSP3-7.0 in red, SSP5-8.5 in dark red). (b) Distribution of 2015\u20122050 Mediterranean summer temperature linear trends (\u00b0C decade-1) for CORDEX EUR-11 (RCP8.5, green circles), CORDEX EUR-44 (RCP8.5, light blue circles), HighResMIP (highres-future, orange circles), CMIP6 (SSP5-8.5, dark red circles), CMIP5 (RCP8.5, blue circles) and selected SMILEs (grey box-and-whisker plots, MIROC6, CSIRO-Mk3-6-0 and MPI-ESM). Ensemble means are also shown. CMIP6 models showing a very high ECS (Box 4.1) have been marked with a black cross. All trends are estimated using ordinary least-squares and box-and-whisker plots follow the methodology used in Figure 10.6. (c) Projections of ensemble mean 2015\u20122050 linear trends (\u00b0C decade-1) of CMIP5 (RCP8.5), CORDEX EUR-44 (RCP8.5), CORDEX EUR-11 (RCP8.5), CMIP6 (SSP5-8.5) and HighResMIP (highres-future). All trends are estimated using ordinary least-squares. (d) Projected Mediterranean summer warming in comparison to global annual mean warming of CMIP5 (dashed lines, RCP2.6 in dark blue, RCP4.5 in light blue, RCP6.0 in orange and RCP8.5 in red) and CMIP6 (solid lines, SSP1-2.6 in dark blue, SSP2-4.5 in yellow, SSP3-7.0 in red and SSP5-8.5 in dark red) ensemble means. Further details on data sources and processing are available in the chapter data table (Table 10.SM.11)."
+                ]
+            }
+        },
         "2.X": {
             "title": {
                 "en_EN":""
