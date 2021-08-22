@@ -6548,6 +6548,393 @@
                 ]
             }
         },
+        "ATLAS.1": {
+            "title": {
+                "en_EN": "The main components of the Atlas chapter with, upper right, a screenshot from the online Interactive Atlas."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": []
+            }
+        },
+        "ATLAS.2": {
+            "title": {
+                "en_EN": "WGI reference regions used in the (a) AR5 and (b) AR6 reports (Iturbide et al., 2020)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The latter includes both land and ocean regions and it is used as the standard for the regional analysis of atmospheric variables in the Atlas chapter and the Interactive Atlas. The definition of the regions and companion notebooks and scripts are available at the Atlas repository (Iturbide et al., 2021)."
+                ]
+            }
+        },
+        "ATLAS.3": {
+            "title": {
+                "en_EN": "Number of land grid boxes (blue numbers) for the AR6 WGI reference regions for the reference grids representative of (a) CMIP6 and (b) CMIP5, at horizontal resolutions of 1° and 2°respectively."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Colour shading indicate regions with fewer than 250 grid boxes indicating the number of grid boxes (darkest shading if fewer than 20 grid boxes). The polygons show the AR6 WGI reference regions of Figure Atlas.2."
+                ]
+            }
+        },
+        "ATLAS.4": {
+            "title": {
+                "en_EN": "   Typological and socio-economic regions used in the Interactive Atlas."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Eleven ocean regions defined by their biological activity used for the regional analysis of oceanic variables; (b) ocean regions for small islands, including the Caribbean (CAR) and the North Indian Ocean (ARS and BOB); (c) land monsoon regions of North America, South America, Africa, Asia and Australasia; (d) major river basins; (e) mountain regions; (f) WGII continental regions. These regions can be used alternatively to the reference regions for the regional analysis of climatic variables in the Interactive repository (Iturbide et al., 2021).  "
+                ]
+            }
+        },
+        "ATLAS.5": {
+            "title": {
+                "en_EN": ""
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Number of stations per 0.5\u00b0 x 0.5\u00b0 grid cell reported over the periods of 1901\u20131910, 1971\u20131980, and 2001\u20132010 (rows 1\u20133) and global total number of stations reported over the entire globe (bottom row) for precipitation in the CRU TS4.0 dataset (left) and the HadSST4 dataset (right). Further details on data sources and processing are available in the chapter data table (Table Atlas.SM.15).  "
+                ]
+            }
+        },
+        "ATLAS.6": {
+            "title": {
+                "en_EN": "   CORDEX domains showing the curvilinear domain boundaries resulting from the original rotated domains."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The topography corresponding to the standard CORDEX 0.44\u00b0 resolution is shown to illustrate the orographic gradients over the different regions.   "
+                ]
+            }
+        },
+        "ATLAS.7": {
+            "title": {
+                "en_EN": "   Evaluation of annual and seasonal air temperature and precipitation for the six North America subregions NWN, NEN, WNA, CNA, ENA and NCA (land only), for CORDEX-NAM RCM simulations driven by reanalysis or historical GCMs."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Seasons are June-July-August (JJA) and December-January-February (DJF). Rows represent subregions and columns correspond to the models. Magenta text indicates the driving historical CMIP5 GCMs (including ERA-Interim in first set of slightly separated columns) and the black text to the right of the magenta text represents the driven RCMs. The colour matrices show the mean spatial biases; all biases have been computed for the period 1985\u20132005 relative to the observational reference (E5W5, see Section Atlas.1.4.2). Further details on data sources and processing are available in the chapter data table (Table Atlas.SM.15).  "
+                ]
+            }
+        },
+        "ATLAS.8": {
+            "title": {
+                "en_EN": "   Screenshots from the Interactive Atlas."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) The main interface includes a global map and controls to define a particular choice of dataset, variable, period (reference and baseline) and season (in this example, annual temperature change from CMIP6 for SSP3-7.0 for the long-term 2081\u20132100 period relative to 1995\u20132104). (b\u2013e) Various visuals and summary tables for the regionally averaged information for the selected reference regions.   "
+                ]
+            }
+        },
+        "ATLAS.9": {
+            "title": {
+                "en_EN": "   Analysing robustness and uncertainty in climate change signals across spatial scales using the Interactive Atlas."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The left panel shows projected annual relative changes for maximum 5-day precipitation from CMIP6 at 3\u00b0C of global warming level relative to the 1850\u20131900 baseline, through a map of the ensemble mean changes (panel top) and information on the regional aggregated signal over the South Asia reference region as time series (panel bottom). This shows non-robust changes (diagonal lines) at the grid-box level (due to the large local variability), but a robust aggregated signal over the region. The right panel shows projected surface wind speed changes from CMIP6 models for 2041\u20132060 relative to a 1995\u20132014 baseline under the SSP5-8.5 scenario, again with the ensemble mean changes in the map (panel top) and regionally aggregated time series over Central Africa for each model (panel bottom). This shows conflicting changes (crossed lines) at the grid-box level due to signals of opposite sign in the individual models displayed in the time series.  "
+                ]
+            }
+        },
+        "ATLAS.10": {
+            "title": {
+                "en_EN": "  Schematic representation of the Interactive Atlas workflow, from database description, subsetting and data transformation to final graphical product generation (maps and plots)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Product-dependent workflow steps are depicted with dashed borders. METACLIP specifically considers the different intermediate steps consisting of various data transformations, bias adjustment, climate index calculation and graphical product generation, providing a semantic description of each stage and the different elements involved. The different controlled vocabularies describing each stage are indicated by the colours, with gradients indicating several vocabularies involved, usually meaning that specific individual instances are defined in \u2018ipcc_terms\u2019 extending generic classes of \u2018datasource\u2019. These two vocabularies, dealing with the primary data sources have specific annotation properties linking their own features with the CMIP5, CMIP6 and CORDEX Data Reference Syntax, taking as reference their respective controlled vocabularies. All products generated by the Interactive source code under version control.  "
+                ]
+            }
+        },
+        "ATLAS.11": {
+            "title": {
+                "en_EN": "  Observed linear trends of signals in annual mean surface air temperature (a, b) and precipitation (e, f) in the Berkeley Earth, CRU TS and GPCC datasets (see Section Atlas.1 for dataset details). "
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Trends are calculated for the common 1960\u20132015 period and are expressed as \u00baC per decade for temperature and relative change (with respect to the climatological mean) per decade for precipitation. Crosses indicate regions where trends are not significant (at a 0.1 significance level) and the black lines mark out the reference regions defined in Section Atlas.1. Panels c and d display the period in which the signals of temperature change in data aggregated over the reference regions emerged from the noise of annual variability in the respective aggregated data. Emergence time is calculated for (c) Berkeley Earth (as used in (a)) and CRUTEM5. Regions in the CRUTEM5 map are shaded grey when data are available over less than 50% of the land area of the region. Further details on data sources and processing are available in the chapter data table (Table Atlas.SM.15).  "
+                ]
+            }
+        },
+        "ATLAS.12": {
+            "title": {
+                "en_EN": "  Global temperature changes projected for the mid-century under SSP1-2.6 (left, top) and SSP3-7.0 (left, bottom) compared with a 2\u00b0C global warming level (right, top) and the end of the century under SSP3-7.0 (right, bottom) from the CMIP6 ensemble. "
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Note that the future period warmings are calculated against a baseline period of 1995\u20132014 whereas the global mean warming level is defined with respect to the baseline period of 1851\u20131900 used to define global warming levels. The other three SSP-based maps would show greater warmings with respect to this earlier baseline. Further details on data sources and processing are available in the chapter data table (Table  "
+                ]
+            }
+        },
+        "ATLAS.13": {
+            "title": {
+                "en_EN": "  Changes in annual mean surface air temperature and precipitation averaged over the global (left) and global land areas (right) in each horizontal pair of panels."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The top left two panels show the median (dots) and 10th\u201390th percentile range across each model ensemble for temperature change, for two datasets (CMIP5 and CMIP6) and two scenarios (SSP1-2.6\/RCP2.6 and SSP5-8.5\/RCP8.5). The first twelve bars represent the projected changes over three time periods (near-term 2021\u20132040, mid-term 2041\u20132060 and long-term 2081\u20132100) compared to the baseline period of 1995\u20132014 and the remaining four bars represent the additional warming projected relative to the same baseline to reach four global warming levels (GWL; 1.5\u00b0C, 2\u00b0C, 3\u00b0C and 4\u00b0C). The top right two panels show scatter diagrams of temperature against precipitation changes, displaying the median (dots) and 10th\u201390th percentile ranges for the same four GWLs, again representing the additional changes for the global temperature to reach the respective GWL from the baseline period of 1995\u20132014. In all panels the dark (light) grey lines or dots represent the CMIP6 (CMIP5) simulated changes in temperature and precipitation between the 1850\u20131900 baseline used for calculating GWLs and the recent past baseline of 1995\u20132014 used to calculate the changes in the bar diagrams and scatter-plots. Changes are absolute for temperature and relative for precipitation. The script used to generate this figure is available online (Iturbide et al., 2021) and similar results can be generated in the Interactive Atlas for flexibly defined seasonal periods. Further details on data sources and processing are available in the chapter data table (Table Atlas.SM.15).  "
+                ]
+            }
+        },
+        "ATLAS.14": {
+            "title": {
+                "en_EN": "  Influence of major modes of variability (see Annex IV) on regional extreme events relevant to assessing multi-hazard resilience."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Ribbon colours define the driver from which they originate and their width is proportional to the correlation. Crossed lines represent where there is conflicting evidence for a correlation or where the driver is not directly related to the hazard and dots represent drivers that have both a positive and negative correlation with the hazard. Figure is copied from Steptoe et al. (2018) \/ CCBY4.0.  "
+                ]
+            }
+        },
+        "ATLAS.15": {
+            "title": {
+                "en_EN": "  Projected changes in sea surface temperature (top), sea level rise (bottom) for 2081\u20132100 under the SSP1-2.6 (left) and SSP5-8.5 (right) emission scenarios compared to a 1995\u20132014 baseline period from the CMIP6 ensemble. "
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "For sea surface temperature, diagonal lines indicate regions where 80% of the models do not agree on the sign of the projected changes. Further details on data sources and processing are available in the chapter data table (Table Atlas.SM.15).  "
+                ]
+            }
+        },
+        "ATLAS.16": {
+            "title": {
+                "en_EN": "  Regional mean changes in annual mean surface air temperature and precipitation relative to the 1995\u20132014 baseline for the reference regions in Africa (warming since the 1850\u20131900 pre-industrial baseline is also provided as an offset)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Bar plots in the left panel of each region triplet show the median (dots) and 10th\u201390th percentile range (bars) across each model ensemble for annual mean temperature changes for four datasets (CMIP5 in intermediate colours; subset of CMIP5 used to drive CORDEX in light colours; CORDEX overlying the CMIP5 subset with dashed bars; and CMIP6 in solid colours); the first six groups of bars represent the regional warming over two time periods (near-term 2021\u20132040 and long-term 2081\u20132100) for three scenarios (SSP1-2.6\/RCP2.6, SSP2-4.5\/RCP4.5, and SSP5-8.5\/RCP8.5), and the remaining bars correspond to four global warming levels (GWL: 1.5\u00b0C, 2\u00b0C, 3\u00b0C, and 4\u00b0C). The scatter diagrams of temperature against precipitation changes display the median (dots) and 10th\u201390th percentile ranges for the above four warming levels for December-January-February-March (DJFM; middle panel) and June-July-August-September (JJAS; right panel), respectively; for the CMIP5 subset only the percentile range of temperature is shown, and only for 3\u00b0C and 4\u00b0C GWLs. Changes are absolute for temperature (in \u00b0C) and relative (as %) for precipitation. See Section Atlas.1.3 for more details on reference regions (Iturbide et al., 2020) and Section Atlas.1.4 for details on model data selection and processing. The script used to generate this figure is available online (Iturbide et al., 2021) and similar results can be generated in the Interactive in the chapter data table (Table Atlas.SM.15).  "
+                ]
+            }
+        },
+        "ATLAS.17": {
+            "title": {
+                "en_EN": "  Regional mean changes in annual mean surface air temperature and precipitation relative to the 1995\u20132014 baseline for the reference regions in Asia (warming since the 1850\u20131900 pre-industrial baseline is also provided as an offset)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Bar plots in the left panel of each region triplet show the median (dots) and 10th\u201390th percentile range (bars) across each model ensemble for annual mean temperature changes for four datasets (CMIP5 in intermediate colours; subset of CMIP5 used to drive CORDEX in light colours; CORDEX overlying the CMIP5 subset with dashed bars; and CMIP6 in solid colours); the first six groups of bars represent the regional warming over two time periods (near-term 2021\u20132040 and long-term 2081\u20132100) for three scenarios (SSP1-2.6\/RCP2.6, SSP2-4.5\/RCP4.5, and SSP5-8.5\/RCP8.5), and the remaining bars correspond to four global warming levels (GWL: 1.5\u00b0C, 2\u00b0C, 3\u00b0C, and 4\u00b0C). The scatter diagrams of temperature against precipitation changes display the median (dots) and 10th\u201390th percentile ranges for the above four warming levels for December-January-February (DJF; middle panel) and June-July-August (JJA; right panel), respectively; for the CMIP5 subset only the percentile range of temperature is shown, and only for 3\u00b0C and 4\u00b0C GWLs. Changes are absolute for temperature (in \u00b0C) and relative (as %) for precipitation. See Section Atlas.1.3 for more details on reference regions (Iturbide et al., 2020) and Section Atlas.1.4 for details on model data selection and processing. Further details on data sources and processing are available in the chapter data table (Table Atlas.SM.15).  "
+                ]
+            }
+        },
+        "ATLAS.18": {
+            "title": {
+                "en_EN": "  Linear trends for the 1980\u20132015 period based on station data from the World Data Centre of the Russian Institute for Hydrometeorological Information (RIHMI-WDC) (Bulygina et al., 2014)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Snow season duration from 1 July to 31 December (days per decade); (b) snow season duration from 1 January to 30 June (days per decade); (c) maximum annual height of snow cover (mm per decade). Trends have been calculated using ordinary least squares regression and the crosses indicate nonsignificant trend values (at the 0.1 level) following the method of Santer et al. (2008) to account for serial correlation. Further details on data sources and processing are available in the chapter data table (Table Atlas.SM.15).  "
+                ]
+            }
+        },
+        "ATLAS.19": {
+            "title": {
+                "en_EN": "  The RCM projected changes in mean precipitation between the early (2011\u20132040), mid (2041\u20132070) and late (2071\u20132099) 21st century and the historical period 1976\u20132005."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Data are obtained from the CORDEX-SEA downscaling simulations. Diagonal lines indicate areas with low model agreement (less than 80%). Adapted from Tangang et al. (2020).  "
+                ]
+            }
+        },
+        "ATLAS.20": {
+            "title": {
+                "en_EN": "  Observed trends in mean annual temperature (a\u2013b) and summer (DJF) and inter (JJA) precipitation (c\u2013d) for Australia and New Zealand from high-quality regional datasets."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Time series show anomalies from 1961\u20131990 average and 10-year running mean; maps show annual linear trends for 1960\u20132019; rainfall trends are shown in % per decade, crosses show areas and stations with a lack of significant trend and regions of seasonally dry conditions (<0.25 mm day\u20131) are masked and outlined in red. Datasets are Australian Climate Observation Reference Network \u2013 Surface Air Temperature version 2.1 (ACORN-SATv2.1) for Australian temperature, the Australian Gridded Climate Data (AGCD) for Australian rainfall (Evans et al., 2020a), and the 30-station high-quality network for New Zealand temperature and rainfall. Further details on data sources and processing are available in the chapter data table (Table Atlas.SM.15).  "
+                ]
+            }
+        },
+        "ATLAS.21": {
+            "title": {
+                "en_EN": "  Regional mean changes in annual mean surface air temperature and precipitation relative to the 1995\u20132014 baseline for the reference regions in Australasia (warming since the 1850\u20131900 pre-industrial baseline is also provided as an offset)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Bar plots in the left panel of each region triplet show the median (dots) and 10th\u201390th percentile range (bars) across each model ensemble for annual mean temperature changes for four datasets (CMIP5 in intermediate colours; subset of CMIP5 used to drive CORDEX in light colours; CORDEX overlying the CMIP5 subset with dashed bars; and CMIP6 in solid colours); the first six groups of bars represent the regional warming over two time periods (near-term 2021\u20132040 and long-term 2081\u20132100) for three scenarios (SSP1-2.6\/RCP2.6, SSP2-4.5\/RCP4.5, and SSP5-8.5\/RCP8.5), and the remaining bars correspond to four global warming levels (GWL: 1.5\u00b0C, 2\u00b0C, 3\u00b0C, and 4\u00b0C). The scatter diagrams of temperature against precipitation changes display the median (dots) and 10th\u201390th percentile ranges for the above four warming levels for December-January-February (DJF; middle panel) and June-July-August (JJA; right panel), respectively; for the CMIP5 subset only the percentile range of temperature is shown, and only for 3\u00b0C and 4\u00b0C GWLs. Changes are absolute for temperature (in \u00b0C) and relative (as %) for precipitation. See Section Atlas.1.3 for more details on reference regions (Iturbide et al., 2020) and Section Atlas.1.4 for details on model data selection and processing. The script used to generate this figure is available online (Iturbide et al., 2021) and similar results can be generated in the Interactive available in the chapter data table (Table Atlas.SM.15).  "
+                ]
+            }
+        },
+        "ATLAS.22": {
+            "title": {
+                "en_EN": "  Regional mean changes in annual mean surface air temperature and precipitation relative to the 1995\u20132014 baseline for the reference regions in Central America, the Caribbean and South America (warming since the 1850\u20131900 pre-industrial baseline is also provided as an offset)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Bar plots in the left panel of each region triplet show the median (dots) and 10th\u201390th percentile range (bars) across each model ensemble for annual mean temperature changes for four datasets (CMIP5 in intermediate colours; subset of CMIP5 used to drive CORDEX in light colours; CORDEX overlying the CMIP5 subset with dashed bars; and CMIP6 in solid colours); the first six groups of bars represent the regional warming over two time periods (near-term 2021\u20132040 and long-term 2081\u20132100) for three scenarios (SSP1-2.6\/RCP2.6, SSP2-4.5\/RCP4.5, and SSP5-8.5\/RCP8.5), and the remaining bars correspond to four global warming levels (GWL: 1.5\u00b0C, 2\u00b0C, 3\u00b0C, and 4\u00b0C). The scatter diagrams of temperature against precipitation changes display the median (dots) and 10th\u201390th percentile ranges for the above four warming levels for December-January-February (DJF; middle panel) and June-July-August (JJA; right panel), respectively; for the CMIP5 subset only the percentile range of temperature is shown, and only for 3\u00b0C and 4\u00b0C GWLs. Changes are absolute for temperature (in \u00b0C) and relative (as %) for precipitation. See Section Atlas.1.3 for more details on reference regions (Iturbide et al., 2020) and Section Atlas.1.4 for details on model data selection and processing. The script used to generate this figure is available online (Iturbide et al., 2021) and similar results can be generated in the Interactive Atlas for flexibly defined seasonal periods. Further details on data sources and processing are available in the chapter data table (Table Atlas.SM.15).  "
+                ]
+            }
+        },
+        "ATLAS.23": {
+            "title": {
+                "en_EN": "  (a) Mean 1980\u20132015 trend of annual mean surface air temperature (\u00b0C per decade) from E-OBS (Cornes et al., 2018). "
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Data for non-European countries in the MED area are masked out. (b) Time series of mean annual temperature anomaly relative to the 1980\u20132015 period (shown with grey shading) aggregated for the land area in each of the four European subregions, from E-OBS, CRU, Berkeley and ERA5 (see Section Atlas.1.4.1 for description of global datasets). Mean trends for 1901\u20132015, 1961\u20132015 and 1980\u20132015 are shown for each data set in corresponding colours in the same units as panel (a) (see legend in upper panel). (c) As panel (a) for annual mean precipitation (mm day\u20131 per decade). (d) as panel (b) for annual mean precipitation, and data sets E-OBS, CRU, GPCC and GPCP. Note that E-OBS data are not shown in panels b and d for region EEU. For the MED region data are aggregated over the European countries alone. Trends have been calculated using ordinary least squares regression and the crosses indicate non-significant trend values (at the 0.1 level) following the method of Santer et al. (2008) to account for serial correlation. Further details on data sources and processing are available in the chapter data table (Table Atlas.SM.15).  "
+                ]
+            }
+        },
+        "ATLAS.24": {
+            "title": {
+                "en_EN": "  Regional mean changes in annual mean surface air temperature and precipitation relative to the 1995\u20132014 baseline for the reference regions in Europe (warming since the 1850\u20131900 pre-industrial baseline is also provided as an offset)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Bar plots in the left panel of each region triplet show the median (dots) and 10th\u201390th percentile range (bars) across each model ensemble for annual mean temperature changes for four datasets (CMIP5 in intermediate colours; subset of CMIP5 used to drive CORDEX in light colours; CORDEX overlying the CMIP5 subset with dashed bars; and CMIP6 in solid colours); the first six groups of bars represent the regional warming over two time periods (near-term 2021\u20132040 and long-term 2081\u20132100) for three scenarios (SSP1-2.6\/RCP2.6, SSP2-4.5\/RCP4.5, and SSP5-8.5\/RCP8.5), and the remaining bars correspond to four global warming levels (GWL: 1.5\u00b0C, 2\u00b0C, 3\u00b0C, and 4\u00b0C). The scatter diagrams of temperature against precipitation changes display the median (dots) and 10th\u201390th percentile ranges for the above four warming levels for December-January-February (DJF; middle panel) and June-July-August (JJA; right panel), respectively; for the CMIP5 subset only the percentile range of temperature is shown, and only for 3\u00b0C and 4\u00b0C GWLs. Changes are absolute for temperature (in \u00b0C) and relative (as %) for precipitation. See Section Atlas.1.3 for more details on reference regions (Iturbide et al., 2020) and Section Atlas.1.4 for details on model data selection and processing. The script used to generate this figure is available online (Iturbide et al., 2021) and similar results can be generated in the Interactive available in the chapter data table (Table Atlas.SM.15).  "
+                ]
+            }
+        },
+        "ATLAS.25": {
+            "title": {
+                "en_EN": "  Grid-box trends (mm yr\u20131) in annual maximum snow depth for cold season periods of 1960\/1961 to 2014\/2015."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (Left) Numbers indicate number of stations available in that grid box. (Right) Boxes with \u2018x\u2019 indicate non-significant trends (at the p < 0.05 level of significance) (Kunkel et al., 2016).   "
+                ]
+            }
+        },
+        "ATLAS.26": {
+            "title": {
+                "en_EN": "  Regional mean changes in annual mean surface air temperature and precipitation relative to the 1995\u20132014 baseline for the reference regions in North America (warming since the 1850\u20131900 pre-industrial baseline is also provided as an offset)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Bar plots in the left panel of each region triplet show the median (dots) and 10th\u201390th percentile range (bars) across each model ensemble for annual mean temperature changes for four datasets (CMIP5 in intermediate colours; subset of CMIP5 used to drive CORDEX in light colours; CORDEX overlying the CMIP5 subset with dashed bars; and CMIP6 in solid colours); the first six groups of bars represent the regional warming over two time periods (near-term 2021\u20132040 and long-term 2081\u20132100) for three scenarios (SSP1-2.6\/RCP2.6, SSP2-4.5\/RCP4.5, and SSP5-8.5\/RCP8.5), and the remaining bars correspond to four global warming levels (GWL: 1.5\u00b0C, 2\u00b0C, 3\u00b0C, and 4\u00b0C). The scatter diagrams of temperature against precipitation changes display the median (dots) and 10th\u201390th percentile ranges for the above four warming levels for December-January-February (DJF; middle panel) and June-July-August (JJA; right panel), respectively; for the CMIP5 subset only the percentile range of temperature is shown, and only for 3\u00b0C and 4\u00b0C GWLs. Changes are absolute for temperature (in \u00b0C) and relative (as %) for precipitation. See Section Atlas.1.3 for more details on reference regions (Iturbide et al., 2020) and Section Atlas.1.4 for details on model data selection and processing. The script used to generate this figure is available online (Iturbide et al., 2021) and similar results can be generated in the Interactive available in the chapter data table (Table Atlas.SM.15).  "
+                ]
+            }
+        },
+        "ATLAS.27": {
+            "title": {
+                "en_EN": "  Changes (2070\u20132099 relative to 1970\u20131999) in the annual mean surface air temperature by three GCMs (GFDL ESM2M, MPI ESM-LR, HadGEM2-ES) and two RCMs (WRF and RegCM4) nested in the GCMs, for the RCP8.5 scenario (after Bukovsky and Mearns, 2020)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                ]
+            }
+        },
+        "ATLAS.28": {
+            "title": {
+                "en_EN": "  Regional mean changes in annual mean surface air temperature, precipitation and sea level rise relative to the 1995\u20132014 baseline for the reference regions in Small Islands (warming since the 1850\u20131900 pre-industrial baseline is also provided as an offset)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Bar plots in the left panel of each region triplet show the median (dots) and 10th\u201390th percentile range (bars) across each model ensemble for annual mean temperature changes for four datasets (CMIP5 in intermediate colours; subset of CMIP5 used to drive CORDEX in light colours; CORDEX overlying the CMIP5 subset with dashed bars; and CMIP6 in solid colours); the first six groups of bars represent the regional warming over two time periods (near-term 2021\u20132040 and long-term 2081\u20132100) for three scenarios (SSP1-2.6\/RCP2.6, SSP2-4.5\/RCP4.5, and SSP5-8.5\/RCP8.5), and the remaining bars correspond to four global warming levels (GWL: 1.5\u00b0C, 2\u00b0C, 3\u00b0C, and 4\u00b0C). Bar plots in the right panel show the median (dots) and 5th\u201395th percentile range (bars) sea level rise from the CMIP6 ensemble (see Chapter 9 for details) for the same time periods and scenarios. The scatter diagrams of temperature against precipitation changes display the median (dots) and 10th\u201390th percentile ranges for the above four warming levels for December-January-February (DJF; middle panel) and June-July-August (JJA; right panel), respectively; for the CMIP5 subset only the percentile range of temperature is shown, and only for 3\u00b0C and 4\u00b0C GWLs. Changes are absolute for temperature (in \u00b0C) and relative (as %) for precipitation. See Section Atlas.1.3 for more details on reference regions (Iturbide et al., 2020) and Section Atlas.1.4 for details on model data selection and processing. The script used to generate this figure is available online (Iturbide et al., 2021) and similar results can be generated in the Interactive available in the chapter data table (Table Atlas.SM.15).  "
+                ]
+            }
+        },
+        "ATLAS.29": {
+            "title": {
+                "en_EN": "  Regional mean changes in annual mean surface air temperature and precipitation relative to the 1995\u20132014 baseline for the reference regions in Arctic and Antarctica (warming since the 1850\u20131900 pre-industrial baseline is also provided as an offset)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Bar plots in the left panel of each region triplet show the median (dots) and 10th\u201390th percentile range (bars) across each model ensemble for annual mean temperature changes for four datasets (CMIP5 in intermediate colours; subset of CMIP5 used to drive CORDEX in light colours; CORDEX overlying the CMIP5 subset with dashed bars; and CMIP6 in solid colours); the first six groups of bars represent the regional warming over two time periods (near-term 2021\u20132040 and long-term 2081\u20132100) for three scenarios (SSP1-2.6\/RCP2.6, SSP2-4.5\/RCP4.5, and SSP5-8.5\/RCP8.5), and the remaining bars correspond to four global warming levels (GWL: 1.5\u00b0C, 2\u00b0C, 3\u00b0C, and 4\u00b0C). The scatter diagrams of temperature against precipitation changes display the median (dots) and 10th\u201390th percentile ranges for the above four warming levels for December-January-February (DJF; middle panel) and June-July-August (JJA; right panel), respectively; for the CMIP5 subset only the percentile range of temperature is shown, and only for 3\u00b0C and 4\u00b0C GWLs. Changes are absolute for temperature (in \u00b0C) and relative (as %) for precipitation. See Section Atlas.1.3 for more details on reference regions (Iturbide et al., 2020) and Section Atlas.1.4 for details on model data selection and processing. The script used to generate this figure is available online (Iturbide et al., 2021) and similar results can be generated in the Interactive available in the chapter data table (Table Atlas.SM.15).  "
+                ]
+            }
+        },
+        "ATLAS.30": {
+            "title": {
+                "en_EN": "  (Upper panels) Time series of annual surface mass balance (SMB) rates (in Gt a\u20131) for Greenland ice sheet and its regions (shown in the inset map) for the periods 1972\u20132018 (Mouginot et al., 2019) and 1980\u20132012 (Fettweis et al., 2020) using 13 different models."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (Lower panels) Time series of annual SMB rates (in Gt a\u20131) for the grounded Antarctic ice sheet (excluding ice shelves) and its regions (shown in the inset map) for the periods 1979\u20132019 (Rignot et al., 2019) and 1980\u20132016 (Mottram et al., 2021) using five Polar-CORDEX regional climate models. The Antarctic inset map also shows the location of the stations discussed in section Atlas.11.1.2 where observations are available for at least 50 years. Colors indicate near surface air temperature trends for 1957-2016 (circles) and 1979-2016 (diamonds) statistically significant at 90% (Jones et al., 2019; Turner et al., 2020). Stations with an asterisk (*) are where significance estimates disagree between the two publications. Further details on data sources and processing are available in the chapter data table (Table Atlas.SM.15).  "
+                ]
+            }
+        },
         "2.X": {
             "title": {
                 "en_EN":""
