@@ -3,6 +3,51 @@ let lang = (document.location.hostname === 'comprendre-giec.fr') ? "fr_FR" : "en
 let userParams = {};
 
 const chapters_MD = ["1","2","3","4","5","6","7","8","9","10","11","12","Atlas"];
+const loadingText = /*html*/`<div class="center" style="margin-bottom:100px">
+<h2>Please wait, loading...</h2>
+<div class="preloader-wrapper big active">
+<div class="spinner-layer spinner-blue">
+<div class="circle-clipper left">
+  <div class="circle"></div>
+</div><div class="gap-patch">
+  <div class="circle"></div>
+</div><div class="circle-clipper right">
+  <div class="circle"></div>
+</div>
+</div>
+
+<div class="spinner-layer spinner-red">
+<div class="circle-clipper left">
+  <div class="circle"></div>
+</div><div class="gap-patch">
+  <div class="circle"></div>
+</div><div class="circle-clipper right">
+  <div class="circle"></div>
+</div>
+</div>
+
+<div class="spinner-layer spinner-yellow">
+<div class="circle-clipper left">
+  <div class="circle"></div>
+</div><div class="gap-patch">
+  <div class="circle"></div>
+</div><div class="circle-clipper right">
+  <div class="circle"></div>
+</div>
+</div>
+
+<div class="spinner-layer spinner-green">
+<div class="circle-clipper left">
+  <div class="circle"></div>
+</div><div class="gap-patch">
+  <div class="circle"></div>
+</div><div class="circle-clipper right">
+  <div class="circle"></div>
+</div>
+</div>
+</div>
+</div>
+`;
 
 function changeLang(lang)
 {
@@ -1219,7 +1264,10 @@ function loadMainPanel(chapter = 'TS', toRef = false)
         return;
     }
 
-    $('#main-panel-holder').html('');
+    /* preloader */
+    $('#main-panel-holder').html(loadingText);
+
+    /* loading content */
     $.get('pdf/chap'+chapter+'.md', function(md){
         let html = processText(marked(md));
         currentlyLoadedPanel = toRef;
