@@ -6444,6 +6444,84 @@
                 ]
             }
         },
+        "Box 11.1,Figure1": {
+            "title": {
+                "en_EN":""
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Multi-model (CMIP5) mean fractinal changes (in % per degree of warming) for (a) annual maximum precipitation (Rx1day), (b) changes in Rx1day due to the thermodynamic contribution and (c) changes in Rx1day due to the dynamic contribution estimated as the difference between the total changes and the thermodynamic contribution. Changes were derived from a linear regression for the period 1950–2100. Uncertainty is represented using the simple approach: no overlay indicates regions with high model agreement, where ≥80% of models (n=22) agree on sign of change; diagonal lines indicate regions with low model agreement, where <80% of models agree on sign of change. For more information on the simple approach, please refer to the Cross- Chapter Box Atlas 1. A detailed description of the estimation of dynamic and thermodynamic contributions is given in Pfahl et al. (2017). Adapted from (Pfahl et al., 2017), originally published in Nature Climate Change/ Springer Nature. Further details on data sources and processing are available in the chapter data table (Table 11.SM.9)."
+                ]
+            }
+        },
+        "Box 11.4,Figure1": {
+            "title": {
+                "en_EN":""
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Analysis of the percentage of land area affected by temperature extremes larger than two (orange) or three (blue) standard deviations in June-July-August (JJA) between 30°N and 80°N using a normalization. The more appropriate estimate is the corrected normalization. These panels show for both estimates a substantial increase in the overall land area affected by very high hot extremes since 1990 onward. Adapted from Sippel et al. (2015)"
+                ]
+            }
+        },
+        "Box 11.4,Figure2": {
+            "title": {
+                "en_EN":""
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Meteorological conditions in July 2018. The color shading shows the monthly mean near- surface air temperature anomaly with respect to 1981 to 2010. Contour lines indicate the geopotential height in m, highlighted are the isolines on 12'000 m and 12'300 m, which indicate the approximate positions of the polar-front jet and subtropical jet, respectively. The light blue- green ellipse shows the approximate extent of the strong precipitation event that occurred at the beginning of July in the region of Japan and Korea. All data is from the global ECMWF Reanalysis v5 (ERA5, Hersbach et al., 2020)."
+                ]
+            }
+        },
+        "Cross-Chapter Box 11.1,Figure1": {
+            "title": {
+                "en_EN":""
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Schematic representation of relationship between emission scenarios, global warming levels (GWLs), regional climate responses, and impacts. The illustration shows the implied uncertainty problem associated with differentiating between 1.5, 2°C, and other GWLs. Focusing on GWL raises questions associated with emissions pathways to get to these temperatures (scenarios), as well as questions associated with regional climate responses and the associated impacts at the corresponding GWL (the impacts question). Adapted from (James et al., 2017) and (Rogelj, 2013) under the terms of the Creative Commons Attribution license."
+                ]
+            }
+        },
+        "Cross-Chapter Box 11.1,Figure2": {
+            "title": {
+                "en_EN":""
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a-c) CMIP6 multi-model mean precipitation change at 2°C GWL (20-yr mean) in three different SSP scenarios relative to 1850-1900. All models reaching the corresponding GWL in the corresponding scenario are averaged. The number of models averaged across is shown at the top right of the panel. The maps for the other two SSP scenarios SSP1-1.9 (five models only) and SSP3-7.0 (not shown) are consistent. (d-f) Same as (a-c) but for annual mean temperature. (g) Annual mean temperature change at 2°C in CMIP6 models with high warming rate reaching the GWL in the corresponding scenario before the earliest year of the assessed very likely range (section 4.3.4) (h) Climate response at 2°C GWL across all SSP1-1.9, SSP2-2.6, SSP2-4.5. SSP3-7.0 and SSP5-8.5 in all other models not shown in (g). The good agreement of (g) and (h) demonstrate that the mean temperature response at 2°C is not sensitive to the rate of warming and thereby the GSAT warming of the respective models in 2081-2100. Uncertainty is represented using the advanced approach: No overlay indicates regions with robust signal, where ≥66% of models show change greater than variability threshold and ≥80% of all models agree on sign of change; diagonal lines indicate regions with no change or no robust signal, where <66% of models show a change greater than the variability threshold; crossed lines indicate regions with conflicting signal, where ≥66% of models show change greater than variability threshold and <80% of all models agree on sign of change. For more information on the advanced approach, please refer to the Cross-Chapter Box Atlas.1."
+                ]
+            }
+        },
+        "Cross-Chapter Box 11.1,Figure3": {
+            "title": {
+                "en_EN":""
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Illustration of the AR6 GWL sampling approach to derive the timing and the response at a given GWL for the case of CMIP6 data. For the mapping of scenarios/time slices into GWLs for CMIP6, please refer to Table 4.2. Respective numbers for the CMIP6 multi-model experiment are provided in the Chapter 11 Supplementary Material (11.SM.1). Note that the time frames used to derived the GWL time slices can also include different number of years (e.g. 30 years for some analyses). "
+                ]
+            }
+        },
         "2.X": {
             "title": {
                 "en_EN":""
@@ -11962,12 +12040,14 @@
             {
                 "ref":"Box 11.1",
                 "en_EN":"Thermodynamic and dynamic changes in extremes across scales",
-                "startPage":15
+                "startPage":15,
+                "hasFile": true
             },
             {
                 "ref":"Box 11.2",
                 "en_EN":"Low-likelihood high-impact changes in extremes",
-                "startPage":24
+                "startPage":24,
+                "hasFile": true
             },
             {
                 "ref":"11.2",
@@ -12000,12 +12080,14 @@
             {
                 "ref":"Box 11.3",
                 "en_EN":"Extremes in paleoclimate archives compared to instrumental records",
-                "startPage":28
+                "startPage":28,
+                "hasFile": true
             },
             {
                 "ref":"Cross-Chapter Box 11.1",
                 "en_EN":"Translating between regional information at global warming levels vs scenarios for end users",
-                "startPage":34
+                "startPage":34,
+                "hasFile": true
             },
             {
                 "ref":"11.3",
@@ -12424,7 +12506,8 @@
             {
                 "ref":"Box 11.4",
                 "en_EN":"Case-study: Global-scale concurrent climate anomalies at the example of the 2015-2016 extreme El Nino and the 2018 boreal spring/summer extremes",
-                "startPage":109
+                "startPage":109,
+                "hasFile": true
             },
             {
                 "ref": "11.9",
