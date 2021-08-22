@@ -1,0 +1,122 @@
+<p>Climate model emulators are simple physically-based models that are used to approximate large-scale 
+climate responses of complex Earth System Models (ESMs). Due to their low computational cost they can 
+populate or span wide uncertainty ranges that ESMs cannot. They need to be calibrated to do this and, once 
+calibrated, they can aid inter-ESM comparisons and act as ESM extrapolation tools to reflect and combine 
+knowledge from ESMs and many other lines of evidence (Geoffroy et al., 2013a; Good et al., 2013; Smith et 
+al., 2018a). In AR6, the term 'climate model emulator' (or simply emulator) is preferred over 'simple’ or 
+‘reduced-complexity climate model' to reinforce their use as specifically calibrated tools (Cross-Chapter Box 
+7.1, Figure 1). Nonetheless, simple physically-based climate models have a long history of use in previous 
+IPCC reports (Chapter 1, Section 1.5.3.4). Climate model emulators can include carbon and other gas cycles 
+and can combine uncertainties along the cause-effect chain from emissions to temperature response. 
+AR5(Collins et al., 2013a) used the MAGICC6 emulator  (Meinshausen et al., 2011a) in a probabilistic setup 
+(Meinshausen et al., 2009) to explore the uncertainty in future projections. A simple impulse response 
+emulator (Good et al., 2011) was also used to ensure a consistent set of ESM projections could be shown 
+across a range of scenarios. AR5 WGI Chapter 8 (Myhre et al., 2013b) employed a two-layer emulator for 
+quantifying Global Temperature Potentials (GTP). In AR5 WGIII (Clarke et al., 2014), MAGICC6 was also 
+used for the classification of scenarios, and in AR5 Synthesis Report (IPCC, 2014) this information was used 
+to estimate carbon budgets. In SR1.5, two emulators were used to provide temperature projections of 
+scenarios: the MAGICC6 model, which was used for the scenario classification, and the FaIR1.3 model 
+(Millar et al., 2017; Smith et al., 2018a).  </p>
+
+<p>SR1.5 found that the physically-based emulators produced different projected non-CO2 forcing and 
+identified the largely unexplained differences between the two emulators used as a key knowledge gap 
+(Forster et al., 2018). This led to a renewed effort to test the skill of various emulators. The Reduced 
+Complexity Model Intercomparison Project (RCMIP; Nicholls et al. (2020)) found that the latest generation 
+of the emulators can reproduce key characteristics of the observed changes in global surface air temperature 
+(GSAT) together with other key responses of ESMs (Cross-Chapter Box 7.1, Figure 1a). In particular, 
+despite their reduced structural complexity, some emulators are able to replicate the non-linear aspects of 
+ESM GSAT response over a range of scenarios. GSAT emulation has been more thoroughly explored in the 
+literature than other types of emulation. Structural differences between emulation approaches lead to 
+different outcomes and there are problems with emulating particular ESMs. In conclusion, there is medium 
+confidence that emulators calibrated to single ESM runs can reproduce ESM projections of the forced GSAT 
+response to other similar emissions scenarios to within natural variability (Meinshausen et al., 2011b; 
+Geoffroy et al., 2013a; Dorheim et al., 2020; Nicholls et al., 2020; Tsutsui, 2020), although larger differences 
+can remain for scenarios with very different forcing characteristics. For variables other than GSAT there has 
+not yet been a comprehensive effort to evaluate the performance of emulators. </p>
+
+<h3>Application of emulators in AR6 WGI</h3>
+
+<p>Cross-Chapter Box 7.1 Table 1 shows the use of emulators within the WGI Report. The main use of 
+emulation in the Report is to estimate GSAT change from Effective Radiative Forcing (ERF) or 
+concentration changes, where various versions of a two layer energy budget emulator are used. The two-
+layer emulator is equivalent to a two-timescale impulse response model (Geoffroy et al., 2013b, 
+Supplementary Material 7.SM.2). Both a single configuration version and probabilistic forms are used. The 
+emulator is an extension of the energy budget equation (Equation 7.1) and allows for heat exchange between 
+the upper- and deeper-ocean layers, mimicking the ocean heat uptake that reduces the rate of surface 
+warming under radiative forcing (Gregory, 2000; Held et al., 2010; Winton et al., 2010; Armour, 2017; 
+Mauritsen and Pincus, 2017; Rohrschneider et al., 2019). Although the same energy budget emulator 
+approach is used, different calibrations are employed in various sections, to serve different purposes and 
+keep lines of evidence as independent as possible. Chapter 9 additionally employs projections of ocean heat 
+content from the Chapter 7 two-layer emulator to estimate the thermostatic component to future sea-level 
+rise (see Chapter 9, Section 9.6.3 and Supplementary Material 7.SM.2). </p>
+
+<p>Emission-driven emulators, as opposed to ERF- or concentration-driven emulators are also used in the 
+Report. In Chapter 4 (Section 4.6) MAGICC7 is used to emulate GSAT beyond 2100 since its long-term 
+response has been assessed to be fit-for-purpose to represent the behaviour of ESMs. In Chapter 5 (Section 
+5.5) MAGICC7 is used to explore the non-CO2 GSAT contribution in emissions scenarios. In Chapter 6 and 
+Chapter 7 (Section 7.6), two-layer model configurations were tuned to match the probabilistic GSAT 
+responses of FaIRv1.6.2 and MAGICC7 emission-driven emulators. For Chapter 6 the two median values 
+from FaIRv1.6.2 and MAGICC7 emulators are averaged and then matched to the best-estimate ECS of 3°C 
+and TCR of 1.8 °C (Table 7.13 and Table 7.14) under the best-estimate ERF due to a doubling of CO2 of 
+3.93 W m-2 (Table 7.4). For Section 7.6 a distribution of responses are used from the two emulators to 
+estimate uncertainties in Global Temperature-change Potentials.  </p>
+
+<p><tableref>Cross-Chapter Box 7.1,Table 1</tableref> </p>
+
+<h3>Emission-driven emulators for scenario classification in AR6 WGIII</h3>
+
+<p>As in AR5 and SR1.5, emission-driven emulators are used to communicate outcomes of the physical climate 
+science assessment and uncertainties to quantify the temperature outcome associated with different emission 
+scenarios. In particular, the computational efficiency of these emulators allows the analysis of a large 
+number of multi-gas emissions scenarios in terms of multiple characteristics, e.g., year of peak temperature 
+or the 2030 emission levels in line with keeping global warming to below 1.5°C or 2.0 oC.  </p>
+
+<p>Four emission-driven emulators have been considered as tools for WGIII to explore the range of GSAT 
+response to multiple scenarios beyond those assessed in WGI. The four emulators are CICERO-SCM (Skeie 
+et al., 2017, 2021), FaIRv1.6.2 (Millar et al., 2017; Smith et al., 2018a), MAGICC7 (Meinshausen et al., 
+2009) and OSCARv3.1.1 (Gasser et al., 2017a, 2020). Each emulator's probabilistic distribution has been 
+calibrated to capture the relationship between emissions and GSAT change. The calibration is informed by 
+the WGI assessed ranges of ECS, TCR, historical GSAT change, ERF, carbon cycle metrics and future 
+warming projections under the (concentration-driven) SSP scenarios. The emulators are then provided as a 
+tool for WGIII to perform a GSAT-based classification of mitigation scenarios consistent with the physical 
+understanding assessed in WGI.. The calibration step reduced the emulator differences identified in SR1.5. 
+Note that evaluation of both central and range estimates of each emulator’s probabilistic projections is 
+important to assess the fitness-for-purpose for the classification of scenarios in WGIII based on information 
+beyond the central estimate of GSAT warming.  </p>
+
+<p><figref>Cross-Chapter Box 7.1,Figure1</figref> </p>
+
+<p>MAGICC7 and FaIRv1.6.2 emission based emulators are able to represent the WGI assessment  to within <br />
+small differences (defined here as within typical rounding precisions of ±5% for central estimates and ±10% 
+for ranges) across more than 80% of metric ranges (Cross-Chapter Box 7.1, Table 2 below). Both calibrated 
+emulators are consistent with assessed ranges of ECS, historical GSAT, historical ocean heat uptake, total 
+greenhouse gas ERF, methane ERF and the majority of the assessed SSP warming ranges. FaIRv1.6.2 also 
+matches the assessed central value of TCRE and airborne fraction. Whereas, MAGICC7 matches the 
+assessed TCR ranges as well as providing a closer fit to the SSP warming ranges for the lower emission 
+scenarios. In the evaluation framework considered here, CICERO-SCM represents historical warming to 
+within 2% of the assessed ranges and also represents future temperatures ranges across the majority of the 
+assessment although it lacks the representation of the carbon cycle. In this framework, OSCARv3.1.1 is less 
+able to represent the assessed projected GSAT ranges although it matches the range of airborne fraction 
+estimates closely and the assessed historical GSAT likely range to within 0.5%. Despite these identified 
+limitations, both CICERO-SCM and OSCARv3.1.1 provide additional information for evaluating the 
+sensitivity of scenario classification to model choice. </p>
+
+<p>How emulators match the assessed ranges used for the evaluation framework is summarised here and in 
+Table 2. The first is too low projections in 2081–2100 under SSP1-1.9 (8% or 15% too low for the central 
+estimate and 15% or 25% too low for the lower end in the case of MAGICC7 or FaIRv1.6.2, respectively). 
+The second is the representation of the aerosol effective radiative forcing (both MAGICC7 and FaIRv1.6.2 
+are greater than 8% less negative than the central assessed range and  greater than 10% less negative for the 
+lower assessed range), as energy balance models struggle to reproduce an aerosol ERF with a magnitude as 
+strong as the assessed best estimate and still match historical warming estimates. Both emulators have 
+medium to large differences compared to the TCRE and airborne fraction ranges (see note of Table 2). 
+Finally, there is also a slight overestimate of the low-end of the assessed historical GSAT range.  </p>
+
+<p>Overall, there is high confidence that emulated historical and future ranges of GSAT change can be 
+calibrated to be internally-consistent with the assessment of key physical-climate indicators in this Report: 
+greenhouse gas ERFs, ECS and TCR. When calibrated to match the assessed ranges of GSAT and multiple 
+physical climate indicators, physically-based emulators can reproduce the best estimate of GSAT change 
+over 1850–1900 to 1995–2014 to within 5% and very likely range of this GSAT change to within 10%. 
+MAGICC7 and FaIRv1.6.2 match at least two-thirds of the Chapter 4 assessed projected GSAT changes to 
+within these levels of precision.  </p>
+
+<p><tableref>Cross-Chapter Box 7.1,Table 2</tableref></p>

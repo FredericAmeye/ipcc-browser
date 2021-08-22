@@ -6262,6 +6262,45 @@
                 ]
             }
         },
+        "Box 7.1,Figure1": {
+            "title": {
+                "en_EN":"Schematics of the forcing-feedback framework adopted within the assessment, following Equation 7.1"
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Illustrated is how the Earth’s TOA net energy flux might evolve for a hypothetical doubling of atmospheric CO2 concentration above preindustrial levels, where an initial positive energy imbalance (energy entering the Earth system, shown on the y-axis) is gradually restored towards equilibrium as the surface temperature warms (shown on the x-axis). a) illustrates the definitions of ERF for the special case of a doubling of atmospheric CO2 concentration, the feedback parameter and the ECS. b) illustrates how approximate estimates of these metrics are made within the chapter and how these approximations might relate to the exact definitions adopted in panel a)."
+                ]
+            }
+        },
+        "Box 7.2,Figure1": {
+            "title": {
+                "en_EN":"Estimates of the net cumulative energy change (ZJ = 1021 Joules) for the period 1971–2018 associated with: (a) observations of changes in the Global Energy Inventory (b) Integrated Radiative Forcing; (c) Integrated Radiative Response."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Black dotted lines indicate the central estimate with likely and very likely ranges as indicated in the legend. The grey dotted lines indicate the energy change associated with an estimated pre-industrial Earth energy imbalance of 0.2 W⋅m<sup>–2</sup> (panel a) and an illustration of an assumed pattern effect of –0.5 W⋅m<sup>–2</sup> °C<sup>–1</sup> (panel c). Background grey lines indicate equivalent heating rates in W m–2 per unit area of Earth’s surface. Panels (d) and (e) show the breakdown of components, as indicated in the legend, for the Global Energy Inventory and Integrated Radiative Forcing, respectively. Panel (f) shows the Global Energy Budget assessed for the period 1971–2018, i.e. the consistency between the change in the Global Energy Inventory relative to pre-industrial and the implied energy change from Integrated Radiative Forcing plus Integrated Radiative Response under a number of different assumptions, as indicated in the figure legend, including assumptions of correlated and uncorrelated uncertainties in Forcing plus Response. Shading represents the very likely range for observed energy change relative to pre-industrial and likely range for all other quantities. Forcing and Response timeseries are expressed relative to a baseline period of 1850–1900. Further details on data sources and processing are available in the chapter data table (Table 7.SM.14)."
+                ]
+            }
+        },
+        "Cross-Chapter Box 7.1,Figure1": {
+            "title": {
+                "en_EN":"A comparison between the global-mean surface air temperature response of various calibrated simple climate models, assessed ranges and Earth System Models."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The top panels compare the assessed historical GSAT time series (Chapter 2, Cross Chapter Box 2.3) with four multi-gas emulators calibrated to replicate numerous assessed ranges (Cross-Chapter Box 7.1, Table 2 below) (panel a) and also compares idealized CO2-only concentration scenario response for one ESM (IPSL CM6A-LR) and multiple emulators which participated in RCMIP Phase 1 (Nicholls et al., 2020) calibrated to that single ESM (panel b). The bottom panels compare this Report’s assessed ranges for GSAT warming (Chapter 4, Box 4.1) under the multi-gas scenario SSP1-2.6 with the same calibrated emulators as in panel a (panel c and d). For context, a range of CMIP6 ESM results are also shown (thin lines in bottom-left panel c and open circles in bottom-right panel d). Panel b) adapted from Nicholls et al. (2020). Further details on data sources and processing are available in the chapter data table (Table 7.SM.14)."
+                ]
+            }
+        },
         "2.X": {
             "title": {
                 "en_EN":""
@@ -9363,7 +9402,8 @@
             {
                 "ref":"Box 7.1",
                 "en_EN":"The energy budget framework - forcing and response",
-                "startPage":12
+                "startPage":12,
+                "hasFile": true
             },
             {
                 "ref": "7.2",
@@ -9403,7 +9443,8 @@
             {
                 "ref":"Box 7.2",
                 "en_EN":"The Global Energy Budget",
-                "startPage":21
+                "startPage":21,
+                "hasFile": true
             },
             {
                 "ref": "7.3",
@@ -9549,7 +9590,8 @@
             {
                 "ref":"Cross-Chapter Box 7.1",
                 "en_EN":"Physical emulation of Earth System Models for scenario classification and knowledge integration in AR6",
-                "startPage":53
+                "startPage":53,
+                "hasFile": true
             },
             {
                 "ref": "7.4",
@@ -9824,7 +9866,8 @@
             {
                 "ref":"Box 7.3",
                 "en_EN":"Physical considerations in emission-metric choice",
-                "startPage":125
+                "startPage":125,
+                "hasFile": true
             },
             {
                 "ref":"FAQ7.1",
