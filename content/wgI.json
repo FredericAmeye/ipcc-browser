@@ -6184,6 +6184,58 @@
                 ]
             }
         },
+        "Cross-Chapter Box 5.2,Figure1": {
+            "title": {
+                "en_EN":"Methane sources and sinks for four decades from atmospheric inversions with the budget imbalance"
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(source-sink; red bars) (plotted on the left y-axis). Top-down analysis from (Kirschke et al., 2013; Saunois et al., 2020), The global CH4 concentration seen in the black line (plotted on the right y-axis), representing NOAA observed global monthly mean atmospheric CH4 in dry-air mole fractions for 1983– 2019 (Chapter 2, Annex III. Natural sources include emissions from natural wetlands, lakes and rivers, geological sources, wild animals, termites, wildfires, permafrost soils, and oceans. Anthropogenic sources include emissions from enteric fermentation and manure, landfills, waste and wastewater, rice cultivation, coal mining, oil and gas industry, biomass and biofuel burning. The top-down total sink is determined from global mass balance includes chemical losses due to reactions with hydroxyl (OH), atomic chlorine (Cl), and excited atomic oxygen (O1D), and oxidation by bacteria in aerobic soils (Table 5.2). Further details on data sources and processing are available in the chapter data table (Table 5.SM.6)."
+                ]
+            }
+        },
+        "Cross-Chapter Box 5.2,Figure2": {
+            "title": {
+                "en_EN":"Anomalies in global and regional methane (CH4) emissions for 1988–2017."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Map in the centre shows mean CH4 emission for 2010–2016. Multi-model mean (line) and 1-σ standard deviations (shaded) for 2000–2017 are shown for 9 surface CH4 and 10 satellite XCH4 inversions, and 22 wetland models or model variants that participated in GCP-CH4 budget assessment (Saunois et al., 2020). The results for the period before 2000 are available from two inversions, 1) using 19 sites (Chandra et al., 2021; also used for the 2010-2016 mean emission map) and for global totals (Bousquet et al., 2006). The long-term mean values for 2010-2016 (common for all GCP–CH4 inversions), as indicated within each panel separately, is subtracted from the annual-mean time series for the calculation of anomalies for each region. Further details on data sources and processing are available in the chapter data table (Table 5.SM.6). "
+                ]
+            }
+        },
+        "Cross-Chapter Box 5.3,Figure1": {
+            "title": {
+                "en_EN":"CMIP6 multi-model mean of changes in zonally integrated (a) carbon and (b) heat storage in ocean between the pre-industrial and the modern period."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Carbon corresponds to dissolved inorganic carbon. Data are shown for the upper 2000m. The modern period is 1995–2014. Adapted from (Frölicher et al., 2015)) "
+                ]
+            }
+        },
+        "Box 5.3,Figure1": {
+            "title": {
+                "en_EN":"Schematic representation of carbon fluxes between atmosphere, land, ocean and geological reservoirs."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Different system conditions are shown: (a) an unperturbed Earth system; and changes in carbon fluxes for (b) an Earth system perturbed by fossil-fuel CO2 emissions, (c) an Earth system in which fossil-fuel CO2 emissions are partially offset by CDR, (d) an Earth system in which CDR exceeds CO2 emissions from fossil fuels (“net negative” CO2 emissions). Carbon fluxes depicted in (a) (solid and dashed black lines) also occur in (b)-(d). The question mark in the land-to-ocean carbon flux perturbation in (c) and (d) indicates that the effect of CDR on this flux is unknown. Note that box sizes do not scale with the size of carbon reservoirs. Adapted from (Keller et al., 2018a). Further details on data sources and processing are available in the chapter data table (Table 5.SM.6). "
+                ]
+            }
+        },
         "2.X": {
             "title": {
                 "en_EN":""
@@ -8217,7 +8269,8 @@
             {
                 "ref":"Cross-Chapter Box 5.1",
                 "en_EN":"Interactions between the carbon and water cycles, particularly under drought conditions",
-                "startPage":30
+                "startPage":30,
+                "hasFile": true
             },
             {
                 "ref": "5.2",
@@ -8331,7 +8384,8 @@
             {
                 "ref":"Cross-Chapter Box 5.2",
                 "en_EN":"Drivers of atmospheric methane changes during 1980-2019",
-                "startPage":39
+                "startPage":39,
+                "hasFile": true
             },
             {
                 "ref": "5.3",
@@ -8555,7 +8609,8 @@
             {
                 "ref":"Box 5.1",
                 "en_EN":"Permafrost Carbon and Feedbacks to Climate",
-                "startPage":63
+                "startPage":63,
+                "hasFile": true
             },
             {
                 "ref": "5.5",
@@ -8617,12 +8672,14 @@
             {
                 "ref":"Cross-Chapter Box 5.3",
                 "en_EN":"The Ocean Carbon-Heat Nexus and Climate Change Commitment",
-                "startPage":84
+                "startPage":84,
+                "hasFile": true
             },
             {
                 "ref":"Box 5.2",
                 "en_EN":"Implications of methodological advancements in estimating the remaining carbon budget since AR5",
-                "startPage":97
+                "startPage":97,
+                "hasFile": true
             },
             {
                 "ref": "5.6",
@@ -8684,7 +8741,8 @@
             {
                 "ref":"Box 5.3",
                 "en_EN":"Carbon cycle response to CO2 removal from the atmosphere",
-                "startPage":102
+                "startPage":102,
+                "hasFile": true
             },
             {
                 "ref": "5.7",
