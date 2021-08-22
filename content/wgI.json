@@ -6340,6 +6340,32 @@
                 ]
             }
         },
+        "Box 9.2,Figure1": {
+            "title": {
+                "en_EN":"Observed and simulated regional probability ratio of marine heatwaves (MHWs) for the 1985-2014 period and for the end of the 21st century under two different greenhouse gas emissions scenarios."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The probability ratio is the proportion by which the number of MHW days per year has increased relative to pre-industrial times. A MHW is defined as a deviation beyond the daily 99th percentile (11-day window) in the deseasonalized sea surface temperature. (a) The MHW probability ratio from satellite observations (NOAA OISST V2.1; (Huang et al., 2021) during 1985- 2014. The mean warming pattern (difference in ERSST5 (Huang et al., 2017) sea surface temperature between the 1985-2014 and 1854-1900 periods) has been added to the satellite observations to calculate the probability ratio. (b-d) CMIP6 simulated multi-model mean probability ratio of the (b) 1985-2014 period, and 2081-2100 period in the (c) SSP1 2.6 and (d) SSP5 8.5 scenarios. The areas with grey diagonal lines in (d) indicate permanent MHWs (> 360 heatwave days per year). These 14 CMIP6 models are included in the analysis: ACCESS-CM2, CESM2, CESM2-WACCM, CMCCCM2-SR5, CNRM-CM6-1, CNRM-ESM2-1, CanESM5, EC-Earth3, IPSL-CM6A-LR, MIROC6, MRI-ESM2-0, NESM3, NorESM2-LM, NorESM2-MM. Further details on data sources and processing are available in the chapter data table (Table 9.SM.9)."
+                ]
+            }
+        },
+        "Cross-Chapter Box 9.1,Figure1": {
+            "title": {
+                "en_EN":"Global Energy Inventory and Sea Level Budget."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "a) Observed changes in the global energy inventory for 1971-2018 (shaded time series) with component contributions as indicated in the figure legend. Earth System Heating for the whole period and associated uncertainty is indicated to the right of the plot (red bar = central estimate; shading = very likely range); b) Observed changes in components of global mean sea- level for 1971-2018 (shaded time series) as indicated in the figure legend. Observed global mean sea-level change from tide gauge reconstructions (1971-1993) and satellite altimeter measurements (1993-2018) is shown for comparison (dashed line) as a 3-year running mean to reduce sampling noise. Closure of the global sea-level budget for the whole period is indicated to the right of the plot (red bar = component sum central estimate; red shading = very likely range; black bar = total sea level central estimate; grey sharing = very likely range). Full details of the datasets and methods used are available in Annex I. Further details on energy and sea-level components are reported in Table 7.1 and Table 9.5."
+                ]
+            }
+        },
         "2.X": {
             "title": {
                 "en_EN":""
@@ -10554,7 +10580,8 @@
                 "ref":"Box 9.1",
                 "en_EN":"Key processes driving sea level change",
                 "fr_FR":"Processus-clés dans le changement de niveau des mers",
-                "startPage":12
+                "startPage":12,
+                "hasFile": true
             },
             {
                 "ref": "9.2",
@@ -10665,7 +10692,8 @@
             {
                 "ref":"Box 9.2",
                 "en_EN":"Marine Heatwaves",
-                "startPage":20
+                "startPage":20,
+                "hasFile": true
             },
             {
                 "ref": "9.3",
@@ -10784,7 +10812,8 @@
             {
                 "ref":"Box 9.3",
                 "en_EN":"Insights into land ice evolution from model intercomparison projects",
-                "startPage":62
+                "startPage":62,
+                "hasFile": true
             },
             {
                 "ref": "9.5",
@@ -10952,12 +10981,14 @@
             {
                 "ref":"Cross-Chapter Box 9.1",
                 "en_EN":"Global energy inventory and sea level budget",
-                "startPage":100
+                "startPage":100,
+                "hasFile": true
             },
             {
                 "ref":"Box 9.4",
                 "en_EN":"High-end storyline of 21st century sea-level rise",
-                "startPage":122
+                "startPage":122,
+                "hasFile": true
             },
             {
                 "ref": "9.7",
