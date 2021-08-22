@@ -863,6 +863,9 @@ function findSourceByRef(src)
             console.log("error finding FAQ ref", src, path);
         }
     }
+    else if(src == 'Cross-Working Group Box'){
+        matched = returnElementByRefName(wgI['1'], src);
+    }
     // box TS
     else if(src.match(BoxTS_chapter_match)){
         let path = src.substr(7).split(".");

@@ -6071,6 +6071,54 @@
                 ]
             }
         },
+        "Cross-Working Group Box,Figure1": {
+            "title":{
+                "en_EN":"Schematic of the steps to develop an attribution assessment, and the purposes of such assessments."
+            },
+            "subtitle":{"en_EN":""},
+            "description":{
+                "en_EN":["Methods and systems used to test the attribution hypothesis or theory include model-based fingerprinting, other model-based methods, evidence-based fingerprinting, process-based approaches, empirical or  decomposition methods and the use of multiple lines of evidence. Many of the methods are based on the comparison of the observed state of a system to a hypothetical counterfactual world that does not include the driver of interest to help estimate the causes of the observed response."]
+            }
+        },
+        "Box 1.1,Figure1": {
+            "title": {
+                "en_EN":""
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The IPCC AR6 approach for characterizing understanding and uncertainty in assessment findings.                     This diagram illustrates the step-by-step process authors use to evaluate and communicate the state of knowledge in their assessment (Mastrandrea et al., 2010). Authors present evidence/agreement,                     confidence, or likelihood terms with assessment conclusions, communicating their expert judgments                     accordingly. Example conclusions drawn from this report are presented in the box at the bottom of                     the figure. [adapted from Mach et al. (2017)]."
+                ]
+            }
+        },
+        "Cross-Chapter Box 1.2,Figure1": {
+            "title": {
+                "en_EN":"Changes in radiative forcing from 1750 to 2019."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The radiative forcing estimates from the AR6 emulator (see Cross-Chapter Box 7.1 in Chapter 7) are split into GHG, other anthropogenic (mainly aerosols and land use) and natural forcings, with the average over the 1850–1900 baseline shown for each. Further details on data sources and processing are available in the chapter data table (Table 1.SM.1)."
+                ]
+            }
+        },
+        "Cross-Chapter Box 1.4,Figure2": {
+            "title": {
+                "en_EN":"Comparison between the Shared Socio-economic Pathways (SSP) scenarios and the Representative Concentration Pathway (RCP) scenarios in terms of their CO2, CH4 and N2O atmospheric concentrations (panels a-c), and their global emissions (panels d-o)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Also shown are gridded emission differences for sulfur (panel p) and black carbon (panel q) for the year 2000 between the input emission datasets that underpinned the CMIP5 and CMIP6 model intercomparisons. Historical emission estimates are provided in black in panels d to o. The range of concentrations and emissions investigated under the RCP pathways is grey shaded. Panels p and q adapted from Figure 7 in Hoesly et al. (2018). Further details on data sources and processing are available in the chapter data table (Table 1.SM.1)."
+                ]
+            }
+        },
         "2.X": {
             "title": {
                 "en_EN":""
@@ -6198,25 +6246,22 @@
                 "ref":"Cross-Chapter Box 1.1",
                 "en_EN":"The WG-I contribution to the AR6 and its potential relevance for the global stocktake",
                 "fr_FR":"La contribution du WG-I à l'AR6 et sa pertinence pour le bilan mondial",
-                "startPage":19
+                "startPage":19,
+                "hasFile": true
             },
             {
                 "ref":"Box 1.1",
                 "en_EN":"Treatment of uncertainty and calibrated uncertainty language in AR6",
                 "fr_FR":"Traitement des incertitudes et vocabulaire calibré d'incertitude dans l'AR6",
-                "startPage":30
+                "startPage":30,
+                "hasFile": true
             },
             {
                 "ref":"Box 1.2",
                 "en_EN":"Special Reports in the 6th IPCC assessment cycle: key findings",
                 "fr_FR":"Rapports Spéciaux dans le 6ème cycle d'évaluation du GIEC : conclusions principales",
-                "startPage":50
-            },
-            {
-                "ref":"Box 1.4",
-                "en_EN":"The relationships between 'net zero' emissions, temperature outcomes and carbon dioxide removal",
-                "fr_FR":"La relation entre des émissions 'net zéro', l'évolution de température, et le retrait de CO2",
-                "startPage":113
+                "startPage":50,
+                "hasFile": true
             },
             {
                 "ref":"1.3",
@@ -6266,7 +6311,8 @@
                 "ref":"Cross-Chapter Box 1.2",
                 "en_EN":"Changes in global temperature between 1750 and 1850",
                 "fr_FR":"Changement des températures globales entre 1750 et 1850",
-                "startPage":55
+                "startPage":55,
+                "hasFile": true
             },
             {
                 "ref":"1.4",
@@ -6372,13 +6418,15 @@
                 "ref":"Cross-Chapter Box 1.3",
                 "en_EN":"Risk framing in IPCC AR6",
                 "fr_FR":"Cadrage des risques dans l'AR6",
-                "startPage":63
+                "startPage":63,
+                "hasFile": true
             },
             {
-                "ref":"Cross-Working-Group Box",
+                "ref":"Cross-Working Group Box",
                 "en_EN":"Attribution",
                 "fr_FR":"Attribution",
-                "startPage":67
+                "startPage":67,
+                "hasFile": true
             },
             {
                 "ref":"1.5",
@@ -6500,7 +6548,8 @@
                 "ref":"Box 1.3",
                 "en_EN":"Emission metrics in AR6 WGI",
                 "fr_FR":"Métriques des émissions dans AR6 WG-I",
-                "startPage":88
+                "startPage":88,
+                "hasFile": true
             },
             {
                 "ref":"1.6",
@@ -6557,7 +6606,15 @@
                 "ref":"Cross-Chapter Box 1.4",
                 "en_EN":"The SSP scenarios as used in Working Group I",
                 "fr_FR":"Les scénarios SSP utilisés par le Working Group I",
-                "startPage":102
+                "startPage":102,
+                "hasFile": true
+            },
+            {
+                "ref":"Box 1.4",
+                "en_EN":"The relationships between 'net zero' emissions, temperature outcomes and carbon dioxide removal",
+                "fr_FR":"La relation entre des émissions 'net zéro', l'évolution de température, et le retrait de CO2",
+                "startPage":113,
+                "hasFile": true
             },
             {
                 "ref":"1.7",

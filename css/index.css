@@ -475,6 +475,11 @@ width: 95%;
     font-style:normal;
     color:#00324b;
 }
+#modal-box em {
+    font-weight:bold;
+    font-style:normal;
+    color:#00324b;
+}
 #main-panel-doc blockquote p {
     font-family:'Inter',-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     font-weight:400;
