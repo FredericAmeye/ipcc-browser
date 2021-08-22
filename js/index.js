@@ -2,7 +2,7 @@ let wgI;
 let lang = (document.location.hostname === 'comprendre-giec.fr') ? "fr_FR" : "en_EN";
 let userParams = {};
 
-const chapters_MD = ["1","2","3","4","5","6","7","8","9","10","11"];
+const chapters_MD = ["1","2","3","4","5","6","7","8","9","10","11","12"];
 
 function changeLang(lang)
 {
@@ -60,7 +60,7 @@ let initFn = (function()
     }
 
     /* init page */
-    jQuery.getJSON('content/wgI.json?v14.json', function(r){
+    jQuery.getJSON('content/wgI.json?v15.json', function(r){
         const nb_chap = r.SPM.chapters.length;
         wgI = r;
         
