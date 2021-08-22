@@ -551,32 +551,32 @@ implying an increased residence time of atmospheric water vapour (Hodnebrog et a
 intensification but not acceleration of the global water cycle (Sections 8.3.1.1 and 8.4.1.1).  
  
 The overall global mean rate of precipitation change per oC of GSAT increase, *apparent hydrological 
-sensitivity (ηa)*, is reduced compared to hydrological sensitivity by the direct influence of radiative forcing 
+sensitivity (η<sub>a</sub>)*, is reduced compared to hydrological sensitivity by the direct influence of radiative forcing 
 agents on the atmospheric energy balance. Rapid atmospheric adjustments that alter precipitation are 
 primarily caused by GHGs and absorbing aerosols, with high agreement and medium evidence across 
 idealised simulations (Fläschner et al., 2016; Samset et al., 2016). A range of rapid precipitation adjustments 
 to CO2 between models are also attributed to vegetation responses leading to a repartitioning of surface latent 
 and sensible heat fluxes (DeAngelis et al., 2016). Values obtained from six CMIP5 models simulating the 
-Last Glacial Maximum and pre-industrial period (ηa=1.6-3.0 % per oC) are larger than for each 
-corresponding 4xCO2 experiment (ηa=1.3–2.6 % per oC) due to differences in the mix of forcings, vegetation 
+Last Glacial Maximum and pre-industrial period (η<sub>a</sub>=1.6-3.0 % per oC) are larger than for each 
+corresponding 4xCO2 experiment (η<sub>a</sub>=1.3–2.6 % per oC) due to differences in the mix of forcings, vegetation 
 and land surface changes and a higher thermodynamic % per oC evaporation scaling in the colder state (Li et 
 al., 2013b). Updated estimates across comparable experiments from 22 CMIP5/CMIP6 models (Rehfeld et 
-al., 2020) display a consistent range (ηa=1.7±0.6 % per oC; Figure 8.4; Section 8.4.1.1). Confirming ηa in 
+al., 2020) display a consistent range (η<sub>a</sub>=1.7±0.6 % per oC; Figure 8.4; Section 8.4.1.1). Confirming η<sub>a</sub> in 
 observations (Figure 8.4) is difficult due to measurement uncertainty, varying rapid adjustments to radiative 
 forcing and unforced variability (Dai and Bloecker, 2019; Allan et al., 2020). 
  
 Climate drivers that instantaneously affect the surface much more than the atmospheric energy budget (such 
 as solar forcing and sulphate aerosol) produce only a small rapid adjustment of the global water cycle and 
-therefore larger ηa than drivers that immediately modulate the atmospheric energy budget such as GHGs and 
+therefore larger η<sub>a</sub> than drivers that immediately modulate the atmospheric energy budget such as GHGs and 
 absorbing aerosol (Salzmann, 2016; Samset et al., 2016; Lin et al., 2018; Liu et al., 2018a). Thus, global 
-precipitation appears more sensitive to radiative forcing from sulphate aerosols (2.8±0.7 % per oC; ηa ≈η) 
-than GHGs (1.4±0.5 % per oC; ηa<η) while the response to black carbon aerosol can be negative (-3.5±5.0 % 
-per oC; ηa<<η) due to strong atmospheric solar absorption (Samset et al., 2016). Therefore, artificially 
+precipitation appears more sensitive to radiative forcing from sulphate aerosols (2.8±0.7 % per oC; η<sub>a</sub> ≈η) 
+than GHGs (1.4±0.5 % per oC; η<sub>a</sub><η) while the response to black carbon aerosol can be negative (-3.5±5.0 % 
+per oC; η<sub>a</sub><<η) due to strong atmospheric solar absorption (Samset et al., 2016). Therefore, artificially 
 reducing surface absorbed sunlight through solar radiation modification strategies to mitigate GHG warming 
 will not mitigate precipitation changes (see Sections 4.6.3.3; 6.4.7; 8.6.3). Aerosol-induced precipitation 
 changes depend upon the type of aerosol species and their spatial distribution. Global mean precipitation 
 increases after complete removal of present day anthropogenic aerosol emissions (see also Section 4.4.4) in 
-four different climate models (ηa = 1.6-5.5% per oC) are mainly attributed to sulphate aerosol as opposed to 
+four different climate models (η<sub>a</sub> = 1.6-5.5% per oC) are mainly attributed to sulphate aerosol as opposed to 
 other aerosol species (Samset et al., 2018b). Idealised modelling studies show that sulphate aerosol increases 
 over Europe produce a larger global precipitation response than an equivalent increase in aerosol burden or 
 radiative forcing over Asia, explained by differences in cloud climatology and cloud-aerosol interaction 
