@@ -521,3 +521,18 @@ width: 95%;
     vertical-align:bottom;
     cursor:pointer;
 }
+
+.nav-history {
+    border-top:3px solid #1a237e;
+}
+.nav-history {
+    padding:8px;
+}
+.nav-history ul > li, .nav-history ul > li a {
+    font-size:14px;
+    line-height:24px;
+    height:24px;
+}
+.nav-history ul li a .right {
+    font-size:10px;
+}

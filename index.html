@@ -13,7 +13,7 @@
         <!-- pdfjs -->
         <link type="text/css" rel="stylesheet" href="vendors/pdfjs/web/viewer.css" />
 
-        <link type="text/css" rel="stylesheet" href="css/index.css?v11.css" />
+        <link type="text/css" rel="stylesheet" href="css/index.css?v12.css" />
 
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -307,7 +307,15 @@
         <div id="main-panel-doc" style="z-index:4">
             <a href="#" onclick="return closePanelDoc();" class="btn-floating main-panel-close" title="Close chapter"><i class="material-icons">close</i></a>
             <div id="main-panel-holder"></div>
+            <!--<nav class="nav-wrapper" style="position:fixed; bottom:0; left:0; width:auto; padding-left:370px; padding-right:20px; height:32px; line-height:32px;">
+                <div class="nav-wrapper" id="breadcrumb"></div>
+            </nav>-->
         </div>
+
+        <!-- panel secondaire ToC détaillée -->
+        <!--<div id="subpanel-toc" style="position: fixed; left:0; width:355px; bottom:0; top: 50%; background:rgba(210,210,210,0.9); z-index:1000" class="z-depth-3">
+        scrollspy
+        </div>-->
 
         <!--JavaScript at end of body for optimized loading-->
         <script type="text/javascript" src="vendors/materialize/js/materialize.min.js"></script>
@@ -319,6 +327,6 @@
         <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
         <script src="js/waitforimages.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-        <script src="js/index.js?v23.js"></script>
+        <script src="js/index.js?v24.js"></script>
     </body>
 </html>

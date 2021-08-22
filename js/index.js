@@ -191,13 +191,15 @@ let initFn = (function()
         if(urlParams['box'] && urlParams['box'].length)
         {
             let element = findSourceByRef(decodeURI(urlParams['box']));
-            displayBox(element.elm);
+            displayBox(element.elm, false);
         }
 
         if(urlParams['opened'] && urlParams['opened'].length)
         {
             dispSource($('<div data-cite="'+urlParams['opened']+'"></div>'));
         }
+
+        displayHistory();
     });
 
     // menu dropdown
@@ -322,6 +324,13 @@ function populateToC()
         <li>
             <a class="btn btn-small" href="#" onclick="return displayFullToc();">View full table of contents</a>
         </li>
+        <li class="nav-history">
+            <h5>
+                Browsing history
+                <i class="material-icons right" title="Delete history" style="cursor:pointer; font-size:12px" onclick="delete userParams['history']; saveLocalStorage(); displayHistory();">clear</i>
+            </h5>
+            <ul></ul>
+        </li>
     `;
     $('#slide-out').html(html);
 
@@ -399,7 +408,7 @@ function recursiveTOC(chapter, recnum)
         }
 
         return /*html*/`${header}<li style="margin-top:0; border-top:none;" class="${readClass}">
-            <a href="#" class="modal-close" onclick="return dispSource(this);" data-cite="${chapter.ref}">
+            <a href="#" class="modal-close" onclick="return dispSource(this, true);" data-cite="${chapter.ref}">
                 <span class="toc-chaptitle">${chapter.ref}</span>
                 ${chaptitle}${spage}${readMarker}
             </a>
@@ -414,7 +423,7 @@ function recursiveTOC(chapter, recnum)
 
         // leaf
         return /*html*/`<li class="${readClass}" data-ref="${chapter.ref}">
-                <a href="#" class="modal-close" onclick="return dispSource(this);" data-cite="${chapter.ref}">
+                <a href="#" class="modal-close" onclick="return dispSource(this, true);" data-cite="${chapter.ref}">
                     <span class="toc-chaptitle">${chapter.ref}</span>
                     ${chaptitle}${spage}${readMarker}
                 </a>
@@ -436,7 +445,7 @@ function constructSubMenu(chapter, recnum)
             <ul class="collapsible collapsible-accordion">
                 <li style="position:relative">
                     <a class="collapsible-header"><i class="material-icons">arrow_drop_down</i>${chapter.ref}. ${chaptitle}</a>
-                    <a href="#" onclick="return dispSource(this)" data-cite="${chapter.ref}" style="position:absolute; right:0px; top:0; padding:0 5px; width:30px; text-align:center; display:inline-block" data-tippy-content="Read this chapter"><i class="material-icons" style="font-size:0.8em; margin:0; width:20px">open_in_new</i></a>
+                    <a href="#" onclick="return dispSource(this, true)" data-cite="${chapter.ref}" style="position:absolute; right:0px; top:0; padding:0 5px; width:30px; text-align:center; display:inline-block" data-tippy-content="Read this chapter"><i class="material-icons" style="font-size:0.8em; margin:0; width:20px">open_in_new</i></a>
                     <div class="collapsible-body">
                         <ul>
                 `;
@@ -453,7 +462,7 @@ function constructSubMenu(chapter, recnum)
             }
 
             html += /*html*/`<li>
-                <a href="#" data-cite="${chapter.chapters[k].ref}" onclick="return dispSource(this);" data-tippy-content="${n}">
+                <a href="#" data-cite="${chapter.chapters[k].ref}" onclick="return dispSource(this, true);" data-tippy-content="${n}">
                     <span class="toc-ref">${chapter.chapters[k].ref}</span>
                     ${chaptitle}
                     ${dispRead}
@@ -530,7 +539,7 @@ function switchChapter(e)
             for(let k = 0; k < chp.cites.length; k++)
             {
                 let src = chp.cites[k];
-                srcs += /*html*/`<a href="#" class="src1" data-cite="${src}" onmouseover="return hoverSource(this);" onmouseout="return mouseoutSource(this)" onclick="return dispSource(this)">${src}</a>`;
+                srcs += /*html*/`<a href="#" class="src1" data-cite="${src}" onmouseover="return hoverSource(this);" onmouseout="return mouseoutSource(this)" onclick="return dispSource(this, true)">${src}</a>`;
             }
 
             // ajout des figures référencées
@@ -583,7 +592,7 @@ function switchChapter(e)
                         refs = 'See: ';
                         for(let n = 0; n < subchap.cites.length; n++)
                         {
-                            refs += /*html*/`<a href="#" class="src1" data-cite="${subchap.cites[n]}" onmouseover="return hoverSource(this);" onmouseout="return mouseoutSource(this)" onclick="return dispSource(this)">${subchap.cites[n]}</a>`;
+                            refs += /*html*/`<a href="#" class="src1" data-cite="${subchap.cites[n]}" onmouseover="return hoverSource(this);" onmouseout="return mouseoutSource(this)" onclick="return dispSource(this, true)">${subchap.cites[n]}</a>`;
                         }
                     }
                     if(subchap.figref && subchap.figref.length)
@@ -779,8 +788,60 @@ function mouseoutSource(e)
     return;
 }
 
+function addToHistory(ref, type)
+{
+    if(typeof userParams['history'] == 'undefined'){
+        userParams['history'] = [];
+    }
+
+    userParams['history'].push({
+        type: type,
+        ref:  ref,
+        date: new Date().getTime()
+    });
+    // todo delete if too long
+
+    saveLocalStorage();
+
+    // display new history
+    displayHistory();
+}
+
+function displayHistory()
+{
+    let n = 0, html = '';
+
+    if(userParams.history)
+    {
+        for(let i = 0; i < userParams.history.length; i++)
+        {
+            if(n > 10) break;
+            n++;
+
+            let dh = new Date(userParams.history[i].date);
+            let hh = dh.getHours(), mm = dh.getMinutes();
+            let findSrc = findSourceByRef(userParams.history[i].ref);
+            let title = findSrc && findSrc.elm
+                            ? (findSrc.elm[lang] || findSrc.elm.en_EN)
+                            : "";
+            title = title.replaceAll('"', '\"');
+            hh = ("0"+hh).slice(-2), mm = ("0"+mm).slice(-2);
+
+            html += /*html*/`<li>
+                <a href="#" data-cite="${userParams.history[i].ref}" data-tippy-content="${title}" onclick="dispSource(e, true);">
+                ${userParams.history[i].ref}
+                ${title}
+                <span class="right">${hh}:${mm}</span>
+                </a>
+            </li>`;
+        }
+    }
+
+    $('.nav-history ul').html(html);
+}
+
 /* go to source */
-function dispSource(e)
+function dispSource(e, fromUserAction = false)
 {
     let src = $(e).attr('data-cite');
     let element;
@@ -793,12 +854,14 @@ function dispSource(e)
     if(src.substr(0,2) == 'TS') {
         // part of the TS
         loadMainPanel('TS', src);
+        if(fromUserAction) addToHistory(src, 'source');
         return false;
     }
     let chap0 = src.split('.')[0];
     if(chapters_MD.includes(chap0)) {
         // chapter 1 available
         loadMainPanel(chap0, src);
+        if(fromUserAction) addToHistory(src, 'source');
         return false;
     }
 
@@ -841,13 +904,14 @@ function dispSource(e)
         $('#side-panel-pdf').css('visibility','visible');
     }
 
+    if(fromUserAction) addToHistory(src, 'source');
     pdfChangePage(refpage);
 
     return false;
 }
 
 let currentBox = false;
-function displayBox(element)
+function displayBox(element, fromUserAction = true)
 {
     let title = element[lang] || element.en_EN;
     currentBox = element.ref;
@@ -868,6 +932,7 @@ function displayBox(element)
         });
         mod.open();
         updateTooltips();
+        if(fromUserAction) addToHistory(currentBox, 'box');
         if(MathJax) MathJax.typeset();
 
     }).fail(function(){
@@ -983,14 +1048,15 @@ function findSourceByRef(src)
     return matched;
 }
 
-function returnElementByRefName(table, query, parentOffset = 0)
+function returnElementByRefName(table, query, parentOffset = 0, hierarchy = [])
 {
-    //console.log("searching", table.ref, "for",query);
+    //console.log("searching", table.ref, "for",query, "hierarechy", hierarchy);
     if(table.ref == query) {
         console.log("early return");
         return {
-            'elm': table,
-            'offset':0
+            elm: table,
+            offset:0,
+            hierarchy: hierarchy
         };
     }
 
@@ -1005,14 +1071,19 @@ function returnElementByRefName(table, query, parentOffset = 0)
             //console.log("is match?", table.chapters[i].ref, query);
             if(table.chapters[i].ref === query) {
                 return {
-                    'offset': parentOffset,
-                    'elm': table.chapters[i]
+                    offset: parentOffset,
+                    elm: table.chapters[i],
+                    hierarchy: hierarchy
                 };
             }
 
             // try subchapters
-            let tr = returnElementByRefName(table.chapters[i], query, parentOffset);
+            let tr = returnElementByRefName(table.chapters[i], query, parentOffset, hierarchy);
             if(tr) {
+                hierarchy.push({
+                    ref: table.chapters[i].ref,
+                    title: table.chapters[i].lang || table.chapters[i].en_EN
+                });
                 return tr;
             }
         }
@@ -1054,7 +1125,7 @@ let regex_autoref_fn = function(orig, CSBTS, CCB, CCBA, BSPM, BTS, InfoTS, TS, S
         return /*html*/`<a href="#" onclick="return dispFAQ(this);" data-cite="${orig}" class="src1">${orig}</a>`;
     }
 
-    return /*html*/`<a href="#" class="src1" data-cite="${orig}" onmouseover="return hoverSource(this);" onmouseout="return mouseoutSource(this)" onclick="return dispSource(this)">${orig}</a>`;
+    return /*html*/`<a href="#" class="src1" data-cite="${orig}" onmouseover="return hoverSource(this);" onmouseout="return mouseoutSource(this)" onclick="return dispSource(this, true)">${orig}</a>`;
 };
 
 const markup_regex = /<(goto|figref|ref|boxref|tableref)>([A-Za-z0-9., -]+)<\/(goto|figref|ref|boxref|tableref)>/g;
@@ -1062,7 +1133,7 @@ let regex_markup_fn = function(orig1, balise, content, balise2, position)
 {
     if(balise == 'goto')
     {
-        return /*html*/`<a href="#" class="src1" data-cite="${content}" onmouseover="return hoverSource(this);" onmouseout="return mouseoutSource(this)" onclick="return dispSource(this)">${content}</a>`;
+        return /*html*/`<a href="#" class="src1" data-cite="${content}" onmouseover="return hoverSource(this);" onmouseout="return mouseoutSource(this)" onclick="return dispSource(this, true)">${content}</a>`;
     }
     else if(balise == 'boxref')
     {
@@ -1228,7 +1299,7 @@ function dispFig(e)
         {
             for(let k = 0; k < figdata.cites_by_panel[i].length; k++)
             {
-                cites += /*html*/`<a href="#" class="src1" data-cite="${figdata.cites_by_panel[i][k]}" onmouseover="return hoverSource(this);" onmouseout="return mouseoutSource(this)" onclick="return dispSource(this)">${figdata.cites_by_panel[i][k]}</a>`;
+                cites += /*html*/`<a href="#" class="src1" data-cite="${figdata.cites_by_panel[i][k]}" onmouseover="return hoverSource(this);" onmouseout="return mouseoutSource(this)" onclick="return dispSource(this, true)">${figdata.cites_by_panel[i][k]}</a>`;
             }
         }
 
@@ -1322,6 +1393,9 @@ function loadMainPanel(chapter = 'TS', toRef = false)
             // click action to color in green until previous section
             let clickAction = prev_id ? '$(this).parent().parent().prevUntil(\'#'+prev_id+'\').addClass(\'textBlock-read\');' : '';
             let unClickAction = prev_id ? '$(this).parent().nextUntil(\'#'+this.id+'\').removeClass(\'textBlock-read\');' : '';
+            let shareLink = ref ? /*html*/`<a class="right" data-tippy-content="Sharing link to section ${ref}" href="#lang=${lang}&opened=${ref}">
+                <i class="material-icons">shared</i>
+            </a>` : '';
 
 
             $(this).prepend(/*html*/`<div class="section-tools hide-on-small-only">
@@ -1335,9 +1409,8 @@ function loadMainPanel(chapter = 'TS', toRef = false)
                     <i class="material-icons">done_all</i>
                 </a>
             </div>`).append(/*html*/`<i class="chapter-read material-icons green-text" onclick="${unClickAction} return markUnread(this, 'data-readmarker');" data-tippy-content="Already read ; click to mark as unread" data-readmarker="${ref}" style="vertical-align:bottom; margin-left:10px;${already_read}">done_all</i>
-            <a class="right" data-tippy-content="Sharing link to section ${ref}" href="#lang=${lang}&opened=${ref}">
-                <i class="material-icons">shared</i>
-            </a>`);
+            ${shareLink}
+            `);
         });
         $('#main-panel-holder').html('');
         html.appendTo('#main-panel-holder');
@@ -1427,4 +1500,50 @@ function highlightEndOfReading(current, previous)
 function lowlightEndOfReading()
 {
     readingBar.css('display', 'none');
+}
+
+// get position in the document given the position (scroll) on page
+function getPositionInStructure()
+{
+    let docViewTop = $(window).scrollTop();
+    let docViewBottom = docViewTop + $(window).height();
+
+    let visible = false;
+    $('#main-panel-holder').find('h1,h2,h3,h4,h5').each(function(){
+        let top = $(this).offset().top;
+        if(top >= docViewTop && top <= docViewBottom){
+            if(!$(this).find('a[data-cite]').length){
+                return true; // skip those who are not referenced
+            }
+            visible = $(this);
+            return false; // break on first visible element (or should we go to the last?)
+        }
+    });
+
+    if(!visible){
+        return;
+    }
+
+    return visible.find('a[data-cite]').attr('data-cite');
+}
+
+function generateBreadcrumbFromReference(ref)
+{
+    let uref = ref.split('.');
+    let target = wgI[uref[0]];
+
+    let e = returnElementByRefName(target, ref);
+    console.log(e);
+
+    if(!e || !e.hierarchy)
+        return false;
+    
+    let html = '';
+    for(let i = e.hierarchy.length-1; i >= 0; i--)
+    {
+        html += `<a href="#" class="breadcrumb">${e.hierarchy[i].ref} ${e.hierarchy[i].title}</a>`;
+    }
+
+    $('#breadcrumb').html(html);
+    return html;
 }
