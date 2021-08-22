@@ -4972,6 +4972,422 @@
                 ]
             }
         },
+        "9.1": {
+            "title": {
+                "en_EN": "  Visual guide to chapter 9 with relevant chapter numbers indicated in red."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "  "
+                ]
+            }
+        },
+        "9.2": {
+            "title": {
+                "en_EN": "  Components of ocean, cryosphere and sea level assessed in this chapter."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Schematic of processes (mCDW=modified Circumpolar Deep Water, GIA=Glacial Isostatic Adjustment). White arrows indicate ocean circulation. Pinning points indicate where the grounding line is most stable and ice sheet retreat will slow. (b) Geographic distribution of ocean and cryosphere components (numbers indicate (RGI Consortium, 2017) glacierized regions, see Figures 9.20 and 9.21 for labels). Sea ice shaded to indicate the annual mean concentration. Green ocean colours indicate larger surface current speed. Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.3": {
+            "title": {
+                "en_EN": " Sea Surface Temperature (SST) and its changes with time."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Time series of global mean SST  anomaly relative to 1950-1980 climatology. Shown are observational reanalyses (HadISST) and multi-model means from the CMIP historical, CMIP projections, and HighResMIP experiment. (b) Map of observed SST (1995-2014 climatology HadISST), (e) bias of CMIP and (h) bias of HighResMIP (bottom left) over 1995-2014. Also shown are 1950-2014 c) historical SST changes from observations, (f) CMIP and (i) HighResMIP, and (d) 2005-2100 SST change rate, (g) 2005-2050 change rate for SSP5-8.5 for the CMIP ensemble, and (j) 2005-2050 change rate for SSP5-8.5 for the HighResMIP ensemble.  No overlay indicates regions with high model agreement, where \u226580% of models agree on sign of change; diagonal lines indicate regions with low model agreement, where <80% of models agree on sign of change (see Cross-Chapter Box Atlas.1 for more information). Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.4": {
+            "title": {
+                "en_EN": " Global maps of observed mean fluxes (a, d, g), the observed trends in these fluxes (b, e, h) and the  projected rate of change in these fluxes from SSP5-8.5 (c, f, i). "
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Shown are the freshwater flux (a, b, c), net heat flux (d, e, f), and momentum flux or wind stress magnitude (g, h, i), with positive numbers indicating ocean freshening, warming, and accelerating respectively. The means and observed trends are calculated between 1995-2014 (freshwater and wind stress) or 2001-2014 (heat) and the SSP5-8.5 projected rates are between 1995-2100 using 20-year averages at each end of the time period. Observations show objective interpolation from CERES EBAF v4 (Kato et al., 2018), OAFlux-HR (Yu, 2019), and GPCP (Adler et al., 2003) of fluxes and flux trends. (b, e, h) Observed trends with no overlay indicates regions where the trends are significant at p = 0.34 level. Crosses indicate regions where trends are not significant. For (c, f, i) projections, no overlay indicates regions with high model agreement, where \u226580% of models agree on the sign of change; diagonal lines indicate regions with low model agreement, where <80% of models agree on the sign of change (see Cross-Chapter Box Atlas.1 for more information). Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.5": {
+            "title": {
+                "en_EN": "  Mixed layer depth in (a-d) winter and (e-h) summer."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a, e) Observed climatological mean mixed layer depth (based on density threshold) from the Argo Mixed Layer Depth (Holte et al., 2017) observations 2000-2019. (b, f) Bias between the observation-based estimate (2000-2019) and the 1995-2014 CMIP6 climatological mean mixed layer depth. (c, d, g, h) Projected MLD change from 1995-2014 to 2081-2100 under (c, g) SSP1-2.6 and (d, h) SSP5-8.5 scenarios. The (a, b, c, d) Winter row shows DJF in the Northern Hemisphere and JJA in the Southern Hemisphere, and the (e, f, g, h) Summer row shows JJA in the Northern Hemisphere and DJF in the Southern Hemisphere. The mixed layer depth is the depth where the potential density is 0.03 kg m-3 denser than at 10m. No overlay indicates regions with high model agreement, where \u226580% of models agree on the sign of change; diagonal lines indicate regions with low model agreement, where <80% of models agree on the sign of change (see Cross-Chapter Box Atlas.1 for more information). Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.6": {
+            "title": {
+                "en_EN": "  Ocean heat content (OHC) and its changes with time."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Time series of global ocean heat content anomaly relative to a 2005-2014 climatology in the upper 2000m of the ocean. Shown are observations (Ishii et al., 2017; Baggenstos et al., 2019; Shackleton et al., 2020), model-observation hybrids (Cheng et al., 2019; Zanna et al., 2019a), and multi-model means from the CMIP6 historical (29 models) and SSP scenarios (label subscripts indicate number of models per SSP). (b-g) Maps of Ocean Heat Content across different time periods, in different layers, and from different data sets\/experiments. Maps show the CMIP6 ensemble bias and observed (Ishii et al., 2017) trends of OHC for (b, c) 0-700m for the period 1971-2014, and (e, f) 0-2000m for the period 2005-2017. CMIP6 ensemble mean maps show projected rate of change 2015-2100 for (d) SSP5-8.5 and (g) SSP1-2.6 scenarios. Also shown are the projected changes in 0-700m OHC for (d) SSP1-2.6 and (g) SSP5-8.5 in the CMIP6 ensembles, for the period 2091-2100 versus 2005-2014. No overlay indicates regions with high model agreement, where \u226580% of models agree on the sign of change; diagonal lines indicate regions with low model agreement, where <80% of models agree on the sign of change (see Cross-Chapter Box Atlas.1 for more information). Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.7": {
+            "title": {
+                "en_EN": "  Meridional-depth profiles of zonal-mean potential temperature in the ocean and its rate of change in the upper 2000m of the Global, Pacific, Atlantic, and Indian Oceans."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Shown are (a, e, i, m) observed temperature (Argo climatology 2005-2014), (b, f, j, n) bias of the CMIP6 ensemble over this period, and future changes under (c, g, k, o) SSP1-2.6 and (d, h, l, p) SSP5-8.5. No overlay indicates regions with high model agreement, where \u226580% of models agree on the sign of change; diagonal lines indicate regions with low model agreement, where <80% of models agree on the sign of change (see Cross-Chapter Box Atlas.1 for more information). Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.8": {
+            "title": {
+                "en_EN": "  Decomposition of ocean simulated ocean heat content and northward heat transport."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a, c, e) Total ocean heat content (0-2000 m) warming rate as observed and simulated by CMIP5 models over the historical period (1951-2011) and under the RCP8.5 future (2011-2060) versus the associated decomposed (b, d, f) added heat contribution (neglecting changes in ocean circulation) to the total (Bronselaer and Zanna, 2020). (g) Relationship between northward heat transport and Atlantic Meridional Overturning Circulation in HighResMIP models (1950-2050) and observations during the RAPID period (2004-2018). Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.9": {
+            "title": {
+                "en_EN": "  Long-term trends of ocean heat content and surface temperature."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a, b) Ice-core rare gas estimates of past mean ocean heat content OHC (ZJ), scaled to global mean ocean temperature (\u00b0C) and to steric GMSL (m) (red dashed line) are compared to surface temperatures (black solid line, gold solid line; \u00b0C rightmost axis). Southern Ocean SST from multiple proxies in 11 sediment cores and from ice core deuterium excess (Uemura et al., 2018). a) Penultimate glacial interval to last interglacial, 150,000-100,000 yr B2K (Shackleton et al., 2020). b) Last glacial interval to modern interglacial, 40,000-0 yr B2K (Baggenstos et al., 2019; Shackleton et al., 2019). Changes in OHC (dashed lines) track changes in Southern Ocean SST (solid lines). c) Long-term projected (2000 to 12000 CE) changes of OHC (dashed lines) in response to four greenhouse gas emissions scenarios (Clark et al., 2016) scale similarly to large-scale paleo changes but lag projected gobal mean SST (solid lines). d) model simulated 1500-1999 OHC (Gregory et al., 2006) and 1955-2019 observations (Levitus et al., 2012) updated by NOAA NODC. All data expressed as anomalies relative to pre-industrial time. Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.10": {
+            "title": {
+                "en_EN": "  AMOC strength in simulations and sensitivity to resolution and forcing."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (Top left) AMOC magnitude in PMIP experiments. (Top right) Time series of AMOC from CMIP5 and CMIP6 based on (Menary et al., 2020c). (Bottom left) Percent change in AMOC strength per year at different resolutions over the 1950-2050 period with colours for model families (Roberts et al., 2020b).  (Bottom right) A compilation (Jackson and Wood, 2018) of percentage changes in the simulated AMOC after applying an additional freshwater flux in the subpolar North Atlantic at the surface for a limited time (de Vries and Weber, 2005; Stouffer et al., 2006; Yin and Stouffer, 2007; Jackson, 2013; Liu and Liu, 2013; Jackson and Wood, 2018; Haskins et al., 2019). Symbols indicate whether the AMOC recovers within 200 years (circles), is starting to recover (upwards arrow) or does not recover within 200 years (downwards arrow). Symbol size indicates rate of freshwater input. Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).   "
+                ]
+            }
+        },
+        "9.11": {
+            "title": {
+                "en_EN": "  Simulated barotropic streamfunction, surface speed and major current transport in CMIP5 and CMIP6."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Mean barotropic streamfunction (Sv) 1995-2014 and projected barotropic streamfunction change (Sv, 2018-2100 vs. 1995-2014) under (b) SSP5-8.5. (d) Mean surface (0-100 m) speed (m\/s) and projected surface speed change (m\/s, 2081-2100) versus 1995-2014 under (e) SSP5-8.5. (c, f) Median and likely range of 1995-2014 and 2081-2100 transport of 3 currents with the largest transport change and 4 with the largest fractional change (Sen Gupta et al., 2016). (c) Deep currents: Agulhas Extension (ACx), Gulf Stream (GS), Gulf Stream Extension (GSx), Tasman Leakage (TASL), East Australia Current Extension (EACx), Indonesian Throughflow (ITF), and Brazil Current (BC). (f) Shallow currents: as for deep but with New Guinea Current (NGC), and without ACx.  No overlay indicates regions with high model agreement, where \u226580% of models agree on the sign of change; diagonal lines indicate regions with low model agreement, where <80% of models agree on the sign of change (see Cross-Chapter Box Atlas.1 for more information). Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.12": {
+            "title": {
+                "en_EN": ""
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a-f) CMIP6 multi-model mean projected change contributions to relative sea level change in (a,d) steric sea level anomaly, (b, e) thermosteric sea level anomaly, and (c, f) halosteric sea level anomaly between 1995-2014 and 2081-2100 using a method that does not require a reference level (Landerer et al., 2007). Global mean change has been removed from these figures, consistent with the methods in Sections 9.6.3 and 9.SM.4.3 and the definitions of (Gregory et al., 2019). See Figure 9.27 for GMSL. (g-i) Standard deviation of ocean dynamic sea-level change from (g) Aviso observations (10 day highpass filter), (h) 5-day mean of high-resolution OMIP-2 models forced with observed fluxes, and (i) 5-day mean of low-resolution OMIP-2 models which are comparable in resolution to the models in (a-f). No overlay indicates regions with high model agreement, where \u226580% of models agree on the sign of change; diagonal lines indicate regions with low model agreement, where <80% of models agree on the sign of change (see Cross-Chapter Box Atlas.1 for more information). Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.13": {
+            "title": {
+                "en_EN": "  Arctic sea-ice historical records and CMIP6 projections."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Left: Absolute anomaly of monthly-mean Arctic sea-ice area during the period 1979 to 2019 relative to the average monthly-mean Arctic sea-ice area during the period 1979 to 2008. Right: Sea-ice concentration in the Arctic for March and September, which usually are the months of maximum and minimum sea-ice area, respectively. First column: Satellite-retrieved mean sea-ice concentration during the decade 1979-1988. Second column: Satellite-retrieved mean sea-ice concentration during the decade 2010-2019. Third column: Absolute change in sea-ice concentration between these two decades, with grid lines indicating non-significant differences. Fourth column: number of available CMIP6 models that simulate a mean sea-ice concentration above 15 % for the decade 2045-2054. The average observational record of sea-ice area is derived from the UHH sea-ice area product (Doerr et al., 2021), based on the average sea-ice concentration of OSISAF\/CCI (OSI-450 for 1979-2015, OSI-430b for 2016-2019)(Lavergne et al., 2019), NASA Team (version 1, 1979-2019)(Cavalieri et al., 1996) and Bootstrap (version 3, 1979-2019)(Comiso, 2017) that is also used for the figure panels showing observed sea-ice concentration. Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.14": {
+            "title": {
+                "en_EN": "  Monthly mean March (a-d) and September (e-h) sea-ice area as a function of global surface air temperature (GSAT) anomaly (a,e); cumulative anthropogenic CO2 emissions (b,f); year (c,g) in CMIP6 model simulations (shading, ensemble mean as bold line) and in observations (black dots)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Panels d and h show the sensitivity of sea-ice loss to anthropogenic CO2 emissions as a function of the modelled sensitivity of GSAT to anthropogenic CO2 emissions. In panels d and h, the black dot denotes the observed sensitivity, while the shading around it denotes internal variability as inferred from CMIP6 simulations (after Notz and SIMIP Community, 2020). Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.15": {
+            "title": {
+                "en_EN": "  Antarctic sea-ice historical records and CMIP6 projections."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Left: Absolute anomaly of observed monthly-mean Antarctic sea-ice area during the period 1979 to 2019 relative to the average monthly-mean Antarctic sea-ice area during the period 1979 to 2008. Right: Sea-ice coverage in the Antarctic as given by the average of the three most widely used satellite-based estimates for September and February, which usually are the months of maximum and minimum sea-ice coverage, respectively. First column: Mean sea-ice coverage during the decade 1979-1988. Second column: Mean sea-ice coverage during the decade 2010-2019. Third column: Absolute change in sea-ice concentration between these two decades, with grid lines indicating non-significant differences. Fourth column: number of available CMIP6 models that simulate a mean sea-ice concentration above 15 % for the decade 2045-2054. The average observational record of sea-ice area is derived from the UHH sea-ice area product (Doerr et al., 2021), based on the average sea-ice concentration of OSISAF\/CCI (OSI-450 for 1979-2015, OSI-430b for 2016-2019)(Lavergne et al., 2019), NASA Team (version 1, 1979-2019)(Cavalieri et al., 1996) and Bootstrap (version 3, 1979-2019)(Comiso, 2017) that is also used for the figure panels showing observed sea-ice concentration. Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.16": {
+            "title": {
+                "en_EN": "  Mass changes and mass change rates for Greenland and Antarctic ice sheet regions."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (Upper Left) Time series of mass changes in Greenland for each of the major drainage basins shown in the inset figure (Bamber et al., 2018b; Mouginot et al., 2019) for the periods 1972 \u2013 2018 and 1992-2018. (Upper Right) Time series of mass changes for three portions of Antarctica (Bamber et al., 2018b) for the period 1992 \u2013 2018.  (Lower rows) Estimates of mass change rates of surface mass balance, discharge and mass balance in seven Greenland regions (Bamber et al., 2018b; Mankoff et al., 2019; Mouginot et al., 2019; King et al., 2020). Estimates of mass change rates of surface mass balance, discharge and mass balance for three regions of Antarctica (Bamber et al., 2018b; The IMBIE Team et al., 2018; Rignot et al., 2019). Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.17": {
+            "title": {
+                "en_EN": "   Greenland Ice Sheet cumulative mass change and equivalent sea level contribution."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) A p-box (Section 9.6.3.2) based estimate of the range of values of paleo Greenland ice sheet mass and sea level equivalents relative to present day and the median over all central estimates (Simpson et al., 2009; Argus and Peltier, 2010; Fyke et al., 2011; Robinson et al., 2011; Colville et al., 2011; Dolan et al., 2011; Born and Nisancioglu, 2012; Miller et al., 2012b; Helsen et al., 2013; Nick et al., 2013; Quiquet et al., 2013; Stone et al., 2013; Dahl-Jensen et al., 2013; Lecavalier et al., 2014; Robinson and Goelzer, 2014; Colleoni et al., 2014; Koenig et al., 2015; Peltier et al., 2015; Calov et al., 2015; Stuhne and Peltier, 2015; Vizcaino et al., 2015; Calov et al., 2018; Dutton et al., 2015; Goelzer et al., 2016; Khan et al., 2016; Yau et al., 2016; de Boer et al., 2017; Simms et al., 2019); and (b) cumulative mass loss (and sea level equivalent) from 1972 (Mouginot et al., 2019) and 1992 (Bamber et al., 2018b; The IMBIE Team, 2019), the estimated mass loss from 1840 (Box and Colgan, 2013; Kjeldsen et al., 2015) indicated with a shaded box and projections from ISMIP6 by 2100 under RCP8.5\/SSP5-8.5 and RCP2.6\/SSP1-2.6 scenarios (thin lines from (Goelzer et al., 2020; Edwards et al., 2021; Payne et al., 2021) and likely and very likely range of the ISMIP6 emulation (shades and bold line (Edwards et al., 2021)) are shown as a timeseries. Schematic interpretations of individual reconstructions (Lecavalier et al., 2014; Goelzer et al., 2016; Berends et al., 2019) of the spatial extent of the Greenland ice sheet are shown for the (c) mid-Pliocene Warm Period, (d) the Last Interglacial and (e) the Last Glacial Maximum: grey shading shows extent of grounded ice. Maps of mean elevation changes (f) 2010-2017 derived from CryoSat 2 radar altimetry (Bamber et al., 2018b) and (g) ISMIP6 model mean (2093-2100) projected changes for the MIROC5 climate model under the RCP8.5 scenario (Goelzer et al., 2020). Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.18": {
+            "title": {
+                "en_EN": ""
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) A p-box (Section 9.6.3.2) based estimate of the range of values of paleo Antarctic ice sheet mass and sea level equivalents relative to present day and the median over all central estimates (Bamber et al., 2009; Argus and Peltier, 2010; Dolan et al., 2011; Mackintosh et al., 2011; Golledge et al., 2012; Miller et al., 2012b; Whitehouse et al., 2012; Golledge et al., 2013; Ivins et al., 2013; Argus et al., 2014; Briggs et al., 2014; Golledge et al., 2014; Maris et al., 2014; De Boer et al., 2015; Dutton et al., 2015; Golledge et al., 2015; Pollard et al., 2015; DeConto and Pollard, 2016; Gasson et al., 2016; Goelzer et al., 2016; Yan et al., 2016; de Boer et al., 2017; Golledge et al., 2017b; Kopp et al., 2017; Simms et al., 2019) ; and cumulative mass loss (and sea level equivalent) since 2015, with satellite observations shown from 1993 (Bamber et al., 2018a; The IMBIE Team et al., 2018; WCRP Global Sea Level Budget Group, 2018a) and observations from 1979 (Rignot et al., 2019), ISMIP6 projected changes by 2100 under RCP8.5\/SSP5-8.5 and RCP2.6\/SSP1-2.6 scenarios (thin lines from (Seroussi et al., 2020; Edwards et al., 2021; Payne et al., 2021) and 17th to 83rd, 5th to 95th percentile ranges of the ISMIP6 emulation (shaded line, (Edwards et al., 2021)). Right, 17th to 83rd, 5th to 95th percentile ranges for ISMIP6, emulator, and LARMIP-2 including SMB at 2100. Schematic interpretations of individual reconstructions (Anderson et al., 2002; Bentley et al., 2014; De Boer et al., 2015; Goelzer et al., 2016) of the spatial extent of the Antarctic ice sheet are shown for the (b) mid-Pliocene Warm Period, (c) the Last Interglacial and (d) the Last Glacial Maximum (Fretwell et al., 2013): grey shading shows extent of grounded ice. Maps of mean elevation changes (e) 1978-2017 derived from multi-mission satellite altimetry (Schr\u00f6der et al., 2019) and (f) ISMIP6 (2061-2100) projected changes for an ensemble using the NorESM1-M climate model under the RCP8.5 scenario (Seroussi et al., 2020). Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.19": {
+            "title": {
+                "en_EN": "  Ice shelf basal melt rates for present-day (upper panels) and changes from present-day to the end of the 21st century under the RCP8.5 scenario (lower panels)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Present-day melt rates were estimated through: the input-output method constrained by satellite observations and atmosphere\/snow simulations (Rignot et al., 2013) and representative of 2003-2008 (upper left); the non-local-PIGL parameterization constrained by observation-based ocean properties (Jourdain et al., 2020) and representative of 1995-2014 (upper centre); the Finite Element Sea-ice\/ice-shelf Ocean Model (FESOM) simulation over 2006-2015, forced by atmospheric conditions from a CMIP5 multi-model mean (MMM) under the RCP8.5 scenario ((Naughten et al., 2018) upper right). Future anomalies are calculated as 2081-2100 minus present-day using the ISMIP6 non-local-MeanAnt and non-local-PIGL parameterizations (Jourdain et al., 2020) lower left and centre respectively) based on projections from the NorESM1-M CMIP5 model, and the FESOM-MMM projection (lower right). Note the symmetric-log colour bar (linear around zero, logarithmic for stronger negative and positive values). Inset highlights the Amundsen Sea Region. Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.20": {
+            "title": {
+                "en_EN": "  Global and regional glacier mass change rate between 1960 and 2019."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The time series of annual and  decadal mean mass change are based on glaciological and geodetic balances (Zemp et al. (2019) and Zemp et al. (2020)). Superimposed are the 2002-2019 average rates by (Cirac\u00ec et al., 2020) based on the Gravity Recovery and Climate Experiment (GRACE), 2006-2015 estimated rates as assessed in SROCC and the new decadal averages (2000-2009 and 2010-2019) by Hugonnet et al. (2021). (*) New regional estimates for the Andes (Dussaillant et al., 2019), High Mountain Asia (Shean et al., 2020), Iceland (A\u00f0algeirsd\u00f3ttir et al., 2020), Central Europe (Sommer et al., 2020) and Svalbard (Schuler et al., 2020) are also shown. The uncertainty reported in each study is shown. See Figure 9.2 for the location of each region. Further details on data sources and processing are available in the chapter data table (Table 9.SM.9). "
+                ]
+            }
+        },
+        "9.21": {
+            "title": {
+                "en_EN": "  Global and regional glacier mass evolution between 1901 and 2100 relative to glacier mass in 2015."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Reconstructed glacier mass change through the 20th century (Marzeion et al., 2015) and observed during 1961-2016 (Zemp et al., 2019). Projected (2015-2100) glacier mass evolution is based on the median of three Representative Concentration Pathways (RCPs) emission scenarios (Marzeion et al., 2020). Uncertainties are in all cases the 90% confidence interval. For a better comparison between regions, the maximum relative mass change was set to 200%, although for three regions, the volume changes between 1901 and 2015 exceeded that value. For the Low Latitude, New Zealand, and High Mountain Asia glaciers, the changes were larger than 1000%, 350%, and 250%, respectively. See Figure 9.2 for the location of each region. Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.22": {
+            "title": {
+                "en_EN": "  Simulated versus observed permafrost extent and permafrost volume change by warming level."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " a) Diagnosed Northern Hemisphere permafrost extent (area with perennially frozen ground at 15 m depth, or at the deepest model soil level if this is above 15 m) for 1979-1998, for available CMIP5 and CMIP6 models, from the first ensemble member of the historical coupled run, and for CMIP6 AMIP (atmosphere+land surface, prescribed ocean) and land-hist (land only, prescribed atmospheric forcing) runs. Estimates of current permafrost extents based on physical evidence and reanalyses are indicated as black symbols (triangle: Obu et al. (2018); star: Zhang et al. (1999); circle: central value and associated range from Gruber (2012)). b) Simulated global permafrost volume change between the surface and 3 m depth as a function of the simulated GSAT change, from the first ensemble members of a selection of scenarios, for available CMIP6 models. Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.23": {
+            "title": {
+                "en_EN": "  Observed monthly Northern Hemisphere (a) snow cover trends and (b) anomalies, and (c) snow mass trends and (d) anomalies."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " From the observation-based ensemble discussed in the text (Mudryk et al., 2020). Trends and anomalies are calculated over the 1981-2018 period. Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.24": {
+            "title": {
+                "en_EN": "  Simulated CMIP6 and observed snow cover extent (SCE)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " a) Simulated CMIP6 and observed (Mudryk et al., 2020) SCE (in millions of km2) for 1981-2014. Boxes and whiskers with outliers represent monthly mean values for the individual CMIP6 models averaged over 1981-2014, with the red bar indicating the median of the CMIP6 multi-model ensemble for that period. The observed interannual distribution over the period is represented in green, with the yellow bar indicating the median. b) Spring (March to May) Northern Hemisphere snow cover extent against GSAT (relative to the 1995-2014 average) for the CMIP6 Tier 1 scenarios (SSP1-2.6, SSP2-4.5, SSP3-7.0 and SSP5-8.5), with linear regressions. Each data point is the mean for one CMIP6 simulation (first ensemble member for each available model) in the corresponding temperature bin. Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.25": {
+            "title": {
+                "en_EN": "  Literature global mean sea level (GMSL) projections (m) for 2050 (left) and 2100 (right) since 1995-2014, for RCP 8.5\/SSP5-8.5 (top set), RCP 4.5\/SSP2-4.5 (middle set), and RCP 2.6\/ SSP1-2.6 (bottom set)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Projections are standardised to account for minor differences in time periods. Thick bars span from the 17th-83rd percentile projections, and thin bars span the 5th-95th percentile projections. The different assessments of ice sheet contributions are indicated by \u2018MED\u2019 (ice sheet projections including only processes in whose quantification there is medium confidence), \u2018MICI\u2019 (ice sheet projections which incorporate Marine Ice Cliff Instability), and \u2018SEJ\u2019 (structured expert judgement (SEJ) to assess the central range of the ice-sheet projection distributions). \u2018Survey\u2019 indicates the results of a 2020 survey of sea-level experts on GMSL rise from all sources (Horton et al., 2020). Projection categories incorporating processes in which there is low confidence (\u2018MICI\u2019 and \u2018SEJ\u2019) are lightly shaded. Dispersion among the different projections represents deep uncertainty, which arises as a result of low agreement regarding appropriate conceptual models describing ice sheet behaviour and low agreement regarding probability distributions used to represent key uncertainties. Individual studies are shown in Tables 9.SM.5, 9.SM.6. Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.26": {
+            "title": {
+                "en_EN": "  Median global mean and regional relative sea-level projections (m) by contribution for the SSP1-2.6 and SSP5-8.5 scenarios. "
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(upper time series) Global mean contributions to sea-level change as a function of time, relative to 1995-2014. (lower maps) Regional projections of the sea-level contributions in 2100 relative to 1995-2014 for SSP5-8.5 and SSP1-2.6. Vertical land motion is common to both SSPs. Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.27": {
+            "title": {
+                "en_EN": "  Projected global mean sea level rise under different SSP scenarios."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Likely global mean sea-level change for SSP scenarios resulting from processes in whose projection there is medium confidence. Projections and likely ranges at 2150 are shown on right. Lightly shaded ranges and thinner lightly shaded ranges on the right show the 17th-83rd and 5th-95th percentile ranges for projections including low confidence processes for SSP1-2.6 and SSP5-8.5 only, derived from a p-box including Structured Expert Judgement and Marine Ice Cliff Instability projections. Black lines show historical GMSL change, and thick solid and dash-dotted black  lines  show  the  mean  and  likely  range  extrapolating  the  1993-2018  satellite  altimeter  trend  and acceleration. Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.28": {
+            "title": {
+                "en_EN": "  Regional sea level change at 2100 for different scenarios (with respect to 1995-2014)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Median regional relative sea-level change from 1995 to 2014 up to 2100 for (a) SSP1-1.9, (b) SSP1-2.6, (c) SSP2-4.5, (d) SSP3-7.0, (e) SSP5-8.5, and (f) width of the likely range for SSP3-7.0. The high uncertainty in projections around Alaska and the Aleutian Islands arises from the tectonic contribution to vertical land motion, which varies greatly over short distances in this region. Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.29": {
+            "title": {
+                "en_EN": "  Timing of when GMSL thresholds of 0.5, 1.0, 1.5 and 2.0 m are exceeded, based upon four different ice-sheet projection methods informing post-2100 projections."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Methods are labelled based on their treatment of ice sheets. \u201cNo acceleration\u201d assumes constant rates of mass change after 2100. \u201cAssessed ice sheet\u201d models post-2100 ice sheet losses using a parametric fit (Supplementary Material 9.SM.4) extending to 2300 based on a multimodel assessment of contributions under RCP2.6 and RCP8.5 at 2300. Structured Expert Judgement (SEJ) employs ice-sheet projections from Bamber et al. (2019) Marine Ice Cliff Instability (MICI) combines the parametric fit (Supplementary Material 9.SM.4) for Greenland with Antarctic projections based on (DeConto et al., 2021). Circles\/thick bars\/thin bars represent the 50th, 17th-83rd, and 5th-95th percentiles of the exceedance timing for the indicated projection method. Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.30": {
+            "title": {
+                "en_EN": "  Global mean sea-level commitment as a function of peak global surface air temperature."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " From models (Clark et al., 2016; DeConto and Pollard, 2016; Garbe et al., 2020; Van Breedam et al., 2020) and paleo data on 2000-year (lower row) and 10,000 year (upper row) timescales. Columns indicate different contributors to GMSL rise (from left to right: total GMSL change, Antarctic Ice Sheet, Greenland Ice Sheet, global mean thermosteric sea-level rise, and glaciers). Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).   "
+                ]
+            }
+        },
+        "9.31": {
+            "title": {
+                "en_EN": "  Historical occurrences of minor extreme still water levels."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Defined as the 99th percentile of daily observed water levels over 1995-2014. (a) Percent change in occurrences over 1995-2014 relative to those over 1960-1980. (b-g) Annual mean sea level (blue) and annual occurrences of extreme still water levels over the 1995-2014 99th percentile daily maximum (yellow) at six selected tide gauge locations. Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
+        "9.32": {
+            "title": {
+                "en_EN": "  Projected median frequency amplification factors for the 1% average annual probability extreme still water level in 2050 (a, c, e) and 2100 (b, d, f)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Based on a peak-over-threshold (99.7%) method applied to the historical extreme still water levels of GESLA2 following SROCC and additionally fitting a Gumbel distribution between MHHW and the threshold following (Buchanan et al., 2016), using the regional sea-level projections of this chapter (Section 9.6.3.3) for (a, b) SSP5-8.5, (c, d) SSP2-4.5 and (e, f) SSP1-2.6. Further details on data sources and processing are available in the chapter data table (Table 9.SM.9).  "
+                ]
+            }
+        },
         "2.X": {
             "title": {
                 "en_EN":""
