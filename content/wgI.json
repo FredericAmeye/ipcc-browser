@@ -6366,6 +6366,84 @@
                 ]
             }
         },
+        "Box 10.2,Figure1": {
+            "title": {
+                "en_EN":"Schematic of two types of physical climate storylines with a particular climate impact of concern (red)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The storylines are defined by specified elements (dark blue). Variable elements (light blue) are simulated conditional on the specified elements. The white elements are ‘blocked’ since their state does not need to be known to determine the light blue elements. Other types of storylines could be defined by specifying other elements (e.g., storylines of different climate sensitivities or different representative concentration pathways). (a) Event storyline, where the particular dynamical conditions during the event as well as the regional warming are specified and control the hazard arising from the event. (b) Dynamical storyline, where the global warming level and remote drivers are specified and control the long-term changes in atmospheric dynamics and regional warming. In both storylines, the impact is also conditioned on specified exposure and vulnerability. Adapted from Shepherd (2019)."
+                ]
+            }
+        },
+        "Box 10.3,Figure1": {
+            "title": {
+                "en_EN":"Urban warming compared to global GHG-induced warming."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) Change in the annual mean surface air temperature over the period 1950‒2018 based on the local linear trend retrieved from CRU TS (°C per 68 years). This background warming is compared to the local warming that has been reported during 1950‒2018 in the literature from historical urbanization. The relative share of the total warming as percentage between the urban warming and the surrounding warming is plotted in a circle for each city. This map has been compiled from a review study (Hamdi et al., 2020). (b) Low-pass filtered time series of the annual mean temperature (°C) observed in the urban station of Tokyo (red line) and the rural reference station in Choshi (blue line) in Japan. The filter is the same as the one used in Figure 10.10. (c) Uncertainties in the relative share of urban warming with respect to the total warming (%) related to the use of different global observational datasets: CRU TS (brown circles), Berkeley Earth (dark blue downward triangle), HadCRUT5 (cyan upward triangle), Cowtan Way (orange plus) and GISTEMP (purple squares). Further details on data sources and processing are available in the chapter data table (Table 10.SM.11)."
+                ]
+            }
+        },
+        "Cross-Chapter Box 10.1,Figure1": {
+            "title": {
+                "en_EN":"Mechanisms of potential influences of recent and future Arctic warming on mid-latitude climate and variability."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Mechanisms are different for winter and summer with different associated influences on mid-latitudes. The mechanisms involve changes in the polar vortex, storm tracks, planetary waves and jet stream. "
+                ]
+            }
+        },
+        "Cross-Chapter Box 10.2,Figure1": {
+            "title": {
+                "en_EN":"Boreal spring (March to May) daily mean surface air temperature in the Sierra Nevada region in California."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) Present climate (1981‒2000 average, in °C) in the GFDL-CM3  AOGCM,  interpolated  to  8  km  (left),  GCM  bias  adjusted  (using quantile mapping) to observations at 8 km resolution (middle) and WRF RCM at 3 km horizontal resolution  (right).  (b)  Climate  change  signal  (2081‒2100  average minus 1981‒2000 average according to RCP8.5, in °C) in the AOGCM (left), the bias  adjusted  AOGCM  (middle)  and  the  RCM  (right).  Further  details  on  data sources and processing are available in the chapter data table (Table 10.SM.11). Adapted from Maraun et al. (2017b)."
+                ]
+            }
+        },
+        "Cross-Chapter Box 10.3,Figure1": {
+            "title": {
+                "en_EN":""
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Schematic illustration of the process to derive the assessment of regional climate change information based on a distillation process of multiple lines of evidence taken from observed trends, attribution of trends or events, climate model projections, and physical understanding."
+                ]
+            }
+        },
+        "Cross-Chapter Box 10.4,Figure1": {
+            "title": {
+                "en_EN":"Figure 1: Historical annual-mean surface air temperature linear trend (°C per decade) and its attribution over the Hindu Kush Himalaya (HKH) region."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) Observed trends from Berkeley Earth (also showing the HKH outline), CRU TS (also showing the AR6 TIB outline, for ease of comparison to the Interactive Atlas), APHRO-MA and JRA-55 datasets over 1961–2014. (b) Models showing the coldest, median and warmest HKH temperature linear trends among the CMIP6 historical ensemble over 1961–2014. (c) Lowpass-filtered time series of annual-mean surface air temperature anomalies (°C, baseline 1961–1980) over the HKH region as outlined in panel (a), showing means of CMIP6 hist all-forcings (red), and the CMIP6 hist all-forcings sample corresponding to DAMIP experiments (pink), for hist-aer (grey) and hist- GHG (pale blue). Observed datasets are Berkeley Earth (dark blue), CRU (brown), APHRO-MA (light green) and JRA-55 (dark green). The filter is the same as that used in Figure 10.10. (d) Distribution of annual mean surface air temperature trends (°C per decade) over the HKH region from 1961 to 2014 for ensemble means, the aforementioned observed and reanalysis data (black crosses), individual members of CMIP6 hist all-forcings (red circles), CMIP6 hist-GHG (blue triangles), CMIP6 hist- aer (grey triangles), and box-and-whisker plots for the SMILEs used throughout Chapter 10 (grey shading). Ensemble means are also shown. All trends are estimated using ordinary least-squares regression and box-and-whisker plots follow the methodology used in Figure 10.6. Further details on data sources and processing are available in the chapter data table (Table 10.SM.11)."
+                ]
+            }
+        },
         "2.X": {
             "title": {
                 "en_EN":""
@@ -11175,12 +11253,14 @@
             {
                 "ref":"Box 10.1",
                 "en_EN":"Regional climate in AR5 and the Special Reports SRCCL, SROCC, SR1.5",
-                "startPage":18
+                "startPage":18,
+                "hasFile": true
             },
             {
                 "ref":"Cross-Chapter Box 10.1",
                 "en_EN":"Influence of the Artic on mid-latitue climate",
-                "startPage":20
+                "startPage":20,
+                "hasFile": true
             },
             {
                 "ref": "10.2",
@@ -11415,7 +11495,8 @@
             {
                 "ref":"Cross-Chapter Box 10.2",
                 "en_EN":"Relevance and limitations of bias adjustment",
-                "startPage":63
+                "startPage":63,
+                "hasFile": true
             },
             {
                 "ref": "10.4",
@@ -11561,12 +11642,14 @@
             {
                 "ref":"Box 10.2",
                 "en_EN":"Storylines for constructing and communicating regional climate information",
-                "startPage":89
+                "startPage":89,
+                "hasFile": true
             },
             {
                 "ref":"Cross-Chapter Box 10.3",
                 "en_EN":"Assessment of climate change information at the regional scale",
-                "startPage":91
+                "startPage":91,
+                "hasFile": true
             },
             {
                 "ref": "10.6",
@@ -11740,12 +11823,14 @@
             {
                 "ref":"Box 10.3",
                 "en_EN":"Urban Climate: Processes and Trends",
-                "startPage":113
+                "startPage":113,
+                "hasFile": true
             },
             {
                 "ref":"Cross-Chapter Box 10.4",
                 "en_EN":"Climate Change over the Hindu Kush Himalaya",
-                "startPage":116
+                "startPage":116,
+                "hasFile": true
             },
             {
                 "ref": "10.7",

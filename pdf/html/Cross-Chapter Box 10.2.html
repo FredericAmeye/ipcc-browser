@@ -1,0 +1,134 @@
+<p>Bias adjustment is an approach to post-process climate model output and has become widely used in climate 
+hazard and impact studies (Gangopadhyay et al., 2011; Hagemann et al., 2013; Warszawski et al., 2014) and 
+national assessment reports (Cayan et al., 2013; Georgakakos et al., 2014). Despite its wide use, bias 
+adjustment was not assessed in AR5 (Flato et al., 2014). Several problems have been identified that may 
+arise from an uncritical use of bias adjustment, and that may result in misleading impact assessments. The 
+rationale of this Cross-Chapter Box is to provide an overview of the use of bias adjustment in this report, and 
+to assess key limitations of the approach. </p>
+
+<p>Bias-adjusted climate model output is used extensively throughout this report. Several results from Chapter 
+8, and many of the climatic impact-drivers in Chapter 12 (Section 12.2) are based on bias adjustment. The 
+Atlas presents many results both as raw and bias-adjusted data (Atlas.1.4.5). The application of bias 
+adjustment in the WGI1 report was informed by the assessment in Chapter 10 and this Cross-Chapter Box. 
+Finally, bias adjustment is crucial for many studies assessed in the WG II report. An overview of bias 
+adjustment can be found in Section 10.3.1.3, a general performance assessment of individual method classes 
+in Section 10.3.3.7. The fitness of bias adjustment for climate change applications is assessed in Section 
+10.3.3.9. </p>
+
+<h3>Relevance of bias adjustment</h3>
+
+<p>An argument made for the use of bias adjustment is the fact that impact models are commonly very sensitive, 
+often nonlinearly, to the input climatic variables and their biases, in particular when threshold-based climate 
+indices are required (Dosio, 2016). There are, however, cases where bias adjustment may not be necessary or 
+useful, such as: when only qualitative statements are required; when only changes in mean climate are 
+considered (instead of absolute values); when percentile-based indices are used. </p>
+
+<h3>Modification of the climate change signal</h3>
+
+<p>Bias adjustment methods like quantile mapping can modify simulated climate trends, with impacts on 
+changes to climate indices, in particular, extremes (Haerter et al., 2011; Dosio et al., 2012; Ahmed et al., 
+2013; Hempel et al., 2013; Maurer and Pierce, 2014; Cannon et al., 2015; Dosio, 2016; Casanueva et al., 
+2020). Some argue that these trend modifications are implicit corrections of state-dependent biases (Boberg 
+and Christensen, 2012; Gobiet et al., 2015). However, others argue that the modification is generally invalid 
+because the modification is linked to the representation of day-to-day rather than long-term variability 
+(Pierce et al., 2015; Maraun et al., 2017); a given temperature value does not necessarily belong to the same 
+weather state in present and future climate (Maraun et al., 2017); the modification affects the models climate 
+sensitivity (Hempel et al., 2013); and is affected by random internal climate variability (Switanek et al., 
+2017). Thus, trend preserving quantile mapping methods have been developed (Section 10.3.1.3.2), although 
+some authors found no clear advantage of these methods (Maurer and Pierce, 2014). Further research is 
+required to fully understand the validity of trend modifications by quantile-mapping. </p>
+
+<h3>Bias adjustment in the presence of large-scale circulation errors</h3>
+
+<p>The large-scale circulation has a strong impact on regional climate, thus circulation errors will cause regional 
+climate biases (Section 10.3.3.3). As bias adjustment in general does not account for circulation errors, it is 
+therefore important to understand the impact of these errors on the outcome of the bias adjustment (Addor et 
+al., 2016; Photiadou et al., 2016; Maraun et al., 2017). If the frequency of precipitation-relevant weather 
+types is biased, a standard bias adjustment (not accounting for this frequency bias) would remove the overall 
+climatological bias, but the precipitation falling in a given weather type could still be substantially biased 
+(Addor et al., 2016). Adjusting the number of wet days can artificially deteriorate the spell-length 
+distribution (Maraun et al., 2017). In the presence of location biases of circulation patterns, bias adjustment 
+may introduce physically implausible solutions (Maraun et al., 2017). Bias adjusting the location of 
+circulation features (Levy et al., 2013) may introduce inconsistencies with the model orography, land-sea 
+contrasts, and SSTs (Maraun et al., 2017). </p>
+
+<p>There is medium confidence that the selection of climate models with low biases in the frequency, 
+persistence and location of large-scale atmospheric circulation can reduce negative impacts of bias 
+adjustment. </p>
+
+<h3>Using bias adjustment for statistical downscaling</h3>
+
+<p>Bias adjustment is often used to downscale climate model results from grid box data to finer resolution or 
+point scale. It is sometimes even directly applied to coarse-resolution global model output to avoid an 
+intermediate dynamical downscaling step (Johnson and Sharma, 2012; Stoner et al., 2013). But bias 
+adjustment does not add any information about the processes acting on un-resolved scales and is therefore by 
+construction not capable of bridging substantial scale gaps (Maraun, 2013a; Maraun et al., 2017). Using bias 
+adjustment for downscaling has been shown to artificially modify long-term trends, misrepresent the spatial 
+characteristics of extreme events, and misrepresent local weather phenomena such as temperature inversions 
+(Maraun, 2013a; Gutmann et al., 2014; Maraun et al., 2017). Crucially, sub-grid influences on the local 
+climate change signal are not represented. For instance, if a mountain chain is not resolved in the driving 
+model, the snow-albedo feedback is not represented by the bias adjustment such that local temperature trends 
+in high altitudes are under-represented (Maraun et al., 2017; Cross-Chapter Box 10.2, Figure 1). It has 
+therefore been suggested to account for local random variability by combining bias adjustment with 
+stochastic downscaling (Volosciuk et al., 2017; Lange, 2019), although this approach still does not account 
+for local modifications of the climate change signal. Two approaches have been proposed to represent these 
+local changes: dynamical downscaling with high-resolution RCMs (Maraun et al., 2017) or statistical 
+emulators of such (Walton et al., 2015). Sections 10.3.3.4–10.3.3.6 and 10.3.3.9 discuss other examples 
+where RCMs improve the representation of regional phenomena and regional climate change. </p>
+
+<p>Overall, there is high confidence that the use of bias adjustment for statistical downscaling, in particular to 
+downscale coarse resolution global models, has severe limitations.  </p>
+
+<p><figref>Cross-Chapter Box 10.2,Figure1</figref> </p>
+
+<h3>Bias adjustment of multiple variables</h3>
+
+<p>Impact models, as well as indices of climatic impact-drivers, often require input of several meteorological 
+variables (Chapter 12). In several situations, for example, if the dependence between the variables is not well 
+simulated, univariate bias adjustment of the individual variables may increase biases in the resulting 
+indicator (Zscheischler et al., 2019). A simple alternative would be a bias adjustment of the indicator, but 
+such a procedure may substantially alter the climate change signal, in particular for extreme events 
+(Casanueva et al., 2018). Multivariate bias adjustment methods are in principle good to adjust all statistical 
+aspects of the multivariate distribution that they intend to adjust. Depending on the method, this includes the 
+correlation structure or even broader aspects of the dependence (Cannon, 2016, 2018; Vrac, 2018; François 
+et al., 2020). If multivariate adjustment includes a spatial dimension, then spatial dependence is adjusted well 
+(Vrac, 2018), but care is needed when applied across large areas (François et al., 2020). Adjustment of 
+multivariate dependence necessarily modifies the temporal sequencing of the driving model (Cannon, 2016; 
+Maraun, 2016). The extent of the modification depends on the chosen method and the number of variables to 
+adjust (Vrac and Friederichs, 2015; Cannon, 2016; Vrac, 2018; François et al., 2020). </p>
+
+<h3>Bias adjustment in the presence of observational uncertainty and internal variability</h3>
+
+<p>Observational uncertainties and internal variability introduce uncertainty in the estimation of biases and thus 
+in the calibration of bias-adjustment methods. Dobor and Hlásny (2018) found a considerable influence of 
+the choice of the observational dataset and calibration period on the adjustment for some regions. RCM 
+biases are typically larger than observational uncertainties, but in some regions, and in particular for wet-day 
+frequencies, spatial patterns and the intensity distribution of daily precipitation, the situation may reverse 
+(Kotlarski et al., 2019). Switanek et al. (2017) found a strong influence of internal variability and thus of the 
+choice of calibration period on the calibration of quantile mapping and on the modification of the climate 
+change signal. </p>
+
+<p>Bias adjustment is typically evaluated using cross-validation, i.e. by calibrating the adjustment function to 
+one period of the observational record, and by evaluating it on a different one. Maraun et al. (2017) and 
+Maraun and Widmann (2018) demonstrated that, in the presence of multi-decadal internal variability, cross-
+validation may lead to a rejection of a valid bias adjustment or even lead to a positive evaluation of an 
+invalid adjustment. The authors therefore argued that, in the presence of substantial internal variability, the 
+evaluation of bias adjustment requires to consider aspects that have not been adjusted, such as temporal, 
+spatial, or multi-variable dependence. </p>
+
+<p>There is high confidence that observational uncertainty and internal variability adversely affect bias 
+adjustment and introduce uncertainties in bias adjusted future projections. </p>
+
+<h3>Overall assessment and new avenues</h3>
+
+<p>In the light of these issues, several authors dismiss the use of bias adjustment for climate change studies 
+(Vannitsem, 2011; Ehret et al., 2012). Ehret et al. (2012) and Stocker et al. (2015) propose to at least provide 
+the raw model output alongside the adjusted data. Maraun et al. (2017b) argue that the target resolution 
+should be similar to the model resolution to avoid downscaling issues. Stocker et al. (2015) and Maraun et al. 
+(2017) highlighted the relevance of understanding model biases and the misrepresentations of the underlying 
+physical processes prior to any adjustment. Together with Galmarini et al. (2019) , they point out the need 
+for collaboration between bias adjustment users, experts in climate modelling and experts in the considered 
+regional climate. As new research avenues, development of process-oriented bias adjustment methods 
+(Addor et al., 2016; Verfaillie et al., 2017; Manzanas and Gutiérrez, 2019) or run-time bias adjustment 
+integrated into the climate simulation, e.g., to reduce circulation errors (Guldberg et al., 2005; Kharin et al., 
+2012; Krinner et al., 2019, 2020) are proposed. </p>
