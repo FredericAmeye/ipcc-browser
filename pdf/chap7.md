@@ -2071,24 +2071,24 @@ The Planck response represents the additional thermal or longwave (LW) emission 
 vertically uniform warming of the surface and the atmosphere. The Planck response 𝛼𝑃, often called the 
 Planck feedback, plays a fundamental stabilizing role in Earth’s climate and has a value that is strongly 
 negative: a warmer planet radiates more energy to space. A crude estimate of 𝛼𝑃 can be made using the 
-normalized greenhouse effect 𝑔, defined as the ratio between the greenhouse effect G and the upwelling LW 
+normalized greenhouse effect \\( \tilde{g} \\), defined as the ratio between the greenhouse effect G and the upwelling LW 
 flux at the surface (Raval and Ramanathan, 1989). Current estimates (Section 7.2, Figure 7.2) give G = 159 
-W m-2  and 𝑔 ̃≈ 0.4. Assuming 𝑔 is constant, one obtains for a surface temperature Ts = 288K, 𝛼𝑃 =(𝑔−
-1) 4 𝜎 𝑇<sub>𝑠</sub><sup>3</sup> ≈ –3.3 W m-2 °C–1, where 𝜎 is the Stefan-Boltzmann constant. This parameter 𝛼𝑃 is  estimated 
+W m<sup>-2</sup>  and \\( \tilde{g} \approx 0.4 \\). Assuming 𝑔 is constant, one obtains for a surface temperature Ts = 288K,
+\\( \alpha_P = ( \tilde{g} - 1) 4 \sigma T_s^3  \approx 3.3 \textrm{W} \textrm{m}^{-2} \textrm{°C}^{-1} \\), where 𝜎 is the Stefan-Boltzmann constant. This parameter 𝛼𝑃 is  estimated 
 more accurately using kernels obtained from meteorological reanalysis or climate simulations (Soden and 
 Held, 2006; Dessler, 2013; Vial et al., 2013; Caldwell et al., 2016; Colman and Hanson, 2017; Zelinka et al., 
 2020). Discrepancies among estimates primarily arise because differences in cloud distributions make the 
 radiative kernels differ (Kramer et al., 2019). Using six different kernels, Zelinka et al. (2020) obtained a 
-spread of ±0.1 W m–2 °C–1 (one standard deviation). Discrepancies among estimates secondarily arise from 
+spread of ±0.1 W m<sup>–2</sup> °C<sup>–1</sup> (one standard deviation). Discrepancies among estimates secondarily arise from 
 differences in the pattern of equilibrium surface temperature changes among ESMs. For the CMIP5 and 
-CMIP6 models this introduces a spread of ±0.04 W m-2 °C–1 (one standard deviation). The multi-kernel and 
-multi-model mean of 𝛼𝛼𝑃𝑃 is equal to –3.20 W m-2 °C–1 for the CMIP5 and –3.22 W m-2 °C–1 for the CMIP6 
+CMIP6 models this introduces a spread of ±0.04 W m<sup>–2</sup> °C<sup>–1</sup>(one standard deviation). The multi-kernel and 
+multi-model mean of \\( \alpha\_{P} \\) is equal to –3.20 W m<sup>–2</sup> °C<sup>–1</sup> for the CMIP5 and –3.22 W m<sup>–2</sup> °C<sup>–1</sup> for the CMIP6 
 models (Supplementary Table 7.SM.5). Overall, there is high confidence in the estimate of the Planck 
-response, which is assessed to be 𝛼𝛼𝑃𝑃 = –3.22 W m-2 °C–1 with a very likely range of –3.4 to –3.0 W m–2 °C–1 
-and a likely range of –3.3 to –3.1 W m–2 °C–1.  
+response, which is assessed to be \\( \alpha\_{P} = -3.22 \textrm{W} \textrm{m}^{-2} \textrm{°C}^{-1} \\) with a very likely range of –3.4 to –3.0 W m<sup>–2</sup> °C<sup>–1</sup> 
+and a likely range of –3.3 to –3.1 W m<sup>–2</sup> °C<sup>–1</sup>.  
  
 The Planck temperature response ΔTP is the equilibrium temperature change in response to a forcing ΔF 
-when the net feedback parameter is equal to the Planck response parameter: ΔTP = –ΔF / 𝛼𝛼𝑃𝑃. 
+when the net feedback parameter is equal to the Planck response parameter: \\( \Delta T_P = - \Delta F / \alpha_P \\). 
  
  
 ### 7.4.2.2  Water vapour and temperature lapse rate feedbacks 
