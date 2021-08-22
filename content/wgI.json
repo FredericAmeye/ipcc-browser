@@ -5661,6 +5661,260 @@
                 ]
             }
         },
+        "11.1":{
+            "title":{"en_EN":"Chapter 11 visual abstract of contents"},
+            "subtitle":{"en_EN":""},
+            "description":{
+                "en_EN":[]
+            }
+        },
+        "11.2": {
+            "title": {
+                "en_EN": ""
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Time series of observed temperature anomalies for global average annual mean temperature (black), land average annual mean temperature (green), land average annual hottest daily maximum temperature (TXx, purple), and land average annual coldest daily minimum temperature (TNn, blue). Global and land mean temperature anomalies are relative to their 1850-1900 means based on the multi-product mean annual time series assessed in Section 2.3.1.1.3 (see text for references). TXx and TNn anomalies are relative to  their respective 1961-1990 means and are based on the HadEX3 dataset (Dunn et al., 2020) using values for grid boxes with at least 90% temporal completeness over 1961-2018. Further details on data sources and processing are available in the chapter data table (Table 11.SM.9).      "
+                ]
+            }
+        },
+        "11.3": {
+            "title": {
+                "en_EN": ""
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Regional mean changes in annual hottest daily maximum temperature (TXx) for AR6 land regions and the global land, against changes in global mean surface air temperature (GSAT) as simulated by CMIP6 models under different forcing scenarios SSP1-1.9, SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5. (a) shows individual models from the CMIP6 ensemble (grey), the multi-model median under three selected SSPs (colours), and the multi-model median (black). (b) to (l) show the multi-model-median for the pooled data for individual AR6 regions. Numbers in parantheses indicate the linear scaling between regional TXx and GSAT. The black line indicates the 1:1 reference scaling between TXx and GSAT. See Atlas.1.3.2 for the definition of regions. For details on the methods see Supplementary Material 11.SM.2.  "
+                ]
+            }
+        },
+        "11.4": {
+            "title": {
+                "en_EN": "  Overview of observed changes for cold, hot, and wet extremes and their potential human  contribution."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Shown are the direction of change and the confidence in 1) the observed changes in how cold and hot as well as wet extremes have already changed across the world and  2) in the contribution of whether human-induced climate change contributed in causing to these changes (attribution). In each region changes in extremes are indicated by colour (orange \u2013 increase in the type of extreme, blue \u2013 decrease, both colours \u2013 there are changes of opposing direction within the region the signal depends on the exact event definition, grey \u2013 there are  no changes observed, and no fill \u2013 the data\/evidence is too sparse to make an assessment). The squares and dots next to the symbol indicate the level of confidence for observing the trend and the human contribution, respectively. The more black dots\/squares the higher the level of confidence. The information on this figure is based on regional assessment of the literature on observed trends, detection and attribution and event attribution in section 11.9.  "
+                ]
+            }
+        },
+        "11.5": {
+            "title": {
+                "en_EN": "   Confidence and likelihood of past changes and projected future changes at 2\u00b0C of global warming on the  global scale."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The information in this figure is based on Tables 11.1 and 11.2.     "
+                ]
+            }
+        },
+        "11.6": {
+            "title": {
+                "en_EN": "   Projected changes in the frequency of extreme temperature events under 1\u00b0C, 1.5\u00b0C, 2\u00b0C, 3\u00b0C, and 4\u00b0C  global warming levels relative to the 1851-1900 baseline."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Extreme temperatures are defined as the maximum daily temperatures that were exceeded on average once during a 10-year period (10-year event, blue) and once during a 50-year period (50-year event, orange) during the 1851-1900 base period. Results are shown for the global land and the AR6 regions. For each box plot, the horizontal line and the box represent the median and central 66% uncertainty range, respectively, of the frequency changes across the multi model ensemble, and the whiskers extend to the 90% uncertainty range. The dotted line indicates no change in frequency. The results are based on the multi-model ensemble from simulations of global climate models contributing to the sixth phase of the Coupled Model Intercomparison Project (CMIP6) under different SSP forcing scenarios. Adapted from (Li et al., 2020a). Further details on data sources and processing are available in the chapter data table (Table 11.SM.9).   "
+                ]
+            }
+        },
+        "11.7": {
+            "title": {
+                "en_EN": "  Projected changes in the frequency of extreme precipitation events under 1\u00b0C, 1.5\u00b0C, 2\u00b0C, 3\u00b0C, and 4\u00b0C   global warming levels relative to the 1951-1990 baseline."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Extreme precipitation is defined as the maximum daily precipitation (Rx1day) that was exceeded on average once during a 10-year period (10-year event, blue) and once during a 50-year period (50-year event, orange) during the 1851-1900 base period. Results are shown for the global land and the AR6 regions. For each box plot, the horizontal line and the box represent the median and central 66% uncertainty range, respectively, of the frequency changes across the multi model ensemble, and the whiskers extend to the 90% uncertainty range. The dotted line indicates no change in frequency. The results are based on the multi-model ensemble from simulations of global climate models contributing to the sixth phase of the Coupled Model Intercomparison Project (CMIP6) under different SSP forcing scenarios. Adapted from (Li et al., 2020a). Further details on data sources and processing are available in the chapter data table (Table 11.SM.9).   "
+                ]
+            }
+        },
+        "11.8": {
+            "title": {
+                "en_EN": ""
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Global and regional-scale emergence of changes in temperature (a) and precipitation (b) extremes for the globe (glob.), global oceans (oc.), global lands (land), and the AR6 regions. Colours indicate the multi-model mean global warming level at which the difference in 20-year means of the annual maximum daily maximum temperature (TXx) and the annual maximum daily precipitation (Rx1day) become significantly different from their respective mean values during the 1851\u20131900 base period. Results are based on simulations from the CMIP5 and CMIP6 multi-model ensembles. See Atlas.1.3.2 for the definition of regions. Adapted from Seneviratne and Hauser, 2020) under the terms of the Creative Commons Attribution license.  "
+                ]
+            }
+        },
+        "11.9": {
+            "title": {
+                "en_EN": ""
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Linear trends over 1960-2018 in the annual maximum daily maximum temperature (TXx, a), the annual minimum daily minimum temperature (TNn, b), and the annual number of days when daily maximum  temperature exceeds its 90th percentile from a base period of 1961-1990 (TX90p, c), based on the HadEX3 data set (Dunn et al., 2020). Linear trends are calculated only for grid points with at least 66% of the annual values over the period and which extend to at least 2009. Areas without sufficient data are shown in grey. No overlay indicates regions where the trends are significant at p = 0.1 level. Crosses indicate regions where trends are not significant. For details on the methods see Supplementary Material 11.SM.2. Further details on data sources and processing are available in the chapter data table (Table 11.SM.9).  "
+                ]
+            }
+        },
+        "11.10": {
+            "title": {
+                "en_EN": ""
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Multi-model mean bias in temperature extremes (\u00b0C ) for the period 1979-2014, calculated as the difference between the CMIP6 multi-model mean and the average of observations from the values available in HadEX3 for (a) the annual hottest temperature (TXx) and (b) the annual coldest temperature (TNn). Areas without sufficient data are shown in grey. Adapted from Wehner et al. (2020) under the terms of the Creative Commons Attribution license. Further details on data sources and processing are available in the chapter data table (Table 11.SM.9).  "
+                ]
+            }
+        },
+        "11.11": {
+            "title": {
+                "en_EN": " Projected changes in (a-c) annual maximum temperature (TXx) and (d-f) annual minimum temperature (TNn) at 1.5\u00b0C, 2\u00b0C, and 4\u00b0C of global warming compared to the 1851-1900 baseline. "
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Results are based on simulations from the CMIP6 multi-model ensemble under the SSP1-1.9, SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5 scenarios. The numbers in the top right indicate the number of simulations included. Uncertainty is represented using the simple approach: no overlay indicates regions with high model agreement, where \u226580% of models agree on sign of change; diagonal lines indicate regions with low model agreement, where <80% of models agree on sign of change. For more information on the simple approach, please refer to the Cross-Chapter Box Atlas 1. For details on the methods see Supplementary Material 11.SM.2. Further details on data sources and processing are available in the chapter data table (Table 11.SM.9).  "
+                ]
+            }
+        },
+        "11.12": {
+            "title": {
+                "en_EN": " Projected changes in the intensity of extreme temperature events under 1\u00b0C, 1.5\u00b0C, 2\u00b0C, 3\u00b0C, and 4\u00b0C global warming levels relative to the 1851-1900 baseline."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Extreme temperature events are defined as the daily maximum temperatures (TXx) that were exceeded on average once during a 10-year period (10-year event, blue) and that once during a 50-year period (50-year event, orange) during the 1851-1900 base period. Results are shown for the global land. For each box plot, the horizontal line and the box represent the median and central 66% uncertainty range, respectively, of the intensity changes across the space, and the whiskers extend to the 90% uncertainty range. The results are based on the multi-model ensemble median estimated from simulations of global climate models contributing to the sixth phase of the Coupled Model Intercomparison Project (CMIP6) under different SSP forcing scenarios. Adapted from (Li et al., 2020a). Further details on data sources and processing are available in the chapter data table (Table 11.SM.9).  "
+                ]
+            }
+        },
+        "11.13": {
+            "title": {
+                "en_EN": "Signs and significance of the observed trends in annual maximum daily precipitation (Rx1day) during 1950\u20132018 at 8345 stations with sufficient data."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Percentage of stations with statistically significant trends in Rx1day; green dots show positive trends and brown dots negative trends. Box-and-whisker plots indicate the expected percentage of stations with significant trends due to chance estimated from 1000 bootstrap realizations under a no-trend null hypothesis. The boxes mark the median, 25th percentile, and 75th percentile. The upper and lower whiskers show the 97.5th and the 2.5th percentiles, respectively. Maps of stations with positive (b) and negative (c) trends. The light color indicates stations with non-significant trends and the dark color stations with significant trends. Significance is determined by a two-tailed test conducted at the 5% level. Adapted from Sun et al., (2020). \u00a9 American Meteorological Society. Used with permission. Further details on data sources and processing are available in the chapter data table (Table 11.SM.9).   "
+                ]
+            }
+        },
+        "11.14": {
+            "title": {
+                "en_EN": " "
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Multi-model mean bias in annual maximum daily precipitation (Rx1day, %) for the period 1979-2014, calculated as the difference between the CMIP6 multi-model mean and the average of available observational or reanalysis products including (a) ERA5, (b) HadEX3, and (c) and REGEN. Bias is expressed as the percent error relative to the long-term mean of the respective observational data products. Brown indicates that models are too dry, while green indicates that they are too wet. Areas without sufficient observational data are shown in grey. Adapted from Wehner et al. (2020) under the terms of the Creative Commons Attribution license. Further details on data sources and processing are available in the chapter data table (Table 11.SM.9).  "
+                ]
+            }
+        },
+        "11.15": {
+            "title": {
+                "en_EN": " Projected changes in the intensity of extreme precipitation events under 1\u00b0C, 1.5\u00b0C, 2\u00b0C, 3\u00b0C, and 4\u00b0C  global warming levels relative to the 1851-1900 baseline."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Extreme precipitation events are defined as the daily precipitation (Rx1day) that was exceeded on average once during a 10-year period (10-year event, blue) and once during a 50-year period (50-year event, orange) during the 1851-1900 base period. Results are shown for the global land. For each box plot, the horizontal line and the box represent the median and central 66% uncertainty range, respectively, of the intensity changes across the space, and the whiskers extend to the 90% uncertainty range. The results are based on the multi-model ensemble median estimated from simulations of global climate models contributing to the sixth phase of the Coupled Model Intercomparison Project (CMIP6) under different SSP forcing scenarios. Based on (Li et al., 2020a). Further details on data sources and processing are available in the chapter data table (Table 11.SM.9).    "
+                ]
+            }
+        },
+        "11.16": {
+            "title": {
+                "en_EN": "Projected changes in annual maximum daily precipitation at (a) 1.5\u00b0C, (b) 2\u00b0C, and (c) 4\u00b0C of global  warming compared to the 1851-1900 baseline."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Results are based on simulations from the CMIP6 multi-model ensemble under the SSP1-1.9, SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5 scenarios. The numbers on the top right indicate the number of simulations included. Uncertainty is represented using the simple approach: no overlay indicates regions with high model agreement, where \u226580% of models agree on sign of change; diagonal lines indicate regions with low model agreement, where <80% of models agree on sign of change. For more information on the simple approach, please refer to the Cross-Chapter Box Atlas 1. For details on the methods see Supplementary Material 11.SM.2. Further details on data sources and processing are available in the chapter data table (Table 11.SM.9).   "
+                ]
+            }
+        },
+        "11.17": {
+            "title": {
+                "en_EN": " Observed linear trend for (a) consecutive dry days (CDD) during 1960-2018, (b) standardized precipitation index (SPI) and (c) standardized precipitation-evapotranspiration index (SPEI) during 1951-2016."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " CDD data are from the HadEx3 dataset (Dunn et al., 2020), trend calculation of CDD as in Figure 11.9  Drought severity is estimated using 12-month SPI (SPI-12) and 12-month SPEI (SPEI-12). SPI and SPEI datasets are from Spinoni et al. (2019). The threshold to identify drought episodes was set at -1 SPI\/SPEI units. Areas without sufficient data are shown in grey. No overlay indicates regions where the trends are significant at p = 0.1 level. Crosses indicate regions where trends are not significant. For details on the methods see Supplementary Material 11.SM.2. Further details on data sources and processing are available in the chapter data table (Table 11.SM.9).  "
+                ]
+            }
+        },
+        "11.18": {
+            "title": {
+                "en_EN": " Projected changes in the intensity (a) and frequency (b) of drought under 1\u00b0C, 1.5\u00b0C, 2\u00b0C, 3\u00b0C, and 4\u00b0C global warming levels relative to the 1850-1900 baseline. "
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Summaries are computed for the AR6 regions in which there is at least medium confidence in increase in agriculture\/ ecological drought at the 2\u00b0C warming level (\u201cdrying regions\u201d), including W. North-America, C. North-America, N. Central-America, S. Central-America, N. South-America, N. E. South-America, South-American-Monsoon, S.W.South-America, S.South-America, West & Central-Europe, Mediterranean, W.Southern-Africa, E.Southern-Africa, Madagascar, E.Australia, S.Australia (c). A drought event is defined as a 10-year drought event whose annual mean soil moisture was below its 10th percentile from the 1850-1900 base period. For each box plot, the horizontal line and the box represent the median and central 66% uncertainty range, respectively, of the frequency or the intensity changes across the multi-model ensemble, and the whiskers extend to the 90% uncertainty range. The line of zero in (a) indicates no change in intensity, while the line of one in (b) indicates no change in frequency. The results are based on the multi-model ensemble estimated from simulations of global climate models contributing to the sixth phase of the Coupled Model Intercomparison Project (CMIP6) under different SSP forcing scenarios. Intensity changes in (a) are expressed as standard deviations of the interannualvariability in the period 1850-1900 of the corresponding modelFor details on the methods see Supplementary Material 11.SM.2. Further details on data sources and processing are available in the chapter data table (Table 11.SM.9).  "
+                ]
+            }
+        },
+        "11.19": {
+            "title": {
+                "en_EN": "  Projected changes in (a-c) the number of consecutive dry days (CDD), (d-f) annual mean soil moisture over the total column, and (g-l) the frequency and intensity of one-in-ten year soil moisture drought for the June-to-August and December-to-February seasons at 1.5\u00b0C, 2\u00b0C, and 4\u00b0C of global warming compared to the 1851-1900 baseline."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Results are based on simulations from the CMIP6 multi-model ensemble under the SSP1-1.9, SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5 scenarios. The numbers in the top right indicate the number of simulations included. Uncertainty is represented using the simple approach: no overlay indicates regions with high model agreement, where \u226580% of models agree on sign of change; diagonal lines indicate regions with low model agreement, where <80% of models agree on sign of change. For more information on the simple approach, please refer to the Cross-Chapter Box Atlas 1. For details on the methods see Supplementary Material 11.SM.2. Further details on data sources and processing are available in the chapter data table (Table 11.SM.9).  "
+                ]
+            }
+        },
+        "11.20": {
+            "title": {
+                "en_EN": " Summary schematic of past and projected changes in tropical cyclone (TC), extratropical cyclone (ETC), atmospheric river (AR), and severe convective storm (SCS) behaviour."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Global changes (blue shading) from top to bottom: 1) Increased mean and maximum rain-rates in TCs, ETCs, and ARs [past (low confidence due to lack of reliable data) & projected (high confidence)]. 2) Increased proportion of stronger TCs [past (medium confidence) & projected (high confidence)]. 3) Decrease or no change in global frequency of TC genesis [past (low confidence due to lack of reliable data) & projected (medium confidence)]. 4) Increased and decreased ETC wind-speed, depending on the region, as storm-tracks change [past (low confidence due to lack of reliable data) & projected (medium confidence)]. Regional changes, from left to right: 1) Poleward TC migration in the western North Pacific and subsequent changes in TC exposure [past (medium confidence) & projected (medium confidence)]. 2) Slowdown of TC forward translation speed over the contiguous US and subsequent increase in TC rainfall [past (medium confidence) & projected (low confidence due to lack of directed studies)]. 3) Increase in mean and maximum SCS rain-rate and increase in springtime SCS frequency and season length over the contiguous US [past (low confidence due to lack of reliable data) & projected (medium confidence)].   "
+                ]
+            }
+        },
         "2.X": {
             "title": {
                 "en_EN":""

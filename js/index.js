@@ -2,7 +2,7 @@ let wgI;
 let lang = (document.location.hostname === 'comprendre-giec.fr') ? "fr_FR" : "en_EN";
 let userParams = {};
 
-const chapters_MD = ["1","2","3","4","5","6","7","8","9","10"];
+const chapters_MD = ["1","2","3","4","5","6","7","8","9","10","11"];
 
 function changeLang(lang)
 {
