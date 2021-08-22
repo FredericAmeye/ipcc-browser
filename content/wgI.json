@@ -6158,6 +6158,19 @@
                 ]
             }
         },
+        "ccc": {
+            "title": {
+                "en_EN":""
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    ""
+                ]
+            }
+        },
         "2.X": {
             "title": {
                 "en_EN":""
@@ -7209,7 +7222,8 @@
             {
                 "ref":"Cross-Chapter Box 3.1",
                 "en_EN":"Global Surface Warming over the Early 21st Century",
-                "startPage":26
+                "startPage":26,
+                "hasFile": true
             },
             {
                 "ref": "3.3",
@@ -7288,7 +7302,8 @@
             {
                 "ref":"Cross-Chapter Box 3.2",
                 "en_EN":"Human influence on Large-scale Changes in Temperature and Precipitation Extremes",
-                "startPage":37
+                "startPage":37,
+                "hasFile":true
             },
             {
                 "ref": "3.4",
