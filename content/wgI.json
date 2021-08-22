@@ -6119,6 +6119,45 @@
                 ]
             }
         },
+        "Cross-Chapter Box 2.1,Figure1": {
+            "title": {
+                "en_EN":"Global mean surface temperature (GMST) over the past 60 million years relative to 1850–1900 shown on three time scales."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Information about each of the                     nine paleo reference periods (blue font) and sections in AR6 that discuss these                     periods are listed in Cross-Chapter Box 2.1 Table 1. Grey horizontal bars at the top                     mark important events. Characteristic uncertainties are based on expert judgement                     and are representative of the approximate midpoint of their respective time scales;                     uncertainties decrease forward in time. GMST estimates for most paleo reference                     periods (Figure 2.34) overlap with this reconstruction, but take into account multiple                     lines of evidence. Future projections span the range of global surface air temperature                     best estimates for SSP1–2.6 and SSP5–8.5 scenarios described in Section 1.6. Range  shown for 2100 is based on CMIP6 multi-model mean for 2081–2100 from Table                     4.5; range for 2300 is based upon an emulator and taken from Table 4.9. Further                     details on data sources and processing are available in the chapter data table (Table 2.SM.1)."
+                ]
+            }
+        },
+        "Cross-Chapter Box 2.3,Figure1": {
+            "title": {
+                "en_EN":"Changes in assessed historical surface temperature changes since AR5."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) Summary of the impact of various steps from AR5 headline warming-to-date number for 1880–2012 using a linear trend fit to the AR6 assessment based upon the difference between 1850–1900 and 2011–2020. Whiskers provide 90% (very likely) ranges. AR6 assessment in addition denotes additional warming since the period around 1750 (Cross-Chapter Box 1.2). (b) Time series of the average of assessed AR5 series (orange, faint prior to 1880 when only HadCRUT4 was available) and AR6 assessed series (blue) and their differences (offset) including an illustration of the two trend fitting metrics used in AR5 and AR6. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1)."
+                ]
+            }
+        },
+        "Cross-Chapter Box 2.4,Figure1": {
+            "title": {
+                "en_EN":"Climate indicators of the mid-Pliocene Warm Period (3.3–3.0 Ma) from models and proxy data."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) Simulated surface air temperature (left) and precipitation rate anomaly (right) anomaly (relative to 1850–1900) from the Pliocene Model Intercomparison Project Phase 2 multi-model mean, including CMIP6 (n = 4) and non-CMIP6 (n = 12) models. Symbols represent site-level proxy-based estimates of sea-surface temperature for KM5c (n = 32), and terrestrial temperature (n = 8) and precipitation rate for the MPWP (n = 8). (b) Distribution of terrestrial biomes was considerably different during the Piacenzian Stage (3.6–2.6 Ma) (upper) compared with present-day (lower). Biome distributions simulated with a model (BIOME4) in which Pliocene biome classifications are based on 208 locations, with model- predicted biomes filling spatial gaps, and the present day, with the model adjusted for CO2 concentration of 324 ppm. (c) Ice-sheet extent predicted using modelled climate forcing and showing where multiple models consistently predict the former presence or absence of ice on Greenland (n = 8 total) and Antarctica (n = 10 total). Further details on data sources and processing are available in the chapter data table (Table 2.SM.1)."
+                ]
+            }
+        },
         "2.X": {
             "title": {
                 "en_EN":""
@@ -6758,7 +6797,8 @@
             {
                 "ref":"Cross-Chapter Box 2.1",
                 "en_EN":"Paleoclimate Reference Periods in the Assessment Report",
-                "startPage":10
+                "startPage":10,
+                "hasFile": true
             },
             {
                 "ref":"2.2",
@@ -6872,7 +6912,8 @@
             {
                 "ref":"Cross-Chapter Box 2.2",
                 "en_EN":"Large-scale indicators of climate change",
-                "startPage":30
+                "startPage":30,
+                "hasFile": true
             },
             {
                 "ref":"2.3",
@@ -7008,12 +7049,14 @@
             {
                 "ref":"Cross-Chapter Box 2.3",
                 "en_EN":"New estimates of global warming to date and key implications",
-                "startPage":35
+                "startPage":35,
+                "hasFile": true
             },
             {
                 "ref":"Cross-Chapter Box 2.4",
                 "en_EN":"The climate of the Pliocene (around 3 million years ago) when CO2 concentrations were last similar to those of present day",
-                "startPage":93
+                "startPage":93,
+                "hasFile": true
             },
             {
                 "ref":"2.4",
