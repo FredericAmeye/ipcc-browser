@@ -1083,6 +1083,17 @@ let regex_confidence_fn = function(orig, value){
     }
 };
 
+const citation_regex = /\(([^)]*et al\.[^)]*)\)/gi;
+let citations_cache = [], citations_id = 0;
+let regex_citation_fn = function(orig, allcitation){
+    if(orig.indexOf('<') !== -1){
+        return orig;
+    }
+    citations_cache.push(allcitation.replaceAll("\n", ""));
+    citations_id++;
+    return '<i class="material-icons citation-sh" onclick="navigator.clipboard.writeText(citations_cache['+(citations_id-1)+'])" data-tippy-content="'+allcitation+'<br><small>click to copy citation in clipboard</small>">format_quote</i>';
+};
+
 function processText(txt)
 {
     // confidence levels
@@ -1131,8 +1142,8 @@ function processText(txt)
     txt = txt.replaceAll("_extremely unlikely_", '<span class="extremely-unlikely-text" data-tippy-content="extremely unlikely = 0-5% probability">extremely unlikely</span>');
 
     txt = txt.replaceAll(TS_chapter_repl, regex_autoref_fn);
-
     txt = txt.replaceAll(markup_regex, regex_markup_fn); // IMPORTANT d'être en dernier
+    txt = txt.replaceAll(citation_regex, regex_citation_fn);
 
     return txt;
 }

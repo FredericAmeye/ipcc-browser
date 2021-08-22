@@ -516,3 +516,8 @@ width: 95%;
     padding: 5px;
     background-color:rgba(0,255,0,0.1);
 }
+.citation-sh {
+    color:#4e342e;
+    vertical-align:bottom;
+    cursor:pointer;
+}
