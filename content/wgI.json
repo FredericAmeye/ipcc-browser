@@ -6301,6 +6301,45 @@
                 ]
             }
         },
+        "Box 8.1,Figure1": {
+            "title": {
+                "en_EN":"Northern hemisphere surface downward radiation anomalies (Wm-2 ; a) and precipitation anomalies (mm/day ; b) for 1951–2014 for summer season (May–September) monsoon region (Polson et al. et al., 2014a) from CMIP6 DAMIP experiments."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Observed solar radiation anomalies are from GEBA global data from 1961-2014 (Wild et al., 2017) and observed precipitation anomalies are from GPCC and CRU. CMIP6 multi-model mean anomalies are from all-forcings (ALL), greenhouse gas forcing (GHG) and anthropogenic aerosol forcing (AER) experiments. Anomalies are with respect to 1961–1990 and smoothed with a 11-year running mean. Red shading shows the ensemble spread of ALL forcing experiment (5%–95% range). Models are masked to the GPCC data set. Further details on data sources and processing are available in the chapter data table (Table 8.SM.1)."
+                ]
+            }
+        },
+        "Box 8.1,Figure2": {
+            "title": {
+                "en_EN":"Schematic depiction of the atmospheric effects of light absorbing aerosols on convection and cloud formation: (A) without and (B) with the presence of absorbing aerosols in the planetary boundary layer."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The dashed and solid blue lines correspond to the vertical temperature profiles in the absence and presence of the absorbing aerosol layer, respectively, and the solid and dashed red lines denote the dry and moist adiabats, respectively. Absorbing aerosols result in an increasing temperature in the atmosphere but a reduced temperature at the surface. The reduced surface temperature and the increased temperature aloft lead to a larger negative energy associated with convective inhibition (-) and a higher convection condensation level (CCL) under the polluted conditions. On the other hand, the absorbing aerosol layer induces a larger convective available potential energy (+) above CCL, facilitating more intensive vertical development of clouds, if lifting is sufficient to overcome the larger convective inhibition. From (Wang et al., 2013). "
+                ]
+            }
+        },
+        "Box 8.2,Figure1": {
+            "title": {
+                "en_EN":"Projected long-term changes in precipitation seasonality."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Global maps of projected changes in precipitation seasonality (simply defined as the sum of the absolute deviations of mean monthly rainfalls from the overall monthly mean, divided by the mean annual rainfall as in Walsh and Lawler, 1981) averaged across 31 to 33 CMIP6 models in the SSP1-2.6 (b), SSP2-4.5 (c) and SSP5- 8.5 (d) scenario respectively. The simulated 1995-2014 climatology is shown in panel (a). All changes are estimated in 2081-2100 relative to 1995-2014. Uncertainty is represented using the simple approach: No overlay indicates regions with high model agreement, where ≥80% of models agree on sign of change; diagonal lines indicate regions with low model agreement, where <80% of models agree on sign of change. For more information on the simple approach, please refer to the Cross-Chapter Box Atlas.1. Further details on data sources and processing are available in the chapter data table (Table 8.SM.1)."
+                ]
+            }
+        },
         "2.X": {
             "title": {
                 "en_EN":""
@@ -10085,9 +10124,10 @@
                 ]
             },
             {
-                "ref":"Cross-Chapter Box 8.1",
+                "ref":"Box 8.1",
                 "en_EN":"Role of anthropogenic aerosols in water cycle changes",
-                "startPage":30
+                "startPage":30,
+                "hasFile": true
             },
             {
                 "ref": "8.3",
@@ -10296,7 +10336,8 @@
             {
                 "ref":"Box 8.2",
                 "en_EN":"Changes in water cycle seasonality",
-                "startPage":70
+                "startPage":70,
+                "hasFile": true
             },
             {
                 "ref": "8.5",
