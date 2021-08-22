@@ -1021,6 +1021,15 @@ function returnElementByRefName(table, query, parentOffset = 0)
     return false;
 }
 
+function getTableAndPopulate(ref, target)
+{
+    console.log("getAble",ref, target);
+    $.get('pdf/tables/'+ref+'.html', function(html){
+        // adding processText here breaks table TS.4
+        $('#tablePopulate'+target).html(html).find('table');
+    });
+}
+
 // checking for webp support
 var WEBP_supported = false;
 var webP = new Image();
@@ -1035,7 +1044,8 @@ let regex_autoref_fn = function(orig, CSBTS, CCB, CCBA, BSPM, BTS, InfoTS, TS, S
     let has_figref_tag = (complete_string.substr(value-8, 8) == '<figref>');
     let has_goto_tag   = (complete_string.substr(value-6, 6) == '<goto>');
     let has_boxref_tag   = (complete_string.substr(value-8, 8) == '<boxref>');
-    if(has_figref_tag || has_goto_tag || has_boxref_tag) {
+    let has_tableref_tag   = (complete_string.substr(value-10, 10) == '<tableref>');
+    if(has_figref_tag || has_goto_tag || has_boxref_tag || has_tableref_tag) {
         return orig; // do nothing
     }
     
@@ -1098,7 +1108,11 @@ let regex_markup_fn = function(orig1, balise, content, balise2, position)
     }
     else if(balise == 'tableref')
     {
-        return /*html*/`<div class="center"><div class="small-figure hoverable">
+        let tab_id = content.replaceAll(' ', '-').replaceAll(',', '-').replaceAll('.','-');
+        getTableAndPopulate(content, tab_id);
+        return /*html*/`<div class="center">
+        <div class="small-figure hoverable">
+            <div id="tablePopulate${tab_id}" style="background:#EEE"></div>
             <span class="fig-legend">Table ${content}</span>
         </div></div>`;
     }
@@ -1325,6 +1339,7 @@ function loadMainPanel(chapter = 'TS', toRef = false)
                 <i class="material-icons">shared</i>
             </a>`);
         });
+        $('#main-panel-holder').html('');
         html.appendTo('#main-panel-holder');
         if(MathJax) MathJax.typeset();
 
