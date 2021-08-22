@@ -4621,6 +4621,357 @@
                 ]
             }
         },
+        "8.1": {
+            "title": {
+                "en_EN": ""
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Depiction of the water cycle based on previous assessments (Trenberth et al., 2011; Rodell et al., 2015; Abbott et al., 2019) with minor adjustments for groundwater flows (Kwon et al., 2014; Zhou et al., 2019c; Luijendijk et al., 2020), seasonal snow (Pulliainen et al., 2020) and ocean precipitation and evaporation (Stephens et al., 2012; Allan et al., 2020; Gutenstein et al., 2020). In the atmosphere, which accounts for only 0.001% of all water on Earth, water primarily occurs as a gas (water vapour), but it is also present as ice and liquid water within clouds. The ocean is the primary water reservoir on Earth, which is comprised mostly of liquid water across much of the globe, but also includes areas covered by ice in polar regions. Liquid freshwater on land forms surface water (lakes, rivers), soil moisture and groundwater stores, together accounting for 1.8% of global water (Stocker et al., 2013). Solid terrestrial water that occurs as ice sheets, glaciers, snow and ice on the surface and permafrost currently represents 2.2% of the planet\u2019s water (Stocker et al., 2013). Water that falls as snow in winter provides soil moisture and streamflow after melting, which are essential for human activities and ecosystem functioning.  "
+                ]
+            }
+        },
+        "8.2": {
+            "title": {
+                "en_EN": "  Schematic of the chapter structure and quick guide to the chapter content."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "  "
+                ]
+            }
+        },
+        "8.3": {
+            "title": {
+                "en_EN": "  Schematic representation of fast and slow responses of the atmospheric energy balance and global precipitation to radiative forcing."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The atmospheric energy budget (\u2018baseline\u2019 panel) responds instantaneously to radiative forcings (1), leading to rapid atmospheric adjustments (2) and slower semi\u2010rapid adjustments involving the land surface and vegetation that further modify atmospheric circulation patterns (3). This slow precipitation response to global mean surface air temperature (4) is quantified as the hydrological sensitivity, \u03b7, and the total precipitation response, including initial rapid adjustments, is termed the apparent hydrological sensitivity, \u03b7a (a). The slow precipitation response over land and ocean develops over time (b\u2013d). Large, filled arrows ('baseline'-4) depict fluxes or circulation change while small arrows (1-4) denote increases (\u2191) or decreases (\u2193) in variables (P is precipitation; L is atmospheric longwave radiative cooling, S is solar radiation absorption by the atmosphere; H is sensible heat flux; E is surface evaporative heat flux and T is temperature). (Adapted from Allan et al., 2020, Chapter 7 Figure 7.2 and Figure 8.1)  "
+                ]
+            }
+        },
+        "8.4": {
+            "title": {
+                "en_EN": "  Estimate (5-95% range) of the increase in precipitation and its extremes with global mean surface warming."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Global time averaged precipitation changes (left) are based on responses to increasing CO2 (apparent hydrological sensitivity, \u03b7a) and the temperature-dependent component (hydrological sensitivity, \u03b7) based on GCM experiments and including the land (L) and ocean (O) components (Fl\u00e4schner et al., 2016; Richardson et al., 2018c; Samset et al., 2018a; Pendergrass, 2020b; Rehfeld et al., 2020) and observational estimates (GPCP\/HadCRUTv4.6) using trends (1988-2014) as a proxy for \u03b7a and interannual variability as a proxy for \u03b7 with 90% confidence range accounting for statistical uncertainty only (Adler et al., 2017; Allan et al., 2020). For extreme precipitation, assessment is for 24 hour 99.9th percentile or annual maximum extremes from GCMs (Fischer and Knutti, 2015; Pendergrass et al., 2015; Borodina et al., 2017; Pfahl et al., 2017; Sillmann et al., 2017), regional climate models (RCMs) (Bao et al., 2017), an observationally constrained tropical estimate (O\u2019Gorman, 2012) and estimates from observed changes (Westra et al., 2013; Donat et al., 2016; Borodina et al., 2017; Sun et al., 2020; Zeder and Fischer, 2020). For hourly and sub-hourly extremes observed changes (Barbero et al., 2017; Guerreiro et al., 2018) and high resolution models including RCM and cloud resolving models (CRMs) are assessed (Ban et al., 2015; Prein et al., 2017; Haerter and Schlemmer, 2018; Hodnebrog et al., 2019a; Lenderink et al., 2019). Further details on data sources and processing are available in the chapter data table (Table 8.SM.1).  "
+                ]
+            }
+        },
+        "8.5": {
+            "title": {
+                "en_EN": "  Zonally-averaged annual mean changes in precipitation minus evaporation (P-E) over (a) ocean and (b) land between the historical (1995\u20132014) and SSP2-4.5 (2081\u20132100) CMIP6 simulations (blue lines, an average of the CanESM5 and MRI-ESM2-0 models)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Dashed lines show estimated P-E changes using a simple thermodynamic scaling (Held and Soden, 2006b); dotted lines show estimates using an extended scaling (Byrne and O\u2019Gorman, 2016). All curves have been smoothed in latitude using a three grid-point moving-average filter. Further details on data sources and processing are available in the chapter data table (Table 8.SM.1). "
+                ]
+            }
+        },
+        "8.6": {
+            "title": {
+                "en_EN": "  Climatic drivers of drought, effects on water availability, and impacts."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Plus and minus signs denote the direction of change that drivers have on factors such as snowpack, evapotranspiration, soil moisture, and water storage. The three main types of drought are listed, along with some possible environmental and socioeconomic impacts of drought (bottom).   "
+                ]
+            }
+        },
+        "8.7": {
+            "title": {
+                "en_EN": "  Linear trends in annual mean precipitation (mm\/day per decade) for 1901-1984 (left) and 1985-2014 (right): "
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a & e) observational dataset, and the CMIP6 multi model ensemble mean historical simulations driven by, (b & f) all radiative forcings, (c & g) GHG only radiative forcings, (d & h) aerosol only radiative forcings experiment. Shade without grey cross correspond to the regions exceeding 10 % significant level. Grey crosses correspond to the regions not reaching the 10% statistical significant level. Nine CMIP6-DAMIP models have been used having at least 3 members. The ensemble mean is weighted per each model on the available and used members. Further details on data sources and processing are available in the chapter data table (Table 8.SM.1).   "
+                ]
+            }
+        },
+        "8.8": {
+            "title": {
+                "en_EN": "  Linear trends in annual mean evapotranspiration (mm\/day per decade) for 1901-1984 (left) and 1985-2014 (right):"
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a & e) LMIP and observational dataset, and the CMIP6 multi model ensemble mean historical simulations driven by, (b & f) all radiative forcings, (c & g) GHG only radiative forcings, (d & h) aerosol only radiative forcings experiment. Shade without grey cross correspond to the regions exceeding 10 % significant level. Grey crosses correspond to the regions not reaching the 10% statistically significant level. Nine CMIP6-DAMIP models have been used having at least 3 members. The ensemble mean is weighted per each model on the available and used members. GLDAS is not available over the early 20th century so was replaced by a multi-model off-line reconstruction, LMIP, which is consistent with GLDAS over the recent period but may be less reliable over the early 20th century given larger uncertainties in the atmospheric forcings. Further details on data sources and processing are available in the chapter data table (Table 8.SM.1)."
+                ]
+            }
+        },
+        "8.9": {
+            "title": {
+                "en_EN": "  Spatial expressions (a-c; e-g) of the leading multivariate fingerprints of temperature (\u02daC), precipitation (mm\/day), and aridity (CMI; the Climate Moisture Index) in CMIP5 historical simulations and the corresponding temporal evolution in both CMIP5 and reanalysis products (d, h)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The first leading fingerprint is associated with greenhouse gas forcing (a-d) and the second leading fingerprint is associated with aerosol forcing (e-h). CMI is a dimensionless aridity indicator that combines precipitation and atmospheric evaporative demand. Figure after (Bonfils et al., 2020). Further details on data sources and processing are available in the chapter data table (Table 8.SM.1).  "
+                ]
+            }
+        },
+        "8.10": {
+            "title": {
+                "en_EN": "  Trends in Terrestrial Water Storage (TWS) (in centimetres per year) obtained on the basis of GRACE observations from April 2002 to March 2016."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The cause of the trend in each outlined study region is briefly explained and colour-coded by category. The trend map was smoothed with a 150-km-radius Gaussian filter for the purpose of visualization; however, all calculations were performed at the native 3\u00b0 resolution of the data product. Figure from Rodell et al. (2018). Further details on data sources and processing are available in the chapter data table (Table 8.SM.1)."
+                ]
+            }
+        },
+        "8.11": {
+            "title": {
+                "en_EN": "  Regional monsoon precipitation changes from observations and model attribution."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Precipitation changes during 1951-2014 are shown as least-square linear trends in box-whisker plots (first and fourth rows) over the six regional monsoons, i.e., North American monsoon (NAmerM, Jul-Aug-Sep), West African monsoon (WAfriM, Jun-Jul-Aug-Sep), South and Southeast Asian monsoon (SAsiaM, Jun-Jul-Aug-Sep), East Asian monsoon (EAsiaM, Jun-Jul-Aug), South American monsoon (SAmerM, Dec-Jan-Feb), Australian and Maritime Continent monsoon (AusMCM, Dec-Jan-Feb), and over the two land domains (i.e. equatorial America (EqAmer, Jun-Jul-Aug) and South Africa (SAfri, Dec-Jan-Feb),  as identified in the map shown in the middle and as described in Annex V. Precipitation changes are computed from observations and from DAMIP CMIP6  experiments over the historical period with all-forcing (ALL), GHG-only forcing (GHG), Aerosol-only (AER) and Natural (NAT) forcings prescribed. Observations are based on the CRU (light green) and GPCC (light blue) datasets and the APHRODITE (light orange) dataset for SAsiaM and EAsiaM.  CMIP6 simulations are taken from nine CMIP6 models contributing to DAMIP, with at least 3 members. Ensembles are weight-averaged for the respective model ensemble size.  Observed trends are shown as coloured cirles and the simulated trends from the CMIP6 multi-model experiments are shown as box-whisker plots.  Precipitation anomaly time-series are shown in the second and third row. The thick black line is the multi-model ensemble-mean precipitation anomaly time-series from the ALL experiment and the grey shading shows the spread across the multi-model ensembles. A 11-year running mean has been applied on the precipitation anomaly time-series prior to calculating the multi-model ensemble mean. Further details on data sources and processing are available in the chapter data table (Table 8.SM.1).  "
+                ]
+            }
+        },
+        "8.12": {
+            "title": {
+                "en_EN": "  Annual anomalies (with respect to the reference period 1979-2018) of the total number of extratropical cyclones (a, c) and of the number of deep cyclones (<980hPa) (b, d) over the Northern (a, b) and the Southern (c, d) Hemispheres in different reanalyses (shown in colours in the legend)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Note different vertical scales for panels (a), (b) and (c), (d). Thin lines indicate annual anomalies and bold lines indicate 5-yr running averages. (e), (f) The number of reanalyses (out of five) simultaneously indicating statistically significant (90% level) linear trends of the same sign during 1979\u20132018 for JFM over the Northern Hemisphere (e) and over the Southern Hemisphere (f). Updated from (Tilinina et al., 2013). Further details on data sources and processing are available in the chapter data table (Table 8.SM.1).  "
+                ]
+            }
+        },
+        "8.13": {
+            "title": {
+                "en_EN": "  Zonal and annual mean projected long-term changes in the atmospheric water budget."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Zonal and annual mean projected changes (mm\/day) in P (precipitation, left column), E (evaporation, middle column), and P-E (right column) over both land and ocean areas (thick line) and over land only (dashed line) averaged across 36 to 38 CMIP6 models in the SSP1-2.6 (a,b), SSP2-4.5 (c,d) and SSP5-8.5 (e,f) scenario, respectively. Shading denotes confidence intervals estimated from the CMIP6 ensemble under a normal distribution hypothesis. Colour shading denotes changes over both land and ocean. Grey shading represents internal variability derived from the pre-industrial control simulations. All changes are estimated for 2081-2100 relative to the 1995-2014 base period. Further details on data sources and processing are available in the chapter data table (Table 8.SM.1).  "
+                ]
+            }
+        },
+        "8.14": {
+            "title": {
+                "en_EN": "  Projected long-term relative changes in seasonal mean precipitation."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Global maps of projected relative changes (%) in seasonal mean of precipitation averaged across 29 CMIP6 models in the SSP2-4.5 scenario. All changes are estimated for 2081-2100 relative to the 1995-2014 base period. Uncertainty is represented using the simple approach: No overlay indicates regions with high model agreement, where \u226580% of models agree on sign of change; diagonal lines indicate regions with low model agreement, where <80% of models agree on sign of change. For more information on the simple approach, please refer to the Cross-Chapter Box Atlas.1. Further details on data sources and processing are available in the chapter data table (Table 8.SM.1).  "
+                ]
+            }
+        },
+        "8.15": {
+            "title": {
+                "en_EN": "  Projected long-term relative changes in daily precipitation statistics."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Global maps of projected seasonal mean relative changes (%) in the number of dry days (i.e. days with less than 1 mm of rain) and daily precipitation intensity (in mm\/day, estimated as the mean daily precipitation amount at wet days - i.e., days with intensity above 1 mm\/day) averaged across CMIP6 models in the SSP1-2.6 (a,b), SSP2-4.5 (c,d) and SSP5-8.5 (e,f) scenario respectively. Uncertainty is represented using the simple approach: No overlay indicates regions with high model agreement, where \u226580% of models agree on sign of change; diagonal lines indicate regions with low model agreement, where <80% of models agree on sign of change. For more information on the simple approach, please refer to the Cross-Chapter Box Atlas.1. Further details on data sources and processing are available in the chapter data table (Table 8.SM.1).   "
+                ]
+            }
+        },
+        "8.16": {
+            "title": {
+                "en_EN": "  Rate of change in mean and variability across increasing global warming levels."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Relative change (%) in seasonal mean total precipitable water (green dashed line), precipitation (red dashed lines), runoff (blue dashed lines), as well as in standard deviation of precipitation (red solid lines) and runoff (blue solid lines) averaged over extra-tropical land in (a) summer and (b) winter, and tropical land in (c) JJA and (d) DJF as a function of global-mean surface temperature for the CMIP6 multi-model mean across the SSP5-8.5 scenario. Extra-tropical winter refers to DJF for Northern Hemisphere and JJA for Southern Hemisphere (and the reverse for extra-tropical summer). Each marker indicates a 21-year period centered on consecutive decades between 2015 and 2085 relative to the 1995\u20132014 base period. Precipitation and runoff variability are estimated by their standard deviation after removing linear trends from each time series. Error bars show the 5-95% confidence interval for the warmest 5\u00b0C global warming level. Figure adapted from (Pendergrass et al., 2017) and updated with CMIP6 models. Further details on data sources and processing are available in the chapter data table (Table 8.SM.1). "
+                ]
+            }
+        },
+        "8.17": {
+            "title": {
+                "en_EN": "  Projected long-term relative changes in seasonal mean evapotranspiration."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Global maps of projected relative changes (%) in seasonal mean of surface evapotranspiration for DJF (left panels) and JJA (right panels) averaged across 29 or 30 CMIP6 models for SSP1.2-6 (a,b), SSP2-4.5 (c,d) and SSP5-8.5 (e,f) scenario respectively. All changes are estimated in 2081-2100 relative to 1995-2014. Uncertainty is represented using the simple approach: No overlay indicates regions with high model agreement, where \u226580% of models agree on sign of change; diagonal lines indicate regions with low model agreement, where <80% of models agree on sign of change. For more information on the simple approach, please refer to the Cross-Chapter Box Atlas.1. Further details on data sources and processing are available in the chapter data table (Table 8.SM.1).  "
+                ]
+            }
+        },
+        "8.18": {
+            "title": {
+                "en_EN": "  Projected long-term relative changes in seasonal mean runoff."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Global maps of projected relative change (%) in runoff seasonal mean for DJF (left panels) and JJA (right panels) averaged across CMIP6 models SSP1.2-6 (a,b), SSP2-4.5 (c,d) and SSP5-8.5 (e,f) scenario respectively. All changes are estimated in 2081-2100 relative to 1995-2014. Uncertainty is represented using the simple approach: No overlay indicates regions with high model agreement, where \u226580% of models agree on sign of change; diagonal lines indicate regions with low model agreement, where <80% of models agree on sign of change. For more information on the simple approach, please refer to the Cross-Chapter Box Atlas.1. Further details on data sources and processing are available in the chapter data table (Table 8.SM.1). "
+                ]
+            }
+        },
+        "8.19": {
+            "title": {
+                "en_EN": "  Projected long-term relative changes in annual mean soil moisture and vapour pressure deficit."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Global maps of projected relative changes (%) in annual mean vapour pressure deficit (left), surface soil moisture (top 10cm, middle) and total column soil moisture (right) from available CMIP6 models for the SSP1.2-6 (a,b,c), SSP2-4.5 (d,e,f) and SSP5-8.5 (g,h,i) scenarios respectively. All changes are estimated for 2081-2100 relative to a 1995-2014 base period. Uncertainty is represented using the simple approach: No overlay indicates regions with high model agreement (\u201cRobust change\u201d), where \u226580% of models agree on sign of change; diagonal lines indicate regions with low model agreement, where <80% of models agree on sign of change. For more information on the simple approach, please refer to the Cross-Chapter Box Atlas.1. Further details on data sources and processing are available in the chapter data table (Table 8.SM.1).  "
+                ]
+            }
+        },
+        "8.20": {
+            "title": {
+                "en_EN": "  Past-to-future drought variability in paleoclimate reconstructions and models for select regions."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " On the left (a,c,e,g,i), tree-ring reconstructed Palmer Drought Severity Index (PDSI) series (black line) for the Mediterranean (10\u02daW\u201345\u02daE, 30\u02da\u201347\u02daN; Cook et al., 2015, 2016), central Chile (70\u02da\u201374\u02daW, 32\u02da\u201337\u02daS; Morales et al., 2020), western North America (117\u02da\u2013124\u02daW, 32\u02da\u201338\u02daN; Cook et al., 2010; Griffin and Anchukaitis, 2014), Eastern Australia and New Zealand (136\u02da\u2013178\u02daE, 46\u02da\u201311\u02daS; Palmer et al., 2015), and Central Asia (99\u02da\u2013107\u02daE, 47\u02da\u201349\u02daN; Pederson et al., 2014; Hessl et al., 2018) plotted in comparison to the past-to-future fully-forced simulations from four ensemble members (thin blue lines) from the NCAR CESM Last Millennium Ensemble (thick blue line = ensemble mean) (Otto-Bliesner et al., 2016) for the same regions. The shaded area represents the range (10th to 90th percentile) of historical and future (RCP8.5) PDSI (Penman-Monteith) simulations from 15 CMIP5 models and 34 ensemble members for the same regions (1900\u20132100; Cook et al., 2014). On the right (b,d,f,h,i), the distribution of annual PDSI values from the past and present (850 to 2005 CE) (black) is compared to the future distribution (2006 to 2100 CE) (blue). The distributions show each of the four ensemble members from the CESM LME simulations. The future component of the CESM LME follows the RCP8.5 scenario. Further details on data sources and processing are available in the chapter data table (Table 8.SM.1). "
+                ]
+            }
+        },
+        "8.21": {
+            "title": {
+                "en_EN": "  Schematic depicting large-scale circulation changes and impacts on the regional water cycle."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " The central figures show precipitation minus evaporation (P-E) changes at 3\u00b0C or global warming relative to a 1850-1900 base period (mean of 23 CMIP6 SSP5-8.5 simulations). Annual mean changes (large map) include contours depicting control climate P-E=0 lines with the solid contour enclosing the tropical rain belt region and dashed lines representing the edges of subtropical regions. Confidence levels assess understanding of how large-scale circulation change affect the regional water.  "
+                ]
+            }
+        },
+        "8.22": {
+            "title": {
+                "en_EN": "Projected regional monsoons precipitation changes."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Percentage change in projected seasonal mean precipitation over regional monsoon domains (as defined in Fig 8.11, Section 8.3.2.4 and Annex V) for near-term (2021-2040), mid-term (2041-2060), and long-term (2081-2100) periods based on 24 CMIP6 models and three SSP scenarios (SSP1-2.6, SSP2-4.5 and SSP5-8.5). Further details on data sources and processing are available in the chapter data table (Table 8.SM.1)."
+                ]
+            }
+        },
+        "8.23": {
+            "title": {
+                "en_EN": "  Geographical and zonal mean distribution of the percentage of variance explained by the three sources of uncertainty in CMIP6 projections of 20-year mean precipitation changes in 2021\u20132040 (top), 2041\u20132060 (middle) and 2081\u20132100 (bottom) relative to the 1995\u20132014 base period: "
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "internal climate variability (left), model response uncertainty (middle) and scenario uncertainty (right, considering four plausible concentration scenarios: SSP1-2.6, SSP2-4.5, SSP3-7.0 and SSP5-8.5). Percentage numbers give the area-weighted global average value for each map. Right panels show the zonal mean fractions over both land and sea (solid lines) and over land only (dashed line). The figure was adapted from Fig.4a in (Lehner et al., 2020). The relative contributions of internal variability, models and emission scenarios to the total uncertainty depend on both region and time horizon. The scenario uncertainty is relatively low in near and mid-term time horizons while it increases in the long-term mostly over the high-latitudes. The model response uncertainty is the most influential factor across all time horizons. Internal variability also plays a key role in the near-term, especially in the subtropics. Further details on data sources and processing are available in the chapter data table (Table 8.SM.1).  "
+                ]
+            }
+        },
+        "8.24": {
+            "title": {
+                "en_EN": "  Impact of the North Atlantic Oscillation (NAO) on 2016\u20132045 climate trends."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " (a) Regressions of winter sea level pressure (SLP) and precipitation trends upon the normalized leading principal component (PC)of winter SLP trends in the CESM1 Large Ensemble, multiplied by two to correspond to a two standard deviation anomaly of the PC (as internal climate variability component); (b) CESM1 ensemble-mean winter SLP and precipitation trends (as forced climate variability component); (c) b \u2013 a (forced minus internal climate variability component); (d) b + a (forced plus internal climate variability component). Precipitation in colour shading (mm\/day per 30 years) and SLP in contours (interval = 1 hPa per 30 years with negative values dashed) (Adapted from Deser et al., 2017). Further details on data sources and processing are available in the chapter data table (Table 8.SM.1). Implications for near-term water cycle projections "
+                ]
+            }
+        },
+        "8.25": {
+            "title": {
+                "en_EN": "  Effect of first versus second 2\u00b0C of global warming relative to the 1850-1900 base period on seasonal mean precipitation (mm\/day)."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " CMIP6 multi-model ensemble mean DJF (left panels) and JJA (right panels) precipitation difference for a,b) SSP5-8.5 at +2\u00b0C; c,d) SSP5-8.5 at +4\u00b0C minus SSP5-8.5 at +2\u00b0C (second 2\u00b0C warming); e,f) second minus first 2\u00b0C fast warming (c-a and d-b). Only models reaching the +4\u00b0C warming levels in SSP5-8.5 are considered. Differences are computed based on 21-yr time windows centered on the first year reaching or exceeding the selected global warming level using a 21-yr running mean global surface atmospheric temperature criterion. Uncertainty is represented using the simple approach: No overlay indicates regions with high model agreement, where \u226580% of models agree on sign of change; diagonal lines indicate regions with low model agreement, where <80% of models agree on sign of change. For more information on the simple approach, please refer to the Cross-Chapter Box Atlas.1. Further details on data sources and processing are available in the chapter data table (Table 8.SM.1).  "
+                ]
+            }
+        },
+        "8.26": {
+            "title": {
+                "en_EN": "  Rate of change in basin-scale annual mean runoff with increasing global warming levels."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    " Relative changes (%) in basin-averaged annual mean runoff estimated as multi-model ensemble median from a variable subset of CMIP6 models for each SSP over six major river basins: a) Mississipi, b) Danube, c) Lena, d) Amazon, e) Euphrates, f) Yangtze, g) Niger, h) Indus, i) Murray. The basin averages have been estimated after a first-order conservative remapping of the model outputs on the 0.5\u00b0 by 0.5\u00b0 river network of  (Decharme et al., 2019). The shaded area indicates the 5-95% confidence interval of the ensemble values across all SSPs. Note that the y-axis range differs across basins and is particularly large for Niger and Murray (panels g and i). The number of models considered is specified for each scenario in the legend located inside panel b. Further details on data sources and processing are available in the chapter data table (Table 8.SM.1).  "
+                ]
+            }
+        },
+        "8.27": {
+            "title": {
+                "en_EN": ""
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "(a) Model simulation of precipitation response to the Younger Dryas event relative to the preceding warm B\u00f8lling-Aller\u00f8d period (base colours, calculated as the difference between 12,600\u201311,700 yr BP and 14,500\u201312,900 BP from the TraCE paleoclimate simulation of Liu et al., (2009)), with paleoclimate proxy evidence superimposed on top (dots). (b) Model simulation of precipitation response to an abrupt collapse in AMOC under a doubling of 1990 CO2 levels (after Liu et al., (2017)). Regions with rainfall rates below 20 mm\/year are masked. Further details on data sources and processing are available in the chapter data table (Table 8.SM.1).   "
+                ]
+            }
+        },
         "2.X": {
             "title": {
                 "en_EN":""
