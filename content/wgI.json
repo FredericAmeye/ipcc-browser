@@ -6935,6 +6935,45 @@
                 ]
             }
         },
+        "Box ATLAS.1,Figure1": {
+            "title": {
+                "en_EN":"Temperature (left) and precipitation (right) climate change signals at the end of the century (2070–2099) for the entire CMIP5 ensemble (box-whisker plots) and the CORDEX-CORE driving GCMs (grey symbols) of the respective CORDEX-CORE results (non-grey symbols) in the South Asia (SAS) reference region."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The shape of the grey symbols represents the climate sensitivity of the driving GCMs: triangles pointing upwards (low ECS), circles (medium ECS), triangles pointing downwards (high ECS). The corresponding RCM results are drawn using the same symbols, but in orange for REMO and in blue for RegCM. The bottom panels show the warming signal by 2070–2099 over the CORDEX regions for RCP2.6 (left) and RCP8.5 (right) (Teichmann et al., 2020)."
+                ]
+            }
+        },
+        "Cross-Chapter Box ATLAS.1,Figure1": {
+            "title": {
+                "en_EN":"Illustration of the simple (top) and advanced (bottom) approaches (B and C in Cross-Chapter Box Atlas.1, Table 1) for uncertainty representation in maps of future projections."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "Annual multi-model mean projected relative precipitation change (%) from CMIP6 for the period 2040–2060 (left) and 2080–2100 (right) relative to the baseline periods 1995–2014 (a–d) and 1850–1900 (e–g) under a high-emission (SSP3-7.0) future. Diagonal and crossed lines follow the indications in Cross-Chapter Box Atlas.1, Table 1. Further details on data sources and processing are available in the chapter data table (Table Atlas.SM.15)."
+                ]
+            }
+        },
+        "Cross-Chapter Box ATLAS.1,Figure2": {
+            "title": {
+                "en_EN":"Climate change signals are more separable from noise at larger spatial scales."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "The figure is showing the global warming level associated with the emergence of a significant increase in the probability due to anthropogenic forcing in the 1-in-20-year daily precipitation event using a 500-year sample from the CanESM2 large ensemble simulations. The left panel uses data analysed over a single grid box, with no spatial aggregation, while the right box uses data averaged over 25 grid boxes to represent moderate spatial aggregation. Aggregation over 25 grid boxes reduces natural variability, resulting in a smaller warming required for a clear separation between the signal and noise. Adapted from Kirchmeier‐Young et al. (2019). "
+                ]
+            }
+        },
         "2.X": {
             "title": {
                 "en_EN":""
@@ -13828,6 +13867,18 @@
                 ]
             },
             {
+                "ref":"Box ATLAS.1",
+                "en_EN":"CORDEX-CORE",
+                "startPage":20,
+                "hasFile": true
+            },
+            {
+                "ref":"Cross-Chapter Box ATLAS.1",
+                "en_EN":"Displaying robustness and uncertainty in maps",
+                "startPage":26,
+                "hasFile": true
+            },
+            {
                 "ref": "Atlas.2",
                 "en_EN": "The online \u2018Interactive Atlas\u2019",
                 "startPage": 26,
@@ -14340,6 +14391,12 @@
                         "startPage": 97
                     }
                 ]
+            },
+            {
+                "ref":"Cross-Chapter Box ATLAS.2",
+                "en_EN":"Climate information relevant to water resources in Small Islands",
+                "startPage":97,
+                "hasFile": true
             },
             {
                 "ref": "Atlas.11",

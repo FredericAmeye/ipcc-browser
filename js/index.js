@@ -60,7 +60,7 @@ let initFn = (function()
     }
 
     /* init page */
-    jQuery.getJSON('content/wgI.json?v15.json', function(r){
+    jQuery.getJSON('content/wgI.json?v16.json', function(r){
         const nb_chap = r.SPM.chapters.length;
         wgI = r;
         
@@ -850,6 +850,8 @@ const CSBox_chapter_match = /^Cross-Section Box TS\.[0-9.]+$/g;
 const BoxTS_chapter_match = /^Box TS\.[0-9.]+$/g;
 const Box_chapter_match = /^Box [0-9.]+$/g;
 const BoxSPM_chapter_match = /^Box SPM\.[0-9.]+$/g;
+const CCBoxAtlas_chapter_match = /^Cross-Chapter Box ATLAS\.[0-9.]+$/gi;
+const BoxAtlas_chapter_match = /^Box ATLAS\.[0-9.]+$/gi;
 function findSourceByRef(src)
 {
     let matched = false;
@@ -862,6 +864,14 @@ function findSourceByRef(src)
         } else {
             console.log("error finding FAQ ref", src, path);
         }
+    }
+    else if(src.match(CCBoxAtlas_chapter_match)){
+        // Cross-Chapter ATLAS BOX
+        matched = returnElementByRefName(wgI['Atlas'], src);
+    }
+    else if(src.match(BoxAtlas_chapter_match)){
+        // Cross-Chapter ATLAS BOX
+        matched = returnElementByRefName(wgI['Atlas'], src);
     }
     else if(src == 'Cross-Working Group Box'){
         matched = returnElementByRefName(wgI['1'], src);

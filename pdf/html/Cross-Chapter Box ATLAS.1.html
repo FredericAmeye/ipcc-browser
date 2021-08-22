@@ -1,0 +1,179 @@
+<p>Spatial information on observed and projected future climate changes has always been a key output of IPCC 
+reports. This information is typically represented in the form of maps of historical trends (from observational 
+datasets) and of projected changes for future reference periods and scenarios relative to baseline periods 
+(from multi-model ensembles). These maps usually include information on the robustness or uncertainty of 
+the results such as the significance of trends or the consistency of the change across models. Visualization of 
+this information combines two aspects that are intertwined: the core methodology (measures and thresholds) 
+and its visual implementation. For observed trends, robustness can be simply ascertained by using an 
+appropriate statistical significance test. However, for multi-model mean changes, the consistency across 
+models for the sign of change (model agreement) and the magnitude of change relative to unforced climate 
+variability (signal-to-noise ratio) provide two complementary measures allowing for simple or more 
+comprehensive approaches to represent robustness and uncertainty. While they can be visually represented in 
+various ways with more or less complexity (Retchless and Brewer, 2016), the most common implementation 
+for maps in the climate science community remains the overlay of symbols and/or masking of the primary 
+variable. This Cross-Chapter Box reviews the approaches followed in previous IPCC reports and describes 
+the methods used across this WGI report, presenting the rationale and discussing its relative merits and 
+limitations. </p>
+
+<p>The objectives in AR6 for representing robustness and uncertainty in maps are 1) adopting a method that can 
+be as coherent as possible across the different global/regional chapters while accommodating different needs, 
+2) being visually consistent across WGs, and 3) making the different layers of information on the maps as 
+accessible as possible for the reader. As a result, a single approach is selected for observations and two 
+alternative approaches (simple and advanced) are adopted for projected future changes. It is important to 
+highlight that, as in previous reports, these approaches are implemented in maps at a grid-box level and, 
+therefore, are not informative for larger spatial scales (e.g., over AR6 reference regions) where the 
+aggregated signals are less affected by small-scale variability leading to an increase in robustness. This is 
+particularly relevant for the AR6 regional assessments and approaches (e.g., for trend detection and 
+attribution, Cross-Chapter Box 1.4, Section 11.2.4) which are performed for climatological regions and not 
+at grid-box scale (Chapters 11, 12, Atlas). Both small and large scales are relevant (e.g., adaptation occurs at 
+the smaller scales but also at the level of countries, which are typically larger than a few grid boxes). They 
+are both addressed in the Interactive Atlas, which implements the above approaches for representing 
+robustness in maps at the grid-box level, but also allows analysing region-wide signals (e.g., AR6 WG I 
+reference regions, monsoon regions, etc.), helping to isolate background changes happening at larger scales 
+(Section Atlas.2.2).  </p>
+
+<h3>Approaches used in previous reports</h3>
+
+<p>Recent IPCC reports adopted different approaches for mapping uncertainty/robustness, including their 
+calculation method and/or their visual implementation. In AR5 WGI ‘+’ symbols were used to represent 
+significant trends in observations at grid-box level. For future projections, different methods for mapping 
+robustness were assessed (AR5 Box 12.1, Collins et al., 2013), while proposing as a reference an approach 
+based on relating the multi-model mean climate change signal to internal variability, calculated as the 
+standard deviation of non-overlapping 20-year means in the pre-industrial control runs. Regions where the 
+multi-model mean change exceeded two standard deviations of the internal variability and where at least 
+90% of the models agreed on the sign of change were stippled (as an indication of a robust signal). Regions 
+where the multi-model change was less than one standard deviation were hatched (small multi-model mean 
+signal). However, this category did not distinguish areas with consistent small changes from areas of 
+significant but opposing/divergent signals. In addition, the unstippled/unhatched areas were left undefined, 
+since the categories were not mutually exclusive. </p>
+
+<p>AR5 WGII (Hewitson et al., 2014) used hatching to represent non-significant trends in observations. For 
+future projections, an elaborated approach with four mutually exclusive and exhaustive categories was 
+proposed (to avoid some of the limitations of the AR5 WGI approach): very strong agreement (same as in 
+WGI); strong agreement; divergent change; and little or no change. These depended on the percentage of 
+models showing change greater than the baseline variability and/or agreeing on sign of change (using a 66% 
+agreement threshold). Leaving the robust regions uncovered minimized any interference with the perception 
+of underlying colours that encoded the primary information of the figure.  </p>
+
+<p>The two special reports IPCC SR1.5 (Hoegh-Guldberg et al., 2018) and SROCC (IPCC, 2019a, 2019c) 
+adopted a simplified approach, using only model agreement (≥66% of models agree on sign of change) to 
+characterize robustness. However, cross-hatching was used in SR1.5 to highlight robust areas where models 
+agree, whereas the SROCC used hatching/shading to represent regions where models disagree. Similarly, 
+stippling was used in SR1.5 to indicate regions with significant trends, whereas it was used in SROCC to 
+represent regions where the trends were not significant.  </p>
+
+<h2>Recent methodologies</h2>
+
+<p>Since AR5 there has been a growing interest for disentangling small consistent climate change signals from 
+significant divergent opposite changes resulting in conflicting information (Tebaldi et al., 2011), and 
+different statistical tests have been applied to assess the significance of signals working with the individual 
+models forming the ensemble (Dosio and Fischer, 2018; Yang et al., 2018; Morim et al., 2019). Moreover, 
+new approaches have been proposed to identify large changes of opposite sign that compensate in the mean 
+(Zappa et al., 2021). Recent literature has also highlighted the respective risks of Type I vs Type II errors, 
+which can be associated with the determination of robustness in analysed signals (Lloyd and Oreskes, 2018; 
+Knutson et al., 2019). Type I errors are identifying signals when there are none, while Type II errors are 
+concluding there is no signal when there is one. In the case of grid-box level analysis, the focus on small-
+scale features with inherently large signal-to-noise ratio may emphasize noise even though signals are 
+present when aggregated at larger scale (Sections 11.2.4 and 11.2.5). Consequently, changes averaged over 
+regions or a number of grid-boxes emerge from internal variability at a lower level of warming than at the 
+grid-box level (e.g., Cross-Chapter Box Atlas.1, Figure 2). Hence, focus on grid-box significance enhances 
+the risk of Type II errors for overlooking signals significant at the level of AR6 regions. The significance of 
+signals is also affected by interdependence of single simulations considered in a given ensemble, for example 
+when several come from the same modelling group and share parameterizations or model components 
+(Knutti et al., 2013; Maher et al., 2021). The risk of Type II errors increases when a model ensemble 
+includes several related simulations showing no signal. </p>
+
+<h2>The AR6 WGI approach</h2>
+
+<p>AR6 WGI adapts the approaches applied in previous IPCC reports into a comprehensive framework based 
+on the two general principles followed by AR5 WGII: 1) not obscuring (with stippling or hatching) the areas 
+where relevant/robust information needs to be highlighted (since stippling and hatching obstruct the 
+visualisation of the colours, which can affect the perception/interpretation of the underlying data); 2) using 
+mutually exclusive and exhaustive categories to avoid leaving areas undefined. The three adopted 
+approaches (one for observations and two for model projections) are described in Cross-Chapter Box Atlas.1, 
+Table 1. This framework integrates as much as possible the specificities of each WGI Chapter, proposing in 
+some cases alternative thresholds.  </p>
+
+<p><em>Approach A</em> is intended for observations and consists of two categories, one for areas with significant trends 
+(colour, no overlay) and one for non-significant ones (coloured areas overlaid with ‘x’), typically using a 
+two-sided test for a significance level of 0.1; Chapter 2 and Atlas trends have been calculated using OLS 
+regression accounting for serial correlation (Santer et al., 2008). </p>
+
+<p><em>Approach B</em> is the simple alternative for model projections. It consists of two categories, one for model 
+agreement (at least 80% of the models agree on the sign of change; colour, no overlay) and the other one for 
+non-agreement (hatching). It is noted that model agreement is computed using ‘model democracy’ (i.e. 
+without discarding/weighting models), since quantifying and accounting for model interdependence (shared 
+building blocks) still remain challenging (Section 4.2.6). Different thresholds have been used in previous 
+reports and in the literature. 80% has been widely used in CORDEX studies (Dosio and Fischer, 2018; 
+Kjellström et al., 2018; Nikulin et al., 2018; Yang et al., 2018; Akperov et al., 2019; Rana et al., 2020) 
+partially due to the small ensemble sizes available in some cases; this also helps to reduce the impact of 
+model interdependence in the final results. Although 90% (used in AR5 WGI) provides high confidence on 
+the forced change, it is deemed too stringent for precipitation-like variables and regional assessments and 
+was therefore not included (see Cross-Chapter Box Atlas.1, Figure 1). The 66% threshold, which has been 
+used in previous reports (e.g., SR1.5 and SROCC) and in the literature, is not used to avoid communicating 
+weak confidence. Cross-Chapter Box Atlas.1, Figure 1 illustrates the application of this approach.  </p>
+
+<p><em>Approach C</em> is a more advanced alternative for model projections, extending the AR5 WGI and simplifying 
+the AR5 WGII approaches (fewer categories). It consists of three categories: ‘robust change’, ‘conflicting 
+change’, and ‘no change or no robust change’ (see the details in Cross-Chapter Box Atlas.1, Table 1). The 
+first two categories can be interpreted as areas where the climate change signal likely emerges from internal 
+variability (i.e., it exceeds the variability threshold in ≥66% of the models). The variability threshold is 
+defined as <math>\gamma =  \sqrt{2}  \cdot  1.645 \cdot \sigma_{20yr}</math>, where <math>\sigma_{20yr}</math> is the standard deviation of 20-year means, computed from 
+non-overlapping periods in the pre-industrial control (after detrending with a quadratic fit as in AR5 WG1); 
+in cases where this information is not available (e.g., for CORDEX or HighResMIP), the following 
+approximation is used instead: <math>\gamma =  \sqrt{2/20}  \cdot  1.645 \cdot \sigma_{1yr}</math>, where <math>\sigma_{1yr}</math> is the interannual standard deviation measured in a linearly detrended modern period (note that for white noise <math>\sigma_{20yr} = \sigma_{1yr} / \sqrt{20}</math>). The factor √2 is used as in the AR5 WGI approach to account for the fact that the variability of a difference in means (the 
+climate change signal) is of interest. This approach is an evolution of AR5 WGI method with three notable 
+differences: (a) AR6 uses a lower threshold for internal variability (1.645 corresponding to a 90% confidence 
+level, instead of 2 as used in AR5 WG1); (b) the threshold on agreement in sign is lowered from ≥90% to 
+≥80%, leading to more grid boxes classified as robust as opposed to conflicting signal; (c) the AR6 method 
+compares signal to variability in each individual model and consequently introduces a 66% cut-off on 
+significant changes implying that the climate change signal likely emerges from internal variability in the 
+baseline period. This change is motivated by the criticisms of internal variability of the models, while it can 
+differ largely across models. </p>
+
+<p>Cross-Chapter Box Atlas.1, Figure 1 illustrates the application of this method considering the effect of the 
+baseline period (1850–1900 versus 1995–2014) and shows that it provides similar results to related 
+approaches proposed in the literature (Zappa et al., 2021).  </p>
+
+<p>The two alternative approaches discussed above allow visualisation of different level of detail of information 
+on the projected change and are intended for different communication purposes. Approach B just informs on 
+the consistency of the sign of change independent of its significance relative to internal variability, whereas 
+approach C puts the projected changes into context of internal variability and allows highlighting of areas of 
+conflicting signals. It is important to note that different approaches can be applied to the same variable 
+between different chapters for different communication purposes. For example, in maps showing multi-
+model mean changes of precipitation, Chapter 4 adopts the approach C but Chapter 8 applies the approach B.  </p>
+
+<p>In terms of visual implementation, the approach follows recommendations resulting from conversations with 
+IPCC national delegations: 1) having a consistent approach across WGs would aid consistency and reduce 
+the risk of confusion; 2) defining ‘hatching’ as ‘diagonal lines’ in the caption would aid accessibility for non-
+expert audiences; 3) a clear and concise legend that explains what these patterns represent should be included 
+directly in the figure; 4) information about model uncertainty should be overlaid such that it does not detract 
+from the data underneath. </p>
+
+<p>Since stippling is commonly used to represent statistical significance, hatching was chosen to ‘obscure’ the 
+problematic categories in the above approaches; it also facilitates the visualisation of uncertainty in the 
+Interactive Atlas when zooming in. To avoid confusion, methods or thresholds that were unrelated to the 
+three approaches hereby presented were visualised with a different pattern (i.e., model improvement between 
+low- and high-resolution simulations in Chapter 3; agreement between observation-based products in 
+Chapter 5; correlation between two variables in Chapter 6).  </p>
+
+<p><tableref>Cross-Chapter Box ATLAS.1,Table 1</tableref> </p>
+
+<p><figref>Cross-Chapter Box ATLAS.1,Figure1</figref></p>
+
+<h2>Uncertainty at the grid-box and regional scales: interpreting hatched areas</h2>
+
+<p>There is no one-size-fits-all method for representing robustness or uncertainty in future climate projections 
+from a multi-model ensemble. One of the main challenges is the dependence of the significance on the 
+spatial scale of interest: while a significant trend may not be detected at every location, a fraction of 
+locations showing significant trends can be sufficient to indicate a significant change over a region, 
+particularly for extremes (e.g., it is likely that annual maximum 1-day precipitation has intensified over the 
+land regions globally even though there are only about 10% of weather stations showing significant trends; 
+Figure 11.13). The approach adopted in WGI works at a grid-box level and, therefore, is not informative for 
+assessing climate change signals over larger spatial scales. For instance, an assessment of the amount of 
+warming required for a robust climate change signal to emerge can strongly depend on the considered spatial 
+scale. A robust change in the precipitation extremes averaged over a region or a number of grid-boxes 
+emerge at a lower level of warming than at the grid-box level because of larger variability at the smaller 
+scale (Cross-Chapter Box Atlas.1, Figure 2). </p>
+
+<p><figref>Cross-Chapter Box ATLAS.1,Figure2</figref></p>
