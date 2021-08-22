@@ -1993,7 +1993,7 @@ parameter (W m-2 °C–1). As surface temperature changes in response to the TOA
 other climate variables also change, thus affecting the radiative flux at the TOA. The aggregate feedback 
 
 parameter can then be decomposed into an approximate sum of terms \\( \alpha = \sum\_{x} \alpha\_x \\), where x is a vector
-representing variables that have a direct effect on the net TOA radiative flux N and \\( \alpha\_x = {{\partial N} \over {\partial x}} {{\partial x} \over {\partial T}} \\). Following 
+representing variables that have a direct effect on the net TOA radiative flux N and \\( \alpha\_x = { {\partial N} \over {\partial x} } { {\partial x} \over {\partial T} } \\). Following 
 the conventional definition, the physical climate feedbacks are here decomposed into terms associated with a 
 vertically uniform temperature change (Planck response, P), changes in the water vapour plus temperature 
 lapse rate (WV+LR), surface albedo (A) and clouds (C). The water vapour plus temperature lapse rate 
