@@ -6158,16 +6158,29 @@
                 ]
             }
         },
-        "ccc": {
+        "Box 4.1,Figure1": {
             "title": {
-                "en_EN":""
+                "en_EN":"CMIP6 annual-mean GSAT simulations and various contributions to uncertainty in the projections ensemble."
             },
             "subtitle": {
                 "en_EN": ""
             },
             "description": {
                 "en_EN": [
-                    ""
+                    "The figure shows anomalies relative to the period 1995–2014 (left y-axis), converted to anomalies relative to 1850–1900 (right y-axis); the difference between the y-axes is 0.85°C (Cross-Chapter Box 2.3). Shown are historical simulations with 39 CMIP6 models (grey) and projections following scenario SSP2-4.5 (dark yellow; thin lines: individual simulations; heavy line; ensemble mean; dashed lines: 5% and 95% ranges). The black curve shows the observations-based estimate (HadCRUT5, (Morice et al., 2021)). Light blue shading shows the 50- member ensemble CanESM5, such that the deviations from the CanESM5 ensemble mean have been added to the CMIP6 multi-model mean. The green curves are from the emulator and show the central estimate (solid) and very likely range (dashed) for GSAT. The inset shows a cut-out from the main plot and additionally in light purple for the period 2019–2028 the initialized forecasts from eight models contributing to DCPP (Boer et al., 2016); the deep-purple curve shows the average of the forecasts. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1). "
+                ]
+            }
+        },
+        "Cross-Chapter Box 4.1,Figure1": {
+            "title": {
+                "en_EN":"Figure 1: Potential impact of volcanic eruption on future global temperature change."
+            },
+            "subtitle": {
+                "en_EN": ""
+            },
+            "description": {
+                "en_EN": [
+                    "CMIP5 projections of possible 21st-century futures under RCP4.5 after a 1257 Samalas magnitude volcanic eruption in 2044, from (Bethke et al., 2017). a, Volcanic ERF of the most volcanically active ensemble member, estimated from SAOD. b, Annual-mean GSAT. Ensemble mean (solid) of future projections including volcanoes (blue) and excluding volcanoes (red) with 5–95% range (shading) and ensemble minima/maxima (dots); evolution of the most volcanically active member (black). Data created using a SMILE approach with NorESM1 in its CMIP5 configuration. See Section 2.2.2 and Section 4.4.4 for more details. Further details on data sources and processing are available in the chapter data table (Table 4.SM.1). "
                 ]
             }
         },
@@ -7677,7 +7690,8 @@
             {
                 "ref":"Box 4.1",
                 "en_EN":"Ensemble Evaluation and Weighting",
-                "startPage":21
+                "startPage":21,
+                "hasFile": true
             },
             {
                 "ref": "4.3",
@@ -7855,7 +7869,8 @@
             {
                 "ref":"Cross-Chapter Box 4.1",
                 "en_EN":"The climate effects of volcanic eruptions",
-                "startPage":51
+                "startPage":51,
+                "hasFile": true
             },
             {
                 "ref": "4.5",
