@@ -823,6 +823,7 @@ function displayBox(element)
         });
         mod.open();
         updateTooltips();
+        if(MathJax) MathJax.typeset();
 
     }).fail(function(){
         // fallback to PDF
@@ -1266,6 +1267,7 @@ function loadMainPanel(chapter = 'TS', toRef = false)
             </a>`);
         });
         html.appendTo('#main-panel-holder');
+        if(MathJax) MathJax.typeset();
 
         updateTooltips();
         if(toRef)
