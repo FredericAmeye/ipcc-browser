@@ -828,7 +828,7 @@ function displayHistory()
             hh = ("0"+hh).slice(-2), mm = ("0"+mm).slice(-2);
 
             html += /*html*/`<li>
-                <a href="#" data-cite="${userParams.history[i].ref}" data-tippy-content="${title}" onclick="return dispSource(this, true);">
+                <a href="#" data-cite="${userParams.history[i].ref}" data-tippy-content="${title}" onclick="return dispSource(this, false);">
                 ${userParams.history[i].ref}
                 ${title}
                 <span class="right">${hh}:${mm}</span>
@@ -1097,7 +1097,11 @@ function getTableAndPopulate(ref, target)
     console.log("getAble",ref, target);
     $.get('pdf/tables/'+ref+'.html', function(html){
         // adding processText here breaks table TS.4
-        $('#tablePopulate'+target).html(html).find('table');
+        if(html.indexOf('<img') == -1){
+            html = processText(html);
+        }
+        $('#tablePopulate'+target).html(html);
+        updateTooltips();
     });
 }
 
@@ -1183,7 +1187,7 @@ let regex_markup_fn = function(orig1, balise, content, balise2, position)
         getTableAndPopulate(content, tab_id);
         return /*html*/`<div class="center">
         <div class="small-figure hoverable">
-            <div id="tablePopulate${tab_id}" style="background:#EEE"></div>
+            <div id="tablePopulate${tab_id}" style="background:#EEE; overflow:auto"></div>
             <span class="fig-legend">Table ${content}</span>
         </div></div>`;
     }
@@ -1358,8 +1362,11 @@ function loadMainPanel(chapter = 'TS', toRef = false)
         currentlyLoadedPanel = toRef;
         updateHash();
 
-        // insert permalinks in headers
-        html = $('<div><img src="pdf/'+chapter+'.png" style="margin-top:15px; max-width:100%">'+html+'</div>');
+        // insert wordcloud in headers
+        if(chapter != 'Atlas')
+            html = $('<div><img src="pdf/'+chapter+'.png" style="margin-top:15px; max-width:100%">'+html+'</div>');
+        else
+            html = $('<div>'+html+'</div>');
 
         // headers sticky sur la partie gauche ou mini-sommaire?
         // TODO div to the left not correct on mobiles
