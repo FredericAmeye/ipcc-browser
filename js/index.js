@@ -105,7 +105,7 @@ let initFn = (function()
     }
 
     /* init page */
-    jQuery.getJSON('content/wgI.json?v16.json', function(r){
+    jQuery.getJSON('content/wgI.json?v17.json', function(r){
         const nb_chap = r.SPM.chapters.length;
         wgI = r;
         
@@ -828,7 +828,7 @@ function displayHistory()
             hh = ("0"+hh).slice(-2), mm = ("0"+mm).slice(-2);
 
             html += /*html*/`<li>
-                <a href="#" data-cite="${userParams.history[i].ref}" data-tippy-content="${title}" onclick="dispSource(e, true);">
+                <a href="#" data-cite="${userParams.history[i].ref}" data-tippy-content="${title}" onclick="return dispSource(this, true);">
                 ${userParams.history[i].ref}
                 ${title}
                 <span class="right">${hh}:${mm}</span>
