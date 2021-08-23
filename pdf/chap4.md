@@ -395,7 +395,7 @@ both dimensions of integration across scenarios (Section 4.3) and global warming
 discussed in Chapter 1, Section 1.6. Other MIPs also target future scenarios with a focus on specific 
 processes or feedbacks and are summarised in Table 4.1. 
  
-<tableref>1.4</tableref> 
+<tableref>4.1</tableref> 
  
 Multi-model ensembles provide the central focus of projection assessment. While single-model experiments 
 have great value for exploring new results and theories, multi-model ensembles additionally underpin the 
