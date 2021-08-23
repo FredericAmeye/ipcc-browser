@@ -2590,7 +2590,7 @@ consistent with the SSPs and other prescribed concentration scenarios (Section 5
 specifically analyse results from concentration-driven ESM projections.  
  
  
-### 5.2.1.1  Evaluation of the Contemporary Carbon Cycle in Concentration-Driven Runs 
+### 5.4.5.1  Evaluation of the Contemporary Carbon Cycle in Concentration-Driven Runs 
  
 Models need to be compared to as wide an array of observational benchmarks as possible in order to have 
 confidence in their projections. This is particularly the case for highly-uncertain land carbon cycle feedbacks 
@@ -2610,7 +2610,7 @@ CMIP5 land models on all available metrics.
  
 <figref>5.22</figref> 
 
-### 5.4.5.1  Evaluation of Historical Carbon Cycle Simulations in Concentration-Driven Runs 
+### 5.4.5.2  Evaluation of Historical Carbon Cycle Simulations in Concentration-Driven Runs 
  
 This section evaluates concentration-driven historical simulations of changes in land and ocean cumulative 
 carbon uptake, against observation-based estimates from GCP (Le Quéré et al., 2018a). For each model, 
@@ -2634,7 +2634,7 @@ uncertainty in the projected response of the global carbon cycle to climate chan
 <figref>5.23</figref> 
 
  
-### 5.4.5.2  Evaluation of Latitudinal Distribution of Simulated Carbon Sinks 
+### 5.4.5.3  Evaluation of Latitudinal Distribution of Simulated Carbon Sinks 
  
 This distinction between the relatively high fidelity with which the ocean carbon sink is simulated, and the 
 much wider range of simulations of the land carbon sink, is also evident in the zonal distribution of the sinks 
@@ -2659,7 +2659,7 @@ carbon sink, when compared to estimates from atmospheric inversion (Ciais et al.
   
 <figref>5.24</figref> 
 
-### 5.4.5.3  Coupled Climate-Carbon Cycle Projections 
+### 5.4.5.4  Coupled Climate-Carbon Cycle Projections 
  
 Land and ocean carbon uptake are driven primarily by increases in atmospheric CO₂ (Figure 5.25). As a 
 result, the evolution of land and ocean carbon sinks differs significantly between the SSP scenarios. Under 
@@ -2705,7 +2705,7 @@ responses, uncertainty in atmospheric CO₂ by 2100 is dominated by future anthr
 than carbon-climate feedbacks (high confidence). 
  
  
-### 5.4.5.4  Linear Feedback Analysis 
+### 5.4.5.5  Linear Feedback Analysis 
  
 In order to diagnose the causes of the varying time-evolution of carbon sinks, the traditional linear feedback 
 approach is adopted (Friedlingstein et al., 2003), as used previously to analyse C4MIP (Friedlingstein et al., 
@@ -2902,7 +2902,9 @@ greenhouse gases from permafrost and methane clathrates (Table 5.6). It is not c
 a full assessment of proposed abrupt changes and tipping points in the biogeochemical cycles. In this section 
 we therefore focus instead on estimating upper limits on the possible impact of abrupt changes on the 
 evolution of atmospheric GHGs out to 2100, for comparison to the impact of direct anthropogenic emissions. 
- 
+
+<tableref>5.6</tableref>
+
 ### 5.4.9.1  Assessment of biogeochemical tipping points 
  
 #### 5.4.9.1.1  Forest Dieback  
