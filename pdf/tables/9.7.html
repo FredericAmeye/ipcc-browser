@@ -1,0 +1,97 @@
+<p>(Includes corrigenda)</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:1500px">
+	<thead>
+		<tr>
+			<th scope="col">Driver of Global-Mean or Regional Sea-Level change</th>
+			<th scope="col">SROCC Projection Method</th>
+			<th scope="col">AR6 Projection method</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Thermal expansion<br />
+			(Section 9.2.4.1)</td>
+			<td>CMIP5 ensemble drift-corrected <em>zostoga</em>, with surrogates derived from climate system heat content where not available.</td>
+			<td>Two-layer emulation with climate sensitivity calibrated to the AR6 assessment (7.SM.2) and expansion coefficients calibrated to emulate CMIP6 models (9.SM.4.2, 9.SM.4.3)</td>
+		</tr>
+		<tr>
+			<td>Greenland ice sheet<br />
+			(excluding peripheral glaciers)<br />
+			(Section 9.4.1.3, 9.4.1.4)</td>
+			<td>
+			<p>Surface mass balance: scaled cubic polynomial fit to GMST.</p>
+
+			<p>Dynamics: Quadratic function of time, calibrated based on multimodel assessment.</p>
+			</td>
+			<td>
+			<p>Medium confidence processes up to 2100: Emulated ISMIP6 simulations (Box 9.3) (Edwards et al., 2021)</p>
+
+			<p>Medium confidence processes after 2100: Parametric model fit to ISMIP6 simulations up to 2100, extrapolated based on either constant post-2100 rates or a quadratic interpolation to the multimodel assessed 2300 range (9.SM.4.4)</p>
+
+			<p>Low confidence processes: Structured expert judgement (Bamber et al., 2019)</p>
+			</td>
+		</tr>
+		<tr>
+			<td>Antarctic ice sheet<br />
+			(excluding peripheral glaciers<sup>a</sup>)<br />
+			(Section 9.4.2.5, 9.4.2.6)</td>
+			<td>Multimodel assessment</td>
+			<td>
+			<p>Medium confidence processes up to 2100: p-box including (1) Emulated ISMIP6 simulations (Edwards et al., 2021) and (2) LARMIP-2 simulations (Levermann et al., 2020) augmented by AR5 surface mass balance model applied to CMIP6 models (Box 9.3).</p>
+
+			<p>Medium confidence processes after 2100: p-box including (1) AR5 parametric AIS model and (2) LARMIP-2 simulations augmented by AR5 surface mass balance model, with both methods extrapolated based on either constant post-2100 rates of a quadratic interpolation to the multimodel assessed 2300 range (9.6.3.2).</p>
+
+			<p>Low confidence processes : (1) Single ice-sheet-model ensemble simulations including Marine Ice Cliff Instability (DeConto et al.,2021) and (2) structured expert judgement (Bamber et al., 2019)</p>
+			</td>
+		</tr>
+		<tr>
+			<td>Glaciers<br />
+			(including peripheral glaciers)<br />
+			(Section 9.5.1.3)</td>
+			<td>Power law function of integrated GMST fit to glacier models</td>
+			<td>
+			<p>Up to 2100:<br />
+			Emulated GlacierMIP (Marzeion et al., 2020; Edwards et al., 2021) simulations (Box 9.3)</p>
+
+			<p>Beyond 2100:<br />
+			AR5 parametric model re-fit to GlacierMIP (Marzeion et al., 2020) (9.SM.4.5)</p>
+			</td>
+		</tr>
+		<tr>
+			<td>Land water storage<br />
+			(Section 9.6.3.2)</td>
+			<td>
+			<p>Groundwater depletion: combination of (1) continuation of early 21st century trends and (2) land-surface hydrology models (Wada et al., 2012)</p>
+
+			<p>Water impoundment: combination of (1) continuation of historical rate and (2) assumption of no net impoundment after 2010</p>
+			</td>
+			<td>
+			<p>Groundwater depletion:<br />
+			Population/groundwater depletion relationship calibrated based on (Konikow, 2011; Wada et al., 2012, 2016)</p>
+
+			<p>Water impoundment:<br />
+			Population/dam impoundment relationship calibrated based on (Chao et al., 2008), adjusted for new construction following (Hawley et al., 2020) for 2020 to 2040.</p>
+			</td>
+		</tr>
+		<tr>
+			<td>Ocean dynamic sea level<br />
+			(Section 9.2.4.2)</td>
+			<td>CMIP5 ensemble <em>zos</em> field after polynomial drift removal.</td>
+			<td>Distribution derived from CMIP6 ensemble <em>zos</em> field after linear drift removal (9.SM.4.2, 9.SM.4.3)</td>
+		</tr>
+		<tr>
+			<td>Gravitational, rotational, and deformational effects<br />
+			(Section 9.6.3.2)</td>
+			<td colspan="2" rowspan="1">Sea-level equation solver (Slangen et al., 2014b) driven by projections of ice sheet, glacier, and land water storage changes.</td>
+		</tr>
+		<tr>
+			<td>Glacial isostatic adjustment and other drivers of vertical land motion<br />
+			(Section 9.6.3.2)</td>
+			<td>GIA model, with ice history from mean of ANU and ICE-5G</td>
+			<td>Spatiotemporal statistical model of tide-gauge data (updated from (Kopp et al., 2014)) (9.SM.4.6)</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><sup>a</sup> Ice sheet models include some of the larger islands in the Antarctic periphery, so there is some overlap in the projected glacier contribution and the projected Antarctic contribution, but the effet of this is estimated to be of order 0.5-1cm or less (Edwards et al., 2021).</p>
