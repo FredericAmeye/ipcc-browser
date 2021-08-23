@@ -1,4 +1,4 @@
-# 4.es Executive Summary 
+# <goto>4.es</goto> Executive Summary 
 
 This chapter assesses simulations of future global climate change, spanning time horizons from the near term 
 (2021–2040), mid-term (2041–2060), and long term (2081–2100) out to the year 2300. Changes are assessed 
@@ -245,7 +245,7 @@ years ago. GSAT projected for the end of the 23rd century under SSP5-8.5 (6.6−
 range estimated for the Miocene Climatic Optimum (5°C−10°C) and Early Eocene Climatic Optimum 
 (10°C−18°C), about 15 and 50 million years ago, respectively (medium confidence). {2.3.1.1, 4.7.1} 
 
-# 4.1  Scope and Overview of this Chapter 
+# <goto>4.1</goto>  Scope and Overview of this Chapter 
 
 This chapter assesses simulations of future climate change, covering both near-term and long-term global 
 changes. The chapter assesses simulations of physical indicators of global climate change, such as global 
@@ -370,7 +370,7 @@ climate change. The chapter concludes with Section 4.8 on the potential for low-
 changes, followed by answers to three frequently asked questions (FAQs).  
  
  
-# 4.2  Methodology 
+# <goto>4.2</goto>  Methodology 
  
 ## 4.2.1  Models, Model Intercomparison Projects, and Ensemble Methodologies  
  
@@ -898,7 +898,7 @@ changes in temperature variability (Section 4.5.1) and modes of internal variabi
  
 <boxref>4.1</boxref> 
  
-# 4.3  Projected Changes in Global Climate Indices in the 21st Century  
+# <goto>4.3</goto>  Projected Changes in Global Climate Indices in the 21st Century  
  
 This section assesses the latest simulations of representative indicators of global climate change presented as 
 time series and tabulated values over the 21st century and across the main realms of the global climate 
@@ -1424,7 +1424,7 @@ will extremely unlikely be crossed under SSP1-1.9.
 
 <tableref>4.5</tableref>
 
-# 4.4  Near-term Global Climate Changes  
+# <goto>4.4</goto>  Near-term Global Climate Changes  
  
 This section assesses changes in large-scale climate over the period 2021–2040 and includes information 
 from both projections and initialized decadal predictions. The structure is similar to Section 4.3. Unless 
@@ -2003,7 +2003,7 @@ al., 2021).
 <boxref>Cross-Chapter Box 4.1</boxref> 
 
 
-# 4.5  Mid- to Long-term Global Climate Change  
+# <goto>4.5</goto>  Mid- to Long-term Global Climate Change  
  
 ## 4.5.1  Atmosphere  
  
@@ -2879,7 +2879,7 @@ In conclusion, on the basis of paleoclimate reconstructions and CMIP5 model simu
 confidence that the AMV is not expected to change in the future.  
  
  
-# 4.6 Implications of Climate Policy
+# <goto>4.6</goto> Implications of Climate Policy
  
 ## 4.6.1  Patterns of Climate Change for Specific Levels of Global  
  
@@ -3729,7 +3729,7 @@ However, a gradual phase-out of SRM combined with mitigation and CDR would more 
 large rates of warming.  
  
 
-# 4.7  Climate Change Beyond 2100 
+# <goto>4.7</goto>  Climate Change Beyond 2100 
  
 This section assesses changes in climate beyond 2100. An advance since AR5 is the availability of ESM 
 results for scenarios beyond 2100 and for much longer stabilisation simulations compared with analysis 
@@ -3967,7 +3967,7 @@ Sime et al., 2019).
  
 <tableref>4.10</tableref> 
  
-# 4.8  Low-Likelihood High-Warming Storylines  
+# <goto>4.8</goto>  Low-Likelihood High-Warming Storylines  
  
 Previous IPCC assessments have primarily assessed the projected likely range of changes (e.g., (Collins et 
 al., 2013), see also BOX 1.1). The focus on the likely range partly results from the design of model 

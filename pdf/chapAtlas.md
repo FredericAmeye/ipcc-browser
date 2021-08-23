@@ -1,4 +1,4 @@
-# Atlas.es Executive summary 
+# <goto>Atlas.es</goto> Executive summary 
  
 This Atlas chapter assesses changes in mean climate at regional scales, in particular observed trends and 
 their attribution and projected future changes. The main focus is on changes in temperature and precipitation 

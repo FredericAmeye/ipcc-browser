@@ -1,4 +1,4 @@
-# 7.es Executive Summary 
+# <goto>7.es</goto> Executive Summary 
  
 This chapter assesses the present state of knowledge of Earth’s energy budget, that is, the main flows of 
 energy into and out of the Earth system, and how these energy flows govern the climate response to a 
@@ -241,7 +241,7 @@ net zero GHG emissions when quantified using new emission metrics such as CGTP o
 approximate temperature stabilization (high confidence) {7.6.2} 
 
 
-# 7.1 Introduction, conceptual framework, and advances since AR5 
+# <goto>7.1</goto> Introduction, conceptual framework, and advances since AR5 
  
 This chapter assesses the major physical processes that affect the evolution of Earth’s energy budget and the 
 associated changes in surface temperature and the broader climate system, integrating elements that were 
@@ -325,7 +325,7 @@ climate change (Chapter 4 and Chapter 11).
 <boxref>Box 7.1</boxref> 
  
 
-# 7.2  Earth’s energy budget and its changes through time 
+# <goto>7.2</goto>  Earth’s energy budget and its changes through time 
  
 Earth’s energy budget encompasses the major energy flows of relevance for the climate system (Figure 7.2). 
 Virtually all the energy that enters or leaves the climate system does so in the form of radiation at the TOA. 
@@ -640,7 +640,7 @@ heat.
 <boxref>Box 7.2</boxref> 
 
 
-# 7.3  Effective radiative forcing 
+# <goto>7.3</goto>  Effective radiative forcing 
  
 Effective radiative forcing (ERF) quantifies the energy gained or lost by the Earth system following an 
 imposed perturbation (for instance in greenhouse gases, aerosols or solar irradiance). As such it is a 
@@ -1946,7 +1946,7 @@ Chapter 3, Section 3.3.1.
 <boxref>Cross-Chapter Box 7.1</boxref> 
  
 
-# 7.4  Climate feedbacks 
+# <goto>7.4</goto>  Climate feedbacks 
  
 The magnitude of global surface temperature change primarily depends on the strength of the radiative 
 forcings and feedbacks, the latter defined as the changes of the net energy budget at the top of atmosphere 
@@ -3559,7 +3559,7 @@ since 1980 (Chapter 2, Figure 2.11b) which is more distinct from the equilibrium
 under CO2 forcing (similar to CMIP6 projections shown in Figure 7.12a) (Andrews et al., 2018) (high 
 confidence). 
  
-# 7.5  Estimates of ECS and TCR 
+# <goto>7.5</goto>  Estimates of ECS and TCR 
  
 Equilibrium climate sensitivity (ECS) and transient climate response (TCR) are metrics of the global surface 
 air temperature (GSAT) response to forcing, as defined in Section 7.1; Box 7.1. ECS is the magnitude of the 
@@ -4733,7 +4733,7 @@ uncertainty is dominated by aerosol ERF in strong mitigation scenarios. Global o
 smaller source of uncertainty in long-term surface warming. (high confidence). 
  
  
-# 7.6  Metrics to evaluate emissions 
+# <goto>7.6</goto>  Metrics to evaluate emissions 
  
 Emission metrics are used to compare the relative effect of emissions of different gases over time in terms of 
 radiative forcing, global surface temperature or other climate effects. They are introduced in Chapter 1, Box 

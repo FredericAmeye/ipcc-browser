@@ -1,4 +1,4 @@
-# 2.es Executive Summary  
+# <goto>2.es</goto> Executive Summary  
  
 Chapter 2 assesses observed large-scale changes in climate system drivers, key climate indicators and 
 principal modes of variability. Chapter 3 considers model performance and detection/attribution, and Chapter 
@@ -204,7 +204,7 @@ agreement about the long-term behaviour of other tropical ocean modes. Modes of 
 decadal variability over the Pacific and Atlantic oceans exhibit no significant trends over the period of 
 observational records (high confidence). {2.4} 
 
-# 2.1 Introduction 
+# <goto>2.1</goto> Introduction 
  
 This chapter assesses the evidence-basis for large-scale past changes in selected components of the climate 
 system. As such, it combines much of the assessment performed in Chapters 2 through 5 of the Fifth 
@@ -998,7 +998,7 @@ concentrations increased at an increasing rate due to growing CO₂ emissions (v
 aerosol forcing became less negative (more likely than not).  
 
 
-# 2.3  Changes in large-scale climate 
+# <goto>2.3</goto>  Changes in large-scale climate 
  
 <boxref>Cross-Chapter Box 2.2</boxref> 
  
@@ -3508,7 +3508,7 @@ unprecedented over at least the last two thousand years.
 <boxref>Cross-Chapter Box 2.4</boxref>
 
 
-# 2.4  Changes in modes of variability 
+# <goto>2.4</goto>  Changes in modes of variability 
  
 Modes of climate variability that are important for large-scale climate on interannual and longer timescales 
 (Cross-Chapter Box 2.2) are assessed herein and defined and summarised in Annex IV. Though the modes of 
@@ -3925,7 +3925,7 @@ from trends in the AMV. There is low confidence in the paleo AMV reconstructions
 resolution records.  
  
  
-# 2.5  Final remarks  
+# <goto>2.5</goto>  Final remarks  
  
 The assessment in this chapter is based upon an ever-expanding volume of available proxy and observational 
 records and a growing body of literature. Since AR5, improvements have been made in all aspects of data 

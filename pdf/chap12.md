@@ -1,4 +1,4 @@
-# 12.es Executive Summary 
+# <goto>12.es</goto> Executive Summary 
 
 *Climate change information is increasingly available and robust at regional scale for impacts and risk 
 assessment.* Climate services and vulnerability, impacts, and adaptation studies require regional scale multi-
@@ -149,7 +149,7 @@ of climate services, generation of climate service products, communication with 
 quality and socio-economic value of climate services. The development of climate services often uncovers 
 and presents new research challenges to the scientific community.  {12.6} 
 
-# 12.1  Framing 
+# <goto>12.1</goto>  Framing 
  
 Climate change is already resulting in significant societal and environmental impacts and will induce major 
 socio-economic damages in the future (AR5 WGII). The society, at large, benefits from information related 
@@ -256,7 +256,7 @@ and Africa, describes how climate services draw upon and apply regional climate 
 stakeholder decisions (Cross-Chapter Box 12.2). 
  
  
-# 12.2  Methodological approach 
+# <goto>12.2</goto>  Methodological approach 
  
 This section details the methodological approach followed in Chapter 12 and discusses the underlying 
 rationale for the assessments presented herein. Scientific literature on vulnerability, impacts, and adaptation 
@@ -357,7 +357,7 @@ co-production and climate services is assessed in sections 10.5, 12.6, Box 10.2 
 and 12.2. 
  
  
-# 12.3  Climatic impact-drivers for sectors 
+# <goto>12.3</goto>  Climatic impact-drivers for sectors 
  
 Climate change becomes relevant for regional impact management and for risk assessment when changes in 
 mean conditions or episodic events affect natural and societal assets (system components with 
@@ -1076,7 +1076,7 @@ points in a particular sectoral vulnerability, with commonalities in the types o
 thresholds represent even as their precise magnitude may vary by specific sectoral system and asset.*     
 
 
-# 12.4  Regional information on changing climate 
+# <goto>12.4</goto>  Regional information on changing climate 
  
 This section describes the historical and projected changes in commonly used indices and thresholds 
 associated with the main climatic impact-drivers (see 12.2 and 12.3) at the scale of AR6 regions described in 
@@ -4804,7 +4804,7 @@ bring prolonged drought, longer dry seasons, and increased fire weather to many 
 plants also responding to CO2 increases (medium confidence).* 
  
  
-# 12.5  Global perspective on climatic impact-drivers 
+# <goto>12.5</goto>  Global perspective on climatic impact-drivers 
  
 ## 12.5.1  A global synthesis 
  
@@ -5123,7 +5123,7 @@ ocean is projected to emerge before 2050 (high confidence).*
  
 <boxref>Cross-Chapter Box 12.1</boxref>
 
-# 12.6  Climate change information in climate services 
+# <goto>12.6</goto>  Climate change information in climate services 
  
 Climate services are a significantly evolving source for climate change information to support adaptation, 
 mitigation and risk management decisions. As an evolving field, there are multiple definitions of climate 
@@ -5371,7 +5371,7 @@ an important role in helping understand and tackle these challenges (Bruno Soare
  
 <boxref>Cross-Chapter Box 12.2</boxref> 
  
-# 12.7  Final Remarks 
+# <goto>12.7</goto>  Final Remarks 
  
 The assessment in this chapter is based on a rapidly growing body of new evidence from the peer-reviewed 
 literature, direct calculations of climate projections from several new model ensembles, and results from 

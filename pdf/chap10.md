@@ -1,4 +1,4 @@
-# 10.es Executive Summary 
+# <goto>10.es</goto> Executive Summary 
  
 Although climate change is a global phenomenon, its manifestations and consequences are different in 
 different regions, and therefore climate information on spatial scales ranging from sub-continental to local is 
@@ -199,7 +199,7 @@ Cape Town. Likewise, the distillation process results in low confidence in the i
 on mid-latitude climate because of contrasting lines of evidence. {10.5.3, 10.6.2, Cross-Chapter Box 10.1, 
 Cross-Chapter Box 10.3}  
  
-# 10.1  Foundations for regional climate change information 
+# <goto>10.1</goto>  Foundations for regional climate change information 
  
 ## 10.1.1  Introduction 
  
@@ -620,7 +620,7 @@ cryosphere and regional sea level change are assessed in Chapter 9.
  
 <boxref>Cross-Chapter Box 10.1</boxref> 
  
-# 10.2  Using Observations for Constructing Regional Climate Information 
+# <goto>10.2</goto>  Using Observations for Constructing Regional Climate Information 
  
 Considerable challenges (and opportunities) remain in using observations for climate monitoring, for 
 evaluating and improving climate models (Section 10.3.1), for constructing reanalyses and post-processing 
@@ -1141,7 +1141,7 @@ complement to traditional datasets (Overeem et al., 2013; Meier et al., 2017; Ui
 et al., 2019; Langendijk et al., 2019a). 
  
  
-# 10.3  Using Models for Constructing Regional Climate Information 
+# <goto>10.3</goto>  Using Models for Constructing Regional Climate Information 
  
 Much of the information available on future regional climate arises from studies based on climate model 
 simulations (Chapters 3, 4 and 8). In this section, different types of models (Section 10.3.1) and model 
@@ -2586,7 +2586,7 @@ chosen ensemble spans an appropriate range of projection uncertainties.
  
 <boxref>Cross-Chapter Box 10.2</boxref>  
 
-# 10.4  Interplay between Anthropogenic Change and Internal Variability at Regional Scales 
+# <goto>10.4</goto>  Interplay between Anthropogenic Change and Internal Variability at Regional Scales 
  
 This section focuses on the assessment of the methodologies used to identify the physical causes of past and 
 future regional climate change in the context of the ongoing anthropogenic influence on the global climate. 
@@ -3336,7 +3336,7 @@ subtropics and midlatitudes. An accurate estimation of the delay in regional-sca
 internal variability remains challenging due to global model biases in their representation of internal 
 variability as well as methodological difficulties to precisely estimate these biases (high confidence). 
  
-# 10.5  Combining Approaches to Constructing Regional Climate Information 
+# <goto>10.5</goto>  Combining Approaches to Constructing Regional Climate Information 
  
 This section assesses approaches and challenges for producing climate information for climate risk 
 assessments as well as for adaptation and policy decisions at regional scales (Section 10.1.2.1). An overview 
@@ -3780,7 +3780,7 @@ complemented by the barriers to the distillation assessed in Section 10.5.3.3.
  
 <boxref>Cross-Chapter Box 10.3</boxref> 
  
-# 10.6  Comprehensive Examples of Steps Toward Constructing Regional Climate Information 
+# <goto>10.6</goto>  Comprehensive Examples of Steps Toward Constructing Regional Climate Information 
  
 ## 10.6.1  Introduction 
  

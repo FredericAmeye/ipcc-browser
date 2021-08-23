@@ -1,4 +1,4 @@
-# 9.es Executive Summary  
+# <goto>9.es</goto> Executive Summary  
  
 This chapter assesses past and projected changes in the ocean, cryosphere and sea level using paleo-
 reconstructions, instrumental observations and model simulations. In the following summary, we update and 
@@ -275,7 +275,7 @@ extent will decrease by up to 50% relative to 1995–2014 (medium confidence); p
 (medium agreement, limited evidence). {9.3.1, 9.4.1, 9.4.2, 9.5.1, 9.5.2, 9.5.3, 9.6.3} 
 
 
-# 9.1 Introduction
+# <goto>9.1</goto> Introduction
  
 This chapter provides a holistic assessment of the physical processes underlying global and regional changes 
 in the ocean, cryosphere and sea level, as well as improved understanding of observed, attributed and 
@@ -330,7 +330,7 @@ of ocean heat uptake (Section 9.2.2.1; Cross-chapter Box 5.3) and observed chang
  
 <boxref>Box 9.1</boxref> 
  
-# 9.2  Oceans 
+# <goto>9.2</goto>  Oceans 
  
 ## 9.2.1  Ocean surface 
  
@@ -1719,7 +1719,7 @@ models are statistically consistent on short timescales with satellite altimeter
 confidence). 
  
  
-# 9.3  Sea ice 
+# <goto>9.3</goto>  Sea ice 
  
 ## 9.3.1  Arctic Sea Ice 
  
@@ -2102,7 +2102,7 @@ discrepancy, and the unclear reliability of the reanalyses (Uotila et al., 2019)
 CMIP5 and CMIP6 simulated future Antarctic sea-ice thickness.  
  
 
-# 9.4 Ice Sheets  
+# <goto>9.4</goto> Ice Sheets  
  
 ## 9.4.1  Greenland Ice Sheet 
  
@@ -3135,7 +3135,7 @@ concentrations or temperatures to pre-industrial levels may not be sufficient to
 Antarctic mass losses (low confidence). 
  
  
-# 9.5  Glaciers, permafrost and seasonal snow cover  
+# <goto>9.5</goto>  Glaciers, permafrost and seasonal snow cover  
  
 ## 9.5.1  Glaciers 
  
@@ -3907,7 +3907,7 @@ concomitant abrupt atmospheric change as a driver appear very unlikely in the co
 projected warming. 
 
  
-# 9.6  Sea Level Change  
+# <goto>9.6</goto>  Sea Level Change  
  
 ## 9.6.1  Global and regional sea-level change in the instrumental era 
  
@@ -5115,7 +5115,7 @@ events will change in response to relative sea level rise and climate change.
  
 <figref>9.32</figref> 
  
-# 9.7  Final Remarks 
+# <goto>9.7</goto>  Final Remarks 
  
 The process-based assessment of observed and projected change in the ocean, cryosphere and sea level 
 undertaken here reveals advances and gaps in reconstructions, observations, models and process 

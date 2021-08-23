@@ -1,4 +1,4 @@
-# 3.es Executive Summary 
+# <goto>3.es</goto> Executive Summary 
  
 The evidence for human influence on recent climate change strengthened from the IPCC Second Assessment 
 Report to the IPCC Fifth Assessment Report, and is now even stronger in this assessment. The IPCC Second 
@@ -216,7 +216,7 @@ performance in reproducing related sea surface temperature anomalies despite imp
 CMIP6 (medium confidence), and limited process understanding of their key drivers. {3.7.6, 3.7.7} 
  
 
-# 3.1  Scope and Overview 
+# <goto>3.1</goto>  Scope and Overview 
  
 This chapter assesses the extent to which the climate system has been affected by human influence and to 
 what extent climate models are able to simulate observed mean climate, changes and variability. This 
@@ -294,7 +294,7 @@ Figure 3.1.
  
 <figref>3.1</figref>
  
-# 3.2  Methods 
+# <goto>3.2</goto>  Methods 
  
 New methods for model evaluation that are used in this chapter are described in Section 1.5.4. These include 
 new techniques for process-based evaluation of climate and Earth system models against observations that 
@@ -406,7 +406,7 @@ previously applied detection and attribution techniques. They further strengthen
 of observed large-scale changes to a combination of external forcings as assessed in the following sections. 
  
  
-# 3.3  Human Influence on the Atmosphere and Surface 
+# <goto>3.3</goto>  Human Influence on the Atmosphere and Surface 
  
 ## 3.3.1  Temperature 
  
@@ -1746,7 +1746,7 @@ period because of large natural interannual variability and also due to common s
 simulated mean state affecting the simulated frequency of SSWs.  
  
  
-# 3.4  Human Influence on the Cryosphere 
+# <goto>3.4</goto>  Human Influence on the Cryosphere 
  
 ## 3.4.1  Sea Ice 
  
@@ -2106,7 +2106,7 @@ discussion in Section 9.4.2.1).
 Overall, there is medium agreement but limited evidence of anthropogenic influence on Antarctic mass 
 balance through changes in ice discharge. 
   
-# 3.5  Human Influence on the Ocean 
+# <goto>3.5</goto>  Human Influence on the Ocean 
  
 The global ocean plays an important role in the climate system, as it is responsible for transporting and 
 storing large amounts of heat (Sections 3.5.1 and 9.2.2.1), freshwater (Sections 3.5.2 and 9.2.2.2) and carbon 
@@ -2737,7 +2737,7 @@ circulations of the Southern Ocean are now broadly reproduced, substantial obser
 climate model challenges preclude attribution of Southern Ocean circulation changes (high confidence). 
  
  
-# 3.6  Human Influence on the Biosphere 
+# <goto>3.6</goto>  Human Influence on the Biosphere 
  
 ## 3.6.1  Terrestrial Carbon Cycle 
  
@@ -2970,7 +2970,7 @@ anthropogenic forcing, with medium confidence. There is high confidence that Ear
 a realistic time evolution of the global mean ocean carbon sink. 
  
  
-# 3.7  Human Influence on Modes of Climate Variability 
+# <goto>3.7</goto>  Human Influence on Modes of Climate Variability 
  
 This section assesses model evaluation and attribution of changes in the modes of climate variability listed in 
 Cross-Chapter Box 2.2, Table 2. The structure of the modes is described in Annex IV, observed changes in 
@@ -3776,7 +3776,7 @@ in simulations of the AMV compared to observations (Zhang, 2017).
  
 <figref>3.40</figref> 
  
-# 3.8  Synthesis across Earth System Components 
+# <goto>3.8</goto>  Synthesis across Earth System Components 
  
 ## 3.8.1  Multivariate Attribution of Climate Change 
  

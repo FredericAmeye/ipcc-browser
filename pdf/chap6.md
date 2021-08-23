@@ -1,4 +1,4 @@
-# 6.es Executive Summary 
+# <goto>6.es</goto> Executive Summary 
  
 Short-lived climate forcers (SLCFs) affect climate and are, in most cases, also air pollutants. They include 
 aerosols (sulphate, nitrate, ammonium, carbonaceous aerosols, mineral dust and sea spray), which are also 
@@ -248,7 +248,7 @@ Consistent with this small net radiative forcing, and against a large component 
 system model simulations show no detectable effect on global or regional surface temperature or 
 precipitation (high confidence). {Cross-Chapter Box 6.1} 
 
-# 6.1 Introduction  
+# <goto>6.1</goto> Introduction  
 
 Short lived climate forcers (SLCFs) are a set of chemically and physically reactive compounds with 
 atmospheric lifetimes typically shorter than two decades but differing in terms of physiochemical properties 
@@ -394,7 +394,7 @@ climate, for which analysis relies on WGI Atlas regions.
 <figref>6.2</figref> 
  
 
-# 6.2  Global and regional temporal evolution of SLCF emissions 
+# <goto>6.2</goto>  Global and regional temporal evolution of SLCF emissions 
  
 SLCF emissions originate from a variety of sources driven by anthropogenic activities and natural processes. 
 The natural sources include vegetation, soil, fire, lightning, volcanoes, and oceans. Changes in SLCF 
@@ -805,7 +805,7 @@ proxy data, with limited spatial representativeness. Nevertheless, uncertainties
 industrial emissions remain high, limiting confidence of radiative forcing estimates.  
  
  
-# 6.3  Evolution of Atmospheric SLCF abundances 
+# <goto>6.3</goto>  Evolution of Atmospheric SLCF abundances 
  
 This section assesses the evolution of atmospheric abundance1 of SLCFs since AR5 based on observations 
 and modelling, our knowledge of SLCFs burden and distribution, and our understanding of the trends over 
@@ -1603,7 +1603,7 @@ has remained stable or exhibited a positive trend since the 1980s.
 <figref>6.9</figref> 
 
 
-# 6.4  SLCF radiative forcing and climate effects 
+# <goto>6.4</goto>  SLCF radiative forcing and climate effects 
  
 The radiative forcing on the climate system introduced by SLCFs is distinguished from that of LLGHGs by 
 the diversity of forcing mechanisms for SLCFs, and the challenges of constraining these mechanisms via 
@@ -1925,7 +1925,7 @@ strong amplification of the temperature response towards the Arctic (medium conf
  
 <figref>6.13</figref>
 
-# 6.4.4 Indirect radiative forcing through effects of SLCFs on the carbon cycle  
+# <goto>6.4</goto>.4 Indirect radiative forcing through effects of SLCFs on the carbon cycle  
 
 Deposition of reactive nitrogen (Nr) (i.e. NH<sub>3</sub> and NOx) increases the plant productivity and carbon 
 sequestration in N-limited forests and grasslands, and also in open and coastal waters and open ocean. Such 
@@ -2209,7 +2209,7 @@ sophisticated treatment of SRM since AR5, but the uncertainties, such as cloud-a
 interactions, remain large (high confidence). 
 
 
-# 6.5 Implications of changing climate on AQ 
+# <goto>6.5</goto> Implications of changing climate on AQ 
  
 Air pollutants can be impacted by climate change through physical changes affecting meterorological 
 conditions, chemical changes affecting their lifetimes, and biological changes affecting their natural 
@@ -2405,7 +2405,7 @@ however the relationship between these meteorological conditions and high concen
 PM2.5 have been shown to be regionally and metric dependant. 
 
 
-# 6.6  Air Quality and Climate response to SLCF mitigation 
+# <goto>6.6</goto>  Air Quality and Climate response to SLCF mitigation 
  
 LLGHG emission reductions are typically motivated by climate mitigation policies, whereas SLCF 
 reductions mostly result from air pollution control, climate policies (see FAQ6.2) as well as policies focusing 
@@ -3056,7 +3056,7 @@ leads to air pollution benefit by reducing globally the surface ozone level (hig
  
 <boxref>Cross-Chapter Box 6.1</boxref> 
  
-# 6.7  Future projections of Atmospheric Composition and Climate response in SSP scenarios 
+# <goto>6.7</goto>  Future projections of Atmospheric Composition and Climate response in SSP scenarios 
  
 This section assesses the 21st century projections of SLCF emissions, abundances, and responses in terms of 
 climate and air quality following the  SSPs (Riahi et al., 2017; Gidden et al., 2019) (also see Chapter 1, 
@@ -3583,7 +3583,7 @@ benefits than climate change mitigation which requires systemic changes but, in 
 of the population remain exposed to air pollution exceeding the WHO guidelines. 
  
  
-# 6.8  Perspectives 
+# <goto>6.8</goto>  Perspectives 
  
 Ice-core analyses can now inform trends for more SLCFs over the last millennium (such as light NMVOCs 
 or CO) and more proxies are available to inform about past emissions. However, preindustrial levels of 

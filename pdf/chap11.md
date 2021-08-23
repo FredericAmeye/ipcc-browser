@@ -1,4 +1,4 @@
-# 11.es Executive Summary  
+# <goto>11.es</goto> Executive Summary  
  
 *This chapter assesses changes in weather and climate extremes on regional and global scales, including 
 observed changes and their attribution, as well as projected changes.* The extremes considered include 
@@ -226,7 +226,7 @@ surprises (high confidence). However, even extreme events that do not have a par
 the present climate (at more than 1°C of global warming) can be perceived as surprises because of the pace 
 of global warming (high confidence). {Box 11.2} 
 
-# 11.1  Framing 
+# <goto>11.1</goto>  Framing 
  
 ## 11.1.1  Introduction to the chapter 
  
@@ -555,7 +555,7 @@ global scale. The information in this figure is based on Tables 11.1 and 11.2.
  
 <boxref>Box 11.2</boxref> 
  
-# 11.2  Data and Methods  
+# <goto>11.2</goto>  Data and Methods  
  
 This section provides an assessment of observational data and methods used in the analysis and attribution of 
 climate change specific to weather and climate extremes, and also introduces some concepts used in 
@@ -835,7 +835,7 @@ analyses).
  
 <boxref>Cross-Chapter Box 11.1</boxref> 
  
-# 11.3  Temperature extremes 
+# <goto>11.3</goto>  Temperature extremes 
  
 This section assesses changes in temperature extremes at global, continental and regional scales. The main 
 focus is on the changes in the magnitude and frequency of moderate extreme temperatures (those that occur 
@@ -1500,7 +1500,7 @@ global and continental scales for daily to seasonal scales. There is high confid
 magnitude of temperature extremes increases more strongly than global mean temperature. 
  
  
-# 11.4  Heavy precipitation 
+# <goto>11.4</goto>  Heavy precipitation 
  
 This section assesses changes in heavy precipitation at global and regional scales. The main focus is on 
 extreme precipitation at a daily scale where literature is most concentrated, though extremes of shorter (sub-
@@ -2129,7 +2129,7 @@ scales will depend on the amount of regional warming as well as changes in atmos
 storm dynamics leading to regional differences in the rate of heavy precipitation changes (high confidence). 
  
  
-# 11.5  Floods 
+# <goto>11.5</goto>  Floods 
  
 Floods are the inundation of normally dry land and are classified into types (e.g., pluvial floods, flash floods, 
 river floods, groundwater floods, surge floods, coastal floods) depending on the space and time scales and 
@@ -2368,7 +2368,7 @@ changes in river floods are more uncertain than changes in pluvial floods becaus
 processes and forcings, including land cover change and human water management, are involved. 
  
  
-# 11.6  Droughts 
+# <goto>11.6</goto>  Droughts 
  
 Droughts refer to periods of time with substantially below-average moisture conditions, usually covering 
 large areas, during which limitations in water availability result in negative impacts for various components 
@@ -3375,7 +3375,7 @@ emission scenarios (at 2°C global warming or lower) (Cross-Chapter Box5.1).
  
 <figref>11.19</figref> 
  
-# 11.7  Extreme storms 
+# <goto>11.7</goto>  Extreme storms 
  
 Extreme storms, such as tropical cyclones (TCs), extratropical cyclones (ETCs), and severe convective 
 storms often have substantial societal impacts. Quantifying the effect of climate change on extreme storms is 
@@ -4396,7 +4396,7 @@ in the frequency and intensity of extreme winds are associated with projected ch
 intensity of TCs and ETCs (medium confidence). 
  
  
-# 11.8  Compound events  
+# <goto>11.8</goto>  Compound events  
  
 The IPCC SREX (SREX Ch3) first defined compound events as “(1) two or more extreme events occurring 
 simultaneously or successively, (2) combinations of extreme events with underlying conditions that amplify 
@@ -4583,7 +4583,7 @@ some regions.
 <boxref>Box 11.4</boxref> 
  
 
-# 11.9  Regional information on extremes 
+# <goto>11.9</goto>  Regional information on extremes 
  
 This section complements the assessments of changes in temperature extremes (Section 11.3), heavy 
 precipitation (Section 11.4), and droughts (Section 11.6), by providing additional regional details. Owing to 
