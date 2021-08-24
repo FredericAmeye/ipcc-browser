@@ -536,3 +536,9 @@ width: 95%;
 .nav-history ul li a .right {
     font-size:10px;
 }
+
+.yhsQAC:before {
+    content: attr(data-hn) "\0040" attr(data-un);
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
