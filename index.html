@@ -90,7 +90,7 @@
                         <li><a href="#" onclick="return changeLang('fr_FR');" title="Switch to French / lire en français">
                             <img src="assets/fr.png" />
                         </a></li>
-                        <li><a href="#" onclick="" title="Bookmarks">
+                        <li><a href="#" onclick="return dispBookmarksPanel();" title="My Bookmarks">
                             <i class="material-icons">bookmarks</i>
                         </a></li>
                         <li style="margin-left:25px" class="lang-en"><a href="#!" class="dropdown-trigger" data-target="quickreference" title="Helpers" style="font-size:2rem">Helpers<i style="margin-left:0" class="material-icons right">arrow_drop_down</i></a></li>
@@ -271,32 +271,44 @@
 
                 <div class="row">
                     <div class="col s6">
-                        <label for="book-category-sel">Category :</label>
-                        <select class="materialize browser-default">
-                            <option value="">Category 1</option>
-                            <option value="">To read later</option>
-                            <option value="">Oceans</option>
-                            <option value="">+ create new category +</option>
+                        <label for="book-category-sel" class="lang-en">Category :</label>
+                        <label for="book-category-sel" class="lang-fr">Classer dans :</label>
+                        <select id="bookmarkadd-cat" onchange="if($(this).val() == '-1') { $('.bookmarkadd-addcontainer').css('display', 'block'); } else { $('.bookmarkadd-addcontainer').css('display', 'none'); }" class="materialize browser-default">
                         </select>
                     </div>
-                    <div class="input-field col s6">
-                        <input placeholder="Type a category name" id="first_name" type="text" class="validate">
-                        <label for="first_name">New category name</label>
+                    <div class="input-field col s6 bookmarkadd-addcontainer">
+                        <input placeholder="Type a category name" id="bookmarkadd-newcat" type="text" class="validate">
+                        <label for="bookmarkadd-newcat" class="lang-en">New category name</label>
+                        <label for="bookmarkadd-newcat" class="lang-fr">Nom de la nouvelle catégorie</label>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="input-field col s12">
-                        <textarea id="textarea1" class="materialize-textarea"></textarea>
-                        <label for="textarea1">Add a comment for this bookmark (optional)</label>
+                        <textarea id="bookmarkadd-comment" class="materialize-textarea"></textarea>
+                        <label for="bookmarkadd-comment">Add a comment for this bookmark (optional)</label>
                     </div>
                 </div>
                 
 
             </div>
             <div class="modal-footer">
-                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancel</a>
-                <a href="#!" class="modal-close waves-effect waves-green btn indigo darken-4 white-text">Save</a>
+                <a href="#!" onclick="return false;" class="modal-close waves-effect waves-green btn-flat lang-en">Cancel</a>
+                <a href="#!" onclick="return addBookmark();" class="modal-close waves-effect waves-green btn indigo darken-4 white-text lang-en">Save</a>
+
+                <a href="#!" onclick="return false;" class="modal-close waves-effect waves-green btn-flat lang-fr">Annuler</a>
+                <a href="#!" onclick="return addBookmark();" class="modal-close waves-effect waves-green btn indigo darken-4 white-text lang-fr">Enregistrer</a>
+            </div>
+        </div>
+
+        <!-- modal affichage favoris -->
+        <div id="modal-bookmarks" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <h4>My bookmarks</h4>
+                <div class="bookmarks-holder"></div>
+            </div>
+            <div class="modal-footer">
+                <a href="#" onclick="return false" class="modal-close waves-effect waves-green btn-flat">Close</a>
             </div>
         </div>
 
@@ -379,6 +391,6 @@
         <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
         <script src="js/waitforimages.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-        <script src="js/index.js?v26.js"></script>
+        <script src="js/index.js?v27.js"></script>
     </body>
 </html>

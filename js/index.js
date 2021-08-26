@@ -1371,7 +1371,7 @@ function dispFig(e)
     return false;
 }
 
-let currentlyLoadedPanel = false;
+let currentlyLoadedPanel = false, panelImageLoadingInterval = null;
 function loadMainPanel(chapter = 'TS', toRef = false)
 {
     marked.setOptions({
@@ -1396,6 +1396,7 @@ function loadMainPanel(chapter = 'TS', toRef = false)
 
     /* loading content */
     $.get('pdf/chap'+chapter+'.md', function(md){
+        console.time('process');
         let html = processText(marked(md));
         currentlyLoadedPanel = toRef;
         updateHash();
@@ -1440,10 +1441,13 @@ function loadMainPanel(chapter = 'TS', toRef = false)
             let shareLink = ref ? /*html*/`<a class="right" data-tippy-content="Sharing link to section ${ref}" href="#lang=${lang}&opened=${ref}">
                 <i class="material-icons">shared</i>
             </a>` : '';
-            let bookmarkLink = ref ? /*html*/`<a class="right" data-tippy-content="Bookmark ${ref}" onclick="return setBookmark(this);" data-bookmark="${ref}" href="#">
-                <i class="material-icons">bookmark_border</i>
+            let isBook = ref ? isBookmarked(ref) : false;
+            let book_icon = isBook ? 'bookmark':'bookmark_border';
+            let book_class = isBook ? 'bookmarked':'';
+            let book_text = isBook ? "<br>(already bookmarked)":"";
+            let bookmarkLink = ref ? /*html*/`<a class="right ${book_class}" data-tippy-content="Bookmark ${ref}${book_text}" onclick="return setBookmark(this);" data-bookmark="${ref}" href="#">
+                <i class="material-icons">${book_icon}</i>
             </a>` : '';
-            bookmarkLink = '';
             let pdfLink = ref ? /*html*/`<a class="right" data-tippy-content="View section in original PDF" onclick="return dispSource(this, true, true);" data-cite="${ref}" href="#">
                 <i class="material-icons">picture_as_pdf</i>
             </a>` : '';
@@ -1473,8 +1477,17 @@ function loadMainPanel(chapter = 'TS', toRef = false)
         if(toRef)
         {
             // on attend que toutes les images soient chargées avant de scroller
+            // toutes les 300ms on remet la position au bon endroit (car le chargement des images décale la page)
+            panelImageLoadingInterval = setInterval(function(){
+                goToRefInMarkdown(toRef);
+            }, 300);
+
             $('#main-panel-holder').waitForImages(function(){
                 goToRefInMarkdown(toRef);
+                if(panelImageLoadingInterval !== null) {
+                    clearInterval(panelImageLoadingInterval);
+                    panelImageLoadingInterval = null;
+                }
             });
         }
         else
@@ -1638,4 +1651,154 @@ function applyGlossaryToText(text)
     text = text.replaceAll(reg_sensitive, fn_match_glossary);
     text = text.replaceAll(reg_insensitive, fn_match_glossary);
     return text;
+}
+
+let ref_to_bookmark = false;
+function setBookmark(elm)
+{
+    ref_to_bookmark = $(elm).attr('data-bookmark');
+
+    // populate <select> with correct categories :
+    let src_cat = userParams['categories'] || [];
+    let elms = '';
+    for(let i = 0; i < src_cat.length; i++)
+    {
+        let nb_elms = (userParams?.bookmarks?.[i] || []).length;
+        elms += /*html*/`<option value="${i}">${src_cat[i]} (${nb_elms} elements)</option>`;
+    }
+    elms += /*html*/`<option value="-1">+add new category+</option>`;
+    $('#bookmarkadd-cat').html(elms);
+    // end populating <select> with categories
+
+    // reset few fields:
+    $('#bookmarkadd-comment').val('');
+    $('#bookmarkadd-newcat').val('');
+    
+    // display by default of the "add new category" block?
+    if(src_cat.length == 0){
+        $('.bookmarkadd-addcontainer').css('display','block');
+    } else {
+        $('.bookmarkadd-addcontainer').css('display','none');
+    }
+
+    M.Modal.init(document.getElementById('modal-bookmarkadd'), {}).open();
+    return false;
+}
+
+// from popup
+function addBookmark()
+{
+    let cat = $('#bookmarkadd-cat').val();
+    if(cat == -1) {
+        // add new category
+        let catname = $('#bookmarkadd-newcat').val();
+        if(typeof userParams['categories'] == 'undefined'){
+            userParams['categories'] = [];
+        }
+        userParams['categories'].push(catname);
+        cat = userParams['categories'].length - 1;
+    }
+
+    // save bookmark in params
+    if(typeof userParams['bookmarks'] == 'undefined'){
+        userParams['bookmarks'] = {};
+    }
+    if(typeof userParams['bookmarks'][cat] == 'undefined'){
+        userParams['bookmarks'][cat] = [];
+    }
+
+    userParams['bookmarks'][cat].push({
+        'ref': ref_to_bookmark,
+        'date': new Date().getTime(),
+        'comment': $('#bookmarkadd-comment').val()
+    });
+
+    $('a[data-bookmark="'+ref_to_bookmark+'"]').addClass('bookmarked').find('i').text('bookmark');
+
+    saveLocalStorage();
+    ref_to_bookmark = false;
+
+    return false;
+}
+
+function isBookmarked(ref)
+{
+    if(typeof userParams['bookmarks'] == 'undefined')
+        return false;
+    
+    for(let cat in userParams['bookmarks'])
+    {
+        for(let i = 0; i < userParams['bookmarks'][cat].length; i++)
+        {
+            if(userParams['bookmarks'][cat][i].ref == ref) return true;
+        }
+    }
+
+    return false;
+}
+
+function escapeHTML(unsafeText)
+{
+    let div = document.createElement('div');
+    div.innerText = unsafeText;
+    return div.innerHTML;
+}
+
+function dispBookmarksPanel()
+{
+    let html = '';
+    let cats = userParams.categories || [];
+
+    html += '<div class="row">';
+    for(let i = 0; i < cats.length; i++)
+    {
+        // iterating over the bookmarks in this category
+        let html_bookmarks = '';
+        let bm = userParams.bookmarks?.[i] || [];
+        for(let j = 0; j < bm.length; j++)
+        {
+            let name = findSourceByRef(bm[j]['ref'])?.elm || {};
+            name = name[lang] || name?.en_EN;
+
+            html_bookmarks += /*html*/`<li class="collection-item">
+                <span class="title">${bm[j]['ref']} ${name}</span>
+                <a href="#!" onclick="return deleteBookmark(this, ${i}, ${j});" class="secondary-content"><i class="material-icons" style="font-size:1em">clear</i></a>
+                <p style="font-size:0.7em; line-height:0.9em; color:#555">${escapeHTML(bm[j]['comment'])}</p>
+            </li>`;
+        }
+
+        // card for the category
+        html += /*html*/`<div class="col s12 m6 l4">
+            <div class="card blue-grey darken-1">
+                <div class="card-content white-text" style="padding:14px">
+                    <span class="card-title">${escapeHTML(cats[i])}</span>
+                    <ul class="collection black-text">${html_bookmarks}</ul>
+                </div>
+            </div>
+        </div>`;
+    }
+    html += '</div>';
+
+    if(cats.length == 0){
+        html += '<p>You don\'t have any categories or bookmarks added yet. To add some, click on the bookmark icon <i class="material-icons">bookmark_border</i> on the right of each section title.</p>';
+    }
+
+    $('.bookmarks-holder').html(html);
+    M.Modal.init(document.getElementById('modal-bookmarks'), {
+        endingTop: '4%'
+    }).open();
+
+    return false;
+}
+
+function deleteBookmark(elm, cat_id, bk_id)
+{
+    userParams['bookmarks'][cat_id].splice(bk_id, 1);
+    saveLocalStorage();
+    $(elm).closest('.collection-item').remove();
+
+    // reload popup because id's have changed now!
+    dispBookmarksPanel();
+
+    return false;
 }
