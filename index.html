@@ -90,8 +90,8 @@
                         <li><a href="#" onclick="return changeLang('fr_FR');" title="Switch to French / lire en français">
                             <img src="assets/fr.png" />
                         </a></li>
-                        <li><a href="#" onclick="return togglePdfPanel();" title="Display/hide PDF panel">
-                            <i class="material-icons">picture_as_pdf</i>
+                        <li><a href="#" onclick="" title="Bookmarks">
+                            <i class="material-icons">bookmarks</i>
                         </a></li>
                         <li style="margin-left:25px" class="lang-en"><a href="#!" class="dropdown-trigger" data-target="quickreference" title="Helpers" style="font-size:2rem">Helpers<i style="margin-left:0" class="material-icons right">arrow_drop_down</i></a></li>
                         <li style="margin-left:25px" class="lang-fr"><a href="#!" class="dropdown-trigger" data-target="quickreference" title="Aides" style="font-size:2rem">Aides<i style="margin-left:0" class="material-icons right">arrow_drop_down</i></a></li>
@@ -247,6 +247,56 @@
             </div>
             <div class="modal-footer">
                 <a href="#" onclick="return false" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+
+        <!-- modal "thank you" -->
+        <div id="modal-thanks" style="max-width:auto;" class="modal bottom-sheet">
+            <div class="modal-content">
+              <h4>Thanks for your visit</h4>
+              <p>I develop this website on my spare time, and this takes some time ! If you find this site useful, have ideas or remarks, please support this work by dropping me a small email, which will encourage me integrate new features / future reports.</p>
+              <p>Don't forget to share to your network or colleagues, I don't have a broad community around me :)</p>
+              <p><span class="yhsQAC" data-un="cirederf" data-hn="orp.eyema"></span></p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+
+        <!-- modal "ajout bookmark" -->
+        <div id="modal-bookmarkadd" style="max-width:auto;" class="modal bottom-sheet">
+            <div class="modal-content">
+                <h4 class="lang-en">Add a bookmark</h4>
+                <h4 class="lang-fr">Ajouter un favori</h4>
+
+                <div class="row">
+                    <div class="col s6">
+                        <label for="book-category-sel">Category :</label>
+                        <select class="materialize browser-default">
+                            <option value="">Category 1</option>
+                            <option value="">To read later</option>
+                            <option value="">Oceans</option>
+                            <option value="">+ create new category +</option>
+                        </select>
+                    </div>
+                    <div class="input-field col s6">
+                        <input placeholder="Type a category name" id="first_name" type="text" class="validate">
+                        <label for="first_name">New category name</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">Add a comment for this bookmark (optional)</label>
+                    </div>
+                </div>
+                
+
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancel</a>
+                <a href="#!" class="modal-close waves-effect waves-green btn indigo darken-4 white-text">Save</a>
             </div>
         </div>
 

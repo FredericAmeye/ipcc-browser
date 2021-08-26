@@ -67,6 +67,9 @@ h1, h5, .brand-logo, .card-title {
     left:10px;
     color:#bf360c;
 }
+.toc-box {
+    background-color:#e8eaf6;
+}
 
 #side-panel-pdf {
     position:fixed;
@@ -291,6 +294,9 @@ h1, h5, .brand-logo, .card-title {
 #modal-figure.modal {
     width: 70%;
 }
+.modal {
+    font-family:Inter,sans-serif;;
+}
 .modal p{
     margin:12px 0;
     font-family:Inter,sans-serif;
@@ -305,11 +311,20 @@ h1, h5, .brand-logo, .card-title {
     width: 70%;
     max-width:1400px;
 }
+.modal.bottom-sheet {
+    max-width:100%;
+}
 .modal h4 {
     position: sticky;
     top: 0;
     background: white;
     box-shadow: 0 0 5px 10px white;
+}
+#modal-bookmarkadd label {
+    font-size: 0.8em;
+}
+#modal-bookmarkadd .input-field {
+    background:#f3e5f5;
 }
 
 @media only screen and (max-width: 992px)
@@ -532,9 +547,17 @@ width: 95%;
     font-size:14px;
     line-height:24px;
     height:24px;
+    position:relative;
 }
-.nav-history ul li a .right {
+.nav-history ul > li a {
+    padding-left:10px;
+}
+.nav-history ul li .right {
     font-size:10px;
+    position: absolute;
+    right:0;
+    top:0;
+    bottom:0;
 }
 
 .yhsQAC:before {

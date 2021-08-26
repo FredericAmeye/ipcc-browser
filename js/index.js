@@ -98,6 +98,18 @@ let initFn = (function()
         }
     }
 
+    let visits = localStorage.getItem('visits') || 0;
+    if(visits > 5 && !localStorage.getItem('nothanks')) {
+        // message
+        let mod = M.Modal.init(document.getElementById('modal-thanks'), {
+            onCloseStart: function(){
+                localStorage.setItem('nothanks', true);
+            }
+        });
+        mod.open();
+    }
+    localStorage.setItem('visits', parseInt(visits, 10) + 1);
+
     if(lang == "fr_FR"){
         $('.lang-en').remove();
     } else {
@@ -200,6 +212,7 @@ let initFn = (function()
         }
 
         displayHistory();
+        //constructGlossaryRegex();
     });
 
     // menu dropdown
@@ -461,8 +474,13 @@ function constructSubMenu(chapter, recnum)
                 dispRead = `<i data-tippy-content="Already read" class="right material-icons green-text">done_all</i>`;
             }
 
+            let dispCss = '';
+            if(chapter.chapters[k].ref.startsWith('Cross-') || chapter.chapters[k].ref.startsWith('Box ') || chapter.chapters[k].ref.startsWith('FAQ')) {
+                dispCss = 'toc-box';
+            }
+
             html += /*html*/`<li>
-                <a href="#" data-cite="${chapter.chapters[k].ref}" onclick="return dispSource(this, true);" data-tippy-content="${n}">
+                <a href="#" class="${dispCss}" data-cite="${chapter.chapters[k].ref}" onclick="return dispSource(this, true);" data-tippy-content="${n}">
                     <span class="toc-ref">${chapter.chapters[k].ref}</span>
                     ${chaptitle}
                     ${dispRead}
@@ -813,25 +831,24 @@ function displayHistory()
 
     if(userParams.history)
     {
-        for(let i = 0; i < userParams.history.length; i++)
+        for(let i = userParams.history.length-1; i >= 0; i--)
         {
-            if(n > 10) break;
+            if(n > 20) break;
             n++;
 
             let dh = new Date(userParams.history[i].date);
-            let hh = dh.getHours(), mm = dh.getMinutes();
             let findSrc = findSourceByRef(userParams.history[i].ref);
             let title = findSrc && findSrc.elm
                             ? (findSrc.elm[lang] || findSrc.elm.en_EN)
                             : "";
             title = title.replaceAll('"', '\"');
-            hh = ("0"+hh).slice(-2), mm = ("0"+mm).slice(-2);
+            let relDate = getRelativeTime(dh);
 
             html += /*html*/`<li>
                 <a href="#" data-cite="${userParams.history[i].ref}" data-tippy-content="${title}" onclick="return dispSource(this, false);">
                 ${userParams.history[i].ref}
                 ${title}
-                <span class="right">${hh}:${mm}</span>
+                <span class="right">${relDate}</span>
                 </a>
             </li>`;
         }
@@ -840,8 +857,23 @@ function displayHistory()
     $('.nav-history ul').html(html);
 }
 
+function getRelativeTime(dh)
+{
+    const cur = new Date().getTime();
+    const diff_heures = (cur - dh.getTime())/1000/60/60;
+
+    let hh = dh.getHours(), mm = dh.getMinutes();
+    hh = ("0"+hh).slice(-2), mm = ("0"+mm).slice(-2);
+
+    if(diff_heures < 24)  {
+        return hh+":"+mm;
+    } else {
+        return dh.getDate()+"/"+(dh.getMonth()+1);
+    }
+}
+
 /* go to source */
-function dispSource(e, fromUserAction = false)
+function dispSource(e, fromUserAction = false, force_in_PDF = false)
 {
     let src = $(e).attr('data-cite');
     let element;
@@ -851,21 +883,26 @@ function dispSource(e, fromUserAction = false)
         sidenav_inst[0].close();
     }
 
-    if(src.substr(0,2) == 'TS') {
-        // part of the TS
-        loadMainPanel('TS', src);
-        if(fromUserAction) addToHistory(src, 'source');
-        return false;
-    }
-    let chap0 = src.split('.')[0];
-    if(chapters_MD.includes(chap0)) {
-        // chapter 1 available
-        loadMainPanel(chap0, src);
-        if(fromUserAction) addToHistory(src, 'source');
-        return false;
+    if(force_in_PDF === false)
+    {
+        // search in digitized text (markdown)
+
+        if(src.substr(0,2) == 'TS') {
+            // part of the TS
+            loadMainPanel('TS', src);
+            if(fromUserAction) addToHistory(src, 'source');
+            return false;
+        }
+        let chap0 = src.split('.')[0];
+        if(chapters_MD.includes(chap0)) {
+            // chapter 1 available
+            loadMainPanel(chap0, src);
+            if(fromUserAction) addToHistory(src, 'source');
+            return false;
+        }
     }
 
-    // finding it in full text :
+    // finding it in full text (PDF) :
     console.log("searching ref in full text");
     element = findSourceByRef(src);
     if(!element || !element.elm.startPage){
@@ -1275,6 +1312,7 @@ function processText(txt)
     txt = txt.replaceAll("_more likely than not_", '<span class="more-likely-than-not-text" data-tippy-content="more likely than not = >50-100% probability">more likely than not</span>');
     txt = txt.replaceAll("_extremely unlikely_", '<span class="extremely-unlikely-text" data-tippy-content="extremely unlikely = 0-5% probability">extremely unlikely</span>');
 
+    //txt = applyGlossaryToText(txt); // WARNING apply glossary only to <p>
     txt = txt.replaceAll(TS_chapter_repl, regex_autoref_fn);
     txt = txt.replaceAll(markup_regex, regex_markup_fn); // IMPORTANT d'être en dernier
     txt = txt.replaceAll(citation_regex, regex_citation_fn);
@@ -1392,7 +1430,6 @@ function loadMainPanel(chapter = 'TS', toRef = false)
 
                 // but instead show a green background for previous section
                 if(prev_id){
-                    console.log("was read",prev_ref, prev_id);
                     $(this).prevUntil('#'+prev_id).addClass('textBlock-read')
                 }
             }
@@ -1402,6 +1439,13 @@ function loadMainPanel(chapter = 'TS', toRef = false)
             let unClickAction = prev_id ? '$(this).parent().nextUntil(\'#'+this.id+'\').removeClass(\'textBlock-read\');' : '';
             let shareLink = ref ? /*html*/`<a class="right" data-tippy-content="Sharing link to section ${ref}" href="#lang=${lang}&opened=${ref}">
                 <i class="material-icons">shared</i>
+            </a>` : '';
+            let bookmarkLink = ref ? /*html*/`<a class="right" data-tippy-content="Bookmark ${ref}" onclick="return setBookmark(this);" data-bookmark="${ref}" href="#">
+                <i class="material-icons">bookmark_border</i>
+            </a>` : '';
+            bookmarkLink = '';
+            let pdfLink = ref ? /*html*/`<a class="right" data-tippy-content="View section in original PDF" onclick="return dispSource(this, true, true);" data-cite="${ref}" href="#">
+                <i class="material-icons">picture_as_pdf</i>
             </a>` : '';
 
 
@@ -1417,6 +1461,8 @@ function loadMainPanel(chapter = 'TS', toRef = false)
                 </a>
             </div>`).append(/*html*/`<i class="chapter-read material-icons green-text" onclick="${unClickAction} return markUnread(this, 'data-readmarker');" data-tippy-content="Already read ; click to mark as unread" data-readmarker="${ref}" style="vertical-align:bottom; margin-left:10px;${already_read}">done_all</i>
             ${shareLink}
+            ${bookmarkLink}
+            ${pdfLink}
             `);
         });
         $('#main-panel-holder').html('');
@@ -1553,4 +1599,43 @@ function generateBreadcrumbFromReference(ref)
 
     $('#breadcrumb').html(html);
     return html;
+}
+
+let reg_sensitive, reg_insensitive;
+function constructGlossaryRegex()
+{
+    let case_sensitive = [], case_insensitive = [];
+    for(key in wgI.glossary.en_EN)
+    {
+        let desc = wgI.glossary.en_EN[key];
+        key = key.replaceAll('(', '\\(').replaceAll(')', '\\)').replaceAll('+','\\+').replaceAll('/', '\\/');
+
+        if(desc.substr(0, 4) === 'REF:'){
+            // acronym reference : case-sensitive
+            case_sensitive.push(key);
+        } else {
+            // description : case-insensitive
+            case_insensitive.push(key);
+        }
+    }
+
+    reg_sensitive = new RegExp("(" + case_sensitive.join('|') + ")", "gu");
+    console.log("(" + case_sensitive.join('|') + ")");
+    reg_insensitive = new RegExp("(" + case_insensitive.join('|') + ")", "giu");
+    console.log("(" + case_insensitive.join('|') + ")");
+}
+
+let fn_match_glossary = function(orig, ref)
+{
+    if(ref == '' || ref == ' ') return orig;
+    //console.log(ref);
+    //return orig;
+    return '<b style="color:red">'+ref+'</b>';
+};
+
+function applyGlossaryToText(text)
+{
+    text = text.replaceAll(reg_sensitive, fn_match_glossary);
+    text = text.replaceAll(reg_insensitive, fn_match_glossary);
+    return text;
 }
