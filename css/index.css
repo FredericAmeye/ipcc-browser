@@ -16,6 +16,21 @@ body {
     height:40px;
     vertical-align:middle;
 }
+.language-selector.hide-on-large-only a {
+    padding-left:5px; padding-right:5px;
+}
+@media only screen and (max-width: 992px) {
+    nav .brand-logo {
+        left: 55px;
+        transform:none;
+        -webkit-transform:none;
+        font-size:1.0em;
+        font-family:Inter, sans-serif;
+    }
+    h1.header, h2.header {
+        font-size:2.8rem;
+    }
+}
 
 #SPM-chapters-level2 {
     position: relative;

@@ -1802,3 +1802,44 @@ function deleteBookmark(elm, cat_id, bk_id)
 
     return false;
 }
+
+function dispSettingsPanel()
+{
+    $('#export-button').attr('href', 'data:text/json;charset=utf-8,'+encodeURIComponent("@@[v1]@@;"+localStorage.getItem('settings')));
+    M.Modal.init(document.getElementById('modal-settings'), {
+        endingTop: '4%'
+    }).open();
+    return false;
+}
+
+function importConfigTrigger()
+{
+    let input = document.createElement('input');
+    input.type = 'file';
+    input.accept = '.json';
+    input.click();
+    input.onchange = function(e){
+        let file = e.target.files[0];
+        let reader = new FileReader();
+        reader.readAsText(file,'UTF-8');
+        reader.onload = function(rdEvt){
+            let content = rdEvt.target.result;
+            if(content.length)
+            {
+                if(content.substr(0, 9) == '@@[v1]@@;')
+                {
+                    content = content.substr(9);
+                    localStorage.setItem('settings', content);
+                    userParams = JSON.parse(content);
+                    alert('Your settings have been loaded correctly. The page will now refresh.');
+                    document.location.reload();
+                    return false;
+                }
+            }
+            alert('Could not import this configuration file.');
+        };
+
+    };
+
+    return false;
+}

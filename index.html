@@ -13,7 +13,7 @@
         <!-- pdfjs -->
         <link type="text/css" rel="stylesheet" href="vendors/pdfjs/web/viewer.css" />
 
-        <link type="text/css" rel="stylesheet" href="css/index.css?v1.css" />
+        <link type="text/css" rel="stylesheet" href="css/index.css?v21.css" />
 
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -93,15 +93,24 @@
                         <li><a href="#" onclick="return dispBookmarksPanel();" title="My Bookmarks">
                             <i class="material-icons">bookmarks</i>
                         </a></li>
+                        <li><a href="#" onclick="return dispSettingsPanel();" title="Application settings">
+                            <i class="material-icons">settings</i>
+                        </a></li>
                         <li style="margin-left:25px" class="lang-en"><a href="#!" class="dropdown-trigger" data-target="quickreference" title="Helpers" style="font-size:2rem">Helpers<i style="margin-left:0" class="material-icons right">arrow_drop_down</i></a></li>
                         <li style="margin-left:25px" class="lang-fr"><a href="#!" class="dropdown-trigger" data-target="quickreference" title="Aides" style="font-size:2rem">Aides<i style="margin-left:0" class="material-icons right">arrow_drop_down</i></a></li>
                     </ul>
                     <ul class="right hide-on-large-only language-selector">
                         <li class="lang-fr"><a href="#" onclick="return changeLang('en_EN');">
-                            <img src="assets/en.png" />
+                            <img src="assets/en.png" style="height:26px" />
                         </a></li>
                         <li class="lang-en"><a href="#" onclick="return changeLang('fr_FR');">
-                            <img src="assets/fr.png" />
+                            <img src="assets/fr.png" style="height:26px" />
+                        </a></li>
+                        <li><a href="#" onclick="return dispBookmarksPanel();" title="My Bookmarks">
+                            <i class="material-icons">bookmarks</i>
+                        </a></li>
+                        <li><a href="#" onclick="return dispSettingsPanel();" title="Application settings">
+                            <i class="material-icons">settings</i>
                         </a></li>
                     </ul>
                 </div>
@@ -120,15 +129,15 @@
                 </div>
 
                 <div class="card-panel lang-fr orange lighten-5" style="padding:12px; font-size:12px">
-                    <i class="material-icons left" style="font-size:3em">new_releases</i>Tous les chapitres sont désormais disponibles, sauf le Glossaire. Seules les FAQ et le résumé pour décideurs sont traduits en français.<br>
+                    Tous les chapitres sont désormais disponibles, sauf le Glossaire. Seules les FAQ et le résumé pour décideurs sont traduits en français.<br>
                     <b>Notez que les <a href="https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Tricklebacks.pdf" rel="noopener" target="_blank">trickle-backs</a>, <a href="https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Corrigenda.pdf" rel="noopener" target="_blank">corrigenda</a> et Supplementary Materials ne sont pas encore intégrés.</b><br>
-                    D'autres fonctionnalités vous seront proposées bientôt (marque-page, recherche, marquer comme lu, commentaires personnels...).
+                    D'autres fonctionnalités vous seront proposées bientôt (recherche, commentaires personnels...). <b>NOUVEAU: possibilité d'avoir des marque-page sur les sections, l'historique de votre navigation, et de sauvegarder vos données sur votre ordinateur.</b>
                 </div>
 
                 <div class="card-panel lang-en orange lighten-5" style="padding:12px; font-size:12px">
-                    <i class="material-icons left" style="font-size:3em">new_releases</i>All chapters are now available except Glossary.<br>
+                    All chapters are now available except Glossary.<br>
                     <b>Please note that <a href="https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Tricklebacks.pdf" rel="noopener" target="_blank">trickle-backs</a>, <a href="https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Corrigenda.pdf" rel="noopener" target="_blank">corrigenda</a> and Supplementary Materials are not yet integrated.</b><br>
-                    Other features will come soon (bookmarking, seaching, mark as read, personal comments...)
+                    Other features will come soon (seaching, personal comments...). <b>NEW: Bookmark and "mark as read" features are now available, and you can also save your parameters locally.</b>
                 </div>
             </div>
         </div>
@@ -312,6 +321,22 @@
             </div>
         </div>
 
+        <!-- modal settings -->
+        <div id="modal-settings" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <h4>Settings</h4>
+                <p>
+                    This website does not need an account, and stores your parameters locally in your computer, in the "Local Storage" area of your browser.
+                    If your browser have privacy features enabled, or if you often clears your cookies or have cookie-cleaning software on your computer, you could lose your parameters (bookmarks, read sections,...). Use the buttons below to Export your parameters to a file on your computer, or Import to do the opposite. You can also use this feature to propagate your data to other computers/phones.
+                </p>
+                <a href="#!" download="understanding-ipcc-config.json" id="export-button" class="waves-effect waves-light btn">Export</a>
+                <a href="#!" onclick="return importConfigTrigger();" class="waves-effect waves-light btn">Import</a>
+            </div>
+            <div class="modal-footer">
+                <a href="#" onclick="return false" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+
         <!-- modal beforedownload PDF -->
         <div id="modal-beforedownload" class="modal">
             <div class="modal-content">
@@ -391,6 +416,6 @@
         <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
         <script src="js/waitforimages.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-        <script src="js/index.js?v27.js"></script>
+        <script src="js/index.js?v28.js"></script>
     </body>
 </html>
