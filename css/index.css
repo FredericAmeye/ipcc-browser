@@ -580,3 +580,57 @@ width: 95%;
     unicode-bidi: bidi-override;
     direction: rtl;
 }
+
+#main-panel-minitoc {
+    position: fixed;
+    top:70px;
+    left:350px;
+    max-height:calc(100% - 70px);
+    overflow:hidden;
+    padding-right:10px;
+
+    max-width:200px;
+    overflow-y: auto;
+}
+
+#main-panel-minitoc ul {
+    padding:0;
+    padding-left:10px;
+    margin:0;
+}
+#main-panel-minitoc ul li {
+    list-style-type: none;
+    font-family:Inter, sans-serif;
+}
+
+#main-panel-minitoc ul li:not(.toc-current) > a {
+    color:#333;
+    font-weight:normal;
+}
+#main-panel-minitoc ul li:not(.toc-current) > a:hover {
+    color:#000;
+    font-weight:normal;
+}
+#main-panel-minitoc ul li.toc-current > a {
+    color:#1a237e;
+    font-weight:bold;
+}
+.main-panel-minitoc-container > ul > li {
+    font-size:1em;
+}
+.main-panel-minitoc-container > ul > li > ul > li {
+    font-size:0.9em;
+    line-height:1.1em;
+}
+.main-panel-minitoc-container > ul > li > ul > li>ul>li {
+    font-size:0.8em;
+    line-height:1.2em;
+}
+.main-panel-minitoc-container > ul > li > ul > li>ul>li>ul>li {
+    font-size:0.7em;
+    line-height:1.1em;
+}
+.main-panel-minitoc-container > ul > li > ul > li>ul>li>ul>li>ul>li {
+    font-size:0.7em;
+    line-height:1.1em;
+}

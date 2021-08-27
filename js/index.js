@@ -117,7 +117,7 @@ let initFn = (function()
     }
 
     /* init page */
-    jQuery.getJSON('content/wgI.json?v17.json', function(r){
+    jQuery.getJSON('content/wgI.json?v18.json', function(r){
         const nb_chap = r.SPM.chapters.length;
         wgI = r;
         
@@ -1371,7 +1371,8 @@ function dispFig(e)
     return false;
 }
 
-let currentlyLoadedPanel = false, panelImageLoadingInterval = null;
+let currentlyLoadedPanel = false, panelImageLoadingInterval = null,
+currentlyLoadedChapter = false;
 function loadMainPanel(chapter = 'TS', toRef = false)
 {
     marked.setOptions({
@@ -1380,7 +1381,7 @@ function loadMainPanel(chapter = 'TS', toRef = false)
 
     $('#main-panel-doc').css('display', 'block');
     if(currentlyLoadedPanel && currentlyLoadedPanel.split('.')[0] == chapter) {
-        // TODO do not reload, just display it
+        // do not reload, just display it
         currentlyLoadedPanel = toRef;
         updateHash();
         if(toRef) {
@@ -1393,12 +1394,14 @@ function loadMainPanel(chapter = 'TS', toRef = false)
 
     /* preloader */
     $('#main-panel-holder').html(loadingText);
+    $('.main-panel-minitoc-container ul').html('');
 
     /* loading content */
     $.get('pdf/chap'+chapter+'.md', function(md){
         console.time('process');
         let html = processText(marked(md));
         currentlyLoadedPanel = toRef;
+        currentlyLoadedChapter = chapter;
         updateHash();
 
         // insert wordcloud in headers
@@ -1494,8 +1497,127 @@ function loadMainPanel(chapter = 'TS', toRef = false)
         {
             window.scrollTo(0, 0);
         }
+
+        populateMiniToc();
     });
 }
+
+function resizeMiniToc()
+{
+    let size_avail = $(window).width() - 1000 - 350 - 30;
+    if(size_avail / 2 >= 300) {
+        // let the text centered
+        $('#main-panel-minitoc').css('max-width', Math.floor(size_avail/2)+"px")
+            .css('display','block');
+        $('#main-panel-holder').css('margin','0 auto');
+    } else {
+        // put the block of text to the right
+        let w = Math.min(300, size_avail - 50); // max 300px of width
+        if(w <= 120) {
+            // too small, better not to display it...
+            $('#main-panel-minitoc').css('display','none');
+            $('#main-panel-holder').css('margin','0 auto');
+            return false;
+        }
+        $('#main-panel-minitoc').css('display','block');
+        $('#main-panel-holder').css('margin-right',0).css('margin-left', (w+50)+'px');
+        $('#main-panel-minitoc').css('max-width', w+"px");
+    }
+}
+window.onresize = function(){
+    resizeMiniToc();
+};
+
+function populateMiniToc()
+{
+    resizeMiniToc();
+    let d = wgI[currentlyLoadedChapter];
+    $('.main-panel-minitoc-container ul').html(miniTocRecursive(d));
+}
+
+function miniTocRecursive(chapter)
+{
+    if(chapter.ref.startsWith('Box ') || chapter.ref.startsWith('Cross-') || chapter.ref.startsWith('FAQ')) return '';
+
+    let t = chapter[lang] || chapter.en_EN;
+    if(chapter.chapters)
+    {
+        let c = '';
+        for(let i = 0; i < chapter.chapters.length; i++)
+        {
+            c += miniTocRecursive(chapter.chapters[i]);
+        }
+
+        return `<li data-ref="${chapter.ref}"><a data-cite="${chapter.ref}" onclick="return dispSource(this, true);" href="#">${chapter.ref} ${t}</a><ul>${c}</ul></li>`;
+    }
+    else
+    {
+        return `<li data-ref="${chapter.ref}"><a data-cite="${chapter.ref}" onclick="return dispSource(this, true);" href="#">${chapter.ref} ${t}</a></li>`;
+    }
+}
+
+// return list of sections that are "before" the current position of scroll.
+// the last element of the returned array is the paragraph currently being read.
+function getPositionInStructure()
+{
+    let docViewTop = $(window).scrollTop();
+    let docViewBottom = docViewTop + $(window).height();
+
+    let visible = [];
+    // TODO optimize by caching such value
+    $('#main-panel-holder').find('h1,h2,h3,h4,h5').each(function(){
+        let top = $(this).offset().top;
+        if(/*top >= docViewTop &&*/ top <= docViewBottom){
+            if(!$(this).find('a[data-cite]').length){
+                return true; // skip those who are not referenced
+            }
+            visible.push($(this));
+        }
+    });
+
+    if(!visible.length){
+        return false;
+    }
+
+    let ref_vis = [];
+    for(let i = 0; i < visible.length; i++)
+    {
+        ref_vis.push( visible[i].find('a[data-cite]').attr('data-cite') );
+    }
+
+    return ref_vis;
+}
+
+function miniTocUpdate()
+{
+    if(document.getElementById('main-panel-minitoc').style.display == 'none')
+        return;
+
+    let before = getPositionInStructure();
+    let current = before[before.length-1];
+
+    $('.toc-current').removeClass('toc-current');
+    let target = $('.main-panel-minitoc-container ul li[data-ref="'+current+'"]');
+    target.addClass('toc-current').parentsUntil('ul', 'li').css('color','green');
+
+    // is the element in the ToC visible? If not, scroll ToC to make it visible.
+    let targetTop = target.position().top;
+    if(targetTop < -5 || targetTop > $('#main-panel-minitoc').height()+2) {
+        document.getElementById('main-panel-minitoc').scrollTop = targetTop;
+    }
+}
+
+let lastScrollEvent = new Date().getTime(), lastScrollPos = 0;
+window.addEventListener('scroll', function(e){
+    let t = new Date().getTime();
+    if(Math.abs(window.scrollY - lastScrollPos) > 50
+        || (t - lastScrollEvent) > 700)
+    {
+        miniTocUpdate();
+        lastScrollPos = window.scrollY;
+        lastScrollEvent = t;
+    }
+});
 
 function goToRefInMarkdown(ref)
 {
@@ -1566,31 +1688,6 @@ function highlightEndOfReading(current, previous)
 function lowlightEndOfReading()
 {
     readingBar.css('display', 'none');
-}
-
-// get position in the document given the position (scroll) on page
-function getPositionInStructure()
-{
-    let docViewTop = $(window).scrollTop();
-    let docViewBottom = docViewTop + $(window).height();
-
-    let visible = false;
-    $('#main-panel-holder').find('h1,h2,h3,h4,h5').each(function(){
-        let top = $(this).offset().top;
-        if(top >= docViewTop && top <= docViewBottom){
-            if(!$(this).find('a[data-cite]').length){
-                return true; // skip those who are not referenced
-            }
-            visible = $(this);
-            return false; // break on first visible element (or should we go to the last?)
-        }
-    });
-
-    if(!visible){
-        return;
-    }
-
-    return visible.find('a[data-cite]').attr('data-cite');
 }
 
 function generateBreadcrumbFromReference(ref)
