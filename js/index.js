@@ -1427,7 +1427,7 @@ function loadMainPanel(chapter = 'TS', toRef = false)
             let has_prev_section = findEndOfReading(this);
             let disp_mread = '';
             let prev_id = has_prev_section?.id || false;
-            let prev_ref = $(has_prev_section).find('a[data-cite]').text();
+            let prev_ref = $(has_prev_section).find('a[data-cite]').attr('data-cite');
 
             // do not display "mark read" if previous section is unknown
             if(!has_prev_section || !prev_ref){
@@ -1440,7 +1440,7 @@ function loadMainPanel(chapter = 'TS', toRef = false)
 
                 // but instead show a green background for previous section
                 if(prev_id){
-                    $(this).prevUntil('#'+prev_id).addClass('textBlock-read')
+                    $(this).prevUntil('#'+prev_id).addClass('textBlock-read');
                 }
             }
 
@@ -1460,6 +1460,15 @@ function loadMainPanel(chapter = 'TS', toRef = false)
             let pdfLink = ref ? /*html*/`<a class="right" data-tippy-content="View section in original PDF" onclick="return dispSource(this, true, true);" data-cite="${ref}" href="#">
                 <i class="material-icons">picture_as_pdf</i>
             </a>` : '';
+            let markReadLink = ref ? /*html*/`<a class="right" data-tippy-content="Mark section as read" data-mread="${ref}" onclick="return markAsRead(this, 'data-mread');" href="#">
+                <i class="material-icons">spellcheck</i>
+            </a>` : '';
+
+            // if section is read, put paragraphs in the correct class
+            if(userParams['read'] && userParams['read'][ref]) {
+                $(this).nextUntil('h1,h2,h3,h4,h5').addClass('textBlock-read');
+                // TODO refine h1,h2,h3 in function of current section depth
+            }
 
 
             $(this).prepend(/*html*/`<div class="section-tools hide-on-small-only">
@@ -1476,6 +1485,7 @@ function loadMainPanel(chapter = 'TS', toRef = false)
             ${shareLink}
             ${bookmarkLink}
             ${pdfLink}
+            ${markReadLink}
             `);
         });
         $('#main-panel-holder').html('');
@@ -1558,7 +1568,9 @@ function miniTocRecursive(chapter)
     }
     else
     {
-        return `<li data-ref="${chapter.ref}"><a data-cite="${chapter.ref}" onclick="return dispSource(this, true);" href="#">${chapter.ref} ${t}</a></li>`;
+        let read = userParams['read'] && userParams['read'][chapter.ref]
+            ? '&nbsp;<span style="color:green; vertical-align:bottom; font-size:1.5em;">✓</span>' : '';
+        return `<li data-ref="${chapter.ref}"><a data-cite="${chapter.ref}" onclick="return dispSource(this, true);" href="#">${chapter.ref} ${t}${read}</a></li>`;
     }
 }
 
