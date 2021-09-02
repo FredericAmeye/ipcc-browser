@@ -817,7 +817,13 @@ function addToHistory(ref, type)
         ref:  ref,
         date: new Date().getTime()
     });
-    // todo delete if too long
+
+    // delete oldest if necessary
+    if(userParams['history'].length > 200)
+    {
+        userParams['history'].splice(0, userParams['history'].length - 200);
+    }
+    
 
     saveLocalStorage();
 
