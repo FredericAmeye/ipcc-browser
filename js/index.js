@@ -1841,6 +1841,7 @@ function escapeHTML(unsafeText)
     return div.innerHTML;
 }
 
+var _bookmarkModal = null;
 function dispBookmarksPanel()
 {
     let html = '';
@@ -1858,7 +1859,7 @@ function dispBookmarksPanel()
             name = name[lang] || name?.en_EN;
 
             html_bookmarks += /*html*/`<li class="collection-item">
-                <span class="title">${bm[j]['ref']} ${name}</span>
+                <span class="title"><a href="#" data-cite="${bm[j]['ref']}" onclick="_bookmarkModal.close(); return dispSource(this, true);">${bm[j]['ref']} ${name}</a></span>
                 <a href="#!" onclick="return deleteBookmark(this, ${i}, ${j});" class="secondary-content"><i class="material-icons" style="font-size:1em">clear</i></a>
                 <p style="font-size:0.7em; line-height:0.9em; color:#555">${escapeHTML(bm[j]['comment'])}</p>
             </li>`;
@@ -1881,9 +1882,10 @@ function dispBookmarksPanel()
     }
 
     $('.bookmarks-holder').html(html);
-    M.Modal.init(document.getElementById('modal-bookmarks'), {
+    _bookmarkModal = M.Modal.init(document.getElementById('modal-bookmarks'), {
         endingTop: '4%'
-    }).open();
+    });
+    _bookmarkModal.open();
 
     return false;
 }
